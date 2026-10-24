@@ -1,0 +1,181 @@
+// Tests du script de contrôle : une base de test est construite à partir du vrai
+// référentiel et du vrai gabarit, puis altérée pour vérifier chaque contrôle.
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdtempSync, cpSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join, resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { validerBase } from '../scripts/lib/validation.mjs';
+
+const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const QUESTIONS = [...readFileSync(join(RACINE, 'referentiel/questions.md'), 'utf8')
+  .matchAll(/^\| (Q-[a-z0-9]+-[a-z0-9]+)\s*\|/gm)].map((m) => m[1]);
+const CRITERES = ['F-fin', 'F-jur', 'F-pol', 'F-cal', 'F-ope', 'F-coh'];
+
+/** Fiche complète et valide, construite depuis le gabarit. */
+function ficheValide({ id = 'dupont-jean', notes = [3, 4, 3, 4, 3, 4], globale = '3,5', date = '2026-10-24' } = {}) {
+  let t = readFileSync(join(RACINE, 'candidats/_modele.md'), 'utf8');
+  t = t.replace(/^id: .*$/m, `id: ${id}`)
+    .replace(/^nom: .*$/m, 'nom: Jean Dupont')
+    .replace(/^statut: .*$/m, 'statut: déclaré')
+    .replace(/^derniere_maj: .*$/m, 'derniere_maj: 2026-10-24');
+  // Toutes les questions : « pas de position ».
+  for (const q of QUESTIONS) {
+    t = t.replace(new RegExp(`^\\| ${q}\\s*\\|.*$`, 'm'), `| ${q} | pas de position | | |`);
+  }
+  // Une proposition sourcée en éco.
+  t = t.replace(/(### eco — Économie & fiscalité\n\|.*\n\|.*\n)/,
+    '$1| eco-01 | Baisse de l\'IR | 8 Md€ | 11 Md€ (Institut Y) | 2028 | [prog](https://exemple.fr) |\n');
+  // Une évolution.
+  t = t.replace('## Évolutions / revirements\n', '## Évolutions / revirements\n- 2026-10-10 : précision sur les retraites [source](https://exemple.fr)\n');
+  // Analyse datée.
+  t = t.replace(/_Analysée le : .*_/, `_Analysée le : ${date} · sur programme v1 · confiance : moyen_`)
+    .replace('### Note globale : – / 5', `### Note globale : ${globale} / 5`);
+  CRITERES.forEach((c, i) => {
+    t = t.replace(new RegExp(`^\\| ${c}\\s*\\|.*$`, 'm'), `| ${c} | ${notes[i]} | justification | eco-01 |`);
+  });
+  t = t.replace(/### Pourquoi cette note\n<!--[\s\S]*?-->/, '### Pourquoi cette note\nTexte de justification.');
+  return t;
+}
+
+/** Crée une base de test ; `modifier(dossier)` peut altérer des fichiers avant validation. */
+function valider(modifier = () => {}) {
+  const dossier = mkdtempSync(join(tmpdir(), 'base-'));
+  try {
+    for (const d of ['referentiel', 'candidats', 'comparatifs']) cpSync(join(RACINE, d), join(dossier, d), { recursive: true });
+    writeFileSync(join(dossier, 'candidats/dupont-jean.md'), ficheValide());
+    modifier(dossier);
+    return validerBase(dossier);
+  } finally {
+    rmSync(dossier, { recursive: true, force: true });
+  }
+}
+
+const ecrire = (d, f, t) => writeFileSync(join(d, f), t);
+const editer = (d, f, fn) => ecrire(d, f, fn(readFileSync(join(d, f), 'utf8')));
+const messages = (r) => r.erreurs.map((e) => e.message).join('\n');
+
+test('la base réelle est valide', () => {
+  const r = validerBase(RACINE);
+  assert.equal(r.erreurs.length, 0, messages(r));
+});
+
+test('une fiche complète est valide', () => {
+  const r = valider();
+  assert.equal(r.erreurs.length, 0, messages(r));
+});
+
+test('id du frontmatter différent du nom de fichier', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t.replace('id: dupont-jean', 'id: autre')));
+  assert.match(messages(r), /différent du nom de fichier/);
+});
+
+test('statut et date invalides', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace('statut: déclaré', 'statut: candidat')
+    .replace('derniere_maj: 2026-10-24', 'derniere_maj: 24/10/2026')));
+  assert.match(messages(r), /statut « candidat » invalide/);
+  assert.match(messages(r), /derniere_maj .* n'est pas une date/);
+});
+
+test('question inconnue, en double ou manquante', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| Q-env-nuc .*$/m, '| Q-env-charbon | pour | | [s](https://x.fr) |')
+    .replace(/^\| Q-eco-deficit .*$/m, '| Q-eco-impots | pas de position | | |')));
+  const m = messages(r);
+  assert.match(m, /question inconnue « Q-env-charbon »/);
+  assert.match(m, /« Q-eco-impots » présente deux fois/);
+  assert.match(m, /question active « Q-env-nuc » absente/);
+});
+
+test('question fermée avec valeur non autorisée', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| Q-env-nuc .*$/m, '| Q-env-nuc | oui | | [s](https://x.fr) |')));
+  assert.match(messages(r), /question fermée : position « oui » non autorisée/);
+});
+
+test('position sans source', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| Q-social-retraite .*$/m, '| Q-social-retraite | 64 ans | avec dérogations | programme |')));
+  assert.match(messages(r), /« Q-social-retraite » : position sans source/);
+});
+
+test('position vide : avertissement seulement', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| Q-env-nuc .*$/m, '| Q-env-nuc | | | |')));
+  assert.equal(r.erreurs.length, 0, messages(r));
+  assert.match(r.avertissements.map((a) => a.message).join('\n'), /1 question\(s\) non renseignée/);
+});
+
+test('proposition mal identifiée, en double ou sans source', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t.replace(
+    /^\| eco-01 .*$/m,
+    '| eco-01 | A | | | | [s](https://x.fr) |\n| eco-01 | B | | | | [s](https://x.fr) |\n| env-01 | C | | | | [s](https://x.fr) |\n| eco-02 | D | | | | programme |')));
+  const m = messages(r);
+  assert.match(m, /« eco-01 » définie deux fois/);
+  assert.match(m, /« env-01 » invalide \(format eco-NN\)/);
+  assert.match(m, /« eco-02 » : source manquante/);
+});
+
+test('évolution sans date', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace('- 2026-10-10 :', '- le 10 octobre :')));
+  assert.match(messages(r), /format attendu « - AAAA-MM-JJ : description »/);
+});
+
+test('note globale incohérente avec les critères', () => {
+  const r = valider((d) => ecrire(d, 'candidats/dupont-jean.md', ficheValide({ globale: '4' })));
+  assert.match(messages(r), /note globale 4 incohérente : la moyenne arrondie au demi-point donne 3,5/);
+});
+
+test('note de critère hors barème et confiance invalide', () => {
+  const r = valider((d) => ecrire(d, 'candidats/dupont-jean.md',
+    ficheValide({ notes: [6, 4, 3, 4, 3, 4] }).replace('confiance : moyen', 'confiance : bonne')));
+  const m = messages(r);
+  assert.match(m, /« F-fin » : note « 6 » invalide/);
+  assert.match(m, /indice de confiance « bonne » invalide/);
+});
+
+test('notes présentes sans date d\'analyse', () => {
+  const r = valider((d) => ecrire(d, 'candidats/dupont-jean.md',
+    ficheValide().replace(/_Analysée le : .*_/, '_Analysée le : AAAA-MM-JJ · sur programme vX · confiance : moyen_')));
+  assert.match(messages(r), /notes de faisabilité présentes sans date d'analyse/);
+});
+
+test('analyses à des dates différentes : avertissement', () => {
+  const r = valider((d) => ecrire(d, 'candidats/martin-anne.md',
+    ficheValide({ id: 'martin-anne', date: '2026-11-02' })));
+  assert.equal(r.erreurs.length, 0, messages(r));
+  assert.match(r.avertissements.map((a) => a.message).join('\n'), /dates différentes/);
+});
+
+test('comparatif de faisabilité désynchronisé de la fiche', () => {
+  const r = valider((d) => editer(d, 'comparatifs/faisabilite.md', (t) =>
+    `${t}| dupont-jean | 3 | 4 | 3 | 4 | 3 | 5 | 3,5 | moyen | 2026-10-24 |\n| inconnu | 1 | 1 | 1 | 1 | 1 | 1 | 1 | faible | 2026-10-24 |\n`));
+  const m = messages(r);
+  assert.match(m, /« dupont-jean » F-coh : 5 au comparatif, 4 dans la fiche/);
+  assert.match(m, /candidat inconnu « inconnu »/);
+});
+
+test('comparatif thématique : question d\'un autre thème et candidat inconnu', () => {
+  const r = valider((d) => ecrire(d, 'comparatifs/env.md',
+    '---\ntheme: env\n---\n\n| question | dupont-jean | fantome |\n|---|---|---|\n| Q-env-nuc | pas de position | pour |\n| Q-eco-impots | pas de position | |\n'));
+  const m = messages(r);
+  assert.match(m, /colonne « fantome » : pas de fiche/);
+  assert.match(m, /« Q-eco-impots » n'appartient pas au thème « env »/);
+});
+
+test('gabarit désynchronisé du référentiel', () => {
+  const r = valider((d) => editer(d, 'referentiel/questions.md', (t) => t.replace(
+    '| Q-instit-constit',
+    '| Q-instit-mandat  | instit | Durée du mandat présidentiel ? | ouverte | actif |\n| Q-instit-constit')));
+  assert.match(messages(r), /candidats\/_modele\.md|question active « Q-instit-mandat » absente/);
+  assert.ok(r.erreurs.some((e) => e.fichier === 'candidats/_modele.md'));
+});
+
+test('référentiel : question rattachée à un thème inconnu', () => {
+  const r = valider((d) => editer(d, 'referentiel/questions.md', (t) => t.replace(
+    '| Q-instit-constit', '| Q-sport-jo | sport | JO ? | ouverte | actif |\n| Q-instit-constit')));
+  assert.match(messages(r), /thème inconnu « sport »/);
+});

@@ -1,0 +1,15 @@
+{
+  "name": "comparatif-programme-presidentielles",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "valider": "node scripts/valider.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1"
+  }
+}

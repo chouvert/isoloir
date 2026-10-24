@@ -10,7 +10,7 @@ par une interface de visualisation.
 ## Arborescence
 
 ```
-election-2027/
+comparatif-programme-presidentielles/
 ├── README.md                     # ce fichier : conventions
 ├── referentiel/
 │   ├── themes.md                 # liste fermée des thèmes
@@ -23,8 +23,40 @@ election-2027/
 │   ├── _modele-theme.md          # gabarit de matrice thématique
 │   ├── faisabilite.md            # comparatif des notes de faisabilité
 │   └── <id-theme>.md             # une matrice par thème
-└── sources.md                    # sources transverses
+├── sources.md                    # sources transverses
+├── scripts/                      # script de contrôle de la base
+├── tests/                        # tests du script de contrôle
+└── .github/workflows/            # contrôle automatique sur GitHub
 ```
+
+## Contrôle de la base
+
+Un script vérifie la cohérence des données à chaque push et sur chaque pull request
+(GitHub Actions). Une erreur bloque ; un avertissement signale un point à surveiller.
+
+En local (Node.js 20 ou plus) :
+
+```sh
+npm install
+npm run valider     # contrôle des données
+npm test            # tests du script lui-même
+```
+
+Ce qui est vérifié :
+
+| Domaine          | Contrôles                                                                                     |
+|------------------|-----------------------------------------------------------------------------------------------|
+| Référentiel      | Identifiants uniques et bien formés ; chaque question rattachée à un thème existant           |
+| Gabarit          | `_modele.md` contient toutes les questions actives et tous les thèmes du référentiel           |
+| Frontmatter      | Champs obligatoires (`id`, `nom`, `statut`, `derniere_maj`) ; `id` = nom du fichier ; statut autorisé ; dates ISO |
+| Positions        | Toutes les questions actives présentes une seule fois ; valeurs autorisées pour les questions fermées ; une source par position renseignée |
+| Propositions     | Une sous-section par thème ; identifiants `<theme>-NN` uniques ; texte et source présents      |
+| Évolutions       | Format `- AAAA-MM-JJ : description`                                                           |
+| Faisabilité      | Tous les critères notés de 1 à 5 avec justification ; note globale = moyenne arrondie au demi-point ; confiance autorisée ; texte « Pourquoi cette note » présent |
+| Comparatifs      | Candidats et questions existants ; valeurs identiques à celles des fiches                     |
+
+Avertissements (non bloquants) : questions non renseignées, analyses à des dates
+différentes selon les candidats, comparatif thématique désynchronisé des fiches.
 
 ## Conventions
 
