@@ -6,11 +6,13 @@ import { mkdtempSync, cpSync, readFileSync, writeFileSync, rmSync } from 'node:f
 import { tmpdir } from 'node:os';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { validerBase } from '../scripts/lib/validation.mjs';
+import { validerBase, lireReferentiel } from '../scripts/lib/validation.mjs';
 
 const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const QUESTIONS = [...readFileSync(join(RACINE, 'referentiel/questions.md'), 'utf8')
   .matchAll(/^\| (Q-[a-z0-9]+-[a-z0-9]+)\s*\|/gm)].map((m) => m[1]);
+const DILEMMES = [...readFileSync(join(RACINE, 'referentiel/dilemmes.md'), 'utf8')
+  .matchAll(/^### (D-[a-z0-9-]+)$/gm)].map((m) => m[1]);
 const CRITERES = ['F-fin', 'F-jur', 'F-pol', 'F-cal', 'F-ope', 'F-coh'];
 
 /** Fiche complète et valide, construite depuis le gabarit. */
@@ -24,6 +26,11 @@ function ficheValide({ id = 'dupont-jean', notes = [3, 4, 3, 4, 3, 4], globale =
   for (const q of QUESTIONS) {
     t = t.replace(new RegExp(`^\\| ${q}\\s*\\|.*$`, 'm'), `| ${q} | pas de position | | |`);
   }
+  // Tous les dilemmes : « pas de position », sauf les retraites (option A sourcée).
+  for (const d of DILEMMES) {
+    t = t.replace(new RegExp(`^\\| ${d}\\s*\\|.*$`, 'm'), `| ${d} | pas de position | | |`);
+  }
+  t = t.replace(/^\| D-social-retraites .*$/m, '| D-social-retraites | A | Report à 65 ans | [prog](https://exemple.fr) |');
   // Une proposition sourcée en éco.
   t = t.replace(/(### eco — Économie & fiscalité\n\|.*\n\|.*\n)/,
     '$1| eco-01 | Baisse de l\'IR | 8 Md€ | 11 Md€ (Institut Y) | 2028 | [prog](https://exemple.fr) |\n');
@@ -172,6 +179,62 @@ test('gabarit désynchronisé du référentiel', () => {
     '| Q-instit-mandat  | instit | Durée du mandat présidentiel ? | ouverte | actif |\n| Q-instit-constit')));
   assert.match(messages(r), /candidats\/_modele\.md|question active « Q-instit-mandat » absente/);
   assert.ok(r.erreurs.some((e) => e.fichier === 'candidats/_modele.md'));
+});
+
+test('tous les dilemmes du référentiel sont lus', () => {
+  const r = { erreur: () => {}, avertissement: () => {} };
+  const ref = lireReferentiel(RACINE, r);
+  assert.ok(DILEMMES.length > 0);
+  assert.deepEqual([...ref.dilemmes.keys()], DILEMMES);
+  assert.deepEqual(ref.dilemmes.get('D-social-retraites').options, ['A', 'B', 'C', 'D']);
+});
+
+test('réponse à un dilemme : option inexistante, sans source, dilemme manquant', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| D-eco-dette .*$/m, '| D-eco-dette | E | x | [s](https://x.fr) |')
+    .replace(/^\| D-env-rythme .*$/m, '| D-env-rythme | aucune | approche différente | programme |')
+    .replace(/^\| D-sante-deserts .*$/m, '| D-sante-deserts | B | | [s](https://x.fr) |')
+    .replace(/^\| D-educ-niveau .*\n/m, '')));
+  const m = messages(r);
+  assert.match(m, /« D-eco-dette » : réponse « E » invalide/);
+  assert.match(m, /« D-env-rythme » : réponse sans source/);
+  assert.match(m, /« D-sante-deserts » : justification manquante/);
+  assert.match(m, /dilemme actif « D-educ-niveau » absent/);
+});
+
+test('réponse vide à un dilemme : avertissement seulement', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| D-eco-dette .*$/m, '| D-eco-dette | | | |')));
+  assert.equal(r.erreurs.length, 0, messages(r));
+  assert.match(r.avertissements.map((a) => a.message).join('\n'), /1 dilemme\(s\) non renseigné/);
+});
+
+test('référentiel des dilemmes : erreurs de rédaction', () => {
+  const r = valider((d) => editer(d, 'referentiel/dilemmes.md', (t) => t
+    .replace('### D-eco-pouvoir-achat\n- statut : actif\n\n>', '### D-eco-pouvoir-achat\n- statut : en cours\n\n')
+    .replace('### D-secu-budget', '### D-env-budget')
+    .replace(/^\| B      \| Baisser les cotisations sur les salaires pour augmenter le net  \| .*$/m,
+      '| B | Baisser les cotisations | |')));
+  const m = messages(r);
+  assert.match(m, /« D-eco-pouvoir-achat » : statut « en cours » invalide/);
+  assert.match(m, /« D-eco-pouvoir-achat » : énoncé manquant/);
+  assert.match(m, /« D-env-budget » placé dans le thème « secu »/);
+  assert.match(m, /option B : contrepartie vide/);
+});
+
+test('dilemme ajouté au référentiel mais absent du gabarit', () => {
+  const r = valider((d) => editer(d, 'referentiel/dilemmes.md', (t) => `${t}
+### D-instit-mandat
+- statut : actif
+
+> Question test
+
+| option | libellé | contrepartie souvent avancée |
+|--------|---------|------------------------------|
+| A      | Un      | x                            |
+| B      | Deux    | y                            |
+`));
+  assert.ok(r.erreurs.some((e) => e.fichier === 'candidats/_modele.md' && /D-instit-mandat/.test(e.message)), messages(r));
 });
 
 test('référentiel : question rattachée à un thème inconnu', () => {

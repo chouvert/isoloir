@@ -22,16 +22,26 @@ source, dans la section « Réponses aux dilemmes » de sa fiche.
 - **Identifiants** : `D-<theme>-<mot>` pour le dilemme, `A` à `D` pour les options.
   Comme pour les questions, un identifiant n'est jamais réutilisé.
 
-## Statut de cette série
-Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `social`,
-`env` et `europe`, 1 pour les autres).
+## Statuts
+- `actif` : posé dans le parcours, à renseigner dans toutes les fiches candidats.
+- `brouillon` : en cours de rédaction, ni posé ni exigé dans les fiches.
+- `obsolète` : retiré du parcours ; conservé pour l'historique, identifiant jamais réutilisé.
+
+## Réponses des candidats
+Dans la fiche de chaque candidat, chaque dilemme actif reçoit une valeur :
+- une lettre d'option (`A`, `B`…) : l'option qui correspond au programme ;
+- `aucune` : le programme défend une approche qui ne correspond à aucune option ;
+- `pas de position` : aucune prise de position trouvée.
+
+Une lettre ou `aucune` exige une justification et une source. Le rattachement est une
+interprétation du programme : il doit pouvoir être vérifié par n'importe quel lecteur.
 
 ---
 
 ## eco — Économie & fiscalité
 
 ### D-eco-dette
-- statut : à relire
+- statut : actif
 
 > La dette publique a fortement augmenté ces dernières années. Pour les finances publiques,
 > quelle priorité vous paraît la plus juste ?
@@ -44,7 +54,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 | D      | Miser d'abord sur la croissance, qui réduira le déficit ensuite       | Pari incertain si la croissance n'est pas au rendez-vous    |
 
 ### D-eco-pouvoir-achat
-- statut : à relire
+- statut : actif
 
 > Une seule mesure peut être financée pour améliorer le pouvoir d'achat. Laquelle choisir ?
 
@@ -60,7 +70,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 ## social — Travail, retraites, social
 
 ### D-social-retraites
-- statut : à relire
+- statut : actif
 
 > Le système de retraite doit être rééquilibré financièrement. Quelle piste vous paraît
 > la moins mauvaise ?
@@ -73,7 +83,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 | D      | Ajouter une part de retraite par capitalisation                          | Pensions dépendantes des marchés financiers                   |
 
 ### D-social-chomage
-- statut : à relire
+- statut : actif
 
 > Des emplois restent vacants alors que le chômage persiste. Quelle approche privilégier ?
 
@@ -89,7 +99,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 ## env — Écologie & énergie
 
 ### D-env-electricite
-- statut : à relire
+- statut : actif
 
 > Les besoins en électricité vont augmenter. Sur quoi miser en priorité ?
 
@@ -101,7 +111,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 | D      | Réduire d'abord la consommation (sobriété, efficacité)        | Changements de modes de vie, possible frein à l'activité  |
 
 ### D-env-rythme
-- statut : à relire
+- statut : actif
 
 > Accélérer la transition écologique a un coût à court terme. Quel rythme vous paraît le bon ?
 
@@ -117,7 +127,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 ## secu — Sécurité & justice
 
 ### D-secu-budget
-- statut : à relire
+- statut : actif
 
 > Le budget sécurité-justice ne peut augmenter que sur un seul poste. Lequel choisir ?
 
@@ -133,7 +143,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 ## immig — Immigration
 
 ### D-immig-travail
-- statut : à relire
+- statut : actif
 
 > Certains secteurs manquent de main-d'œuvre (bâtiment, restauration, soins). Quelle réponse
 > privilégier ?
@@ -150,7 +160,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 ## europe — Europe & international
 
 ### D-europe-regles
-- statut : à relire
+- statut : actif
 
 > Une règle européenne s'oppose à une décision prise en France. Que devrait faire la France ?
 
@@ -162,7 +172,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 | D      | Faire primer le droit national de manière générale               | Remise en cause du fonctionnement de l'Union               |
 
 ### D-europe-defense
-- statut : à relire
+- statut : actif
 
 > Le contexte international pousse à renforcer la défense. Quelle orientation privilégier ?
 
@@ -178,7 +188,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 ## educ — Éducation & recherche
 
 ### D-educ-niveau
-- statut : à relire
+- statut : actif
 
 > Pour améliorer le niveau des élèves, un seul effort peut être financé. Lequel ?
 
@@ -194,7 +204,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 ## sante — Santé
 
 ### D-sante-deserts
-- statut : à relire
+- statut : actif
 
 > Pour lutter contre les déserts médicaux, quelle mesure accepteriez-vous en priorité ?
 
@@ -210,7 +220,7 @@ Première série à relire : 13 dilemmes couvrant les 9 thèmes (2 pour `eco`, `
 ## instit — Institutions & démocratie
 
 ### D-instit-participation
-- statut : à relire
+- statut : actif
 
 > Pour que les citoyens pèsent davantage sur les décisions, quelle réforme privilégier ?
 

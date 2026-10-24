@@ -8,9 +8,12 @@ import {
 
 export const STATUTS_CANDIDAT = ['pressenti', 'déclaré', 'parrainages validés', 'retiré'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+const STATUTS_DILEMME = ['actif', 'brouillon', 'obsolete'];
+export const REPONSES_DILEMME_SPECIALES = ['aucune', 'pas de position'];
 const SECTIONS_FICHE = [
   'Profil',
   'Positions sur les questions-clés',
+  'Réponses aux dilemmes',
   'Propositions par thème',
   'Évolutions / revirements',
   'Analyse de faisabilité (Claude)',
@@ -44,6 +47,7 @@ export function lireReferentiel(racine, rapport) {
     positions: [],              // valeurs autorisées
     criteres: [],               // F-xxx
     confiances: [],             // élevé | moyen | faible
+    dilemmes: new Map(),        // id -> { theme, statut, options: string[] }
   };
 
   // Thèmes
@@ -103,7 +107,53 @@ export function lireReferentiel(racine, rapport) {
   if (!tConf) rapport.erreur(fFais, 1, "tableau de l'indice de confiance introuvable");
   else ref.confiances = tConf.lignes.map((l) => normaliser(l.cellules.valeur)).filter(Boolean);
 
+  lireDilemmes(racine, ref, rapport);
   return ref;
+}
+
+/**
+ * Dilemmes : sections « ## <theme> — … » contenant des sous-sections « ### D-<theme>-<mot> »
+ * avec une ligne « - statut : … », un énoncé en citation (>) et un tableau d'options.
+ */
+function lireDilemmes(racine, ref, rapport) {
+  const fichier = 'referentiel/dilemmes.md';
+  const sections = lireSections(lire(racine, fichier), 2);
+  for (const s of sections) {
+    const sous = lireSections(s.contenu, 3, s.ligne + 1);
+    const themeSection = s.titre.split(/\s+[—–-]\s+/)[0].trim();
+    const estTheme = ref.themes.has(themeSection);
+    for (const d of sous) {
+      const id = nettoyerId(d.titre);
+      if (!estTheme) { rapport.erreur(fichier, d.ligne, `dilemme « ${id} » hors d'une section de thème (« ## <id> — <libellé> »)`); continue; }
+      const m = id.match(/^D-([a-z0-9]+)-[a-z0-9-]+$/);
+      if (!m) { rapport.erreur(fichier, d.ligne, `identifiant de dilemme invalide « ${id} » (format D-<theme>-<mot>)`); continue; }
+      if (m[1] !== themeSection) rapport.erreur(fichier, d.ligne, `dilemme « ${id} » placé dans le thème « ${themeSection} »`);
+      if (ref.dilemmes.has(id)) { rapport.erreur(fichier, d.ligne, `dilemme « ${id} » défini deux fois`); continue; }
+
+      const mStatut = d.contenu.match(/^- statut\s*:\s*(.+)$/m);
+      const statut = mStatut ? normaliser(mStatut[1]) : '';
+      if (!STATUTS_DILEMME.includes(statut)) {
+        rapport.erreur(fichier, d.ligne, `dilemme « ${id} » : statut « ${mStatut ? mStatut[1].trim() : ''} » invalide (actif | brouillon | obsolète)`);
+      }
+      if (!/^>\s*\S/m.test(d.contenu)) rapport.erreur(fichier, d.ligne, `dilemme « ${id} » : énoncé manquant (ligne commençant par « > »)`);
+
+      const options = [];
+      const t = trouverTableau(lireTableaux(d.contenu, d.ligne + 1), ['option', 'libellé', 'contrepartie souvent avancée']);
+      if (!t) rapport.erreur(fichier, d.ligne, `dilemme « ${id} » : tableau des options (option, libellé, contrepartie souvent avancée) introuvable`);
+      else {
+        for (const { cellules, ligne } of t.lignes) {
+          const opt = nettoyerId(cellules.option);
+          if (!/^[A-Z]$/.test(opt)) { rapport.erreur(fichier, ligne, `dilemme « ${id} » : option « ${opt} » invalide (une lettre majuscule)`); continue; }
+          if (options.includes(opt)) { rapport.erreur(fichier, ligne, `dilemme « ${id} » : option « ${opt} » définie deux fois`); continue; }
+          options.push(opt);
+          if (!cellules[normaliser('libellé')]) rapport.erreur(fichier, ligne, `dilemme « ${id} » option ${opt} : libellé vide`);
+          if (!cellules[normaliser('contrepartie souvent avancée')]) rapport.erreur(fichier, ligne, `dilemme « ${id} » option ${opt} : contrepartie vide`);
+        }
+        if (options.length < 2) rapport.erreur(fichier, d.ligne, `dilemme « ${id} » : au moins deux options attendues`);
+      }
+      ref.dilemmes.set(id, { theme: m[1], statut, options });
+    }
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -187,6 +237,45 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
       }
       if (nonRenseignees > 0) {
         rapport.avertissement(fichier, sPos.ligne, `${nonRenseignees} question(s) non renseignée(s) (mettre « pas de position » si aucune prise de position trouvée)`);
+      }
+    }
+  }
+
+  // Réponses aux dilemmes
+  fiche.dilemmes = new Map();
+  const sDil = section('Réponses aux dilemmes');
+  if (sDil) {
+    const t = trouverTableau(lireTableaux(sDil.contenu, sDil.ligne + 1), ['dilemme', 'option', 'justification', 'source']);
+    if (!t) rapport.erreur(fichier, sDil.ligne, 'tableau des réponses (colonnes dilemme, option, justification, source) introuvable');
+    else {
+      let nonRenseignes = 0;
+      for (const { cellules, ligne } of t.lignes) {
+        const id = nettoyerId(cellules.dilemme);
+        const d = ref.dilemmes.get(id);
+        if (!d) { rapport.erreur(fichier, ligne, `dilemme inconnu « ${id} »`); continue; }
+        if (fiche.dilemmes.has(id)) { rapport.erreur(fichier, ligne, `dilemme « ${id} » présent deux fois`); continue; }
+        if (d.statut !== 'actif') rapport.avertissement(fichier, ligne, `dilemme « ${id} » n'est pas actif dans le référentiel`);
+        const option = nettoyerId(cellules.option);
+        fiche.dilemmes.set(id, option);
+        if (gabarit) continue;
+        if (!option) { nonRenseignes++; continue; }
+        const speciale = REPONSES_DILEMME_SPECIALES.includes(normaliser(option));
+        if (!speciale && !d.options.includes(option)) {
+          rapport.erreur(fichier, ligne, `« ${id} » : réponse « ${option} » invalide (${[...d.options, ...REPONSES_DILEMME_SPECIALES].join(' | ')})`);
+          continue;
+        }
+        if (normaliser(option) !== 'pas de position') {
+          if (!cellules.justification) rapport.erreur(fichier, ligne, `« ${id} » : justification manquante pour la réponse « ${option} »`);
+          if (!contientSource(cellules.source)) rapport.erreur(fichier, ligne, `« ${id} » : réponse sans source (lien attendu)`);
+        }
+      }
+      for (const [id, d] of ref.dilemmes) {
+        if (d.statut === 'actif' && !fiche.dilemmes.has(id)) {
+          rapport.erreur(fichier, sDil.ligne, `dilemme actif « ${id} » absent du tableau des réponses`);
+        }
+      }
+      if (nonRenseignes > 0) {
+        rapport.avertissement(fichier, sDil.ligne, `${nonRenseignes} dilemme(s) non renseigné(s) (mettre « pas de position » si aucune prise de position trouvée)`);
       }
     }
   }
@@ -372,7 +461,7 @@ function validerComparatifTheme(racine, fichier, ref, fiches, rapport) {
 
 export function validerBase(racine) {
   const rapport = new Rapport();
-  for (const f of ['referentiel/themes.md', 'referentiel/questions.md', 'referentiel/faisabilite.md', 'candidats/_modele.md']) {
+  for (const f of ['referentiel/themes.md', 'referentiel/questions.md', 'referentiel/faisabilite.md', 'referentiel/dilemmes.md', 'candidats/_modele.md']) {
     if (!existsSync(join(racine, f))) rapport.erreur(f, 1, 'fichier obligatoire manquant');
   }
   if (rapport.erreurs.length) return rapport;

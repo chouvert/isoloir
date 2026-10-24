@@ -48,6 +48,25 @@ derniere_maj:            # AAAA-MM-JJ
 | Q-instit-referend |          |        |        |
 | Q-instit-constit  |          |        |        |
 
+## Réponses aux dilemmes
+<!-- Une ligne par dilemme actif de referentiel/dilemmes.md, dans le même ordre.
+Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ». -->
+| dilemme                | option | justification | source |
+|------------------------|--------|---------------|--------|
+| D-eco-dette            |        |               |        |
+| D-eco-pouvoir-achat    |        |               |        |
+| D-social-retraites     |        |               |        |
+| D-social-chomage       |        |               |        |
+| D-env-electricite      |        |               |        |
+| D-env-rythme           |        |               |        |
+| D-secu-budget          |        |               |        |
+| D-immig-travail        |        |               |        |
+| D-europe-regles        |        |               |        |
+| D-europe-defense       |        |               |        |
+| D-educ-niveau          |        |               |        |
+| D-sante-deserts        |        |               |        |
+| D-instit-participation |        |               |        |
+
 ## Propositions par thème
 <!-- Identifiants <theme>-<nn>, jamais réutilisés. Chiffrages en Md€/an sauf mention. -->
 

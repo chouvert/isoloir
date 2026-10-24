@@ -15,6 +15,7 @@ comparatif-programme-presidentielles/
 ├── referentiel/
 │   ├── themes.md                 # liste fermée des thèmes
 │   ├── questions.md              # questions-clés posées à tous les candidats
+│   ├── dilemmes.md               # dilemmes posés aux utilisateurs du parcours web
 │   └── faisabilite.md            # grille et barème de faisabilité
 ├── candidats/
 │   ├── _modele.md                # gabarit à copier pour chaque candidat
@@ -46,16 +47,18 @@ Ce qui est vérifié :
 
 | Domaine          | Contrôles                                                                                     |
 |------------------|-----------------------------------------------------------------------------------------------|
-| Référentiel      | Identifiants uniques et bien formés ; chaque question rattachée à un thème existant           |
-| Gabarit          | `_modele.md` contient toutes les questions actives et tous les thèmes du référentiel           |
+| Référentiel      | Identifiants uniques et bien formés ; chaque question et chaque dilemme rattachés à un thème existant |
+| Dilemmes         | Statut autorisé (actif, brouillon, obsolète) ; énoncé présent ; au moins deux options, chacune avec libellé et contrepartie |
+| Gabarit          | `_modele.md` contient toutes les questions actives, tous les dilemmes actifs et tous les thèmes du référentiel |
 | Frontmatter      | Champs obligatoires (`id`, `nom`, `statut`, `derniere_maj`) ; `id` = nom du fichier ; statut autorisé ; dates ISO |
 | Positions        | Toutes les questions actives présentes une seule fois ; valeurs autorisées pour les questions fermées ; une source par position renseignée |
+| Dilemmes (fiche) | Tous les dilemmes actifs présents une seule fois ; réponse = option existante, `aucune` ou `pas de position` ; justification et source pour toute réponse autre que `pas de position` |
 | Propositions     | Une sous-section par thème ; identifiants `<theme>-NN` uniques ; texte et source présents      |
 | Évolutions       | Format `- AAAA-MM-JJ : description`                                                           |
 | Faisabilité      | Tous les critères notés de 1 à 5 avec justification ; note globale = moyenne arrondie au demi-point ; confiance autorisée ; texte « Pourquoi cette note » présent |
 | Comparatifs      | Candidats et questions existants ; valeurs identiques à celles des fiches                     |
 
-Avertissements (non bloquants) : questions non renseignées, analyses à des dates
+Avertissements (non bloquants) : questions ou dilemmes non renseignés, analyses à des dates
 différentes selon les candidats, comparatif thématique désynchronisé des fiches.
 
 ## Conventions
@@ -72,6 +75,8 @@ différentes selon les candidats, comparatif thématique désynchronisé des fic
 | Question     | `Q-<theme>-<mot>`      | `Q-env-nuc`     | `referentiel/questions.md`  |
 | Proposition  | `<theme>-<nn>`         | `eco-01`        | fiche du candidat           |
 | Critère      | `F-<code>`             | `F-fin`         | `referentiel/faisabilite.md`|
+| Dilemme      | `D-<theme>-<mot>`      | `D-env-electricite` | `referentiel/dilemmes.md` |
+| Option       | `A`, `B`, `C`…         | `B`             | `referentiel/dilemmes.md`   |
 
 Un identifiant n'est jamais réutilisé ni renommé. Une question abandonnée est marquée
 `obsolète` dans le référentiel plutôt que supprimée.
@@ -89,6 +94,8 @@ Format ISO `AAAA-MM-JJ` partout.
 ### Faits et analyse
 - Les sections « Profil », « Positions », « Propositions » et « Évolutions » ne contiennent que
   des faits sourcés.
+- La section « Réponses aux dilemmes » rattache le programme à une option : c'est une
+  interprétation, toujours justifiée et sourcée pour rester vérifiable.
 - La section « Analyse de faisabilité » est une évaluation produite à partir de ces faits,
   selon la grille de `referentiel/faisabilite.md`, identique pour tous les candidats.
 
