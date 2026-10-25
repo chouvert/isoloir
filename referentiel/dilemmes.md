@@ -13,6 +13,8 @@ source, dans la section « Réponses aux dilemmes » de sa fiche.
   déficit, ressource rare). Sans contrainte, ce n'est pas un dilemme.
 - **Des options réelles** : chaque option est défendue par au moins une famille politique.
   Aucune option « épouvantail » que personne ne soutient.
+- **Une seule idée par option** : une option qui associe deux orientations (« faire X et Y ») oblige
+  un candidat à défendre les deux pour y être rattaché. On la scinde ou on la reformule.
 - **Des options équilibrées** : longueur comparable, aucun adjectif valorisant ou péjoratif,
   pas de vocabulaire propre à un camp.
 - **Une contrepartie par option** : l'inconvénient le plus couramment avancé, formulé
@@ -189,6 +191,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 ### D-europe-defense
 - statut : actif
 - voisines : aucune (quatre orientations distinctes)
+- historique : 2026-10-25, option D reformulée ; elle associait diplomatie et limitation des dépenses, deux conditions distinctes
 
 > Le contexte international pousse à renforcer la défense. Quelle orientation privilégier ?
 
@@ -197,7 +200,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 | A      | Augmenter fortement le budget militaire national               | Moins de moyens pour d'autres politiques                   |
 | B      | Bâtir une défense européenne commune                           | Partage de décisions de souveraineté avec les partenaires  |
 | C      | Renforcer l'engagement au sein de l'OTAN                       | Dépendance accrue envers les États-Unis                    |
-| D      | Privilégier la diplomatie et limiter la hausse des dépenses    | Capacités réduites face à une menace directe               |
+| D      | Privilégier la diplomatie et la recherche de solutions négociées | Moins de moyens de dissuasion face à une menace directe  |
 
 ---
 
