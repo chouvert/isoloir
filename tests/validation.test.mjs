@@ -211,7 +211,7 @@ test('réponse vide à un dilemme : avertissement seulement', () => {
 
 test('référentiel des dilemmes : erreurs de rédaction', () => {
   const r = valider((d) => editer(d, 'referentiel/dilemmes.md', (t) => t
-    .replace('### D-eco-pouvoir-achat\n- statut : actif\n\n>', '### D-eco-pouvoir-achat\n- statut : en cours\n\n')
+    .replace('### D-eco-pouvoir-achat\n- statut : actif\n- voisines : B-C (deux baisses de prélèvements)\n\n>', '### D-eco-pouvoir-achat\n- statut : en cours\n- voisines : B-C (deux baisses de prélèvements)\n\n')
     .replace('### D-secu-budget', '### D-env-budget')
     .replace(/^\| B      \| Baisser les cotisations sur les salaires pour augmenter le net  \| .*$/m,
       '| B | Baisser les cotisations | |')));
@@ -220,6 +220,21 @@ test('référentiel des dilemmes : erreurs de rédaction', () => {
   assert.match(m, /« D-eco-pouvoir-achat » : énoncé manquant/);
   assert.match(m, /« D-env-budget » placé dans le thème « secu »/);
   assert.match(m, /option B : contrepartie vide/);
+});
+
+test('voisinages : format, options inexistantes, ligne manquante, trop de paires', () => {
+  const r = valider((d) => editer(d, 'referentiel/dilemmes.md', (t) => t
+    .replace('- voisines : C-D (deux façons', '- voisines : C-E, AB (deux façons')
+    .replace('- voisines : B-D (deux formes', '- voisines : B-D, D-B (deux formes')
+    .replace(/- voisines : A-B \(deux renforcements.*\n/, '')
+    .replace('- voisines : A-B (deux hausses de moyens humains)', '- voisines : A-B, B-C, C-D (test)')));
+  const m = messages(r);
+  assert.match(m, /« D-eco-dette » : paire voisine « C-E » avec option inexistante/);
+  assert.match(m, /« D-eco-dette » : paire voisine « AB » invalide/);
+  assert.match(m, /« D-social-chomage » : paire voisine « D-B » en double/);
+  assert.match(m, /« D-secu-budget » : ligne « - voisines : … » manquante/);
+  assert.match(r.avertissements.map((a) => a.message).join('\n'), /« D-educ-niveau » : 3 paires voisines/);
+  assert.ok(!r.avertissements.some((a) => /D-europe-regles/.test(a.message)), 'dilemme gradué : pas d\'avertissement');
 });
 
 test('dilemme ajouté au référentiel mais absent du gabarit', () => {

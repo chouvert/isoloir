@@ -112,6 +112,30 @@ export function lireReferentiel(racine, rapport) {
 }
 
 /**
+ * Ligne « - voisines : A-B, C-D (raison) » ou « - voisines : aucune (raison) ».
+ * @returns {string[][]} paires d'options voisines
+ */
+function lireVoisines(fichier, d, id, options, rapport) {
+  const m = d.contenu.match(/^- voisines\s*:\s*(.+)$/m);
+  if (!m) { rapport.erreur(fichier, d.ligne, `dilemme « ${id} » : ligne « - voisines : … » manquante (« aucune » si pas de voisinage)`); return []; }
+  const valeur = m[1].replace(/\(.*\)\s*$/, '').trim();
+  if (normaliser(valeur) === 'aucune') return [];
+  const paires = [];
+  for (const brut of valeur.split(',').map((s) => s.trim())) {
+    const p = brut.match(/^([A-Z])-([A-Z])$/);
+    if (!p || p[1] === p[2]) { rapport.erreur(fichier, d.ligne, `dilemme « ${id} » : paire voisine « ${brut} » invalide (format A-B)`); continue; }
+    const inconnues = [p[1], p[2]].filter((o) => !options.includes(o));
+    if (inconnues.length) { rapport.erreur(fichier, d.ligne, `dilemme « ${id} » : paire voisine « ${brut} » avec option inexistante`); continue; }
+    const cle = [p[1], p[2]].sort().join('-');
+    if (paires.some((q) => q.join('-') === cle)) { rapport.erreur(fichier, d.ligne, `dilemme « ${id} » : paire voisine « ${brut} » en double`); continue; }
+    paires.push(cle.split('-'));
+  }
+  const gradue = /^- type\s*:\s*gradu[ée]\s*$/m.test(d.contenu);
+  if (paires.length > 2 && !gradue) rapport.avertissement(fichier, d.ligne, `dilemme « ${id} » : ${paires.length} paires voisines (plus de deux : réservé aux dilemmes déclarés « - type : gradué »)`);
+  return paires;
+}
+
+/**
  * Dilemmes : sections « ## <theme> — … » contenant des sous-sections « ### D-<theme>-<mot> »
  * avec une ligne « - statut : … », un énoncé en citation (>) et un tableau d'options.
  */
@@ -151,7 +175,8 @@ function lireDilemmes(racine, ref, rapport) {
         }
         if (options.length < 2) rapport.erreur(fichier, d.ligne, `dilemme « ${id} » : au moins deux options attendues`);
       }
-      ref.dilemmes.set(id, { theme: m[1], statut, options });
+      const voisines = lireVoisines(fichier, d, id, options, rapport);
+      ref.dilemmes.set(id, { theme: m[1], statut, options, voisines });
     }
   }
 }

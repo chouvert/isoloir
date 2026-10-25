@@ -16,6 +16,7 @@ comparatif-programme-presidentielles/
 │   ├── themes.md                 # liste fermée des thèmes
 │   ├── questions.md              # questions-clés posées à tous les candidats
 │   ├── dilemmes.md               # dilemmes posés aux utilisateurs du parcours web
+│   ├── methode-proximite.md      # méthode de calcul de la proximité utilisateur-candidats
 │   └── faisabilite.md            # grille et barème de faisabilité
 ├── candidats/
 │   ├── _modele.md                # gabarit à copier pour chaque candidat
@@ -25,8 +26,8 @@ comparatif-programme-presidentielles/
 │   ├── faisabilite.md            # comparatif des notes de faisabilité
 │   └── <id-theme>.md             # une matrice par thème
 ├── sources.md                    # sources transverses
-├── scripts/                      # script de contrôle de la base
-├── tests/                        # tests du script de contrôle
+├── scripts/                      # contrôle de la base et calcul de proximité
+├── tests/                        # tests des scripts
 └── .github/workflows/            # contrôle automatique sur GitHub
 ```
 
@@ -40,7 +41,7 @@ En local (Node.js 20 ou plus) :
 ```sh
 npm install
 npm run valider     # contrôle des données
-npm test            # tests du script lui-même
+npm test            # tests des scripts
 ```
 
 Ce qui est vérifié :
@@ -48,7 +49,7 @@ Ce qui est vérifié :
 | Domaine          | Contrôles                                                                                     |
 |------------------|-----------------------------------------------------------------------------------------------|
 | Référentiel      | Identifiants uniques et bien formés ; chaque question et chaque dilemme rattachés à un thème existant |
-| Dilemmes         | Statut autorisé (actif, brouillon, obsolète) ; énoncé présent ; au moins deux options, chacune avec libellé et contrepartie |
+| Dilemmes         | Statut autorisé (actif, brouillon, obsolète) ; énoncé présent ; au moins deux options, chacune avec libellé et contrepartie ; voisinages entre options existantes |
 | Gabarit          | `_modele.md` contient toutes les questions actives, tous les dilemmes actifs et tous les thèmes du référentiel |
 | Frontmatter      | Champs obligatoires (`id`, `nom`, `statut`, `derniere_maj`) ; `id` = nom du fichier ; statut autorisé ; dates ISO |
 | Positions        | Toutes les questions actives présentes une seule fois ; valeurs autorisées pour les questions fermées ; une source par position renseignée |
@@ -60,6 +61,14 @@ Ce qui est vérifié :
 
 Avertissements (non bloquants) : questions ou dilemmes non renseignés, analyses à des dates
 différentes selon les candidats, comparatif thématique désynchronisé des fiches.
+
+## Calcul de proximité
+
+`scripts/lib/proximite.mjs` implémente `referentiel/methode-proximite.md`. Le module n'a aucune
+dépendance et n'accède pas au disque : il est conçu pour tourner dans le navigateur de
+l'utilisateur, dont les réponses ne quittent jamais l'appareil. L'exemple chiffré de la méthode
+sert de test (`tests/proximite.test.mjs`) : toute modification du calcul qui changerait ce
+résultat fait échouer les tests.
 
 ## Conventions
 

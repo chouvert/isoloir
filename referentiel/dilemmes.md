@@ -21,6 +21,11 @@ source, dans la section « Réponses aux dilemmes » de sa fiche.
   (non listée ici) et affiche les options dans un ordre aléatoire.
 - **Identifiants** : `D-<theme>-<mot>` pour le dilemme, `A` à `D` pour les options.
   Comme pour les questions, un identifiant n'est jamais réutilisé.
+- **Options voisines** : ligne `- voisines : A-B, C-D (raison)` ou `- voisines : aucune (raison)`.
+  Deux options ne sont voisines que si elles poursuivent la même orientation avec des moyens
+  ou des degrés différents ; au plus deux paires, sauf pour un dilemme gradué
+  (options rangées du plus au moins, déclaré par la ligne `- type : gradué`).
+  Voir `referentiel/methode-proximite.md`.
 
 ## Statuts
 - `actif` : posé dans le parcours, à renseigner dans toutes les fiches candidats.
@@ -42,6 +47,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-eco-dette
 - statut : actif
+- voisines : C-D (deux façons de réduire le déficit plus lentement)
 
 > La dette publique a fortement augmenté ces dernières années. Pour les finances publiques,
 > quelle priorité vous paraît la plus juste ?
@@ -55,6 +61,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-eco-pouvoir-achat
 - statut : actif
+- voisines : B-C (deux baisses de prélèvements)
 
 > Une seule mesure peut être financée pour améliorer le pouvoir d'achat. Laquelle choisir ?
 
@@ -71,6 +78,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-social-retraites
 - statut : actif
+- voisines : B-C (deux hausses de ressources plutôt qu'un allongement)
 
 > Le système de retraite doit être rééquilibré financièrement. Quelle piste vous paraît
 > la moins mauvaise ?
@@ -84,6 +92,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-social-chomage
 - statut : actif
+- voisines : B-D (deux formes d'accompagnement des demandeurs d'emploi)
 
 > Des emplois restent vacants alors que le chômage persiste. Quelle approche privilégier ?
 
@@ -100,6 +109,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-env-electricite
 - statut : actif
+- voisines : A-C, B-C (l'option mixte rejoint en partie chacune des deux autres)
 
 > Les besoins en électricité vont augmenter. Sur quoi miser en priorité ?
 
@@ -112,6 +122,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-env-rythme
 - statut : actif
+- voisines : A-B, C-D (accélérer d'un côté, ralentir ou maintenir de l'autre)
 
 > Accélérer la transition écologique a un coût à court terme. Quel rythme vous paraît le bon ?
 
@@ -128,6 +139,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-secu-budget
 - statut : actif
+- voisines : A-B (deux renforcements de la réponse pénale)
 
 > Le budget sécurité-justice ne peut augmenter que sur un seul poste. Lequel choisir ?
 
@@ -144,6 +156,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-immig-travail
 - statut : actif
+- voisines : A-B, C-D (recours à l'immigration d'un côté, à l'emploi local de l'autre)
 
 > Certains secteurs manquent de main-d'œuvre (bâtiment, restauration, soins). Quelle réponse
 > privilégier ?
@@ -161,6 +174,8 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-europe-regles
 - statut : actif
+- type : gradué
+- voisines : A-B, B-C, C-D (dilemme gradué, du plus au moins européen)
 
 > Une règle européenne s'oppose à une décision prise en France. Que devrait faire la France ?
 
@@ -173,6 +188,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-europe-defense
 - statut : actif
+- voisines : aucune (quatre orientations distinctes)
 
 > Le contexte international pousse à renforcer la défense. Quelle orientation privilégier ?
 
@@ -189,6 +205,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-educ-niveau
 - statut : actif
+- voisines : A-B (deux hausses de moyens humains)
 
 > Pour améliorer le niveau des élèves, un seul effort peut être financé. Lequel ?
 
@@ -205,6 +222,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-sante-deserts
 - statut : actif
+- voisines : A-B, C-D (agir sur les médecins d'un côté, contourner la pénurie de l'autre)
 
 > Pour lutter contre les déserts médicaux, quelle mesure accepteriez-vous en priorité ?
 
@@ -221,6 +239,7 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 
 ### D-instit-participation
 - statut : actif
+- voisines : A-C (deux formes de participation directe des citoyens)
 
 > Pour que les citoyens pèsent davantage sur les décisions, quelle réforme privilégier ?
 

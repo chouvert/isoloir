@@ -96,6 +96,11 @@ Un écart de quelques points n'a donc pas de sens. Les candidats dont les scores
 **moins de 5 points** l'un de l'autre sont présentés comme **à égalité**, regroupés et rangés
 par ordre alphabétique.
 
+Règle exacte, sur les scores arrondis : on range les candidats par score décroissant ; le
+premier ouvre un groupe ; chaque candidat suivant rejoint ce groupe si son score est à moins
+de 5 points du **premier du groupe**, sinon il ouvre un nouveau groupe. Les candidats sans
+score (couverture insuffisante) sont listés à part.
+
 ### Minimum de réponses
 Le résultat n'est affiché qu'à partir de **5 dilemmes répondus** (hors « sans avis »).
 En dessous, l'utilisateur est invité à répondre à davantage de dilemmes.
@@ -118,8 +123,10 @@ préférence à l'aveugle = duels où la proposition du candidat a été préfé
                          / duels où le candidat apparaissait
 ```
 
-Il n'est affiché que pour les candidats apparus dans au moins 3 duels. Les réponses
-« aucune des deux » et « les deux » ne comptent ni pour ni contre.
+Seuls comptent les duels où l'utilisateur a choisi l'une des deux propositions : les réponses
+« aucune des deux » et « les deux » ne comptent ni pour ni contre, et ne sont pas comptées
+comme apparitions. L'indicateur n'est affiché que pour les candidats apparus dans au moins
+3 duels ainsi comptés.
 
 C'est un contrôle de cohérence utile : un candidat proche selon les dilemmes mais peu choisi
 à l'aveugle (ou l'inverse) invite l'utilisateur à regarder le détail.
@@ -178,24 +185,3 @@ revanche que Y rejoint l'utilisateur sur les retraites, que X ne rejoint pas.
 - Les voisinages entre options sont un choix éditorial, publié et identique pour tous.
 - Un programme peut évoluer pendant la campagne : la date de mise à jour de chaque fiche est
   affichée avec le résultat.
-
-## Voisinages proposés (à valider)
-
-Après validation, ils seront reportés dans `referentiel/dilemmes.md` sous la forme
-`- voisines : A-B, C-D`.
-
-| dilemme                | voisines         | raison                                                   |
-|------------------------|------------------|----------------------------------------------------------|
-| D-eco-dette            | C-D              | Deux façons de réduire le déficit plus lentement          |
-| D-eco-pouvoir-achat    | B-C              | Deux baisses de prélèvements                              |
-| D-social-retraites     | B-C              | Deux hausses de ressources plutôt qu'un allongement       |
-| D-social-chomage       | B-D              | Deux formes d'accompagnement des demandeurs d'emploi      |
-| D-env-electricite      | A-C, B-C         | L'option mixte rejoint en partie chacune des deux autres  |
-| D-env-rythme           | A-B, C-D         | Accélérer d'un côté, ralentir ou maintenir de l'autre     |
-| D-secu-budget          | A-B              | Deux renforcements de la réponse pénale                   |
-| D-immig-travail        | A-B, C-D         | Recours à l'immigration d'un côté, à l'emploi local de l'autre |
-| D-europe-regles        | A-B, B-C, C-D    | Dilemme gradué, du plus au moins européen                 |
-| D-europe-defense       | aucune           | Quatre orientations distinctes                            |
-| D-educ-niveau          | A-B              | Deux hausses de moyens humains                            |
-| D-sante-deserts        | A-B, C-D         | Agir sur les médecins d'un côté, contourner la pénurie de l'autre |
-| D-instit-participation | A-C              | Deux formes de participation directe des citoyens         |
