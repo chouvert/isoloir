@@ -67,6 +67,12 @@ Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ». -->
 | D-sante-deserts        |        |               |        |
 | D-instit-participation |        |               |        |
 
+## Propositions phares
+<!-- Jusqu'à 3 propositions mises en avant dans l'interface, choisies selon la règle du README
+(« Propositions phares ») : identifiants des propositions de cette fiche, motif et source du choix. -->
+| rang | proposition | motif | source |
+|------|-------------|-------|--------|
+
 ## Propositions par thème
 <!-- Identifiants <theme>-<nn>, jamais réutilisés. Chiffrages en Md€/an sauf mention. -->
 

@@ -8,12 +8,14 @@ import {
 
 export const STATUTS_CANDIDAT = ['pressenti', 'déclaré', 'parrainages validés', 'retiré'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+export const MAX_PHARES = 3;
 const STATUTS_DILEMME = ['actif', 'brouillon', 'obsolete'];
 export const REPONSES_DILEMME_SPECIALES = ['aucune', 'pas de position'];
 const SECTIONS_FICHE = [
   'Profil',
   'Positions sur les questions-clés',
   'Réponses aux dilemmes',
+  'Propositions phares',
   'Propositions par thème',
   'Évolutions / revirements',
   'Analyse de faisabilité (Claude)',
@@ -377,6 +379,30 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
       if (!vus.has(theme)) rapport.erreur(fichier, sProp.ligne, `sous-section « ### ${theme} — … » manquante`);
     }
     fiche.propositions = idsProp;
+  }
+
+  // Propositions phares
+  const sPhares = section('Propositions phares');
+  if (sPhares) {
+    const t = trouverTableau(lireTableaux(sPhares.contenu, sPhares.ligne + 1), ['rang', 'proposition', 'motif', 'source']);
+    if (!t) rapport.erreur(fichier, sPhares.ligne, 'tableau des propositions phares (colonnes rang, proposition, motif, source) introuvable');
+    else if (!gabarit) {
+      const ids = [];
+      t.lignes.forEach(({ cellules, ligne }, i) => {
+        const id = nettoyerId(cellules.proposition);
+        if (nettoyerId(cellules.rang) !== String(i + 1)) rapport.erreur(fichier, ligne, `rang « ${cellules.rang} » : attendu ${i + 1}`);
+        if (!fiche.propositions?.has(id)) { rapport.erreur(fichier, ligne, `proposition phare « ${id} » absente des propositions de la fiche`); return; }
+        if (ids.includes(id)) { rapport.erreur(fichier, ligne, `proposition phare « ${id} » citée deux fois`); return; }
+        ids.push(id);
+        if (!cellules.motif) rapport.erreur(fichier, ligne, `proposition phare « ${id} » : motif du choix manquant`);
+        if (!contientSource(cellules.source)) rapport.erreur(fichier, ligne, `proposition phare « ${id} » : source du choix manquante (lien attendu)`);
+      });
+      if (t.lignes.length > MAX_PHARES) rapport.erreur(fichier, sPhares.ligne, `${t.lignes.length} propositions phares : ${MAX_PHARES} au maximum`);
+      if (t.lignes.length === 0 && (fiche.propositions?.size ?? 0) >= MAX_PHARES) {
+        rapport.avertissement(fichier, sPhares.ligne, 'aucune proposition phare désignée');
+      }
+      fiche.phares = ids;
+    }
   }
 
   if (gabarit) return fiche;

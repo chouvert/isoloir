@@ -269,3 +269,33 @@ test('préoccupations : thème inconnu, dilemme hors thème, thème non couvert,
   assert.match(m, /« P-confiance » : libellé déjà utilisé/);
   assert.match(m, /thème « instit » : aucune préoccupation ne l'a pour thème principal/);
 });
+
+const PHARES_ENTETE = '| rang | proposition | motif | source |\n|------|-------------|-------|--------|\n';
+const avecPhares = (lignes) => (t) => t.replace(/\| rang \| proposition \| motif \| source \|\n\|[-|]+\|\n/, PHARES_ENTETE + lignes);
+
+test('propositions phares valides', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md',
+    avecPhares('| 1 | eco-01 | 1re mesure du résumé | [s](https://x.fr) |\n')));
+  assert.equal(r.erreurs.length, 0, messages(r));
+});
+
+test('propositions phares : inconnue, en double, sans source, rang faux, plus de 3', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', avecPhares(
+    '| 1 | eco-01 | motif | [s](https://x.fr) |\n'
+    + '| 2 | eco-01 | motif | [s](https://x.fr) |\n'
+    + '| 4 | env-09 | motif | [s](https://x.fr) |\n'
+    + '| 4 | eco-01 | | programme |\n')));
+  const m = messages(r);
+  assert.match(m, /« eco-01 » citée deux fois/);
+  assert.match(m, /« env-09 » absente des propositions/);
+  assert.match(m, /rang « 4 » : attendu 3/);
+  assert.match(m, /4 propositions phares : 3 au maximum/);
+});
+
+test('propositions phares : motif et source obligatoires', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md',
+    avecPhares('| 1 | eco-01 | | programme |\n')));
+  const m = messages(r);
+  assert.match(m, /motif du choix manquant/);
+  assert.match(m, /source du choix manquante/);
+});
