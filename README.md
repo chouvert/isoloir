@@ -115,6 +115,11 @@ Format ISO `AAAA-MM-JJ` partout.
   en débat ou interview (avec date).
 - Les chiffrages indépendants sont cités avec le nom de l'organisme, en croisant plusieurs
   organismes de sensibilités différentes quand c'est possible.
+- Les agrégateurs (sites qui compilent les programmes des candidats) ne sont jamais cités comme
+  source d'un fait. Exception : quand la source primaire n'est pas consultable en ligne, un
+  agrégateur qui la cite peut servir de relevé, mentionné à côté de la source primaire.
+- ÉlyséeScope est exclu, y compris comme relevé : chiffres incohérents et sources invérifiables
+  constatés lors du pilote.
 
 ### Faits et analyse
 - Les sections « Profil », « Positions », « Propositions » et « Évolutions » ne contiennent que
