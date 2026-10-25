@@ -20,12 +20,60 @@ le calcul à la main.
 
 | Donnée                       | Origine                                         | Étape du parcours |
 |------------------------------|-------------------------------------------------|-------------------|
+| Préoccupations choisies      | Jusqu'à 3, parmi `referentiel/preoccupations.md` | 1 — Préoccupations |
 | Poids des thèmes             | 100 points répartis par l'utilisateur           | 2 — Priorités     |
 | Réponses de l'utilisateur    | Une option par dilemme, ou « sans avis »        | 3 — Dilemmes      |
 | Réponses des candidats       | Section « Réponses aux dilemmes » des fiches    | —                 |
 | Options voisines             | Ligne `voisines` de chaque dilemme              | —                 |
 | Choix à l'aveugle            | Duels de propositions                           | 4 — Duels         |
 | Notes de faisabilité         | Section « Analyse de faisabilité » des fiches   | —                 |
+
+## 0. Préoccupations : pré-remplissage du budget et ordre des dilemmes
+
+Les préoccupations n'entrent pas dans le calcul de proximité. Elles préparent les deux étapes
+suivantes, que l'utilisateur garde entièrement en main.
+
+### Pré-remplissage du budget
+L'utilisateur choisit jusqu'à 3 préoccupations. Le budget de 100 points est pré-rempli ainsi :
+
+1. **60 points** sont répartis à parts égales entre les 9 thèmes ;
+2. **40 points** sont répartis entre les thèmes des préoccupations choisies : chaque préoccupation
+   donne 2 parts à son thème principal et 1 part à son thème secondaire ; les parts s'additionnent
+   quand plusieurs préoccupations touchent le même thème ;
+3. sans préoccupation choisie (« Rien de tout ça en particulier »), les 100 points sont répartis
+   à parts égales ;
+4. les valeurs sont arrondies à l'entier en gardant un total de 100 (méthode du plus fort reste) :
+   chaque thème reçoit la partie entière de sa valeur, puis les points restants vont, un par un,
+   aux thèmes dont la partie décimale est la plus grande. **Les égalités sont départagées par
+   tirage au sort**, pour qu'aucun thème ne soit systématiquement avantagé par l'arrondi.
+
+L'écran indique que le budget est pré-rempli d'après les choix de l'utilisateur, qui l'ajuste
+librement, y compris jusqu'à 0 point pour un thème.
+
+**Exemple.** Préoccupations : « Boucler les fins de mois » (eco 2 parts, social 1 part),
+« La retraite » (social 2 parts), « Le climat et l'environnement » (env 2 parts). Soit 7 parts :
+eco 2, social 3, env 2.
+
+| thème              | 60 / 9 | part des 40 | valeur exacte | arrondi |
+|--------------------|--------|-------------|---------------|---------|
+| eco                | 6,67   | 40 × 2/7    | 18,10         | 18      |
+| social             | 6,67   | 40 × 3/7    | 23,81         | 24      |
+| env                | 6,67   | 40 × 2/7    | 18,10         | 18      |
+| 6 autres thèmes    | 6,67   | 0           | 6,67          | 7 pour 4 d'entre eux, 6 pour 2 (tirage) |
+
+Total : 18 + 24 + 18 + 4 × 7 + 2 × 6 = 100.
+
+### Ordre des dilemmes
+Une fois le budget validé :
+
+1. les dilemmes associés aux préoccupations choisies sont posés en premier, dans l'ordre où
+   l'utilisateur a choisi ses préoccupations ;
+2. viennent ensuite les autres dilemmes, par thème du plus doté au moins doté en points (égalités
+   tirées au sort), et dans l'ordre du référentiel au sein d'un thème ;
+3. les dilemmes des thèmes à 0 point ne sont pas posés, même s'ils sont liés à une
+   préoccupation choisie.
+
+L'utilisateur peut s'arrêter dès 5 dilemmes répondus (voir « Minimum de réponses »).
 
 ## 1. Accord sur un dilemme
 

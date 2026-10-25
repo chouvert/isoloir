@@ -15,6 +15,7 @@ comparatif-programme-presidentielles/
 ├── referentiel/
 │   ├── themes.md                 # liste fermée des thèmes
 │   ├── questions.md              # questions-clés posées à tous les candidats
+│   ├── preoccupations.md         # préoccupations proposées en entrée du parcours web
 │   ├── dilemmes.md               # dilemmes posés aux utilisateurs du parcours web
 │   ├── methode-proximite.md      # méthode de calcul de la proximité utilisateur-candidats
 │   └── faisabilite.md            # grille et barème de faisabilité
@@ -49,6 +50,7 @@ Ce qui est vérifié :
 | Domaine          | Contrôles                                                                                     |
 |------------------|-----------------------------------------------------------------------------------------------|
 | Référentiel      | Identifiants uniques et bien formés ; chaque question et chaque dilemme rattachés à un thème existant |
+| Préoccupations   | Identifiants et libellés uniques ; thèmes existants ; dilemme actif appartenant au thème principal ou secondaire ; chaque thème principal d'au moins une préoccupation |
 | Dilemmes         | Statut autorisé (actif, brouillon, obsolète) ; énoncé présent ; au moins deux options, chacune avec libellé et contrepartie ; voisinages entre options existantes |
 | Gabarit          | `_modele.md` contient toutes les questions actives, tous les dilemmes actifs et tous les thèmes du référentiel |
 | Frontmatter      | Champs obligatoires (`id`, `nom`, `statut`, `derniere_maj`) ; `id` = nom du fichier ; statut autorisé ; dates ISO |
@@ -64,10 +66,11 @@ différentes selon les candidats, comparatif thématique désynchronisé des fic
 
 ## Calcul de proximité
 
-`scripts/lib/proximite.mjs` implémente `referentiel/methode-proximite.md`. Le module n'a aucune
-dépendance et n'accède pas au disque : il est conçu pour tourner dans le navigateur de
-l'utilisateur, dont les réponses ne quittent jamais l'appareil. L'exemple chiffré de la méthode
-sert de test (`tests/proximite.test.mjs`) : toute modification du calcul qui changerait ce
+`scripts/lib/parcours.mjs` (pré-remplissage du budget, ordre des dilemmes) et
+`scripts/lib/proximite.mjs` (score) implémentent `referentiel/methode-proximite.md`. Ces modules
+n'ont aucune dépendance et n'accèdent pas au disque : ils sont conçus pour tourner dans le navigateur de
+l'utilisateur, dont les réponses ne quittent jamais l'appareil. Les exemples chiffrés de la méthode
+servent de tests (`tests/parcours.test.mjs`, `tests/proximite.test.mjs`) : toute modification du calcul qui changerait ce
 résultat fait échouer les tests.
 
 ## Conventions

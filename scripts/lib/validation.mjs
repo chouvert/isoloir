@@ -47,7 +47,8 @@ export function lireReferentiel(racine, rapport) {
     positions: [],              // valeurs autorisées
     criteres: [],               // F-xxx
     confiances: [],             // élevé | moyen | faible
-    dilemmes: new Map(),        // id -> { theme, statut, options: string[] }
+    dilemmes: new Map(),        // id -> { theme, statut, options: string[], voisines: string[][] }
+    preoccupations: new Map(),  // id -> { libelle, explication, principal, secondaire, dilemme }
   };
 
   // Thèmes
@@ -108,7 +109,51 @@ export function lireReferentiel(racine, rapport) {
   else ref.confiances = tConf.lignes.map((l) => normaliser(l.cellules.valeur)).filter(Boolean);
 
   lireDilemmes(racine, ref, rapport);
+  lirePreoccupations(racine, ref, rapport);
   return ref;
+}
+
+/** Préoccupations : un tableau, chaque thème principal d'au moins une préoccupation. */
+function lirePreoccupations(racine, ref, rapport) {
+  const fichier = 'referentiel/preoccupations.md';
+  const colonnes = ['id', 'libellé', 'explication', 'thème principal', 'thème secondaire', 'dilemme'];
+  const t = trouverTableau(lireTableaux(lire(racine, fichier)), colonnes);
+  if (!t) { rapport.erreur(fichier, 1, `tableau des préoccupations (${colonnes.join(', ')}) introuvable`); return; }
+  const vide = (v) => v === '' || v === '—' || v === '-';
+  const libelles = new Set();
+  for (const { cellules, ligne } of t.lignes) {
+    const id = nettoyerId(cellules.id);
+    if (!/^P-[a-z0-9]+(-[a-z0-9]+)*$/.test(id)) { rapport.erreur(fichier, ligne, `identifiant de préoccupation invalide « ${id} » (format P-<mot>)`); continue; }
+    if (ref.preoccupations.has(id)) { rapport.erreur(fichier, ligne, `préoccupation « ${id} » définie deux fois`); continue; }
+    const libelle = cellules[normaliser('libellé')];
+    const explication = cellules.explication;
+    const principal = nettoyerId(cellules[normaliser('thème principal')]);
+    const secondaireBrut = nettoyerId(cellules[normaliser('thème secondaire')]);
+    const dilemmeBrut = nettoyerId(cellules.dilemme);
+    const secondaire = vide(secondaireBrut) ? null : secondaireBrut;
+    const dilemme = vide(dilemmeBrut) ? null : dilemmeBrut;
+
+    if (!libelle) rapport.erreur(fichier, ligne, `préoccupation « ${id} » : libellé vide`);
+    else if (libelles.has(normaliser(libelle))) rapport.erreur(fichier, ligne, `préoccupation « ${id} » : libellé déjà utilisé`);
+    libelles.add(normaliser(libelle));
+    if (!explication) rapport.erreur(fichier, ligne, `préoccupation « ${id} » : explication vide`);
+    if (!ref.themes.has(principal)) rapport.erreur(fichier, ligne, `préoccupation « ${id} » : thème principal inconnu « ${principal} »`);
+    if (secondaire && !ref.themes.has(secondaire)) rapport.erreur(fichier, ligne, `préoccupation « ${id} » : thème secondaire inconnu « ${secondaire} »`);
+    if (secondaire && secondaire === principal) rapport.erreur(fichier, ligne, `préoccupation « ${id} » : thème secondaire identique au principal`);
+    if (dilemme) {
+      const d = ref.dilemmes.get(dilemme);
+      if (!d) rapport.erreur(fichier, ligne, `préoccupation « ${id} » : dilemme inconnu « ${dilemme} »`);
+      else {
+        if (d.statut !== 'actif') rapport.erreur(fichier, ligne, `préoccupation « ${id} » : dilemme « ${dilemme} » non actif`);
+        if (d.theme !== principal && d.theme !== secondaire) rapport.erreur(fichier, ligne, `préoccupation « ${id} » : dilemme « ${dilemme} » hors de ses thèmes`);
+      }
+    }
+    ref.preoccupations.set(id, { libelle, explication, principal, secondaire, dilemme });
+  }
+  const couverts = new Set([...ref.preoccupations.values()].map((p) => p.principal));
+  for (const theme of ref.themes.keys()) {
+    if (!couverts.has(theme)) rapport.erreur(fichier, t.ligne, `thème « ${theme} » : aucune préoccupation ne l'a pour thème principal`);
+  }
 }
 
 /**
@@ -486,7 +531,7 @@ function validerComparatifTheme(racine, fichier, ref, fiches, rapport) {
 
 export function validerBase(racine) {
   const rapport = new Rapport();
-  for (const f of ['referentiel/themes.md', 'referentiel/questions.md', 'referentiel/faisabilite.md', 'referentiel/dilemmes.md', 'candidats/_modele.md']) {
+  for (const f of ['referentiel/themes.md', 'referentiel/questions.md', 'referentiel/faisabilite.md', 'referentiel/dilemmes.md', 'referentiel/preoccupations.md', 'candidats/_modele.md']) {
     if (!existsSync(join(racine, f))) rapport.erreur(f, 1, 'fichier obligatoire manquant');
   }
   if (rapport.erreurs.length) return rapport;

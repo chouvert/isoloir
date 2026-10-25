@@ -257,3 +257,15 @@ test('référentiel : question rattachée à un thème inconnu', () => {
     '| Q-instit-constit', '| Q-sport-jo | sport | JO ? | ouverte | actif |\n| Q-instit-constit')));
   assert.match(messages(r), /thème inconnu « sport »/);
 });
+
+test('préoccupations : thème inconnu, dilemme hors thème, thème non couvert, doublon', () => {
+  const r = valider((d) => editer(d, 'referentiel/preoccupations.md', (t) => t
+    .replace(/^\| P-logement .*$/m, '| P-logement | Se loger | Loyers | habitat | — | — |')
+    .replace(/^\| P-dette .*$/m, '| P-dette | La dette | Déficit | eco | — | D-env-rythme |')
+    .replace(/^\| P-confiance .*$/m, '| P-confiance | La retraite | Institutions | social | — | — |')));
+  const m = messages(r);
+  assert.match(m, /« P-logement » : thème principal inconnu « habitat »/);
+  assert.match(m, /« P-dette » : dilemme « D-env-rythme » hors de ses thèmes/);
+  assert.match(m, /« P-confiance » : libellé déjà utilisé/);
+  assert.match(m, /thème « instit » : aucune préoccupation ne l'a pour thème principal/);
+});
