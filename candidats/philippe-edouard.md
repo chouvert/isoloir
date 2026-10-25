@@ -73,6 +73,15 @@ Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ». -->
 | D-sante-deserts | pas de position |  |  |
 | D-instit-participation | pas de position |  |  |
 
+## Propositions phares
+<!-- Règle : README, « Propositions phares ». Pas de résumé en quelques mesures sur le site du
+candidat au 2026-10-25 : les trois annonces dédiées les plus récentes au contenu vérifiable. -->
+| rang | proposition | motif | source |
+|------|-------------|-------|--------|
+| 1 | social-01 | Annonce dédiée la plus récente : projet de réforme des retraites présenté le 2026-09-29 | [Journal du Net, 2026-09-30](https://www.journaldunet.com/business/action-publique/1555605-edouard-philippe-devoile-son-projet-de-reforme-des-retraites-pour-la-presidentielle-2027-prevoyant-un-depart-a-65-ans-et-45-annuites/) |
+| 2 | env-02 | Annonce dédiée : plan de « sécurité climatique » présenté aux Ponts-de-Cé le 2026-09-17 | [L'Info Durable (AFP), 2026-09-17](https://www.linfodurable.fr/entre-le-deni-du-rn-et-le-dogme-de-lfi-le-plan-dedouard-philippe-pour-une-politique-de-securite) |
+| 3 | immig-05 | Annonce dédiée : déplacement à Mayotte consacré à l'immigration, 2026-08-21 | [Euronews, 2026-08-21](https://fr.euronews.com/2026/08/21/a-mayotte-edouard-philippe-place-limmigration-au-coeur-de-sa-campagne-pour-2027) |
+
 ## Propositions par thème
 <!-- Identifiants <theme>-<nn>, jamais réutilisés. Chiffrages en Md€/an sauf mention. -->
 

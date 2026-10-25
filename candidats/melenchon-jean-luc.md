@@ -77,6 +77,14 @@ Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ». -->
 | D-sante-deserts | A | Régulation de l'installation des médecins (sante-07) : contrainte proche de l'option A, sans obligation d'exercice limitée dans le temps | [Plan Ruralité](https://melenchon2027.fr/programme/plans-thematiques/ruralite/) |
 | D-instit-participation | A | Référendum d'initiative citoyenne (instit-03) ; il propose aussi la proportionnelle (option B, non voisine) | [AEC 2025](https://melenchon2027.fr/programme2025/livre/) ([relevé](https://votons-2027.fr/candidats/melenchon/programme)) |
 
+## Propositions phares
+<!-- Règle : README, « Propositions phares ». -->
+| rang | proposition | motif | source |
+|------|-------------|-------|--------|
+| 1 | social-01 | 1re mesure du résumé du programme par le candidat : « Retraite à 60 ans, SMIC à 1600 € net, planification écologique, 6e République » | [Page du livre-programme, description](https://melenchon2027.fr/programme2025/livre/) |
+| 2 | social-02 | 2e mesure du même résumé (montant porté à 1 700 € net depuis, voir Évolutions) | [Page du livre-programme, description](https://melenchon2027.fr/programme2025/livre/) |
+| 3 | env-05 | 3e mesure du même résumé (« planification écologique ») | [Page du livre-programme, description](https://melenchon2027.fr/programme2025/livre/) |
+
 ## Propositions par thème
 <!-- Identifiants <theme>-<nn>, jamais réutilisés. Chiffrages en Md€/an sauf mention. -->
 

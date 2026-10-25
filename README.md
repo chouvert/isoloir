@@ -69,6 +69,7 @@ Ce qui est vérifié :
 | Frontmatter      | Champs obligatoires (`id`, `nom`, `statut`, `derniere_maj`) ; `id` = nom du fichier ; statut autorisé ; dates ISO |
 | Positions        | Toutes les questions actives présentes une seule fois ; valeurs autorisées pour les questions fermées ; une source par position renseignée |
 | Dilemmes (fiche) | Tous les dilemmes actifs présents une seule fois ; réponse = option existante, `aucune` ou `pas de position` ; justification et source pour toute réponse autre que `pas de position` |
+| Phares           | Au plus 3 ; chacune renvoie à une proposition de la fiche, une seule fois, avec motif et source du choix |
 | Propositions     | Une sous-section par thème ; identifiants `<theme>-NN` uniques ; texte et source présents      |
 | Évolutions       | Format `- AAAA-MM-JJ : description`                                                           |
 | Faisabilité      | Tous les critères notés de 1 à 5 avec justification ; note globale = moyenne arrondie au demi-point ; confiance autorisée ; texte « Pourquoi cette note » présent |
@@ -120,6 +121,19 @@ Format ISO `AAAA-MM-JJ` partout.
   agrégateur qui la cite peut servir de relevé, mentionné à côté de la source primaire.
 - ÉlyséeScope est exclu, y compris comme relevé : chiffres incohérents et sources invérifiables
   constatés lors du pilote.
+
+### Propositions phares
+Chaque fiche désigne jusqu'à 3 propositions mises en avant dans l'interface. Pour que ce choix
+ne soit pas éditorial, il suit une règle identique pour tous :
+
+1. **Le résumé du candidat.** S'il résume lui-même son programme en quelques mesures (accroche du
+   programme, page d'accueil, affiche, profession de foi), on retient les 3 premières, dans son ordre.
+2. **À défaut, ses annonces dédiées.** On retient les 3 annonces les plus récentes que le candidat a
+   consacrées à un thème (discours, déplacement, publication), à condition que leur contenu soit
+   vérifiable, et pour chacune la mesure principale présentée.
+
+Chaque phare renvoie à une proposition sourcée de la fiche et indique le motif et la source du
+choix. Les phares sont revus à chaque mise à jour du programme.
 
 ### Faits et analyse
 - Les sections « Profil », « Positions », « Propositions » et « Évolutions » ne contiennent que
