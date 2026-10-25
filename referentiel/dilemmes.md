@@ -42,7 +42,8 @@ Dans la fiche de chaque candidat, chaque dilemme actif reçoit une valeur :
 
 Règles de rattachement, identiques pour tous les candidats :
 - on retient l'option qui correspond à l'**orientation principale** du candidat sur le sujet : la mesure
-  qu'il chiffre, ou à défaut celle qu'il présente en premier ; les autres options qu'il défend sont
+  qu'il chiffre (montant en euros ; un objectif quantifié comme « moins de 20 élèves par classe »
+  n'est pas un chiffrage), ou à défaut celle qu'il présente en premier ; les autres options qu'il défend sont
   mentionnées dans la justification ;
 - une option est retenue dès que son idée est sourcée ; on n'exige pas d'éléments qu'elle ne contient pas ;
 - `aucune` est réservé à une approche qui ne correspond réellement à aucune option, et non à une
