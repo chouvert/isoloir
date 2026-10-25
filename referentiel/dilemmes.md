@@ -95,12 +95,13 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 ### D-social-chomage
 - statut : actif
 - voisines : B-D (deux formes d'accompagnement des demandeurs d'emploi)
+- historique : 2026-10-25, option A reformulée ; elle associait obligations des demandeurs d'emploi et réduction des indemnités
 
 > Des emplois restent vacants alors que le chômage persiste. Quelle approche privilégier ?
 
 | option | libellé                                                                | contrepartie souvent avancée                             |
 |--------|------------------------------------------------------------------------|----------------------------------------------------------|
-| A      | Renforcer les obligations des demandeurs d'emploi et réduire certaines indemnités | Pression accrue sur des personnes en difficulté |
+| A      | Réduire la durée ou le montant de certaines indemnités pour inciter à la reprise d'emploi | Pression accrue sur des personnes en difficulté |
 | B      | Investir davantage dans la formation et l'accompagnement               | Coût élevé, effets lents                                 |
 | C      | Rendre les métiers en tension plus attractifs (salaires, conditions)   | Hausse des coûts pour les employeurs et des prix         |
 | D      | Faciliter la mobilité géographique (logement, transport)               | Effet limité si les ménages ne veulent pas déménager     |
@@ -209,13 +210,14 @@ interprétation du programme : il doit pouvoir être vérifié par n'importe que
 ### D-educ-niveau
 - statut : actif
 - voisines : A-B (deux hausses de moyens humains)
+- historique : 2026-10-25, option B reformulée ; elle associait rémunération et formation des enseignants
 
 > Pour améliorer le niveau des élèves, un seul effort peut être financé. Lequel ?
 
 | option | libellé                                                        | contrepartie souvent avancée                             |
 |--------|----------------------------------------------------------------|----------------------------------------------------------|
 | A      | Réduire le nombre d'élèves par classe                           | Coût élevé, besoin de recruter beaucoup d'enseignants    |
-| B      | Mieux payer et mieux former les enseignants                     | Coût élevé, effets progressifs                            |
+| B      | Mieux payer les enseignants                                     | Coût élevé, effets progressifs                            |
 | C      | Donner plus d'autonomie aux établissements                      | Risque d'écarts accrus entre établissements              |
 | D      | Recentrer sur les fondamentaux avec des évaluations régulières  | Moins de place pour d'autres enseignements               |
 
