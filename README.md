@@ -32,6 +32,19 @@ comparatif-programme-presidentielles/
 └── .github/workflows/            # contrôle automatique sur GitHub
 ```
 
+## Candidats inclus
+
+La base retient, selon une règle identique pour tous :
+
+1. **Jusqu'à la publication de la liste officielle** par le Conseil constitutionnel :
+   - les candidats déclarés ou investis par un parti disposant d'au moins un député ou un sénateur ;
+   - les candidats déclarés qui atteignent au moins 2 % des intentions de vote au premier tour
+     dans au moins deux instituts de sondage différents, sur les sondages du dernier mois.
+2. **Après la publication de la liste officielle** : tous les candidats officiels, et eux seuls.
+
+Un candidat qui retire sa candidature passe au statut `retiré` ; sa fiche est conservée.
+La règle est réexaminée à chaque mise à jour importante des sondages.
+
 ## Contrôle de la base
 
 Un script vérifie la cohérence des données à chaque push et sur chaque pull request
