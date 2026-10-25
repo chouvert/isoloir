@@ -15,6 +15,7 @@ comparatif-programme-presidentielles/
 ├── referentiel/
 │   ├── themes.md                 # liste fermée des thèmes
 │   ├── questions.md              # questions-clés posées à tous les candidats
+│   ├── candidats-inclus.md       # application de la règle d'inclusion
 │   ├── preoccupations.md         # préoccupations proposées en entrée du parcours web
 │   ├── dilemmes.md               # dilemmes posés aux utilisateurs du parcours web
 │   ├── methode-proximite.md      # méthode de calcul de la proximité utilisateur-candidats
@@ -43,6 +44,7 @@ La base retient, selon une règle identique pour tous :
 2. **Après la publication de la liste officielle** : tous les candidats officiels, et eux seuls.
 
 Un candidat qui retire sa candidature passe au statut `retiré` ; sa fiche est conservée.
+L'application de la règle, candidat par candidat, est tenue dans `referentiel/candidats-inclus.md`.
 La règle est réexaminée à chaque mise à jour importante des sondages.
 
 ## Contrôle de la base
