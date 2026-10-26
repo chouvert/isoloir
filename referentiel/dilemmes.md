@@ -46,6 +46,8 @@ Règles de rattachement, identiques pour tous les candidats :
   n'est pas un chiffrage), ou à défaut celle qu'il présente en premier ; les autres options qu'il défend sont
   mentionnées dans la justification ;
 - une option est retenue dès que son idée est sourcée ; on n'exige pas d'éléments qu'elle ne contient pas ;
+- le rattachement repose sur une position du **candidat lui-même** ; une position de son parti ou de
+  son équipe peut être mentionnée dans la justification, mais ne suffit pas à elle seule ;
 - `aucune` est réservé à une approche qui ne correspond réellement à aucune option, et non à une
   orientation proche d'une option mais formulée autrement.
 
