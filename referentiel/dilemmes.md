@@ -46,8 +46,13 @@ Règles de rattachement, identiques pour tous les candidats :
   n'est pas un chiffrage), ou à défaut celle qu'il présente en premier ; les autres options qu'il défend sont
   mentionnées dans la justification ;
 - une option est retenue dès que son idée est sourcée ; on n'exige pas d'éléments qu'elle ne contient pas ;
-- le rattachement repose sur une position du **candidat lui-même** ; une position de son parti ou de
-  son équipe peut être mentionnée dans la justification, mais ne suffit pas à elle seule ;
+- le rattachement repose sur une position **de la campagne** : celle du candidat, de son programme, de
+  son équipe (directeur de campagne, porte-parole) ou du parti qui l'a investi, tant qu'il ne s'en est
+  pas démarqué. Pour un candidat désigné par une primaire ouverte ou soutenu par une coalition, seules
+  comptent sa parole, son programme et son équipe. Un élu qui s'exprime à titre personnel (député,
+  sénateur sans rôle dans la campagne) est un indice, pas une position de campagne. En cas de
+  désaccord, la parole du candidat l'emporte. Une position qui ne vient pas du candidat lui-même reste
+  signalée « (parti : Nom) » ou « (équipe : Nom, fonction) » ;
 - `aucune` est réservé à une approche qui ne correspond réellement à aucune option, et non à une
   orientation proche d'une option mais formulée autrement.
 
