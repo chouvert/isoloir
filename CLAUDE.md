@@ -24,7 +24,7 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 npm install
 npm run valider          # contrôle des données (0 erreur exigé)
 npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
-node --test tests/*.test.mjs   # ou npm test (95 tests)
+node --test tests/*.test.mjs   # ou npm test (99 tests)
 ```
 
 ## Git et GitHub
