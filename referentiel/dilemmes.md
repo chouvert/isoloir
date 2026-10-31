@@ -45,6 +45,10 @@ Règles de rattachement, identiques pour tous les candidats :
   qu'il chiffre (montant en euros ; un objectif quantifié comme « moins de 20 élèves par classe »
   n'est pas un chiffrage), ou à défaut celle qu'il présente en premier ; les autres options qu'il défend sont
   mentionnées dans la justification ;
+- s'il chiffre en euros plusieurs mesures relevant d'options différentes, on retient celle qui pèse le
+  plus dans le budget ; un montant unitaire sans coût total annoncé (« 15 centimes par litre »,
+  « 7 000 euros par enseignant ») compte comme chiffrage, mais cède devant un montant budgétaire total ;
+  l'ordre de présentation ne sert que si aucune mesure n'est chiffrée ;
 - une option est retenue dès que son idée est sourcée ; on n'exige pas d'éléments qu'elle ne contient pas ;
 - le rattachement repose sur une position **de la campagne** : celle du candidat, de son programme, de
   son équipe (directeur de campagne, porte-parole) ou du parti qui l'a investi, tant qu'il ne s'en est
