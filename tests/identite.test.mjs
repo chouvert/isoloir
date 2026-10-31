@@ -36,3 +36,32 @@ test('couleurs : contrastes AA (4,5:1) en clair et en sombre', () => {
     }
   }
 });
+
+const LOGOS = ['logo.svg', 'logo-sombre.svg', 'symbole.svg', 'symbole-sombre.svg', 'favicon.svg'];
+
+test('logos : fichiers présents et SVG avec viewBox, xmlns et titre', () => {
+  for (const f of LOGOS) {
+    const svg = lire(`identite/${f}`).trim();
+    assert.ok(svg.startsWith('<svg'), `${f} : doit commencer par <svg`);
+    assert.match(svg, /viewBox="[^"]+"/, `${f} : viewBox`);
+    assert.match(svg, /xmlns="http:\/\/www\.w3\.org\/2000\/svg"/, `${f} : xmlns`);
+    assert.match(svg, /<title>[^<]+<\/title>/, `${f} : titre`);
+  }
+});
+
+test('logos : uniquement des couleurs de la palette (neutralité)', () => {
+  const palette = new Set(Object.values(couleurs()).flatMap((c) => Object.values(c)).map((h) => h.toUpperCase()));
+  for (const f of LOGOS) {
+    const trouvees = lire(`identite/${f}`).match(/#[0-9a-fA-F]{6}\b|#[0-9a-fA-F]{3}\b/g) ?? [];
+    assert.ok(trouvees.length > 0, `${f} : aucune couleur`);
+    for (const h of trouvees) assert.ok(palette.has(h.toUpperCase()), `${f} : couleur hors palette ${h}`);
+  }
+});
+
+test('logos : pas de dépendance à une police (nom en tracés)', () => {
+  for (const f of LOGOS) assert.doesNotMatch(lire(`identite/${f}`), /<text\b/, f);
+});
+
+test('favicon : viewBox 32 × 32', () => {
+  assert.match(lire('identite/favicon.svg'), /viewBox="0 0 32 32"/);
+});

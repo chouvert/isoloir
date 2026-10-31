@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img"><title>L’Isoloir</title>
+  <rect width="32" height="32" rx="6" fill="#F5F0E6"/>
+  <rect x="4" y="5" width="24" height="3" rx="1.5" fill="#23232B"/>
+  <path d="M5 8 H14 C11.5 15 11.5 21 14 28 H5 Z" fill="#1F6F73"/>
+  <rect x="17" y="13" width="10.5" height="13" rx="1.5" fill="none" stroke="#23232B" stroke-width="2.2"/>
+  <path d="M19.3 19.6 L21.5 21.8 L25.3 17.4" fill="none" stroke="#23232B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
