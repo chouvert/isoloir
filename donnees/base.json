@@ -15053,5 +15053,677 @@
       ],
       "faisabilite": null
     }
-  ]
+  ],
+  "duels": {
+    "participants": {
+      "D-eco-dette": {
+        "A": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "eco-01",
+            "texte": "Plan d'économies sans hausse d'impôts, ouvert par un frein d'urgence dès l'élection pour stopper l'hémorragie ; deux tiers des économies sur les dépenses sociales, jugées hors de contrôle"
+          },
+          {
+            "candidat": "le-pen-marine",
+            "proposition": "eco-01",
+            "texte": "Réaliser 140 Md€ d'économies nettes, surtout les trois premières années : équilibre primaire en 18 mois, déficit sous 3 % du PIB en 2030 et sous 2,5 % en 2032, dépenses publiques sous 50 % du PIB, dette à 112 % du PIB en 2032"
+          },
+          {
+            "candidat": "lisnard-david",
+            "proposition": "eco-01",
+            "texte": "Baisser la dépense publique : 200 milliards d’euros de baisse de la dépense publique documentés, objectif de 300 Md€ ; Mon objectif, sur dix ans, consiste à ramener notre dépense publique au niveau actuel des Pays-Bas"
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "eco-03",
+            "texte": "Ramener le déficit public de plus de 5 % à 2 % du PIB : effort sur les dépenses sociales, l'État et les collectivités, et la croissance"
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "eco-01",
+            "texte": "Plan d'économies de 197 Md€ sans augmentation d'impôts : État 96 Md€, social 91 Md€, collectivités 10 Md€ ; 146 Md€ pour réduire la dépense et la dette, 51 Md€ d'allègements ; déficit sous 3 % du PIB en 2031 et à 2,2 % en 2032"
+          },
+          {
+            "candidat": "zemmour-eric",
+            "proposition": "eco-01",
+            "texte": "Baisser les dépenses publiques d'au moins 100 Md€ par an"
+          }
+        ],
+        "B": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "eco-01",
+            "texte": "Rétablir un ISF renforcé"
+          }
+        ],
+        "C": [],
+        "D": []
+      },
+      "D-eco-pouvoir-achat": {
+        "A": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "social-02",
+            "texte": "Porter le SMIC à 1 700 € net"
+          },
+          {
+            "candidat": "tondelier-marine",
+            "proposition": "social-01",
+            "texte": "Augmenter le SMIC et mettre en place une indexation des bas salaires sur l'inflation ; Passer le salaire minimum à 2000€ brut par mois dès 2027, avec des dispositifs de soutien aux TPE, PME et associations"
+          }
+        ],
+        "B": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "social-04",
+            "texte": "un choc des salaires : réduire les charges pour rapprocher le net du brut, en réduisant les charges salariales pour faire monter le salaire net ; financement non précisé"
+          },
+          {
+            "candidat": "glucksmann-raphael",
+            "proposition": "eco-02",
+            "texte": "Baisser la CSG sur les salaires pour rapprocher le salaire net du salaire brut, financé par : Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages"
+          },
+          {
+            "candidat": "lisnard-david",
+            "proposition": "eco-02",
+            "texte": "Rendre aux actifs, en salaire net, une partie des économies par la baisse des cotisations et l'alignement de la CSG des actifs sur celle des inactifs ; baisse durable des charges entre 2 et 4 SMIC"
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "social-04",
+            "texte": "Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures"
+          }
+        ],
+        "C": [
+          {
+            "candidat": "le-pen-marine",
+            "proposition": "eco-04",
+            "texte": "Ramener la TVA de 20 % à 5,5 % sur l'électricité, le gaz et les carburants"
+          },
+          {
+            "candidat": "roussel-fabien",
+            "proposition": "eco-02",
+            "texte": "Carburants : supprimer tout de suite les certificats d'économie d'énergie qu'ils ont mis sur le litre d'essence depuis le 1er janvier ; baisser la TVA sur les carburants de 20% à 5,5% ; obliger TotalEnergies à réduire ses marges"
+          },
+          {
+            "candidat": "zemmour-eric",
+            "proposition": "eco-03",
+            "texte": "Baisser d'un tiers l'accise sur les carburants, financée par des économies"
+          }
+        ],
+        "D": []
+      },
+      "D-social-retraites": {
+        "A": [
+          {
+            "candidat": "lisnard-david",
+            "proposition": "social-01",
+            "texte": "Âge légal de 65 ans : la norme de l'âge légal de 65 ans est un impératif national urgent pour des raisons d'équilibre financier"
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "social-01",
+            "texte": "Porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans, sans hausse des cotisations ni baisse générale des pensions ; départs anticipés maintenus pour raisons de santé"
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "social-01",
+            "texte": "Âge minimal de départ à 63 ans avec une décote de 7 % par an ; taux plein automatique à 65 ans au lieu de 67, même sans tous les trimestres ; départ à taux plein à 63 ans pour les carrières longues complètes ; prise en compte du handicap, de la pénibilité et de l'usure professionnelle"
+          },
+          {
+            "candidat": "zemmour-eric",
+            "proposition": "social-01",
+            "texte": "Allonger la durée de cotisation pour la retraite, en excluant de diminuer la retraite des gens"
+          }
+        ],
+        "B": [],
+        "C": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "eco-01",
+            "texte": "Rétablir un ISF renforcé"
+          }
+        ],
+        "D": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "social-02",
+            "texte": "Introduire une part de capitalisation : 1 000 € versés par l'État à la naissance de chaque enfant sur un plan d'épargne retraite que les parents et grands-parents pourraient abonder jusqu'aux 18 ans de l'enfant ; mesure annoncée en novembre 2025 comme amendement au PLF"
+          },
+          {
+            "candidat": "le-pen-marine",
+            "proposition": "social-02",
+            "texte": "Créer un véritable pilier de capitalisation dans le système de retraite"
+          }
+        ]
+      },
+      "D-social-chomage": {
+        "A": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "social-05",
+            "texte": "Reprendre la réforme de l'assurance chômage engagée en 2024 et bloquée par la dissolution, qui créerait 100 000 emplois supplémentaires ; elle réduisait la durée d'indemnisation de 18 à 15 mois"
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "social-03",
+            "texte": "Limiter l'indemnisation chômage à 12 mois pour les moins de 50 ans"
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "social-03",
+            "texte": "Aligner les modalités des allocations chômage sur les standards européens"
+          }
+        ],
+        "B": [],
+        "C": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "social-02",
+            "texte": "Porter le SMIC à 1 700 € net"
+          }
+        ],
+        "D": []
+      },
+      "D-env-electricite": {
+        "A": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "env-01",
+            "texte": "Construire 14 nouveaux réacteurs nucléaires, à terme un par an"
+          },
+          {
+            "candidat": "lisnard-david",
+            "proposition": "env-01",
+            "texte": "Nucléaire : prolongation de la durée de vie des réacteurs jusqu'à 60 ans, construction d'EPR de nouvelle génération, déploiement de mini-réacteurs nucléaires, recherche sur le traitement des déchets par laser"
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "env-01",
+            "texte": "Lancer 8 EPR supplémentaires, soit 14 au total"
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "env-01",
+            "texte": "Stratégie énergétique fondée en priorité sur le nucléaire, les renouvelables ne venant qu'en complément"
+          },
+          {
+            "candidat": "zemmour-eric",
+            "proposition": "env-01",
+            "texte": "Relancer le nucléaire : six EPR d'ici 2035, quatorze d'ici 2045 ; l'électricité française cessera d'être bradée"
+          }
+        ],
+        "B": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "env-03",
+            "texte": "Sortir du nucléaire : abandon des projets d'EPR, planification du démantèlement"
+          }
+        ],
+        "C": [],
+        "D": []
+      },
+      "D-env-rythme": {
+        "A": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "env-03",
+            "texte": "tripler notre rythme annuel de réduction des émissions, de 1,8 % à 5 % par an ; baisser de moitié les émissions de gaz à effet de serre dans les dix ans à venir"
+          },
+          {
+            "candidat": "glucksmann-raphael",
+            "proposition": "env-01",
+            "texte": "Engager les 100 jours de la révolution écologique dès l'élection, avec pour priorité la sortie du gaz et du pétrole ; rénovation thermique des bâtiments, efficacité énergétique, sobriété"
+          }
+        ],
+        "B": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "env-01",
+            "texte": "Réduire de 65 % les émissions de gaz à effet de serre en 2030, avec un bilan annuel public"
+          },
+          {
+            "candidat": "ruffin-francois",
+            "proposition": "eco-01",
+            "texte": "Mise en place d'une taxe de 4% sur les dividendes des entreprises pour financer la transition écologique, 2 % pour les entreprises versant moins de 10 M€ de dividendes ; mesure à soumettre par référendum"
+          },
+          {
+            "candidat": "tondelier-marine",
+            "proposition": "env-03",
+            "texte": "une fiscalité sur les entreprises fossiles et les ménages les plus émetteurs en carbone ; Supprimer progressivement les niches fiscales qui favorisent les énergies fossiles ; taxe exceptionnelle sur les superprofits pétrogaziers"
+          }
+        ],
+        "C": [],
+        "D": [
+          {
+            "candidat": "le-pen-marine",
+            "proposition": "env-04",
+            "texte": "Supprimer le zéro artificialisation nette ; réduire le DPE à un simple élément indicatif"
+          },
+          {
+            "candidat": "lisnard-david",
+            "proposition": "eco-07",
+            "texte": "Moratoire de trois ans sur les nouvelles normes ; Nous supprimerons le seuil de 50 salariés ; réécriture des codes du travail, de l'urbanisme et de la commande publique"
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "env-03",
+            "texte": "Baisser la facture d'électricité : Je propose d'alléger de deux mois la facture d'électricité des Français ; baisse de 10 % pour la compétitivité des entreprises et des exploitations agricoles, rapportée le 2026-08-28"
+          },
+          {
+            "candidat": "roussel-fabien",
+            "proposition": "eco-02",
+            "texte": "Carburants : supprimer tout de suite les certificats d'économie d'énergie qu'ils ont mis sur le litre d'essence depuis le 1er janvier ; baisser la TVA sur les carburants de 20% à 5,5% ; obliger TotalEnergies à réduire ses marges"
+          },
+          {
+            "candidat": "zemmour-eric",
+            "proposition": "env-03",
+            "texte": "Supprimer l'interdiction de la vente de véhicules thermiques à l'horizon 2035"
+          }
+        ]
+      },
+      "D-secu-budget": {
+        "A": [],
+        "B": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "secu-06",
+            "texte": "Faciliter l'implantation de prisons : obligations de logement social allégées pour les communes volontaires, possibilité pour le préfet de passer outre l'accord des élus locaux"
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "secu-02",
+            "texte": "Courtes peines dès le premier délit grave, dans des prisons spécifiques qui, selon lui, couteront moins chères"
+          }
+        ],
+        "C": [],
+        "D": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "secu-04",
+            "texte": "Instaurer une régulation carcérale contraignante et des moyens de réinsertion"
+          }
+        ]
+      },
+      "D-immig-travail": {
+        "A": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "immig-02",
+            "texte": "la préférence travail : priorité à l'immigration économique, avec un système à points comme au Canada"
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "immig-06",
+            "texte": "Fixer des quotas pour l'immigration économique"
+          }
+        ],
+        "B": [
+          {
+            "candidat": "glucksmann-raphael",
+            "proposition": "immig-02",
+            "texte": "Régulariser les travailleurs sans papiers : Nous le ferons et ce sera populaire"
+          },
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "immig-03",
+            "texte": "Faciliter les visas et les régularisations ; carte de séjour de dix ans comme titre de référence"
+          },
+          {
+            "candidat": "tondelier-marine",
+            "proposition": "immig-01",
+            "texte": "Régulariser les travailleurs et les travailleuses sans papiers et accorder des titres de séjours pluriannuels automatiquement renouvelables ; programme : régulariser travailleurs, étudiants et parents d'enfants scolarisés selon des critères objectifs"
+          }
+        ],
+        "C": [],
+        "D": []
+      },
+      "D-europe-regles": {
+        "A": [],
+        "B": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "europe-01",
+            "texte": "Créer des États-Unis d'Europe avec un noyau dur de pays, par un nouveau traité soumis au premier référendum européen, avec un président élu au suffrage universel"
+          },
+          {
+            "candidat": "ruffin-francois",
+            "proposition": "europe-01",
+            "texte": "faire basculer la politique commerciale du libre-échange vers la protection ; opposition aux accords avec le Mercosur et l'Inde ; refus de l'extension de la majorité qualifiée à la politique étrangère : La France doit s'y opposer avec fermeté"
+          },
+          {
+            "candidat": "tondelier-marine",
+            "proposition": "europe-01",
+            "texte": "Faire un saut fédéral européen ; Réviser les traités européens pour garantir un non-dépassement des limites planétaires et la construction progressive d'un Etat social européen ; Renforcer le rôle du Parlement européen"
+          }
+        ],
+        "C": [
+          {
+            "candidat": "lisnard-david",
+            "proposition": "europe-02",
+            "texte": "Référendum En cas d’impossibilité pour un Etat d’exercer sa souveraineté en raison de règles supranationales ; obtenir une dispense des règles communes d'asile et d'immigration sur le modèle du Danemark"
+          },
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "europe-05",
+            "texte": "Cesser d'appliquer les normes européennes incompatibles avec les engagements écologiques et sociaux"
+          }
+        ],
+        "D": [
+          {
+            "candidat": "le-pen-marine",
+            "proposition": "europe-02",
+            "texte": "Inscrire la primauté de la Constitution sur les engagements internationaux ; conditionner la participation à l'UE au respect de la Constitution ; interdire aux actes de l'UE de limiter le contrôle des frontières"
+          },
+          {
+            "candidat": "zemmour-eric",
+            "proposition": "europe-01",
+            "texte": "Modifier l'article 55 de la Constitution pour que les lois nationales aient une valeur supérieure aux traités, sans sortie de l'UE"
+          }
+        ]
+      },
+      "D-europe-defense": {
+        "A": [
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "europe-01",
+            "texte": "Porter le nombre de réservistes de 45 000 à 250 000"
+          }
+        ],
+        "B": [
+          {
+            "candidat": "glucksmann-raphael",
+            "proposition": "europe-02",
+            "texte": "Plan pour la souveraineté européenne et grand emprunt européen"
+          }
+        ],
+        "C": [],
+        "D": [
+          {
+            "candidat": "le-pen-marine",
+            "proposition": "europe-04",
+            "texte": "Ukraine : maintenir l'aide financière six mois après l'élection puis l'arrêter ; poursuivre la formation des soldats et l'aide militaire"
+          },
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "europe-02",
+            "texte": "Ukraine : cadre diplomatique pour un cessez-le-feu, le retrait russe et des négociations de paix"
+          },
+          {
+            "candidat": "roussel-fabien",
+            "proposition": "europe-01",
+            "texte": "Ukraine : cessez-le-feu rapide ; Il faut que la France retrouve son leadership pour mener la bataille diplomatique ; réorienter l'argent du ministère de la guerre vers les services publics"
+          }
+        ]
+      },
+      "D-educ-niveau": {
+        "A": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "educ-03",
+            "texte": "Réduire les effectifs par classe, en priorité en maternelle et en éducation prioritaire"
+          },
+          {
+            "candidat": "tondelier-marine",
+            "proposition": "educ-02",
+            "texte": "réduisant la taille des classes à 19 élèves en 2032 et à 12 élèves dans les établissements en réseau d'éducation prioritaire"
+          }
+        ],
+        "B": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "educ-02",
+            "texte": "Salaire des enseignants revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière ; meilleure rémunération des accompagnants d'élèves en situation de handicap"
+          },
+          {
+            "candidat": "glucksmann-raphael",
+            "proposition": "educ-01",
+            "texte": "Augmenter de 10 % la rémunération de tous les enseignants, jusqu'à 25 % selon la progression de carrière"
+          },
+          {
+            "candidat": "le-pen-marine",
+            "proposition": "educ-01",
+            "texte": "Maintenir le budget de l'éducation malgré la baisse démographique, pour financer plus d'enseignants et des salaires plus élevés"
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "educ-01",
+            "texte": "Augmenter de 20 % la rémunération moyenne des enseignants"
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "educ-01",
+            "texte": "Revaloriser significativement les salaires des enseignants, pour rapprocher leur rémunération de la moyenne européenne ; réformer en profondeur les règles d'affectation et de progression de carrière"
+          },
+          {
+            "candidat": "roussel-fabien",
+            "proposition": "educ-01",
+            "texte": "Nous avons besoin de plus d'enseignants pour faire reculer les inégalités ; la baisse démographique ne doit pas être utilisée pour faire des économies ; faire de l'accès aux connaissances et aux savoirs la priorité du quinquennat à venir"
+          }
+        ],
+        "C": [
+          {
+            "candidat": "lisnard-david",
+            "proposition": "educ-05",
+            "texte": "la liberté donnée aux chefs d’établissement de recruter leurs équipes pédagogiques, de fixer les méthodes, de gérer leur budget et de refuser les élèves perturbateurs"
+          }
+        ],
+        "D": []
+      },
+      "D-sante-deserts": {
+        "A": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "sante-07",
+            "texte": "Réguler l'installation des médecins ; recruter des médecins salariés et développer les centres de santé"
+          }
+        ],
+        "B": [
+          {
+            "candidat": "lisnard-david",
+            "proposition": "sante-03",
+            "texte": "Nous proposons un conventionnement différencié : la Sécurité sociale rembourse mieux les actes dans les zones sous-dotées, avec liberté d'installation"
+          }
+        ],
+        "C": [],
+        "D": []
+      },
+      "D-instit-participation": {
+        "A": [
+          {
+            "candidat": "lisnard-david",
+            "proposition": "instit-04",
+            "texte": "Référendum : tout sujet pourra être soumis au pays ; La Constitution doit pouvoir, à terme, être révisée directement par référendum ; Le référendum d’initiative populaire sera vraiment institué et rendu praticable ; possibilité de passer outre par référendum une censure fondée sur le préambule"
+          },
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "instit-03",
+            "texte": "Instaurer le référendum d'initiative citoyenne, y compris révocatoire"
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "instit-03",
+            "texte": "Alléger le référendum d'initiative partagée : 2,5 millions de signatures nécessaires, contre 5 millions"
+          },
+          {
+            "candidat": "ruffin-francois",
+            "proposition": "instit-03",
+            "texte": "Référendums : nous proposons de soumettre au vote des Français, par référendum, les mesures suivantes ; Les idées de référendum devront aussi et surtout venir des citoyens, avec le Référendum d'initiative citoyenne"
+          },
+          {
+            "candidat": "tondelier-marine",
+            "proposition": "instit-05",
+            "texte": "Référendum d'Initiative Citoyenne propositionnel ou abrogatif – sous condition d'un contrôle de constitutionnalité préalable ; convention citoyenne permanente au sein d'un CESE transformé ; vote obligatoire à l'Assemblée sur une pétition de 500 000 signatures dans 30 départements"
+          }
+        ],
+        "B": [
+          {
+            "candidat": "le-pen-marine",
+            "proposition": "instit-02",
+            "texte": "Élire les députés à la proportionnelle dans le cadre départemental, avec une prime majoritaire pour la liste arrivée en tête"
+          }
+        ],
+        "C": [
+          {
+            "candidat": "glucksmann-raphael",
+            "proposition": "immig-01",
+            "texte": "Convention citoyenne sur l'immigration, composée de citoyens tirés au sort, dont les propositions seraient débattues et votées par le Parlement : Au lieu de fuir le débat migratoire, nous l'assumerons"
+          }
+        ],
+        "D": [
+          {
+            "candidat": "attal-gabriel",
+            "proposition": "instit-03",
+            "texte": "big bang territorial : nouvelle carte de collectivités uniques, maire devenu l'élu le plus puissant de France, davantage de compétences et de ressources pour les territoires"
+          }
+        ]
+      }
+    },
+    "exclusions": [
+      {
+        "dilemme": "D-eco-dette",
+        "candidat": "tondelier-marine",
+        "proposition": "eco-06",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "batho-delphine",
+        "proposition": "eco-02",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "retailleau-bruno",
+        "proposition": "social-05",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "ruffin-francois",
+        "proposition": "social-01",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-social-retraites",
+        "candidat": "tondelier-marine",
+        "proposition": "social-02",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-social-chomage",
+        "candidat": "ruffin-francois",
+        "proposition": "social-02",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-social-chomage",
+        "candidat": "tondelier-marine",
+        "proposition": "social-07",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-env-electricite",
+        "candidat": "batho-delphine",
+        "proposition": "env-01",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-env-electricite",
+        "candidat": "le-pen-marine",
+        "proposition": "env-02",
+        "motif": "terme interdit : RN"
+      },
+      {
+        "dilemme": "D-env-electricite",
+        "candidat": "ruffin-francois",
+        "proposition": "env-01",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "batho-delphine",
+        "proposition": "env-01",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-secu-budget",
+        "candidat": "lisnard-david",
+        "proposition": "secu-06",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-secu-budget",
+        "candidat": "tondelier-marine",
+        "proposition": "secu-02",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-secu-budget",
+        "candidat": "zemmour-eric",
+        "proposition": "secu-04",
+        "motif": "terme interdit : Entrevue"
+      },
+      {
+        "dilemme": "D-immig-travail",
+        "candidat": "lisnard-david",
+        "proposition": "immig-07",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-immig-travail",
+        "candidat": "ruffin-francois",
+        "proposition": "immig-01",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-europe-regles",
+        "candidat": "retailleau-bruno",
+        "proposition": "europe-01",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "attal-gabriel",
+        "proposition": "europe-03",
+        "motif": "terme interdit : président de la République"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "batho-delphine",
+        "proposition": "europe-01",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "lisnard-david",
+        "proposition": "europe-04",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "ruffin-francois",
+        "proposition": "europe-03",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "tondelier-marine",
+        "proposition": "europe-04",
+        "motif": "trop long"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "zemmour-eric",
+        "proposition": "educ-01",
+        "motif": "terme interdit : Entrevue"
+      },
+      {
+        "dilemme": "D-sante-deserts",
+        "candidat": "tondelier-marine",
+        "proposition": "sante-01",
+        "motif": "trop long"
+      }
+    ]
+  }
 }

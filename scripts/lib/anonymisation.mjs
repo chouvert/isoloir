@@ -19,7 +19,8 @@ function retirerEntre(texte, ouvrant, fermant) {
 export function texteAveugle(texte) {
   let t = String(texte ?? '')
     .replace(/\[[^\]]*\]\([^)\s]*\)/g, ' ')
-    .replace(/https?:\/\/\S+/g, ' ');
+    .replace(/https?:\/\/\S+/g, ' ')
+    .replace(/\b[a-z]+-\d{2,}\b/g, ' '); // identifiants internes (eco-01…)
   t = retirerEntre(t, '(', ')');
   t = retirerEntre(t, '[', ']');
   return t

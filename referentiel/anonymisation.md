@@ -19,3 +19,6 @@ le terme fautif ici, puis lancer `npm run comparatifs`.
 |---------|--------------------------------------------------------------|
 | Jadot   | soutien de Raphaël Glucksmann cité dans sa fiche             |
 | Brossat | directeur de campagne de Fabien Roussel cité dans sa fiche   |
+| RN      | sigle du Rassemblement national (« le groupe RN »)           |
+| président de la République | référence au président sortant, qui situe l'auteur |
+| Entrevue | média cité en attribution (« Selon Entrevue : »)            |

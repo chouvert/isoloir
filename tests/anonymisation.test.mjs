@@ -48,3 +48,7 @@ test('termes manuels lus dans referentiel/anonymisation.md', () => {
     assert.deepEqual(lireTermesManuels(d), ['Jadot', 'Brossat']);
   } finally { rmSync(d, { recursive: true, force: true }); }
 });
+
+test('nettoyage : identifiants internes de propositions retirés', () => {
+  assert.equal(texteAveugle('Baisser la CSG, financé par eco-01 : taxer les héritages'), 'Baisser la CSG, financé par : taxer les héritages');
+});
