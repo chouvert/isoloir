@@ -83,5 +83,6 @@ courant, y compris dans les boutons et les formulaires.
 
 ## Références
 
+- Design system (tokens, composants, logos) : https://claude.ai/artifact/NYSNKChvLpwkwJimVfK2ZG — privé tant qu’il n’est pas partagé depuis son menu Partager
 - Conception : `docs/superpowers/specs/2026-10-31-identite-isoloir-design.md`
 - Couleurs : `identite/couleurs.json`
