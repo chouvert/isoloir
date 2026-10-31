@@ -25,7 +25,7 @@ le calcul à la main.
 | Réponses de l'utilisateur    | Une option par dilemme, ou « sans avis »        | 3 — Dilemmes      |
 | Réponses des candidats       | Section « Réponses aux dilemmes » des fiches    | —                 |
 | Options voisines             | Ligne `voisines` de chaque dilemme              | —                 |
-| Choix à l'aveugle            | Duels de propositions                           | 4 — Duels         |
+| Choix à l'aveugle            | Duels de propositions (`comparatifs/duels.md`)  | 4 — Duels         |
 | Notes de faisabilité         | Section « Analyse de faisabilité » des fiches   | —                 |
 
 ## 0. Préoccupations : pré-remplissage du budget et ordre des dilemmes
@@ -161,23 +161,67 @@ principal du résultat ; le score global n'en est que la synthèse.
 
 ## 5. Duels à l'aveugle
 
-Les duels ne modifient **pas** le score de proximité. Selon les réponses, tous les candidats
-n'apparaissent pas le même nombre de fois dans les duels, ce qui fausserait une moyenne.
+Les duels ne modifient **pas** le score de proximité. Ils servent de **contrôle de cohérence** :
+sans voir le nom des candidats, l'utilisateur préfère-t-il les mesures qui correspondent aux
+options qu'il a choisies dans les dilemmes ?
 
-Ils donnent un indicateur séparé, affiché à côté :
+### Ce qui est montré
+Pour chaque dilemme, chaque candidat rattaché à une option est représenté par la proposition de
+sa fiche qui fonde ce rattachement (colonne `proposition` du tableau des dilemmes). Elle est
+montrée sans nom ni source, après le nettoyage décrit dans `referentiel/anonymisation.md` ; un
+texte encore reconnaissable est exclu, et le candidat ne participe pas à ce dilemme. Les
+réponses `aucune` et `pas de position` ne participent jamais. La liste des textes montrés et des
+exclusions est publiée dans `comparatifs/duels.md`.
+
+### Choix des duels
+1. Un dilemme donne un duel si l'utilisateur y a choisi une option X (pas « sans avis »), si au
+   moins un candidat participant est rattaché à X et au moins un à une autre option.
+2. Les dilemmes sont parcourus dans l'ordre où ils ont été posés ; on retient les **6 premiers**.
+3. D'un côté, un candidat rattaché à X, tiré au sort ; de l'autre, un candidat rattaché à une
+   option différente **et non voisine** de X, tiré au sort, ou, s'il n'y en a aucun, à une option
+   voisine.
+4. Un candidat apparaît au plus **2 fois** ; s'il n'y a plus de candidat disponible d'un côté, le
+   dilemme est passé.
+5. La place à gauche ou à droite de chaque mesure est tirée au sort.
+
+S'il y a moins de 6 dilemmes éligibles (beaucoup de « sans avis », candidats peu renseignés), tous
+les duels possibles sont proposés et l'utilisateur en est informé.
+
+### Réponses et indicateur
+Pour chaque duel, l'utilisateur choisit l'une des deux mesures, « aucune des deux » ou « les deux ».
+
+| Réponse                                                 | Statut      |
+|---------------------------------------------------------|-------------|
+| Mesure du candidat rattaché à l'option X                | cohérent    |
+| Mesure de l'autre candidat (y compris option voisine)   | écart       |
+| « Aucune des deux » ou « les deux »                     | non compté  |
 
 ```
-préférence à l'aveugle = duels où la proposition du candidat a été préférée
-                         / duels où le candidat apparaissait
+cohérence = duels cohérents / duels comptés (cohérents + écarts)
 ```
 
-Seuls comptent les duels où l'utilisateur a choisi l'une des deux propositions : les réponses
-« aucune des deux » et « les deux » ne comptent ni pour ni contre, et ne sont pas comptées
-comme apparitions. L'indicateur n'est affiché que pour les candidats apparus dans au moins
-3 duels ainsi comptés.
+L'indicateur n'est affiché qu'à partir de **3 duels comptés**.
 
-C'est un contrôle de cohérence utile : un candidat proche selon les dilemmes mais peu choisi
-à l'aveugle (ou l'inverse) invite l'utilisateur à regarder le détail.
+### Révélation
+Les auteurs ne sont révélés qu'**à la fin des duels**, pour ne pas influencer les suivants. Pour
+chaque duel : les deux candidats, l'option de chacun, le statut, un lien vers les deux fiches. Un
+écart renvoie au dilemme : « Au dilemme, vous avez choisi A ; à l'aveugle, vous avez préféré une
+mesure rattachée à B. »
+
+### Exemple
+Six dilemmes éligibles ; l'utilisateur répond :
+
+| duel | dilemme            | option choisie au dilemme | mesure préférée à l'aveugle         | statut     |
+|------|--------------------|---------------------------|-------------------------------------|------------|
+| 1    | D-eco-dette        | A                         | celle du candidat rattaché à A      | cohérent   |
+| 2    | D-social-retraites | B                         | celle du candidat rattaché à D      | écart      |
+| 3    | D-social-chomage   | C                         | celle du candidat rattaché à C      | cohérent   |
+| 4    | D-env-electricite  | C                         | « les deux »                        | non compté |
+| 5    | D-europe-regles    | B                         | celle du candidat rattaché à B      | cohérent   |
+| 6    | D-europe-defense   | B                         | celle du candidat rattaché à B      | cohérent   |
+
+Résultat : **4 duels cohérents sur 5 comptés**. Le duel 2 invite à revoir le dilemme des
+retraites : la mesure préférée à l'aveugle relève d'une autre option que celle choisie.
 
 ## 6. Faisabilité
 
@@ -233,3 +277,6 @@ revanche que Y rejoint l'utilisateur sur les retraites, que X ne rejoint pas.
 - Les voisinages entre options sont un choix éditorial, publié et identique pour tous.
 - Un programme peut évoluer pendant la campagne : la date de mise à jour de chaque fiche est
   affichée avec le résultat.
+- Les duels reposent sur un nettoyage automatique des textes, qui ne garantit pas l'anonymat ; un
+  texte de plus de 300 caractères est exclu, si bien qu'un candidat aux propositions longues
+  apparaît moins souvent, voire jamais.

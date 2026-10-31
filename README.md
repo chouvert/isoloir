@@ -19,6 +19,7 @@ comparatif-programme-presidentielles/
 │   ├── preoccupations.md         # préoccupations proposées en entrée du parcours web
 │   ├── dilemmes.md               # dilemmes posés aux utilisateurs du parcours web
 │   ├── methode-proximite.md      # méthode de calcul de la proximité utilisateur-candidats
+│   ├── anonymisation.md          # termes interdits dans les textes des duels à l'aveugle
 │   └── faisabilite.md            # grille et barème de faisabilité
 ├── candidats/
 │   ├── _modele.md                # gabarit à copier pour chaque candidat
@@ -28,6 +29,7 @@ comparatif-programme-presidentielles/
 │   ├── <id-theme>.md             # une page par thème : positions, dilemmes, coûts
 │   ├── dilemmes.md               # réponses de tous les candidats aux dilemmes
 │   ├── phares.md                 # propositions phares de tous les candidats
+│   ├── duels.md                  # textes anonymisés des duels à l'aveugle et exclusions
 │   └── faisabilite.md            # comparatif des notes de faisabilité
 ├── donnees/
 │   └── base.json                 # export complet (généré), pour l'interface et le calcul de proximité
@@ -97,14 +99,16 @@ rattachements qui changent, donc les scores.
 
 Contenu généré : une page par thème (positions sur les questions-clés, réponses aux dilemmes du thème,
 propositions chiffrées), la vue d'ensemble des dilemmes avec la couverture par candidat, les
-propositions phares, le comparatif de faisabilité, et l'export JSON (référentiel complet et toutes les
+propositions phares, les textes anonymisés des duels à l'aveugle (`duels.md`), le comparatif de
+faisabilité, et l'export JSON (référentiel complet et toutes les
 données des fiches, sources comprises). Le regroupement de propositions comparables entre candidats
 n'est pas encore généré : il demanderait une étiquette « sujet » sur chaque proposition.
 
 ## Calcul de proximité
 
-`scripts/lib/parcours.mjs` (pré-remplissage du budget, ordre des dilemmes) et
-`scripts/lib/proximite.mjs` (score) implémentent `referentiel/methode-proximite.md`. Ces modules
+`scripts/lib/parcours.mjs` (pré-remplissage du budget, ordre des dilemmes),
+`scripts/lib/proximite.mjs` (score) et `scripts/lib/duels.mjs` (tirage des duels à l'aveugle,
+indicateur de cohérence) implémentent `referentiel/methode-proximite.md`. Ces modules
 n'ont aucune dépendance et n'accèdent pas au disque : ils sont conçus pour tourner dans le navigateur de
 l'utilisateur, dont les réponses ne quittent jamais l'appareil. Les exemples chiffrés de la méthode
 servent de tests (`tests/parcours.test.mjs`, `tests/proximite.test.mjs`) : toute modification du calcul qui changerait ce
