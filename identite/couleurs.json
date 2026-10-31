@@ -1,0 +1,16 @@
+{
+  "clair": {
+    "encre": "#23232B",
+    "papier": "#F5F0E6",
+    "petrole": "#1F6F73",
+    "sable": "#D9C9A8",
+    "encre_secondaire": "#4A4A55"
+  },
+  "sombre": {
+    "encre": "#F5F0E6",
+    "papier": "#1C1C22",
+    "petrole": "#5FB3B3",
+    "sable": "#4A443A",
+    "encre_secondaire": "#B8B3A8"
+  }
+}
