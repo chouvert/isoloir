@@ -24,10 +24,10 @@ node --test tests/*.test.mjs   # ou npm test (89 tests)
 ```
 
 ## Git et GitHub
-- Dépôt `julienterset/comparatif-programme-presidentielles`. Une PR par fiche (ou par lot de relecture).
+- Dépôt `chouvert/isoloir`. Une PR par fiche (ou par lot de relecture).
 - Travailler dans une worktree : `git fetch origin main` puis `git worktree add -b <branche> <dossier> FETCH_HEAD`
   (`origin/main` n'existe pas localement : utiliser FETCH_HEAD).
-- PR via l'API REST : `gh api repos/julienterset/comparatif-programme-presidentielles/pulls -f base=main -f head=<b> -f title=… -f body=…`
+- PR via l'API REST : `gh api repos/chouvert/isoloir/pulls -f base=main -f head=<b> -f title=… -f body=…`
   (GraphQL bloqué). Vérifier la CI : `gh api …/commits/<sha>/check-runs`.
 - Impossible de supprimer une branche distante (403) : c'est Julien qui le fait.
 - Commits signés `-c user.name=Julien -c user.email=julien.terset@gmail.com`.

@@ -10,7 +10,7 @@ par une interface de visualisation.
 ## Arborescence
 
 ```
-comparatif-programme-presidentielles/
+isoloir/
 ├── README.md                     # ce fichier : conventions
 ├── referentiel/
 │   ├── themes.md                 # liste fermée des thèmes
