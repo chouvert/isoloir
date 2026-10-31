@@ -45,7 +45,15 @@ node --test tests/*.test.mjs   # ou npm test (50 tests)
    finir par `npm run valider`.
 2. **Vérification indépendante** : un agent neuf qui n'a pas vu la rédaction. Contrôle complet des
    dilemmes, des phares et des attributions (qui parle) ; citations vérifiées par échantillon, contrôle
-   complet seulement si l'échantillon révèle des erreurs.
+   complet seulement si l'échantillon révèle des erreurs. Prompt : lire ce fichier, README, `dilemmes.md`,
+   `questions.md`, le gabarit, **sans fiche de référence** (la grille suffit) ; rapport sans liste des
+   citations exactes (leur nombre seulement). Coût observé : ≈ 165 000 à 205 000 tokens par fiche.
+   - **Contrôle rapide** de fiches déjà relues : **un seul agent pour toutes**, qui ne lit que l'en-tête,
+     les dilemmes, les phares et les évolutions de chaque fiche (Grep puis Read avec offset/limit), avec
+     une ou deux recherches d'actualité par candidat (≈ 120 000 tokens pour quatre fiches).
+   - **Fin de vérification** : s'il ne reste que deux ou trois pages à lire (vérificateur coupé par le
+     quota, point à confirmer), les lire soi-même (WebSearch puis WebFetch ciblé) plutôt que lancer un agent.
+   - Agent coupé par le quota : le reprendre par SendMessage après la remise à zéro, sans en relancer un neuf.
 3. **Corrections** : les appliquer soi-même (Edit ciblés) ou par un agent neuf qui ne lit que la fiche
    et la liste des corrections. **Ne pas relancer le rédacteur** (SendMessage recharge toute sa
    conversation, ≈ 300 000 tokens).
