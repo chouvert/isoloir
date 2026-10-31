@@ -137,6 +137,9 @@ ne soit pas éditorial, il suit une règle identique pour tous :
    une audition (grand oral devant une organisation) **consacrés tout entiers à un seul thème**. Un
    entretien généraliste, une interview sur plusieurs sujets, un meeting multi-thèmes ou une réaction
    d'actualité en marge d'un déplacement n'en sont pas.
+   Seules comptent les annonces faites **après la déclaration de candidature** (`date_declaration`) ;
+   une annonce antérieure peut fonder une proposition de la fiche, signalée « avant la candidature »,
+   mais pas un phare.
 
 Chaque phare renvoie à une proposition sourcée de la fiche et indique le motif et la source du
 choix. Les phares sont revus à chaque mise à jour du programme.

@@ -110,13 +110,13 @@ Non retenus également : déplacement à Amiens (2026-10-23, sans mesure rapport
 de crise présentées à Matignon (2026-10-22, contenu non publié dans les sources lues) ; entretien Franc-jeu
 (France 2 / France Inter, 2026-08-30, entretien généraliste sur ses choix, son projet et sa stratégie,
 où a été annoncée la hausse de 10 % des enseignants, educ-01).
-Phare 3 : publication du 2026-06-25 consacrée à l'adaptation des écoles au climat, antérieure à la
-candidature ; le README n'exclut pas les annonces antérieures à la candidature (choix à confirmer par Julien). -->
+Non retenue : publication du 2026-06-25 consacrée à l'adaptation des écoles au climat (educ-06), antérieure
+à la candidature (README : seules comptent les annonces postérieures à la déclaration). Deux annonces dédiées
+seulement ont été trouvées depuis la candidature. -->
 | rang | proposition | motif | source |
 |------|-------------|-------|--------|
 | 1 | env-02 | Annonce dédiée la plus récente : déplacement à l'usine Renault de Cléon consacré à l'écologie et à la voiture électrique, 2026-10-02 ; réaction à la mobilisation lycéenne en marge du déplacement (non retenue comme annonce) | [L'Info Durable, 2026-10-02](https://www.linfodurable.fr/en-seine-maritime-glucksmann-defend-les-voitures-electriques-et-la-transition-ecologique-59229) |
 | 2 | env-01 | Annonce dédiée : premier déplacement de candidat, dans un parc éolien de Saint-Jean-de-Liversay (Charente-Maritime), consacré à l'écologie, 2026-08-25 | [LCP, 2026-08-25](https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la) |
-| 3 | educ-06 | Annonce dédiée : publication sur les réseaux sociaux consacrée à l'adaptation au climat, pendant la canicule, 2026-06-25 (avant la candidature) | [L'Info Durable (AFP), 2026-06-25](https://www.linfodurable.fr/canicule-glucksmann-promet-un-grand-plan-de-renovation-thermique-des-ecoles-57447) |
 
 ## Propositions par thème
 <!-- Identifiants <theme>-<nn>, jamais réutilisés. Chiffrages en Md€/an sauf mention. -->
