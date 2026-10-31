@@ -1,0 +1,21 @@
+# Anonymisation des duels à l'aveugle
+
+Dans les duels à l'aveugle, chaque mesure est montrée sans le nom de son auteur. Le texte affiché
+est celui de la proposition de la fiche (colonne `proposition` du tableau des dilemmes), nettoyé
+automatiquement : liens et sources supprimés, passages entre parenthèses ou crochets supprimés,
+guillemets retirés (le texte cité reste, en prose).
+
+Un texte est **exclu** des duels, avec son motif, s'il est vide après nettoyage, s'il dépasse
+300 caractères ou s'il contient un terme interdit (comparaison sans accents ni casse, en mot entier).
+Les termes interdits sont :
+
+- automatiques, tirés des fiches : nom complet de chaque candidat, son nom de famille et son parti ;
+- manuels : le tableau ci-dessous, pour les personnalités et les mots qui trahissent un camp.
+
+Quand la page générée `comparatifs/duels.md` montre un texte qui trahit encore son auteur, ajouter
+le terme fautif ici, puis lancer `npm run comparatifs`.
+
+| terme   | motif                                                        |
+|---------|--------------------------------------------------------------|
+| Jadot   | soutien de Raphaël Glucksmann cité dans sa fiche             |
+| Brossat | directeur de campagne de Fabien Roussel cité dans sa fiche   |
