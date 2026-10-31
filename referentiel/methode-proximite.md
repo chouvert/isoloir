@@ -168,8 +168,10 @@ options qu'il a choisies dans les dilemmes ?
 ### Ce qui est montré
 Pour chaque dilemme, chaque candidat rattaché à une option est représenté par la proposition de
 sa fiche qui fonde ce rattachement (colonne `proposition` du tableau des dilemmes). Elle est
-montrée sans nom ni source, après le nettoyage décrit dans `referentiel/anonymisation.md` ; un
-texte encore reconnaissable est exclu, et le candidat ne participe pas à ce dilemme. Les
+montrée sans nom ni source, après le nettoyage décrit dans `referentiel/anonymisation.md`. Quand ce
+texte dépasse 300 caractères ou trahit son auteur, la fiche fournit un **texte court** : une
+reformulation neutre et fidèle de la même proposition, montrée à sa place. Un texte encore trop long
+ou reconnaissable est exclu, et le candidat ne participe pas à ce dilemme. Les
 réponses `aucune` et `pas de position` ne participent jamais. La liste des textes montrés et des
 exclusions est publiée dans `comparatifs/duels.md`.
 
@@ -204,7 +206,8 @@ L'indicateur n'est affiché qu'à partir de **3 duels comptés**.
 
 ### Révélation
 Les auteurs ne sont révélés qu'**à la fin des duels**, pour ne pas influencer les suivants. Pour
-chaque duel : les deux candidats, l'option de chacun, le statut, un lien vers les deux fiches. Un
+chaque duel : les deux candidats, l'option de chacun, le statut, la **source** de chaque mesure
+(et la mention « texte court » le cas échéant) et un lien vers les deux fiches. Un
 écart renvoie au dilemme : « Au dilemme, vous avez choisi A ; à l'aveugle, vous avez préféré une
 mesure rattachée à B. »
 
@@ -277,6 +280,6 @@ revanche que Y rejoint l'utilisateur sur les retraites, que X ne rejoint pas.
 - Les voisinages entre options sont un choix éditorial, publié et identique pour tous.
 - Un programme peut évoluer pendant la campagne : la date de mise à jour de chaque fiche est
   affichée avec le résultat.
-- Les duels reposent sur un nettoyage automatique des textes, qui ne garantit pas l'anonymat ; un
-  texte de plus de 300 caractères est exclu, si bien qu'un candidat aux propositions longues
-  apparaît moins souvent, voire jamais.
+- Les duels reposent sur un nettoyage automatique des textes, qui ne garantit pas l'anonymat ; les
+  textes courts sont des reformulations, relues comme le reste de la fiche. Un candidat peu
+  renseigné dans les dilemmes apparaît moins souvent dans les duels.

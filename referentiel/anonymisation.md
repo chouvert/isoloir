@@ -5,6 +5,12 @@ est celui de la proposition de la fiche (colonne `proposition` du tableau des di
 automatiquement : liens et sources supprimés, passages entre parenthèses ou crochets supprimés,
 guillemets retirés (le texte cité reste, en prose).
 
+Quand le texte nettoyé dépasse 300 caractères ou contient un terme interdit, on écrit un **texte
+court** dans la colonne `texte court` du tableau des dilemmes de la fiche : reformulation neutre et
+fidèle de la proposition, 300 caractères au plus, sans guillemets, nom, parenthèse ni source. Il est
+montré à la place du texte nettoyé et passe les mêmes contrôles. La source de la proposition est
+montrée à la révélation de l'auteur.
+
 Un texte est **exclu** des duels, avec son motif, s'il est vide après nettoyage, s'il dépasse
 300 caractères ou s'il contient un terme interdit (comparaison sans accents ni casse, en mot entier).
 Les termes interdits sont :

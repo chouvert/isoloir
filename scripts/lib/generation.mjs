@@ -171,10 +171,15 @@ export function participantsDuels(base) {
       const r = c.dilemmes[d.id];
       if (!r?.proposition || !participants[d.id][r.option]) continue;
       const prop = c.propositions.find((p) => p.id === r.proposition);
-      const texte = texteAveugle(prop?.proposition);
+      const court = Boolean(r.texte_court);
+      const texte = texteAveugle(court ? r.texte_court : prop?.proposition);
       const motif = exclusion(texte, termes);
       if (motif) exclusions.push({ dilemme: d.id, candidat: c.id, proposition: r.proposition, motif });
-      else participants[d.id][r.option].push({ candidat: c.id, proposition: r.proposition, texte });
+      else {
+        participants[d.id][r.option].push({
+          candidat: c.id, proposition: r.proposition, texte, texte_court: court, sources: prop?.sources ?? [],
+        });
+      }
     }
   }
   return { participants, exclusions };
@@ -196,7 +201,7 @@ function pageDuels(base) {
     parties.push(`## ${theme.libelle}`, '');
     for (const d of ds) {
       const lignes = d.options.flatMap((o) => participants[d.id][o.option]
-        .map((p) => [o.option, noms.get(p.candidat), p.proposition, p.texte]));
+        .map((p) => [o.option, noms.get(p.candidat), p.texte_court ? `${p.proposition} (texte court)` : p.proposition, p.texte]));
       parties.push(`### ${d.id}`, '', `> ${d.enonce}`, '');
       parties.push(lignes.length ? tableau(['option', 'candidat', 'proposition', 'texte à l\'aveugle'], lignes) : 'Aucun participant.', '');
     }

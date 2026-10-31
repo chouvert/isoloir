@@ -52,22 +52,24 @@ derniere_maj:            # AAAA-MM-JJ
 <!-- Une ligne par dilemme actif de referentiel/dilemmes.md, dans le même ordre.
 Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ».
 Proposition : identifiant de la proposition de la fiche qui fonde le rattachement (lettre d'option
-seulement ; vide pour « aucune » et « pas de position ») ; elle sert aux duels à l'aveugle. -->
-| dilemme                | option | proposition | justification | source |
-|------------------------|--------|-------------|---------------|--------|
-| D-eco-dette            |        |             |               |        |
-| D-eco-pouvoir-achat    |        |             |               |        |
-| D-social-retraites     |        |             |               |        |
-| D-social-chomage       |        |             |               |        |
-| D-env-electricite      |        |             |               |        |
-| D-env-rythme           |        |             |               |        |
-| D-secu-budget          |        |             |               |        |
-| D-immig-travail        |        |             |               |        |
-| D-europe-regles        |        |             |               |        |
-| D-europe-defense       |        |             |               |        |
-| D-educ-niveau          |        |             |               |        |
-| D-sante-deserts        |        |             |               |        |
-| D-instit-participation |        |             |               |        |
+seulement ; vide pour « aucune » et « pas de position ») ; elle sert aux duels à l'aveugle.
+Texte court : seulement si le texte de la proposition, nettoyé, dépasse 300 caractères ; reformulation
+neutre et fidèle de 300 caractères au plus, sans guillemets, nom ni source, montrée à sa place dans les duels. -->
+| dilemme                | option | proposition | texte court | justification | source |
+|------------------------|--------|-------------|---|---------------|--------|
+| D-eco-dette            |        |             | |               |        |
+| D-eco-pouvoir-achat    |        |             | |               |        |
+| D-social-retraites     |        |             | |               |        |
+| D-social-chomage       |        |             | |               |        |
+| D-env-electricite      |        |             | |               |        |
+| D-env-rythme           |        |             | |               |        |
+| D-secu-budget          |        |             | |               |        |
+| D-immig-travail        |        |             | |               |        |
+| D-europe-regles        |        |             | |               |        |
+| D-europe-defense       |        |             | |               |        |
+| D-educ-niveau          |        |             | |               |        |
+| D-sante-deserts        |        |             | |               |        |
+| D-instit-participation |        |             | |               |        |
 
 ## Propositions phares
 <!-- Jusqu'à 3 propositions mises en avant dans l'interface, choisies selon la règle du README

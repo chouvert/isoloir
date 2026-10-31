@@ -20,7 +20,7 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 npm install
 npm run valider          # contrôle des données (0 erreur exigé)
 npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
-node --test tests/*.test.mjs   # ou npm test (82 tests)
+node --test tests/*.test.mjs   # ou npm test (89 tests)
 ```
 
 ## Git et GitHub
@@ -87,6 +87,7 @@ node --test tests/*.test.mjs   # ou npm test (82 tests)
      Bardella si retrait de Le Pen. Réexaminer `candidats-inclus.md` à chaque vague de sondages.
   6. Duels à l'aveugle (spec et plan : `docs/superpowers/`) : données (PR `duels-donnees`) puis moteur
      (PR `duels-moteur`). Une option sans proposition dans le tableau des dilemmes = pas de duel ;
-     un texte qui trahit son auteur dans `comparatifs/duels.md` → terme dans `referentiel/anonymisation.md`.
+     un texte qui trahit son auteur dans `comparatifs/duels.md` → terme dans `referentiel/anonymisation.md` ;
+     texte trop long ou reconnaissable → colonne `texte court` (reformulation neutre, ≤ 300 car.).
   7. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
      pour tous), mise à jour automatique (veille → issues → PR), interface Astro.

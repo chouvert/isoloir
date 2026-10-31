@@ -93,10 +93,11 @@ function lireFiche(racine, fichier, ref) {
   }
 
   const dilemmes = {};
-  for (const { cellules } of tableau('Réponses aux dilemmes', ['dilemme', 'option', 'proposition', 'justification', 'source'])?.lignes ?? []) {
+  for (const { cellules } of tableau('Réponses aux dilemmes', ['dilemme', 'option', 'proposition', 'texte court', 'justification', 'source'])?.lignes ?? []) {
     dilemmes[nettoyerId(cellules.dilemme)] = {
       option: nettoyerId(cellules.option),
       proposition: nettoyerId(cellules.proposition),
+      texte_court: cellule(cellules, 'texte court'),
       justification: cellules.justification,
       sources: lireSources(cellules.source),
     };
