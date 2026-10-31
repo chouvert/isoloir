@@ -315,10 +315,11 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
 
   // Réponses aux dilemmes
   fiche.dilemmes = new Map();
+  const propositionsDilemmes = []; // vérifiées une fois les propositions de la fiche lues
   const sDil = section('Réponses aux dilemmes');
   if (sDil) {
-    const t = trouverTableau(lireTableaux(sDil.contenu, sDil.ligne + 1), ['dilemme', 'option', 'justification', 'source']);
-    if (!t) rapport.erreur(fichier, sDil.ligne, 'tableau des réponses (colonnes dilemme, option, justification, source) introuvable');
+    const t = trouverTableau(lireTableaux(sDil.contenu, sDil.ligne + 1), ['dilemme', 'option', 'proposition', 'justification', 'source']);
+    if (!t) rapport.erreur(fichier, sDil.ligne, 'tableau des réponses (colonnes dilemme, option, proposition, justification, source) introuvable');
     else {
       let nonRenseignes = 0;
       for (const { cellules, ligne } of t.lignes) {
@@ -332,6 +333,14 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
         if (gabarit) continue;
         if (!option) { nonRenseignes++; continue; }
         const speciale = REPONSES_DILEMME_SPECIALES.includes(normaliser(option));
+        const proposition = nettoyerId(cellules.proposition);
+        if (speciale && proposition) {
+          rapport.erreur(fichier, ligne, `« ${id} » : proposition renseignée pour une réponse « ${normaliser(option)} »`);
+        } else if (!speciale && !proposition) {
+          rapport.avertissement(fichier, ligne, `« ${id} » : option « ${option} » sans proposition (pas de duel à l'aveugle pour ce dilemme)`);
+        } else if (proposition) {
+          propositionsDilemmes.push({ id, proposition, ligne });
+        }
         if (!speciale && !d.options.includes(option)) {
           rapport.erreur(fichier, ligne, `« ${id} » : réponse « ${option} » invalide (${[...d.options, ...REPONSES_DILEMME_SPECIALES].join(' | ')})`);
           continue;
@@ -379,6 +388,14 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
       if (!vus.has(theme)) rapport.erreur(fichier, sProp.ligne, `sous-section « ### ${theme} — … » manquante`);
     }
     fiche.propositions = idsProp;
+  }
+
+  if (!gabarit) {
+    for (const { id, proposition, ligne } of propositionsDilemmes) {
+      if (!fiche.propositions?.has(proposition)) {
+        rapport.erreur(fichier, ligne, `« ${id} » : proposition « ${proposition} » absente des propositions de la fiche`);
+      }
+    }
   }
 
   // Propositions phares

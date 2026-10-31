@@ -112,3 +112,13 @@ test('base réelle : modèle complet et cohérent avec le validateur', () => {
   const rapport = validerBase(RACINE);
   assert.deepEqual(rapport.avertissements.filter((a) => a.fichier.startsWith('comparatifs/')), []);
 });
+
+test('base réelle : proposition de dilemme présente dans la fiche', () => {
+  for (const c of lireBase(RACINE).candidats) {
+    const ids = new Set(c.propositions.map((p) => p.id));
+    for (const [d, r] of Object.entries(c.dilemmes)) {
+      assert.equal(typeof r.proposition, 'string', `${c.id} ${d} : champ proposition absent`);
+      assert.ok(r.proposition === '' || ids.has(r.proposition), `${c.id} ${d} : ${r.proposition} introuvable`);
+    }
+  }
+});

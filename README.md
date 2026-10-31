@@ -75,14 +75,15 @@ Ce qui est vérifié :
 | Gabarit          | `_modele.md` contient toutes les questions actives, tous les dilemmes actifs et tous les thèmes du référentiel |
 | Frontmatter      | Champs obligatoires (`id`, `nom`, `statut`, `derniere_maj`) ; `id` = nom du fichier ; statut autorisé ; dates ISO |
 | Positions        | Toutes les questions actives présentes une seule fois ; valeurs autorisées pour les questions fermées ; une source par position renseignée |
-| Dilemmes (fiche) | Tous les dilemmes actifs présents une seule fois ; réponse = option existante, `aucune` ou `pas de position` ; justification et source pour toute réponse autre que `pas de position` |
+| Dilemmes (fiche) | Tous les dilemmes actifs présents une seule fois ; réponse = option existante, `aucune` ou `pas de position` ; justification et source pour toute réponse autre que `pas de position` ; colonne `proposition` : identifiant d'une proposition de la fiche, interdit avec `aucune` ou `pas de position` |
 | Phares           | Au plus 3 ; chacune renvoie à une proposition de la fiche, une seule fois, avec motif et source du choix |
 | Propositions     | Une sous-section par thème ; identifiants `<theme>-NN` uniques ; texte et source présents      |
 | Évolutions       | Format `- AAAA-MM-JJ : description`                                                           |
 | Faisabilité      | Tous les critères notés de 1 à 5 avec justification ; note globale = moyenne arrondie au demi-point ; confiance autorisée ; texte « Pourquoi cette note » présent |
 | Comparatifs      | Candidats et questions existants ; valeurs identiques à celles des fiches                     |
 
-Avertissements (non bloquants) : questions ou dilemmes non renseignés, analyses à des dates
+Avertissements (non bloquants) : questions ou dilemmes non renseignés, option de dilemme sans
+proposition (pas de duel à l'aveugle pour ce dilemme), analyses à des dates
 différentes selon les candidats, comparatif thématique désynchronisé des fiches.
 
 ## Comparatifs et export de données
@@ -168,7 +169,9 @@ choix. Les phares sont revus à chaque mise à jour du programme.
 - Les sections « Profil », « Positions », « Propositions » et « Évolutions » ne contiennent que
   des faits sourcés.
 - La section « Réponses aux dilemmes » rattache le programme à une option : c'est une
-  interprétation, toujours justifiée et sourcée pour rester vérifiable.
+  interprétation, toujours justifiée et sourcée pour rester vérifiable. Sa colonne `proposition`
+  désigne la mesure de la fiche qui fonde le rattachement : c'est elle qui est montrée, anonymisée,
+  dans les duels à l'aveugle.
 - La section « Analyse de faisabilité » est une évaluation produite à partir de ces faits,
   selon la grille de `referentiel/faisabilite.md`, identique pour tous les candidats.
 

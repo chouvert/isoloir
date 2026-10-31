@@ -1124,6 +1124,7 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "A",
+          "proposition": "eco-01",
           "justification": "Plan de 150 Md€ d'économies « sans hausse d'impôts », dont deux tiers sur les dépenses sociales (eco-01) ; 100 000 postes de fonctionnaires supprimés (eco-03)",
           "sources": [
             {
@@ -1138,6 +1139,7 @@
         },
         "D-eco-pouvoir-achat": {
           "option": "B",
+          "proposition": "social-04",
           "justification": "« un choc des salaires » par la baisse des charges pour rapprocher le net du brut (social-04) ; suppression du plafond d'heures supplémentaires (social-06)",
           "sources": [
             {
@@ -1152,6 +1154,7 @@
         },
         "D-social-retraites": {
           "option": "D",
+          "proposition": "social-02",
           "justification": "Mesure chiffrée : 1 000 € versés par l'État à chaque naissance pour une part de capitalisation (social-02) ; le système proposé supprime l'âge légal au profit de la durée de cotisation, avec décote et surcote (social-01), sans allongement de la durée annoncé (option A non retenue)",
           "sources": [
             {
@@ -1170,6 +1173,7 @@
         },
         "D-social-chomage": {
           "option": "A",
+          "proposition": "social-05",
           "justification": "Reprise de la réforme engagée en 2024 et bloquée par la dissolution, qui réduisait la durée maximale d'indemnisation de 18 à 15 mois (social-05 ; « créerait 100 000 emplois supplémentaires », plus de 4 Md€ d'économies selon le site) ; économies sur l'assurance chômage dans le plan de 150 Md€ (eco-01)",
           "sources": [
             {
@@ -1192,6 +1196,7 @@
         },
         "D-env-electricite": {
           "option": "A",
+          "proposition": "env-01",
           "justification": "14 nouveaux réacteurs, à terme un par an (env-01) ; développement des renouvelables sans objectif chiffré (env-02) ; à Lyon, nucléaire et renouvelables présentés comme développés conjointement, sans parts comparables annoncées (option C non retenue)",
           "sources": [
             {
@@ -1202,6 +1207,7 @@
         },
         "D-env-rythme": {
           "option": "A",
+          "proposition": "env-03",
           "justification": "« tripler notre rythme annuel de réduction des émissions », de 1,8 % à 5 % par an d'ici 2030 (env-03) ; plan « Messmer II » « avec pour horizon la neutralité carbone en 2050 » (env-06) ; pas de contribution ciblée sur les plus gros émetteurs trouvée (option B)",
           "sources": [
             {
@@ -1216,6 +1222,7 @@
         },
         "D-secu-budget": {
           "option": "B",
+          "proposition": "secu-06",
           "justification": "Facilités pour construire des prisons (allègement des obligations de logement social des communes volontaires) et prison ferme automatiquement encourue pour les crimes contre les mineurs (secu-06, secu-02) ; il propose aussi l'IA et la réécriture de la procédure pénale pour accélérer les jugements (secu-05), sans hausse d'effectifs de magistrats annoncée ; il propose aussi de mobiliser militaires et réservistes pour la surveillance statique afin de libérer les forces de l'ordre (secu-08, idée proche de l'option A)",
           "sources": [
             {
@@ -1230,6 +1237,7 @@
         },
         "D-immig-travail": {
           "option": "A",
+          "proposition": "immig-02",
           "justification": "« la préférence travail » : immigration de travail prioritaire, système à points et quotas d'immigration de travail votés par le Parlement (immig-02, immig-03), dans un objectif de baisse globale de l'immigration",
           "sources": [
             {
@@ -1244,6 +1252,7 @@
         },
         "D-europe-regles": {
           "option": "B",
+          "proposition": "europe-01",
           "justification": "Changer les règles par la négociation d'un nouveau traité entre un noyau dur de pays (europe-01, europe-02) ; aucune dérogation nationale au droit européen proposée",
           "sources": [
             {
@@ -1258,6 +1267,7 @@
         },
         "D-europe-defense": {
           "option": "A",
+          "proposition": "europe-03",
           "justification": "Poursuivre et amplifier le réarmement national, dissuasion nucléaire comme « outil de puissance » (europe-03) ; selon Public Sénat, la défense resterait aux États dans son projet européen ; la défense figure aussi parmi les domaines d'une coopération européenne par coalitions d'États volontaires (tribune au Figaro, europe-05) ; pas de niveau de dépense annoncé",
           "sources": [
             {
@@ -1276,6 +1286,7 @@
         },
         "D-educ-niveau": {
           "option": "B",
+          "proposition": "educ-02",
           "justification": "Mesure chiffrée en euros : +200 € net par mois pour les enseignants, jusqu'à 500 € en milieu de carrière (educ-02) ; il propose aussi moins de 20 élèves par classe en primaire (educ-01, option A) et le certificat d'études, le brevet obligatoire et les groupes de niveau (educ-03, educ-04, option D) ; à Lyon, la réduction des effectifs par classe était aussi présentée",
           "sources": [
             {
@@ -1290,11 +1301,13 @@
         },
         "D-sante-deserts": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-instit-participation": {
           "option": "D",
+          "proposition": "instit-03",
           "justification": "Réformer le fonctionnement des institutions actuelles sans nouvel outil de participation : « référendums réguliers » sous la forme d'une journée annuelle de consultation, à l'initiative de l'exécutif (instit-01, ne relève d'aucune option à lui seul) ; « big bang » territorial, avec plus de compétences pour les maires et les territoires (instit-03) ; avant la candidature (2025-09-21, comme secrétaire général de Renaissance), réduction du nombre de parlementaires et d'élus et suppression d'un échelon de collectivités ; ni RIC, ni proportionnelle, ni convention citoyenne institutionnelle trouvés ; la convention de 150 jeunes tirés au sort annoncée à Lyon porte sur ses propositions de campagne (« une convention sur nos propositions »), option C non retenue",
           "sources": [
             {
@@ -2640,11 +2653,13 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-eco-pouvoir-achat": {
           "option": "D",
+          "proposition": "eco-02",
           "justification": "Face à la hausse des carburants, première mesure présentée : une aide d'urgence aux ménages les plus vulnérables et aux professions les plus exposées, par des « dispositifs déclaratifs avec versement immédiat » (parti : communiqué officiel du parti (rubrique Nos communiqués), signé Alexandre Fernier (fonction non précisée) et Quentin Guillemain (coordinateur adjoint et porte-parole), 2026-04-10 ; eco-02), sans montant ; le même communiqué propose des mesures de sobriété temporaires et le « leasing électrique social » (env-04), sans option correspondante ; pas de baisse de taxe ni de hausse du SMIC trouvée",
           "sources": [
             {
@@ -2655,16 +2670,19 @@
         },
         "D-social-retraites": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-social-chomage": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-env-electricite": {
           "option": "D",
+          "proposition": "env-01",
           "justification": "Présenté en premier : « Il n'y a aucun scénario de neutralité carbone qui ne commence par diviser par deux la consommation d'énergie », avec un débat sur les besoins (data centers, écrans publicitaires, 6G) avant les modes de production (Entretiens de Terra Nova, 2026-06-22 ; env-01) ; elle défend aussi l'autoconsommation collective et la chaleur et le froid renouvelables, sans objectif de développement de l'éolien et du solaire ; pas de position de campagne sur de nouveaux réacteurs (avant la candidature, elle s'opposait aux six EPR)",
           "sources": [
             {
@@ -2675,6 +2693,7 @@
         },
         "D-env-rythme": {
           "option": "A",
+          "proposition": "env-01",
           "justification": "Accélérer en acceptant un coût sur l'activité : « vouloir sauver la croissance du PIB est incompatible avec la sécurité climatique » (2025-11-26) ; « Un nouveau modèle est possible : la décroissance » (2026-06-26) ; diviser par deux la consommation d'énergie ; débat préalable sur les data centers, la 6G et les écrans publicitaires (2026-06-22, env-01) ; le parti propose aussi de réformer la filière pétrolière contre la spéculation (2026-04-10)",
           "sources": [
             {
@@ -2697,21 +2716,25 @@
         },
         "D-secu-budget": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Le réexamen des 70 000 plaintes de mineurs (secu-01) n'est rattaché à aucun poste budgétaire ; le ministère de la résilience et les réserves communales de sécurité civile proposés par le parti (env-03) ne relèvent d'aucune option",
           "sources": []
         },
         "D-immig-travail": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-europe-regles": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "La demande de saisir la Cour de justice de l'UE contre l'accord avec le Mercosur (parti, europe-03) invoque les traités contre une décision européenne et ne tranche pas entre règle européenne et décision nationale",
           "sources": []
         },
         "D-europe-defense": {
           "option": "B",
+          "proposition": "europe-01",
           "justification": "Présenté en premier : « nous estimons vital l'effort de défense pour construire une Europe de la défense autonome », avec « une dissuasion civile fondée sur la réduction de nos dépendances » (europe-01) ; elle répond ensuite « oui, sans la moindre hésitation » à une hausse du budget de la défense et vote l'actualisation de la loi de programmation militaire (option A, sans montant ni % du PIB annoncés)",
           "sources": [
             {
@@ -2726,16 +2749,19 @@
         },
         "D-educ-niveau": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-sante-deserts": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Seule mesure trouvée : embauche et installation de radiologues pour l'accès aux mammographies (indice : Véronique Jeanneret, référente départementale, texte de la rubrique Actualités, 2026-10-26 ; sante-01), mesure sectorielle sans moyen précisé (contrainte, rémunération ou délégation)",
           "sources": []
         },
         "D-instit-participation": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "L'« abolition du présidentialisme » (2025-10-14, avant la candidature) ne correspond à aucune option et n'est pas précisée ; aucune déclaration trouvée sur le RIC, la proportionnelle ou les conventions citoyennes",
           "sources": []
         }
@@ -3327,11 +3353,13 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-eco-pouvoir-achat": {
           "option": "B",
+          "proposition": "eco-02",
           "justification": "Mesure chiffrée : hausse du salaire net par une baisse de la CSG sur les salaires, pour « rapprocher le salaire net du salaire brut », financée par la taxe sur les « méga héritages » (15 Md€) (eco-02) (la CSG est une contribution et non une cotisation ; rattachement par l'idée : baisser les prélèvements sur les salaires pour augmenter le net) ; il propose aussi un leasing social de voitures électriques pour les ménages modestes (env-02, proche de l'option D)",
           "sources": [
             {
@@ -3350,16 +3378,19 @@
         },
         "D-social-retraites": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Orientation principale : retour à 62 ans (social-01), hors des options ; avant la candidature, départ plus tardif pour les cadres (social-02, proche de l'option A) non retenu comme orientation",
           "sources": []
         },
         "D-social-chomage": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-env-electricite": {
           "option": "C",
+          "proposition": "",
           "justification": "Défend nucléaire et renouvelables sans hiérarchie : « La France a besoin des deux » (débat du 2026-10-04) ; nouveaux EPR (env-03), renouvelables (env-04) ; aucune répartition annoncée, la part « comparable » n'est pas précisée ; il évoque aussi l'efficacité et la sobriété (option D)",
           "sources": [
             {
@@ -3374,6 +3405,7 @@
         },
         "D-env-rythme": {
           "option": "A",
+          "proposition": "env-01",
           "justification": "Accélération : « 100 jours de la révolution écologique » dès l'élection, priorité à la sortie du gaz et du pétrole (env-01) ; pas de mesure trouvée faisant contribuer d'abord les plus gros émetteurs (option B) ; plan non chiffré ; il ne dit pas accepter une hausse des prix et propose de protéger les ménages modestes (env-02)",
           "sources": [
             {
@@ -3388,11 +3420,13 @@
         },
         "D-secu-budget": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-immig-travail": {
           "option": "B",
+          "proposition": "immig-02",
           "justification": "Régularisation des travailleurs sans papiers : « Nous le ferons [la régularisation] et ce sera populaire » (débat du 2026-10-04) (immig-02) ; avant la candidature (franceinfo, 2026-01-29), il défendait l'« immigration de travail » dans « des secteurs entiers qui en ont besoin » (option A, voisine) ; son orientation principale sur l'immigration est une convention citoyenne (immig-01), hors des options de ce dilemme",
           "sources": [
             {
@@ -3407,11 +3441,13 @@
         },
         "D-europe-regles": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Avant la candidature (mai 2026), suppression du droit de veto dans l'UE (europe-02) : rattachement à une option trop indirect",
           "sources": []
         },
         "D-europe-defense": {
           "option": "B",
+          "proposition": "europe-02",
           "justification": "Pendant la primaire, partage l'objectif commun de renforcer les moyens de la défense européenne (débats d'octobre 2026) ; avant la candidature (mai 2026), plan pour la souveraineté européenne et grand emprunt européen (europe-02) ; soutien accru à l'Ukraine (europe-01)",
           "sources": [
             {
@@ -3430,6 +3466,7 @@
         },
         "D-educ-niveau": {
           "option": "B",
+          "proposition": "educ-01",
           "justification": "Mesure chiffrée : hausse de 10 à 25 % de la rémunération des enseignants, 6 Md€ (educ-01) ; il propose aussi moins d'élèves par classe en primaire (educ-02, option A, voisine)",
           "sources": [
             {
@@ -3440,11 +3477,13 @@
         },
         "D-sante-deserts": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-instit-participation": {
           "option": "C",
+          "proposition": "immig-01",
           "justification": "Convention de citoyens tirés au sort sur l'immigration, dont les propositions seraient votées par le Parlement (immig-01 ; mai 2026, avant la candidature ; repris le 2026-08-24) ; une seule convention proposée, pas de généralisation annoncée",
           "sources": [
             {
@@ -4289,6 +4328,7 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "A",
+          "proposition": "eco-01",
           "justification": "Réduction du déficit par 140 Md€ d'économies nettes, accompagnées d'au moins 30 Md€ de baisses d'impôts (eco-01, eco-03)",
           "sources": [
             {
@@ -4303,6 +4343,7 @@
         },
         "D-eco-pouvoir-achat": {
           "option": "C",
+          "proposition": "eco-04",
           "justification": "Seule mesure chiffrée en euros : TVA ramenée de 20 % à 5,5 % sur l'énergie (eco-04, 12 Md€ selon le RN) ; TVA à 0 % sur 100 produits essentiels (eco-05)",
           "sources": [
             {
@@ -4317,6 +4358,7 @@
         },
         "D-social-retraites": {
           "option": "D",
+          "proposition": "social-02",
           "justification": "Annonce d'un « véritable pilier de capitalisation », détails à venir (social-02) ; le reste du projet abaisse l'âge de départ (social-01), à l'inverse de l'option A ; le financement principal (15 à 20 Md€ de « corrections de mesures injustes ») ne correspond à aucune option",
           "sources": [
             {
@@ -4331,11 +4373,13 @@
         },
         "D-social-chomage": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-env-electricite": {
           "option": "A",
+          "proposition": "env-02",
           "justification": "Position de la campagne présentée par le RN : stratégie « en s'appuyant d'abord sur le nucléaire », 60 % de nucléaire et 40 % de renouvelables en 2050, arrêt du développement de l'éolien et du photovoltaïque (parti : Maxime Amblard, député, représentant du RN au colloque du SER, 2026-09-29 ; env-01, env-02) ; la candidate veut « cesser les subventionnements à perte des énergies intermittentes » (2026-10-06). Aucun nouveau réacteur ni nombre de réacteurs annoncé en campagne : A est l'option la plus proche de cette priorité au nucléaire, sans que l'idée de nouveaux réacteurs soit explicitement sourcée. Avant la candidature, elle revendiquait le vote de la relance de Fessenheim (juin 2025), lors de l'adoption d'un texte visant l'équivalent de 14 EPR",
           "sources": [
             {
@@ -4354,6 +4398,7 @@
         },
         "D-env-rythme": {
           "option": "D",
+          "proposition": "env-04",
           "justification": "Suppression du ZAN, DPE rendu indicatif (env-04), fin des subventions aux renouvelables intermittentes (env-01), ordonnances contre la « folie normative » agricole (env-06), abrogation de la loi Hulot interdisant la recherche d'hydrocarbures (env-08, 2026-10-25)",
           "sources": [
             {
@@ -4376,11 +4421,13 @@
         },
         "D-secu-budget": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Aucune priorité budgétaire sécurité-justice trouvée dans les déclarations de campagne (le programme 2022 combinait places de prison et magistrats)",
           "sources": []
         },
         "D-immig-travail": {
           "option": "aucune",
+          "proposition": "",
           "justification": "Priorité d'accès à l'emploi pour les Français, inscrite dans la Constitution (immig-02) : ni recours à l'immigration, ni régularisation, ni formation, ni hausse des salaires ; acceptation ponctuelle de saisonniers étrangers à défaut de candidats français (« aucun problème qu'il puisse y avoir des étrangers qui travaillent », 2026-10-07)",
           "sources": [
             {
@@ -4399,6 +4446,7 @@
         },
         "D-europe-regles": {
           "option": "D",
+          "proposition": "europe-02",
           "justification": "Primauté générale de la Constitution sur les engagements internationaux (art. 9 de la PPL) ; actes de l'UE ne pouvant limiter le contrôle des frontières (europe-02)",
           "sources": [
             {
@@ -4413,6 +4461,7 @@
         },
         "D-europe-defense": {
           "option": "D",
+          "proposition": "europe-04",
           "justification": "Recherche d'« une issue diplomatique à la guerre » (communiqué commun de la candidate et de Jordan Bardella, président du RN, 2026-09-19) et appel à une « grande conférence pour la paix » ; aucun montant en euros sur la défense ; elle veut aussi dégager des fonds pour « investir dans notre souveraineté, à savoir la défense et le rattrapage technologique » (2026-10-06, sans montant, idée proche de l'option A) ; aide militaire à l'Ukraine maintenue (europe-04) ; sortie du commandement intégré de l'OTAN reportée (europe-03)",
           "sources": [
             {
@@ -4427,6 +4476,7 @@
         },
         "D-educ-niveau": {
           "option": "B",
+          "proposition": "educ-01",
           "justification": "Budget maintenu malgré la baisse du nombre d'élèves pour financer des salaires plus élevés et plus d'enseignants (educ-01) ; pas d'engagement sur la taille des classes",
           "sources": [
             {
@@ -4437,11 +4487,13 @@
         },
         "D-sante-deserts": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-instit-participation": {
           "option": "B",
+          "proposition": "instit-02",
           "justification": "Proportionnelle départementale avec prime majoritaire (instit-02), défendue en avril 2025, avant la candidature, comme présidente du groupe RN : position du parti qui l'a investie, dont ni lui ni la candidate ne se sont démarqués ; pas de déclaration de campagne trouvée ; les référendums à l'initiative du président (instit-01) ne relèvent pas de l'option A ; le RIC du programme 2022 n'a pas été confirmé depuis",
           "sources": [
             {
@@ -5540,6 +5592,7 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "A",
+          "proposition": "eco-01",
           "justification": "Mesure chiffrée : 200 Md€ de baisse de la dépense publique en année pleine en fin de quinquennat, objectif de 300 Md€ (eco-01) ; une grande partie des économies est rendue en baisses de prélèvements (publication d'avril 2026 : sur 100 Md€, « 20 pour désendetter, 20 rendus aux entreprises et 60 aux Français »)",
           "sources": [
             {
@@ -5550,6 +5603,7 @@
         },
         "D-eco-pouvoir-achat": {
           "option": "B",
+          "proposition": "eco-02",
           "justification": "« restituer immédiatement 60 % aux actifs sous forme de salaire net » par la baisse des cotisations et l'alignement de la CSG (eco-02) ; « il faut cotiser moins pour gagner plus »",
           "sources": [
             {
@@ -5564,6 +5618,7 @@
         },
         "D-social-retraites": {
           "option": "A",
+          "proposition": "social-01",
           "justification": "Le programme pose « la priorité de l'augmentation de l'âge de la retraite avant la réforme d'ensemble combinant la répartition et la capitalisation » : âge légal de 65 ans (social-01 ; page non datée, 65 ans non repris dans les déclarations de 2026 trouvées) ; il défend aussi une capitalisation obligatoire progressive (social-02, social-07, option D, non voisine)",
           "sources": [
             {
@@ -5578,6 +5633,7 @@
         },
         "D-social-chomage": {
           "option": "aucune",
+          "proposition": "",
           "justification": "Approche par le coût et la flexibilité de l'embauche : contrat de travail unique et charges patronales négatives pour l'embauche d'allocataires du RSA depuis plus de deux ans (social-03, social-04) ; écart d'au moins 500 € entre un salaire à temps plein et l'aide la plus élevée, et réduction de l'écart entre coût du travail et salaire net (social-08) ; pas de proposition trouvée sur les indemnités chômage, la formation des demandeurs d'emploi, les salaires des métiers en tension ou la mobilité",
           "sources": [
             {
@@ -5592,6 +5648,7 @@
         },
         "D-env-electricite": {
           "option": "A",
+          "proposition": "env-01",
           "justification": "Prolongation des réacteurs, EPR de nouvelle génération et mini-réacteurs ; les projets d'énergies renouvelables ramenés dans le droit commun et les économies réinvesties dans le nucléaire (env-01, env-02)",
           "sources": [
             {
@@ -5602,6 +5659,7 @@
         },
         "D-env-rythme": {
           "option": "D",
+          "proposition": "eco-07",
           "justification": "Sortie du principe de précaution de la Constitution et fin de la Charte de l'environnement comme norme de contrôle (instit-05) ; moratoire de trois ans sur les nouvelles normes (eco-07) ; autorisation des NTG et fin des surtranspositions en agriculture (env-05, europe-03) ; fiscalité environnementale à taxation totale constante (env-03)",
           "sources": [
             {
@@ -5620,6 +5678,7 @@
         },
         "D-secu-budget": {
           "option": "A",
+          "proposition": "secu-06",
           "justification": "Présentée comme « La première priorité pour la sécurité » : plan massif de remise à niveau de la police nationale sur dix ans, présence sur le terrain portée à 50 % (secu-06) ; il propose aussi de doubler les procureurs et les effectifs des juridictions correctionnelles (secu-07, option C) et des centres de rétention supplémentaires (immig-04)",
           "sources": [
             {
@@ -5634,6 +5693,7 @@
         },
         "D-immig-travail": {
           "option": "A",
+          "proposition": "immig-07",
           "justification": "Quotas d'immigration instaurés « en fonction des stricts besoins » économiques des secteurs en tension, définis de manière limitative ; refus de toute régularisation après une entrée clandestine (option B écartée) (immig-07)",
           "sources": [
             {
@@ -5644,6 +5704,7 @@
         },
         "D-europe-regles": {
           "option": "C",
+          "proposition": "europe-02",
           "justification": "Dérogations ciblées : obtenir une dispense des règles communes d'asile et d'immigration sur le modèle du Danemark (europe-02) ; primauté du droit national en matière migratoire (immig-06) ; il propose aussi de réviser l'article 55 pour que la loi prime sur la CEDH sur un point précis (instit-05), qui relève du Conseil de l'Europe et non de l'UE ; il propose aussi un traité de démocratisation de l'Europe (europe-01, option B)",
           "sources": [
             {
@@ -5658,6 +5719,7 @@
         },
         "D-europe-defense": {
           "option": "A",
+          "proposition": "europe-04",
           "justification": "Couper « ses dépenses inutiles pour mieux investir dans la sécurité, la justice et la défense » ; rester « alliés des États-Unis sans nous aligner sur toutes leurs positions » ; scepticisme envers les coopérations franco-allemandes (« Les impasses des projets franco-allemands d’avion de combat et de char du futur ») ; aucun objectif chiffré (europe-04) ; il appelle aussi à rechercher « la paix » et à éviter « l'escalade » face à Moscou (option D)",
           "sources": [
             {
@@ -5672,6 +5734,7 @@
         },
         "D-educ-niveau": {
           "option": "C",
+          "proposition": "educ-05",
           "justification": "Aucune mesure chiffrée en euros (la hausse de 20 % des rémunérations est un objectif quantifié) : ordre de présentation de la page éducation, dont la première partie porte sur la carte scolaire et le chèque-éducation (educ-01, sans option correspondante) puis sur l'autonomie des chefs d'établissement (educ-05) ; il propose aussi le certificat de fin de primaire et le recentrage sur les fondamentaux (educ-02, option D), la hausse de 20 % des rémunérations en cinq ans (educ-03, option B) et un corps d'enseignants contractuels recrutés par concours (educ-04)",
           "sources": [
             {
@@ -5686,6 +5749,7 @@
         },
         "D-sante-deserts": {
           "option": "B",
+          "proposition": "sante-03",
           "justification": "Conventionnement différencié : « la Sécurité sociale rembourse mieux les actes dans les zones sous-dotées » (sante-03), avec liberté d'installation ; il propose aussi l'accès direct aux infirmiers, kinésithérapeutes et pharmaciens (sante-04, option C)",
           "sources": [
             {
@@ -5696,6 +5760,7 @@
         },
         "D-instit-participation": {
           "option": "A",
+          "proposition": "instit-04",
           "justification": "« Le référendum d’initiative populaire sera vraiment institué et rendu praticable » (instit-04), dans le discours consacré aux institutions ; il propose aussi d'étendre l'article 11 à tout sujet (référendum à l'initiative de l'exécutif, qui ne relève d'aucune option) ; pas de proportionnelle ni de conventions citoyennes trouvées",
           "sources": [
             {
@@ -7137,6 +7202,7 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "B",
+          "proposition": "eco-01",
           "justification": "Réduction du déficit de 24,7 Md€ en 2027 obtenue par 106,4 Md€ de recettes nouvelles, les dépenses augmentant de 81,7 Md€ (eco-01 à eco-07)",
           "sources": [
             {
@@ -7147,6 +7213,7 @@
         },
         "D-eco-pouvoir-achat": {
           "option": "A",
+          "proposition": "social-02",
           "justification": "SMIC porté à 1 700 € net (social-02)",
           "sources": [
             {
@@ -7157,6 +7224,7 @@
         },
         "D-social-retraites": {
           "option": "C",
+          "proposition": "eco-01",
           "justification": "Retour à 60 ans (social-01) dans un budget dont les recettes nouvelles portent surtout sur le capital et les hauts patrimoines (eco-01 à eco-05), sans affectation spécifique aux retraites ; s'y ajoute la fin des exonérations de cotisations au-dessus de 2 SMIC, qui relève de l'option B",
           "sources": [
             {
@@ -7167,6 +7235,7 @@
         },
         "D-social-chomage": {
           "option": "C",
+          "proposition": "social-02",
           "justification": "Hausse des salaires (SMIC à 1 700 € net et conférence sur les salaires, social-02) et abrogation des réformes de l'assurance chômage (social-03)",
           "sources": [
             {
@@ -7177,6 +7246,7 @@
         },
         "D-env-electricite": {
           "option": "B",
+          "proposition": "env-03",
           "justification": "Sortie du nucléaire et abandon des EPR (env-03) ; objectif de 100 % d'énergies renouvelables annoncé en 2022",
           "sources": [
             {
@@ -7195,6 +7265,7 @@
         },
         "D-env-rythme": {
           "option": "B",
+          "proposition": "env-01",
           "justification": "Accélération (−65 % d'émissions en 2030, env-01) financée par la fiscalité sur les hauts patrimoines et les grandes entreprises (eco-01 à eco-07) plutôt que par une hausse des prix pour les ménages",
           "sources": [
             {
@@ -7213,6 +7284,7 @@
         },
         "D-secu-budget": {
           "option": "D",
+          "proposition": "secu-04",
           "justification": "Renforcement des moyens humains de la prévention spécialisée et moyens de réinsertion, plutôt que de nouvelles places de prison (secu-04)",
           "sources": [
             {
@@ -7227,6 +7299,7 @@
         },
         "D-immig-travail": {
           "option": "B",
+          "proposition": "immig-03",
           "justification": "Facilitation des régularisations (immig-03)",
           "sources": [
             {
@@ -7241,6 +7314,7 @@
         },
         "D-europe-regles": {
           "option": "C",
+          "proposition": "europe-05",
           "justification": "Rester dans l'UE en cessant d'appliquer les normes jugées incompatibles avec les engagements écologiques et sociaux (europe-05)",
           "sources": [
             {
@@ -7259,6 +7333,7 @@
         },
         "D-europe-defense": {
           "option": "D",
+          "proposition": "europe-02",
           "justification": "Priorité à la diplomatie : cadre diplomatique pour un cessez-le-feu et des négociations de paix en Ukraine (europe-02), sortie de l'OTAN (europe-01)",
           "sources": [
             {
@@ -7277,6 +7352,7 @@
         },
         "D-educ-niveau": {
           "option": "A",
+          "proposition": "educ-03",
           "justification": "Réduction des effectifs par classe, en priorité en maternelle et en éducation prioritaire (educ-03)",
           "sources": [
             {
@@ -7291,6 +7367,7 @@
         },
         "D-sante-deserts": {
           "option": "A",
+          "proposition": "sante-07",
           "justification": "Régulation de l'installation des médecins (sante-07) : contrainte proche de l'option A, sans obligation d'exercice limitée dans le temps",
           "sources": [
             {
@@ -7301,6 +7378,7 @@
         },
         "D-instit-participation": {
           "option": "A",
+          "proposition": "instit-03",
           "justification": "Référendum d'initiative citoyenne (instit-03) ; il propose aussi la proportionnelle (option B, non voisine)",
           "sources": [
             {
@@ -8641,6 +8719,7 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "A",
+          "proposition": "eco-03",
           "justification": "Pas de nouvel impôt (eco-01, option B écartée) ; réduction du déficit à 2 % du PIB portée pour 75 % par la baisse des dépenses : « 50 % de l'effort sur les dépenses sociales et un quart sur l'État et les collectivités » (eco-03, eco-05) ; seule économie chiffrée en euros : « environ 30 milliards d'euros » en année pleine pour la réforme des retraites (social-01) ; il compte aussi sur la croissance pour « un quart » de l'effort (option D)",
           "sources": [
             {
@@ -8655,6 +8734,7 @@
         },
         "D-eco-pouvoir-achat": {
           "option": "B",
+          "proposition": "social-04",
           "justification": "Mesure chiffrée en euros de la priorité « Alléger la charge sur les actifs » : exonération de cotisations et d'impôt des heures supplémentaires, « soit environ 1 000 € de plus par an au SMIC pour deux heures de plus par semaine » (social-04), avec un financement du modèle social « pour qu'il ne repose plus uniquement sur le travail » ; il propose aussi une allocation familiale unique de 350 € par mois « dégressive avec le revenu » (social-06, proche de l'option D) et la suppression de l'impôt sur le revenu des classes moyennes pendant les trois premières années de l'enfant (social-07)",
           "sources": [
             {
@@ -8669,6 +8749,7 @@
         },
         "D-social-retraites": {
           "option": "A",
+          "proposition": "social-01",
           "justification": "Âge de départ à 65 ans et 45 annuités (social-01), seule mesure chiffrée en euros : « un gain chiffré en année pleine d'environ 30 milliards d'euros » ; une part de capitalisation est aussi prévue (social-02, option D, non voisine)",
           "sources": [
             {
@@ -8687,6 +8768,7 @@
         },
         "D-social-chomage": {
           "option": "A",
+          "proposition": "social-03",
           "justification": "« Réduire à 12 mois maximum la durée d'indemnisation chômage pour les moins de 50 ans » (social-03), contre 18 mois aujourd'hui",
           "sources": [
             {
@@ -8697,6 +8779,7 @@
         },
         "D-env-electricite": {
           "option": "A",
+          "proposition": "env-01",
           "justification": "Présenté en premier, sans montant en euros : « lancement de 8 EPR supplémentaires en plus des 6 déjà prévus » (env-01) ; puis « en développant les renouvelables », sans objectif chiffré (ni développement massif, option B, ni parts comparables, option C)",
           "sources": [
             {
@@ -8707,16 +8790,19 @@
         },
         "D-env-rythme": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-secu-budget": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-immig-travail": {
           "option": "A",
+          "proposition": "immig-06",
           "justification": "Quotas pour l'immigration économique (immig-06) et titres de séjour réservés « aux seuls motifs professionnels et aux étudiants » (immig-08), dans un objectif de division par deux de l'immigration (immig-01) ; même traitement qu'Attal et Lisnard",
           "sources": [
             {
@@ -8731,11 +8817,13 @@
         },
         "D-europe-regles": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-europe-defense": {
           "option": "A",
+          "proposition": "europe-01",
           "justification": "Renforcement des armées nationales, seule orientation de défense de son programme : « Massifier nos armées pour garantir la sécurité et la puissance de la France » (réservistes, service militaire volontaire, drones, munitions, europe-01 à europe-03), avec une « nouvelle LPM (Loi de programmation militaire) de la massification », « au-delà de la LPM actuelle qui épaissit les armées sans les étendre » ; aucun montant en euros ni niveau en % du PIB annoncé ; ni défense européenne commune ni OTAN dans le programme",
           "sources": [
             {
@@ -8746,6 +8834,7 @@
         },
         "D-educ-niveau": {
           "option": "B",
+          "proposition": "educ-01",
           "justification": "Seule mesure scolaire chiffrée en euros : « Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat » (educ-01), « soit près de 7 000 euros annuels de plus à la fin du quinquennat par rapport à aujourd'hui » ; le programme présente d'abord l'autonomie des établissements (« Faire des chefs d'établissements les véritables patrons de l'école », educ-03, option C), puis les savoirs fondamentaux et les évaluations rendues publiques (educ-02, educ-04, option D) ; il propose aussi de « Réduire les effectifs d'élèves en classe » (educ-05, option A, voisine)",
           "sources": [
             {
@@ -8760,11 +8849,13 @@
         },
         "D-sante-deserts": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-instit-participation": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Référendums ponctuels à l'initiative de l'exécutif (règle d'or, réseaux sociaux) et ordonnances (instit-01) : ni RIC, ni proportionnelle, ni convention citoyenne, ni réforme du fonctionnement des institutions (à la différence d'Attal, rattaché à D pour des référendums réguliers et une réforme territoriale)",
           "sources": [
             {
@@ -9841,6 +9932,7 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "A",
+          "proposition": "eco-01",
           "justification": "197 Md€ d'économies cumulées « sans augmentation d'impôts », dont 146 Md€ affectés à la réduction de la dépense et de la dette (eco-01)",
           "sources": [
             {
@@ -9851,6 +9943,7 @@
         },
         "D-eco-pouvoir-achat": {
           "option": "B",
+          "proposition": "social-05",
           "justification": "Seule mesure de pouvoir d'achat assortie d'un montant budgétaire en euros : baisse massive des charges de 30 Md€ dès la première heure travaillée et exonération de cotisations salariales et patronales sur les heures supplémentaires, brut égal au net à partir de la 36e heure (social-05, 2026-09-15) ; l'exonération des heures supplémentaires figure dans les 21 Md€ d'allègements pour les ménages du plan du 2026-10-12. À la conférence du 2026-09-15, il présente d'abord la suppression des certificats d'économies d'énergie, « environ 15 centimes par litre de carburant » (env-08, option C, voisine), évaluation de leur poids dans le prix et non du coût de la mesure, puis la baisse de la facture d'électricité (env-03)",
           "sources": [
             {
@@ -9865,6 +9958,7 @@
         },
         "D-social-retraites": {
           "option": "A",
+          "proposition": "social-01",
           "justification": "Mesure chiffrée en euros et présentée en premier (LCI, 2026-09-22) : âge minimal à 63 ans et décote de 7 % par an avant 65 ans (social-01), qui représente 12 Md€ des économies retraites ; malgré l'abaissement du taux plein automatique de 67 à 65 ans ; une part de capitalisation pour les jeunes est aussi prévue (social-02, option D, non voisine)",
           "sources": [
             {
@@ -9879,6 +9973,7 @@
         },
         "D-social-chomage": {
           "option": "A",
+          "proposition": "social-03",
           "justification": "Réduire les indemnités chômage : aligner les allocations chômage « sur les standards européens », mesure d'économies du plan du 2026-10-12 (social-03), avec une enveloppe de 30 Md€ cumulés partagée avec le plafonnement des aides non contributives à 70 % du SMIC (social-04, qui ne porte pas sur l'indemnisation du chômage) ; il veut « être moins généreux » (2026-07-01) ; aucune mesure de formation, d'attractivité des métiers en tension ni de mobilité trouvée",
           "sources": [
             {
@@ -9893,6 +9988,7 @@
         },
         "D-env-electricite": {
           "option": "A",
+          "proposition": "env-01",
           "justification": "Option la plus proche : stratégie fondée en priorité sur le nucléaire, les renouvelables ne venant qu'en complément (formulation d'ECOinfos, env-01) ; fin du soutien public aux renouvelables, « On arrête de les subventionner » (env-02, option B écartée) ; pas de construction de réacteurs ni de nombre de réacteurs annoncé",
           "sources": [
             {
@@ -9907,6 +10003,7 @@
         },
         "D-env-rythme": {
           "option": "D",
+          "proposition": "env-03",
           "justification": "Suppression de la PPE3 et baisse de la facture d'électricité pour les ménages et la compétitivité des entreprises (env-03, env-04) ; suppression du principe de précaution, jugé « un principe de blocage » (env-06)",
           "sources": [
             {
@@ -9921,6 +10018,7 @@
         },
         "D-secu-budget": {
           "option": "B",
+          "proposition": "secu-02",
           "justification": "Courtes peines dès le premier délit grave, exécutées dans des prisons spécifiques (secu-02) ; aucune hausse d'effectifs de police, de magistrats ou de prévention trouvée",
           "sources": [
             {
@@ -9931,11 +10029,13 @@
         },
         "D-immig-travail": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-europe-regles": {
           "option": "C",
+          "proposition": "europe-01",
           "justification": "Dérogation dans quelques domaines : « bouclier constitutionnel » permettant au droit français de primer sur le droit européen dans certaines situations, notamment en matière d'immigration et de sécurité (Public Sénat), et loi organique permettant de s'écarter d'une jurisprudence européenne « contraire à nos intérêts fondamentaux » (europe-01, entretien au Figaro, 2026-09-02) ; la formule du 2026-02-13, « redonner la primauté à notre droit national », ne précisait pas de domaine ; la proposition de loi constitutionnelle de 2023 permettait déjà de déroger aux règles européennes qui « contreviennent à l'identité constitutionnelle de la France » (parti : groupe LR du Sénat, avant la candidature) ; il veut aussi changer les règles européennes sur les visas (europe-02, option B, voisine)",
           "sources": [
             {
@@ -9954,11 +10054,13 @@
         },
         "D-europe-defense": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-educ-niveau": {
           "option": "B",
+          "proposition": "educ-01",
           "justification": "Aucune mesure scolaire chiffrée en euros. Premier des quatre axes de son projet pour l'école (2026-08-31) : revaloriser significativement les salaires des enseignants pour rapprocher leur rémunération de la moyenne européenne (formulation de Public Sénat, sans montant, educ-01) ; « On va parler rémunération et augmentation des salaires. C'est indispensable » (parti : Max Brisson, secrétaire national LR chargé du projet éducation) ; il propose aussi la liberté des établissements (educ-05, option C), l'examen d'entrée en sixième et les groupes de niveau (educ-03, option D)",
           "sources": [
             {
@@ -9969,11 +10071,13 @@
         },
         "D-sante-deserts": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-instit-participation": {
           "option": "A",
+          "proposition": "instit-03",
           "justification": "Seule option défendue, idée d'initiative citoyenne : seuil du référendum d'initiative partagée ramené à 2,5 millions de signatures contre 5 millions (instit-03, entretien au Figaro, 2026-09-02) ; sa mesure principale, présentée en premier, l'extension du référendum à l'initiative de l'exécutif à toutes les questions législatives (instit-01, instit-02), ne correspond à aucune option ; aucune proportionnelle, convention citoyenne ni RIC proprement dit trouvés",
           "sources": [
             {
@@ -11214,11 +11318,13 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-eco-pouvoir-achat": {
           "option": "C",
+          "proposition": "eco-02",
           "justification": "Première mesure chiffrée présentée : TVA sur les carburants ramenée de 20 % à 5,5 % et suppression des certificats d'économie d'énergie sur le litre d'essence (France 2, 2026-09-11), soit selon lui « 30 centimes en moins sur le prix du litre d'essence » (eco-02 ; chiffre par litre, rattaché à la seule baisse de TVA par Connaissance des énergies, aux deux mesures par La Gazette France ; coût budgétaire non annoncé) ; TVA sur l'énergie à 5,5 % (social-02) ; il demande aussi à TotalEnergies de baisser ses prix, sous peine de nationalisation (eco-01), sans option correspondante ; pas de hausse chiffrée du SMIC trouvée (option A)",
           "sources": [
             {
@@ -11237,16 +11343,19 @@
         },
         "D-social-retraites": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-social-chomage": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-env-electricite": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Position de la campagne (équipe : Ian Brossat, directeur de campagne) : « la production d'électricité doit être augmentée » et « la filière nucléaire reste un outil indispensable » (env-01), sans mention de nouveaux réacteurs (option A) ni de part des renouvelables ; en 2022, avant la candidature, le candidat voulait investir « et dans les énergies renouvelables, et dans l'énergie nucléaire » (idée proche de C) ; aucune option n'est donc sourcée pour la campagne 2027",
           "sources": [
             {
@@ -11261,6 +11370,7 @@
         },
         "D-env-rythme": {
           "option": "D",
+          "proposition": "eco-02",
           "justification": "Suppression « tout de suite » des « certificats d'économie d'énergie qu'ils ont mis sur le litre d'essence depuis le 1er janvier » pour faire baisser les prix (France 2, 2026-09-11 ; eco-02) ; il revendique aussi « un plan climat qui donne une trajectoire carbone » (env-02), non publié",
           "sources": [
             {
@@ -11275,21 +11385,25 @@
         },
         "D-secu-budget": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-immig-travail": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-europe-regles": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-europe-defense": {
           "option": "D",
+          "proposition": "europe-01",
           "justification": "« cessez-le-feu rapide » et « bataille diplomatique » menée par la France (europe-01) ; « Nous voulons une diplomatie de la paix » et « mettre un stop sur l'économie de guerre » (europe-02) ; initiatives avec d'autres pays, notamment au sein des BRICS, pour des cessez-le-feu rapides (europe-04)",
           "sources": [
             {
@@ -11308,6 +11422,7 @@
         },
         "D-educ-niveau": {
           "option": "B",
+          "proposition": "educ-01",
           "justification": "Présenté en premier : l'attractivité du métier, « Bien sûr il y a la question des salaires » ; puis « Nous avons besoin de plus d'enseignants pour faire reculer les inégalités » (option A, sans objectif d'effectif par classe ; voir aussi educ-02) ; lettre antérieure à l'investiture (educ-01) ; rattachement fragile, à revoir dès une mesure de campagne",
           "sources": [
             {
@@ -11322,11 +11437,13 @@
         },
         "D-sante-deserts": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-instit-participation": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         }
@@ -11995,6 +12112,7 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Aucune trajectoire de déficit ni orientation sur la dette trouvée ; il juge que les « critères budgétaires » européens « limitent l'investissement » (2026-02-25), sans proposition",
           "sources": [
             {
@@ -12005,6 +12123,7 @@
         },
         "D-eco-pouvoir-achat": {
           "option": "A",
+          "proposition": "social-01",
           "justification": "Mesure chiffrée en euros : (candidat) hausse du SMIC « à 1 700 euros nets mensuel » (Lyon, 2026-04-25, Lyon Capitale) ; (équipe : Sophie Taillé-Polian, responsable du programme) « le SMIC à 1600€ » (C01, 2026-04-13, net ou brut non précisé) (social-01) ; il propose aussi d'indexer les salaires sur l'inflation et de payer double les heures avant 8 h et après 18 h (social-01, social-02), sans option correspondante",
           "sources": [
             {
@@ -12019,6 +12138,7 @@
         },
         "D-social-retraites": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Retraite à 60 ans (équipe : Sophie Taillé-Polian) et trimestres supplémentaires pour pénibilité (social-05), ce qui écarte l'option A ; aucun mode de financement trouvé (options B, C, D)",
           "sources": [
             {
@@ -12029,6 +12149,7 @@
         },
         "D-social-chomage": {
           "option": "C",
+          "proposition": "social-02",
           "justification": "Aucune mesure ciblée chiffrée en euros (la hausse du SMIC à 1 700 € nets, social-01, est générale). Le cahier n° 01 présente en premier les salaires et les conditions des travailleurs essentiels : indexation, revalorisation des grilles, heures payées double avant 8 h et après 18 h (social-01, social-02) ; face aux pénuries de main-d'œuvre, « Pour qu'on bâtisse, pour elles, salaires, horaires, carrières. » (2026-04-29) ; il propose aussi un droit opposable à la formation et un droit à la reconversion (social-03, option B)",
           "sources": [
             {
@@ -12043,6 +12164,7 @@
         },
         "D-env-electricite": {
           "option": "D",
+          "proposition": "env-01",
           "justification": "Seul montant en euros : 15 Md€ par an pour la rénovation des logements, isolation et chauffage décarboné, avec l'objectif de « réduire nos besoins en énergie d'environ 33% » d'ici 2050 (env-01, efficacité) ; la règle donne la priorité aux euros sur l'ordre de présentation. Le programme présente d'abord le nucléaire : prolongation des centrales, six EPR2 et « huit réacteurs EPR2 supplémentaires » selon le devis d'EDF (env-02, option A) ; puis l'éolien, sans objectif chiffré (option B) ; il prévoit une consommation d'électricité portée à « environ 800 TWh »",
           "sources": [
             {
@@ -12053,6 +12175,7 @@
         },
         "D-env-rythme": {
           "option": "B",
+          "proposition": "eco-01",
           "justification": "Accélération financée par une taxe sur les dividendes des entreprises versant plus de 10 M€ (eco-01) et non par les prix ; présomption de connaissance pour le « dirigeant de la maison-mère des groupes responsables de pollution majeure » (env-04) ; il soumet aussi à référendum l'interdiction des vols intérieurs et de la publicité pour les produits polluants (env-03, proche de A)",
           "sources": [
             {
@@ -12063,6 +12186,7 @@
         },
         "D-secu-budget": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Aucune priorité trouvée entre police, prisons, magistrats et prévention ; le programme prévoit de renforcer les moyens des pompiers et de la sécurité civile (secu-02), hors des options",
           "sources": [
             {
@@ -12073,6 +12197,7 @@
         },
         "D-immig-travail": {
           "option": "B",
+          "proposition": "immig-01",
           "justification": "Aucune mesure chiffrée en euros. Le billet présente d'abord la régularisation des personnes déjà présentes, « pour des raisons à la fois humanitaires, mais aussi de production » (immig-01), puis le refus : « En revanche, nous refusons une immigration de travailleurs, notamment pour les services. » ; il évoque en fin de texte « salaires, horaires, carrières » (option D) et la formation des médecins (option C)",
           "sources": [
             {
@@ -12087,6 +12212,7 @@
         },
         "D-europe-regles": {
           "option": "B",
+          "proposition": "europe-01",
           "justification": "Changer les règles par la négociation et le rapport de force, sans désobéissance : « faire basculer la politique commerciale du libre-échange vers la protection » (europe-01) ; le cahier industrie s'appuie sur les aides d'État encadrées et les clauses de sauvegarde, avec une pression sur la Commission (europe-02) ; le prix plancher agricole, avec interdiction des importations à prix inférieurs, « devra être défendu au niveau européen » (env-05) ; il évoque, sans la recommander, la pratique française dans la défense, « en ne respectant pas la concurrence libre et non faussée » (indice de l'option C)",
           "sources": [
             {
@@ -12105,6 +12231,7 @@
         },
         "D-europe-defense": {
           "option": "B",
+          "proposition": "europe-03",
           "justification": "Priorité : « une défense de l'Europe, et donc une industrie de défense », « par la coopération entre États, et non par le supranational » ; « la diplomatie et la défense relèvent des États et doivent le rester » (europe-03) ; pas de hausse du budget national proposée (A) ; réserve envers l'OTAN (C)",
           "sources": [
             {
@@ -12115,6 +12242,7 @@
         },
         "D-educ-niveau": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Seule déclaration trouvée : « pas un poste d'enseignant supprimé dans le prochain budget » (2026-10-22), qui ne correspond à aucune option sans objectif d'effectif par classe ni de rémunération",
           "sources": [
             {
@@ -12125,6 +12253,7 @@
         },
         "D-sante-deserts": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "Aucune mesure trouvée contre les déserts médicaux ; la France « devrait former ses propres médecins » (2026-04-29), dans un texte sur l'immigration, sans option correspondante",
           "sources": [
             {
@@ -12135,6 +12264,7 @@
         },
         "D-instit-participation": {
           "option": "A",
+          "proposition": "instit-03",
           "justification": "Référendum d'initiative citoyenne : « Les idées de référendum devront aussi et surtout venir des citoyens, avec le Référendum d'initiative citoyenne (RIC) » (instit-03) ; il propose aussi d'étendre les prérogatives des parlements locaux de l'eau « en intégrant des collèges de citoyens tirés au sort » (instit-05, proche de l'option C, limité à l'eau) ; pas de déclaration de campagne trouvée sur la proportionnelle (option B)",
           "sources": [
             {
@@ -13010,6 +13140,7 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "C",
+          "proposition": "eco-06",
           "justification": "Réduire le déficit plus lentement pour préserver l'investissement : premier engagement budgétaire du programme, « Exclure immédiatement les investissements liés à la transition écologique […] du calcul du déficit autorisé » (p. 65), puis « Renégocier la trajectoire de diminution des déficits publics […] afin de proposer une trajectoire budgétaire qui préserve l'emploi » (eco-06) ; dette à « stabiliser » (p. 69) ; il propose aussi de supprimer le déficit de l'assurance-maladie par une hausse d'un point de la CSG (option B, p. 68) ; option D écartée : « Il faut abandonner la croissance du PIB comme boussole » (p. 9)",
           "sources": [
             {
@@ -13020,6 +13151,7 @@
         },
         "D-eco-pouvoir-achat": {
           "option": "A",
+          "proposition": "social-01",
           "justification": "Mesure chiffrée en euros : « Passer le salaire minimum à 2000€ brut par mois dès 2027 », première mesure du chapitre sur les rémunérations (social-01) ; hausse du SMIC présentée en premier dans ses 21 priorités (2026-04-17) ; elle propose aussi la revalorisation de 10 % des APL et de 250 € de l'AAH (social-05, social-06, proches de l'option D) et l'encadrement des prix d'un panier de biens essentiels (eco-04)",
           "sources": [
             {
@@ -13034,6 +13166,7 @@
         },
         "D-social-retraites": {
           "option": "B",
+          "proposition": "social-02",
           "justification": "« Équilibrer le régime des retraites par une augmentation des ressources de la branche vieillesse » : « Augmenter les cotisations vieillesses de 0,2 point/an pendant le quinquennat », cotisation déplafonnée relevée d'un point au-delà du plafond de la Sécurité sociale, cotisations étendues à l'épargne salariale, à l'intéressement, à la participation et aux actions gratuites (social-02) ; cette dernière extension rejoint en partie l'option C ; le programme refuse la capitalisation (option D) et le report de l'âge (option A)",
           "sources": [
             {
@@ -13044,6 +13177,7 @@
         },
         "D-social-chomage": {
           "option": "B",
+          "proposition": "social-07",
           "justification": "Formation et accompagnement : sécurité sociale professionnelle, « Plan Compétences Transition Écologique », formation rémunérée de 6 à 10 mois vers un métier de la transition pour les salariés peu qualifiés (social-07) ; assurance chômage refondée « pour donner les moyens de trouver un emploi ou de se réorienter » ; il propose aussi de conditionner les exonérations de cotisations à la hausse des bas salaires (social-08), mesure générale et non ciblée sur les métiers en tension (option C non retenue) ; option A écartée par l'abrogation des réformes de l'assurance chômage",
           "sources": [
             {
@@ -13054,6 +13188,7 @@
         },
         "D-env-electricite": {
           "option": "D",
+          "proposition": "",
           "justification": "Le programme présente en premier « la sobriété et l'efficacité » comme des « priorités absolues » (p. 16), sans montant en euros. Il développe aussi massivement les renouvelables (44 % en 2030, env-02 ; « Investir massivement dans les énergies renouvelables et l'isolation thermique », 2026-04-17, option B) et prévoit la sortie du nucléaire (env-01).",
           "sources": [
             {
@@ -13068,6 +13203,7 @@
         },
         "D-env-rythme": {
           "option": "B",
+          "proposition": "env-03",
           "justification": "Accélérer en faisant contribuer d'abord les plus gros émetteurs : « une fiscalité sur les entreprises fossiles et les ménages les plus émetteurs en carbone » (env-03), ISF assorti d'une composante climatique (eco-02), réforme de l'héritage pour financer « la grande transition » (eco-01) ; « il est temps d'en finir avec ces privilèges climatiques » (discours de Grenoble)",
           "sources": [
             {
@@ -13082,6 +13218,7 @@
         },
         "D-secu-budget": {
           "option": "A",
+          "proposition": "secu-02",
           "justification": "Aucune mesure chiffrée en euros ne relève d'une seule option (les 3 Md€ de la loi intégrale contre les violences sexistes et sexuelles, secu-01, couvrent prévention, accompagnement et justice). Présenté en premier dans le programme : « Mettre la priorité sur le renforcement des effectifs de terrain, formés à la médiation et à la prévention » (secu-02, p. 166, chapitre 50) ; elle propose aussi 9 000 magistrats, 10 000 greffiers et 7 000 attachés de justice sur dix ans (secu-03, p. 168, chapitre 51, option C) et la loi intégrale (secu-01, en partie proche de l'option D)",
           "sources": [
             {
@@ -13096,6 +13233,7 @@
         },
         "D-immig-travail": {
           "option": "B",
+          "proposition": "immig-01",
           "justification": "« Régulariser les travailleurs et les travailleuses sans papiers » (immig-01, 2026-04-17), repris au programme ; elle propose aussi des voies légales d'immigration par une révision du Pacte européen (immig-02, proche de l'option A)",
           "sources": [
             {
@@ -13110,6 +13248,7 @@
         },
         "D-europe-regles": {
           "option": "B",
+          "proposition": "europe-01",
           "justification": "Changer les règles en révisant les traités (« Réviser les traités européens pour garantir un non-dépassement des limites planétaires ») et « Faire un saut fédéral européen » (europe-01) ; suppression des « contraintes austéritaires » du Pacte de stabilité par sa renégociation (eco-06) ; aucune dérogation nationale au droit européen trouvée",
           "sources": [
             {
@@ -13120,6 +13259,7 @@
         },
         "D-europe-defense": {
           "option": "B",
+          "proposition": "europe-04",
           "justification": "Défense européenne commune, présentée dès l'introduction du chapitre : « construire une véritable architecture de défense européenne autonome des États-Unis » ; « Créer un commandement militaire intégré européen sous la tutelle du Conseil de l'Union Européenne » (europe-04) ; elle propose aussi de préparer l'armée française à une guerre de haute intensité, sans hausse budgétaire chiffrée (option A non retenue), de garder l'OTAN à court terme avec un pilier européen autonome (option C non retenue) et une initiative de désarmement nucléaire multilatéral (proche de l'option D)",
           "sources": [
             {
@@ -13130,6 +13270,7 @@
         },
         "D-educ-niveau": {
           "option": "A",
+          "proposition": "educ-02",
           "justification": "Aucune mesure scolaire chiffrée en euros, hors rénovation du bâti. Présenté en premier dans le programme : classes de 19 élèves en primaire en 2032 et de 12 en éducation prioritaire (educ-02, p. 91), objectif quantifié ; elle propose aussi d'« Augmenter les salaires des enseignant·es de 15% sur un quinquennat » (educ-01, seule mesure éducative des 21 priorités, option B, voisine)",
           "sources": [
             {
@@ -13148,6 +13289,7 @@
         },
         "D-sante-deserts": {
           "option": "A",
+          "proposition": "sante-01",
           "justification": "Contrainte sur l'installation des médecins : « Réguler l'installation des médecins libéraux par une autorisation d'installation des médecins délivrée par l'Agence Régionale de Santé – de droit dans les zones sous-dotées » (sante-01) ; c'est la seule option défendue ; sa mesure principale, 2 000 centres de santé d'ici 2030, présentée en premier, ne correspond à aucune option ; la régulation ne vise pas spécifiquement les jeunes médecins ; aucune hausse de rémunération, délégation d'actes ni téléconsultation proposée",
           "sources": [
             {
@@ -13158,6 +13300,7 @@
         },
         "D-instit-participation": {
           "option": "A",
+          "proposition": "instit-05",
           "justification": "Présenté en premier : « Renforcer la démocratie directe par la mise en œuvre du Référendum d'Initiative Citoyenne (RIC) propositionnel ou abrogatif » (instit-05, p. 162) ; elle propose aussi la proportionnelle intégrale aux législatives (instit-02, p. 163, option B) et une convention citoyenne permanente au sein d'un CESE transformé (option C)",
           "sources": [
             {
@@ -14275,6 +14418,7 @@
       "dilemmes": {
         "D-eco-dette": {
           "option": "A",
+          "proposition": "eco-01",
           "justification": "Mesure chiffrée en euros : « Je pense qu'il faut au minimum 100 milliards par an de baisse des dépenses publiques », présentée comme finançant aussi des baisses d'impôts et de charges (eco-01, eco-02) ; les sources ne mentionnent ni le déficit ni une cible",
           "sources": [
             {
@@ -14289,6 +14433,7 @@
         },
         "D-eco-pouvoir-achat": {
           "option": "C",
+          "proposition": "eco-03",
           "justification": "Aucune mesure chiffrée en euros ; présentée en premier dans l'entretien : baisse d'un tiers de l'accise sur les carburants, « que je financerais par une baisse des dépenses » (eco-03, séquence de 21 h 27 du direct) ; il défend ensuite une baisse des charges sociales et des impôts « pour augmenter les salaires » (eco-02, séquence de 21 h 35, option B, voisine)",
           "sources": [
             {
@@ -14303,6 +14448,7 @@
         },
         "D-social-retraites": {
           "option": "A",
+          "proposition": "social-01",
           "justification": "Présenté en premier : « augmenter la durée de travail et donc le fait de partir plus tard à la retraite », allongement envisagé de la durée de cotisation à « 44, 45, 46 ans », en excluant de diminuer « la retraite des gens » (social-01) ; une part de capitalisation est aussi prévue (social-02, option D, non voisine)",
           "sources": [
             {
@@ -14313,11 +14459,13 @@
         },
         "D-social-chomage": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-env-electricite": {
           "option": "A",
+          "proposition": "env-01",
           "justification": "Six EPR d'ici 2035 et quatorze d'ici 2045, objectif non chiffré en euros (env-01) ; fin des financements de l'éolien (env-02, parti : Reconquête, programme européen 2024, avant la candidature)",
           "sources": [
             {
@@ -14332,6 +14480,7 @@
         },
         "D-env-rythme": {
           "option": "D",
+          "proposition": "env-03",
           "justification": "(parti : Reconquête, programme européen 2024, avant la candidature) : « Supprimer l'interdiction de la vente de véhicules thermiques à l'horizon 2035 » et « Abroger toutes les directives et règlements du Pacte vert » (env-03, env-04) ; pas de déclaration de campagne 2026 trouvée sur ce point",
           "sources": [
             {
@@ -14342,6 +14491,7 @@
         },
         "D-secu-budget": {
           "option": "B",
+          "proposition": "secu-04",
           "justification": "Aucune mesure chiffrée en euros ; seul poste visé : « la construction rapide de 100 000 places de prison supplémentaires » (objectif quantifié, selon Entrevue, 2026-10-25, secu-04), avec les peines planchers (secu-01) ; aucun objectif d'effectifs de police, de magistrats ni de prévention trouvé",
           "sources": [
             {
@@ -14352,6 +14502,7 @@
         },
         "D-immig-travail": {
           "option": "aucune",
+          "proposition": "",
           "justification": "Propose de remplacer par la robotique et l'IA la main-d'œuvre étrangère des métiers en tension (immig-04) : réponse distincte des quatre options",
           "sources": [
             {
@@ -14366,6 +14517,7 @@
         },
         "D-europe-regles": {
           "option": "D",
+          "proposition": "europe-01",
           "justification": "Modifier l'article 55 de la Constitution pour que les lois nationales priment sur les traités, sans sortie de l'UE (europe-01, 2024, avant la candidature) ; programme européen 2024 : « sanctuariser la primauté du droit national sur le droit européen » et « interdire aux juges de rendre inapplicable une législation nationale » (parti : Reconquête, avant la candidature)",
           "sources": [
             {
@@ -14380,11 +14532,13 @@
         },
         "D-europe-defense": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-educ-niveau": {
           "option": "D",
+          "proposition": "educ-01",
           "justification": "Présenté en premier, selon Entrevue (2026-10-25) : « un retour à la dictée, au calcul mental, à la récitation, à la discipline » (educ-01), sans mention d'évaluations ; il propose aussi de « renforcer leur autonomie », celle des établissements, et la concurrence entre public et privé (option C)",
           "sources": [
             {
@@ -14395,11 +14549,13 @@
         },
         "D-sante-deserts": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         },
         "D-instit-participation": {
           "option": "pas de position",
+          "proposition": "",
           "justification": "",
           "sources": []
         }

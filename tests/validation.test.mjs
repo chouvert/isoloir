@@ -28,9 +28,9 @@ function ficheValide({ id = 'dupont-jean', notes = [3, 4, 3, 4, 3, 4], globale =
   }
   // Tous les dilemmes : « pas de position », sauf les retraites (option A sourcée).
   for (const d of DILEMMES) {
-    t = t.replace(new RegExp(`^\\| ${d}\\s*\\|.*$`, 'm'), `| ${d} | pas de position | | |`);
+    t = t.replace(new RegExp(`^\\| ${d}\\s*\\|.*$`, 'm'), `| ${d} | pas de position | | | |`);
   }
-  t = t.replace(/^\| D-social-retraites .*$/m, '| D-social-retraites | A | Report à 65 ans | [prog](https://exemple.fr) |');
+  t = t.replace(/^\| D-social-retraites .*$/m, '| D-social-retraites | A | eco-01 | Report à 65 ans | [prog](https://exemple.fr) |');
   // Une proposition sourcée en éco.
   t = t.replace(/(### eco — Économie & fiscalité\n\|.*\n\|.*\n)/,
     '$1| eco-01 | Baisse de l\'IR | 8 Md€ | 11 Md€ (Institut Y) | 2028 | [prog](https://exemple.fr) |\n');
@@ -191,9 +191,9 @@ test('tous les dilemmes du référentiel sont lus', () => {
 
 test('réponse à un dilemme : option inexistante, sans source, dilemme manquant', () => {
   const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
-    .replace(/^\| D-eco-dette .*$/m, '| D-eco-dette | E | x | [s](https://x.fr) |')
-    .replace(/^\| D-env-rythme .*$/m, '| D-env-rythme | aucune | approche différente | programme |')
-    .replace(/^\| D-sante-deserts .*$/m, '| D-sante-deserts | B | | [s](https://x.fr) |')
+    .replace(/^\| D-eco-dette .*$/m, '| D-eco-dette | E | | x | [s](https://x.fr) |')
+    .replace(/^\| D-env-rythme .*$/m, '| D-env-rythme | aucune | | approche différente | programme |')
+    .replace(/^\| D-sante-deserts .*$/m, '| D-sante-deserts | B | eco-01 | | [s](https://x.fr) |')
     .replace(/^\| D-educ-niveau .*\n/m, '')));
   const m = messages(r);
   assert.match(m, /« D-eco-dette » : réponse « E » invalide/);
@@ -204,9 +204,42 @@ test('réponse à un dilemme : option inexistante, sans source, dilemme manquant
 
 test('réponse vide à un dilemme : avertissement seulement', () => {
   const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
-    .replace(/^\| D-eco-dette .*$/m, '| D-eco-dette | | | |')));
+    .replace(/^\| D-eco-dette .*$/m, '| D-eco-dette | | | | |')));
   assert.equal(r.erreurs.length, 0, messages(r));
   assert.match(r.avertissements.map((a) => a.message).join('\n'), /1 dilemme\(s\) non renseigné/);
+});
+
+test('dilemmes : colonne proposition absente', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| dilemme +\| option +\| proposition +\| justification +\| source +\|$/m, '| dilemme | option | justification | source |')
+    .replace(/^\|-+\|-+\|-+\|-+\|-+\|$/m, '|---|---|---|---|')
+    .replace(/^(\| D-[a-z-]+ \| [^|]*\|)[^|]*\|/gm, '$1')));
+  assert.match(messages(r), /tableau des réponses \(colonnes dilemme, option, proposition, justification, source\) introuvable/);
+});
+
+test('dilemmes : proposition inconnue', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| D-social-retraites .*$/m, '| D-social-retraites | A | eco-99 | Report à 65 ans | [prog](https://exemple.fr) |')));
+  assert.match(messages(r), /« D-social-retraites » : proposition « eco-99 » absente des propositions de la fiche/);
+});
+
+test('dilemmes : proposition avec pas de position', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| D-eco-dette .*$/m, '| D-eco-dette | pas de position | eco-01 | | |')));
+  assert.match(messages(r), /« D-eco-dette » : proposition renseignée pour une réponse « pas de position »/);
+});
+
+test('dilemmes : lettre sans proposition, avertissement seulement', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| D-social-retraites .*$/m, '| D-social-retraites | A | | Report à 65 ans | [prog](https://exemple.fr) |')));
+  assert.equal(r.erreurs.length, 0, messages(r));
+  assert.match(r.avertissements.map((a) => a.message).join('\n'), /« D-social-retraites » : option « A » sans proposition/);
+});
+
+test('dilemmes : même proposition pour deux dilemmes', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| D-eco-dette .*$/m, '| D-eco-dette | A | eco-01 | Baisse des dépenses | [s](https://x.fr) |')));
+  assert.equal(r.erreurs.length, 0, messages(r));
 });
 
 test('référentiel des dilemmes : erreurs de rédaction', () => {
@@ -234,7 +267,7 @@ test('voisinages : format, options inexistantes, ligne manquante, trop de paires
   assert.match(m, /« D-social-chomage » : paire voisine « D-B » en double/);
   assert.match(m, /« D-secu-budget » : ligne « - voisines : … » manquante/);
   assert.match(r.avertissements.map((a) => a.message).join('\n'), /« D-educ-niveau » : 3 paires voisines/);
-  assert.ok(!r.avertissements.some((a) => /D-europe-regles/.test(a.message)), 'dilemme gradué : pas d\'avertissement');
+  assert.ok(!r.avertissements.some((a) => /D-europe-regles.*paires voisines/.test(a.message)), 'dilemme gradué : pas d\'avertissement');
 });
 
 test('dilemme ajouté au référentiel mais absent du gabarit', () => {
