@@ -70,17 +70,16 @@ node --test tests/*.test.mjs   # ou npm test (50 tests)
 - R4 Sources (voir plus haut). R5 Actualité depuis `derniere_maj` ; mettre `derniere_maj` à jour.
 
 ## État au 2026-10-31 et suite
-- 12 fiches dans `main`. Relecture transversale : lot A (Philippe, Le Pen, Zemmour, Retailleau) en PR #21 ;
-  lot B (Glucksmann, Attal, Lisnard ; contrôle rapide de Roussel, Tondelier, Batho, Ruffin) en PR (branche `relecture-b`).
+- 12 fiches dans `main`. Relecture transversale terminée : lot A (PR #21) et
+  lot B (Glucksmann, Attal, Lisnard ; contrôle rapide de Roussel, Tondelier, Batho, Ruffin) (PR #22), fusionnés.
 - Décisions de Julien (2026-10-31) : phares limités aux annonces postérieures à la déclaration (README) ;
   quotas d'immigration de travail = option A de D-immig-travail.
 - **À faire, dans l'ordre :**
-  1. Points ouverts du lot B, à trancher plus tard : Philippe (D-immig-travail, D-instit-participation,
-     à harmoniser avec Attal, pas maintenant) ; Ruffin D-env-electricite (A, ou D par les 15 Md€ de
-     rénovation ?) ; Roussel D-educ-niveau (B fragile).
+  1. Harmonisation faite le 2026-10-31 (PR `harmonisation`) : Philippe D-immig-travail → A ; Ruffin
+     D-env-electricite → D ; Tondelier D-secu-budget → A et D-educ-niveau → A ; Roussel D-educ-niveau B
+     maintenu (fragile, à revoir dès une mesure de campagne).
   2. Mélenchon : mise à jour et relecture après le 2026-11-06.
-  3. Tondelier : réexamen après le vote des adhérents des Écologistes (10–13 décembre 2026), y compris
-     D-secu-budget (C → A par l'ordre de présentation ?) et D-educ-niveau (21 priorités ou programme ?).
+  3. Tondelier : réexamen après le vote des adhérents des Écologistes (10–13 décembre 2026).
   4. Le Pen : audience de la Cour de cassation le 2026-12-16.
   5. Candidats à surveiller : Cazeneuve (inclus dès sa déclaration), Bertrand, Polony (1–1,5 %), Hollande,
      Bardella si retrait de Le Pen. Réexaminer `candidats-inclus.md` à chaque vague de sondages.

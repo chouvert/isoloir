@@ -71,9 +71,10 @@ questions-réponses (« près de 7 000 euros ») ; le pourcentage de +20 % seul 
 (autonomie), présentée en premier, aurait alors été retenue. Restent « pas de position » faute d'idée sourcée
 correspondant à une option : D-env-rythme (pas de rythme de transition ; plan d'adaptation), D-secu-budget (ni
 policiers, ni places de prison, ni effectifs de magistrats ; les courtes peines visent à éviter « d'enfermer trop
-tard et trop longtemps »), D-immig-travail (quotas « permettant de choisir notre immigration économique » et
-titres réservés aux motifs professionnels : sélection, pas facilitation), D-europe-regles, D-sante-deserts,
-D-instit-participation. -->
+tard et trop longtemps »), D-europe-regles, D-sante-deserts, D-instit-participation (référendums ponctuels à l'initiative de l'exécutif et
+ordonnances, sans réforme des institutions ni outil de participation).
+Harmonisation du 2026-10-31 (décision de Julien : des quotas d'immigration de travail relèvent de l'option A) :
+D-immig-travail pas de position → A. -->
 | dilemme                | option | justification | source |
 |------------------------|--------|---------------|--------|
 | D-eco-dette | A | Pas de nouvel impôt (eco-01, option B écartée) ; réduction du déficit à 2 % du PIB portée pour 75 % par la baisse des dépenses : « 50 % de l'effort sur les dépenses sociales et un quart sur l'État et les collectivités » (eco-03, eco-05) ; seule économie chiffrée en euros : « environ 30 milliards d'euros » en année pleine pour la réforme des retraites (social-01) ; il compte aussi sur la croissance pour « un quart » de l'effort (option D) | [Priorités « Prospère »](https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere) ; [La Gazette France (AFP), 2026-09-29](https://www.lagazettefrance.fr/article/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-devoile-son-projet-de-reforme-des-retraites) |
@@ -83,12 +84,12 @@ D-instit-participation. -->
 | D-env-electricite | A | Présenté en premier, sans montant en euros : « lancement de 8 EPR supplémentaires en plus des 6 déjà prévus » (env-01) ; puis « en développant les renouvelables », sans objectif chiffré (ni développement massif, option B, ni parts comparables, option C) | [Priorités « Conquérante »](https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante) |
 | D-env-rythme | pas de position |  |  |
 | D-secu-budget | pas de position |  |  |
-| D-immig-travail | pas de position |  |  |
+| D-immig-travail | A | Quotas pour l'immigration économique (immig-06) et titres de séjour réservés « aux seuls motifs professionnels et aux étudiants » (immig-08), dans un objectif de division par deux de l'immigration (immig-01) ; même traitement qu'Attal et Lisnard | [Priorités « Sûre »](https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure) ; [Orange Actualités (L'Express), 2026-10-27](https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html) |
 | D-europe-regles | pas de position |  |  |
 | D-europe-defense | A | Renforcement des armées nationales, seule orientation de défense de son programme : « Massifier nos armées pour garantir la sécurité et la puissance de la France » (réservistes, service militaire volontaire, drones, munitions, europe-01 à europe-03), avec une « nouvelle LPM (Loi de programmation militaire) de la massification », « au-delà de la LPM actuelle qui épaissit les armées sans les étendre » ; aucun montant en euros ni niveau en % du PIB annoncé ; ni défense européenne commune ni OTAN dans le programme | [Priorités « Sûre »](https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure) |
 | D-educ-niveau | B | Seule mesure scolaire chiffrée en euros : « Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat » (educ-01), « soit près de 7 000 euros annuels de plus à la fin du quinquennat par rapport à aujourd'hui » ; le programme présente d'abord l'autonomie des établissements (« Faire des chefs d'établissements les véritables patrons de l'école », educ-03, option C), puis les savoirs fondamentaux et les évaluations rendues publiques (educ-02, educ-04, option D) ; il propose aussi de « Réduire les effectifs d'élèves en classe » (educ-05, option A, voisine) | [Priorités « Enfants »](https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants) ; [edouardphilippe.fr, L'école : questions-réponses, 2026-10-23](https://www.edouardphilippe.fr/questions-reponses/ecoles) |
 | D-sante-deserts | pas de position |  |  |
-| D-instit-participation | pas de position |  |  |
+| D-instit-participation | pas de position | Référendums ponctuels à l'initiative de l'exécutif (règle d'or, réseaux sociaux) et ordonnances (instit-01) : ni RIC, ni proportionnelle, ni convention citoyenne, ni réforme du fonctionnement des institutions (à la différence d'Attal, rattaché à D pour des référendums réguliers et une réforme territoriale) | [Priorités « Prospère »](https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere) |
 
 ## Propositions phares
 <!-- Règle : README, « Propositions phares ». Pas de résumé en quelques mesures : la page d'accueil
