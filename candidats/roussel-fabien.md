@@ -7,7 +7,7 @@ statut: déclaré
 date_declaration: 2026-09-06
 programme_url:
 programme_version: pas de programme publié trouvé au 2026-10-26 ; déclarations et annonces de campagne (2026-09-06 à 2026-10-21)
-derniere_maj: 2026-10-27
+derniere_maj: 2026-10-31
 ---
 
 # Fabien Roussel

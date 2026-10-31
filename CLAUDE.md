@@ -62,14 +62,17 @@ node --test tests/*.test.mjs   # ou npm test (50 tests)
 - R4 Sources (voir plus haut). R5 Actualité depuis `derniere_maj` ; mettre `derniere_maj` à jour.
 
 ## État au 2026-10-31 et suite
-- 12 fiches dans `main`. Relecture transversale : lot A (Philippe, Le Pen, Zemmour, Retailleau) en PR #21.
+- 12 fiches dans `main`. Relecture transversale : lot A (Philippe, Le Pen, Zemmour, Retailleau) en PR #21 ;
+  lot B (Glucksmann, Attal, Lisnard ; contrôle rapide de Roussel, Tondelier, Batho, Ruffin) en PR (branche `relecture-b`).
+- Décisions de Julien (2026-10-31) : phares limités aux annonces postérieures à la déclaration (README) ;
+  quotas d'immigration de travail = option A de D-immig-travail.
 - **À faire, dans l'ordre :**
-  1. Relecture lot B : Glucksmann (désigné par la primaire PS/Place publique/GRS du 2026-10-11 :
-     seuls comptent sa parole, son programme, son équipe), Attal (aligner D-instit-participation sur
-     Retailleau : un référendum à l'initiative de l'exécutif n'est pas « aucune » si une option est
-     défendue par ailleurs), Lisnard ; contrôle rapide de Roussel, Tondelier, Batho, Ruffin.
+  1. Points ouverts du lot B, à trancher plus tard : Philippe (D-immig-travail, D-instit-participation,
+     à harmoniser avec Attal, pas maintenant) ; Ruffin D-env-electricite (A, ou D par les 15 Md€ de
+     rénovation ?) ; Roussel D-educ-niveau (B fragile).
   2. Mélenchon : mise à jour et relecture après le 2026-11-06.
-  3. Tondelier : réexamen après le vote des adhérents des Écologistes (10–13 décembre 2026).
+  3. Tondelier : réexamen après le vote des adhérents des Écologistes (10–13 décembre 2026), y compris
+     D-secu-budget (C → A par l'ordre de présentation ?) et D-educ-niveau (21 priorités ou programme ?).
   4. Le Pen : audience de la Cour de cassation le 2026-12-16.
   5. Candidats à surveiller : Cazeneuve (inclus dès sa déclaration), Bertrand, Polony (1–1,5 %), Hollande,
      Bardella si retrait de Le Pen. Réexaminer `candidats-inclus.md` à chaque vague de sondages.
