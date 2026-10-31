@@ -14,23 +14,23 @@ OpinionWay) : [récapitulatif Élections 2027](https://elections2027.com/sondage
 
 | candidat            | parti              | fourchette | fiche |
 |---------------------|--------------------|------------|-------|
-| Marine Le Pen       | RN                 | 31 – 36 %  | à faire |
+| Marine Le Pen       | RN                 | 31 – 36 %  | `le-pen-marine` |
 | Jean-Luc Mélenchon  | LFI                | 15 – 18 %  | `melenchon-jean-luc` |
 | Édouard Philippe    | Horizons           | 12 – 17 %  | `philippe-edouard` |
-| Raphaël Glucksmann  | Place publique     | 11 – 15,5 % | à faire |
-| David Lisnard       | Nouvelle Énergie   | 5,5 – 7 %  | à faire |
-| Bruno Retailleau    | LR                 | 4 – 7 %    | à faire |
-| Éric Zemmour        | Reconquête         | 3 – 5 %    | à faire |
-| Gabriel Attal       | Renaissance        | 4 %        | à faire |
-| Marine Tondelier    | Les Écologistes    | 2 – 3 %    | à faire |
+| Raphaël Glucksmann  | Place publique     | 11 – 15,5 % | `glucksmann-raphael` |
+| David Lisnard       | Nouvelle Énergie   | 5,5 – 7 %  | `lisnard-david` |
+| Bruno Retailleau    | LR                 | 4 – 7 %    | `retailleau-bruno` |
+| Éric Zemmour        | Reconquête         | 3 – 5 %    | `zemmour-eric` |
+| Gabriel Attal       | Renaissance        | 4 %        | `attal-gabriel` |
+| Marine Tondelier    | Les Écologistes    | 2 – 3 %    | `tondelier-marine` |
 
 ## Inclus au titre des parlementaires du parti
 
 | candidat        | parti porteur        | parlementaires | statut | sources |
 |-----------------|----------------------|----------------|--------|---------|
-| Fabien Roussel  | PCF                  | 14 députés rattachés au PCF | investi le 2026-09-06 (72 % des adhérents) | [LCP, 2026-09-06](https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389) ; [Datan](https://datan.fr/partis-politiques/pcf) |
-| Delphine Batho  | Génération écologie  | elle-même, députée des Deux-Sèvres et présidente du parti | déclarée le 2025-11-25 | [L'Info Durable, 2025-11-25](https://www.linfodurable.fr/lex-ministre-delphine-batho-candidate-la-presidentielle-pour-conjurer-la-rikikisation-de-lecologie) |
-| François Ruffin | Debout !             | lui-même, seul député du mouvement (Somme) | déclaré « sous conditions » : ira seul en l'absence de primaire ; à confirmer | [Wikipédia, Debout !](https://en.wikipedia.org/wiki/Debout!) ; [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) |
+| Fabien Roussel  | PCF                  | 14 députés rattachés au PCF | investi le 2026-09-06 (72 % des adhérents) ; fiche `roussel-fabien` | [LCP, 2026-09-06](https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389) ; [Datan](https://datan.fr/partis-politiques/pcf) |
+| Delphine Batho  | Génération écologie  | elle-même, députée des Deux-Sèvres et présidente du parti | déclarée le 2025-11-25 ; fiche `batho-delphine` | [L'Info Durable, 2025-11-25](https://www.linfodurable.fr/lex-ministre-delphine-batho-candidate-la-presidentielle-pour-conjurer-la-rikikisation-de-lecologie) |
+| François Ruffin | Debout !             | lui-même, seul député du mouvement (Somme) | déclaré le 2026-01-26 (TF1) ; condition « s'il n'y a pas de primaire » remplie (primaire unitaire abandonnée en juillet 2026) ; fiche `ruffin-francois` | [Wikipédia, Debout !](https://en.wikipedia.org/wiki/Debout!) ; [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) |
 
 ## Non inclus à ce jour
 
