@@ -9,7 +9,7 @@ export const SEUILS = Object.freeze({
   couvertureComplete: 0.7,   // à partir de : score affiché normalement
   couvertureMinimale: 0.4,   // en dessous : pas de score
   ecartEgalite: 5,           // points d'écart en dessous desquels deux candidats sont à égalité
-  minDuels: 3,               // duels comptés pour afficher la préférence à l'aveugle
+  minDuels: 3,               // duels comptés pour afficher l'indicateur de cohérence (duels.mjs)
 });
 
 export const SANS_AVIS = 'sans avis';
@@ -182,25 +182,4 @@ export function calculerProximite({ dilemmes, pointsThemes, reponses, candidats 
     groupes: grouperEgalites(avecScore),
     sansScore: resultats.filter((r) => r.score === null).map((r) => r.id).sort(),
   };
-}
-
-/**
- * Préférence à l'aveugle, indicateur séparé du score.
- * @param {Array<{ a: string, b: string, choix: 'a'|'b'|'aucune'|'les deux' }>} duels
- *        a et b sont les identifiants des candidats auteurs des deux propositions.
- * @returns {Record<string, { apparitions: number, preferee: number, taux: number|null }>}
- */
-export function calculerPreferencesAveugle(duels) {
-  const stats = {};
-  const compter = (id) => (stats[id] ??= { apparitions: 0, preferee: 0, taux: null });
-  for (const { a, b, choix } of duels) {
-    if (choix !== 'a' && choix !== 'b') continue; // « aucune » et « les deux » ne comptent pas
-    compter(a).apparitions++;
-    compter(b).apparitions++;
-    compter(choix === 'a' ? a : b).preferee++;
-  }
-  for (const s of Object.values(stats)) {
-    s.taux = s.apparitions >= SEUILS.minDuels ? s.preferee / s.apparitions : null;
-  }
-  return stats;
 }
