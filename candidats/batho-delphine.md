@@ -7,7 +7,7 @@ statut: déclaré
 date_declaration: 2025-11-25
 programme_url:
 programme_version: pas de programme publié trouvé au 2026-10-28 ; déclarations de la candidate et textes de Génération écologie (2025-11-25 à 2026-10-26)
-derniere_maj: 2026-10-28
+derniere_maj: 2026-10-31
 ---
 
 # Delphine Batho

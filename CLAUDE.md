@@ -45,7 +45,15 @@ node --test tests/*.test.mjs   # ou npm test (50 tests)
    finir par `npm run valider`.
 2. **Vérification indépendante** : un agent neuf qui n'a pas vu la rédaction. Contrôle complet des
    dilemmes, des phares et des attributions (qui parle) ; citations vérifiées par échantillon, contrôle
-   complet seulement si l'échantillon révèle des erreurs.
+   complet seulement si l'échantillon révèle des erreurs. Prompt : lire ce fichier, README, `dilemmes.md`,
+   `questions.md`, le gabarit, **sans fiche de référence** (la grille suffit) ; rapport sans liste des
+   citations exactes (leur nombre seulement). Coût observé : ≈ 165 000 à 205 000 tokens par fiche.
+   - **Contrôle rapide** de fiches déjà relues : **un seul agent pour toutes**, qui ne lit que l'en-tête,
+     les dilemmes, les phares et les évolutions de chaque fiche (Grep puis Read avec offset/limit), avec
+     une ou deux recherches d'actualité par candidat (≈ 120 000 tokens pour quatre fiches).
+   - **Fin de vérification** : s'il ne reste que deux ou trois pages à lire (vérificateur coupé par le
+     quota, point à confirmer), les lire soi-même (WebSearch puis WebFetch ciblé) plutôt que lancer un agent.
+   - Agent coupé par le quota : le reprendre par SendMessage après la remise à zéro, sans en relancer un neuf.
 3. **Corrections** : les appliquer soi-même (Edit ciblés) ou par un agent neuf qui ne lit que la fiche
    et la liste des corrections. **Ne pas relancer le rédacteur** (SendMessage recharge toute sa
    conversation, ≈ 300 000 tokens).
@@ -62,14 +70,17 @@ node --test tests/*.test.mjs   # ou npm test (50 tests)
 - R4 Sources (voir plus haut). R5 Actualité depuis `derniere_maj` ; mettre `derniere_maj` à jour.
 
 ## État au 2026-10-31 et suite
-- 12 fiches dans `main`. Relecture transversale : lot A (Philippe, Le Pen, Zemmour, Retailleau) en PR #21.
+- 12 fiches dans `main`. Relecture transversale : lot A (Philippe, Le Pen, Zemmour, Retailleau) en PR #21 ;
+  lot B (Glucksmann, Attal, Lisnard ; contrôle rapide de Roussel, Tondelier, Batho, Ruffin) en PR (branche `relecture-b`).
+- Décisions de Julien (2026-10-31) : phares limités aux annonces postérieures à la déclaration (README) ;
+  quotas d'immigration de travail = option A de D-immig-travail.
 - **À faire, dans l'ordre :**
-  1. Relecture lot B : Glucksmann (désigné par la primaire PS/Place publique/GRS du 2026-10-11 :
-     seuls comptent sa parole, son programme, son équipe), Attal (aligner D-instit-participation sur
-     Retailleau : un référendum à l'initiative de l'exécutif n'est pas « aucune » si une option est
-     défendue par ailleurs), Lisnard ; contrôle rapide de Roussel, Tondelier, Batho, Ruffin.
+  1. Points ouverts du lot B, à trancher plus tard : Philippe (D-immig-travail, D-instit-participation,
+     à harmoniser avec Attal, pas maintenant) ; Ruffin D-env-electricite (A, ou D par les 15 Md€ de
+     rénovation ?) ; Roussel D-educ-niveau (B fragile).
   2. Mélenchon : mise à jour et relecture après le 2026-11-06.
-  3. Tondelier : réexamen après le vote des adhérents des Écologistes (10–13 décembre 2026).
+  3. Tondelier : réexamen après le vote des adhérents des Écologistes (10–13 décembre 2026), y compris
+     D-secu-budget (C → A par l'ordre de présentation ?) et D-educ-niveau (21 priorités ou programme ?).
   4. Le Pen : audience de la Cour de cassation le 2026-12-16.
   5. Candidats à surveiller : Cazeneuve (inclus dès sa déclaration), Bertrand, Polony (1–1,5 %), Hollande,
      Bardella si retrait de Le Pen. Réexaminer `candidats-inclus.md` à chaque vague de sondages.
