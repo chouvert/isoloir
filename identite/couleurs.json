@@ -12,5 +12,11 @@
     "petrole": "#5FB3B3",
     "sable": "#4A443A",
     "encre_secondaire": "#B8B3A8"
+  },
+  "semantique": {
+    "accord_fort": "petrole",
+    "accord_partiel": "sable",
+    "accord_aucun": "encre_secondaire",
+    "faisabilite": "petrole"
   }
 }

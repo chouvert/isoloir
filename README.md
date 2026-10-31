@@ -1,4 +1,7 @@
-![L’Isoloir](identite/logo.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="identite/logo-sombre.svg">
+  <img src="identite/logo.svg" alt="L’Isoloir" width="360">
+</picture>
 
 # L’Isoloir — présidentielle 2027
 

@@ -1,6 +1,9 @@
 # Charte de L’Isoloir
 
-![L’Isoloir](logo.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="logo-sombre.svg">
+  <img src="logo.svg" alt="L’Isoloir" width="360">
+</picture>
 
 Cette charte s’applique à tout ce qui porte le nom de L’Isoloir : l’interface, les pages du site,
 les visuels de communication. Les valeurs de couleurs font foi dans `couleurs.json` ; les tests
@@ -51,9 +54,26 @@ Contrastes (WCAG AA ≥ 4,5:1, vérifiés par les tests) : encre sur papier 13,7
 (sombre) ; encre secondaire sur papier 7,7 / 8,1 ; pétrole sur papier et papier sur pétrole
 5,2 / 6,9 ; encre sur sable 9,6 / 8,5.
 
-Le pétrole est le seul accent : un seul bouton principal par écran ; le reste en encre et sable.
+Le pétrole est le seul accent des **actions** : un seul bouton principal par écran ; les liens en
+pétrole sur papier uniquement (sur sable, le contraste tombe sous 4,5:1) ; le reste en encre et sable.
 
-## 4. Typographie
+## 4. Couleurs porteuses de sens
+
+Les seules couleurs qui disent quelque chose sont celles de l’accord et de la faisabilité (règle de
+neutralité 4). Elles reprennent la palette, sont nommées dans `couleurs.json` (`semantique`) et sont
+**toujours doublées d’un libellé** : la couleur seule ne porte jamais le sens.
+
+| État | Couleur | Libellé obligatoire |
+|---|---|---|
+| Accord fort (même option) | pétrole | « Même choix » |
+| Accord partiel (option voisine) | sable | « Choix voisin » |
+| Pas d’accord (autre option, écart) | encre secondaire | « Autre choix » |
+| Faisabilité (points remplis) | pétrole sur sable | la note écrite, par exemple « 3,5 / 5 » |
+
+Le pétrole sert donc aussi à ces états, sur les écrans de résultats ; il ne devient jamais rouge,
+vert ou orange pour dire « non », « oui » ou « à moitié ».
+
+## 5. Typographie
 
 | Usage | Police | Graisses |
 |---|---|---|
@@ -63,7 +83,7 @@ Le pétrole est le seul accent : un seul bouton principal par écran ; le reste 
 Atkinson Hyperlegible est conçue pour la lisibilité (malvoyance) : elle reste la police du texte
 courant, y compris dans les boutons et les formulaires.
 
-## 5. Logo
+## 6. Logo
 
 | Fichier | Usage |
 |---|---|
@@ -75,7 +95,7 @@ courant, y compris dans les boutons et les formulaires.
 
 - **Symbole** : une tringle, un rideau pétrole entrouvert, un bulletin coché.
 - **Zone de protection** : autour du logo, un espace libre au moins égal à la hauteur du bulletin.
-- **Tailles minimales** : symbole 16 px ; logo complet 120 px de large.
+- **Tailles minimales** : symbole 32 px ; en dessous, `favicon.svg` ; logo complet 120 px de large.
 - **Interdits** : déformer, recolorer, ajouter une ombre ou un dégradé, placer le logo sur une
   photo chargée, lui associer une couleur de parti, utiliser la version claire sur fond sombre (ou
   l’inverse).

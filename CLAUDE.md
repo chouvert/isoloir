@@ -93,6 +93,6 @@ node --test tests/*.test.mjs   # ou npm test (95 tests)
      (PR `duels-moteur`). Une option sans proposition dans le tableau des dilemmes = pas de duel ;
      un texte qui trahit son auteur dans `comparatifs/duels.md` → terme dans `referentiel/anonymisation.md` ;
      texte trop long ou reconnaissable → colonne `texte court` (reformulation neutre, ≤ 300 car.).
-  7. Identité « L’Isoloir » (2026-10-31, PR #28) : charte, couleurs, logos, design system.
+  7. Identité « L’Isoloir » (2026-10-31, PR #28 conception, PR #29 réalisation) : charte, couleurs, logos, design system.
   8. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
      pour tous), mise à jour automatique (veille → issues → PR), interface Astro.

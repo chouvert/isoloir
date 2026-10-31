@@ -22,14 +22,16 @@ function contraste(a, b) {
 }
 
 test('couleurs : valeurs de la charte', () => {
-  assert.deepEqual(couleurs(), {
+  const { clair, sombre } = couleurs();
+  assert.deepEqual({ clair, sombre }, {
     clair: { encre: '#23232B', papier: '#F5F0E6', petrole: '#1F6F73', sable: '#D9C9A8', encre_secondaire: '#4A4A55' },
     sombre: { encre: '#F5F0E6', papier: '#1C1C22', petrole: '#5FB3B3', sable: '#4A443A', encre_secondaire: '#B8B3A8' },
   });
 });
 
 test('couleurs : contrastes AA (4,5:1) en clair et en sombre', () => {
-  for (const [mode, c] of Object.entries(couleurs())) {
+  const { clair, sombre } = couleurs();
+  for (const [mode, c] of Object.entries({ clair, sombre })) {
     for (const [texte, fond] of [['encre', 'papier'], ['encre_secondaire', 'papier'], ['petrole', 'papier'], ['papier', 'petrole'], ['encre', 'sable']]) {
       const r = contraste(c[texte], c[fond]);
       assert.ok(r >= 4.5, `${mode} : ${texte} sur ${fond} = ${r.toFixed(2)}`);
@@ -50,7 +52,8 @@ test('logos : fichiers présents et SVG avec viewBox, xmlns et titre', () => {
 });
 
 test('logos : uniquement des couleurs de la palette (neutralité)', () => {
-  const palette = new Set(Object.values(couleurs()).flatMap((c) => Object.values(c)).map((h) => h.toUpperCase()));
+  const { clair, sombre } = couleurs();
+  const palette = new Set([clair, sombre].flatMap((c) => Object.values(c)).map((h) => h.toUpperCase()));
   for (const f of LOGOS) {
     const trouvees = lire(`identite/${f}`).match(/#[0-9a-fA-F]{6}\b|#[0-9a-fA-F]{3}\b/g) ?? [];
     assert.ok(trouvees.length > 0, `${f} : aucune couleur`);
@@ -64,4 +67,27 @@ test('logos : pas de dépendance à une police (nom en tracés)', () => {
 
 test('favicon : viewBox 32 × 32', () => {
   assert.match(lire('identite/favicon.svg'), /viewBox="0 0 32 32"/);
+});
+
+test('favicon : lisible à 16 px (traits et formes d\'au moins 3 unités sur 32)', () => {
+  const svg = lire('identite/favicon.svg');
+  for (const m of svg.matchAll(/stroke-width="([\d.]+)"/g)) assert.ok(Number(m[1]) >= 3, `trait de ${m[1]}`);
+  for (const m of svg.matchAll(/<rect [^>]*height="([\d.]+)"/g)) assert.ok(Number(m[1]) >= 3, `hauteur de ${m[1]}`);
+});
+
+test('charte : taille minimale du symbole et repli sur le favicon', () => {
+  assert.match(lire('identite/charte.md'), /symbole 32 px ; en dessous, `favicon\.svg`/);
+});
+
+test('README : logo adapté au thème sombre', () => {
+  const r = lire('README.md');
+  assert.match(r, /<source media="\(prefers-color-scheme: dark\)" srcset="identite\/logo-sombre\.svg">/);
+  assert.match(r, /<img src="identite\/logo\.svg" alt="L’Isoloir"/);
+});
+
+test('couleurs : sens de l\'accord nommé et repris par la charte', () => {
+  assert.deepEqual(couleurs().semantique, {
+    accord_fort: 'petrole', accord_partiel: 'sable', accord_aucun: 'encre_secondaire', faisabilite: 'petrole',
+  });
+  assert.match(lire('identite/charte.md'), /## 4\. Couleurs porteuses de sens/);
 });
