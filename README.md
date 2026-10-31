@@ -23,10 +23,14 @@ comparatif-programme-presidentielles/
 ├── candidats/
 │   ├── _modele.md                # gabarit à copier pour chaque candidat
 │   └── nom-prenom.md             # une fiche par candidat
-├── comparatifs/
-│   ├── _modele-theme.md          # gabarit de matrice thématique
-│   ├── faisabilite.md            # comparatif des notes de faisabilité
-│   └── <id-theme>.md             # une matrice par thème
+├── comparatifs/                  # généré par `npm run comparatifs` : ne pas modifier à la main
+│   ├── _modele-theme.md          # description du format des pages de thème
+│   ├── <id-theme>.md             # une page par thème : positions, dilemmes, coûts
+│   ├── dilemmes.md               # réponses de tous les candidats aux dilemmes
+│   ├── phares.md                 # propositions phares de tous les candidats
+│   └── faisabilite.md            # comparatif des notes de faisabilité
+├── donnees/
+│   └── base.json                 # export complet (généré), pour l'interface et le calcul de proximité
 ├── sources.md                    # sources transverses
 ├── scripts/                      # contrôle de la base et calcul de proximité
 ├── tests/                        # tests des scripts
@@ -57,6 +61,7 @@ En local (Node.js 20 ou plus) :
 ```sh
 npm install
 npm run valider     # contrôle des données
+npm run comparatifs # régénère comparatifs/ et donnees/base.json à partir des fiches
 npm test            # tests des scripts
 ```
 
@@ -79,6 +84,21 @@ Ce qui est vérifié :
 
 Avertissements (non bloquants) : questions ou dilemmes non renseignés, analyses à des dates
 différentes selon les candidats, comparatif thématique désynchronisé des fiches.
+
+## Comparatifs et export de données
+
+Les comparatifs ne s'écrivent pas à la main : `npm run comparatifs` les régénère à partir des fiches
+(`scripts/comparatifs.mjs`), avec l'export JSON `donnees/base.json` destiné à l'interface. Toute PR
+qui modifie une fiche inclut donc les comparatifs régénérés ; la CI échoue sinon
+(`npm run comparatifs -- --verifier`). La génération est déterministe : à fiches identiques,
+fichiers identiques. Dans une PR, le diff de `comparatifs/dilemmes.md` montre directement les
+rattachements qui changent, donc les scores.
+
+Contenu généré : une page par thème (positions sur les questions-clés, réponses aux dilemmes du thème,
+propositions chiffrées), la vue d'ensemble des dilemmes avec la couverture par candidat, les
+propositions phares, le comparatif de faisabilité, et l'export JSON (référentiel complet et toutes les
+données des fiches, sources comprises). Le regroupement de propositions comparables entre candidats
+n'est pas encore généré : il demanderait une étiquette « sujet » sur chaque proposition.
 
 ## Calcul de proximité
 

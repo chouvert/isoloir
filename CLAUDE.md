@@ -19,7 +19,8 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 ```sh
 npm install
 npm run valider          # contrôle des données (0 erreur exigé)
-node --test tests/*.test.mjs   # ou npm test (50 tests)
+npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
+node --test tests/*.test.mjs   # ou npm test (56 tests)
 ```
 
 ## Git et GitHub
@@ -42,7 +43,8 @@ node --test tests/*.test.mjs   # ou npm test (50 tests)
 ## Méthode de travail (économe en quota)
 1. **Rédaction** : un agent par fiche, au plus deux en parallèle (le quota Pro s'épuise vite).
    Prompt : lire ce fichier, le gabarit, une fiche de référence ; ne toucher que sa fiche ; pas de git ;
-   finir par `npm run valider`.
+   finir par `npm run valider`. Avant d'ouvrir la PR : `npm run comparatifs` et committer le résultat
+   (la CI vérifie qu'ils sont à jour).
 2. **Vérification indépendante** : un agent neuf qui n'a pas vu la rédaction. Contrôle complet des
    dilemmes, des phares et des attributions (qui parle) ; citations vérifiées par échantillon, contrôle
    complet seulement si l'échantillon révèle des erreurs. Prompt : lire ce fichier, README, `dilemmes.md`,
@@ -83,5 +85,5 @@ node --test tests/*.test.mjs   # ou npm test (50 tests)
   4. Le Pen : audience de la Cour de cassation le 2026-12-16.
   5. Candidats à surveiller : Cazeneuve (inclus dès sa déclaration), Bertrand, Polony (1–1,5 %), Hollande,
      Bardella si retrait de Le Pen. Réexaminer `candidats-inclus.md` à chaque vague de sondages.
-  6. Plus tard : script de génération des comparatifs, analyse de faisabilité (début 2027, même date
+  6. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
      pour tous), duels à l'aveugle, mise à jour automatique (veille → issues → PR), interface Astro.

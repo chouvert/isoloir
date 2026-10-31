@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "valider": "node scripts/valider.mjs",
+    "comparatifs": "node scripts/comparatifs.mjs",
     "test": "node --test tests/*.test.mjs"
   },
   "engines": {

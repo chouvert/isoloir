@@ -582,6 +582,8 @@ export function validerBase(racine) {
 
   for (const f of listerMarkdown(racine, 'comparatifs')) {
     if (basename(f).startsWith('_')) continue;
+    // Vues transversales générées par scripts/comparatifs.mjs, contrôlées par « npm run comparatifs -- --verifier ».
+    if (['dilemmes.md', 'phares.md'].includes(basename(f))) continue;
     if (basename(f) === 'faisabilite.md') validerComparatifFaisabilite(racine, f, fiches, rapport);
     else validerComparatifTheme(racine, f, ref, fiches, rapport);
   }

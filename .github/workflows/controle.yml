@@ -27,3 +27,6 @@ jobs:
 
       - name: Contrôle des données
         run: npm run valider
+
+      - name: Comparatifs à jour
+        run: npm run comparatifs -- --verifier
