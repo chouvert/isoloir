@@ -1,6 +1,15 @@
-# Élection présidentielle 2027 — base comparative
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="identite/logo-sombre.svg">
+  <img src="identite/logo.svg" alt="L’Isoloir" width="360">
+</picture>
 
-Base de données versionnée des candidats et de leurs programmes, conçue pour les comparer
+# L’Isoloir — présidentielle 2027
+
+*Choisissez en toute connaissance.*
+
+L’Isoloir vous aide à voir de quels programmes vous êtes proche, sur la base de sources vérifiées,
+sans jamais vous dire pour qui voter. Ce dépôt en contient la base de données : une base
+versionnée des candidats et de leurs programmes, conçue pour les comparer
 thème par thème et évaluer la faisabilité de chaque programme.
 
 Les fichiers Markdown sont la source de vérité. Le frontmatter YAML et les identifiants
@@ -33,6 +42,7 @@ isoloir/
 │   └── faisabilite.md            # comparatif des notes de faisabilité
 ├── donnees/
 │   └── base.json                 # export complet (généré), pour l'interface et le calcul de proximité
+├── identite/                     # charte de L’Isoloir, couleurs, logos SVG
 ├── sources.md                    # sources transverses
 ├── scripts/                      # contrôle de la base et calcul de proximité
 ├── tests/                        # tests des scripts

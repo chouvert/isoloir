@@ -1,6 +1,6 @@
-# Consignes pour Claude — comparatif présidentielle 2027
+# Consignes pour Claude — L’Isoloir (présidentielle 2027)
 
-Base Markdown versionnée des candidats à la présidentielle française de 2027 (premier tour le
+**L’Isoloir** : base Markdown versionnée des candidats à la présidentielle française de 2027 (premier tour le
 2027-04-18), destinée à une interface (Astro sur GitHub Pages, à venir) avec un parcours qui aide
 l'utilisateur à trouver les candidats proches de ses positions. Propriétaire : Julien (fusionne les PR).
 Langue de travail : français.
@@ -15,12 +15,16 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 - `candidats/_modele.md` : gabarit. Fiches de référence conformes : `tondelier-marine.md`,
   `ruffin-francois.md`, `roussel-fabien.md`.
 
+## Identité
+- Nom : L’Isoloir ; toute interface, page ou visuel suit `identite/charte.md` (neutralité en tête :
+  aucune couleur de candidat ou de parti ; couleurs dans `identite/couleurs.json` ; logos dans `identite/`).
+
 ## Commandes
 ```sh
 npm install
 npm run valider          # contrôle des données (0 erreur exigé)
 npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
-node --test tests/*.test.mjs   # ou npm test (89 tests)
+node --test tests/*.test.mjs   # ou npm test (99 tests)
 ```
 
 ## Git et GitHub
@@ -89,5 +93,6 @@ node --test tests/*.test.mjs   # ou npm test (89 tests)
      (PR `duels-moteur`). Une option sans proposition dans le tableau des dilemmes = pas de duel ;
      un texte qui trahit son auteur dans `comparatifs/duels.md` → terme dans `referentiel/anonymisation.md` ;
      texte trop long ou reconnaissable → colonne `texte court` (reformulation neutre, ≤ 300 car.).
-  7. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
+  7. Identité « L’Isoloir » (2026-10-31, PR #28 conception, PR #29 réalisation) : charte, couleurs, logos, design system.
+  8. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
      pour tous), mise à jour automatique (veille → issues → PR), interface Astro.
