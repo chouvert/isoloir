@@ -5,6 +5,7 @@ import {
   normaliser, lireFrontmatter, lireSections, lireTableaux, trouverTableau,
   contientSource, estDateIso, nettoyerId,
 } from './markdown.mjs';
+import { texteAveugle, MAX_CARACTERES } from './anonymisation.mjs';
 
 export const STATUTS_CANDIDAT = ['pressenti', 'déclaré', 'parrainages validés', 'retiré'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -316,10 +317,11 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
   // Réponses aux dilemmes
   fiche.dilemmes = new Map();
   const propositionsDilemmes = []; // vérifiées une fois les propositions de la fiche lues
+  const textesPropositions = new Map();
   const sDil = section('Réponses aux dilemmes');
   if (sDil) {
-    const t = trouverTableau(lireTableaux(sDil.contenu, sDil.ligne + 1), ['dilemme', 'option', 'proposition', 'justification', 'source']);
-    if (!t) rapport.erreur(fichier, sDil.ligne, 'tableau des réponses (colonnes dilemme, option, proposition, justification, source) introuvable');
+    const t = trouverTableau(lireTableaux(sDil.contenu, sDil.ligne + 1), ['dilemme', 'option', 'proposition', 'texte court', 'justification', 'source']);
+    if (!t) rapport.erreur(fichier, sDil.ligne, 'tableau des réponses (colonnes dilemme, option, proposition, texte court, justification, source) introuvable');
     else {
       let nonRenseignes = 0;
       for (const { cellules, ligne } of t.lignes) {
@@ -334,12 +336,17 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
         if (!option) { nonRenseignes++; continue; }
         const speciale = REPONSES_DILEMME_SPECIALES.includes(normaliser(option));
         const proposition = nettoyerId(cellules.proposition);
+        const texteCourt = cellules[normaliser('texte court')] ?? '';
+        if (texteCourt && !proposition) rapport.erreur(fichier, ligne, `« ${id} » : texte court sans proposition`);
+        if (texteCourt.length > MAX_CARACTERES) {
+          rapport.erreur(fichier, ligne, `« ${id} » : texte court de ${texteCourt.length} caractères (${MAX_CARACTERES} au plus)`);
+        }
         if (speciale && proposition) {
           rapport.erreur(fichier, ligne, `« ${id} » : proposition renseignée pour une réponse « ${normaliser(option)} »`);
         } else if (!speciale && !proposition) {
           rapport.avertissement(fichier, ligne, `« ${id} » : option « ${option} » sans proposition (pas de duel à l'aveugle pour ce dilemme)`);
         } else if (proposition) {
-          propositionsDilemmes.push({ id, proposition, ligne });
+          propositionsDilemmes.push({ id, proposition, texteCourt, ligne });
         }
         if (!speciale && !d.options.includes(option)) {
           rapport.erreur(fichier, ligne, `« ${id} » : réponse « ${option} » invalide (${[...d.options, ...REPONSES_DILEMME_SPECIALES].join(' | ')})`);
@@ -380,6 +387,7 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
         if (!new RegExp(`^${theme}-\\d{2,}$`).test(id)) rapport.erreur(fichier, ligne, `identifiant de proposition « ${id} » invalide (format ${theme}-NN)`);
         else if (idsProp.has(id)) rapport.erreur(fichier, ligne, `proposition « ${id} » définie deux fois`);
         idsProp.add(id);
+        textesPropositions.set(id, cellules.proposition);
         if (!cellules.proposition) rapport.erreur(fichier, ligne, `proposition « ${id} » : texte vide`);
         if (!contientSource(cellules.source)) rapport.erreur(fichier, ligne, `proposition « ${id} » : source manquante (lien attendu)`);
       }
@@ -391,9 +399,14 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
   }
 
   if (!gabarit) {
-    for (const { id, proposition, ligne } of propositionsDilemmes) {
+    for (const { id, proposition, texteCourt, ligne } of propositionsDilemmes) {
       if (!fiche.propositions?.has(proposition)) {
         rapport.erreur(fichier, ligne, `« ${id} » : proposition « ${proposition} » absente des propositions de la fiche`);
+        continue;
+      }
+      const longueur = texteAveugle(textesPropositions.get(proposition)).length;
+      if (!texteCourt && longueur > MAX_CARACTERES) {
+        rapport.avertissement(fichier, ligne, `« ${id} » : texte de « ${proposition} » trop long pour les duels (${longueur} caractères) : ajouter un texte court`);
       }
     }
   }
@@ -600,7 +613,7 @@ export function validerBase(racine) {
   for (const f of listerMarkdown(racine, 'comparatifs')) {
     if (basename(f).startsWith('_')) continue;
     // Vues transversales générées par scripts/comparatifs.mjs, contrôlées par « npm run comparatifs -- --verifier ».
-    if (['dilemmes.md', 'phares.md'].includes(basename(f))) continue;
+    if (['dilemmes.md', 'phares.md', 'duels.md'].includes(basename(f))) continue;
     if (basename(f) === 'faisabilite.md') validerComparatifFaisabilite(racine, f, fiches, rapport);
     else validerComparatifTheme(racine, f, ref, fiches, rapport);
   }

@@ -7,6 +7,7 @@ import {
   normaliser, lireFrontmatter, lireSections, lireTableaux, trouverTableau, nettoyerId,
 } from './markdown.mjs';
 import { lireReferentiel, validerFiche } from './validation.mjs';
+import { lireTermesManuels } from './anonymisation.mjs';
 
 const lire = (racine, chemin) => readFileSync(join(racine, chemin), 'utf8');
 const rapportMuet = () => ({ erreur() {}, avertissement() {} });
@@ -92,10 +93,11 @@ function lireFiche(racine, fichier, ref) {
   }
 
   const dilemmes = {};
-  for (const { cellules } of tableau('Réponses aux dilemmes', ['dilemme', 'option', 'proposition', 'justification', 'source'])?.lignes ?? []) {
+  for (const { cellules } of tableau('Réponses aux dilemmes', ['dilemme', 'option', 'proposition', 'texte court', 'justification', 'source'])?.lignes ?? []) {
     dilemmes[nettoyerId(cellules.dilemme)] = {
       option: nettoyerId(cellules.option),
       proposition: nettoyerId(cellules.proposition),
+      texte_court: cellule(cellules, 'texte court'),
       justification: cellules.justification,
       sources: lireSources(cellules.source),
     };
@@ -177,5 +179,6 @@ export function lireBase(racine) {
     preoccupations: [...ref.preoccupations].map(([id, p]) => ({ id, ...p })),
     criteres: ref.criteres,
     candidats: fichiers.map((f) => lireFiche(racine, f, ref)),
+    termesManuels: lireTermesManuels(racine),
   };
 }

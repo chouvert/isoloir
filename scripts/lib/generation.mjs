@@ -1,6 +1,8 @@
 // Génération des comparatifs (Markdown) et de l'export de données (JSON) à partir du
 // modèle produit par extraction.mjs. Fonctions pures : même base, même sortie, octet pour octet.
 
+import { texteAveugle, termesInterdits, exclusion } from './anonymisation.mjs';
+
 export const AVERTISSEMENT = '<!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->';
 export const FICHIER_DONNEES = 'donnees/base.json';
 
@@ -155,6 +157,62 @@ function pageFaisabilite(base) {
   return `${lignes.join('\n')}\n`;
 }
 
+/**
+ * Candidats qui participent aux duels à l'aveugle : par dilemme et par option, la proposition qui
+ * fonde le rattachement et son texte anonymisé ; les textes encore reconnaissables sont exclus.
+ */
+export function participantsDuels(base) {
+  const termes = termesInterdits(base.candidats, base.termesManuels ?? []);
+  const participants = {};
+  const exclusions = [];
+  for (const d of dilemmesActifs(base)) {
+    participants[d.id] = Object.fromEntries(d.options.map((o) => [o.option, []]));
+    for (const c of base.candidats) {
+      const r = c.dilemmes[d.id];
+      if (!r?.proposition || !participants[d.id][r.option]) continue;
+      const prop = c.propositions.find((p) => p.id === r.proposition);
+      const court = Boolean(r.texte_court);
+      const texte = texteAveugle(court ? r.texte_court : prop?.proposition);
+      const motif = exclusion(texte, termes);
+      if (motif) exclusions.push({ dilemme: d.id, candidat: c.id, proposition: r.proposition, motif });
+      else {
+        participants[d.id][r.option].push({
+          candidat: c.id, proposition: r.proposition, texte, texte_court: court, sources: prop?.sources ?? [],
+        });
+      }
+    }
+  }
+  return { participants, exclusions };
+}
+
+function pageDuels(base) {
+  const { candidats } = base;
+  const { participants, exclusions } = participantsDuels(base);
+  const noms = new Map(candidats.map((c) => [c.id, c.nom]));
+  const parties = [enTete(
+    { derniere_maj: derniereMaj(candidats) },
+    'Duels à l\'aveugle — textes anonymisés',
+    ['Textes montrés dans les duels, sans le nom de leur auteur. Règles : `referentiel/anonymisation.md`.',
+      'Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/anonymisation.md`.', ''],
+  )];
+  for (const theme of base.themes) {
+    const ds = dilemmesActifs(base, theme.id);
+    if (!ds.length) continue;
+    parties.push(`## ${theme.libelle}`, '');
+    for (const d of ds) {
+      const lignes = d.options.flatMap((o) => participants[d.id][o.option]
+        .map((p) => [o.option, noms.get(p.candidat), p.texte_court ? `${p.proposition} (texte court)` : p.proposition, p.texte]));
+      parties.push(`### ${d.id}`, '', `> ${d.enonce}`, '');
+      parties.push(lignes.length ? tableau(['option', 'candidat', 'proposition', 'texte à l\'aveugle'], lignes) : 'Aucun participant.', '');
+    }
+  }
+  parties.push('## Exclusions', '');
+  parties.push(exclusions.length
+    ? tableau(['dilemme', 'candidat', 'proposition', 'motif'], exclusions.map((e) => [e.dilemme, noms.get(e.candidat), e.proposition, e.motif]))
+    : 'Aucune exclusion.');
+  return `${parties.join('\n').trimEnd()}\n`;
+}
+
 /** Export JSON destiné à l'interface et au calcul de proximité. */
 export function donnees(base) {
   return {
@@ -166,6 +224,7 @@ export function donnees(base) {
     preoccupations: base.preoccupations,
     criteres_faisabilite: base.criteres,
     candidats: base.candidats,
+    duels: participantsDuels(base),
   };
 }
 
@@ -175,6 +234,7 @@ export function genererFichiers(base) {
   for (const theme of base.themes) fichiers.set(`comparatifs/${theme.id}.md`, pageTheme(base, theme));
   fichiers.set('comparatifs/dilemmes.md', pageDilemmes(base));
   fichiers.set('comparatifs/phares.md', pagePhares(base));
+  fichiers.set('comparatifs/duels.md', pageDuels(base));
   fichiers.set('comparatifs/faisabilite.md', pageFaisabilite(base));
   fichiers.set(FICHIER_DONNEES, `${JSON.stringify(donnees(base), null, 2)}\n`);
   return fichiers;

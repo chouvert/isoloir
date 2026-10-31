@@ -16,7 +16,7 @@ function baseSynthetique() {
     id, nom, parti: '', famille_politique: '', statut: 'déclaré', date_declaration: '2026-01-01',
     programme_url: '', programme_version: '', derniere_maj: extra.derniere_maj ?? '2026-10-01',
     positions: { 'Q-eco-impots': { position: extra.position ?? 'baisse', detail: '', sources: [] } },
-    dilemmes: { 'D-eco-dette': { option, justification: '', sources: [] } },
+    dilemmes: { 'D-eco-dette': { option, proposition: extra.proposition ?? '', justification: '', sources: [] } },
     phares: extra.phares ?? [],
     propositions: extra.propositions ?? [],
     evolutions: [],
@@ -34,6 +34,7 @@ function baseSynthetique() {
     candidats: [
       candidat('dupont-jean', 'Jean Dupont', 'A', {
         derniere_maj: '2026-10-24',
+        proposition: 'eco-01',
         propositions: [{ id: 'eco-01', theme: 'eco', proposition: 'Baisse de l\'IR | partielle', chiffrage_annonce: '8 Md€', chiffrage_independant: '', calendrier: '', sources: [] }],
         phares: [{ rang: 1, proposition: 'eco-01', motif: 'Annonce dédiée', sources: [] }],
         faisabilite: { date: '2026-10-24', confiance: 'moyen', globale: 3.5, notes: { 'F-fin': 3, 'F-jur': 4 } },
@@ -121,4 +122,69 @@ test('base réelle : proposition de dilemme présente dans la fiche', () => {
       assert.ok(r.proposition === '' || ids.has(r.proposition), `${c.id} ${d} : ${r.proposition} introuvable`);
     }
   }
+});
+
+/** Base synthétique avec un troisième candidat dont la mesure trahit l'auteur. */
+function baseAvecDuels() {
+  const base = baseSynthetique();
+  const durand = structuredClone(base.candidats[1]);
+  Object.assign(durand, {
+    id: 'durand-paul', nom: 'Paul Durand', parti: 'Parti du progrès',
+    dilemmes: { 'D-eco-dette': { option: 'B', proposition: 'eco-01', justification: '', sources: [] } },
+    propositions: [{ id: 'eco-01', theme: 'eco', proposition: 'Le plan Durand : « taxer les rentes » (AFP)', chiffrage_annonce: '', chiffrage_independant: '', calendrier: '', sources: [] }],
+  });
+  const martin = base.candidats[1];
+  martin.dilemmes['D-eco-dette'] = { option: 'B', proposition: 'eco-02', justification: '', sources: [] };
+  martin.propositions = [{ id: 'eco-02', theme: 'eco', proposition: 'Hausser l\'impôt sur les « hauts revenus » [x](https://a.fr)', chiffrage_annonce: '', chiffrage_independant: '', calendrier: '', sources: [{ titre: 'prog', url: 'https://p.fr' }] }];
+  base.candidats.push(durand);
+  base.termesManuels = [];
+  return base;
+}
+
+test('duels : participants et exclusions dans le JSON', () => {
+  const json = JSON.parse(genererFichiers(baseAvecDuels()).get(FICHIER_DONNEES));
+  assert.deepEqual(json.duels.participants['D-eco-dette'], {
+    A: [{ candidat: 'dupont-jean', proposition: 'eco-01', texte: "Baisse de l'IR | partielle", texte_court: false, sources: [] }],
+    B: [{ candidat: 'martin-anne', proposition: 'eco-02', texte: "Hausser l'impôt sur les hauts revenus", texte_court: false, sources: [{ titre: 'prog', url: 'https://p.fr' }] }],
+  });
+  assert.deepEqual(json.duels.exclusions, [
+    { dilemme: 'D-eco-dette', candidat: 'durand-paul', proposition: 'eco-01', motif: 'terme interdit : Durand' },
+  ]);
+});
+
+test('duels : aucune et pas de position ne participent jamais', () => {
+  const base = baseAvecDuels();
+  base.candidats[1].dilemmes['D-eco-dette'] = { option: 'pas de position', proposition: '', justification: '', sources: [] };
+  const json = JSON.parse(genererFichiers(base).get(FICHIER_DONNEES));
+  assert.deepEqual(json.duels.participants['D-eco-dette'].B, []);
+  assert.ok(!JSON.stringify(json.duels).includes('martin-anne'));
+});
+
+test('duels : page duels.md lisible et tableau valide malgré une barre verticale', () => {
+  const page = genererFichiers(baseAvecDuels()).get('comparatifs/duels.md');
+  assert.ok(page.includes(AVERTISSEMENT));
+  assert.match(page, /### D-eco-dette/);
+  assert.match(page, /\| A \| Jean Dupont \| eco-01 \| Baisse de l'IR \/ partielle \|/);
+  assert.match(page, /## Exclusions[\s\S]*\| D-eco-dette \| Paul Durand \| eco-01 \| terme interdit : Durand \|/);
+});
+
+test('duels : texte court utilisé à la place d\'un texte trop long', () => {
+  const base = baseAvecDuels();
+  const durand = base.candidats[2];
+  durand.nom = 'Paul Lemaire';
+  durand.propositions[0].proposition = 'Taxer les rentes '.repeat(30);
+  durand.dilemmes['D-eco-dette'].texte_court = 'Taxer davantage les rentes « financières »';
+  const json = JSON.parse(genererFichiers(base).get(FICHIER_DONNEES));
+  assert.deepEqual(json.duels.participants['D-eco-dette'].B[1], {
+    candidat: 'durand-paul', proposition: 'eco-01', texte: 'Taxer davantage les rentes financières', texte_court: true, sources: [],
+  });
+  assert.match(genererFichiers(base).get('comparatifs/duels.md'), /\| B \| Paul Lemaire \| eco-01 \(texte court\) \| Taxer davantage les rentes financières \|/);
+});
+
+test('duels : texte court soumis aux termes interdits', () => {
+  const base = baseAvecDuels();
+  base.candidats[2].propositions[0].proposition = 'Taxer les rentes';
+  base.candidats[2].dilemmes['D-eco-dette'].texte_court = 'Le plan Durand sur les rentes';
+  const json = JSON.parse(genererFichiers(base).get(FICHIER_DONNEES));
+  assert.deepEqual(json.duels.exclusions.map((e) => e.motif), ['terme interdit : Durand']);
 });

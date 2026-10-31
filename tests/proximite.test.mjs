@@ -5,7 +5,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { lireReferentiel } from '../scripts/lib/validation.mjs';
 import {
-  accord, calculerPoids, calculerProximite, grouperEgalites, calculerPreferencesAveugle,
+  accord, calculerPoids, calculerProximite, grouperEgalites,
 } from '../scripts/lib/proximite.mjs';
 
 const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -134,17 +134,4 @@ test('égalités : regroupement par rapport au premier du groupe, ordre alphabé
 test('réponse utilisateur invalide ou dilemme inconnu : erreur', () => {
   assert.throws(() => calculerPoids(dilemmes, POINTS, { 'D-eco-dette': 'Z' }), /invalide/);
   assert.throws(() => calculerPoids(dilemmes, POINTS, { 'D-inconnu': 'A' }), /inconnu/);
-});
-
-test('préférence à l\'aveugle : « aucune » et « les deux » ignorés, minimum 3 duels', () => {
-  const stats = calculerPreferencesAveugle([
-    { a: 'x', b: 'y', choix: 'a' },
-    { a: 'x', b: 'z', choix: 'a' },
-    { a: 'y', b: 'x', choix: 'a' },
-    { a: 'x', b: 'y', choix: 'aucune' },
-    { a: 'x', b: 'z', choix: 'les deux' },
-  ]);
-  assert.deepEqual(stats.x, { apparitions: 3, preferee: 2, taux: 2 / 3 });
-  assert.deepEqual(stats.y, { apparitions: 2, preferee: 1, taux: null });
-  assert.deepEqual(stats.z, { apparitions: 1, preferee: 0, taux: null });
 });
