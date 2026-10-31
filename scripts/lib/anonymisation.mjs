@@ -20,7 +20,9 @@ export function texteAveugle(texte) {
   let t = String(texte ?? '')
     .replace(/\[[^\]]*\]\([^)\s]*\)/g, ' ')
     .replace(/https?:\/\/\S+/g, ' ')
-    .replace(/\b[a-z]+-\d{2,}\b/g, ' '); // identifiants internes (eco-01…)
+    .replace(/\b[a-z]+-\d{2,}\b/g, ' ') // identifiants internes (eco-01…)
+    .replace(/,?\s*\b(rapporté|annoncé)e?s?\s+le\s+\d{4}-\d{2}-\d{2}/gi, ' ') // mention de source datée
+    .replace(/,?\s*\bselon (lui|elle)\b,?/gi, ' '); // indice du genre de l'auteur
   t = retirerEntre(t, '(', ')');
   t = retirerEntre(t, '[', ']');
   return t

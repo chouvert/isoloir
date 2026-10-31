@@ -34,7 +34,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Jean-Luc Mélenchon | social-02 | Porter le SMIC à 1 700 € net |
 | A | Marine Tondelier | social-01 | Augmenter le SMIC et mettre en place une indexation des bas salaires sur l'inflation ; Passer le salaire minimum à 2000€ brut par mois dès 2027, avec des dispositifs de soutien aux TPE, PME et associations |
 | B | Gabriel Attal | social-04 | un choc des salaires : réduire les charges pour rapprocher le net du brut, en réduisant les charges salariales pour faire monter le salaire net ; financement non précisé |
-| B | Raphaël Glucksmann | eco-02 | Baisser la CSG sur les salaires pour rapprocher le salaire net du salaire brut, financé par : Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages |
+| B | Raphaël Glucksmann | eco-02 | Baisser la CSG sur les salaires pour rapprocher le salaire net du salaire brut, financé par la taxe sur les méga héritages : Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages |
 | B | David Lisnard | eco-02 | Rendre aux actifs, en salaire net, une partie des économies par la baisse des cotisations et l'alignement de la CSG des actifs sur celle des inactifs ; baisse durable des charges entre 2 et 4 SMIC |
 | B | Édouard Philippe | social-04 | Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures |
 | C | Marine Le Pen | eco-04 | Ramener la TVA de 20 % à 5,5 % sur l'électricité, le gaz et les carburants |
@@ -96,7 +96,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Marine Tondelier | env-03 | une fiscalité sur les entreprises fossiles et les ménages les plus émetteurs en carbone ; Supprimer progressivement les niches fiscales qui favorisent les énergies fossiles ; taxe exceptionnelle sur les superprofits pétrogaziers |
 | D | Marine Le Pen | env-04 | Supprimer le zéro artificialisation nette ; réduire le DPE à un simple élément indicatif |
 | D | David Lisnard | eco-07 | Moratoire de trois ans sur les nouvelles normes ; Nous supprimerons le seuil de 50 salariés ; réécriture des codes du travail, de l'urbanisme et de la commande publique |
-| D | Bruno Retailleau | env-03 | Baisser la facture d'électricité : Je propose d'alléger de deux mois la facture d'électricité des Français ; baisse de 10 % pour la compétitivité des entreprises et des exploitations agricoles, rapportée le 2026-08-28 |
+| D | Bruno Retailleau | env-03 | Baisser la facture d'électricité : Je propose d'alléger de deux mois la facture d'électricité des Français ; baisse de 10 % pour la compétitivité des entreprises et des exploitations agricoles |
 | D | Fabien Roussel | eco-02 | Carburants : supprimer tout de suite les certificats d'économie d'énergie qu'ils ont mis sur le litre d'essence depuis le 1er janvier ; baisser la TVA sur les carburants de 20% à 5,5% ; obliger TotalEnergies à réduire ses marges |
 | D | Éric Zemmour | env-03 | Supprimer l'interdiction de la vente de véhicules thermiques à l'horizon 2035 |
 
@@ -109,7 +109,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | B | Gabriel Attal | secu-06 | Faciliter l'implantation de prisons : obligations de logement social allégées pour les communes volontaires, possibilité pour le préfet de passer outre l'accord des élus locaux |
-| B | Bruno Retailleau | secu-02 | Courtes peines dès le premier délit grave, dans des prisons spécifiques qui, selon lui, couteront moins chères |
+| B | Bruno Retailleau | secu-02 | Courtes peines dès le premier délit grave, dans des prisons spécifiques qui couteront moins chères |
 | D | Jean-Luc Mélenchon | secu-04 | Instaurer une régulation carcérale contraignante et des moyens de réinsertion |
 
 ## Immigration

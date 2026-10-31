@@ -3547,7 +3547,7 @@
         {
           "id": "eco-02",
           "theme": "eco",
-          "proposition": "Baisser la CSG sur les salaires pour « rapprocher le salaire net du salaire brut » (LCP), financé par eco-01 : « Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages » (Public Sénat)",
+          "proposition": "Baisser la CSG sur les salaires pour « rapprocher le salaire net du salaire brut » (LCP), financé par la taxe sur les méga héritages (eco-01) : « Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages » (Public Sénat)",
           "chiffrage_annonce": "non chiffré séparément ; financé par eco-01 (15 Md€ annoncés)",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -15121,7 +15121,7 @@
           {
             "candidat": "glucksmann-raphael",
             "proposition": "eco-02",
-            "texte": "Baisser la CSG sur les salaires pour rapprocher le salaire net du salaire brut, financé par : Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages"
+            "texte": "Baisser la CSG sur les salaires pour rapprocher le salaire net du salaire brut, financé par la taxe sur les méga héritages : Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages"
           },
           {
             "candidat": "lisnard-david",
@@ -15308,7 +15308,7 @@
           {
             "candidat": "retailleau-bruno",
             "proposition": "env-03",
-            "texte": "Baisser la facture d'électricité : Je propose d'alléger de deux mois la facture d'électricité des Français ; baisse de 10 % pour la compétitivité des entreprises et des exploitations agricoles, rapportée le 2026-08-28"
+            "texte": "Baisser la facture d'électricité : Je propose d'alléger de deux mois la facture d'électricité des Français ; baisse de 10 % pour la compétitivité des entreprises et des exploitations agricoles"
           },
           {
             "candidat": "roussel-fabien",
@@ -15333,7 +15333,7 @@
           {
             "candidat": "retailleau-bruno",
             "proposition": "secu-02",
-            "texte": "Courtes peines dès le premier délit grave, dans des prisons spécifiques qui, selon lui, couteront moins chères"
+            "texte": "Courtes peines dès le premier délit grave, dans des prisons spécifiques qui couteront moins chères"
           }
         ],
         "C": [],

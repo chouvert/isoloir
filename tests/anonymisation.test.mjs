@@ -52,3 +52,13 @@ test('termes manuels lus dans referentiel/anonymisation.md', () => {
 test('nettoyage : identifiants internes de propositions retirés', () => {
   assert.equal(texteAveugle('Baisser la CSG, financé par eco-01 : taxer les héritages'), 'Baisser la CSG, financé par : taxer les héritages');
 });
+
+test('nettoyage : mention de source datée retirée', () => {
+  assert.equal(texteAveugle('Baisse de 10 % pour les entreprises, rapportée le 2026-08-28'), 'Baisse de 10 % pour les entreprises');
+  assert.equal(texteAveugle('Mesure annoncée le 2026-09-01 ; autre mesure'), 'Mesure ; autre mesure');
+});
+
+test('nettoyage : « selon lui » / « selon elle » retiré (indice du genre de l\'auteur)', () => {
+  assert.equal(texteAveugle('des prisons qui, selon lui, couteront moins chères'), 'des prisons qui couteront moins chères');
+  assert.equal(texteAveugle('une mesure utile selon elle'), 'une mesure utile');
+});
