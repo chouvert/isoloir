@@ -1,0 +1,128 @@
+---
+import '../styles/global.css';
+import Icone from '../components/Icone.astro';
+import { lien, derniereMaj, dateLongue, DEPOT } from '../lib/donnees.js';
+import logo from '../../../identite/logo.svg?url';
+import logoSombre from '../../../identite/logo-sombre.svg?url';
+import favicon from '../../../identite/favicon.svg?url';
+
+interface Props {
+  titre?: string;
+  description?: string;
+  actif?: 'me-situer' | 'candidats' | 'comparer' | 'methode';
+}
+const {
+  titre,
+  description = 'L’Isoloir vous aide à voir de quels candidats à la présidentielle 2027 vous êtes proche, à partir de positions sourcées, sans jamais vous dire pour qui voter.',
+  actif,
+} = Astro.props;
+
+const titrePage = titre ? `${titre} · L’Isoloir` : 'L’Isoloir · Choisissez en toute connaissance';
+const rubriques = [
+  { id: 'me-situer', libelle: 'Me situer', href: lien('me-situer/'), icone: 'bulletin-coche' },
+  { id: 'candidats', libelle: 'Candidats', href: lien('candidats/'), icone: 'fiche' },
+  { id: 'comparer', libelle: 'Comparer', href: lien('comparer/'), icone: 'comparer' },
+  { id: 'methode', libelle: 'Méthode', href: lien('methode/'), icone: 'methode' },
+] as const;
+---
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{titrePage}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" type="image/svg+xml" href={favicon} />
+  <meta name="theme-color" content="#F5F0E6" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1C1C22" media="(prefers-color-scheme: dark)" />
+</head>
+<body>
+  <a class="evitement" href="#contenu">Aller au contenu</a>
+  <header class="entete">
+    <div class="conteneur entete-ligne">
+      <a href={lien('')} class="logo">
+        <picture>
+          <source srcset={logoSombre} media="(prefers-color-scheme: dark)" />
+          <img src={logo} alt="L’Isoloir, accueil" width="151" height="40" />
+        </picture>
+      </a>
+      <nav aria-label="Navigation principale" class="nav-haut">
+        {rubriques.map((r) => (
+          <a href={r.href} aria-current={actif === r.id ? 'page' : undefined}>{r.libelle}</a>
+        ))}
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <slot />
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur pied-contenu">
+      <p class="voix">Choisissez en toute connaissance.</p>
+      <p class="legende">
+        Données mises à jour le {dateLongue(derniereMaj)}. Candidats classés par ordre alphabétique, la même règle pour tous.
+        L’Isoloir ne vous dit jamais pour qui voter. <a href={DEPOT}>Données et code ouverts sur GitHub</a>.
+      </p>
+    </div>
+  </footer>
+
+  <nav aria-label="Navigation principale" class="nav-bas">
+    {rubriques.map((r) => (
+      <a href={r.href} aria-current={actif === r.id ? 'page' : undefined}>
+        <Icone nom={r.icone} />
+        <span>{r.libelle}</span>
+      </a>
+    ))}
+  </nav>
+</body>
+</html>
+
+<style>
+  .evitement {
+    position: absolute; left: 12px; top: -60px; z-index: 10;
+    background: var(--petrole); color: var(--papier); padding: 10px 16px; border-radius: var(--rayon-m);
+  }
+  .evitement:focus { top: 12px; }
+
+  .entete-ligne {
+    min-height: 72px;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  }
+  .logo { display: block; line-height: 0; }
+  .logo img { height: 36px; width: auto; }
+
+  .nav-haut { display: none; gap: 4px; }
+  .nav-haut a {
+    padding: 12px 14px; color: var(--encre); text-decoration: none;
+    border-bottom: 3px solid transparent;
+  }
+  .nav-haut a[aria-current='page'] { font-weight: 700; border-bottom-color: var(--encre); }
+  .nav-haut a:hover { border-bottom-color: var(--sable); }
+
+  .nav-bas {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 5;
+    height: 72px; padding-bottom: env(safe-area-inset-bottom);
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+    background: var(--papier); border-top: 1px solid var(--sable);
+  }
+  .nav-bas a {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+    color: var(--encre-secondaire); text-decoration: none; font-size: 13px; line-height: 16px;
+  }
+  .nav-bas a[aria-current='page'] { color: var(--encre); font-weight: 700; }
+
+  main { padding-bottom: 48px; }
+
+  .pied { border-top: 1px solid var(--sable); padding: 28px 0 104px; }
+  .pied-contenu { display: flex; flex-direction: column; gap: 6px; }
+  .pied p { margin: 0; }
+
+  @media (min-width: 860px) {
+    .nav-haut { display: flex; }
+    .nav-bas { display: none; }
+    .pied { padding-bottom: 40px; }
+    .logo img { height: 40px; }
+  }
+</style>

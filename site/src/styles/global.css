@@ -1,0 +1,137 @@
+/* L’Isoloir — styles communs. Valeurs : identite/couleurs.json et le design system « L’Isoloir ». */
+@import '@fontsource-variable/fraunces/opsz.css';
+@import '@fontsource-variable/fraunces/opsz-italic.css';
+@import '@fontsource/atkinson-hyperlegible/400.css';
+@import '@fontsource/atkinson-hyperlegible/700.css';
+
+:root {
+  --encre: #23232B;
+  --encre-secondaire: #4A4A55;
+  --papier: #F5F0E6;
+  --sable: #D9C9A8;
+  --petrole: #1F6F73;
+
+  --titres: 'Fraunces Variable', Georgia, 'Times New Roman', serif;
+  --texte: 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --rayon-s: 6px;
+  --rayon-m: 10px;
+  --rayon-l: 16px;
+  /* Le coin arrondi d'un seul côté rappelle le pli du rideau. */
+  --rayon-rideau: 4px 28px 4px 4px;
+
+  --gouttiere: 24px;
+  --largeur: 1200px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --encre: #F5F0E6;
+    --encre-secondaire: #B8B3A8;
+    --papier: #1C1C22;
+    --sable: #4A443A;
+    --petrole: #5FB3B3;
+    color-scheme: dark;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--texte);
+  font-size: 17px;
+  line-height: 27px;
+}
+
+a { color: var(--petrole); text-underline-offset: 3px; }
+a:hover { color: var(--encre); }
+
+:focus-visible {
+  outline: 3px solid var(--petrole);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+img, svg { max-width: 100%; }
+[hidden] { display: none !important; }
+
+h1, h2, h3 { font-family: var(--titres); font-weight: 500; margin: 0; }
+
+.titre-1 { font-size: clamp(30px, 6vw, 56px); line-height: 1.12; font-weight: 400; letter-spacing: -0.01em; }
+.titre-2 { font-size: clamp(26px, 4vw, 40px); line-height: 1.18; font-weight: 400; letter-spacing: -0.01em; }
+.titre-3 { font-size: clamp(20px, 2.4vw, 26px); line-height: 1.25; }
+.voix { font-family: var(--titres); font-style: italic; color: var(--encre-secondaire); }
+.secondaire { color: var(--encre-secondaire); }
+.legende { font-size: 14px; line-height: 21px; color: var(--encre-secondaire); }
+
+.conteneur {
+  width: 100%;
+  max-width: var(--largeur);
+  margin: 0 auto;
+  padding: 0 var(--gouttiere);
+}
+
+.lecture { max-width: 46em; }
+
+.bouton-principal {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 52px;
+  padding: 14px 24px 14px 18px;
+  border-radius: var(--rayon-l);
+  background: var(--petrole);
+  color: var(--papier);
+  text-decoration: none;
+}
+.bouton-principal:hover { color: var(--papier); filter: brightness(1.08); }
+.bouton-principal strong { font-family: var(--titres); font-weight: 500; font-size: 22px; line-height: 1.2; display: block; }
+
+.encadre {
+  background: var(--sable);
+  border-radius: var(--rayon-rideau);
+  padding: 20px 24px;
+}
+.encadre a { color: var(--encre); font-weight: 700; }
+
+.liste-liens { list-style: none; margin: 0; padding: 0; }
+.liste-liens a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  min-height: 52px;
+  border-bottom: 1px solid var(--sable);
+  color: var(--encre);
+  text-decoration: none;
+}
+.liste-liens a::after { content: '›'; font-family: var(--titres); font-size: 22px; }
+.liste-liens a:hover { color: var(--petrole); }
+
+.filet { border: 0; border-top: 3px solid var(--encre); margin: 0; }
+
+.pastille {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  background: var(--sable);
+  color: var(--encre);
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}

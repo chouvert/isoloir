@@ -1,0 +1,86 @@
+---
+import Base from '../layouts/Base.astro';
+import { candidats, derniereMaj, dateLongue, lien, DEPOT } from '../lib/donnees.js';
+const fichier = (chemin) => `${DEPOT}/blob/main/${chemin}`;
+---
+<Base titre="Méthode et sources" actif="methode"
+  description="Comment L’Isoloir choisit les candidats, rattache leurs positions, calcule la proximité et évaluera la faisabilité.">
+  <div class="conteneur page lecture">
+    <header class="tete">
+      <h1 class="titre-2">Méthode et sources</h1>
+      <p class="voix">Tout ce que fait L’Isoloir peut être vérifié, et refait à la main.</p>
+    </header>
+
+    <section id="inclusion" aria-labelledby="t-inclusion">
+      <h2 id="t-inclusion" class="titre-3">Quels candidats sont inclus</h2>
+      <p>
+        Une même règle s’applique à tous. Jusqu’à la liste officielle du Conseil constitutionnel, L’Isoloir retient
+        les candidats déclarés ou investis par un parti qui compte au moins un député ou un sénateur, et ceux
+        qui atteignent au moins 2 % des intentions de vote dans au moins deux instituts de sondage, sur le dernier mois.
+        Une fois la liste officielle publiée, ce sont les candidats officiels, et eux seuls.
+      </p>
+      <p>
+        {candidats.length} candidats sont retenus à ce jour.
+        <a href={fichier('referentiel/candidats-inclus.md')}>Le détail de l’application de la règle</a>.
+      </p>
+    </section>
+
+    <section id="positions" aria-labelledby="t-positions">
+      <h2 id="t-positions" class="titre-3">Comment les positions sont relevées</h2>
+      <p>
+        Chaque position vient du candidat, de son programme, de son équipe de campagne ou du parti qui l’a investi,
+        et renvoie à sa source. Sur chaque dilemme, un candidat est rattaché à l’option qui correspond à
+        l’orientation principale de son programme, selon des règles identiques pour tous.
+      </p>
+      <p><a href={fichier('referentiel/dilemmes.md')}>Les dilemmes et les règles de rattachement</a></p>
+    </section>
+
+    <section id="proximite" aria-labelledby="t-proximite">
+      <h2 id="t-proximite" class="titre-3">Comment la proximité est calculée</h2>
+      <ul>
+        <li><strong>Proximité, pas recommandation.</strong> Le résultat montre quels programmes rejoignent vos arbitrages ; il ne désigne aucun « meilleur candidat ».</li>
+        <li><strong>Même règle pour tous.</strong> Aucun candidat n’a de poids ni de traitement particulier.</li>
+        <li><strong>Tout est expliqué.</strong> Chaque résultat est détaillé dilemme par dilemme, avec la source du rattachement.</li>
+        <li><strong>Rien ne quitte votre appareil.</strong> Le calcul se fait dans votre navigateur ; vos réponses ne sont ni envoyées ni conservées.</li>
+      </ul>
+      <p><a href={fichier('referentiel/methode-proximite.md')}>La méthode complète, avec un exemple chiffré</a></p>
+    </section>
+
+    <section id="faisabilite" aria-labelledby="t-faisabilite">
+      <h2 id="t-faisabilite" class="titre-3">La faisabilité, expliquée</h2>
+      <p>
+        La faisabilité dit si un programme peut être mis en œuvre tel qu’annoncé ; elle ne juge pas s’il est souhaitable.
+        Six critères sont notés de 1 à 5 : financement, cadre juridique, conditions politiques, calendrier,
+        capacité opérationnelle et cohérence interne. La note globale en est la moyenne, accompagnée d’un indice de confiance.
+      </p>
+      <p>
+        L’analyse sera publiée début 2027, avec la même grille et à la même date pour tous les candidats.
+        Elle n’entre jamais dans le calcul de proximité.
+      </p>
+      <p><a href={fichier('referentiel/faisabilite.md')}>La grille de faisabilité</a></p>
+    </section>
+
+    <section id="sources" aria-labelledby="t-sources">
+      <h2 id="t-sources" class="titre-3">Les sources</h2>
+      <p>
+        Les sources de chaque candidat figurent sur sa fiche, position par position.
+        Les données ont été mises à jour le {dateLongue(derniereMaj)}.
+      </p>
+      <ul class="liens">
+        <li><a href={lien('candidats/')}>Les fiches des candidats</a></li>
+        <li><a href={fichier('sources.md')}>Les sources transverses</a></li>
+        <li><a href={DEPOT}>Toutes les données et le code, ouverts sur GitHub</a></li>
+      </ul>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .page { padding-top: 16px; display: flex; flex-direction: column; gap: 36px; }
+  .tete { display: flex; flex-direction: column; gap: 6px; padding-bottom: 20px; border-bottom: 3px solid var(--encre); }
+  .tete p { margin: 0; font-size: 18px; }
+  section { display: flex; flex-direction: column; gap: 10px; scroll-margin-top: 16px; }
+  section p, section ul { margin: 0; }
+  section ul { padding-left: 1.2em; display: flex; flex-direction: column; gap: 8px; }
+  .liens { list-style: none; padding: 0; }
+</style>
