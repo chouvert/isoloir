@@ -1,0 +1,165 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sources from '../../components/Sources.astro';
+import {
+  candidats, themes, dilemmesDuTheme, questionsDuTheme, reponseDilemme, proposition,
+  texteBrut, dateLongue, lien,
+} from '../../lib/donnees.js';
+
+export function getStaticPaths() {
+  return candidats.map((c) => ({ params: { id: c.id }, props: { c } }));
+}
+
+const { c } = Astro.props;
+const phares = c.phares
+  .slice()
+  .sort((a, b) => a.rang - b.rang)
+  .map((ph) => ({ ...ph, prop: proposition(c, ph.proposition) }));
+---
+<Base titre={c.nom} actif="candidats" description={`Le programme de ${c.nom} (${c.parti}) pour la présidentielle 2027 : positions par thème, avec leurs sources.`}>
+  <div class="conteneur page">
+    <a class="retour" href={lien('candidats/')}>Tous les candidats</a>
+
+    <header class="tete">
+      <h1 class="titre-2">{c.nom}</h1>
+      <p class="voix">{c.parti}, fiche mise à jour le {dateLongue(c.derniere_maj)}</p>
+      <p class="legende">
+        {c.statut === 'déclaré' && c.date_declaration ? `Candidature déclarée le ${dateLongue(c.date_declaration)}. ` : ''}
+        {c.programme_url && <Fragment>Programme : <a href={c.programme_url}>{c.programme_version || 'site de campagne'}</a>.</Fragment>}
+      </p>
+    </header>
+
+    <div class="cote-a-cote">
+      <section class="faisabilite" id="faisabilite" aria-labelledby="titre-faisabilite">
+        <h2 id="titre-faisabilite" class="titre-3">Faisabilité du programme</h2>
+        {c.faisabilite ? (
+          <p>Note : {c.faisabilite.note} / 5</p>
+        ) : (
+          <p class="secondaire">
+            Pas encore évaluée. L’analyse sera publiée début 2027, à la même date pour tous les candidats.{' '}
+            <a href={lien('methode/#faisabilite')}>Comment elle sera faite</a>
+          </p>
+        )}
+      </section>
+
+      <aside class="encadre invitation">
+        <p>
+          Voulez-vous voir où vous vous situez par rapport à ce programme ?{' '}
+          <a href={lien('me-situer/')}>Me situer</a>, en une dizaine de minutes.
+        </p>
+      </aside>
+    </div>
+
+    {phares.length > 0 && (
+      <section aria-labelledby="titre-phares" class="bloc">
+        <h2 id="titre-phares" class="titre-3">Propositions phares</h2>
+        <ol class="phares">
+          {phares.map((ph) => (
+            <li>
+              <p>{ph.prop ? texteBrut(ph.prop.proposition) : ph.proposition}</p>
+              <Sources sources={ph.prop?.sources ?? ph.sources} />
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+
+    <section aria-labelledby="titre-positions" class="bloc">
+      <h2 id="titre-positions" class="titre-3">Positions par thème</h2>
+      <div class="themes">
+        {themes.map((t, i) => (
+          <details open={i === 0}>
+            <summary>{t.libelle}</summary>
+            <div class="theme-contenu">
+              {dilemmesDuTheme(t.id).map((d) => {
+                const r = reponseDilemme(c, d);
+                const prop = proposition(c, r.proposition);
+                return (
+                  <article class="position">
+                    <p class="legende">{d.enonce}</p>
+                    <p class:list={['choix', { secondaire: r.statut !== 'option' }]}>{r.libelle}</p>
+                    {(r.texte_court || prop) && <p>{r.texte_court || texteBrut(prop.proposition)}</p>}
+                    <Sources sources={r.sources ?? prop?.sources} />
+                  </article>
+                );
+              })}
+              {questionsDuTheme(t.id).map((q) => {
+                const p = c.positions?.[q.id];
+                return (
+                  <article class="position">
+                    <p class="legende">{q.question}</p>
+                    <p class:list={['choix', { secondaire: !p?.position }]}>{p?.position || 'Pas de position trouvée'}</p>
+                    {p?.detail && (
+                      <details class="detail">
+                        <summary>Le détail</summary>
+                        <p>{texteBrut(p.detail)}</p>
+                      </details>
+                    )}
+                    <Sources sources={p?.sources} />
+                  </article>
+                );
+              })}
+            </div>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    {c.evolutions?.length > 0 && (
+      <section aria-labelledby="titre-evolutions" class="bloc">
+        <h2 id="titre-evolutions" class="titre-3">Évolutions de la candidature</h2>
+        <ul class="evolutions">
+          {c.evolutions.map((e) => (
+            <li><span class="legende">{dateLongue(e.date)}</span> {texteBrut(e.description).replace(/\s*;\s*$/, '')}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <a class="bouton-principal comparer" href={lien(`comparer/?c=${c.id}`)}>
+      <span><strong>Comparer avec d’autres candidats</strong></span>
+    </a>
+  </div>
+</Base>
+
+<style>
+  .page { padding-top: 8px; display: flex; flex-direction: column; gap: 32px; }
+  .retour { align-self: flex-start; padding: 10px 0; color: var(--encre); }
+  .retour::before { content: '‹ '; font-family: var(--titres); }
+
+  .tete { display: flex; flex-direction: column; gap: 6px; padding-bottom: 20px; border-bottom: 3px solid var(--encre); }
+  .tete p { margin: 0; }
+  .tete .voix { font-size: 18px; }
+
+  .cote-a-cote { display: grid; gap: 20px; }
+  .faisabilite { display: flex; flex-direction: column; gap: 6px; }
+  .faisabilite p { margin: 0; }
+  .invitation p { margin: 0; }
+
+  .bloc { display: flex; flex-direction: column; gap: 14px; }
+
+  .phares { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: 16px; }
+  .phares p { margin: 0 0 4px; }
+  .phares li::marker { font-family: var(--titres); }
+
+  .themes details { border-bottom: 1px solid var(--sable); }
+  .themes > details > summary {
+    cursor: pointer; padding: 14px 0; min-height: 44px;
+    font-family: var(--titres); font-size: 20px; line-height: 28px;
+  }
+  .theme-contenu { display: flex; flex-direction: column; gap: 22px; padding: 4px 0 24px; }
+  .position { display: flex; flex-direction: column; gap: 4px; padding-left: 16px; border-left: 3px solid var(--sable); }
+  .position p { margin: 0; }
+  .choix { font-weight: 700; }
+  .detail summary { cursor: pointer; color: var(--petrole); font-size: 15px; padding: 4px 0; }
+  .detail p { font-size: 15px; line-height: 24px; }
+
+  .evolutions { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+
+  .comparer { align-self: flex-start; padding-left: 24px; }
+
+  @media (min-width: 860px) {
+    .cote-a-cote { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; }
+    .themes, .phares, .evolutions { max-width: 52em; }
+  }
+</style>

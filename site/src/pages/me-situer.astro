@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import { lien } from '../lib/donnees.js';
+const etapes = [
+  'Vos sujets : choisissez jusqu’à 3 préoccupations.',
+  'Vos priorités : répartissez 100 points entre les thèmes.',
+  'Les dilemmes : arbitrez entre des options réelles, chacune avec sa contrepartie.',
+  'Les duels à l’aveugle : préférez une mesure à une autre, sans savoir de qui elle vient.',
+];
+---
+<Base titre="Me situer" actif="me-situer">
+  <div class="conteneur page lecture">
+    <header class="tete">
+      <h1 class="titre-2">Me situer</h1>
+      <p class="voix">Le parcours est en préparation. Il arrive bientôt.</p>
+    </header>
+
+    <p>En une dizaine de minutes, il vous montrera de quels programmes vous êtes proche, thème par thème. Il se fera en quatre étapes :</p>
+    <ol class="etapes">
+      {etapes.map((e) => <li>{e}</li>)}
+    </ol>
+
+    <aside class="encadre">
+      <p>En attendant, vous pouvez déjà <a href={lien('candidats/')}>lire les fiches des candidats</a> ou <a href={lien('comparer/')}>comparer 2 ou 3 programmes</a>.</p>
+    </aside>
+  </div>
+</Base>
+
+<style>
+  .page { padding-top: 16px; display: flex; flex-direction: column; gap: 24px; }
+  .tete { display: flex; flex-direction: column; gap: 6px; }
+  .tete p, .page > p, .encadre p { margin: 0; }
+  .tete .voix { font-size: 18px; }
+  .etapes { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: 10px; }
+  .etapes li::marker { font-family: var(--titres); font-size: 20px; }
+</style>

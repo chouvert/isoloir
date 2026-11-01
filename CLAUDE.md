@@ -25,7 +25,15 @@ npm install
 npm run valider          # contrôle des données (0 erreur exigé)
 npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
 node --test tests/*.test.mjs   # ou npm test (99 tests)
+cd site && npm install && npm run build   # site Astro (lit donnees/base.json et identite/)
+cd site && npm run dev                    # aperçu local sur http://localhost:4321/isoloir/
 ```
+
+## Site (`site/`)
+- Astro statique, publié sur GitHub Pages (`.github/workflows/site.yml`) à chaque fusion sur `main`.
+- Ne recopie aucune donnée : tout passe par `site/src/lib/donnees.js` (lecture de `donnees/base.json`).
+- Suit `identite/charte.md` et le design system « L’Isoloir » : ordre alphabétique, aucune couleur de candidat,
+  polices servies par le site (pas de Google Fonts, rien n'est envoyé à un tiers).
 
 ## Git et GitHub
 - Dépôt `chouvert/isoloir`. Une PR par fiche (ou par lot de relecture).

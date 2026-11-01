@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import { candidats, lien, dateLongue } from '../../lib/donnees.js';
+---
+<Base titre="Les candidats" actif="candidats">
+  <div class="conteneur page">
+    <header class="tete">
+      <h1 class="titre-2">Les {candidats.length} candidats</h1>
+      <p class="voix">Par ordre alphabétique, le même pour tous.</p>
+    </header>
+
+    <ul class="grille">
+      {candidats.map((c) => (
+        <li>
+          <a href={lien(`candidats/${c.id}/`)} class="carte">
+            <span class="nom">{c.nom}</span>
+            <span class="parti">{c.parti}</span>
+            <span class="legende">Fiche mise à jour le {dateLongue(c.derniere_maj)}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <p class="legende note">
+      Qui figure ici, et pourquoi : <a href={lien('methode/#inclusion')}>la règle d’inclusion des candidats</a>.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .page { padding-top: 16px; display: flex; flex-direction: column; gap: 28px; }
+  .tete { display: flex; flex-direction: column; gap: 6px; }
+  .tete p { margin: 0; font-size: 18px; }
+
+  .grille {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+  .carte {
+    height: 100%;
+    display: flex; flex-direction: column; gap: 2px;
+    padding: 18px 20px;
+    border: 1.5px solid var(--sable);
+    border-radius: var(--rayon-m);
+    color: var(--encre);
+    text-decoration: none;
+  }
+  .carte:hover { border-color: var(--encre); border-radius: var(--rayon-rideau); }
+  .nom { font-family: var(--titres); font-size: 22px; line-height: 28px; }
+  .parti { font-size: 16px; }
+  .note { margin: 0; }
+</style>

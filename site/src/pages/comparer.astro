@@ -1,0 +1,193 @@
+---
+import Base from '../layouts/Base.astro';
+import Sources from '../components/Sources.astro';
+import {
+  candidats, themes, dilemmesDuTheme, questionsDuTheme, reponseDilemme, proposition, texteBrut, lien,
+} from '../lib/donnees.js';
+---
+<Base titre="Comparer les programmes" actif="comparer"
+  description="Comparez les programmes de 2 ou 3 candidats à la présidentielle 2027, mesure par mesure et thème par thème.">
+  <div class="conteneur page">
+    <header class="tete">
+      <h1 class="titre-2">Comparer les programmes</h1>
+      <p class="voix">Côte à côte, mesure par mesure. Choisissez 2 ou 3 candidats.</p>
+    </header>
+
+    <form class="choix" id="choix" action="" method="get">
+      <fieldset>
+        <legend class="sr-only">Candidats à comparer, 3 au plus</legend>
+        <div class="candidats">
+          {candidats.map((c) => (
+            <label class="jeton">
+              <input type="checkbox" name="c" value={c.id} />
+              <span>{c.nom}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+      <p class="legende" id="consigne" aria-live="polite">Choisissez au moins 2 candidats, 3 au plus.</p>
+
+      <fieldset class="onglets">
+        <legend class="sr-only">Thème</legend>
+        {themes.map((t, i) => (
+          <label class="onglet">
+            <input type="radio" name="t" value={t.id} checked={i === 0} />
+            <span>{t.libelle}</span>
+          </label>
+        ))}
+      </fieldset>
+      <noscript><button type="submit">Afficher</button></noscript>
+    </form>
+
+    <div id="comparaison">
+      {themes.map((t) => (
+        <section class="theme" data-theme={t.id} aria-label={t.libelle}>
+          <h2 class="titre-3 titre-theme">{t.libelle}</h2>
+          {dilemmesDuTheme(t.id).map((d) => (
+            <article class="sujet">
+              <h3 class="question">{d.enonce}</h3>
+              <div class="ligne">
+                {candidats.map((c) => {
+                  const r = reponseDilemme(c, d);
+                  const prop = proposition(c, r.proposition);
+                  return (
+                    <div class="mesure" data-candidat={c.id}>
+                      <a class="nom" href={lien(`candidats/${c.id}/`)}>{c.nom}</a>
+                      <p class:list={['approche', { secondaire: r.statut !== 'option' }]}>{r.libelle}</p>
+                      {(r.texte_court || prop) && <p>{r.texte_court || texteBrut(prop.proposition)}</p>}
+                      <Sources sources={r.sources ?? prop?.sources} />
+                    </div>
+                  );
+                })}
+              </div>
+            </article>
+          ))}
+          {questionsDuTheme(t.id).map((q) => (
+            <article class="sujet">
+              <h3 class="question">{q.question}</h3>
+              <div class="ligne">
+                {candidats.map((c) => {
+                  const p = c.positions?.[q.id];
+                  return (
+                    <div class="mesure" data-candidat={c.id}>
+                      <a class="nom" href={lien(`candidats/${c.id}/`)}>{c.nom}</a>
+                      <p class:list={['approche', { secondaire: !p?.position }]}>{p?.position || 'Pas de position trouvée'}</p>
+                      <Sources sources={p?.sources} />
+                    </div>
+                  );
+                })}
+              </div>
+            </article>
+          ))}
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<script>
+  const MAX = 3;
+  const form = document.getElementById('choix') as HTMLFormElement;
+  const consigne = document.getElementById('consigne')!;
+  const zone = document.getElementById('comparaison')!;
+  const cases = [...form.querySelectorAll<HTMLInputElement>('input[name="c"]')];
+  const onglets = [...form.querySelectorAll<HTMLInputElement>('input[name="t"]')];
+
+  // État initial depuis l'adresse (?c=id1,id2&t=eco), pour pouvoir partager une comparaison.
+  const params = new URLSearchParams(location.search);
+  const voulus = (params.get('c') ?? params.getAll('c').join(',')).split(',').filter(Boolean).slice(0, MAX);
+  cases.forEach((x) => { x.checked = voulus.includes(x.value); });
+  const t = params.get('t');
+  if (t) onglets.forEach((x) => { x.checked = x.value === t; });
+
+  function afficher() {
+    const choisis = cases.filter((x) => x.checked).map((x) => x.value);
+    const theme = onglets.find((x) => x.checked)?.value;
+    cases.forEach((x) => { x.disabled = !x.checked && choisis.length >= MAX; });
+
+    if (choisis.length < 2) {
+      consigne.textContent = choisis.length === 0
+        ? 'Choisissez au moins 2 candidats, 3 au plus.'
+        : 'Choisissez au moins un autre candidat.';
+      zone.hidden = true;
+    } else {
+      consigne.textContent = choisis.length === MAX
+        ? 'Trois candidats choisis. Retirez-en un pour en choisir un autre.'
+        : 'Vous pouvez ajouter un troisième candidat.';
+      zone.hidden = false;
+    }
+    zone.style.setProperty('--n', String(Math.max(choisis.length, 1)));
+    zone.querySelectorAll<HTMLElement>('[data-candidat]').forEach((el) => {
+      el.hidden = !choisis.includes(el.dataset.candidat!);
+    });
+    zone.querySelectorAll<HTMLElement>('[data-theme]').forEach((el) => {
+      el.hidden = el.dataset.theme !== theme;
+    });
+
+    const p = new URLSearchParams();
+    if (choisis.length) p.set('c', choisis.join(','));
+    if (theme) p.set('t', theme);
+    history.replaceState(null, '', `${location.pathname}?${p}`);
+  }
+
+  form.addEventListener('change', afficher);
+  form.addEventListener('submit', (e) => e.preventDefault());
+  document.documentElement.classList.add('js');
+  afficher();
+</script>
+
+<style>
+  .page { padding-top: 16px; display: flex; flex-direction: column; gap: 24px; }
+  .tete { display: flex; flex-direction: column; gap: 6px; }
+  .tete p { margin: 0; font-size: 18px; }
+
+  fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+  .choix { display: flex; flex-direction: column; gap: 14px; }
+  .choix > .legende { margin: 0; }
+
+  .candidats { display: flex; flex-wrap: wrap; gap: 8px; }
+  .jeton { position: relative; cursor: pointer; }
+  .jeton input, .onglet input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .jeton span {
+    display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px;
+    border: 1.5px dashed var(--encre-secondaire); border-radius: var(--rayon-m);
+    font-size: 15px;
+  }
+  .jeton input:checked + span {
+    border: 1.5px solid var(--sable); background: var(--sable);
+    border-radius: 4px 16px 4px 4px; font-weight: 700;
+  }
+  .jeton input:checked + span::after { content: '×'; margin-left: 8px; font-size: 18px; }
+  .jeton input:disabled + span { opacity: 0.45; cursor: not-allowed; }
+  .jeton input:focus-visible + span, .onglet input:focus-visible + span { outline: 3px solid var(--petrole); outline-offset: 2px; }
+
+  .onglets {
+    display: flex; gap: 20px; overflow-x: auto; white-space: nowrap;
+    border-bottom: 1px solid var(--sable); scrollbar-width: thin;
+  }
+  .onglet { cursor: pointer; position: relative; }
+  .onglet span {
+    display: inline-flex; align-items: center; min-height: 44px;
+    font-family: var(--titres); font-size: 18px; color: var(--encre-secondaire);
+    border-bottom: 3px solid transparent;
+  }
+  .onglet input:checked + span { color: var(--encre); border-bottom-color: var(--encre); }
+
+  .theme { display: flex; flex-direction: column; gap: 28px; padding-top: 8px; }
+  :global(.js) .titre-theme { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .sujet { display: flex; flex-direction: column; gap: 12px; }
+  .question { font-size: 19px; line-height: 27px; max-width: 46em; }
+  .ligne { display: grid; gap: 14px; }
+  .mesure {
+    display: flex; flex-direction: column; gap: 4px;
+    padding-left: 14px; border-left: 3px solid var(--sable);
+  }
+  .mesure p { margin: 0; }
+  .nom { color: var(--encre); font-weight: 700; }
+  .approche { font-size: 15px; line-height: 23px; }
+  .approche:not(.secondaire) { font-weight: 700; }
+
+  @media (min-width: 860px) {
+    .ligne { grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr)); gap: 28px; }
+  }
+</style>

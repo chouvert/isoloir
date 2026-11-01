@@ -44,6 +44,7 @@ isoloir/
 │   └── base.json                 # export complet (généré), pour l'interface et le calcul de proximité
 ├── identite/                     # charte de L’Isoloir, couleurs, logos SVG
 ├── sources.md                    # sources transverses
+├── site/                         # interface Astro, publiée sur GitHub Pages
 ├── scripts/                      # contrôle de la base et calcul de proximité
 ├── tests/                        # tests des scripts
 └── .github/workflows/            # contrôle automatique sur GitHub

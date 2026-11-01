@@ -1,0 +1,153 @@
+---
+import Base from '../layouts/Base.astro';
+import Icone from '../components/Icone.astro';
+import { candidats, lien, DEPOT } from '../lib/donnees.js';
+
+const promesses = [
+  { icone: 'balance', titre: 'La même règle pour tous.', texte: 'Aucun candidat n’a de poids ni de couleur à lui. L’ordre d’affichage est le même pour tous.' },
+  { icone: 'source', titre: 'Tout est sourcé.', texte: 'Chaque position renvoie au programme, à un discours ou à une déclaration de campagne.' },
+  { icone: 'bouclier', titre: 'Vos réponses restent chez vous.', texte: 'Le calcul se fait sur votre appareil. Rien n’est envoyé ni conservé.' },
+  { icone: 'jauge', titre: 'La faisabilité à part.', texte: 'Être d’accord avec un programme et le juger réaliste sont deux questions différentes.' },
+] as const;
+---
+<Base>
+  <p class="conteneur contexte">Élection présidentielle française de 2027</p>
+
+  <section class="hero" aria-labelledby="titre-accueil">
+    <div class="rideau" aria-hidden="true">
+      <span class="tringle"></span>
+      <svg class="pan" viewBox="0 0 160 430" preserveAspectRatio="none">
+        <path d="M0 0 H160 C118 130 118 300 166 430 H0 Z" fill="currentColor" />
+        <path d="M40 0 C30 130 30 300 42 430 M90 0 C76 130 76 300 92 430 M132 0 C112 130 112 300 136 430"
+          fill="none" stroke="var(--papier)" stroke-opacity="0.4" stroke-width="2" vector-effect="non-scaling-stroke" />
+      </svg>
+    </div>
+    <div class="hero-texte">
+      <h1 id="titre-accueil" class="titre-1">Choisissez en toute<br />connaissance.</h1>
+      <p class="voix sous-titre">Et en toute discrétion.</p>
+    </div>
+  </section>
+
+  <div class="conteneur corps">
+    <p class="intro lecture">
+      Entrez, tirez le rideau. L’Isoloir vous aide à voir de quels candidats à la présidentielle de 2027 vous êtes proche,
+      à partir de positions sourcées. Il ne vous dit jamais pour qui voter.
+    </p>
+
+    <div class="portes">
+      <a class="bouton-principal porte-situer" href={lien('me-situer/')}>
+        <Icone nom="bulletin-coche" taille={40} />
+        <span><strong>Me situer</strong><span>Une dizaine de minutes, sans compte. Vos réponses restent chez vous.</span></span>
+      </a>
+      <div class="porte-informer">
+        <h2 class="titre-3">Ou consultez les programmes</h2>
+        <ul class="liste-liens">
+          <li><a href={lien('candidats/')}>Les {candidats.length} candidats et leurs fiches</a></li>
+          <li><a href={lien('comparer/')}>Comparer 2 ou 3 programmes</a></li>
+          <li><a href={lien('methode/#faisabilite')}>La faisabilité, expliquée</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="deux-colonnes">
+      <section class="encadre pourquoi">
+        <h2 class="titre-3">Pourquoi un isoloir</h2>
+        <p>C’est le lieu du choix personnel. On y décide seul, et rien de ce qu’on y fait n’en sort. L’Isoloir suit les deux mêmes règles.</p>
+      </section>
+
+      <section class="promesses" aria-labelledby="titre-promesses">
+        <h2 id="titre-promesses" class="titre-3">Ce que nous vous promettons</h2>
+        <ul>
+          {promesses.map((p) => (
+            <li>
+              <span class="pictogramme"><Icone nom={p.icone} taille={26} /></span>
+              <p><strong>{p.titre}</strong> {p.texte}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+
+    <section class="methode" aria-labelledby="titre-methode">
+      <hr class="filet" />
+      <h2 id="titre-methode" class="titre-3">Méthode et sources</h2>
+      <ul class="liens-methode">
+        <li><a href={lien('methode/#inclusion')}>Quels candidats sont inclus, et pourquoi</a></li>
+        <li><a href={lien('methode/#proximite')}>Comment la proximité est calculée</a></li>
+        <li><a href={lien('methode/#sources')}>Toutes les sources</a></li>
+        <li><a href={DEPOT}>Données et code ouverts sur GitHub</a></li>
+      </ul>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .contexte {
+    margin: 4px auto 14px;
+    font-family: var(--titres);
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .hero {
+    --colonne-rideau: 118px;
+    position: relative;
+    display: grid;
+    grid-template-columns: var(--colonne-rideau) minmax(0, 1fr);
+    min-height: 400px;
+    max-width: var(--largeur);
+    margin: 0 auto;
+  }
+  .rideau { position: relative; color: var(--petrole); }
+  .tringle {
+    position: absolute; left: 0; top: 0; z-index: 1;
+    width: 100vw; max-width: var(--largeur); height: 8px;
+    border-radius: 4px; background: var(--encre);
+  }
+  .pan { position: absolute; left: 0; top: 8px; width: 100%; height: calc(100% - 8px); }
+  .hero-texte {
+    align-self: center;
+    padding: 24px 12px 24px 4px;
+    display: flex; flex-direction: column; gap: 14px;
+  }
+  .hero-texte h1 { font-size: 28px; line-height: 34px; white-space: nowrap; }
+  .sous-titre { margin: 0; font-size: 18px; }
+
+  .corps { display: flex; flex-direction: column; gap: 40px; padding-top: 32px; }
+  .intro { margin: 0; font-size: 18px; line-height: 29px; }
+
+  .portes { display: grid; gap: 32px; }
+  .porte-situer { align-self: start; }
+  .porte-situer > span { display: flex; flex-direction: column; gap: 4px; font-size: 15px; line-height: 21px; }
+  .porte-informer h2 { margin-bottom: 4px; }
+
+  .deux-colonnes { display: grid; gap: 40px; align-items: start; }
+  .pourquoi { display: flex; flex-direction: column; gap: 8px; }
+  .pourquoi p { margin: 0; }
+
+  .promesses ul { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 18px; }
+  .promesses li { display: flex; gap: 14px; align-items: flex-start; }
+  .promesses p { margin: 0; font-size: 16px; line-height: 25px; }
+  .pictogramme {
+    flex-shrink: 0; width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--sable); border-radius: 4px 16px 4px 4px; color: var(--encre);
+  }
+
+  .methode { display: flex; flex-direction: column; gap: 12px; }
+  .liens-methode { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px 32px; }
+  .liens-methode a { display: inline-block; padding: 8px 0; }
+
+  @media (min-width: 860px) {
+    .hero { --colonne-rideau: clamp(260px, 36vw, 440px); min-height: 520px; }
+    .hero-texte { padding: 40px 32px 40px 48px; }
+    .hero-texte h1 { font-size: clamp(44px, 5vw, 64px); line-height: 1.08; }
+    .sous-titre { font-size: 22px; }
+    .contexte { font-size: 19px; }
+    .portes { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; }
+    .porte-situer { padding: 24px 32px 24px 24px; }
+    .deux-colonnes { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
+    .promesses ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .liens-methode { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+</style>
