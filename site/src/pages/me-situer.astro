@@ -1,36 +1,165 @@
 ---
 import Base from '../layouts/Base.astro';
-import { lien } from '../lib/donnees.js';
-const etapes = [
-  'Vos sujets : choisissez jusqu’à 3 préoccupations.',
-  'Vos priorités : répartissez 100 points entre les thèmes.',
-  'Les dilemmes : arbitrez entre des options réelles, chacune avec sa contrepartie.',
-  'Les duels à l’aveugle : préférez une mesure à une autre, sans savoir de qui elle vient.',
-];
+import { candidats, themes, dilemmesActifs, lien } from '../lib/donnees.js';
+import base from '../../../donnees/base.json';
+
+// Seules les données utiles au parcours partent dans la page ; le calcul se fait ensuite
+// entièrement dans le navigateur (scripts/lib), sans rien envoyer.
+const donnees = {
+  themes: themes.map((t) => ({ id: t.id, libelle: t.libelle })),
+  preoccupations: base.preoccupations,
+  dilemmes: dilemmesActifs.map((d) => ({
+    id: d.id, theme: d.theme, statut: d.statut, enonce: d.enonce,
+    options: d.options.map((o) => ({ option: o.option, libelle: o.libelle, contrepartie: o.contrepartie })),
+    voisines: d.voisines ?? [],
+  })),
+  candidats: candidats.map((c) => ({
+    id: c.id,
+    nom: c.nom,
+    reponses: Object.fromEntries(Object.entries(c.dilemmes ?? {}).map(([id, r]) => [id, r.option])),
+  })),
+  participants: base.duels.participants,
+  liens: { candidats: lien('candidats/'), methode: lien('methode/#proximite'), comparer: lien('comparer/') },
+};
 ---
-<Base titre="Me situer" actif="me-situer">
-  <div class="conteneur page lecture">
-    <header class="tete">
-      <h1 class="titre-2">Me situer</h1>
-      <p class="voix">Le parcours est en préparation. Il arrive bientôt.</p>
-    </header>
-
-    <p>En une dizaine de minutes, il vous montrera de quels programmes vous êtes proche, thème par thème. Il se fera en quatre étapes :</p>
-    <ol class="etapes">
-      {etapes.map((e) => <li>{e}</li>)}
-    </ol>
-
-    <aside class="encadre">
-      <p>En attendant, vous pouvez déjà <a href={lien('candidats/')}>lire les fiches des candidats</a> ou <a href={lien('comparer/')}>comparer 2 ou 3 programmes</a>.</p>
-    </aside>
+<Base titre="Me situer" actif="me-situer"
+  description="Répondez à des arbitrages concrets et voyez de quels programmes de la présidentielle 2027 vous êtes proche. Rien n’est envoyé.">
+  <div class="conteneur parcours-page">
+    <div id="parcours" aria-live="polite">
+      <noscript>
+        <p>Le parcours calcule votre proximité directement dans votre navigateur, ce qui demande JavaScript.
+        Vous pouvez toujours <a href={lien('candidats/')}>lire les fiches des candidats</a> ou
+        <a href={lien('comparer/')}>comparer leurs programmes</a>.</p>
+      </noscript>
+    </div>
   </div>
+  <script type="application/json" id="donnees-parcours" set:html={JSON.stringify(donnees).replace(/</g, '\\u003c')}></script>
 </Base>
 
-<style>
-  .page { padding-top: 16px; display: flex; flex-direction: column; gap: 24px; }
-  .tete { display: flex; flex-direction: column; gap: 6px; }
-  .tete p, .page > p, .encadre p { margin: 0; }
-  .tete .voix { font-size: 18px; }
-  .etapes { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: 10px; }
-  .etapes li::marker { font-family: var(--titres); font-size: 20px; }
+<script>
+  import { demarrer } from '../scripts/parcours.ts';
+  demarrer(document.getElementById('parcours')!, JSON.parse(document.getElementById('donnees-parcours')!.textContent!));
+</script>
+
+<style is:global>
+  .parcours-page { padding-top: 4px; max-width: 760px; }
+
+  .tringle-etapes { position: relative; height: 30px; margin: 4px 0 18px; }
+  .tringle-etapes .rail, .tringle-etapes .rempli {
+    position: absolute; top: 13px; height: 4px; border-radius: 2px; left: 7px;
+  }
+  .tringle-etapes .rail { right: 7px; background: var(--sable); }
+  .tringle-etapes .rempli { background: var(--petrole); }
+  .tringle-etapes .anneaux { position: absolute; inset: 0 0 0 0; display: flex; justify-content: space-between; }
+  .tringle-etapes .anneau {
+    width: 14px; height: 14px; margin-top: 8px; border-radius: 50%;
+    background: var(--papier); border: 2.5px solid var(--sable);
+  }
+  .tringle-etapes .anneau.fait { background: var(--petrole); border-color: var(--petrole); }
+  .tringle-etapes .anneau.encours { border: 3px solid var(--petrole); }
+
+  .etape { display: flex; flex-direction: column; gap: 10px; }
+  .etape:focus { outline: none; }
+  .etape > p { margin: 0; }
+  .surtitre { font-size: 14px; line-height: 20px; color: var(--encre-secondaire); margin: 0; }
+  .contexte-dilemme { margin: -4px 0 0 !important; font-size: 17px; }
+  .question { font-family: var(--titres); font-weight: 500; font-size: clamp(21px, 2.6vw, 28px); line-height: 1.3; margin: 8px 0 6px; }
+
+  .choix-liste { display: flex; flex-direction: column; gap: 8px; margin: 6px 0 0; padding: 0; list-style: none; }
+  .choix-liste.defile { max-height: min(56vh, 520px); overflow-y: auto; padding-right: 4px; }
+  .choix {
+    width: 100%; display: flex; gap: 14px; align-items: flex-start; text-align: left;
+    padding: 13px 15px; border-radius: var(--rayon-m);
+    border: 1px solid var(--sable); background: var(--papier); color: var(--encre);
+    font: inherit; font-size: 16px; line-height: 23px; cursor: pointer;
+  }
+  .choix:hover { border-color: var(--encre); }
+  .choix[aria-checked='true'], .choix[aria-pressed='true'] {
+    background: var(--sable); border-color: var(--sable); border-radius: var(--rayon-rideau);
+  }
+  .choix[aria-checked='true'] .libelle, .choix[aria-pressed='true'] .libelle { font-weight: 700; }
+  .choix:disabled { opacity: 0.45; cursor: not-allowed; }
+  .choix .case { flex-shrink: 0; margin-top: 1px; }
+  .choix .case rect { fill: var(--papier); stroke: var(--encre); }
+  .choix .case path { stroke: var(--petrole); }
+  .choix .detail { display: block; font-size: 14px; line-height: 20px; color: var(--encre-secondaire); }
+  .choix[aria-checked='true'] .detail, .choix[aria-pressed='true'] .detail { color: var(--encre); }
+
+  .mesure-duel { font-family: var(--titres); font-size: 18px; line-height: 26px; border: 1.5px solid var(--encre); border-radius: var(--rayon-rideau); padding: 18px; min-height: 96px; }
+  .ou { text-align: center; margin: 0; }
+
+  .actions { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; margin-top: 14px; }
+  .bouton {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-height: 52px; padding: 0 24px; border-radius: var(--rayon-m);
+    background: var(--petrole); color: var(--papier); border: 0;
+    font: inherit; font-weight: 700; font-size: 16px; cursor: pointer; text-decoration: none;
+  }
+  .bouton:hover { color: var(--papier); filter: brightness(1.08); }
+  .bouton:disabled { opacity: 0.5; cursor: not-allowed; filter: none; }
+  .bouton-second {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-height: 44px; padding: 0 18px; border-radius: var(--rayon-m);
+    background: none; color: var(--encre); border: 1px solid var(--encre);
+    font: inherit; font-weight: 700; font-size: 15px; cursor: pointer;
+  }
+  .lien-bouton { background: none; border: 0; padding: 10px 0; font: inherit; color: var(--encre); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .lien-bouton:hover { color: var(--petrole); }
+
+  .budget { list-style: none; margin: 6px 0 0; padding: 0; }
+  .budget li { display: flex; align-items: center; gap: 8px; min-height: 52px; border-bottom: 1px solid var(--sable); }
+  .budget .theme-nom { flex: 1; display: flex; flex-direction: column; gap: 4px; font-size: 16px; }
+  .budget .jauge { height: 4px; border-radius: 2px; background: var(--sable); overflow: hidden; }
+  .budget .jauge span { display: block; height: 100%; background: var(--petrole); }
+  .budget button {
+    width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--sable);
+    background: none; color: var(--encre); font-size: 20px; cursor: pointer;
+  }
+  .budget input {
+    width: 3.2em; text-align: center; font-family: var(--titres); font-size: 19px;
+    border: 0; background: none; color: var(--encre); -moz-appearance: textfield;
+  }
+  .budget input::-webkit-inner-spin-button { -webkit-appearance: none; }
+  .total { font-family: var(--titres); font-style: italic; color: var(--encre-secondaire); margin: 0; }
+  .total.juste { color: var(--encre); }
+
+  .apercu {
+    margin-top: 22px; padding: 16px 20px; border-radius: 28px 28px 4px 4px;
+    background: var(--sable); display: flex; gap: 14px; align-items: flex-start;
+  }
+  .apercu p { margin: 0; font-size: 15px; line-height: 22px; }
+  .apercu strong.titre { display: block; font-size: 15px; }
+  .apercu .rideau-mini { flex-shrink: 0; }
+
+  .rideau-ouvert { display: block; width: 100%; height: 120px; color: var(--petrole); margin-bottom: 4px; }
+  .onglets-resultat { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; padding: 4px; border-radius: var(--rayon-m); background: var(--sable); margin: 8px 0; }
+  .onglets-resultat button { min-height: 42px; border: 0; border-radius: 7px; background: none; color: var(--encre); font: inherit; font-size: 15px; cursor: pointer; }
+  .onglets-resultat button[aria-selected='true'] { background: var(--papier); font-weight: 700; }
+
+  .bloc-resultat { padding: 18px; border-radius: var(--rayon-rideau); border: 1.5px solid var(--encre); display: flex; flex-direction: column; gap: 12px; }
+  .bloc-resultat h3 { font-size: 21px; line-height: 28px; display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+  .bloc-resultat h3 small { font-family: var(--titres); font-style: italic; font-weight: 400; font-size: 15px; color: var(--encre-secondaire); }
+  .rangs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .rang { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: center; }
+  .rang a { color: var(--encre); font-size: 16px; }
+  .rang .score { font-family: var(--titres); font-size: 18px; }
+  .rang .barre { grid-column: 1 / -1; height: 6px; border-radius: 3px; background: var(--sable); overflow: hidden; }
+  .rang .barre span { display: block; height: 100%; background: var(--petrole); }
+  .groupe-egalite { padding-left: 12px; border-left: 3px solid var(--sable); display: flex; flex-direction: column; gap: 10px; }
+  .groupe-egalite > p { margin: 0; }
+
+  .detail-candidat summary { cursor: pointer; color: var(--petrole); font-size: 15px; padding: 4px 0; }
+  .lignes-detail { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .lignes-detail li { font-size: 15px; line-height: 22px; }
+  .pastille.fort { background: var(--petrole); color: var(--papier); }
+  .pastille.voisin { background: var(--sable); color: var(--encre); }
+  .pastille.autre { background: var(--encre-secondaire); color: var(--papier); }
+  .pastille.sans { background: none; border: 1px solid var(--encre-secondaire); color: var(--encre); }
+
+  .duels-revelation { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 16px; }
+  .duels-revelation li { display: flex; flex-direction: column; gap: 4px; padding-left: 14px; border-left: 3px solid var(--sable); }
+  .duels-revelation p { margin: 0; font-size: 15px; line-height: 22px; }
+
+  .resultat { display: flex; flex-direction: column; gap: 20px; }
+  .resultat > p { margin: 0; }
 </style>
