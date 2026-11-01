@@ -34,6 +34,8 @@ cd site && npm run dev                    # aperçu local sur http://localhost:4
 - Ne recopie aucune donnée : tout passe par `site/src/lib/donnees.js` (lecture de `donnees/base.json`).
 - Suit `identite/charte.md` et le design system « L’Isoloir » : ordre alphabétique, aucune couleur de candidat,
   polices servies par le site (pas de Google Fonts, rien n'est envoyé à un tiers).
+- Parcours « Me situer » : `site/src/scripts/parcours.ts`, qui n'invente aucune règle de calcul et appelle
+  `scripts/lib/parcours.mjs`, `proximite.mjs` et `duels.mjs` ; réponses gardées sur l'appareil (localStorage).
 
 ## Git et GitHub
 - Dépôt `chouvert/isoloir`. Une PR par fiche (ou par lot de relecture).
