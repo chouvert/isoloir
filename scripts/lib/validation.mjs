@@ -10,6 +10,19 @@ import { texteAveugle, MAX_CARACTERES } from './anonymisation.mjs';
 export const STATUTS_CANDIDAT = ['pressenti', 'déclaré', 'parrainages validés', 'retiré'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 export const MAX_PHARES = 3;
+
+export const VALEURS_INCLUS = ['oui', 'non'];
+
+/** Motifs interdits dans le code du site : L'Isoloir ne conserve aucune réponse de l'utilisateur. */
+export const MOTIFS_STOCKAGE = [
+  { motif: /\blocalStorage\b/, libelle: 'localStorage' },
+  { motif: /\bsessionStorage\b/, libelle: 'sessionStorage' },
+  { motif: /\bindexedDB\b/, libelle: 'indexedDB' },
+  { motif: /document\.cookie/, libelle: 'document.cookie' },
+  { motif: /fetch\(\s*['"`]https?:\/\//, libelle: 'fetch vers un autre site' },
+];
+
+const EXTENSIONS_SITE = ['.astro', '.js', '.mjs', '.ts', '.jsx', '.tsx', '.vue', '.svelte'];
 const STATUTS_DILEMME = ['actif', 'brouillon', 'obsolete'];
 export const REPONSES_DILEMME_SPECIALES = ['aucune', 'pas de position'];
 const SECTIONS_FICHE = [
@@ -31,6 +44,14 @@ class Rapport {
 
 function lire(racine, chemin) {
   return readFileSync(join(racine, chemin), 'utf8');
+}
+
+/** Date de version du référentiel (referentiel/version.yml), ou null si absente. */
+export function lireVersion(racine) {
+  const f = join(racine, 'referentiel/version.yml');
+  if (!existsSync(f)) return null;
+  const m = readFileSync(f, 'utf8').match(/^date:\s*(\S+)\s*$/m);
+  return m ? m[1] : null;
 }
 
 function listerMarkdown(racine, dossier) {
@@ -270,7 +291,11 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
     if (data.programme_url && !/^https?:\/\//.test(data.programme_url)) {
       rapport.erreur(fichier, 1, 'programme_url doit être une URL http(s)');
     }
+    if (data.inclus !== undefined && data.inclus !== null && !VALEURS_INCLUS.includes(String(data.inclus))) {
+      rapport.erreur(fichier, 1, `inclus « ${data.inclus} » invalide (${VALEURS_INCLUS.join(' | ')})`);
+    }
     fiche.nom = data.nom;
+    fiche.inclus = data.inclus !== 'non';
   }
 
   const sections = lireSections(corps, 2, decalage + 1);
@@ -582,15 +607,65 @@ function validerComparatifTheme(racine, fichier, ref, fiches, rapport) {
 }
 
 // ---------------------------------------------------------------------------
+// Inclusion des candidats
+// ---------------------------------------------------------------------------
+
+/** Contrôle croisé entre le champ `inclus` des fiches et les sections « Inclus » de candidats-inclus.md. */
+function validerInclusion(racine, fiches, rapport) {
+  const f = 'referentiel/candidats-inclus.md';
+  if (!existsSync(join(racine, f))) return;
+  const cites = new Set();
+  for (const s of lireSections(lire(racine, f), 2)) {
+    if (!normaliser(s.titre).startsWith('inclus')) continue;
+    for (const m of s.contenu.matchAll(/`([a-z0-9-]+)`/g)) cites.add(m[1]);
+  }
+  for (const fiche of fiches.values()) {
+    if (fiche.inclus === undefined) continue;
+    if (fiche.inclus && !cites.has(fiche.id)) {
+      rapport.erreur(fiche.fichier, 1, `\`${fiche.id}\` incluse mais absente des sections « Inclus » de candidats-inclus.md (ou marquer inclus: non)`);
+    }
+    if (!fiche.inclus && cites.has(fiche.id)) {
+      rapport.erreur(fiche.fichier, 1, `\`${fiche.id}\` marquée inclus: non mais citée dans une section « Inclus » de candidats-inclus.md`);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Site : aucune donnée utilisateur conservée
+// ---------------------------------------------------------------------------
+
+function listerRecursif(racine, dossier) {
+  const d = join(racine, dossier);
+  if (!existsSync(d)) return [];
+  return readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory()
+    ? listerRecursif(racine, `${dossier}/${e.name}`)
+    : [`${dossier}/${e.name}`]));
+}
+
+function validerStockage(racine, rapport) {
+  for (const f of listerRecursif(racine, 'site/src')) {
+    if (!EXTENSIONS_SITE.some((x) => f.endsWith(x))) continue;
+    lire(racine, f).split('\n').forEach((l, i) => {
+      for (const { motif, libelle } of MOTIFS_STOCKAGE) {
+        if (motif.test(l)) rapport.erreur(f, i + 1, `${libelle} interdit : aucune donnée utilisateur ne doit être conservée ni envoyée (README, « Calcul de proximité »)`);
+      }
+    });
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Point d'entrée
 // ---------------------------------------------------------------------------
 
 export function validerBase(racine) {
   const rapport = new Rapport();
-  for (const f of ['referentiel/themes.md', 'referentiel/questions.md', 'referentiel/faisabilite.md', 'referentiel/dilemmes.md', 'referentiel/preoccupations.md', 'candidats/_modele.md']) {
+  for (const f of ['referentiel/themes.md', 'referentiel/questions.md', 'referentiel/faisabilite.md', 'referentiel/dilemmes.md', 'referentiel/preoccupations.md', 'referentiel/version.yml', 'candidats/_modele.md']) {
     if (!existsSync(join(racine, f))) rapport.erreur(f, 1, 'fichier obligatoire manquant');
   }
   if (rapport.erreurs.length) return rapport;
+
+  const version = lireVersion(racine);
+  if (!estDateIso(version)) rapport.erreur('referentiel/version.yml', 1, `date « ${version ?? ''} » n'est pas une date AAAA-MM-JJ`);
 
   const ref = lireReferentiel(racine, rapport);
 
@@ -603,6 +678,9 @@ export function validerBase(racine) {
     const fiche = validerFiche(racine, f, ref, rapport);
     fiches.set(fiche.id, fiche);
   }
+
+  validerInclusion(racine, fiches, rapport);
+  validerStockage(racine, rapport);
 
   // Les analyses doivent être faites à la même date pour tous les candidats.
   const dates = new Set([...fiches.values()].filter((f) => f.analyse).map((f) => f.analyse.date));

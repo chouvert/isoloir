@@ -6,7 +6,7 @@ import { join, basename } from 'node:path';
 import {
   normaliser, lireFrontmatter, lireSections, lireTableaux, trouverTableau, nettoyerId,
 } from './markdown.mjs';
-import { lireReferentiel, validerFiche } from './validation.mjs';
+import { lireReferentiel, validerFiche, lireVersion } from './validation.mjs';
 import { lireTermesManuels } from './anonymisation.mjs';
 
 const lire = (racine, chemin) => readFileSync(join(racine, chemin), 'utf8');
@@ -152,6 +152,7 @@ function lireFiche(racine, fichier, ref) {
     parti: texte(data.parti),
     famille_politique: texte(data.famille_politique),
     statut: texte(data.statut),
+    inclus: data.inclus !== 'non',
     date_declaration: texte(data.date_declaration),
     programme_url: texte(data.programme_url),
     programme_version: texte(data.programme_version),
@@ -180,5 +181,6 @@ export function lireBase(racine) {
     criteres: ref.criteres,
     candidats: fichiers.map((f) => lireFiche(racine, f, ref)),
     termesManuels: lireTermesManuels(racine),
+    referentielMaj: lireVersion(racine) ?? '',
   };
 }

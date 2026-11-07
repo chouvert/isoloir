@@ -1,0 +1,144 @@
+# Sources de la veille quotidienne (scripts/veille.mjs, branche `veille`).
+# type : rss | page | sitemap — categorie : campagne | parti | presse | sondages | institution
+# candidats : transverse, ou liste d'identifiants de fiches (rattachement automatique).
+# Les sources campagne, parti et sondages sont gardées sans filtre ; les autres seulement si elles citent
+# un candidat ou un mot-clé de veille/mots-cles.yml.
+#
+# Adresses non éprouvées au 2026-11-07 (le poste de développement ne joint pas ces sites) :
+# le premier lancement du workflow les met à l'épreuve ; corriger ou retirer celles en échec
+# et noter ici les sites sans flux.
+# Wikipédia écartée : son robots.txt interdit /w/ (flux de l'historique) ; sondages suivis par la
+# Commission des sondages et la presse.
+
+- id: public-senat-politique
+  nom: Public Sénat — politique
+  type: page
+  url: https://www.publicsenat.fr/actualites/politique
+  categorie: presse
+  candidats: transverse
+
+- id: attal-site
+  nom: Gabriel Attal — actualités de campagne
+  type: page
+  url: https://attalpresident.fr/actualites
+  categorie: campagne
+  candidats: [attal-gabriel]
+
+- id: batho-generation-ecologie
+  nom: Génération écologie — flux
+  type: rss
+  url: https://www.generationecologie.fr/feed/
+  categorie: parti
+  candidats: [batho-delphine]
+
+- id: glucksmann-place-publique
+  nom: Place publique — flux
+  type: rss
+  url: https://place-publique.eu/feed/
+  categorie: parti
+  candidats: [glucksmann-raphael]
+
+- id: le-pen-rn
+  nom: Rassemblement national — actualités
+  type: page
+  url: https://rassemblementnational.fr/actualites
+  categorie: parti
+  candidats: [le-pen-marine]
+
+- id: lisnard-nouvelle-energie
+  nom: Nouvelle Énergie — site de campagne
+  type: page
+  url: https://www.unenouvelleenergie.fr/
+  categorie: campagne
+  candidats: [lisnard-david]
+
+- id: melenchon-site
+  nom: Mélenchon 2027 — flux
+  type: rss
+  url: https://melenchon2027.fr/feed/
+  categorie: campagne
+  candidats: [melenchon-jean-luc]
+
+- id: melenchon-lfi
+  nom: La France insoumise — flux
+  type: rss
+  url: https://lafranceinsoumise.fr/feed/
+  categorie: parti
+  candidats: [melenchon-jean-luc]
+
+- id: philippe-site
+  nom: Édouard Philippe — plan du site
+  type: sitemap
+  url: https://www.edouardphilippe.fr/sitemap.xml
+  categorie: campagne
+  candidats: [philippe-edouard]
+
+- id: retailleau-lr
+  nom: Les Républicains — actualités
+  type: page
+  url: https://republicains.fr/actualites/
+  categorie: parti
+  candidats: [retailleau-bruno]
+
+- id: roussel-pcf
+  nom: Parti communiste français — accueil
+  type: page
+  url: https://www.pcf.fr/
+  categorie: parti
+  candidats: [roussel-fabien]
+
+- id: ruffin-site
+  nom: Nous président — site de campagne
+  type: page
+  url: https://nouspresident.fr/
+  categorie: campagne
+  candidats: [ruffin-francois]
+
+- id: ruffin-blog
+  nom: François Ruffin — flux du site personnel
+  type: rss
+  url: https://francoisruffin.fr/feed/
+  categorie: campagne
+  candidats: [ruffin-francois]
+
+- id: tondelier-journal
+  nom: Marine Tondelier — journal de campagne
+  type: page
+  url: https://marinetondelier.fr/journal-de-campagne
+  categorie: campagne
+  candidats: [tondelier-marine]
+
+- id: tondelier-ecologistes
+  nom: Les Écologistes — articles
+  type: page
+  url: https://lesecologistes.fr/posts
+  categorie: parti
+  candidats: [tondelier-marine]
+
+- id: zemmour-reconquete
+  nom: Reconquête — accueil
+  type: page
+  url: https://www.parti-reconquete.fr/
+  categorie: parti
+  candidats: [zemmour-eric]
+
+- id: lcp-actualites
+  nom: LCP — actualités
+  type: page
+  url: https://lcp.fr/actualites
+  categorie: presse
+  candidats: transverse
+
+- id: gazette-france
+  nom: La Gazette France (dépêches AFP) — accueil
+  type: page
+  url: https://www.lagazettefrance.fr/
+  categorie: presse
+  candidats: transverse
+
+- id: commission-sondages
+  nom: Commission des sondages — notices présidentielle 2027
+  type: page
+  url: https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/Presidentielle-2027
+  categorie: sondages
+  candidats: transverse

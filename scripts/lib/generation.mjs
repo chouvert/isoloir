@@ -168,6 +168,7 @@ export function participantsDuels(base) {
   for (const d of dilemmesActifs(base)) {
     participants[d.id] = Object.fromEntries(d.options.map((o) => [o.option, []]));
     for (const c of base.candidats) {
+      if (c.inclus === false) continue;
       const r = c.dilemmes[d.id];
       if (!r?.proposition || !participants[d.id][r.option]) continue;
       const prop = c.propositions.find((p) => p.id === r.proposition);
@@ -218,6 +219,7 @@ export function donnees(base) {
   return {
     format: 1,
     derniere_maj: derniereMaj(base.candidats),
+    referentiel_maj: base.referentielMaj ?? '',
     themes: base.themes,
     questions: base.questions,
     dilemmes: base.dilemmes,

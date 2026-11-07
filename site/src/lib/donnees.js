@@ -11,7 +11,10 @@ const collator = new Intl.Collator('fr', { sensitivity: 'base' });
  * Candidats dans l'ordre alphabétique du nom de famille, le même pour tous (charte, règle 2).
  * L'identifiant suit le motif « nom-prenom », ce qui donne directement cet ordre.
  */
-export const candidats = [...base.candidats].sort((a, b) => collator.compare(a.id, b.id));
+export const tousLesCandidats = [...base.candidats].sort((a, b) => collator.compare(a.id, b.id));
+
+/** Candidats retenus par la règle d'inclusion (champ `inclus` des fiches). */
+export const candidats = tousLesCandidats.filter((c) => c.inclus !== false);
 
 export const dilemmesActifs = base.dilemmes.filter((d) => d.statut === 'actif');
 export const questionsActives = base.questions.filter((q) => q.statut === 'actif');

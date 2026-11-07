@@ -126,6 +126,9 @@ l'utilisateur, dont les réponses ne quittent jamais l'appareil. Les exemples ch
 servent de tests (`tests/parcours.test.mjs`, `tests/proximite.test.mjs`) : toute modification du calcul qui changerait ce
 résultat fait échouer les tests.
 
+L'Isoloir ne conserve aucune réponse : ni cookie, ni stockage du navigateur, ni base de données. Recharger la page efface le parcours. Le contrôle de la base le vérifie. (`npm run valider` refuse dans `site/src` tout usage de `localStorage`, `sessionStorage`,
+`indexedDB`, `document.cookie` ou d'un `fetch` vers un autre site.)
+
 ## Conventions
 
 ### Nommage

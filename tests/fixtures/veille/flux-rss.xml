@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Exemple</title>
+<item><title><![CDATA[Édouard Philippe présente son plan &amp; ses chiffres]]></title>
+<link>https://www.exemple.fr/politique/plan-philippe?utm_source=rss&amp;utm_medium=flux</link>
+<pubDate>Fri, 06 Nov 2026 17:30:00 +0100</pubDate>
+<description><![CDATA[<p>Le candidat <strong>Horizons</strong> détaille ses mesures.</p>]]></description></item>
+<item><title>Météo du week-end</title><link>https://www.exemple.fr/meteo</link>
+<pubDate>Sat, 07 Nov 2026 08:00:00 GMT</pubDate><description>Soleil.</description></item>
+<item><title>Sans date</title><link>https://www.exemple.fr/sans-date</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description></item>
+</channel></rss>

@@ -24,7 +24,8 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 npm install
 npm run valider          # contrôle des données (0 erreur exigé)
 npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
-node --test tests/*.test.mjs   # ou npm test (99 tests)
+node --test tests/*.test.mjs   # ou npm test (131 tests)
+npm run veille -- --sortie <dossier>   # collecte de veille (le workflow quotidien la lance sur la branche veille)
 cd site && npm install && npm run build   # site Astro (lit donnees/base.json et identite/)
 cd site && npm run dev                    # aperçu local sur http://localhost:4321/isoloir/
 ```
@@ -74,6 +75,65 @@ cd site && npm run dev                    # aperçu local sur http://localhost:4
 4. Arbitrer les points litigieux selon le référentiel, harmoniser entre fiches, ouvrir la PR,
    présenter à Julien les changements de rattachement et de phares (ce sont eux qui changent les scores).
 
+## Mise à jour hebdomadaire
+Cette section fait foi pour les tâches planifiées du samedi et du dimanche. Spec :
+`docs/superpowers/specs/2026-11-07-veille-hebdomadaire-design.md` ; plan : `docs/superpowers/plans/2026-11-07-veille-hebdomadaire.md`.
+
+**Rattrapage du dimanche** : si une PR « Mise à jour AAAA-Sxx » de la semaine existe (ouverte ou fusionnée), ne rien faire.
+Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats déjà commités sont faits), sinon tout faire.
+
+1. **Préparer.** Branche `maj-AAAA-Sxx` depuis `main` (semaine ISO du jour). Lire le journal de la semaine sur la branche
+   `veille` (`git fetch origin veille` puis `git show FETCH_HEAD:AAAA-Sxx.md`), et celui de la semaine précédente pour le
+   reliquat ; lire `referentiel/candidats-inclus.md` et `referentiel/sujets-emergents.md`. Sources muettes en tête du
+   journal : les compenser par une ou deux recherches web chacune.
+2. **Candidats.** Relever les sondages de premier tour de la semaine (institut, dates de terrain, score), les déclarations,
+   retraits et primaires ; appliquer la règle d'inclusion du README.
+   - Sortie : fiche conservée, `inclus: non`, candidat déplacé dans « Non inclus » de `candidats-inclus.md` avec la raison ;
+     statut `retiré` s'il renonce. Un candidat dont le parti a un parlementaire ne sort pas sous 2 %.
+   - Entrée : ajout à `candidats-inclus.md` ; fiche dans une PR séparée la même session si le quota le permet (au plus une
+     par semaine), sinon signalée dans la PR et rédigée la semaine suivante.
+   - Primaire : le vainqueur reste ou entre, les autres sortent (statut `retiré` s'ils se rallient).
+3. **Fiches.** Pour chaque candidat ayant des entrées dans le journal : classer chaque information (nouvelle mesure,
+   revirement, annonce dédiée candidate aux phares, sans objet) ; ouvrir au plus **8 liens** retenus, les plus récents et
+   les plus importants d'abord (programme, annonce dédiée, revirement), le reste reporté ; appliquer la grille R1 à R5 ;
+   `derniere_maj` au jour ; revirement consigné dans « Évolutions ». **Commit après chaque candidat.** Candidat sans entrée :
+   ne pas ouvrir sa fiche.
+4. **Sujets.** Attribuer un sujet à chaque information retenue ; mettre à jour `referentiel/sujets-emergents.md`.
+5. **Vérification.** Un agent neuf contrôle uniquement les rattachements modifiés, les phares modifiés et les entrées ou
+   sorties de candidats (sources lues, règles appliquées). Appliquer ses corrections soi-même.
+6. **Clôture.** `npm run valider`, `npm run comparatifs`, `npm test` ; PR « Mise à jour AAAA-Sxx », corps ci-dessous. Semaine
+   sans changement : PR quand même, avec le seul état des sources et « Aucun changement cette semaine ».
+
+**Seconde PR « Référentiel : … »** (au plus une par semaine), si un déclencheur de `sujets-emergents.md` est atteint : depuis
+la branche hebdomadaire ; élément rédigé selon les règles de `dilemmes.md` ou `questions.md` ; position ou rattachement sourcé
+des candidats inclus ; préoccupation liée si besoin ; gabarit `_modele.md` ; **`referentiel/version.yml` à la date du jour** ;
+vérification par un agent neuf centrée sur la neutralité des options. Corps : pourquoi (extrait du registre), l'élément
+proposé, le tableau des rattachements, l'effet sur le parcours (les utilisateurs refont le parcours).
+
+**Corps de la PR hebdomadaire** (Julien la lit en 15 minutes ; sans réponse de sa part, les recommandations s'appliquent) :
+
+```markdown
+## Candidats
+| candidat | changement | raison | source |
+Sondages retenus : institut, dates, fourchette.
+
+## Ce qui modifie les scores
+| candidat | dilemme | avant | après | justification | source |
+
+## Phares modifiés
+| candidat | ancien | nouveau | motif |
+
+## À arbitrer
+1. … — recommandation : …   (trois points au plus)
+
+## Sources muettes
+| source | muette depuis | compensation |
+
+<details><summary>Le reste</summary>
+Sources ajoutées, citations précisées, informations reportées à la semaine suivante.
+</details>
+```
+
 ## Grille de relecture d'une fiche
 - R1 Dilemmes : orientation principale (euros > ordre de présentation ; départage entre plusieurs
   chiffrages) ; autres options mentionnées ; une idée par option ; `aucune` réservé.
@@ -102,5 +162,8 @@ cd site && npm run dev                    # aperçu local sur http://localhost:4
      un texte qui trahit son auteur dans `comparatifs/duels.md` → terme dans `referentiel/anonymisation.md` ;
      texte trop long ou reconnaissable → colonne `texte court` (reformulation neutre, ≤ 300 car.).
   7. Identité « L’Isoloir » (2026-10-31, PR #28 conception, PR #29 réalisation) : charte, couleurs, logos, design system.
-  8. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
-     pour tous), mise à jour automatique (veille → issues → PR), interface Astro.
+  8. Veille hebdomadaire (spec et plan du 2026-11-07) : collecte quotidienne sur la branche `veille`, procédure ci-dessus.
+     Reste : éprouver `veille/sources.yml` au premier lancement, puis créer les tâches planifiées (samedi et dimanche 6 h).
+     Plus tard : une issue GitHub par information (le JSONL de la veille est prévu pour).
+  9. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
+     pour tous).

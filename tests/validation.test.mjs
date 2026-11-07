@@ -2,7 +2,7 @@
 // référentiel et du vrai gabarit, puis altérée pour vérifier chaque contrôle.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, cpSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
+import { mkdtempSync, cpSync, readFileSync, writeFileSync, rmSync, mkdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -52,6 +52,8 @@ function valider(modifier = () => {}) {
   try {
     for (const d of ['referentiel', 'candidats', 'comparatifs']) cpSync(join(RACINE, d), join(dossier, d), { recursive: true });
     writeFileSync(join(dossier, 'candidats/dupont-jean.md'), ficheValide());
+    // La fiche de test figure parmi les candidats inclus.
+    editer(dossier, 'referentiel/candidats-inclus.md', (t) => t.replace(/^(## Inclus au titre des sondages.*)$/m, '$1\n\nFiche de test : `dupont-jean`. Autre fiche de test : `martin-anne`.'));
     modifier(dossier);
     return validerBase(dossier);
   } finally {
@@ -353,4 +355,52 @@ test('propositions phares : motif et source obligatoires', () => {
   const m = messages(r);
   assert.match(m, /motif du choix manquant/);
   assert.match(m, /source du choix manquante/);
+});
+
+test('inclus : valeur non autorisée', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t.replace(/^inclus: .*$/m, 'inclus: peut-être')));
+  assert.match(messages(r), /inclus.*oui \| non/);
+});
+
+test('inclus : fiche incluse absente des sections « Inclus » de candidats-inclus.md', () => {
+  const r = valider((d) => editer(d, 'referentiel/candidats-inclus.md', (t) => t.replace('Fiche de test : `dupont-jean`.', '')));
+  assert.match(messages(r), /`dupont-jean` incluse mais absente des sections « Inclus » de candidats-inclus\.md/);
+});
+
+test('inclus : fiche non incluse', () => {
+  const nonInclus = (d) => editer(d, 'candidats/dupont-jean.md', (t) => t.replace(/^inclus: .*$/m, 'inclus: non'));
+  const r1 = valider((d) => {
+    nonInclus(d);
+    editer(d, 'referentiel/candidats-inclus.md', (t) => t.replace('Fiche de test : `dupont-jean`.', ''));
+  });
+  assert.equal(r1.erreurs.length, 0, messages(r1));
+  const r2 = valider(nonInclus);
+  assert.match(messages(r2), /`dupont-jean` marquée inclus: non mais citée dans une section « Inclus »/);
+});
+
+test('version du référentiel : fichier obligatoire et date valide', () => {
+  const r1 = valider((d) => rmSync(join(d, 'referentiel/version.yml')));
+  assert.match(messages(r1), /fichier obligatoire manquant/);
+  const r2 = valider((d) => ecrire(d, 'referentiel/version.yml', 'date: hier\n'));
+  assert.match(messages(r2), /n'est pas une date AAAA-MM-JJ/);
+});
+
+test('site : aucune donnée utilisateur conservée', () => {
+  const page = (contenu) => (d) => { mkdirSync(join(d, 'site/src/pages'), { recursive: true }); ecrire(d, 'site/src/pages/x.astro', contenu); };
+  for (const [code, mot] of [
+    ["localStorage.setItem('a', 1);", 'localStorage'],
+    ['sessionStorage.clear();', 'sessionStorage'],
+    ["indexedDB.open('b');", 'indexedDB'],
+    ["document.cookie = 'c=1';", 'document.cookie'],
+    ["fetch('https://exemple.fr/api', { method: 'POST' });", 'fetch'],
+  ]) {
+    const r = valider(page(`---\n---\n<p>Texte</p>\n<script>\n${code}\n</script>\n`));
+    const e = r.erreurs.find((x) => x.fichier === 'site/src/pages/x.astro');
+    assert.ok(e, `motif non détecté : ${mot}`);
+    assert.equal(e.ligne, 5);
+    assert.match(e.message, new RegExp(`${mot.replace('.', '\\.')}.*aucune donnée utilisateur ne doit être conservée`));
+  }
+  const ok = valider(page("<p>Aucun cookie</p>\n<script>fetch('/isoloir/donnees.json');</script>\n"));
+  assert.equal(ok.erreurs.length, 0, messages(ok));
+  assert.equal(valider().erreurs.length, 0);
 });

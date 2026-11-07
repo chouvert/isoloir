@@ -4,6 +4,7 @@ nom: Prénom Nom
 parti:
 famille_politique:
 statut: pressenti        # pressenti | déclaré | parrainages validés | retiré
+inclus: oui              # oui | non (voir referentiel/candidats-inclus.md)
 date_declaration:        # AAAA-MM-JJ
 programme_url:
 programme_version:       # ex. v1 (AAAA-MM-JJ)

@@ -20,6 +20,7 @@ les visuels de communication. Les valeurs de couleurs font foi dans `couleurs.js
    utilisent les tons de la palette (pétrole, sable, encre) et une échelle d’intensité ; jamais de
    rouge, rose, bleu franc, vert franc, orange ou violet, même pour dire « d’accord » ou « pas
    d’accord ».
+5. **Aucune donnée conservée.** L’Isoloir ne conserve aucune réponse : ni cookie, ni stockage du navigateur, ni base de données. Recharger la page efface le parcours. Le contrôle de la base le vérifie.
 
 ## 2. Plateforme de marque
 

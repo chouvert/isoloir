@@ -1,11 +1,12 @@
 // Tests de la génération des comparatifs et de l'export JSON.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, mkdtempSync, cpSync, writeFileSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { lireBase, lireSources } from '../scripts/lib/extraction.mjs';
-import { genererFichiers, donnees, AVERTISSEMENT, FICHIER_DONNEES } from '../scripts/lib/generation.mjs';
+import { genererFichiers, donnees, participantsDuels, AVERTISSEMENT, FICHIER_DONNEES } from '../scripts/lib/generation.mjs';
 import { validerBase } from '../scripts/lib/validation.mjs';
 
 const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -187,4 +188,31 @@ test('duels : texte court soumis aux termes interdits', () => {
   base.candidats[2].dilemmes['D-eco-dette'].texte_court = 'Le plan Durand sur les rentes';
   const json = JSON.parse(genererFichiers(base).get(FICHIER_DONNEES));
   assert.deepEqual(json.duels.exclusions.map((e) => e.motif), ['terme interdit : Durand']);
+});
+
+test('lireBase : champ inclus (oui par défaut, non si déclaré)', () => {
+  const dossier = mkdtempSync(join(tmpdir(), 'base-'));
+  try {
+    for (const d of ['referentiel', 'candidats']) cpSync(join(RACINE, d), join(dossier, d), { recursive: true });
+    const f = join(dossier, 'candidats/zemmour-eric.md');
+    writeFileSync(f, readFileSync(f, 'utf8').replace(/^statut: .*$/m, '$&\ninclus: non'));
+    const base = lireBase(dossier);
+    assert.equal(base.candidats.find((c) => c.id === 'zemmour-eric').inclus, false);
+    assert.equal(base.candidats.find((c) => c.id === 'le-pen-marine').inclus, true);
+  } finally {
+    rmSync(dossier, { recursive: true, force: true });
+  }
+});
+
+test('donnees : date de version du référentiel', () => {
+  const attendu = readFileSync(join(RACINE, 'referentiel/version.yml'), 'utf8').match(/^date: (\S+)/m)[1];
+  assert.equal(donnees(lireBase(RACINE)).referentiel_maj, attendu);
+  assert.equal(attendu, '2026-11-07');
+});
+
+test('duels : un candidat inclus: non ne participe pas', () => {
+  const base = baseSynthetique();
+  base.candidats[0].inclus = false;
+  const { participants } = participantsDuels(base);
+  assert.equal(Object.values(participants['D-eco-dette']).flat().some((p) => p.candidat === base.candidats[0].id), false);
 });
