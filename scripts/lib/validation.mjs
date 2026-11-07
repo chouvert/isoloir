@@ -12,6 +12,17 @@ const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 export const MAX_PHARES = 3;
 
 export const VALEURS_INCLUS = ['oui', 'non'];
+
+/** Motifs interdits dans le code du site : L'Isoloir ne conserve aucune réponse de l'utilisateur. */
+export const MOTIFS_STOCKAGE = [
+  { motif: /\blocalStorage\b/, libelle: 'localStorage' },
+  { motif: /\bsessionStorage\b/, libelle: 'sessionStorage' },
+  { motif: /\bindexedDB\b/, libelle: 'indexedDB' },
+  { motif: /document\.cookie/, libelle: 'document.cookie' },
+  { motif: /fetch\(\s*['"`]https?:\/\//, libelle: 'fetch vers un autre site' },
+];
+
+const EXTENSIONS_SITE = ['.astro', '.js', '.mjs', '.ts', '.jsx', '.tsx', '.vue', '.svelte'];
 const STATUTS_DILEMME = ['actif', 'brouillon', 'obsolete'];
 export const REPONSES_DILEMME_SPECIALES = ['aucune', 'pas de position'];
 const SECTIONS_FICHE = [
@@ -620,6 +631,29 @@ function validerInclusion(racine, fiches, rapport) {
 }
 
 // ---------------------------------------------------------------------------
+// Site : aucune donnée utilisateur conservée
+// ---------------------------------------------------------------------------
+
+function listerRecursif(racine, dossier) {
+  const d = join(racine, dossier);
+  if (!existsSync(d)) return [];
+  return readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory()
+    ? listerRecursif(racine, `${dossier}/${e.name}`)
+    : [`${dossier}/${e.name}`]));
+}
+
+function validerStockage(racine, rapport) {
+  for (const f of listerRecursif(racine, 'site/src')) {
+    if (!EXTENSIONS_SITE.some((x) => f.endsWith(x))) continue;
+    lire(racine, f).split('\n').forEach((l, i) => {
+      for (const { motif, libelle } of MOTIFS_STOCKAGE) {
+        if (motif.test(l)) rapport.erreur(f, i + 1, `${libelle} interdit : aucune donnée utilisateur ne doit être conservée ni envoyée (README, « Calcul de proximité »)`);
+      }
+    });
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Point d'entrée
 // ---------------------------------------------------------------------------
 
@@ -646,6 +680,7 @@ export function validerBase(racine) {
   }
 
   validerInclusion(racine, fiches, rapport);
+  validerStockage(racine, rapport);
 
   // Les analyses doivent être faites à la même date pour tous les candidats.
   const dates = new Set([...fiches.values()].filter((f) => f.analyse).map((f) => f.analyse.date));

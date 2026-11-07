@@ -2,7 +2,7 @@
 // référentiel et du vrai gabarit, puis altérée pour vérifier chaque contrôle.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, cpSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
+import { mkdtempSync, cpSync, readFileSync, writeFileSync, rmSync, mkdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -383,4 +383,24 @@ test('version du référentiel : fichier obligatoire et date valide', () => {
   assert.match(messages(r1), /fichier obligatoire manquant/);
   const r2 = valider((d) => ecrire(d, 'referentiel/version.yml', 'date: hier\n'));
   assert.match(messages(r2), /n'est pas une date AAAA-MM-JJ/);
+});
+
+test('site : aucune donnée utilisateur conservée', () => {
+  const page = (contenu) => (d) => { mkdirSync(join(d, 'site/src/pages'), { recursive: true }); ecrire(d, 'site/src/pages/x.astro', contenu); };
+  for (const [code, mot] of [
+    ["localStorage.setItem('a', 1);", 'localStorage'],
+    ['sessionStorage.clear();', 'sessionStorage'],
+    ["indexedDB.open('b');", 'indexedDB'],
+    ["document.cookie = 'c=1';", 'document.cookie'],
+    ["fetch('https://exemple.fr/api', { method: 'POST' });", 'fetch'],
+  ]) {
+    const r = valider(page(`---\n---\n<p>Texte</p>\n<script>\n${code}\n</script>\n`));
+    const e = r.erreurs.find((x) => x.fichier === 'site/src/pages/x.astro');
+    assert.ok(e, `motif non détecté : ${mot}`);
+    assert.equal(e.ligne, 5);
+    assert.match(e.message, new RegExp(`${mot.replace('.', '\\.')}.*aucune donnée utilisateur ne doit être conservée`));
+  }
+  const ok = valider(page("<p>Aucun cookie</p>\n<script>fetch('/isoloir/donnees.json');</script>\n"));
+  assert.equal(ok.erreurs.length, 0, messages(ok));
+  assert.equal(valider().erreurs.length, 0);
 });
