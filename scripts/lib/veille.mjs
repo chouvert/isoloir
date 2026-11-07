@@ -183,9 +183,12 @@ export function autoriseParRobots(robots, chemin) {
   return !groupe || !groupe.interdits.some((p) => chemin.startsWith(p));
 }
 
-/** Une information est gardée si elle vient d'un site de campagne ou de parti, ou si elle cite un candidat ou un mot-clé. */
+/** Catégories gardées sans filtre : tout ce qu'elles publient concerne la campagne. */
+export const SANS_FILTRE = ['campagne', 'parti', 'sondages'];
+
+/** Une information est gardée si sa source est sans filtre, ou si elle cite un candidat ou un mot-clé. */
 export function retenir(element, source, detection) {
-  return ['campagne', 'parti'].includes(source.categorie) || detection.candidats.length > 0 || detection.motsCles.length > 0;
+  return SANS_FILTRE.includes(source.categorie) || detection.candidats.length > 0 || detection.motsCles.length > 0;
 }
 
 // ---------------------------------------------------------------------------
@@ -215,4 +218,87 @@ export function journalMarkdown(infos, { semaine, muettes = [] }) {
   }
   if (!infos.length) parties.push('Aucune information cette semaine.', '');
   return `${parties.join('\n').trimEnd()}\n`;
+}
+
+// ---------------------------------------------------------------------------
+// Collecte
+// ---------------------------------------------------------------------------
+
+/** Les éléments datés de plus de FENETRE_JOURS avant la collecte sont écartés (premier passage sur un plan de site, archives). */
+export const FENETRE_JOURS = 14;
+
+const LECTEURS = { rss: (t) => lireFlux(t), sitemap: (t) => lireSitemap(t), page: (t, url) => lirePage(t, url) };
+
+function joursEntre(a, b) {
+  return (Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)) / 86400000;
+}
+
+/**
+ * Lit les sources l'une après l'autre et renvoie les nouvelles informations retenues.
+ * `lireUrl(url)` → Promise<{ statut, texte }> est injecté (fetch réel dans scripts/veille.mjs).
+ * Échec d'une source : erreur réseau, statut ≠ 200, robots.txt qui l'interdit, ou aucun élément lisible.
+ */
+export async function collecter({ sources, candidats, motsCles, etat, vus, lireUrl, maintenant, attendre = async () => {} }) {
+  const jour = typeof maintenant === 'string' ? maintenant : maintenant.toISOString().slice(0, 10);
+  const nouvelEtat = { ...etat };
+  const dejaVus = new Set(vus);
+  const robots = new Map();
+  const infos = [];
+
+  const lire = async (url) => {
+    await attendre();
+    try { return await lireUrl(url); } catch { return { statut: 0, texte: '' }; }
+  };
+  const echec = (id) => {
+    const avant = nouvelEtat[id] ?? { dernierSucces: null, echecs: 0 };
+    nouvelEtat[id] = { dernierSucces: avant.dernierSucces, echecs: avant.echecs + 1 };
+  };
+
+  for (const source of sources) {
+    const url = new URL(source.url);
+    if (!robots.has(url.origin)) {
+      const r = await lire(`${url.origin}/robots.txt`);
+      robots.set(url.origin, r.statut === 200 ? r.texte : '');
+    }
+    if (!autoriseParRobots(robots.get(url.origin), url.pathname)) { echec(source.id); continue; }
+
+    const reponse = await lire(source.url);
+    const elements = reponse.statut === 200 ? LECTEURS[source.type](reponse.texte, source.url) : [];
+    if (!elements.length) { echec(source.id); continue; }
+    nouvelEtat[source.id] = { dernierSucces: jour, echecs: 0 };
+
+    const propres = Array.isArray(source.candidats) ? source.candidats : [];
+    for (const el of elements) {
+      let lien;
+      try { lien = normaliserUrl(el.lien); } catch { continue; }
+      if (dejaVus.has(lien)) continue;
+      dejaVus.add(lien);
+      if (el.date && joursEntre(el.date, jour) > FENETRE_JOURS) continue;
+      const detection = detecter(`${el.titre} ${el.chapo}`, { candidats, motsCles });
+      if (!retenir(el, source, detection)) continue;
+      const date = el.date && el.date <= jour ? el.date : jour;
+      infos.push({
+        id: identifiant(date, lien),
+        semaine: semaineIso(jour),
+        source: source.id,
+        categorie: source.categorie,
+        date,
+        collecte: jour,
+        titre: el.titre,
+        lien,
+        chapo: el.chapo,
+        candidats: [...new Set([...propres, ...detection.candidats])].sort(),
+        motsCles: detection.motsCles,
+      });
+    }
+  }
+  return { infos, etat: nouvelEtat, vus: dejaVus };
+}
+
+/** Sources en échec depuis au moins `seuil` passages consécutifs. */
+export function sourcesMuettes(etat, seuil = SEUIL_MUETTE) {
+  return Object.entries(etat)
+    .filter(([, e]) => e.echecs >= seuil)
+    .map(([source, e]) => ({ source, depuis: e.dernierSucces }))
+    .sort((a, b) => a.source.localeCompare(b.source));
 }

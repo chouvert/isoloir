@@ -1,0 +1,14 @@
+# Mots de campagne : une information de presse qui en contient un est gardée (début de mot,
+# sans accents ni casse : « primaire » trouve « primaires »).
+mots_cles: [primaire, sondage, candidature, retrait, programme, parrainages, investiture, désistement, présidentielle]
+
+# Candidats non inclus à surveiller (identifiant → noms cherchés).
+a_surveiller:
+  cazeneuve-bernard: [Bernard Cazeneuve]
+  bertrand-xavier: [Xavier Bertrand]
+  polony-natacha: [Natacha Polony]
+  hollande-francois: [François Hollande]
+  bardella-jordan: [Jordan Bardella]
+
+# Noms supplémentaires des candidats inclus (le champ `nom` de chaque fiche est toujours cherché).
+alias: {}

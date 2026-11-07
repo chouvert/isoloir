@@ -1,0 +1,19 @@
+# Sources de la veille quotidienne (scripts/veille.mjs, branche `veille`).
+# type : rss | page | sitemap — categorie : campagne | parti | presse | sondages | institution
+# candidats : transverse, ou liste d'identifiants de fiches (rattachement automatique).
+# Les sources campagne, parti et sondages sont gardées sans filtre ; les autres seulement si elles citent
+# un candidat ou un mot-clé de veille/mots-cles.yml.
+
+- id: public-senat-politique
+  nom: Public Sénat — politique
+  type: page
+  url: https://www.publicsenat.fr/actualites/politique
+  categorie: presse
+  candidats: transverse
+
+- id: wikipedia-sondages
+  nom: Wikipédia (en) — historique de la page des sondages de premier tour
+  type: rss
+  url: https://en.wikipedia.org/w/index.php?title=Opinion_polling_for_the_2027_French_presidential_election&action=history&feed=atom
+  categorie: sondages
+  candidats: transverse

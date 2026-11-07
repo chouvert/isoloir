@@ -3,11 +3,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import YAML from 'yaml';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   lireFlux, lireSitemap, lirePage, dateIso, normaliserUrl, identifiant, semaineIso,
-  detecter, autoriseParRobots, retenir, journalMarkdown,
+  detecter, autoriseParRobots, retenir, journalMarkdown, collecter, sourcesMuettes,
 } from '../scripts/lib/veille.mjs';
 
 const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -107,6 +108,7 @@ test('retenir : sources de campagne sans filtre, presse filtrée', () => {
   const vide = { candidats: [], motsCles: [] };
   assert.equal(retenir({}, { categorie: 'campagne' }, vide), true);
   assert.equal(retenir({}, { categorie: 'parti' }, vide), true);
+  assert.equal(retenir({}, { categorie: 'sondages' }, vide), true);
   assert.equal(retenir({}, { categorie: 'presse' }, vide), false);
   assert.equal(retenir({}, { categorie: 'presse' }, { candidats: ['x'], motsCles: [] }), true);
 });
@@ -127,4 +129,104 @@ test('journalMarkdown : sources muettes en tête, candidats puis transverse', ()
   assert.ok(pos('## zemmour-eric') < pos('## transverse'));
   assert.match(md, /- 2026-11-06 · \[Titre C\]\(https:\/\/site\.fr\/c\) · src — Chapô\./);
   assert.match(md, /lcp.*2026-11-03/);
+});
+
+// ---------------------------------------------------------------------------
+// Collecte (faux accès réseau)
+// ---------------------------------------------------------------------------
+
+const rss = (items) => `<rss><channel>${items.map(([titre, lien, date]) => `<item><title>${titre}</title><link>${lien}</link>${date ? `<pubDate>${date}</pubDate>` : ''}</item>`).join('')}</channel></rss>`;
+
+/** Faux lecteur : table url → { statut, texte } ; robots.txt absent par défaut (404). */
+function lecteur(table) {
+  return async (url) => {
+    if (table[url] instanceof Error) throw table[url];
+    return table[url] ?? { statut: 404, texte: '' };
+  };
+}
+
+const SOURCES = [
+  { id: 'presse-a', type: 'rss', url: 'https://a.fr/rss', categorie: 'presse', candidats: 'transverse' },
+  { id: 'presse-b', type: 'rss', url: 'https://b.fr/rss', categorie: 'presse', candidats: 'transverse' },
+];
+const BASE = { candidats: DICTIONNAIRE.candidats, motsCles: DICTIONNAIRE.motsCles, maintenant: '2026-11-07' };
+
+test('collecter : même article sous deux URL dans deux sources → une seule information', async () => {
+  const { infos } = await collecter({
+    ...BASE, sources: SOURCES, etat: {}, vus: new Set(),
+    lireUrl: lecteur({
+      'https://a.fr/rss': { statut: 200, texte: rss([['Marine Le Pen à Orléans', 'https://x.fr/art?utm_source=a', '2026-11-06']]) },
+      'https://b.fr/rss': { statut: 200, texte: rss([['Marine Le Pen à Orléans', 'https://x.fr/art', '2026-11-06']]) },
+    }),
+  });
+  assert.equal(infos.length, 1);
+  assert.deepEqual(infos[0].candidats, ['le-pen-marine']);
+  assert.equal(infos[0].semaine, '2026-S45');
+  assert.match(infos[0].id, /^2026-11-06-[0-9a-f]{8}$/);
+});
+
+test('collecter : URL déjà vue ignorée ; élément sans date daté du jour ; ancien élément écarté', async () => {
+  const { infos, vus } = await collecter({
+    ...BASE, sources: [SOURCES[0]], etat: {}, vus: new Set(['https://x.fr/vu']),
+    lireUrl: lecteur({ 'https://a.fr/rss': { statut: 200, texte: rss([
+      ['Sondage Ifop', 'https://x.fr/vu', '2026-11-06'],
+      ['Sondage Elabe', 'https://x.fr/sans-date', null],
+      ['Sondage ancien', 'https://x.fr/ancien', '2026-09-01'],
+    ]) } }),
+  });
+  assert.deepEqual(infos.map((i) => [i.titre, i.date]), [['Sondage Elabe', '2026-11-07']]);
+  assert.ok(vus.has('https://x.fr/sans-date'));
+});
+
+test('collecter : échecs consécutifs, source muette au bout de 3, remise à zéro par un succès', async () => {
+  const lire500 = lecteur({ 'https://a.fr/rss': { statut: 500, texte: '' } });
+  let etat = {};
+  for (let i = 0; i < 3; i++) ({ etat } = await collecter({ ...BASE, sources: [SOURCES[0]], etat, vus: new Set(), lireUrl: lire500 }));
+  assert.equal(etat['presse-a'].echecs, 3);
+  assert.deepEqual(sourcesMuettes(etat), [{ source: 'presse-a', depuis: null }]);
+  ({ etat } = await collecter({ ...BASE, sources: [SOURCES[0]], etat, vus: new Set(),
+    lireUrl: lecteur({ 'https://a.fr/rss': { statut: 200, texte: rss([['Rien', 'https://x.fr/r', '2026-11-07']]) } }) }));
+  assert.deepEqual(etat['presse-a'], { dernierSucces: '2026-11-07', echecs: 0 });
+  assert.deepEqual(sourcesMuettes(etat), []);
+});
+
+test('collecter : réponse 200 sans élément lisible ou erreur réseau → échec', async () => {
+  const { etat } = await collecter({ ...BASE, sources: SOURCES, etat: {}, vus: new Set(),
+    lireUrl: lecteur({ 'https://a.fr/rss': { statut: 200, texte: '<html>Erreur</html>' }, 'https://b.fr/rss': new Error('délai dépassé') }) });
+  assert.equal(etat['presse-a'].echecs, 1);
+  assert.equal(etat['presse-b'].echecs, 1);
+});
+
+test('collecter : robots.txt interdisant le chemin → source non lue', async () => {
+  let lue = false;
+  const { infos, etat } = await collecter({ ...BASE, sources: [SOURCES[0]], etat: {}, vus: new Set(),
+    lireUrl: async (url) => {
+      if (url === 'https://a.fr/robots.txt') return { statut: 200, texte: 'User-agent: *\nDisallow: /rss' };
+      lue = true;
+      return { statut: 200, texte: rss([['Sondage', 'https://x.fr/s', '2026-11-07']]) };
+    } });
+  assert.equal(lue, false);
+  assert.equal(infos.length, 0);
+  assert.equal(etat['presse-a'].echecs, 1);
+});
+
+test('collecter : source de campagne gardée sans filtre et rattachée à son candidat', async () => {
+  const { infos } = await collecter({ ...BASE, etat: {}, vus: new Set(),
+    sources: [{ id: 'site-attal', type: 'rss', url: 'https://c.fr/rss', categorie: 'campagne', candidats: ['attal-gabriel'] }],
+    lireUrl: lecteur({ 'https://c.fr/rss': { statut: 200, texte: rss([['Déplacement à Lille', 'https://c.fr/lille', '2026-11-06']]) } }) });
+  assert.deepEqual(infos.map((i) => i.candidats), [['attal-gabriel']]);
+});
+
+test('sources.yml : entrées bien formées', () => {
+  const sources = YAML.parse(readFileSync(join(RACINE, 'veille/sources.yml'), 'utf8'));
+  const fiches = new Set(readFileSync(join(RACINE, 'referentiel/candidats-inclus.md'), 'utf8').match(/`[a-z]+(?:-[a-z]+)+`/g).map((s) => s.slice(1, -1)));
+  const ids = sources.map((s) => s.id);
+  assert.equal(new Set(ids).size, ids.length, 'identifiants en double');
+  for (const s of sources) {
+    assert.match(s.id, /^[a-z0-9]+(-[a-z0-9]+)*$/, s.id);
+    assert.ok(['rss', 'page', 'sitemap'].includes(s.type), `${s.id} : type`);
+    assert.ok(['campagne', 'parti', 'presse', 'sondages', 'institution'].includes(s.categorie), `${s.id} : catégorie`);
+    assert.match(s.url, /^https:\/\//, `${s.id} : url`);
+    assert.ok(s.candidats === 'transverse' || (Array.isArray(s.candidats) && s.candidats.every((c) => fiches.has(c))), `${s.id} : candidats`);
+  }
 });
