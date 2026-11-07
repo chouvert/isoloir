@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Atom</title>
+<entry><title>Communiqué sur la primaire</title><link href="https://parti.fr/communique-1"/><updated>2026-11-05T10:00:00Z</updated><summary>Texte du communiqué.</summary></entry>
+<entry><title type="html">Deuxième &lt;b&gt;entrée&lt;/b&gt;</title><link rel="alternate" href="https://parti.fr/communique-2"/><updated>2026-11-04</updated></entry>
+</feed>
