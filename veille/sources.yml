@@ -7,6 +7,8 @@
 # Adresses non éprouvées au 2026-11-07 (le poste de développement ne joint pas ces sites) :
 # le premier lancement du workflow les met à l'épreuve ; corriger ou retirer celles en échec
 # et noter ici les sites sans flux.
+# Premier lancement (2026-11-07) : 16 sources sur 19 en succès. En échec, remplacées par des pages
+# de presse dédiées : place-publique.eu/feed/, rassemblementnational.fr/actualites, www.pcf.fr.
 # Wikipédia écartée : son robots.txt interdit /w/ (flux de l'historique) ; sondages suivis par la
 # Commission des sondages et la presse.
 
@@ -31,18 +33,18 @@
   categorie: parti
   candidats: [batho-delphine]
 
-- id: glucksmann-place-publique
-  nom: Place publique — flux
-  type: rss
-  url: https://place-publique.eu/feed/
-  categorie: parti
+- id: glucksmann-franceinfo
+  nom: franceinfo — page Raphaël Glucksmann
+  type: page
+  url: https://www.franceinfo.fr/politique/raphael-glucksmann/
+  categorie: presse
   candidats: [glucksmann-raphael]
 
-- id: le-pen-rn
-  nom: Rassemblement national — actualités
+- id: le-pen-lcp
+  nom: LCP — mot-clé Rassemblement national
   type: page
-  url: https://rassemblementnational.fr/actualites
-  categorie: parti
+  url: https://lcp.fr/motcle/rassemblement-national-1553
+  categorie: presse
   candidats: [le-pen-marine]
 
 - id: lisnard-nouvelle-energie
@@ -80,11 +82,11 @@
   categorie: parti
   candidats: [retailleau-bruno]
 
-- id: roussel-pcf
-  nom: Parti communiste français — accueil
+- id: roussel-lcp
+  nom: LCP — mot-clé Fabien Roussel
   type: page
-  url: https://www.pcf.fr/
-  categorie: parti
+  url: https://lcp.fr/motcle/fabien-roussel-14
+  categorie: presse
   candidats: [roussel-fabien]
 
 - id: ruffin-site
