@@ -152,6 +152,7 @@ function lireFiche(racine, fichier, ref) {
     parti: texte(data.parti),
     famille_politique: texte(data.famille_politique),
     statut: texte(data.statut),
+    inclus: data.inclus !== 'non',
     date_declaration: texte(data.date_declaration),
     programme_url: texte(data.programme_url),
     programme_version: texte(data.programme_version),

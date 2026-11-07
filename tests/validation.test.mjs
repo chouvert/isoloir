@@ -52,6 +52,8 @@ function valider(modifier = () => {}) {
   try {
     for (const d of ['referentiel', 'candidats', 'comparatifs']) cpSync(join(RACINE, d), join(dossier, d), { recursive: true });
     writeFileSync(join(dossier, 'candidats/dupont-jean.md'), ficheValide());
+    // La fiche de test figure parmi les candidats inclus.
+    editer(dossier, 'referentiel/candidats-inclus.md', (t) => t.replace(/^(## Inclus au titre des sondages.*)$/m, '$1\n\nFiche de test : `dupont-jean`. Autre fiche de test : `martin-anne`.'));
     modifier(dossier);
     return validerBase(dossier);
   } finally {
@@ -353,4 +355,25 @@ test('propositions phares : motif et source obligatoires', () => {
   const m = messages(r);
   assert.match(m, /motif du choix manquant/);
   assert.match(m, /source du choix manquante/);
+});
+
+test('inclus : valeur non autorisée', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t.replace(/^inclus: .*$/m, 'inclus: peut-être')));
+  assert.match(messages(r), /inclus.*oui \| non/);
+});
+
+test('inclus : fiche incluse absente des sections « Inclus » de candidats-inclus.md', () => {
+  const r = valider((d) => editer(d, 'referentiel/candidats-inclus.md', (t) => t.replace('Fiche de test : `dupont-jean`.', '')));
+  assert.match(messages(r), /`dupont-jean` incluse mais absente des sections « Inclus » de candidats-inclus\.md/);
+});
+
+test('inclus : fiche non incluse', () => {
+  const nonInclus = (d) => editer(d, 'candidats/dupont-jean.md', (t) => t.replace(/^inclus: .*$/m, 'inclus: non'));
+  const r1 = valider((d) => {
+    nonInclus(d);
+    editer(d, 'referentiel/candidats-inclus.md', (t) => t.replace('Fiche de test : `dupont-jean`.', ''));
+  });
+  assert.equal(r1.erreurs.length, 0, messages(r1));
+  const r2 = valider(nonInclus);
+  assert.match(messages(r2), /`dupont-jean` marquée inclus: non mais citée dans une section « Inclus »/);
 });

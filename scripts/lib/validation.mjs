@@ -10,6 +10,8 @@ import { texteAveugle, MAX_CARACTERES } from './anonymisation.mjs';
 export const STATUTS_CANDIDAT = ['pressenti', 'déclaré', 'parrainages validés', 'retiré'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 export const MAX_PHARES = 3;
+
+export const VALEURS_INCLUS = ['oui', 'non'];
 const STATUTS_DILEMME = ['actif', 'brouillon', 'obsolete'];
 export const REPONSES_DILEMME_SPECIALES = ['aucune', 'pas de position'];
 const SECTIONS_FICHE = [
@@ -270,7 +272,11 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
     if (data.programme_url && !/^https?:\/\//.test(data.programme_url)) {
       rapport.erreur(fichier, 1, 'programme_url doit être une URL http(s)');
     }
+    if (data.inclus !== undefined && data.inclus !== null && !VALEURS_INCLUS.includes(String(data.inclus))) {
+      rapport.erreur(fichier, 1, `inclus « ${data.inclus} » invalide (${VALEURS_INCLUS.join(' | ')})`);
+    }
     fiche.nom = data.nom;
+    fiche.inclus = data.inclus !== 'non';
   }
 
   const sections = lireSections(corps, 2, decalage + 1);
@@ -582,6 +588,30 @@ function validerComparatifTheme(racine, fichier, ref, fiches, rapport) {
 }
 
 // ---------------------------------------------------------------------------
+// Inclusion des candidats
+// ---------------------------------------------------------------------------
+
+/** Contrôle croisé entre le champ `inclus` des fiches et les sections « Inclus » de candidats-inclus.md. */
+function validerInclusion(racine, fiches, rapport) {
+  const f = 'referentiel/candidats-inclus.md';
+  if (!existsSync(join(racine, f))) return;
+  const cites = new Set();
+  for (const s of lireSections(lire(racine, f), 2)) {
+    if (!normaliser(s.titre).startsWith('inclus')) continue;
+    for (const m of s.contenu.matchAll(/`([a-z0-9-]+)`/g)) cites.add(m[1]);
+  }
+  for (const fiche of fiches.values()) {
+    if (fiche.inclus === undefined) continue;
+    if (fiche.inclus && !cites.has(fiche.id)) {
+      rapport.erreur(fiche.fichier, 1, `\`${fiche.id}\` incluse mais absente des sections « Inclus » de candidats-inclus.md (ou marquer inclus: non)`);
+    }
+    if (!fiche.inclus && cites.has(fiche.id)) {
+      rapport.erreur(fiche.fichier, 1, `\`${fiche.id}\` marquée inclus: non mais citée dans une section « Inclus » de candidats-inclus.md`);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Point d'entrée
 // ---------------------------------------------------------------------------
 
@@ -603,6 +633,8 @@ export function validerBase(racine) {
     const fiche = validerFiche(racine, f, ref, rapport);
     fiches.set(fiche.id, fiche);
   }
+
+  validerInclusion(racine, fiches, rapport);
 
   // Les analyses doivent être faites à la même date pour tous les candidats.
   const dates = new Set([...fiches.values()].filter((f) => f.analyse).map((f) => f.analyse.date));
