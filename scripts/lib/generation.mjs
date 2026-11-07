@@ -218,6 +218,7 @@ export function donnees(base) {
   return {
     format: 1,
     derniere_maj: derniereMaj(base.candidats),
+    referentiel_maj: base.referentielMaj ?? '',
     themes: base.themes,
     questions: base.questions,
     dilemmes: base.dilemmes,

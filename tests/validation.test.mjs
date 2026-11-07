@@ -377,3 +377,10 @@ test('inclus : fiche non incluse', () => {
   const r2 = valider(nonInclus);
   assert.match(messages(r2), /`dupont-jean` marquée inclus: non mais citée dans une section « Inclus »/);
 });
+
+test('version du référentiel : fichier obligatoire et date valide', () => {
+  const r1 = valider((d) => rmSync(join(d, 'referentiel/version.yml')));
+  assert.match(messages(r1), /fichier obligatoire manquant/);
+  const r2 = valider((d) => ecrire(d, 'referentiel/version.yml', 'date: hier\n'));
+  assert.match(messages(r2), /n'est pas une date AAAA-MM-JJ/);
+});

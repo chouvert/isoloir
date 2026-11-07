@@ -35,6 +35,14 @@ function lire(racine, chemin) {
   return readFileSync(join(racine, chemin), 'utf8');
 }
 
+/** Date de version du référentiel (referentiel/version.yml), ou null si absente. */
+export function lireVersion(racine) {
+  const f = join(racine, 'referentiel/version.yml');
+  if (!existsSync(f)) return null;
+  const m = readFileSync(f, 'utf8').match(/^date:\s*(\S+)\s*$/m);
+  return m ? m[1] : null;
+}
+
 function listerMarkdown(racine, dossier) {
   const d = join(racine, dossier);
   if (!existsSync(d)) return [];
@@ -617,10 +625,13 @@ function validerInclusion(racine, fiches, rapport) {
 
 export function validerBase(racine) {
   const rapport = new Rapport();
-  for (const f of ['referentiel/themes.md', 'referentiel/questions.md', 'referentiel/faisabilite.md', 'referentiel/dilemmes.md', 'referentiel/preoccupations.md', 'candidats/_modele.md']) {
+  for (const f of ['referentiel/themes.md', 'referentiel/questions.md', 'referentiel/faisabilite.md', 'referentiel/dilemmes.md', 'referentiel/preoccupations.md', 'referentiel/version.yml', 'candidats/_modele.md']) {
     if (!existsSync(join(racine, f))) rapport.erreur(f, 1, 'fichier obligatoire manquant');
   }
   if (rapport.erreurs.length) return rapport;
+
+  const version = lireVersion(racine);
+  if (!estDateIso(version)) rapport.erreur('referentiel/version.yml', 1, `date « ${version ?? ''} » n'est pas une date AAAA-MM-JJ`);
 
   const ref = lireReferentiel(racine, rapport);
 

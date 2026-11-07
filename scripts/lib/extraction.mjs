@@ -6,7 +6,7 @@ import { join, basename } from 'node:path';
 import {
   normaliser, lireFrontmatter, lireSections, lireTableaux, trouverTableau, nettoyerId,
 } from './markdown.mjs';
-import { lireReferentiel, validerFiche } from './validation.mjs';
+import { lireReferentiel, validerFiche, lireVersion } from './validation.mjs';
 import { lireTermesManuels } from './anonymisation.mjs';
 
 const lire = (racine, chemin) => readFileSync(join(racine, chemin), 'utf8');
@@ -181,5 +181,6 @@ export function lireBase(racine) {
     criteres: ref.criteres,
     candidats: fichiers.map((f) => lireFiche(racine, f, ref)),
     termesManuels: lireTermesManuels(racine),
+    referentielMaj: lireVersion(racine) ?? '',
   };
 }
