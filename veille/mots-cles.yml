@@ -8,7 +8,20 @@ a_surveiller:
   bertrand-xavier: [Xavier Bertrand]
   polony-natacha: [Natacha Polony]
   hollande-francois: [François Hollande]
-  bardella-jordan: [Jordan Bardella]
+  bardella-jordan: [Jordan Bardella, Bardella]
+  villepin-dominique: [Dominique de Villepin, Villepin]
+  borne-elisabeth: [Élisabeth Borne]
+  le-maire-bruno: [Bruno Le Maire]
 
 # Noms supplémentaires des candidats inclus (le champ `nom` de chaque fiche est toujours cherché).
-alias: {}
+# Nom de famille seul uniquement s'il est sans ambiguïté (pas « Philippe », « Le Pen », « Roussel »).
+alias:
+  attal-gabriel: [Attal]
+  batho-delphine: [Batho]
+  glucksmann-raphael: [Glucksmann]
+  lisnard-david: [Lisnard]
+  melenchon-jean-luc: [Mélenchon]
+  retailleau-bruno: [Retailleau]
+  ruffin-francois: [Ruffin]
+  tondelier-marine: [Tondelier]
+  zemmour-eric: [Zemmour]

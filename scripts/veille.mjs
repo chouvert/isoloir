@@ -8,7 +8,7 @@ import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
 import { lireFrontmatter } from './lib/markdown.mjs';
-import { AGENT, collecter, journalMarkdown, semaineIso, sourcesMuettes } from './lib/veille.mjs';
+import { AGENT, collecter, dictionnaire, journalMarkdown, semaineIso, sourcesMuettes } from './lib/veille.mjs';
 
 const args = process.argv.slice(2);
 const option = (nom) => { const i = args.indexOf(nom); return i >= 0 ? args[i + 1] : undefined; };
@@ -21,14 +21,9 @@ const sources = lireYaml('veille/sources.yml');
 const config = lireYaml('veille/mots-cles.yml');
 
 // Noms cherchés : candidats inclus (champ nom + alias), puis candidats à surveiller.
-const candidats = new Map();
-for (const f of readdirSync(join(racine, 'candidats')).filter((n) => n.endsWith('.md') && !n.startsWith('_')).sort()) {
-  const { data } = lireFrontmatter(readFileSync(join(racine, 'candidats', f), 'utf8'));
-  if (!data || data.inclus === 'non') continue;
-  const id = f.replace(/\.md$/, '');
-  candidats.set(id, [data.nom, ...(config.alias?.[id] ?? [])].filter(Boolean));
-}
-for (const [id, noms] of Object.entries(config.a_surveiller ?? {})) candidats.set(id, noms);
+const fiches = readdirSync(join(racine, 'candidats')).filter((n) => n.endsWith('.md') && !n.startsWith('_')).sort()
+  .map((f) => ({ id: f.replace(/\.md$/, ''), ...(lireFrontmatter(readFileSync(join(racine, 'candidats', f), 'utf8')).data ?? {}) }));
+const candidats = dictionnaire(fiches, config);
 
 mkdirSync(sortie, { recursive: true });
 const fichier = (f) => join(sortie, f);
@@ -37,7 +32,7 @@ const vus = new Set(existsSync(fichier('vus.txt')) ? readFileSync(fichier('vus.t
 
 const lireUrl = async (url) => {
   const r = await fetch(url, { headers: { 'User-Agent': AGENT }, signal: AbortSignal.timeout(15000), redirect: 'follow' });
-  return { statut: r.status, texte: await r.text() };
+  return { statut: r.status, texte: await r.text(), url: r.url };
 };
 const attendre = () => new Promise((ok) => setTimeout(ok, 2000));
 

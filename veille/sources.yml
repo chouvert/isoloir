@@ -7,19 +7,14 @@
 # Adresses non éprouvées au 2026-11-07 (le poste de développement ne joint pas ces sites) :
 # le premier lancement du workflow les met à l'épreuve ; corriger ou retirer celles en échec
 # et noter ici les sites sans flux.
+# Wikipédia écartée : son robots.txt interdit /w/ (flux de l'historique) ; sondages suivis par la
+# Commission des sondages et la presse.
 
 - id: public-senat-politique
   nom: Public Sénat — politique
   type: page
   url: https://www.publicsenat.fr/actualites/politique
   categorie: presse
-  candidats: transverse
-
-- id: wikipedia-sondages
-  nom: Wikipédia (en) — historique de la page des sondages de premier tour
-  type: rss
-  url: https://en.wikipedia.org/w/index.php?title=Opinion_polling_for_the_2027_French_presidential_election&action=history&feed=atom
-  categorie: sondages
   candidats: transverse
 
 - id: attal-site

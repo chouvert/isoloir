@@ -8,7 +8,7 @@ import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   lireFlux, lireSitemap, lirePage, dateIso, normaliserUrl, identifiant, semaineIso,
-  detecter, autoriseParRobots, retenir, journalMarkdown, collecter, sourcesMuettes,
+  detecter, autoriseParRobots, retenir, journalMarkdown, collecter, sourcesMuettes, dictionnaire,
 } from '../scripts/lib/veille.mjs';
 
 const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -229,4 +229,50 @@ test('sources.yml : entrées bien formées', () => {
     assert.match(s.url, /^https:\/\//, `${s.id} : url`);
     assert.ok(s.candidats === 'transverse' || (Array.isArray(s.candidats) && s.candidats.every((c) => fiches.has(c))), `${s.id} : candidats`);
   }
+});
+
+// ---------------------------------------------------------------------------
+// Corrections de la revue finale
+// ---------------------------------------------------------------------------
+
+test('revue : premier succès d’une source page ou sitemap → liens marqués vus, aucune information', async () => {
+  const src = { id: 'site', type: 'page', url: 'https://c.fr/actu', categorie: 'campagne', candidats: ['attal-gabriel'] };
+  const html = (liens) => liens.map((l) => `<a href="/${l}">${l}</a>`).join('');
+  const premier = await collecter({ ...BASE, sources: [src], etat: {}, vus: new Set(),
+    lireUrl: lecteur({ 'https://c.fr/actu': { statut: 200, texte: html(['faire-un-don', 'mentions-legales']) } }) });
+  assert.equal(premier.infos.length, 0);
+  assert.ok(premier.vus.has('https://c.fr/faire-un-don'));
+  const second = await collecter({ ...BASE, sources: [src], etat: premier.etat, vus: premier.vus,
+    lireUrl: lecteur({ 'https://c.fr/actu': { statut: 200, texte: html(['faire-un-don', 'mentions-legales', 'annonce-lille']) } }) });
+  assert.deepEqual(second.infos.map((i) => i.lien), ['https://c.fr/annonce-lille']);
+});
+
+test('revue : page redirigée vers www → liens lus avec l’adresse finale', async () => {
+  const src = { id: 'pcf', type: 'page', url: 'https://pcf.fr/', categorie: 'parti', candidats: ['roussel-fabien'] };
+  const { etat } = await collecter({ ...BASE, sources: [src], etat: {}, vus: new Set(),
+    lireUrl: lecteur({ 'https://pcf.fr/': { statut: 200, url: 'https://www.pcf.fr/', texte: '<a href="https://www.pcf.fr/actu/meeting">Meeting</a>' } }) });
+  assert.deepEqual(etat.pcf, { dernierSucces: '2026-11-07', echecs: 0 });
+});
+
+test('revue : robots.txt — Allow le plus long l’emporte', () => {
+  const robots = 'User-agent: *\nDisallow: /w/\nAllow: /w/api.php';
+  assert.equal(autoriseParRobots(robots, '/w/index.php'), false);
+  assert.equal(autoriseParRobots(robots, '/w/api.php?x=1'), true);
+});
+
+test('revue : dates impossibles ou par défaut → null (date de collecte appliquée)', () => {
+  assert.equal(dateIso('Thu, 01 Jan 1970 00:00:00 GMT'), null);
+  assert.equal(dateIso('2026-00-10'), null);
+  assert.equal(dateIso('2026-02-30'), null);
+  assert.equal(dateIso('2026-02-28'), '2026-02-28');
+});
+
+test('revue : dictionnaire réel — noms de famille déclarés, pas « Philippe » seul', () => {
+  const config = YAML.parse(readFileSync(join(RACINE, 'veille/mots-cles.yml'), 'utf8'));
+  const dico = dictionnaire([
+    { id: 'melenchon-jean-luc', nom: 'Jean-Luc Mélenchon' }, { id: 'philippe-edouard', nom: 'Édouard Philippe' },
+  ], config);
+  assert.deepEqual(detecter('Melenchon répond à ses critiques', { candidats: dico, motsCles: [] }).candidats, ['melenchon-jean-luc']);
+  assert.deepEqual(detecter('Le prince Philippe en visite', { candidats: dico, motsCles: [] }).candidats, []);
+  assert.ok(dico.has('villepin-dominique') && dico.has('borne-elisabeth') && dico.has('le-maire-bruno'));
 });

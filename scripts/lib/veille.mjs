@@ -44,6 +44,8 @@ function plier(s) {
   return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 }
 
+const sansWww = (hote) => hote.replace(/^www\./, '');
+
 const echapper = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 // ---------------------------------------------------------------------------
@@ -55,12 +57,17 @@ export function dateIso(valeur) {
   if (!valeur) return null;
   const s = String(valeur).trim();
   const iso = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
-  if (iso) return `${iso[1]}-${iso[2]}-${iso[3]}`;
+  if (iso) return dateValide(+iso[1], +iso[2], +iso[3]);
   const rfc = s.match(/(\d{1,2})\s+([A-Za-z]{3})[a-z]*\s+(\d{4})/);
-  if (rfc && MOIS[rfc[2].toLowerCase()]) {
-    return `${rfc[3]}-${String(MOIS[rfc[2].toLowerCase()]).padStart(2, '0')}-${rfc[1].padStart(2, '0')}`;
-  }
+  if (rfc && MOIS[rfc[2].toLowerCase()]) return dateValide(+rfc[3], MOIS[rfc[2].toLowerCase()], +rfc[1]);
   return null;
+}
+
+/** AAAA-MM-JJ si la date existe et n'est pas une valeur par défaut (année < 2000), sinon null. */
+function dateValide(a, m, j) {
+  const d = new Date(Date.UTC(a, m - 1, j));
+  if (a < 2000 || d.getUTCFullYear() !== a || d.getUTCMonth() !== m - 1 || d.getUTCDate() !== j) return null;
+  return `${a}-${String(m).padStart(2, '0')}-${String(j).padStart(2, '0')}`;
 }
 
 /** Semaine ISO 8601 d'une date AAAA-MM-JJ, notée AAAA-Sxx. */
@@ -133,7 +140,7 @@ export function lirePage(html, urlPage) {
   for (const [, href, contenu] of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
     let u;
     try { u = new URL(decoderEntites(href), page); } catch { continue; }
-    if (!/^https?:$/.test(u.protocol) || u.host !== page.host) continue;
+    if (!/^https?:$/.test(u.protocol) || sansWww(u.host) !== sansWww(page.host)) continue;
     const lien = normaliserUrl(u.toString());
     if (u.pathname === '/' || lien === normaliserUrl(page.toString()) || vus.has(lien)) continue;
     const titre = texte(contenu);
@@ -172,15 +179,19 @@ export function autoriseParRobots(robots, chemin) {
     if (!m) continue;
     const [cle, valeur] = [m[1].toLowerCase(), m[2].trim()];
     if (cle === 'user-agent') {
-      if (!courant || dansRegles) { courant = { agents: [], interdits: [] }; groupes.push(courant); dansRegles = false; }
+      if (!courant || dansRegles) { courant = { agents: [], regles: [] }; groupes.push(courant); dansRegles = false; }
       courant.agents.push(valeur.toLowerCase());
     } else if (courant && (cle === 'disallow' || cle === 'allow')) {
       dansRegles = true;
-      if (cle === 'disallow' && valeur) courant.interdits.push(valeur);
+      if (valeur) courant.regles.push({ autorise: cle === 'allow', prefixe: valeur });
     }
   }
   const groupe = groupes.find((g) => g.agents.includes(CLIENT)) ?? groupes.find((g) => g.agents.includes('*'));
-  return !groupe || !groupe.interdits.some((p) => chemin.startsWith(p));
+  if (!groupe) return true;
+  // Règle la plus longue qui s'applique ; à longueur égale, Allow l'emporte.
+  const regle = groupe.regles.filter((r) => chemin.startsWith(r.prefixe))
+    .sort((x, y) => y.prefixe.length - x.prefixe.length || Number(y.autorise) - Number(x.autorise))[0];
+  return !regle || regle.autorise;
 }
 
 /** Catégories gardées sans filtre : tout ce qu'elles publient concerne la campagne. */
@@ -263,9 +274,15 @@ export async function collecter({ sources, candidats, motsCles, etat, vus, lireU
     if (!autoriseParRobots(robots.get(url.origin), url.pathname)) { echec(source.id); continue; }
 
     const reponse = await lire(source.url);
-    const elements = reponse.statut === 200 ? LECTEURS[source.type](reponse.texte, source.url) : [];
+    const elements = reponse.statut === 200 ? LECTEURS[source.type](reponse.texte, reponse.url ?? source.url) : [];
     if (!elements.length) { echec(source.id); continue; }
+    // Premier succès d'une page ou d'un plan de site : tout ce qui s'y trouve déjà (menus, archives) est marqué vu.
+    const etalonnage = source.type !== 'rss' && !nouvelEtat[source.id]?.dernierSucces;
     nouvelEtat[source.id] = { dernierSucces: jour, echecs: 0 };
+    if (etalonnage) {
+      for (const el of elements) { try { dejaVus.add(normaliserUrl(el.lien)); } catch { /* lien illisible */ } }
+      continue;
+    }
 
     const propres = Array.isArray(source.candidats) ? source.candidats : [];
     for (const el of elements) {
@@ -301,4 +318,18 @@ export function sourcesMuettes(etat, seuil = SEUIL_MUETTE) {
     .filter(([, e]) => e.echecs >= seuil)
     .map(([source, e]) => ({ source, depuis: e.dernierSucces }))
     .sort((a, b) => a.source.localeCompare(b.source));
+}
+
+/**
+ * Noms cherchés par candidat : champ `nom` des fiches incluses et alias de veille/mots-cles.yml,
+ * puis candidats à surveiller. `fiches` : [{ id, nom, inclus? }].
+ */
+export function dictionnaire(fiches, config) {
+  const d = new Map();
+  for (const f of fiches) {
+    if (f.inclus === false || f.inclus === 'non') continue;
+    d.set(f.id, [f.nom, ...(config.alias?.[f.id] ?? [])].filter(Boolean));
+  }
+  for (const [id, noms] of Object.entries(config.a_surveiller ?? {})) d.set(id, noms);
+  return d;
 }

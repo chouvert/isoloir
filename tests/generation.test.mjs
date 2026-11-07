@@ -6,7 +6,7 @@ import { tmpdir } from 'node:os';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { lireBase, lireSources } from '../scripts/lib/extraction.mjs';
-import { genererFichiers, donnees, AVERTISSEMENT, FICHIER_DONNEES } from '../scripts/lib/generation.mjs';
+import { genererFichiers, donnees, participantsDuels, AVERTISSEMENT, FICHIER_DONNEES } from '../scripts/lib/generation.mjs';
 import { validerBase } from '../scripts/lib/validation.mjs';
 
 const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -208,4 +208,11 @@ test('donnees : date de version du référentiel', () => {
   const attendu = readFileSync(join(RACINE, 'referentiel/version.yml'), 'utf8').match(/^date: (\S+)/m)[1];
   assert.equal(donnees(lireBase(RACINE)).referentiel_maj, attendu);
   assert.equal(attendu, '2026-11-07');
+});
+
+test('duels : un candidat inclus: non ne participe pas', () => {
+  const base = baseSynthetique();
+  base.candidats[0].inclus = false;
+  const { participants } = participantsDuels(base);
+  assert.equal(Object.values(participants['D-eco-dette']).flat().some((p) => p.candidat === base.candidats[0].id), false);
 });
