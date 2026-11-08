@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import { lien, DEPOT } from '../../lib/donnees.js';
+
+// Les documents de référence, lus tels quels dans le dépôt : le site ne les recopie pas.
+const fichiers = import.meta.glob(
+  ['../../../../referentiel/{candidats-inclus,dilemmes,methode-proximite,faisabilite}.md', '../../../../sources.md'],
+  { eager: true }
+);
+
+export function getStaticPaths() {
+  const documents = {
+    'candidats-inclus': 'referentiel/candidats-inclus.md',
+    dilemmes: 'referentiel/dilemmes.md',
+    'methode-proximite': 'referentiel/methode-proximite.md',
+    faisabilite: 'referentiel/faisabilite.md',
+    sources: 'sources.md',
+  };
+  return Object.entries(documents).map(([document, chemin]) => ({ params: { document }, props: { chemin } }));
+}
+
+const { chemin } = Astro.props;
+const module = fichiers[`../../../../${chemin}`];
+const { Content } = module;
+const titre = module.getHeadings?.().find((h) => h.depth === 1)?.text ?? chemin;
+---
+<Base titre={titre} actif="methode" description={`${titre} : document de référence de L’Isoloir.`}>
+  <div class="conteneur page lecture">
+    <p class="retour"><a href={lien('methode/')}>‹ Méthode et sources</a></p>
+    <article class="document">
+      <Content />
+    </article>
+    <p class="legende">
+      Ce document est le fichier <code>{chemin}</code> du dépôt.
+      <a href={`${DEPOT}/blob/main/${chemin}`}>Le voir sur GitHub</a>, avec son historique.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .page { padding-top: 16px; display: flex; flex-direction: column; gap: 24px; }
+  .retour { margin: 0; }
+  .document { min-width: 0; }
+  .document :global(h1) { font-weight: 400;
+    font-size: clamp(28px, 4vw, 40px); line-height: 1.15; margin: 0 0 16px; padding-bottom: 20px; border-bottom: 3px solid var(--encre); }
+  .document :global(h2) { font-weight: 500;
+    font-size: clamp(21px, 2.4vw, 26px); line-height: 1.25; margin: 36px 0 10px; }
+  .document :global(h3) { font-size: 17px; font-weight: 700; margin: 24px 0 8px; }
+  .document :global(p), .document :global(ul), .document :global(ol) { margin: 0 0 12px; }
+  .document :global(li) { margin-bottom: 6px; }
+  .document :global(code) { font-size: 0.9em; background: color-mix(in srgb, var(--sable) 45%, transparent); padding: 1px 4px; border-radius: 3px; overflow-wrap: anywhere; }
+  .document :global(pre) { overflow-x: auto; padding: 12px; background: color-mix(in srgb, var(--sable) 35%, transparent); border-radius: 4px; }
+  .document :global(pre code) { background: none; padding: 0; }
+  .document :global(table) { display: block; overflow-x: auto; border-collapse: collapse; margin: 0 0 16px; font-size: 15px; line-height: 1.4; }
+  .document :global(th), .document :global(td) { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--sable); }
+  .document :global(thead th) { border-bottom: 2px solid var(--encre); }
+  .document :global(blockquote) { margin: 0 0 12px; padding-left: 14px; border-left: 3px solid var(--petrole); }
+  .legende { margin: 0; padding-top: 16px; border-top: 1px solid var(--sable); }
+</style>

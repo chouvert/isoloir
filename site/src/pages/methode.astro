@@ -1,7 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import { candidats, derniereMaj, dateLongue, lien, DEPOT } from '../lib/donnees.js';
-const fichier = (chemin) => `${DEPOT}/blob/main/${chemin}`;
+// Les documents de référence sont rendus dans le site (src/pages/methode/[document].astro).
+const fichier = (chemin) => lien(`methode/${chemin.replace(/^referentiel\//, '').replace(/\.md$/, '')}/`);
 ---
 <Base titre="Méthode et sources" actif="methode"
   description="Comment L’Isoloir choisit les candidats, rattache leurs positions, calcule la proximité et évaluera la faisabilité.">
