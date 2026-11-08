@@ -73,3 +73,9 @@ export function lien(chemin = '') {
 }
 
 export const DEPOT = 'https://github.com/chouvert/isoloir';
+
+
+/** Retire entièrement les liens Markdown (texte compris), quand les sources sont affichées à part. */
+export function sansLiens(s = '') {
+  return s.replace(/\[[^\]]+\]\([^)]+\)/g, '').replace(/(\s*;\s*)+$/g, '').replace(/\s*;\s*;/g, ';').trim();
+}

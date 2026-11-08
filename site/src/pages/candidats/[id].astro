@@ -1,9 +1,12 @@
 ---
+// Fiche candidat. Hiérarchie : design system « L’Isoloir », section « Pages de lecture »
+// (titre de page, rubrique sous filet, thème en encadré, question, réponse).
 import Base from '../../layouts/Base.astro';
 import Sources from '../../components/Sources.astro';
+import Icone from '../../components/Icone.astro';
 import {
   candidats, themes, dilemmesDuTheme, questionsDuTheme, reponseDilemme, proposition,
-  texteBrut, dateLongue, lien,
+  texteBrut, sansLiens, dateLongue, lien,
 } from '../../lib/donnees.js';
 
 export function getStaticPaths() {
@@ -15,90 +18,114 @@ const phares = c.phares
   .slice()
   .sort((a, b) => a.rang - b.rang)
   .map((ph) => ({ ...ph, prop: proposition(c, ph.proposition) }));
+
+const blocs = themes.map((t) => {
+  const positions = [
+    ...dilemmesDuTheme(t.id).map((d) => {
+      const r = reponseDilemme(c, d);
+      const prop = proposition(c, r.proposition);
+      return {
+        question: d.enonce.replace(/\s+/g, ' ').trim(),
+        reponse: r.libelle,
+        connue: r.statut === 'option' || r.statut === 'aucune',
+        mesure: r.texte_court || (prop ? texteBrut(prop.proposition) : ''),
+        detail: '',
+        sources: r.sources ?? prop?.sources,
+      };
+    }),
+    ...questionsDuTheme(t.id).map((q) => {
+      const p = c.positions?.[q.id];
+      return {
+        question: q.question,
+        reponse: p?.position || 'Pas de position trouvée',
+        connue: Boolean(p?.position),
+        mesure: '',
+        detail: p?.detail ? texteBrut(p.detail) : '',
+        sources: p?.sources,
+      };
+    }),
+  ];
+  return { theme: t, positions };
+}).filter((b) => b.positions.length > 0);
 ---
 <Base titre={c.nom} actif="candidats" description={`Le programme de ${c.nom} (${c.parti}) pour la présidentielle 2027 : positions par thème, avec leurs sources.`}>
   <div class="conteneur page">
     <a class="retour" href={lien('candidats/')}>Tous les candidats</a>
 
+    <!-- Niveau 1 : la page -->
     <header class="tete">
       <h1 class="titre-2">{c.nom}</h1>
-      <p class="voix">{c.parti}, fiche mise à jour le {dateLongue(c.derniere_maj)}</p>
-      <p class="legende">
-        {c.statut === 'déclaré' && c.date_declaration ? `Candidature déclarée le ${dateLongue(c.date_declaration)}. ` : ''}
-        {c.programme_url && <Fragment>Programme : <a href={c.programme_url}>{c.programme_version || 'site de campagne'}</a>.</Fragment>}
-      </p>
+      <p class="parti">{c.parti}</p>
     </header>
 
-    <div class="cote-a-cote">
-      <section class="faisabilite" id="faisabilite" aria-labelledby="titre-faisabilite">
-        <h2 id="titre-faisabilite" class="titre-3">Faisabilité du programme</h2>
-        {c.faisabilite ? (
-          <p>Note : {c.faisabilite.note} / 5</p>
-        ) : (
-          <p class="secondaire">
-            Pas encore évaluée. L’analyse sera publiée début 2027, à la même date pour tous les candidats.{' '}
-            <a href={lien('methode/#faisabilite')}>Comment elle sera faite</a>
-          </p>
-        )}
-      </section>
+    <aside class="encadre invitation">
+      <svg class="rideau-mini" aria-hidden="true" width="26" height="30" viewBox="0 0 26 30">
+        <rect x="0" y="0" width="26" height="3" rx="1.5" fill="var(--encre)" />
+        <path d="M1 3 H12 C9 12 9 21 12 30 H1 Z" fill="var(--petrole)" />
+        <path d="M25 3 H18 C20 12 20 21 18 30 H25 Z" fill="var(--petrole)" />
+      </svg>
+      <p>
+        Voulez-vous voir où vous vous situez par rapport à ce programme ?{' '}
+        <a href={lien('me-situer/')}>Me situer</a>, en une dizaine de minutes.
+      </p>
+    </aside>
 
-      <aside class="encadre invitation">
-        <p>
-          Voulez-vous voir où vous vous situez par rapport à ce programme ?{' '}
-          <a href={lien('me-situer/')}>Me situer</a>, en une dizaine de minutes.
-        </p>
-      </aside>
-    </div>
+    {c.faisabilite && (
+      <section class="rubrique" id="faisabilite" aria-labelledby="titre-faisabilite">
+        <div class="tete-rubrique"><h2 id="titre-faisabilite" class="titre-3">Faisabilité du programme</h2></div>
+        <p>Note : {c.faisabilite.note} / 5</p>
+      </section>
+    )}
 
     {phares.length > 0 && (
-      <section aria-labelledby="titre-phares" class="bloc">
-        <h2 id="titre-phares" class="titre-3">Propositions phares</h2>
+      <section class="rubrique" aria-labelledby="titre-phares">
+        <div class="tete-rubrique">
+          <h2 id="titre-phares" class="titre-3">Propositions phares</h2>
+          <p>Les mesures mises en avant par la campagne</p>
+        </div>
         <ol class="phares">
-          {phares.map((ph) => (
+          {phares.map((ph, i) => (
             <li>
-              <p>{ph.prop ? texteBrut(ph.prop.proposition) : ph.proposition}</p>
-              <Sources sources={ph.prop?.sources ?? ph.sources} />
+              <span class="rang" aria-hidden="true">{i + 1}</span>
+              <div>
+                <p>{ph.prop ? texteBrut(ph.prop.proposition) : ph.proposition}</p>
+                <Sources sources={ph.prop?.sources ?? ph.sources} />
+              </div>
             </li>
           ))}
         </ol>
       </section>
     )}
 
-    <section aria-labelledby="titre-positions" class="bloc">
-      <h2 id="titre-positions" class="titre-3">Positions par thème</h2>
+    <section class="rubrique" aria-labelledby="titre-positions">
+      <div class="tete-rubrique">
+        <h2 id="titre-positions" class="titre-3">Positions par thème</h2>
+        <p>{blocs.length} thèmes, chacun avec ses dilemmes et ses questions-clés</p>
+      </div>
       <div class="themes">
-        {themes.map((t, i) => (
-          <details open={i === 0}>
-            <summary>{t.libelle}</summary>
-            <div class="theme-contenu">
-              {dilemmesDuTheme(t.id).map((d) => {
-                const r = reponseDilemme(c, d);
-                const prop = proposition(c, r.proposition);
-                return (
-                  <article class="position">
-                    <p class="legende">{d.enonce}</p>
-                    <p class:list={['choix', { secondaire: r.statut !== 'option' }]}>{r.libelle}</p>
-                    {(r.texte_court || prop) && <p>{r.texte_court || texteBrut(prop.proposition)}</p>}
-                    <Sources sources={r.sources ?? prop?.sources} />
-                  </article>
-                );
-              })}
-              {questionsDuTheme(t.id).map((q) => {
-                const p = c.positions?.[q.id];
-                return (
-                  <article class="position">
-                    <p class="legende">{q.question}</p>
-                    <p class:list={['choix', { secondaire: !p?.position }]}>{p?.position || 'Pas de position trouvée'}</p>
-                    {p?.detail && (
-                      <details class="detail">
-                        <summary>Le détail</summary>
-                        <p>{texteBrut(p.detail)}</p>
-                      </details>
-                    )}
-                    <Sources sources={p?.sources} />
-                  </article>
-                );
-              })}
+        {blocs.map(({ theme: t, positions }, i) => (
+          <details class="theme" open={i === 0}>
+            <summary>
+              <span class="nom-theme">{t.libelle}</span>
+              <span class="compte">{positions.length} position{positions.length > 1 ? 's' : ''}
+                <svg class="chevron" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+              </span>
+            </summary>
+            <div class="positions">
+              {positions.map((p) => (
+                <article class="position">
+                  <h3>{p.question}</h3>
+                  <p class:list={['reponse', { inconnue: !p.connue }]}>{p.reponse}</p>
+                  {p.mesure && <p class="mesure">{p.mesure}</p>}
+                  {p.detail && (
+                    <details class="detail">
+                      <summary>Le détail</summary>
+                      <p>{p.detail}</p>
+                    </details>
+                  )}
+                  <Sources sources={p.sources} />
+                </article>
+              ))}
             </div>
           </details>
         ))}
@@ -106,60 +133,113 @@ const phares = c.phares
     </section>
 
     {c.evolutions?.length > 0 && (
-      <section aria-labelledby="titre-evolutions" class="bloc">
-        <h2 id="titre-evolutions" class="titre-3">Évolutions de la candidature</h2>
+      <section class="rubrique" aria-labelledby="titre-evolutions">
+        <div class="tete-rubrique"><h2 id="titre-evolutions" class="titre-3">Évolutions de la candidature</h2></div>
         <ul class="evolutions">
           {c.evolutions.map((e) => (
-            <li><span class="legende">{dateLongue(e.date)}</span> {texteBrut(e.description).replace(/\s*;\s*$/, '')}</li>
+            <li><span class="legende">{dateLongue(e.date)}</span><span>{sansLiens(e.description)}</span><Sources sources={e.sources} /></li>
           ))}
         </ul>
       </section>
     )}
 
-    <a class="bouton-principal comparer" href={lien(`comparer/?c=${c.id}`)}>
-      <span><strong>Comparer avec d’autres candidats</strong></span>
-    </a>
+    {!c.faisabilite && (
+      <section class="rubrique" id="faisabilite" aria-labelledby="titre-faisabilite">
+        <div class="tete-rubrique"><h2 id="titre-faisabilite" class="titre-3">Faisabilité du programme</h2></div>
+        <div class="a-venir">
+          <Icone nom="jauge" taille={26} />
+          <p>
+            Pas encore évaluée. L’analyse sera publiée début 2027, à la même date pour tous les candidats.{' '}
+            <a href={lien('methode/#faisabilite')}>Comment elle sera faite</a>
+          </p>
+        </div>
+      </section>
+    )}
+
+    <div class="fin">
+      <a class="bouton-principal comparer" href={lien(`comparer/?c=${c.id}`)}>
+        <span><strong>Comparer avec d’autres candidats</strong></span>
+      </a>
+      <p class="legende">
+        Fiche mise à jour le {dateLongue(c.derniere_maj)}.
+        {c.statut === 'déclaré' && c.date_declaration && ` Candidature déclarée le ${dateLongue(c.date_declaration)}.`}
+        {c.programme_url && <Fragment>{' '}Programme : <a href={c.programme_url}>{c.programme_version || 'site de campagne'}</a>.</Fragment>}
+        {' '}Toutes les sources sont citées position par position.
+      </p>
+    </div>
   </div>
 </Base>
 
 <style>
-  .page { padding-top: 8px; display: flex; flex-direction: column; gap: 32px; }
-  .retour { align-self: flex-start; padding: 10px 0; color: var(--encre); }
+  .page { padding-top: 8px; display: flex; flex-direction: column; gap: 36px; max-width: 820px; }
+  .retour { align-self: flex-start; padding: 10px 0; margin-bottom: -20px; color: var(--encre); }
   .retour::before { content: '‹ '; font-family: var(--titres); }
 
-  .tete { display: flex; flex-direction: column; gap: 6px; padding-bottom: 20px; border-bottom: 3px solid var(--encre); }
-  .tete p { margin: 0; }
-  .tete .voix { font-size: 18px; }
+  /* Niveau 1 */
+  .tete { display: flex; flex-direction: column; gap: 4px; }
+  .parti { margin: 0; color: var(--encre-secondaire); }
 
-  .cote-a-cote { display: grid; gap: 20px; }
-  .faisabilite { display: flex; flex-direction: column; gap: 6px; }
-  .faisabilite p { margin: 0; }
-  .invitation p { margin: 0; }
+  .invitation { display: flex; gap: 14px; align-items: flex-start; margin-top: -16px; }
+  .invitation p { margin: 0; font-size: 16px; line-height: 24px; }
+  .rideau-mini { flex-shrink: 0; }
 
-  .bloc { display: flex; flex-direction: column; gap: 14px; }
+  /* Niveau 2 : rubrique sous un filet d'encre */
+  .rubrique { display: flex; flex-direction: column; gap: 18px; }
+  .tete-rubrique { display: flex; flex-direction: column; gap: 4px; padding-top: 14px; border-top: 3px solid var(--encre); }
+  .tete-rubrique p { margin: 0; font-size: 15px; line-height: 22px; color: var(--encre-secondaire); }
 
-  .phares { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: 16px; }
-  .phares p { margin: 0 0 4px; }
-  .phares li::marker { font-family: var(--titres); }
-
-  .themes details { border-bottom: 1px solid var(--sable); }
-  .themes > details > summary {
-    cursor: pointer; padding: 14px 0; min-height: 44px;
-    font-family: var(--titres); font-size: 20px; line-height: 28px;
+  .phares { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 16px; }
+  .phares li { display: flex; gap: 14px; align-items: flex-start; }
+  .phares p { margin: 0; font-size: 16px; line-height: 25px; }
+  .rang {
+    flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%;
+    background: var(--sable); display: flex; align-items: center; justify-content: center;
+    font-family: var(--titres); font-size: 17px;
   }
-  .theme-contenu { display: flex; flex-direction: column; gap: 22px; padding: 4px 0 24px; }
-  .position { display: flex; flex-direction: column; gap: 4px; padding-left: 16px; border-left: 3px solid var(--sable); }
+
+  /* Niveau 3 : un thème = un encadré */
+  .themes { display: flex; flex-direction: column; gap: 12px; }
+  .theme { border: 1.5px solid var(--encre); border-radius: 4px 24px 4px 4px; overflow: hidden; }
+  .theme > summary {
+    list-style: none; cursor: pointer;
+    min-height: 56px; padding: 12px 16px;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  }
+  .theme > summary::-webkit-details-marker { display: none; }
+  .theme[open] > summary { background: var(--sable); }
+  .theme > summary:hover .nom-theme { text-decoration: underline; text-underline-offset: 3px; }
+  .nom-theme { font-size: 18px; line-height: 24px; font-weight: 700; }
+  .compte { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--encre-secondaire); white-space: nowrap; }
+  .theme[open] .compte { color: var(--encre); }
+  .theme[open] .chevron { transform: rotate(180deg); }
+  .positions { padding: 0 16px; }
+
+  /* Niveau 4 et texte : la question au-dessus, la réponse en dessous */
+  .position { display: flex; flex-direction: column; gap: 6px; padding: 16px 0; }
+  .position + .position { border-top: 1px solid var(--sable); }
+  .position h3 { font-family: var(--texte); font-weight: 700; font-size: 16px; line-height: 23px; }
   .position p { margin: 0; }
-  .choix { font-weight: 700; }
+  .reponse { padding-left: 12px; border-left: 3px solid var(--petrole); font-size: 16px; line-height: 24px; }
+  .reponse.inconnue { border-left-color: var(--sable); color: var(--encre-secondaire); }
+  .mesure { font-size: 15px; line-height: 23px; color: var(--encre-secondaire); }
   .detail summary { cursor: pointer; color: var(--petrole); font-size: 15px; padding: 4px 0; }
   .detail p { font-size: 15px; line-height: 24px; }
 
-  .evolutions { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .evolutions { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .evolutions li { display: flex; flex-direction: column; gap: 2px; font-size: 16px; line-height: 24px; }
 
+  .a-venir {
+    padding: 16px 18px; border: 1.5px dashed var(--encre-secondaire); border-radius: var(--rayon-m);
+    display: flex; gap: 14px; align-items: flex-start;
+  }
+  .a-venir :global(svg) { flex-shrink: 0; }
+  .a-venir p { margin: 0; font-size: 16px; line-height: 24px; }
+
+  .fin { display: flex; flex-direction: column; gap: 16px; }
+  .fin p { margin: 0; }
   .comparer { align-self: flex-start; padding-left: 24px; }
 
   @media (min-width: 860px) {
-    .cote-a-cote { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; }
-    .themes, .phares, .evolutions { max-width: 52em; }
+    .nom-theme { font-size: 19px; }
   }
 </style>
