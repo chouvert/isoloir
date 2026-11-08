@@ -1,157 +1,269 @@
 ---
+// Comparateur : 2 ou 3 candidats, leurs positions côte à côte, thème par thème.
+// Mobile : tableau avec l'intitulé de chaque question sur toute la largeur (maquette A).
+// Ordinateur : thèmes en colonne à gauche, questions en lignes, candidats en colonnes (maquette C).
+// Seules les positions s'affichent ; mesures et sources restent sur les fiches.
 import Base from '../layouts/Base.astro';
-import Sources from '../components/Sources.astro';
 import {
-  candidats, themes, dilemmesDuTheme, questionsDuTheme, reponseDilemme, proposition, texteBrut, lien,
+  candidats, themes, dilemmesDuTheme, questionsDuTheme, reponseDilemme, lien,
 } from '../lib/donnees.js';
+
+const PAS_DE_POSITION = 'Pas de position trouvée';
+const normaliser = (s) => s.toLowerCase().replace(/\s+/g, ' ').trim();
+
+const parTheme = themes.map((t) => {
+  const questions = questionsDuTheme(t.id).map((q) => ({
+    intitule: q.question,
+    reponses: candidats.map((c) => {
+      const v = c.positions?.[q.id]?.position;
+      return { id: c.id, texte: v || PAS_DE_POSITION, connue: Boolean(v) };
+    }),
+  }));
+  const dilemmes = dilemmesDuTheme(t.id).map((d) => ({
+    intitule: d.enonce.replace(/\s+/g, ' ').trim(),
+    reponses: candidats.map((c) => {
+      const r = reponseDilemme(c, d);
+      return { id: c.id, texte: r.libelle, connue: r.statut === 'option' || r.statut === 'aucune' };
+    }),
+  }));
+  return { theme: t, questions, dilemmes };
+});
 ---
 <Base titre="Comparer les programmes" actif="comparer"
-  description="Comparez les programmes de 2 ou 3 candidats à la présidentielle 2027, mesure par mesure et thème par thème.">
+  description="Comparez les positions de 2 ou 3 candidats à la présidentielle 2027, thème par thème.">
   <div class="conteneur page">
     <header class="tete">
       <h1 class="titre-2">Comparer les programmes</h1>
-      <p class="voix">Côte à côte, mesure par mesure. Choisissez 2 ou 3 candidats.</p>
+      <p class="secondaire">Leurs positions côte à côte, thème par thème. Les mesures détaillées et leurs sources sont sur la fiche de chaque candidat.</p>
     </header>
 
-    <form class="choix" id="choix" action="" method="get">
-      <fieldset>
-        <legend class="sr-only">Candidats à comparer, 3 au plus</legend>
-        <div class="candidats">
-          {candidats.map((c) => (
-            <label class="jeton">
-              <input type="checkbox" name="c" value={c.id} />
-              <span>{c.nom}</span>
-            </label>
-          ))}
-        </div>
-      </fieldset>
-      <p class="legende" id="consigne" aria-live="polite">Choisissez au moins 2 candidats, 3 au plus.</p>
+    <form id="comparateur" class="reglages" action="" method="get">
+      <details class="choix-candidats" id="choix-candidats" open>
+        <summary>
+          <span class="intitule">Vous comparez :</span>
+          <span id="resume-candidats">aucun candidat</span>
+          <span class="modifier">modifier</span>
+        </summary>
+        <fieldset>
+          <legend class="sr-only">Candidats à comparer, 2 ou 3</legend>
+          <div class="jetons">
+            {candidats.map((c) => (
+              <label class="jeton">
+                <input type="checkbox" name="c" value={c.id} />
+                <span>{c.nom}</span>
+              </label>
+            ))}
+          </div>
+          <p class="legende" id="consigne" aria-live="polite">Choisissez 2 ou 3 candidats.</p>
+        </fieldset>
+      </details>
 
-      <fieldset class="onglets">
-        <legend class="sr-only">Thème</legend>
-        {themes.map((t, i) => (
-          <label class="onglet">
-            <input type="radio" name="t" value={t.id} checked={i === 0} />
-            <span>{t.libelle}</span>
-          </label>
-        ))}
-      </fieldset>
-      <noscript><button type="submit">Afficher</button></noscript>
+      <label class="differences"><input type="checkbox" id="differences" /> Ne montrer que les différences</label>
     </form>
 
-    <div id="comparaison">
-      {themes.map((t) => (
-        <section class="theme" data-theme={t.id} aria-label={t.libelle}>
-          <h2 class="titre-3 titre-theme">{t.libelle}</h2>
-          {dilemmesDuTheme(t.id).map((d) => (
-            <article class="sujet">
-              <h3 class="question">{d.enonce}</h3>
-              <div class="ligne">
-                {candidats.map((c) => {
-                  const r = reponseDilemme(c, d);
-                  const prop = proposition(c, r.proposition);
-                  return (
-                    <div class="mesure" data-candidat={c.id}>
-                      <a class="nom" href={lien(`candidats/${c.id}/`)}>{c.nom}</a>
-                      <p class:list={['approche', { secondaire: r.statut !== 'option' }]}>{r.libelle}</p>
-                      {(r.texte_court || prop) && <p>{r.texte_court || texteBrut(prop.proposition)}</p>}
-                      <Sources sources={r.sources ?? prop?.sources} />
-                    </div>
-                  );
-                })}
-              </div>
-            </article>
-          ))}
-          {questionsDuTheme(t.id).map((q) => (
-            <article class="sujet">
-              <h3 class="question">{q.question}</h3>
-              <div class="ligne">
-                {candidats.map((c) => {
-                  const p = c.positions?.[q.id];
-                  return (
-                    <div class="mesure" data-candidat={c.id}>
-                      <a class="nom" href={lien(`candidats/${c.id}/`)}>{c.nom}</a>
-                      <p class:list={['approche', { secondaire: !p?.position }]}>{p?.position || 'Pas de position trouvée'}</p>
-                      <Sources sources={p?.sources} />
-                    </div>
-                  );
-                })}
-              </div>
-            </article>
-          ))}
-        </section>
-      ))}
+    <div class="zone" id="zone">
+      <!-- Ordinateur : les 9 thèmes toujours visibles -->
+      <nav class="themes-cote" aria-label="Thèmes">
+        <p class="legende">Thèmes</p>
+        {themes.map((t) => <button type="button" data-aller={t.id}>{t.libelle}</button>)}
+      </nav>
+
+      <div class="contenu">
+        <!-- Mobile : bandeau précédent / thème / suivant -->
+        <nav class="bandeau" aria-label="Thème">
+          <button type="button" class="fleche" id="precedent" aria-label="Thème précédent">
+            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7" /></svg>
+          </button>
+          <label class="choix-theme">
+            <span class="sr-only">Thème</span>
+            <select id="theme">
+              {themes.map((t) => <option value={t.id}>{t.libelle}</option>)}
+            </select>
+            <span class="rang-theme" id="rang-theme" aria-hidden="true"></span>
+          </label>
+          <button type="button" class="fleche" id="suivant" aria-label="Thème suivant">
+            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7" /></svg>
+          </button>
+        </nav>
+
+        <p class="vide" id="vide">Choisissez au moins 2 candidats pour afficher la comparaison.</p>
+
+        {parTheme.map(({ theme: t, questions, dilemmes }) => (
+          <section class="theme" data-theme={t.id} aria-labelledby={`t-${t.id}`}>
+            <h2 class="titre-3" id={`t-${t.id}`}>{t.libelle}</h2>
+            <table>
+              <caption class="sr-only">Positions sur le thème {t.libelle}</caption>
+              <thead>
+                <tr>
+                  <th scope="col" class="col-question">Question</th>
+                  {candidats.map((c) => (
+                    <th scope="col" data-candidat={c.id}><a href={lien(`candidats/${c.id}/`)}>{c.nom}</a></th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {questions.map((q) => (
+                  <tr class="ligne">
+                    <th scope="row">{q.intitule}</th>
+                    {q.reponses.map((r) => (
+                      <td data-candidat={r.id} data-valeur={normaliser(r.texte)} class:list={{ inconnue: !r.connue }}>{r.texte}</td>
+                    ))}
+                  </tr>
+                ))}
+                {dilemmes.length > 0 && (
+                  <tr class="separateur"><th colspan={candidats.length + 1} scope="colgroup">Leurs arbitrages sur les dilemmes</th></tr>
+                )}
+                {dilemmes.map((q) => (
+                  <tr class="ligne">
+                    <th scope="row">{q.intitule}</th>
+                    {q.reponses.map((r) => (
+                      <td data-candidat={r.id} data-valeur={normaliser(r.texte)} class:list={{ inconnue: !r.connue }}>{r.texte}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p class="aucune-difference legende" hidden>Sur ce thème, les candidats choisis ont les mêmes positions.</p>
+          </section>
+        ))}
+
+        <div class="pied-theme">
+          <button type="button" class="lien-precedent" id="bas-precedent"></button>
+          <button type="button" class="bouton-suivant" id="bas-suivant"></button>
+        </div>
+      </div>
     </div>
   </div>
 </Base>
 
 <script>
   const MAX = 3;
-  const form = document.getElementById('choix') as HTMLFormElement;
-  const consigne = document.getElementById('consigne')!;
-  const zone = document.getElementById('comparaison')!;
+  const form = document.getElementById('comparateur') as HTMLFormElement;
   const cases = [...form.querySelectorAll<HTMLInputElement>('input[name="c"]')];
-  const onglets = [...form.querySelectorAll<HTMLInputElement>('input[name="t"]')];
+  const differences = document.getElementById('differences') as HTMLInputElement;
+  const choix = document.getElementById('choix-candidats') as HTMLDetailsElement;
+  const resume = document.getElementById('resume-candidats')!;
+  const consigne = document.getElementById('consigne')!;
+  const zone = document.getElementById('zone')!;
+  const vide = document.getElementById('vide')!;
+  const select = document.getElementById('theme') as HTMLSelectElement;
+  const rang = document.getElementById('rang-theme')!;
+  const ids = [...select.options].map((o) => o.value);
+  const libelles = Object.fromEntries([...select.options].map((o) => [o.value, o.textContent]));
+  const noms = Object.fromEntries(cases.map((x) => [x.value, x.nextElementSibling!.textContent]));
 
-  // État initial depuis l'adresse (?c=id1,id2&t=eco), pour pouvoir partager une comparaison.
   const params = new URLSearchParams(location.search);
-  const voulus = (params.get('c') ?? params.getAll('c').join(',')).split(',').filter(Boolean).slice(0, MAX);
+  const voulus = (params.get('c') ?? '').split(',').filter(Boolean).slice(0, MAX);
   cases.forEach((x) => { x.checked = voulus.includes(x.value); });
-  const t = params.get('t');
-  if (t) onglets.forEach((x) => { x.checked = x.value === t; });
+  let theme = ids.includes(params.get('t') ?? '') ? params.get('t')! : ids[0];
+  differences.checked = params.get('diff') === '1';
+  if (voulus.length >= 2) choix.open = false;
 
   function afficher() {
     const choisis = cases.filter((x) => x.checked).map((x) => x.value);
-    const theme = onglets.find((x) => x.checked)?.value;
     cases.forEach((x) => { x.disabled = !x.checked && choisis.length >= MAX; });
+    resume.textContent = choisis.length ? choisis.map((id) => noms[id]).join(', ') : 'aucun candidat';
+    consigne.textContent = choisis.length < 2
+      ? (choisis.length ? 'Choisissez au moins un autre candidat.' : 'Choisissez 2 ou 3 candidats.')
+      : choisis.length === MAX ? 'Trois candidats choisis. Retirez-en un pour en choisir un autre.' : 'Vous pouvez ajouter un troisième candidat.';
 
-    if (choisis.length < 2) {
-      consigne.textContent = choisis.length === 0
-        ? 'Choisissez au moins 2 candidats, 3 au plus.'
-        : 'Choisissez au moins un autre candidat.';
-      zone.hidden = true;
-    } else {
-      consigne.textContent = choisis.length === MAX
-        ? 'Trois candidats choisis. Retirez-en un pour en choisir un autre.'
-        : 'Vous pouvez ajouter un troisième candidat.';
-      zone.hidden = false;
-    }
+    const pret = choisis.length >= 2;
+    zone.classList.toggle('pret', pret);
+    vide.hidden = pret;
     zone.style.setProperty('--n', String(Math.max(choisis.length, 1)));
+
+    const i = ids.indexOf(theme);
+    select.value = theme;
+    rang.textContent = `Thème ${i + 1} sur ${ids.length}`;
+    const prec = ids[(i - 1 + ids.length) % ids.length];
+    const suiv = ids[(i + 1) % ids.length];
+    (document.getElementById('precedent')!).setAttribute('aria-label', `Thème précédent : ${libelles[prec]}`);
+    (document.getElementById('suivant')!).setAttribute('aria-label', `Thème suivant : ${libelles[suiv]}`);
+    (document.getElementById('bas-precedent')!).textContent = `‹ ${libelles[prec]}`;
+    (document.getElementById('bas-suivant')!).textContent = `Thème suivant : ${libelles[suiv]} ›`;
+    zone.querySelectorAll<HTMLButtonElement>('[data-aller]').forEach((b) => {
+      if (b.dataset.aller === theme) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+    });
+
     zone.querySelectorAll<HTMLElement>('[data-candidat]').forEach((el) => {
       el.hidden = !choisis.includes(el.dataset.candidat!);
     });
-    zone.querySelectorAll<HTMLElement>('[data-theme]').forEach((el) => {
-      el.hidden = el.dataset.theme !== theme;
+    zone.querySelectorAll<HTMLElement>('section[data-theme]').forEach((s) => {
+      s.hidden = !pret || s.dataset.theme !== theme;
+      let visibles = 0;
+      s.querySelectorAll<HTMLElement>('tr.ligne').forEach((tr) => {
+        const valeurs = choisis.map((id) => tr.querySelector<HTMLElement>(`td[data-candidat="${id}"]`)?.dataset.valeur);
+        const identiques = valeurs.length > 1 && valeurs.every((v) => v === valeurs[0]);
+        tr.hidden = differences.checked && identiques;
+        if (!tr.hidden) visibles++;
+      });
+      const sep = s.querySelector<HTMLElement>('tr.separateur');
+      if (sep) {
+        // Le séparateur couvre la colonne des questions et celles des candidats choisis seulement.
+        sep.querySelector('th')!.setAttribute('colspan', String(choisis.length + 1));
+        let suivant = sep.nextElementSibling as HTMLElement | null;
+        let auMoinsUne = false;
+        while (suivant) { if (!suivant.hidden) auMoinsUne = true; suivant = suivant.nextElementSibling as HTMLElement | null; }
+        sep.hidden = !auMoinsUne;
+      }
+      (s.querySelector('.aucune-difference') as HTMLElement).hidden = visibles > 0;
     });
 
     const p = new URLSearchParams();
     if (choisis.length) p.set('c', choisis.join(','));
-    if (theme) p.set('t', theme);
+    p.set('t', theme);
+    if (differences.checked) p.set('diff', '1');
     history.replaceState(null, '', `${location.pathname}?${p}`);
+  }
+
+  function aller(id: string, haut = false) {
+    theme = id;
+    afficher();
+    if (haut) document.getElementById(`t-${id}`)?.scrollIntoView({ block: 'start' });
   }
 
   form.addEventListener('change', afficher);
   form.addEventListener('submit', (e) => e.preventDefault());
-  document.documentElement.classList.add('js');
+  select.addEventListener('change', () => aller(select.value));
+  const decaler = (pas: number, haut = false) => aller(ids[(ids.indexOf(theme) + pas + ids.length) % ids.length], haut);
+  document.getElementById('precedent')!.addEventListener('click', () => decaler(-1));
+  document.getElementById('suivant')!.addEventListener('click', () => decaler(1));
+  document.getElementById('bas-precedent')!.addEventListener('click', () => decaler(-1, true));
+  document.getElementById('bas-suivant')!.addEventListener('click', () => decaler(1, true));
+  zone.querySelectorAll<HTMLButtonElement>('[data-aller]').forEach((b) => b.addEventListener('click', () => aller(b.dataset.aller!)));
   afficher();
 </script>
 
 <style>
-  .page { padding-top: 16px; display: flex; flex-direction: column; gap: 24px; }
+  .page { padding-top: 16px; display: flex; flex-direction: column; gap: 20px; }
   .tete { display: flex; flex-direction: column; gap: 6px; }
-  .tete p { margin: 0; font-size: 18px; }
+  .tete p { margin: 0; font-size: 16px; line-height: 24px; max-width: 46em; }
 
+  .reglages { display: flex; flex-direction: column; gap: 14px; }
   fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
-  .choix { display: flex; flex-direction: column; gap: 14px; }
-  .choix > .legende { margin: 0; }
 
-  .candidats { display: flex; flex-wrap: wrap; gap: 8px; }
+  .choix-candidats > summary {
+    list-style: none; cursor: pointer;
+    display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px;
+    min-height: 44px;
+  }
+  .choix-candidats > summary::-webkit-details-marker { display: none; }
+  .intitule { color: var(--encre-secondaire); font-size: 15px; }
+  #resume-candidats { font-weight: 700; }
+  .modifier {
+    display: inline-flex; align-items: center; min-height: 36px; padding: 0 12px;
+    border: 1.5px solid var(--encre); border-radius: var(--rayon-m); font-size: 14px; font-weight: 700;
+  }
+  .choix-candidats[open] .modifier { display: none; }
+  .choix-candidats fieldset { padding-top: 10px; display: flex; flex-direction: column; gap: 10px; }
+  .choix-candidats .legende { margin: 0; }
+
+  .jetons { display: flex; flex-wrap: wrap; gap: 8px; }
   .jeton { position: relative; cursor: pointer; }
-  .jeton input, .onglet input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .jeton input { position: absolute; opacity: 0; width: 1px; height: 1px; }
   .jeton span {
     display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px;
-    border: 1.5px dashed var(--encre-secondaire); border-radius: var(--rayon-m);
-    font-size: 15px;
+    border: 1.5px dashed var(--encre-secondaire); border-radius: var(--rayon-m); font-size: 15px;
   }
   .jeton input:checked + span {
     border: 1.5px solid var(--sable); background: var(--sable);
@@ -159,35 +271,103 @@ import {
   }
   .jeton input:checked + span::after { content: '×'; margin-left: 8px; font-size: 18px; }
   .jeton input:disabled + span { opacity: 0.45; cursor: not-allowed; }
-  .jeton input:focus-visible + span, .onglet input:focus-visible + span { outline: 3px solid var(--petrole); outline-offset: 2px; }
+  .jeton input:focus-visible + span { outline: 3px solid var(--petrole); outline-offset: 2px; }
 
-  .onglets {
-    display: flex; gap: 20px; overflow-x: auto; white-space: nowrap;
-    border-bottom: 1px solid var(--sable); scrollbar-width: thin;
-  }
-  .onglet { cursor: pointer; position: relative; }
-  .onglet span {
-    display: inline-flex; align-items: center; min-height: 44px;
-    font-family: var(--titres); font-size: 18px; color: var(--encre-secondaire);
-    border-bottom: 3px solid transparent;
-  }
-  .onglet input:checked + span { color: var(--encre); border-bottom-color: var(--encre); }
+  .differences { display: flex; align-items: center; gap: 10px; font-size: 15px; min-height: 44px; }
+  .differences input { width: 20px; height: 20px; accent-color: var(--petrole); }
 
-  .theme { display: flex; flex-direction: column; gap: 28px; padding-top: 8px; }
-  :global(.js) .titre-theme { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-  .sujet { display: flex; flex-direction: column; gap: 12px; }
-  .question { font-size: 19px; line-height: 27px; max-width: 46em; }
-  .ligne { display: grid; gap: 14px; }
-  .mesure {
-    display: flex; flex-direction: column; gap: 4px;
-    padding-left: 14px; border-left: 3px solid var(--sable);
-  }
-  .mesure p { margin: 0; }
-  .nom { color: var(--encre); font-weight: 700; }
-  .approche { font-size: 15px; line-height: 23px; }
-  .approche:not(.secondaire) { font-weight: 700; }
+  .zone { display: flex; flex-direction: column; gap: 16px; }
+  .themes-cote { display: none; }
+  .contenu { min-width: 0; display: flex; flex-direction: column; gap: 16px; }
+  .zone:not(.pret) .bandeau, .zone:not(.pret) .pied-theme, .zone:not(.pret) .themes-cote { display: none !important; }
+  .vide { margin: 0; padding: 16px 18px; border: 1.5px dashed var(--encre-secondaire); border-radius: var(--rayon-m); }
 
+  /* Mobile : bandeau du thème */
+  .bandeau {
+    display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; gap: 8px;
+    padding: 6px; border-radius: 4px 24px 4px 4px; background: var(--sable);
+  }
+  .fleche {
+    width: 44px; height: 44px; border-radius: 50%; border: 0; cursor: pointer;
+    background: var(--papier); color: var(--encre); display: flex; align-items: center; justify-content: center;
+  }
+  .choix-theme { display: flex; flex-direction: column; align-items: center; text-align: center; }
+  .choix-theme select {
+    max-width: 100%; border: 0; background: none; color: var(--encre); text-align: center; text-align-last: center;
+    font: inherit; font-weight: 700; font-size: 17px; line-height: 22px; padding: 2px 4px; cursor: pointer;
+  }
+  .rang-theme { font-size: 13px; line-height: 18px; }
+
+  .theme h2 { margin-bottom: 10px; }
+  /* Sur mobile, le bandeau nomme déjà le thème : le titre reste pour les lecteurs d'écran. */
+  @media (max-width: 859px) { .theme h2 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } }
+  thead { position: sticky; top: 0; z-index: 1; }
+
+  /* Le tableau, version mobile : intitulé sur toute la largeur, réponses dessous */
+  table { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 22px; }
+  thead tr, tr.ligne { display: grid; grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr)); }
+  thead tr { background: var(--encre); color: var(--papier); border-radius: 4px 16px 0 0; }
+  thead th { padding: 12px 8px; text-align: left; font-family: var(--titres); font-weight: 500; font-size: 15px; line-height: 20px; }
+  thead th a { color: var(--papier); }
+  thead .col-question { display: none; }
+  tr.ligne { border-bottom: 1px solid var(--sable); padding-bottom: 12px; }
+  tr.ligne > th {
+    grid-column: 1 / -1; padding: 14px 8px 6px; text-align: left;
+    font-family: var(--texte); font-weight: 700; font-size: 15px; line-height: 21px;
+  }
+  tr.ligne > td { padding: 2px 8px; vertical-align: top; overflow-wrap: break-word; hyphens: auto; }
+  td.inconnue { color: var(--encre-secondaire); font-style: italic; }
+  tr.separateur { display: block; }
+  tr.separateur th {
+    display: block; padding: 22px 8px 8px; text-align: left; border-bottom: 2px solid var(--encre);
+    font-family: var(--texte); font-size: 14px; font-weight: 700; color: var(--encre-secondaire);
+  }
+  .aucune-difference { margin: 12px 0 0; }
+
+  .pied-theme { display: flex; flex-direction: column-reverse; gap: 10px; }
+  .bouton-suivant {
+    display: flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 18px;
+    border: 0; border-radius: var(--rayon-m); background: var(--petrole); color: var(--papier);
+    font: inherit; font-weight: 700; font-size: 16px; cursor: pointer; text-align: center;
+  }
+  .lien-precedent {
+    align-self: flex-start; background: none; border: 0; padding: 10px 0; cursor: pointer;
+    font: inherit; color: var(--encre); text-decoration: underline; text-underline-offset: 3px;
+  }
+
+  /* Ordinateur : thèmes à gauche, vrai tableau à droite */
   @media (min-width: 860px) {
-    .ligne { grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr)); gap: 28px; }
+    .reglages { flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 14px 32px; }
+    .choix-candidats { flex: 1 1 520px; }
+    .zone { flex-direction: row; align-items: flex-start; gap: 32px; }
+    .zone.pret .themes-cote { display: flex; }
+    .themes-cote {
+      flex: 0 0 230px; flex-direction: column; gap: 2px;
+      position: sticky; top: 16px;
+    }
+    .themes-cote .legende { margin: 0 0 8px; font-weight: 700; }
+    .themes-cote button {
+      text-align: left; padding: 10px 14px; border: 0; background: none; cursor: pointer;
+      font: inherit; font-size: 16px; color: var(--encre); border-radius: 4px 16px 4px 4px;
+    }
+    .themes-cote button:hover { text-decoration: underline; text-underline-offset: 3px; }
+    .themes-cote button[aria-current='true'] { background: var(--sable); font-weight: 700; }
+    .contenu { flex: 1 1 auto; }
+    .bandeau { display: none !important; }
+
+    .theme h2 { font-size: 26px; }
+    table { display: table; table-layout: fixed; }
+    thead tr, tr.ligne { display: table-row; }
+    thead tr { border-radius: 0; }
+    thead .col-question { display: table-cell; width: 28%; font-family: var(--texte); font-weight: 400; font-size: 14px; }
+    thead th { padding: 12px 14px; font-size: 18px; }
+    tr.ligne > th { padding: 14px; font-size: 15px; vertical-align: top; width: 28%; }
+    tr.ligne > td { padding: 14px; }
+    tr.ligne:nth-child(even) { background: color-mix(in srgb, var(--sable) 25%, transparent); }
+    tr.separateur { display: table-row; }
+    tr.separateur th { display: table-cell; padding: 22px 14px 8px; }
+
+    .pied-theme { flex-direction: row; justify-content: space-between; align-items: center; }
+    .bouton-suivant { padding: 0 22px; }
   }
 </style>
