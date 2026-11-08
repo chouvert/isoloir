@@ -1,6 +1,7 @@
 // Parcours « Me situer » : préoccupations, priorités, dilemmes, duels à l'aveugle, résultat.
 // Tout le calcul se fait ici, dans le navigateur, avec les modules testés de scripts/lib.
-// Les réponses restent sur l'appareil (localStorage) ; rien n'est envoyé.
+// Les réponses ne vivent qu'en mémoire, le temps de la visite : rien n'est conservé ni envoyé,
+// et recharger la page efface le parcours (README, « Calcul de proximité »).
 import { preremplirBudget, ordonnerDilemmes, PARCOURS } from '../../../scripts/lib/parcours.mjs';
 import { calculerProximite, SEUILS, SANS_AVIS } from '../../../scripts/lib/proximite.mjs';
 import { preparerDuels, evaluerDuels } from '../../../scripts/lib/duels.mjs';
@@ -36,7 +37,6 @@ type Etat = {
   vue: 'themes' | 'synthese';
 };
 
-const CLE = 'isoloir-parcours-v1';
 const ETAPES: Etape[] = ['preoccupations', 'priorites', 'dilemmes', 'duels'];
 
 const echapper = (s: unknown) => String(s ?? '')
@@ -83,13 +83,7 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
   });
 
   let etat: Etat = nouvelEtat();
-  try {
-    const lu = JSON.parse(localStorage.getItem(CLE) ?? 'null');
-    if (lu && lu.ordrePreoccupations?.length === d.preoccupations.length) etat = { ...nouvelEtat(), ...lu };
-  } catch { /* stockage indisponible : le parcours fonctionne quand même, sans reprise */ }
-
-  const sauver = () => { try { localStorage.setItem(CLE, JSON.stringify(etat)); } catch { /* idem */ } };
-  const aller = (e: Partial<Etat>) => { etat = { ...etat, ...e }; sauver(); afficher(true); };
+  const aller = (e: Partial<Etat>) => { etat = { ...etat, ...e }; afficher(true); };
 
   const repondus = () => etat.ordre.filter((id) => etat.reponses[id] && etat.reponses[id] !== SANS_AVIS).length;
 
@@ -127,7 +121,7 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
         <li>les dilemmes : des arbitrages concrets, chacun avec sa contrepartie ;</li>
         <li>les duels à l’aveugle : des mesures à comparer sans savoir de qui elles viennent.</li>
       </ol>
-      <p class="legende">Le calcul se fait sur votre appareil. Vos réponses ne sont ni envoyées ni conservées ailleurs.
+      <p class="legende">Le calcul se fait sur votre appareil. Vos réponses ne sont ni envoyées ni conservées : recharger la page efface le parcours.
         <a href="${d.liens.methode}">Comment la proximité est calculée</a></p>
       <div class="actions">
         <button class="bouton" data-action="commencer">${enCours ? 'Reprendre où j’en étais' : 'Commencer'}</button>
@@ -406,13 +400,12 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
         break;
       }
       case 'recommencer':
-        try { localStorage.removeItem(CLE); } catch { /* rien */ }
         etat = nouvelEtat(); aller({ etape: 'preoccupations' }); break;
       case 'vers-accueil': aller({ etape: 'accueil' }); break;
       case 'preoccupation': {
         const id = cible.dataset.id!;
         const choisies = etat.choisies.includes(id) ? etat.choisies.filter((x) => x !== id) : [...etat.choisies, id];
-        etat = { ...etat, choisies }; sauver(); afficher(false, `[data-id="${id}"]`); break;
+        etat = { ...etat, choisies }; afficher(false, `[data-id="${id}"]`); break;
       }
       case 'aucune-preoccupation': etat = { ...etat, choisies: [] }; // puis comme « continuer »
       // falls through
@@ -424,7 +417,7 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
         const id = cible.dataset.id!;
         const v = (etat.points[id] ?? 0) + (a === 'plus' ? 1 : -1);
         etat = { ...etat, points: { ...etat.points, [id]: Math.max(0, Math.min(100, v)) } };
-        sauver(); afficher(false, `[data-action="${a}"][data-id="${id}"]`); break;
+        afficher(false, `[data-action="${a}"][data-id="${id}"]`); break;
       }
       case 'vers-dilemmes': versDilemmes(); break;
       case 'option': repondre(cible.dataset.option!); break;
@@ -444,7 +437,7 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
         if (etat.indexDuel > 0) aller({ indexDuel: etat.indexDuel - 1 });
         else aller({ etape: 'dilemmes', index: Math.max(0, etat.ordre.length - 1) });
         break;
-      case 'vue': etat = { ...etat, vue: cible.dataset.vue as Etat['vue'] }; sauver(); afficher(false, `[data-vue="${etat.vue}"]`); break;
+      case 'vue': etat = { ...etat, vue: cible.dataset.vue as Etat['vue'] }; afficher(false, `[data-vue="${etat.vue}"]`); break;
       case 'reprendre-dilemmes': aller({ etape: 'dilemmes', index: 0 }); break;
       case 'revoir': aller({ etape: 'dilemmes', index: Math.max(0, etat.ordre.indexOf(cible.dataset.id!)) }); break;
     }
@@ -455,7 +448,7 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
     if (champ.dataset.action !== 'saisie') return;
     const v = Math.max(0, Math.min(100, Math.round(Number(champ.value) || 0)));
     etat = { ...etat, points: { ...etat.points, [champ.dataset.id!]: v } };
-    sauver(); afficher(false, `#pts-${champ.dataset.id}`);
+    afficher(false, `#pts-${champ.dataset.id}`);
   });
 
   /** Redessine l'écran ; au changement d'étape, place le focus sur son titre (lecteurs d'écran). */
