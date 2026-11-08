@@ -88,6 +88,11 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
    `veille` (`git fetch origin veille` puis `git show FETCH_HEAD:AAAA-Sxx.md`), et celui de la semaine précédente pour le
    reliquat ; lire `referentiel/candidats-inclus.md` et `referentiel/sujets-emergents.md`. Sources muettes en tête du
    journal : les compenser par une ou deux recherches web chacune.
+   **Documents déposés** : lister le dossier Google Drive « Isoloir — sources » (connecteur Google Drive, dossier
+   `17TmZ8a3Ot7wowVFimu11rQnJ8UXIn4WS`) et lire les fichiers ajoutés depuis la semaine précédente ; les traiter comme des
+   informations du journal (étape 3), en citant **la source d'origine** (URL, média, date indiqués dans le document), jamais
+   le fichier déposé ; ne jamais recopier ces documents dans le dépôt (dossier privé, droits d'auteur). Mettre à jour
+   `veille/a-recuperer.md` (voir étape 6).
 2. **Candidats.** Relever les sondages de premier tour de la semaine (institut, dates de terrain, score), les déclarations,
    retraits et primaires ; appliquer la règle d'inclusion du README.
    - Sortie : fiche conservée, `inclus: non`, candidat déplacé dans « Non inclus » de `candidats-inclus.md` avec la raison ;
@@ -105,6 +110,11 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
    sorties de candidats (sources lues, règles appliquées). Appliquer ses corrections soi-même.
 6. **Clôture.** `npm run valider`, `npm run comparatifs`, `npm test` ; PR « Mise à jour AAAA-Sxx », corps ci-dessous. Semaine
    sans changement : PR quand même, avec le seul état des sources et « Aucun changement cette semaine ».
+   **À récupérer** : noter dans `veille/a-recuperer.md` les documents qui n'ont pas pu être lus (PDF tronqué, article
+   réservé aux abonnés, page refusée aux robots, source muette depuis au moins 7 jours) **et qui peuvent changer les
+   résultats** (programme, annonce dédiée, seule source d'un candidat) ; au plus 5 demandés à la fois, les plus importants
+   d'abord. Un document reçu passe à `traité` ; un document demandé sans réponse depuis deux samedis est `abandonné`, sauf un
+   programme. Le résumé final de la tâche (notification) se termine par « N document(s) à récupérer » s'il y en a.
 
 **Seconde PR « Référentiel : … »** (au plus une par semaine), si un déclencheur de `sujets-emergents.md` est atteint : depuis
 la branche hebdomadaire ; élément rédigé selon les règles de `dilemmes.md` ou `questions.md` ; position ou rattachement sourcé
@@ -127,6 +137,10 @@ Sondages retenus : institut, dates, fourchette.
 
 ## À arbitrer
 1. … — recommandation : …   (trois points au plus)
+
+## À récupérer
+À enregistrer en PDF dans le dossier Drive « Isoloir — sources » (le nom du fichier n'a pas d'importance) :
+| document | pourquoi | ce qu'on en attend |
 
 ## Sources muettes
 | source | muette depuis | compensation |
