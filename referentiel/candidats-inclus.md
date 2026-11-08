@@ -3,6 +3,11 @@
 Règle : README, « Candidats inclus ». Situation au **2026-10-25**, à réexaminer à chaque mise à jour
 importante des candidatures et des sondages.
 
+Contrôle du **2026-11-08** (mise à jour 2026-S45) : aucune entrée ni sortie. Sondage Ifop pour LCI publié le
+2026-11-03 (dates de terrain non données par l'article) : Le Pen 35 – 37 %, Mélenchon 17,5 – 18 %, Philippe 9 – 15 %
+selon les hypothèses, Glucksmann 10 – 13 %, Lisnard 7 – 9 %, autres candidats non cités
+([Sud Radio, 2026-11-04](https://www.sudradio.fr/sud-radio/sondage-presidentielle-2027-la-finale-le-pen-melenchon-se-precise)).
+
 Lecture retenue du critère « parti » : le parti doit **porter la candidature** (candidat déclaré sous
 son étiquette ou investi par lui). Un membre d'un parti qui soutient un autre candidat, ou un
 candidat sans étiquette, ne remplit pas ce critère, même s'il est lui-même parlementaire.
@@ -28,7 +33,7 @@ OpinionWay) : [récapitulatif Élections 2027](https://elections2027.com/sondage
 
 | candidat        | parti porteur        | parlementaires | statut | sources |
 |-----------------|----------------------|----------------|--------|---------|
-| Fabien Roussel  | PCF                  | 14 députés rattachés au PCF | investi le 2026-09-06 (72 % des adhérents) ; fiche `roussel-fabien` | [LCP, 2026-09-06](https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389) ; [Datan](https://datan.fr/partis-politiques/pcf) |
+| Fabien Roussel  | PCF                  | 14 députés rattachés au PCF | investi le 2026-09-06 (72 % des adhérents) ; fiche `roussel-fabien` ; le 2026-11-05, neuf des dix-sept députés du groupe communiste et ultramarin ont déclaré soutenir Jean-Luc Mélenchon, sans quitter le PCF selon Parlons Politique : Roussel reste le candidat investi et le critère reste rempli ([Parlons Politique, 2026-11-05](https://www.parlons-politique.fr/elections/presidentielle-2027-le-soutien-de-neuf-deputes-communistes-a-melenchon-peut-il-rebattre-les-cartes-a-gauche_30850/)) | [LCP, 2026-09-06](https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389) ; [Datan](https://datan.fr/partis-politiques/pcf) |
 | Delphine Batho  | Génération écologie  | elle-même, députée des Deux-Sèvres et présidente du parti | déclarée le 2025-11-25 ; fiche `batho-delphine` | [L'Info Durable, 2025-11-25](https://www.linfodurable.fr/lex-ministre-delphine-batho-candidate-la-presidentielle-pour-conjurer-la-rikikisation-de-lecologie) |
 | François Ruffin | Debout !             | lui-même, seul député du mouvement (Somme) | déclaré le 2026-01-26 (TF1) ; condition « s'il n'y a pas de primaire » remplie (primaire unitaire abandonnée en juillet 2026) ; fiche `ruffin-francois` | [Wikipédia, Debout !](https://en.wikipedia.org/wiki/Debout!) ; [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) |
 
@@ -46,5 +51,8 @@ OpinionWay) : [récapitulatif Élections 2027](https://elections2027.com/sondage
 
 ## Pressentis à surveiller
 François Hollande (décision annoncée pour décembre ou janvier), Bernard Cazeneuve, Dominique de
-Villepin, Élisabeth Borne, Bruno Le Maire, Xavier Bertrand ; Jordan Bardella en cas de retrait de
+Villepin (La France humaniste ; décision annoncée « au cours des prochaines semaines » le 2026-10-22, « régulièrement
+crédité entre 1 et 4% » selon [LCP, 2026-10-23](https://www.lcp.fr/actualites/presidentielle-dominique-de-villepin-annonce-avoir-depasse-la-barre-des-300-signatures) ;
+[Toute l'Europe, mis à jour le 2026-11-03](https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/)
+le dit candidat depuis le 2026-11-03, à confirmer), Élisabeth Borne, Bruno Le Maire, Xavier Bertrand ; Jordan Bardella en cas de retrait de
 Marine Le Pen. [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373)

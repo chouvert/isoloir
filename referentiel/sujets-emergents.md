@@ -21,3 +21,11 @@ est noté « refusé le AAAA-MM-JJ » dans la colonne décision et n'est plus pr
 
 | sujet | thème | semaines | candidats | couvert par | décision |
 |-------|-------|----------|-----------|-------------|----------|
+| Mix électrique et sortie du nucléaire (calendrier du 100 % renouvelables) | env | 2026-S45 | Mélenchon | D-env-electricite, Q-env-nuc, Q-env-renouv | |
+| Règle verte dans la Constitution | env | 2026-S45 | Mélenchon | D-env-rythme, Q-instit-constit | |
+| Service national ou conscription | europe | 2026-S45 | Mélenchon | non couvert | |
+| Objectif de dépenses militaires de l'OTAN (5 % du PIB) | europe | 2026-S45 | Mélenchon | Q-europe-defense | |
+| Moratoire sur des règles européennes | europe | 2026-S45 | Mélenchon | D-europe-regles, Q-europe-traites | |
+| Avenir institutionnel de la Nouvelle-Calédonie | instit | 2026-S45 | Mélenchon | non couvert | |
+| Pétitions citoyennes débattues au Parlement | instit | 2026-S45 | Mélenchon | Q-instit-referend | |
+| Prévention et dépistage des cancers, santé environnementale | sante | 2026-S45 | Batho (parti : Génération écologie) | non couvert | |

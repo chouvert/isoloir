@@ -1,6 +1,6 @@
 ---
 theme: sante
-derniere_maj: 2026-10-31
+derniere_maj: 2026-11-08
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->

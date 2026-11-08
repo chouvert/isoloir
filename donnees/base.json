@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "derniere_maj": "2026-10-31",
+  "derniere_maj": "2026-11-08",
   "referentiel_maj": "2026-11-07",
   "themes": [
     {
@@ -6904,9 +6904,9 @@
       "statut": "déclaré",
       "inclus": true,
       "date_declaration": "2026-05-03",
-      "programme_url": "https://melenchon2027.fr/programme2025/livre/",
-      "programme_version": "L'Avenir en commun, édition 2025 + orientations budgétaires 2027 (2026-10-15) — refonte annoncée pour le 2026-11-06",
-      "derniere_maj": "2026-10-25",
+      "programme_url": "https://melenchon2027.fr/programme/decouvrir/",
+      "programme_version": "L'Avenir en commun, le programme de la Nouvelle France (livre paru le 2026-11-06, 1 069 mesures ; livre non lu, changements relevés par LCP et élection.fr) + édition 2025 pour les mesures non reprises par ces comptes rendus + orientations budgétaires 2027 (2026-10-15)",
+      "derniere_maj": "2026-11-08",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse",
@@ -7004,7 +7004,7 @@
         },
         "Q-env-nuc": {
           "position": "contre",
-          "detail": "Sortie du nucléaire, abandon des projets d'EPR ; objectif « toujours valable » selon le coordinateur de LFI (2026-05-31), qui évoque 2050 sans engagement ; échéance non fixée",
+          "detail": "Sortie du nucléaire, abandon des projets d'EPR ; sortie progressive maintenue dans le programme de novembre 2026 ; objectif « toujours valable » selon le coordinateur de LFI (2026-05-31), qui évoque 2050 sans engagement ; échéance non fixée",
           "sources": [
             {
               "titre": "AEC 2025",
@@ -7017,27 +7017,40 @@
             {
               "titre": "M. Bompard, France 3",
               "url": "https://x.com/DimPolitique/status/2061066037093711954"
+            },
+            {
+              "titre": "élection.fr, 2026-11-06",
+              "url": "https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html"
+            },
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
             }
           ]
         },
         "Q-env-renouv": {
           "position": "pour",
-          "detail": "Objectif de 100 % d'énergies renouvelables annoncé en 2022 ; l'édition 2025 maintient la sortie du nucléaire",
+          "detail": "100 % d'énergies renouvelables visé au plus tard en 2060 dans le programme de novembre 2026 (2050 dans celui de 2022)",
           "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            },
             {
               "titre": "J.-L. Mélenchon, 2022-03-06",
               "url": "https://twitter.com/JLMelenchon/status/1500495666132488192/video/1"
-            },
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
             }
           ]
         },
         "Q-env-climat": {
           "position": "pas de position",
-          "detail": "Pas de mention de l'échéance 2050 trouvée ; objectif intermédiaire de −65 % d'émissions en 2030 (voir env-01)",
-          "sources": []
+          "detail": "Pas de mention de l'échéance 2050 trouvée ; objectif intermédiaire de −65 % d'émissions en 2033 (voir env-01)",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            }
+          ]
         },
         "Q-secu-effectifs": {
           "position": "pas de position",
@@ -7124,9 +7137,14 @@
           ]
         },
         "Q-europe-defense": {
-          "position": "pas de position",
-          "detail": "Pas de niveau de dépense en % du PIB trouvé",
-          "sources": []
+          "position": "contre l'objectif de 5 % du PIB",
+          "detail": "Le programme propose de « rejeter le tribut, exigé par les Etats-Unis, de 5 % du PIB » ; pas de niveau visé",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            }
+          ]
         },
         "Q-europe-otan": {
           "position": "sortie par étapes",
@@ -7324,7 +7342,7 @@
           "option": "B",
           "proposition": "env-03",
           "texte_court": "",
-          "justification": "Sortie du nucléaire et abandon des EPR (env-03) ; objectif de 100 % d'énergies renouvelables annoncé en 2022",
+          "justification": "Sortie du nucléaire et abandon des EPR (env-03), maintenue dans le programme de novembre 2026 ; 100 % d'énergies renouvelables visé au plus tard en 2060",
           "sources": [
             {
               "titre": "AEC 2025",
@@ -7337,6 +7355,14 @@
             {
               "titre": "J.-L. Mélenchon, 2022-03-06",
               "url": "https://twitter.com/JLMelenchon/status/1500495666132488192/video/1"
+            },
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            },
+            {
+              "titre": "élection.fr, 2026-11-06",
+              "url": "https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html"
             }
           ]
         },
@@ -7344,8 +7370,12 @@
           "option": "B",
           "proposition": "env-01",
           "texte_court": "",
-          "justification": "Accélération (−65 % d'émissions en 2030, env-01) financée par la fiscalité sur les hauts patrimoines et les grandes entreprises (eco-01 à eco-07) plutôt que par une hausse des prix pour les ménages",
+          "justification": "Accélération (−65 % d'émissions en 2033, env-01 ; « règle verte » dans la Constitution, env-07) financée par la fiscalité sur les hauts patrimoines et les grandes entreprises (eco-01 à eco-07) plutôt que par une hausse des prix pour les ménages",
           "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            },
             {
               "titre": "AEC 2025",
               "url": "https://melenchon2027.fr/programme2025/livre/"
@@ -7396,11 +7426,15 @@
           "option": "C",
           "proposition": "europe-05",
           "texte_court": "",
-          "justification": "Rester dans l'UE en cessant d'appliquer les normes jugées incompatibles avec les engagements écologiques et sociaux (europe-05)",
+          "justification": "Rester dans l'UE en cessant d'appliquer les normes jugées incompatibles avec les engagements écologiques et sociaux (europe-05) ; le programme de novembre 2026 confirme la « désobéissance aux règles bloquantes » et ajoute un moratoire voté par le Parlement sur plusieurs règles européennes (europe-07)",
           "sources": [
             {
               "titre": "J.-L. Mélenchon, 2026-06-24",
               "url": "https://x.com/JLMelenchon/status/2069836316183810338"
+            },
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
             },
             {
               "titre": "AEC 2025",
@@ -7774,11 +7808,15 @@
         {
           "id": "env-01",
           "theme": "env",
-          "proposition": "Réduire de 65 % les émissions de gaz à effet de serre en 2030, avec un bilan annuel public",
+          "proposition": "Réduire de 65 % les émissions de gaz à effet de serre en 2033, avec un bilan annuel public",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
-          "calendrier": "2030",
+          "calendrier": "2033",
           "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            },
             {
               "titre": "AEC 2025",
               "url": "https://melenchon2027.fr/programme2025/livre/"
@@ -7872,6 +7910,38 @@
             {
               "titre": "relevé",
               "url": "https://votons-2027.fr/candidats/melenchon/programme"
+            }
+          ]
+        },
+        {
+          "id": "env-07",
+          "theme": "env",
+          "proposition": "Inscrire la « règle verte » dans la Constitution",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "élection.fr, 2026-11-06",
+              "url": "https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html"
+            },
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            }
+          ]
+        },
+        {
+          "id": "env-08",
+          "theme": "env",
+          "proposition": "Interdire les vols de nuit entre 23 h et 6 h",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
             }
           ]
         },
@@ -8156,7 +8226,7 @@
         {
           "id": "europe-06",
           "theme": "europe",
-          "proposition": "Conscription citoyenne de neuf mois pour les moins de 25 ans, rémunérée au SMIC",
+          "proposition": "« Conscription citoyenne écologique » obligatoire de neuf mois pour les moins de 25 ans, rémunérée au SMIC",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -8172,6 +8242,38 @@
             {
               "titre": "Synthèse des contributions, 2026-07-17",
               "url": "https://melenchon2027.fr/synthese-des-contributions/"
+            },
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            }
+          ]
+        },
+        {
+          "id": "europe-07",
+          "theme": "europe",
+          "proposition": "Moratoire voté par le Parlement sur la libre circulation des marchandises et des capitaux, les règles de concurrence appliquées aux services publics, « l'Europe de la défense » et les accords de libre-échange",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            }
+          ]
+        },
+        {
+          "id": "europe-08",
+          "theme": "europe",
+          "proposition": "Rejeter l'objectif de dépenses militaires de 5 % du PIB demandé par les États-Unis",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
             }
           ]
         },
@@ -8512,9 +8614,51 @@
               "url": "https://votons-2027.fr/candidats/melenchon/programme"
             }
           ]
+        },
+        {
+          "id": "instit-06",
+          "theme": "instit",
+          "proposition": "Débat obligatoire à l'Assemblée sur les pétitions de plus de 500 000 signatures",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            }
+          ]
+        },
+        {
+          "id": "instit-07",
+          "theme": "instit",
+          "proposition": "Indépendance de la Kanaky-Nouvelle-Calédonie « au 1er janvier 2028 », par référendum national",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "2028",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            }
+          ]
         }
       ],
       "evolutions": [
+        {
+          "date": "2026-11-06",
+          "description": "nouveau programme *L'Avenir en commun, le programme de la Nouvelle France* ; la réduction de 65 % des émissions est repoussée à 2033 (2030 dans l'édition 2025 selon le relevé), et le 100 % renouvelables est visé au plus tard en 2060 (2050 en 2022) ; la sortie du nucléaire est maintenue [LCP, 2026-11-06](https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841) ; [élection.fr, 2026-11-06](https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html)",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-06",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            },
+            {
+              "titre": "élection.fr, 2026-11-06",
+              "url": "https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html"
+            }
+          ]
+        },
         {
           "date": "2026-10-15",
           "description": "le SMIC visé passe à 1 700 € net dans les orientations budgétaires 2027, contre 1 600 € net dans l'édition 2025 du programme [Budget 2027, p. 9](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) ; [AEC 2025](https://melenchon2027.fr/programme2025/livre/) ([relevé](https://votons-2027.fr/candidats/melenchon/programme))",
@@ -15983,9 +16127,13 @@
           {
             "candidat": "melenchon-jean-luc",
             "proposition": "env-01",
-            "texte": "Réduire de 65 % les émissions de gaz à effet de serre en 2030, avec un bilan annuel public",
+            "texte": "Réduire de 65 % les émissions de gaz à effet de serre en 2033, avec un bilan annuel public",
             "texte_court": false,
             "sources": [
+              {
+                "titre": "LCP, 2026-11-06",
+                "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              },
               {
                 "titre": "AEC 2025",
                 "url": "https://melenchon2027.fr/programme2025/livre/"

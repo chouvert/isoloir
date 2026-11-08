@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-10-31
+derniere_maj: 2026-11-08
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -102,7 +102,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Gabriel Attal | env-03 | tripler notre rythme annuel de réduction des émissions, de 1,8 % à 5 % par an ; baisser de moitié les émissions de gaz à effet de serre dans les dix ans à venir |
 | A | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en débattant des besoins avant de produire, qu'il s'agisse des écrans publicitaires, des data centers ou de la 6G ; développer les boucles locales d'énergie partagée et l'autoconsommation collective |
 | A | Raphaël Glucksmann | env-01 | Engager les 100 jours de la révolution écologique dès l'élection, avec pour priorité la sortie du gaz et du pétrole ; rénovation thermique des bâtiments, efficacité énergétique, sobriété |
-| B | Jean-Luc Mélenchon | env-01 | Réduire de 65 % les émissions de gaz à effet de serre en 2030, avec un bilan annuel public |
+| B | Jean-Luc Mélenchon | env-01 | Réduire de 65 % les émissions de gaz à effet de serre en 2033, avec un bilan annuel public |
 | B | François Ruffin | eco-01 | Mise en place d'une taxe de 4% sur les dividendes des entreprises pour financer la transition écologique, 2 % pour les entreprises versant moins de 10 M€ de dividendes ; mesure à soumettre par référendum |
 | B | Marine Tondelier | env-03 | une fiscalité sur les entreprises fossiles et les ménages les plus émetteurs en carbone ; Supprimer progressivement les niches fiscales qui favorisent les énergies fossiles ; taxe exceptionnelle sur les superprofits pétrogaziers |
 | D | Marine Le Pen | env-04 | Supprimer le zéro artificialisation nette ; réduire le DPE à un simple élément indicatif |
