@@ -13,9 +13,8 @@ export const MAX_PHARES = 3;
 
 export const VALEURS_INCLUS = ['oui', 'non'];
 
-/** Motifs interdits dans le code du site : L'Isoloir ne conserve aucune réponse de l'utilisateur. */
+/** Motifs interdits dans le code du site : les réponses restent sur l'appareil (localStorage autorisé) et ne sont jamais envoyées. */
 export const MOTIFS_STOCKAGE = [
-  { motif: /\blocalStorage\b/, libelle: 'localStorage' },
   { motif: /\bsessionStorage\b/, libelle: 'sessionStorage' },
   { motif: /\bindexedDB\b/, libelle: 'indexedDB' },
   { motif: /document\.cookie/, libelle: 'document.cookie' },

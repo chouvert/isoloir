@@ -388,7 +388,6 @@ test('version du référentiel : fichier obligatoire et date valide', () => {
 test('site : aucune donnée utilisateur conservée', () => {
   const page = (contenu) => (d) => { mkdirSync(join(d, 'site/src/pages'), { recursive: true }); ecrire(d, 'site/src/pages/x.astro', contenu); };
   for (const [code, mot] of [
-    ["localStorage.setItem('a', 1);", 'localStorage'],
     ['sessionStorage.clear();', 'sessionStorage'],
     ["indexedDB.open('b');", 'indexedDB'],
     ["document.cookie = 'c=1';", 'document.cookie'],
@@ -401,6 +400,8 @@ test('site : aucune donnée utilisateur conservée', () => {
     assert.match(e.message, new RegExp(`${mot.replace('.', '\\.')}.*aucune donnée utilisateur ne doit être conservée`));
   }
   const ok = valider(page("<p>Aucun cookie</p>\n<script>fetch('/isoloir/donnees.json');</script>\n"));
+  const local = valider(page("<script>\ntry { localStorage.setItem('parcours', '{}'); } catch {}\n</script>\n"));
+  assert.equal(local.erreurs.length, 0, `localStorage doit rester autorisé : ${messages(local)}`);
   assert.equal(ok.erreurs.length, 0, messages(ok));
   assert.equal(valider().erreurs.length, 0);
 });
