@@ -123,32 +123,38 @@ des candidats inclus ; préoccupation liée si besoin ; gabarit `_modele.md` ; *
 vérification par un agent neuf centrée sur la neutralité des options. Corps : pourquoi (extrait du registre), l'élément
 proposé, le tableau des rattachements, l'effet sur le parcours (les utilisateurs refont le parcours).
 
-**Corps de la PR hebdomadaire** (Julien la lit en 15 minutes ; sans réponse de sa part, les recommandations s'appliquent) :
+**Corps de la PR hebdomadaire** (Julien la lit en 15 minutes ; sans réponse de sa part, les recommandations s'appliquent).
+Quatre parties, dans cet ordre, puis les changements à valider :
 
 ```markdown
-## Candidats
-| candidat | changement | raison | source |
-Sondages retenus : institut, dates, fourchette.
+## 1. Candidats retenus et pressentis
+Retenus (tous, ordre alphabétique) :
+| candidat | parti | critère | changement cette semaine |
+Pressentis à surveiller :
+| personnalité | situation | à surveiller |
+Sondages retenus : institut, commanditaire, dates de terrain, fourchette, lien de la notice.
 
-## Ce qui modifie les scores
-| candidat | dilemme | avant | après | justification | source |
+## 2. Sujets émergents
+Déclencheurs atteints : sujet, candidats, suite donnée (PR « Référentiel », reporté).
+Sujets nouveaux de la semaine :
+| sujet | thème | candidats | couvert par |
 
-## Phares modifiés
-| candidat | ancien | nouveau | motif |
-
-## À arbitrer
-1. … — recommandation : …   (trois points au plus)
-
-## À récupérer
-À enregistrer en PDF dans le dossier Drive « Isoloir — sources » (le nom du fichier n'a pas d'importance) :
+## 3. Fichiers à stocker dans Google Drive
+À ouvrir puis enregistrer en PDF dans le dossier Drive « Isoloir — sources » (le nom du fichier n'a pas d'importance) :
 | document | lien | pourquoi | ce qu'on en attend |
+Facultatifs (pages non lues, moins importantes) : titre et lien direct.
 
-## Sources muettes
-| source | muette depuis | compensation |
+## 4. Sources lues
+| source | pages lues (liens) | ce qui en a été tiré |
+Sources muettes : source, muette depuis, compensation.
+
+## 5. Changements à valider
+Ce qui modifie les scores : | candidat | dilemme | avant | après | justification | source |
+Phares modifiés : | candidat | ancien | nouveau | motif |
+À arbitrer : 1. … — recommandation : …   (trois points au plus)
 
 <details><summary>Le reste</summary>
-Sources ajoutées, citations précisées, informations reportées à la semaine suivante.
-Pages non lues et non demandées (moins importantes) : titre et lien direct, pour que Julien puisse les déposer s'il le souhaite.
+Propositions ajoutées ou précisées par fiche, informations reportées à la semaine suivante, contrôles (`npm run valider`, `npm test`).
 </details>
 ```
 
