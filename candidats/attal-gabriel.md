@@ -7,7 +7,7 @@ statut: déclaré
 date_declaration: 2026-05-22
 programme_url: https://attalpresident.fr/programme
 programme_version: « mes chantiers capitaux » sur attalpresident.fr (non daté, consulté le 2026-10-25 ; inaccessible le 2026-10-31) + lettre aux Français (2026-10-15) + déclarations de campagne
-derniere_maj: 2026-10-31
+derniere_maj: 2026-11-14
 ---
 
 # Gabriel Attal
@@ -113,7 +113,8 @@ thèmes (jeunesse, école, finances publiques, énergie, IA) ; les entretiens (B
 Philippe (2026-09-30) ; annonces dédiées plus anciennes que les trois retenues : conférence de presse sur
 le désendettement (2026-09-23), discours de Reims sur l'Europe (2026-09-17), tribune dans La Tribune
 Dimanche (2026-08-16).
-Relecture du 2026-10-31 : D-instit-participation aucune → D (alignement sur Retailleau) ; phares inchangés. -->
+Relecture du 2026-10-31 : D-instit-participation aucune → D (alignement sur Retailleau) ; phares inchangés.
+Mise à jour du 2026-11-14 : non retenus, le grand oral de Radio France sur les services publics (2026-11-12 ; éducation, justice, fonction publique), multi-thèmes, et l'entretien des Rencontres de l'avenir à Saint-Raphaël (2026-11-08, avec Nicolas Bouzou), généraliste ; phares inchangés. -->
 | rang | proposition | motif | source |
 |------|-------------|-------|--------|
 | 1 | eco-01 | Annonce dédiée la plus récente : « lettre aux Français » consacrée aux finances publiques, publiée le 2026-10-15 | [attalpresident.fr, lettre aux Français, 2026-10-15](https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques) ; [La Gazette France (AFP), 2026-10-15](https://www.lagazettefrance.fr/article/presidentielle-attal-pour-une-coalition-des-democrates) |
@@ -166,7 +167,7 @@ Relecture du 2026-10-31 : D-instit-participation aucune → D (alignement sur Re
 |---------|-------------|-------------------|-----------------------|------------|--------|
 | secu-01 | Violences sexuelles sur mineurs : « culture de l'urgence », action engagée « en moins de 48 heures » après une plainte et enquête close « en moins de trois mois » ; parquet national dédié à la pédocriminalité, avec un service de renseignement spécialisé | | | | [Europe 1 (AFP), 2026-06-12](https://www.europe1.fr/node/952973) |
 | secu-02 | Imprescriptibilité des crimes contre les mineurs, peines alourdies, « prison ferme automatiquement encourue pour ces crimes » | | | | [Europe 1 (AFP), 2026-06-12](https://www.europe1.fr/node/952973) |
-| secu-03 | Supprimer le juge d'application des peines et les aménagements de peine automatiques | | | | [Europe 1 (AFP), 2026-06-12](https://www.europe1.fr/node/952973) |
+| secu-03 | Supprimer le juge d'application des peines et les aménagements de peine automatiques ; supprimer les réductions automatiques de peine (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat) | | | | [Europe 1 (AFP), 2026-06-12](https://www.europe1.fr/node/952973) ; [Public Sénat, 2026-11-12](https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics) |
 | secu-04 | Créer un fichier des auteurs de crimes sexuels sur mineurs sur le modèle des « fichés S » (idée reprise du député LR Antoine Vermorel-Marques), pour « plus un seul recrutement à l'aveugle pour nos enfants » | | | | [Europe 1 (AFP), 2026-06-12](https://www.europe1.fr/node/952973) |
 | secu-05 | Réécrire le code de procédure pénale par des spécialistes et recourir à l'IA pour désengorger les juridictions | | | 100 jours (procédure pénale) | [Europe 1 (AFP), 2026-06-12](https://www.europe1.fr/node/952973) |
 | secu-06 | Faciliter l'implantation de prisons : obligations de logement social allégées pour les communes volontaires, possibilité pour le préfet de passer outre l'accord des élus locaux | | | | [Europe 1 (AFP), 2026-06-12](https://www.europe1.fr/node/952973) |
@@ -194,7 +195,7 @@ Relecture du 2026-10-31 : D-instit-participation aucune → D (alignement sur Re
 | id      | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
 |---------|-------------|-------------------|-----------------------|------------|--------|
 | educ-01 | « nous devons viser moins de 20 élèves par classe » en primaire, grâce à la baisse démographique (1,7 million d'élèves de moins attendus), sans fermer de classes | | | | [attalpresident.fr, « École »](https://attalpresident.fr/programme/education) ; [LCP, 2026-08-25](https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose) ; [Lyon Mag, 2026-10-10](https://www.lyonmag.com/article/154267/presidentielle-2027-a-lyon-gabriel-attal-devoile-son-pacte-pour-la-jeunesse-et-cible-jean-luc-melenchon) (pour « sans fermer de classes ») |
-| educ-02 | Salaire des enseignants « revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière » ; meilleure rémunération des accompagnants d'élèves en situation de handicap | +200 € à +500 € net par mois et par enseignant (pas de coût global annoncé) | | | [LCP, 2026-08-25](https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose) ; [attalpresident.fr, « École »](https://attalpresident.fr/programme/education) |
+| educ-02 | Salaire des enseignants « revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière » ; meilleure rémunération des accompagnants d'élèves en situation de handicap | +200 € à +500 € net par mois et par enseignant (pas de coût global annoncé) | | de 200 à 500 € par mois « dès 2028 », selon l'ancienneté (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat) | [LCP, 2026-08-25](https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose) ; [attalpresident.fr, « École »](https://attalpresident.fr/programme/education) ; [Public Sénat, 2026-11-12](https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics) |
 | educ-03 | Rétablir les mesures du « Choc des savoirs » (« l'une de mes premières décisions sera d'en rétablir les mesures »), dont « une généralisation des groupes de niveau en français et en mathématiques » | | | début de mandat | [attalpresident.fr, « École »](https://attalpresident.fr/programme/education) ; [LCP, 2026-08-25](https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose) |
 | educ-04 | Rétablir un certificat d'études à l'entrée en sixième, avec « une année passerelle à ceux pour qui ce n'est pas le cas » ; « le brevet des collèges deviendra obligatoire pour passer en classe de seconde » | | | | [LCP, 2026-08-25](https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose) |
 | educ-05 | Fermer les 100 collèges qualifiés de pires ghettos scolaires (selon ses termes) et répartir leurs élèves dans d'autres établissements | | | | [LCP, 2026-08-25](https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose) |
