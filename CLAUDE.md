@@ -113,7 +113,8 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
    **À récupérer** : noter dans `veille/a-recuperer.md` les documents qui n'ont pas pu être lus (PDF tronqué, article
    réservé aux abonnés, page refusée aux robots, source muette depuis au moins 7 jours) **et qui peuvent changer les
    résultats** (programme, annonce dédiée, seule source d'un candidat) ; au plus 5 demandés à la fois, les plus importants
-   d'abord. Un document reçu passe à `traité` ; un document demandé sans réponse depuis deux samedis est `abandonné`, sauf un
+   d'abord. Chaque document a son **lien direct** (URL de la page ou du PDF, pas une page d'accueil ni un résultat de
+   recherche) : Julien l'ouvre et l'enregistre sans chercher. Un document reçu passe à `traité` ; un document demandé sans réponse depuis deux samedis est `abandonné`, sauf un
    programme. Le résumé final de la tâche (notification) se termine par « N document(s) à récupérer » s'il y en a.
 
 **Seconde PR « Référentiel : … »** (au plus une par semaine), si un déclencheur de `sujets-emergents.md` est atteint : depuis
@@ -140,13 +141,14 @@ Sondages retenus : institut, dates, fourchette.
 
 ## À récupérer
 À enregistrer en PDF dans le dossier Drive « Isoloir — sources » (le nom du fichier n'a pas d'importance) :
-| document | pourquoi | ce qu'on en attend |
+| document | lien | pourquoi | ce qu'on en attend |
 
 ## Sources muettes
 | source | muette depuis | compensation |
 
 <details><summary>Le reste</summary>
 Sources ajoutées, citations précisées, informations reportées à la semaine suivante.
+Pages non lues et non demandées (moins importantes) : titre et lien direct, pour que Julien puisse les déposer s'il le souhaite.
 </details>
 ```
 
