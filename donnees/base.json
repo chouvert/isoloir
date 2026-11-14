@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "derniere_maj": "2026-11-08",
+  "derniere_maj": "2026-11-14",
   "referentiel_maj": "2026-11-07",
   "themes": [
     {
@@ -820,7 +820,7 @@
       "date_declaration": "2026-05-22",
       "programme_url": "https://attalpresident.fr/programme",
       "programme_version": "« mes chantiers capitaux » sur attalpresident.fr (non daté, consulté le 2026-10-25 ; inaccessible le 2026-10-31) + lettre aux Français (2026-10-15) + déclarations de campagne",
-      "derniere_maj": "2026-10-31",
+      "derniere_maj": "2026-11-14",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
@@ -1847,7 +1847,7 @@
         {
           "id": "secu-03",
           "theme": "secu",
-          "proposition": "Supprimer le juge d'application des peines et les aménagements de peine automatiques",
+          "proposition": "Supprimer le juge d'application des peines et les aménagements de peine automatiques ; supprimer les réductions automatiques de peine (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -1855,6 +1855,10 @@
             {
               "titre": "Europe 1 (AFP), 2026-06-12",
               "url": "https://www.europe1.fr/node/952973"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -2102,7 +2106,7 @@
           "proposition": "Salaire des enseignants « revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière » ; meilleure rémunération des accompagnants d'élèves en situation de handicap",
           "chiffrage_annonce": "+200 € à +500 € net par mois et par enseignant (pas de coût global annoncé)",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "de 200 à 500 € par mois « dès 2028 », selon l'ancienneté (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat)",
           "sources": [
             {
               "titre": "LCP, 2026-08-25",
@@ -2111,6 +2115,10 @@
             {
               "titre": "attalpresident.fr, « École »",
               "url": "https://attalpresident.fr/programme/education"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -3105,12 +3113,12 @@
       "inclus": true,
       "date_declaration": "2026-08-23",
       "programme_url": "",
-      "programme_version": "pas de programme publié au 2026-10-31 ; déclarations et déplacements de campagne",
-      "derniere_maj": "2026-10-31",
+      "programme_version": "pas de programme complet publié au 2026-11-14 ; premier volet du plan des « 100 jours » (énergie, 2026-11-09), déclarations et déplacements de campagne",
+      "derniere_maj": "2026-11-14",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse ciblée sur les plus gros héritages et patrimoines",
-          "detail": "Taxer les « méga héritages » au-delà de deux millions d'euros (seuil rapporté par LCP) (les « 1% les plus gros ») pour 15 Md€ ; « la taxation des mega heritages, des superprofits et des plus hauts patrimoines » ; baisse de la CSG sur les salaires financée par la taxe sur les héritages ; pas de position trouvée sur le niveau global des prélèvements",
+          "detail": "Taxer les « méga héritages » au-delà de deux millions d'euros (seuil rapporté par LCP) (les « 1% les plus gros ») pour 15 Md€ ; « la taxation des mega heritages, des superprofits et des plus hauts patrimoines » ; baisse de la CSG sur les salaires financée par la taxe sur les héritages ; contribution exceptionnelle d'un an de 5 % sur les patrimoines supérieurs à 100 millions d'euros (50 Md€, eco-05), taxe européenne sur les superprofits pétroliers et gaziers, fiscalité aérienne (env-05) ; pas de position trouvée sur le niveau global des prélèvements",
           "sources": [
             {
               "titre": "LCP, 2026-10-05",
@@ -3127,12 +3135,16 @@
             {
               "titre": "LCP, 2026-10-09",
               "url": "https://lcp.fr/actualites/glucksmann-faure-royal-maurel-guedj-quelles-differences-entre-les-candidats-a-la"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
             }
           ]
         },
         "Q-eco-patrimoine": {
           "position": "hausse sur les plus grosses successions",
-          "detail": "Taxe sur les « méga héritages » au-delà de deux millions d'euros (seuil rapporté par LCP), ciblant les « 1% les plus gros » ; « 99% des héritages ne seront pas affectés » ; rendement annoncé de 15 Md€ (périodicité non précisée) ; taxation des plus hauts patrimoines, sans barème annoncé",
+          "detail": "Taxe sur les « méga héritages » au-delà de deux millions d'euros (seuil rapporté par LCP), ciblant les « 1% les plus gros » ; « 99% des héritages ne seront pas affectés » ; rendement annoncé de 15 Md€ (périodicité non précisée) ; taxation des plus hauts patrimoines : contribution exceptionnelle (CEPIC) de 5 % sur les patrimoines supérieurs à 100 millions d'euros, pour une seule année, 50 Md€ affectés à un fonds pour la transition climatique (eco-05)",
           "sources": [
             {
               "titre": "LCP, 2026-10-05",
@@ -3145,6 +3157,10 @@
             {
               "titre": "Sud Radio (AFP), 2026-10-05",
               "url": "https://www.sudradio.fr/societe/un-dernier-debat-pour-departager-les-candidats-de-la-primaire-de-la-gauche"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
             }
           ]
         },
@@ -3231,21 +3247,29 @@
         },
         "Q-env-climat": {
           "position": "pas de position",
-          "detail": "Objectif de décarbonation de l'économie, sans échéance de neutralité carbone trouvée",
+          "detail": "Objectif de décarbonation de l'économie et plan des « 100 premiers jours pour sortir des énergies fossiles » (env-01), sans échéance de neutralité carbone trouvée",
           "sources": [
             {
               "titre": "LCP, 2026-08-25",
               "url": "https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
             }
           ]
         },
         "Q-secu-effectifs": {
           "position": "pas de position",
-          "detail": "Pas d'objectif d'effectifs trouvé ; avant la candidature, souhaite que la gauche républicaine prenne « à bras-le-corps la question de la sécurité » (livre, mai 2026)",
+          "detail": "Pas d'objectif d'effectifs trouvé ; plaide pour une présence policière continue sur le terrain, notamment dans les quartiers populaires (secu-01, grand oral du 2026-11-12) ; avant la candidature, souhaite que la gauche républicaine prenne « à bras-le-corps la question de la sécurité » (livre, mai 2026)",
           "sources": [
             {
               "titre": "LCP, 2026-05-26",
               "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -3319,7 +3343,7 @@
         },
         "Q-educ-enseign": {
           "position": "hausse",
-          "detail": "Hausse de 10 % pour tous les enseignants, jusqu'à 25 % selon la progression de carrière ; coût annoncé de 6 Md€ (périodicité non précisée)",
+          "detail": "Hausse de 10 % pour tous les enseignants, jusqu'à 25 % selon la progression de carrière ; coût annoncé de 6 Md€ (périodicité non précisée) ; reprise au grand oral du 2026-11-12",
           "sources": [
             {
               "titre": "Europe 1, 2026-08-30",
@@ -3332,16 +3356,24 @@
             {
               "titre": "Sud Radio, 2026-09-03",
               "url": "https://www.sudradio.fr/sud-radio/presidentielle-2027-comment-les-candidats-draguent-les-professeurs-et-lecole"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
         "Q-educ-univ": {
           "position": "suppression de Parcoursup",
-          "detail": "Abrogation de Parcoursup, sans dispositif de remplacement précisé ; pas de position trouvée sur le financement",
+          "detail": "Abrogation de Parcoursup ; remplacement par un logiciel « beaucoup plus égalitaire et beaucoup moins angoissant » (2026-11-12), sans autre précision ; pas de position trouvée sur le financement",
           "sources": [
             {
               "titre": "La Gazette France (AFP), 2026-10-14",
               "url": "https://www.lagazettefrance.fr/article/presidentielle-raphael-glucksmann-en-quete-du-vote-jeune"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -3375,9 +3407,14 @@
           ]
         },
         "Q-instit-constit": {
-          "position": "pas de position",
-          "detail": "Pas de révision constitutionnelle trouvée",
-          "sources": []
+          "position": "« République écologique »",
+          "detail": "Inscrire la « République écologique » à l'article 1er de la Constitution dès les 100 premiers jours (instit-01) ; il invite la droite sénatoriale à la voter",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            }
+          ]
         }
       },
       "dilemmes": {
@@ -3392,7 +3429,7 @@
           "option": "B",
           "proposition": "eco-02",
           "texte_court": "",
-          "justification": "Mesure chiffrée : hausse du salaire net par une baisse de la CSG sur les salaires, pour « rapprocher le salaire net du salaire brut », financée par la taxe sur les « méga héritages » (15 Md€) (eco-02) (la CSG est une contribution et non une cotisation ; rattachement par l'idée : baisser les prélèvements sur les salaires pour augmenter le net) ; il propose aussi un leasing social de voitures électriques pour les ménages modestes (env-02, proche de l'option D)",
+          "justification": "Mesure chiffrée : hausse du salaire net par une baisse de la CSG sur les salaires, pour « rapprocher le salaire net du salaire brut », financée par la taxe sur les « méga héritages » (15 Md€) (eco-02), reprise le 2026-11-09 (« la baisse de la CSG sur les bas salaires ») (la CSG est une contribution et non une cotisation ; rattachement par l'idée : baisser les prélèvements sur les salaires pour augmenter le net) ; il propose aussi des aides ciblées (option D) : un chèque énergie exceptionnel de 500 € pour 6 millions de familles et de 200 € pour 10 millions d'autres (env-06, montants unitaires sans coût total annoncé, qui cèdent devant le montant total de 15 Md€) et un leasing social de voitures électriques pour les ménages modestes (env-02)",
           "sources": [
             {
               "titre": "LCP, 2026-10-09",
@@ -3405,6 +3442,10 @@
             {
               "titre": "Les Nouvelles Calédoniennes (AFP), 2026-08-24",
               "url": "https://www.lnc.nc/article/presidentielle-l-eurodepute-de-centre-gauche-glucksmann-officialise-sa-candidature"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
             }
           ]
         },
@@ -3439,10 +3480,10 @@
           ]
         },
         "D-env-rythme": {
-          "option": "A",
-          "proposition": "env-01",
+          "option": "B",
+          "proposition": "env-05",
           "texte_court": "",
-          "justification": "Accélération : « 100 jours de la révolution écologique » dès l'élection, priorité à la sortie du gaz et du pétrole (env-01) ; pas de mesure trouvée faisant contribuer d'abord les plus gros émetteurs (option B) ; plan non chiffré ; il ne dit pas accepter une hausse des prix et propose de protéger les ménages modestes (env-02)",
+          "justification": "Accélération : plan des « 100 premiers jours pour sortir des énergies fossiles », 200 Md€ d'investissements publics engagés dès le début du quinquennat (env-01, 2026-11-09) ; financement par une taxe européenne sur les superprofits pétroliers et gaziers, une nouvelle fiscalité aérienne et la suppression de l'exonération de kérosène sur les vols intérieurs (env-05), ce qui fait contribuer d'abord des secteurs fortement émetteurs (option B ; l'article ne les présente pas explicitement comme une mise à contribution des émetteurs) ; la recette chiffrée principale (50 Md€) vient d'une contribution exceptionnelle sur les patrimoines supérieurs à 100 M€ (eco-05), qui ne relève d'aucune option ; il écarte une hausse des prix pour les ménages (moratoire sur les hausses de taxes sur l'électricité, env-07 ; chèque énergie, env-06), contrairement à l'option A, rattachement antérieur",
           "sources": [
             {
               "titre": "LCP, 2026-08-25",
@@ -3451,6 +3492,10 @@
             {
               "titre": "L'Info Durable, 2026-10-12",
               "url": "https://www.linfodurable.fr/politique/apres-la-primaire-quelles-ambitions-ecologiques-pour-raphael-glucksmann-59331"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
             }
           ]
         },
@@ -3458,8 +3503,13 @@
           "option": "pas de position",
           "proposition": "",
           "texte_court": "",
-          "justification": "",
-          "sources": []
+          "justification": "Présence policière continue sur le terrain (secu-01, grand oral du 2026-11-12, rapportée par la narration), sans hausse d'effectifs ni de budget annoncée : rattachement à l'option A non retenu à ce stade",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
         },
         "D-immig-travail": {
           "option": "B",
@@ -3508,11 +3558,15 @@
           "option": "B",
           "proposition": "educ-01",
           "texte_court": "",
-          "justification": "Mesure chiffrée : hausse de 10 à 25 % de la rémunération des enseignants, 6 Md€ (educ-01) ; il propose aussi moins d'élèves par classe en primaire (educ-02, option A, voisine)",
+          "justification": "Mesure chiffrée : hausse de 10 à 25 % de la rémunération des enseignants, 6 Md€ (educ-01) ; reprise au grand oral du 2026-11-12 ; il propose aussi moins d'élèves par classe en primaire (educ-02, option A, voisine)",
           "sources": [
             {
               "titre": "Public Sénat, 2026-08-31",
               "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -3543,23 +3597,23 @@
       "phares": [
         {
           "rang": 1,
-          "proposition": "env-02",
-          "motif": "Annonce dédiée la plus récente : déplacement à l'usine Renault de Cléon consacré à l'écologie et à la voiture électrique, 2026-10-02 ; réaction à la mobilisation lycéenne en marge du déplacement (non retenue comme annonce)",
+          "proposition": "env-01",
+          "motif": "Annonce dédiée la plus récente : présentation publique avec Yannick Jadot consacrée au plan des « 100 premiers jours pour sortir des énergies fossiles », 2026-11-09 ; mesure principale : 200 Md€ d'investissements",
           "sources": [
             {
-              "titre": "L'Info Durable, 2026-10-02",
-              "url": "https://www.linfodurable.fr/en-seine-maritime-glucksmann-defend-les-voitures-electriques-et-la-transition-ecologique-59229"
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
             }
           ]
         },
         {
           "rang": 2,
-          "proposition": "env-01",
-          "motif": "Annonce dédiée : premier déplacement de candidat, dans un parc éolien de Saint-Jean-de-Liversay (Charente-Maritime), consacré à l'écologie, 2026-08-25",
+          "proposition": "env-02",
+          "motif": "Annonce dédiée : déplacement à l'usine Renault de Cléon consacré à l'écologie et à la voiture électrique, 2026-10-02 ; réaction à la mobilisation lycéenne en marge du déplacement (non retenue comme annonce)",
           "sources": [
             {
-              "titre": "LCP, 2026-08-25",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la"
+              "titre": "L'Info Durable, 2026-10-02",
+              "url": "https://www.linfodurable.fr/en-seine-maritime-glucksmann-defend-les-voitures-electriques-et-la-transition-ecologique-59229"
             }
           ]
         }
@@ -3642,6 +3696,34 @@
             {
               "titre": "LCP, 2026-06-14",
               "url": "https://lcp.fr/actualites/gagner-en-2027-raphael-glucksmann-lance-sa-campagne-et-veut-ramener-la-gauche-au-pouvoir"
+            }
+          ]
+        },
+        {
+          "id": "eco-05",
+          "theme": "eco",
+          "proposition": "Contribution exceptionnelle (CEPIC) de 5 % sur les patrimoines supérieurs à 100 millions d'euros, pour une seule année, affectée à un fonds pour la transition climatique",
+          "chiffrage_annonce": "50 Md€ de recettes, une seule fois",
+          "chiffrage_independant": "",
+          "calendrier": "une année",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            }
+          ]
+        },
+        {
+          "id": "eco-06",
+          "theme": "eco",
+          "proposition": "Fusionner le Livret A et le LDDS en un « livret de souveraineté écologique et sociale » au plafond doublé par rapport au Livret A et rémunéré à 2,5 %, pour financer la transition, le logement social et des prêts à taux bas aux collectivités",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
             }
           ]
         },
@@ -3738,11 +3820,15 @@
         {
           "id": "env-01",
           "theme": "env",
-          "proposition": "Engager « les 100 jours de la révolution écologique » dès l'élection, avec pour priorité la sortie du gaz et du pétrole ; rénovation thermique des bâtiments, efficacité énergétique, sobriété",
-          "chiffrage_annonce": "non chiffré : « Nous le chiffrerons lors de la présentation de ce plan » (L'Info Durable)",
+          "proposition": "Engager « les 100 jours de la révolution écologique » dès l'élection, avec pour priorité la sortie du gaz et du pétrole ; rénovation thermique des bâtiments, efficacité énergétique, sobriété ; premier volet présenté le 2026-11-09 : plan des « 100 premiers jours pour sortir des énergies fossiles », 200 Md€ d'investissements engagés par l'ensemble des administrations publiques (État, collectivités, Sécurité sociale) dès les premiers jours du quinquennat",
+          "chiffrage_annonce": "200 Md€ d'investissements (durée et périodicité non précisées)",
           "chiffrage_independant": "",
-          "calendrier": "100 premiers jours du mandat",
+          "calendrier": "100 premiers jours du mandat ; deuxième volet annoncé « dans les prochaines semaines »",
           "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            },
             {
               "titre": "LCP, 2026-08-25",
               "url": "https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la"
@@ -3756,11 +3842,15 @@
         {
           "id": "env-02",
           "theme": "env",
-          "proposition": "Leasing social : un million de voitures électriques mises à disposition des ménages modestes pour « 100 euros par mois »",
+          "proposition": "Leasing social : un million de voitures électriques mises à disposition des ménages modestes pour « 100 euros par mois » ; précisé le 2026-11-09 : voitures compactes, sans apport, pour les actifs gagnant moins de 2 000 euros net par mois et parcourant plus de 30 km par jour pour travailler ; 100 000 véhicules la première année réservés aux soignants, infirmières libérales et auxiliaires de vie en zone rurale",
           "chiffrage_annonce": "6 Md€ (périodicité non précisée)",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "sur cinq ans",
           "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            },
             {
               "titre": "L'Info Durable, 2026-10-02",
               "url": "https://www.linfodurable.fr/en-seine-maritime-glucksmann-defend-les-voitures-electriques-et-la-transition-ecologique-59229"
@@ -3804,6 +3894,104 @@
             {
               "titre": "La Gazette France (AFP), 2026-08-25",
               "url": "https://www.lagazettefrance.fr/article/presidentielle-glucksmann-promet-la-revolution-ecologique-des-sa-victoire"
+            }
+          ]
+        },
+        {
+          "id": "env-05",
+          "theme": "env",
+          "proposition": "Financer la transition par une taxe européenne sur les superprofits pétroliers et gaziers, une nouvelle fiscalité aérienne et sur la consommation ostentatoire, la suppression de l'exonération de kérosène sur les vols intérieurs et un grand emprunt écologique européen",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            }
+          ]
+        },
+        {
+          "id": "env-06",
+          "theme": "env",
+          "proposition": "Chèque énergie exceptionnel : « un chèque énergie exceptionnel de 500 euros pour 6 millions de familles », et 200 euros pour 10 millions de familles supplémentaires des classes moyennes",
+          "chiffrage_annonce": "montants unitaires, sans coût total annoncé",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            }
+          ]
+        },
+        {
+          "id": "env-07",
+          "theme": "env",
+          "proposition": "Moratoire sur les hausses de taxes sur l'électricité",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            }
+          ]
+        },
+        {
+          "id": "env-08",
+          "theme": "env",
+          "proposition": "Vendre à tarif social un million de pompes à chaleur (1 euro par jour)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            }
+          ]
+        },
+        {
+          "id": "env-09",
+          "theme": "env",
+          "proposition": "Créer un Pass Mobilité Durable à 1 euro par jour pour les moins de 25 ans",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            }
+          ]
+        },
+        {
+          "id": "env-10",
+          "theme": "env",
+          "proposition": "Adopter une loi de programmation écologique, sur le modèle de la loi de programmation militaire",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            }
+          ]
+        },
+        {
+          "id": "secu-01",
+          "theme": "secu",
+          "proposition": "Assurer une présence policière continue sur le terrain, notamment dans les quartiers populaires (grand oral de Radio France, 2026-11-12, rapporté par la narration)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -3900,6 +4088,10 @@
             {
               "titre": "Sud Radio, 2026-09-03",
               "url": "https://www.sudradio.fr/sud-radio/presidentielle-2027-comment-les-candidats-draguent-les-professeurs-et-lecole"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -3946,7 +4138,7 @@
         {
           "id": "educ-04",
           "theme": "educ",
-          "proposition": "Abroger Parcoursup, sans dispositif de remplacement précisé",
+          "proposition": "Abroger Parcoursup et le remplacer par un logiciel « beaucoup plus égalitaire et beaucoup moins angoissant » (2026-11-12), sans autre précision",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -3954,13 +4146,17 @@
             {
               "titre": "La Gazette France (AFP), 2026-10-14",
               "url": "https://www.lagazettefrance.fr/article/presidentielle-raphael-glucksmann-en-quete-du-vote-jeune"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
         {
           "id": "educ-05",
           "theme": "educ",
-          "proposition": "Conditionner l'octroi des aides publiques à des critères de mixité sociale",
+          "proposition": "Conditionner l'octroi des aides publiques à des critères de mixité sociale ; précisé le 2026-11-12 : subventions aux établissements privés conditionnées à leurs efforts de mixité sociale",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -3968,6 +4164,10 @@
             {
               "titre": "La Gazette France (AFP), 2026-10-14",
               "url": "https://www.lagazettefrance.fr/article/presidentielle-raphael-glucksmann-en-quete-du-vote-jeune"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -3982,6 +4182,20 @@
             {
               "titre": "L'Info Durable (AFP), 2026-06-25",
               "url": "https://www.linfodurable.fr/canicule-glucksmann-promet-un-grand-plan-de-renovation-thermique-des-ecoles-57447"
+            }
+          ]
+        },
+        {
+          "id": "instit-01",
+          "theme": "instit",
+          "proposition": "Inscrire la « République écologique » à l'article 1er de la Constitution ; à la droite sénatoriale : « la droite sénatoriale, si ça se trouve, sera ravie de voter la République écologique »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "100 premiers jours du mandat",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
             }
           ]
         }
@@ -4022,6 +4236,20 @@
             {
               "titre": "Boursedirect (AFP), 2026-10-23",
               "url": "https://www.boursedirect.fr/fr/actualites/categorie/politique/raphael-glucksmann-un-debut-de-campagne-percute-par-la-crise-sociale-afp-30d20e5b24f4ef436a69cdeb696c7dcfb2275fe2"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-09",
+          "description": "présentation du premier volet du plan des « 100 jours », chiffré à 200 Md€ d'investissements, alors qu'il était jusque-là non chiffré (« Nous le chiffrerons lors de la présentation de ce plan », L'Info Durable, 2026-10-12) ; rattachement de D-env-rythme revu de A à B au vu de son financement [Public Sénat, 2026-11-09](https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique) ; [L'Info Durable, 2026-10-12](https://www.linfodurable.fr/politique/apres-la-primaire-quelles-ambitions-ecologiques-pour-raphael-glucksmann-59331)",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-09",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+            },
+            {
+              "titre": "L'Info Durable, 2026-10-12",
+              "url": "https://www.linfodurable.fr/politique/apres-la-primaire-quelles-ambitions-ecologiques-pour-raphael-glucksmann-59331"
             }
           ]
         }
@@ -5338,7 +5566,7 @@
       "date_declaration": "2026-03-31",
       "programme_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "programme_version": "« Le programme de David Lisnard pour 2027 » sur unenouvelleenergie.fr (pages non datées, consultées le 2026-10-25) + discours et annonces de campagne (2026-03-31 à 2026-10-28)",
-      "derniere_maj": "2026-10-31",
+      "derniere_maj": "2026-11-14",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
@@ -5804,7 +6032,7 @@
           "option": "C",
           "proposition": "educ-05",
           "texte_court": "",
-          "justification": "Aucune mesure chiffrée en euros (la hausse de 20 % des rémunérations est un objectif quantifié) : ordre de présentation de la page éducation, dont la première partie porte sur la carte scolaire et le chèque-éducation (educ-01, sans option correspondante) puis sur l'autonomie des chefs d'établissement (educ-05) ; il propose aussi le certificat de fin de primaire et le recentrage sur les fondamentaux (educ-02, option D), la hausse de 20 % des rémunérations en cinq ans (educ-03, option B) et un corps d'enseignants contractuels recrutés par concours (educ-04)",
+          "justification": "Aucune mesure chiffrée en euros (la hausse de 20 % des rémunérations est un objectif quantifié) : ordre de présentation de la page éducation, dont la première partie porte sur la carte scolaire et le chèque-éducation (educ-01, sans option correspondante) puis sur l'autonomie des chefs d'établissement (educ-05) ; il propose aussi le certificat de fin de primaire et le recentrage sur les fondamentaux (educ-02, option D), la hausse de 20 % des rémunérations en cinq ans (educ-03, option B) et un corps d'enseignants contractuels recrutés par concours (educ-04) ; dans l'entretien au podcast « Destinée » (2026-11-13), même ordre : libre choix de l'établissement, publication des évaluations des établissements, autonomie, puis notes chiffrées et évaluations en CM2, sixième et troisième (educ-09, option D) ; rémunération sans montant",
           "sources": [
             {
               "titre": "NE, éducation",
@@ -5813,6 +6041,10 @@
             {
               "titre": "NE, « Générer »",
               "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/"
+            },
+            {
+              "titre": "Nouvelle Énergie, podcast « Destinée », 2026-11-13",
+              "url": "https://www.unenouvelleenergie.fr/david-lisnard-dans-le-podcast-destinee-faire-de-la-france-une-superpuissance-educative/"
             }
           ]
         },
@@ -6028,6 +6260,20 @@
           ]
         },
         {
+          "id": "eco-10",
+          "theme": "eco",
+          "proposition": "Innovation (débat des Rencontres de l’Avenir, Saint-Raphaël, 2026-11-06, selon le site du parti) : « Créer une structure franco-européenne inspirée de la DARPA américaine, capable de soutenir les innovations stratégiques » ; « Exiger des implantations industrielles et des transferts de technologie en Europe » lorsqu'il est fait appel à des fournisseurs étrangers",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Nouvelle Énergie, Rencontres de l’Avenir, 2026-11-13",
+              "url": "https://www.unenouvelleenergie.fr/intelligence-artificielle-robotique-economie-david-lisnard-defend-une-france-conquerante-aux-rencontres-de-lavenir/"
+            }
+          ]
+        },
+        {
           "id": "social-01",
           "theme": "social",
           "proposition": "Âge légal de 65 ans : « la norme de l'âge légal de 65 ans est un impératif national urgent pour des raisons d'équilibre financier » (NE)",
@@ -6118,7 +6364,7 @@
         {
           "id": "social-07",
           "theme": "social",
-          "proposition": "« la mise en place progressive d'une capitalisation obligatoire », avec « un système par répartition comme filet de sécurité » ; « libérer davantage les plans d'épargne en actions (PEA) » ; engagement à ne pas modifier la fiscalité de l'assurance-vie",
+          "proposition": "« la mise en place progressive d'une capitalisation obligatoire », avec « un système par répartition comme filet de sécurité » ; « libérer davantage les plans d'épargne en actions (PEA) » ; engagement à ne pas modifier la fiscalité de l'assurance-vie ; capitalisation obligatoire réaffirmée le 2026-11-06, avec « la création d'un fonds souverain pour les épargnants » (rédaction du site du parti)",
           "chiffrage_annonce": "non chiffré",
           "chiffrage_independant": "",
           "calendrier": "progressif",
@@ -6126,6 +6372,10 @@
             {
               "titre": "Assises de l'AFER, 2026-09-29",
               "url": "https://www.unenouvelleenergie.fr/david-lisnard-aux-assises-de-lafer-etre-proprietaire-cest-etre-libre-et-responsable/"
+            },
+            {
+              "titre": "Nouvelle Énergie, Rencontres de l’Avenir, 2026-11-13",
+              "url": "https://www.unenouvelleenergie.fr/intelligence-artificielle-robotique-economie-david-lisnard-defend-une-france-conquerante-aux-rencontres-de-lavenir/"
             }
           ]
         },
@@ -6684,6 +6934,34 @@
           ]
         },
         {
+          "id": "educ-09",
+          "theme": "educ",
+          "proposition": "Évaluations : « rétablir les notes chiffrées, de mettre en place des évaluations en CM2, en sixième et en troisième » ; « rendre accessibles les évaluations des établissements, réalisées selon des critères objectifs » (rédaction du site du parti, entretien au podcast « Destinée »)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Nouvelle Énergie, podcast « Destinée », 2026-11-13",
+              "url": "https://www.unenouvelleenergie.fr/david-lisnard-dans-le-podcast-destinee-faire-de-la-france-une-superpuissance-educative/"
+            }
+          ]
+        },
+        {
+          "id": "educ-10",
+          "theme": "educ",
+          "proposition": "Créer « un grand ministère du savoir » réunissant l'éducation, la culture, la science et l'enseignement supérieur (rédaction du site du parti)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Nouvelle Énergie, Rencontres de l’Avenir, 2026-11-13",
+              "url": "https://www.unenouvelleenergie.fr/intelligence-artificielle-robotique-economie-david-lisnard-defend-une-france-conquerante-aux-rencontres-de-lavenir/"
+            }
+          ]
+        },
+        {
           "id": "sante-01",
           "theme": "sante",
           "proposition": "« Nous voulons doubler le nombre d’étudiants en médecine d’ici 2030 » ; « supprimer Parcoursup » (NE)",
@@ -6906,7 +7184,7 @@
       "date_declaration": "2026-05-03",
       "programme_url": "https://melenchon2027.fr/programme/decouvrir/",
       "programme_version": "L'Avenir en commun, le programme de la Nouvelle France (livre paru le 2026-11-06, 1 069 mesures ; livre non lu, changements relevés par LCP et élection.fr) + édition 2025 pour les mesures non reprises par ces comptes rendus + orientations budgétaires 2027 (2026-10-15)",
-      "derniere_maj": "2026-11-08",
+      "derniere_maj": "2026-11-14",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse",
@@ -7161,8 +7439,8 @@
           ]
         },
         "Q-europe-ukraine": {
-          "position": "cessez-le-feu négocié",
-          "detail": "Cadre diplomatique pour un cessez-le-feu, le retrait russe et des négociations de paix",
+          "position": "cessez-le-feu négocié ; vote des populations sur toute modification de frontière",
+          "detail": "Cadre diplomatique pour un cessez-le-feu, le retrait russe et des négociations de paix ; refus d'une paix « avec des concessions territoriales en Ukraine sans qu'on demande aux populations concernées si elles sont d'accord » (meeting du Bourget, 2026-11-07) ; « nous voulons conditionner toute modification de la frontière à un vote des populations concernées » (2026-11-09)",
           "sources": [
             {
               "titre": "AEC 2025",
@@ -7171,6 +7449,14 @@
             {
               "titre": "relevé",
               "url": "https://votons-2027.fr/candidats/melenchon/programme"
+            },
+            {
+              "titre": "LCP, 2026-11-10",
+              "url": "https://lcp.fr/actualites/accuse-de-se-faire-le-porte-parole-du-kremlin-jean-luc-melenchon-replique-sur-l-ukraine"
+            },
+            {
+              "titre": "Euronews, 2026-11-09",
+              "url": "https://fr.euronews.com/2026/11/09/statut-du-donbass-la-diplomatie-ukrainienne-recadre-jean-luc-melenchon"
             }
           ]
         },
@@ -7450,7 +7736,7 @@
           "option": "D",
           "proposition": "europe-02",
           "texte_court": "",
-          "justification": "Priorité à la diplomatie : cadre diplomatique pour un cessez-le-feu et des négociations de paix en Ukraine (europe-02), sortie de l'OTAN (europe-01)",
+          "justification": "Priorité à la diplomatie : cadre diplomatique pour un cessez-le-feu et des négociations de paix en Ukraine (europe-02), sortie de l'OTAN (europe-01) ; toute modification de frontière en Ukraine conditionnée à un vote des populations concernées (europe-09, 2026-11-09)",
           "sources": [
             {
               "titre": "AEC 2025",
@@ -7463,6 +7749,10 @@
             {
               "titre": "Lettre au peuple de France, 2026-05-05",
               "url": "https://melenchon.fr/wp-content/uploads/2026/05/LETTRE-AU-PEUPLE-DE-FRANCE-.pdf"
+            },
+            {
+              "titre": "LCP, 2026-11-10",
+              "url": "https://lcp.fr/actualites/accuse-de-se-faire-le-porte-parole-du-kremlin-jean-luc-melenchon-replique-sur-l-ukraine"
             }
           ]
         },
@@ -7668,6 +7958,20 @@
             {
               "titre": "Budget 2027, p. 7, 11 et 14-16",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            }
+          ]
+        },
+        {
+          "id": "eco-09",
+          "theme": "eco",
+          "proposition": "Investir 22 milliards d'euros dans les services publics dès les premiers mois du quinquennat (grand oral de Radio France sur les services publics, propos paraphrasés par Public Sénat ; ventilation non précisée)",
+          "chiffrage_annonce": "22 Md€ selon lui",
+          "chiffrage_independant": "",
+          "calendrier": "premiers mois du quinquennat",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -8278,6 +8582,24 @@
           ]
         },
         {
+          "id": "europe-09",
+          "theme": "europe",
+          "proposition": "Ukraine : « conditionner toute modification de la frontière à un vote des populations concernées » (2026-11-09) ; au meeting du Bourget (2026-11-07), il évoque les « droits de la population du Donbass, qui a le droit de savoir si elle veut être ukrainienne ou russe » et refuse les « concessions territoriales uniquement décidées par le haut » ; LFI dénonce des « accusations grotesques » dans une mise au point du 2026-11-09 (connue par LCP)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-10",
+              "url": "https://lcp.fr/actualites/accuse-de-se-faire-le-porte-parole-du-kremlin-jean-luc-melenchon-replique-sur-l-ukraine"
+            },
+            {
+              "titre": "Euronews, 2026-11-09",
+              "url": "https://fr.euronews.com/2026/11/09/statut-du-donbass-la-diplomatie-ukrainienne-recadre-jean-luc-melenchon"
+            }
+          ]
+        },
+        {
           "id": "educ-01",
           "theme": "educ",
           "proposition": "Créer 500 000 places en crèche ou en mode de garde",
@@ -8396,6 +8718,20 @@
             {
               "titre": "Budget 2027, p. 9",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            }
+          ]
+        },
+        {
+          "id": "educ-08",
+          "theme": "educ",
+          "proposition": "Voie professionnelle : rétablir le baccalauréat professionnel en quatre ans (trois aujourd'hui) ; garantir aux élèves une rémunération au-dessus du seuil de pauvreté, situé selon lui vers 1 300 euros ; fermer certaines écoles professionnelles privées accusées de délivrer des diplômes sans valeur (grand oral de Radio France, propos paraphrasés par Public Sénat)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -8688,9 +9024,9 @@
       "statut": "déclaré",
       "inclus": true,
       "date_declaration": "2024-09-03",
-      "programme_url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
-      "programme_version": "priorités publiées sur edouardphilippe.fr (non datées, consultées le 2026-10-25 et relues le 2026-10-31) + déclarations de campagne",
-      "derniere_maj": "2026-10-31",
+      "programme_url": "https://www.edouardphilippe.fr/programme",
+      "programme_version": "v1 (2026-11-12) — programme en ligne sur edouardphilippe.fr/programme, 15 thématiques, « Mise à jour le 12 novembre 2026 », consulté le 2026-11-14 ; complété par les priorités (non datées) et les déclarations de campagne",
+      "derniere_maj": "2026-11-14",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
@@ -8718,21 +9054,29 @@
         },
         "Q-eco-deficit": {
           "position": "2 % du PIB en fin de quinquennat",
-          "detail": "Contre plus de 5 % aujourd'hui ; effort réparti entre dépenses sociales (50 %), État et collectivités (25 %) et croissance (25 %)",
+          "detail": "Contre plus de 5 % aujourd'hui ; effort réparti entre dépenses sociales (50 %), État et collectivités (25 %) et croissance (25 %) ; aucun montant d'économies en euros dans le programme",
           "sources": [
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
             }
           ]
         },
         "Q-social-retraite": {
           "position": "65 ans",
-          "detail": "45 annuités, en moins de dix ans ; départs anticipés maintenus pour raisons de santé ; « un Français sur trois pourra partir entre 60 et 64 ans », selon lui",
+          "detail": "45 annuités, en moins de dix ans ; départs anticipés maintenus pour raisons de santé ; « un Français sur trois pourra partir entre 60 et 64 ans », selon lui ; départs anticipés pour carrières longues maintenus",
           "sources": [
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Retraites »",
+              "url": "https://www.edouardphilippe.fr/programme/retraites"
             },
             {
               "titre": "LCP, 2026-09-29",
@@ -8747,11 +9091,19 @@
         },
         "Q-social-chomage": {
           "position": "réduction de la durée d'indemnisation",
-          "detail": "Durée d'indemnisation limitée à 12 mois pour les moins de 50 ans, contre 18 mois aujourd'hui",
+          "detail": "Durée d'indemnisation limitée à 12 mois pour les moins de 50 ans, contre 18 mois aujourd'hui ; durée du RSA limitée",
           "sources": [
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Travail et salaires »",
+              "url": "https://www.edouardphilippe.fr/programme/travail"
+            },
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
             }
           ]
         },
@@ -8772,16 +9124,24 @@
             {
               "titre": "Priorités « Conquérante »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+            },
+            {
+              "titre": "Programme « Énergie »",
+              "url": "https://www.edouardphilippe.fr/programme/energie"
             }
           ]
         },
         "Q-env-renouv": {
           "position": "pour",
-          "detail": "« en développant les renouvelables », sans objectif chiffré",
+          "detail": "« Relancer le nucléaire et développer les renouvelables là où elles sont efficaces. », sans objectif chiffré",
           "sources": [
             {
               "titre": "Priorités « Conquérante »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+            },
+            {
+              "titre": "Programme « Énergie »",
+              "url": "https://www.edouardphilippe.fr/programme/energie"
             }
           ]
         },
@@ -8797,11 +9157,15 @@
         },
         "Q-secu-justice": {
           "position": "peines planchers et courtes peines",
-          "detail": "Peines planchers pour les infractions les plus graves, courtes peines dès la première infraction, suppression du juge d'application des peines",
+          "detail": "Peines planchers pour les infractions les plus graves, courtes peines dès la première infraction, suppression du juge d'application des peines ; « Une loi d’accélération de la construction de prisons. » ; retour des juges de paix",
           "sources": [
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
             }
           ]
         },
@@ -8854,7 +9218,7 @@
         },
         "Q-europe-defense": {
           "position": "pas de position",
-          "detail": "Pas de niveau de dépense en % du PIB trouvé ; nouvelle loi de programmation militaire « de la massification » (voir europe-01 à europe-03)",
+          "detail": "Pas de niveau de dépense en % du PIB trouvé pour le budget français (le programme en ligne n'en donne pas) ; nouvelle loi de programmation militaire « de la massification » (voir europe-01 à europe-03) ; au moins 1 % de la richesse des pays européens de l'OTAN pour des équipements fabriqués en Europe (europe-07)",
           "sources": []
         },
         "Q-europe-otan": {
@@ -8888,6 +9252,10 @@
             {
               "titre": "edouardphilippe.fr, L'école : questions-réponses, 2026-10-23",
               "url": "https://www.edouardphilippe.fr/questions-reponses/ecoles"
+            },
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
             }
           ]
         },
@@ -8951,8 +9319,12 @@
           "option": "A",
           "proposition": "eco-03",
           "texte_court": "",
-          "justification": "Pas de nouvel impôt (eco-01, option B écartée) ; réduction du déficit à 2 % du PIB portée pour 75 % par la baisse des dépenses : « 50 % de l'effort sur les dépenses sociales et un quart sur l'État et les collectivités » (eco-03, eco-05) ; seule économie chiffrée en euros : « environ 30 milliards d'euros » en année pleine pour la réforme des retraites (social-01) ; il compte aussi sur la croissance pour « un quart » de l'effort (option D)",
+          "justification": "Programme (2026-11-12) : « Ne créer aucun nouvel impôt pendant cinq ans » (eco-01, option B écartée) ; déficit ramené « de plus de 5 % à 2 % » du PIB, l'effort portant pour 75 % sur la baisse des dépenses : 50 % sur les dépenses sociales (retraites, chômage, arrêts maladie) et 25 % sur l'État et les collectivités (eco-03, eco-05, eco-07) ; le programme ne donne aucun montant d'économies en euros ; seule économie chiffrée en euros, hors programme : « environ 30 milliards d'euros » en année pleine pour la réforme des retraites (social-01) ; il compte aussi sur la croissance et l'emploi pour 25 % de l'effort (option D)",
           "sources": [
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
+            },
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
@@ -8967,8 +9339,12 @@
           "option": "B",
           "proposition": "social-04",
           "texte_court": "",
-          "justification": "Mesure chiffrée en euros de la priorité « Alléger la charge sur les actifs » : exonération de cotisations et d'impôt des heures supplémentaires, « soit environ 1 000 € de plus par an au SMIC pour deux heures de plus par semaine » (social-04), avec un financement du modèle social « pour qu'il ne repose plus uniquement sur le travail » ; il propose aussi une allocation familiale unique de 350 € par mois « dégressive avec le revenu » (social-06, proche de l'option D) et la suppression de l'impôt sur le revenu des classes moyennes pendant les trois premières années de l'enfant (social-07)",
+          "justification": "Première mesure mise en avant de la page « Travail et salaires » : « Financer la protection sociale autrement que par le travail, pour augmenter le salaire net. » ; mesure chiffrée en euros : heures supplémentaires sans impôt ni cotisation et plus de cotisation patronale au-delà de la 37e heure, « environ 1 000 € de plus par an » au SMIC pour deux heures de plus par semaine (social-04) ; il propose aussi une allocation familiale unique de 350 € par mois « dégressive avec le revenu » (social-06, proche de l'option D) et la suppression de l'impôt sur le revenu des classes moyennes pendant les trois premières années de l'enfant (social-07)",
           "sources": [
+            {
+              "titre": "Programme « Travail et salaires »",
+              "url": "https://www.edouardphilippe.fr/programme/travail"
+            },
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
@@ -8983,11 +9359,11 @@
           "option": "A",
           "proposition": "social-01",
           "texte_court": "",
-          "justification": "Âge de départ à 65 ans et 45 annuités (social-01), seule mesure chiffrée en euros : « un gain chiffré en année pleine d'environ 30 milliards d'euros » ; une part de capitalisation est aussi prévue (social-02, option D, non voisine)",
+          "justification": "Première mesure de la page « Retraites » : « Porter progressivement l’âge de départ à 65 ans et la durée de cotisation à 45 ans en moins de dix ans » (social-01), « sans hausse des cotisations » (option B écartée) ; seule mesure chiffrée en euros : « un gain chiffré en année pleine d'environ 30 milliards d'euros » (AFP) ; une part de capitalisation collective est aussi prévue (social-02, option D, non voisine) ; pas de contribution du capital ou des patrimoines (option C)",
           "sources": [
             {
-              "titre": "Priorités « Prospère »",
-              "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+              "titre": "Programme « Retraites »",
+              "url": "https://www.edouardphilippe.fr/programme/retraites"
             },
             {
               "titre": "La Gazette France (AFP), 2026-09-29",
@@ -9003,8 +9379,16 @@
           "option": "A",
           "proposition": "social-03",
           "texte_court": "",
-          "justification": "« Réduire à 12 mois maximum la durée d'indemnisation chômage pour les moins de 50 ans » (social-03), contre 18 mois aujourd'hui",
+          "justification": "« Limiter à 12 mois l'indemnisation chômage des moins de 50 ans » (social-03), contre 18 mois aujourd'hui, et limitation de la durée du RSA (social-09) ; il propose aussi de « Développer l'apprentissage » (social-13, proche de l'option B), sans chiffrage",
           "sources": [
+            {
+              "titre": "Programme « Travail et salaires »",
+              "url": "https://www.edouardphilippe.fr/programme/travail"
+            },
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
+            },
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
@@ -9015,8 +9399,12 @@
           "option": "A",
           "proposition": "env-01",
           "texte_court": "",
-          "justification": "Présenté en premier, sans montant en euros : « lancement de 8 EPR supplémentaires en plus des 6 déjà prévus » (env-01) ; puis « en développant les renouvelables », sans objectif chiffré (ni développement massif, option B, ni parts comparables, option C)",
+          "justification": "Sans montant en euros, le nucléaire vient en premier et seul chiffré : « Relancer le nucléaire et développer les renouvelables là où elles sont efficaces. » ; « 8 EPR supplémentaires, en plus des 6 déjà prévus, soit 14 nouveaux réacteurs » (env-01) ; renouvelables « aux côtés du nucléaire », sans objectif chiffré (ni développement massif, option B, ni parts comparables, option C) ; électrification des usages (env-05)",
           "sources": [
+            {
+              "titre": "Programme « Énergie »",
+              "url": "https://www.edouardphilippe.fr/programme/energie"
+            },
             {
               "titre": "Priorités « Conquérante »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
@@ -9031,11 +9419,20 @@
           "sources": []
         },
         "D-secu-budget": {
-          "option": "pas de position",
-          "proposition": "",
+          "option": "B",
+          "proposition": "secu-08",
           "texte_court": "",
-          "justification": "",
-          "sources": []
+          "justification": "Programme (2026-11-12) : aucune mesure chiffrée en euros ; parmi les mesures de moyens de la page « Justice », la première présentée est « Une loi d’accélération de la construction de prisons. » (secu-08), après trois mesures pénales (peines planchers, courtes peines, suppression du juge d'application des peines, secu-01 à secu-03) ; viennent ensuite le retour des juges de paix pour « une justice civile plus rapide et plus proche » (secu-09, proche de l'option C, non voisine) et une réforme du recrutement des magistrats (secu-06) ; ni hausse d'effectifs de police ou de gendarmerie (option A) ni prévention (option D) sur cette page ; la page « Sécurité » (mise à jour le 2026-11-12) ne contient ni hausse chiffrée des effectifs de police ou de gendarmerie ni volet prévention",
+          "sources": [
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
+            },
+            {
+              "titre": "Programme « Sécurité »",
+              "url": "https://www.edouardphilippe.fr/programme/securite"
+            }
+          ]
         },
         "D-immig-travail": {
           "option": "A",
@@ -9062,10 +9459,14 @@
         },
         "D-europe-defense": {
           "option": "A",
-          "proposition": "europe-01",
+          "proposition": "europe-03",
           "texte_court": "",
-          "justification": "Renforcement des armées nationales, seule orientation de défense de son programme : « Massifier nos armées pour garantir la sécurité et la puissance de la France » (réservistes, service militaire volontaire, drones, munitions, europe-01 à europe-03), avec une « nouvelle LPM (Loi de programmation militaire) de la massification », « au-delà de la LPM actuelle qui épaissit les armées sans les étendre » ; aucun montant en euros ni niveau en % du PIB annoncé ; ni défense européenne commune ni OTAN dans le programme",
+          "justification": "Renforcement des armées nationales, première mesure de la page « Défense » : « Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. » (europe-03), puis service militaire volontaire de 50 000 jeunes par an et 250 000 réservistes (europe-01, europe-02) ; aucun montant en euros ni niveau en % du PIB pour le budget français ; volet européen limité à des armements « made in Europe » (europe-07, au moins 1 % de la richesse des pays européens de l'OTAN pour des équipements fabriqués en Europe), sans défense européenne commune (option B) ni renforcement dans l'OTAN (option C)",
           "sources": [
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
+            },
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
@@ -9076,15 +9477,19 @@
           "option": "B",
           "proposition": "educ-01",
           "texte_court": "",
-          "justification": "Seule mesure scolaire chiffrée en euros : « Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat » (educ-01), « soit près de 7 000 euros annuels de plus à la fin du quinquennat par rapport à aujourd'hui » ; le programme présente d'abord l'autonomie des établissements (« Faire des chefs d'établissements les véritables patrons de l'école », educ-03, option C), puis les savoirs fondamentaux et les évaluations rendues publiques (educ-02, educ-04, option D) ; il propose aussi de « Réduire les effectifs d'élèves en classe » (educ-05, option A, voisine)",
+          "justification": "Première mesure de la page « École » du programme : « Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat. » (educ-01), seule mesure scolaire chiffrée en euros (« près de 7 000 euros annuels de plus à la fin du quinquennat », questions-réponses du 2026-10-23 ; la page du programme ne donne pas de montant en euros) ; viennent ensuite l'autonomie des établissements (educ-03, option C), le soutien scolaire, la réduction de la taille des classes en maternelle et en primaire (educ-05, option A, voisine) et les fondamentaux « lire, écrire, compter » avec des évaluations rendues publiques (educ-02, educ-04, option D)",
           "sources": [
             {
-              "titre": "Priorités « Enfants »",
-              "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
             },
             {
               "titre": "edouardphilippe.fr, L'école : questions-réponses, 2026-10-23",
               "url": "https://www.edouardphilippe.fr/questions-reponses/ecoles"
+            },
+            {
+              "titre": "Priorités « Enfants »",
+              "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
             }
           ]
         },
@@ -9151,7 +9556,7 @@
         {
           "id": "eco-01",
           "theme": "eco",
-          "proposition": "Aucun nouvel impôt sur le quinquennat",
+          "proposition": "Aucun nouvel impôt sur le quinquennat : « Ne créer aucun nouvel impôt pendant cinq ans. »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "quinquennat",
@@ -9159,6 +9564,10 @@
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
             }
           ]
         },
@@ -9187,20 +9596,28 @@
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
             }
           ]
         },
         {
           "id": "eco-04",
           "theme": "eco",
-          "proposition": "Inscrire une règle d'or budgétaire dans la Constitution, par référendum",
+          "proposition": "Inscrire une règle d'or budgétaire dans la Constitution, par référendum « dès le début du quinquennat »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "début du quinquennat",
           "sources": [
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
             }
           ]
         },
@@ -9215,6 +9632,10 @@
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
             }
           ]
         },
@@ -9233,9 +9654,41 @@
           ]
         },
         {
+          "id": "eco-07",
+          "theme": "eco",
+          "proposition": "« Regrouper ou privatiser les agences de l’État qui font doublon » ; fusionner ou supprimer des dizaines d'opérateurs, d'agences et de comités publics",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
+            }
+          ]
+        },
+        {
+          "id": "eco-08",
+          "theme": "eco",
+          "proposition": "Aucune nouvelle norme pendant le quinquennat (moratoire), suppression de normes existantes et fin de la surtransposition",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "quinquennat",
+          "sources": [
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
+            },
+            {
+              "titre": "edouardphilippe.fr, Le programme",
+              "url": "https://www.edouardphilippe.fr/programme"
+            }
+          ]
+        },
+        {
           "id": "social-01",
           "theme": "social",
-          "proposition": "Porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans, sans hausse des cotisations ni baisse générale des pensions ; départs anticipés maintenus pour raisons de santé",
+          "proposition": "Porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans, sans hausse des cotisations ni baisse générale des pensions ; départs anticipés maintenus pour raisons de santé et pour carrières longues ; critères de pénibilité négociés avec les partenaires sociaux",
           "chiffrage_annonce": "« un gain chiffré en année pleine d'environ 30 milliards d'euros » (candidat, selon l'AFP)",
           "chiffrage_independant": "",
           "calendrier": "en moins de dix ans",
@@ -9243,6 +9696,10 @@
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Retraites »",
+              "url": "https://www.edouardphilippe.fr/programme/retraites"
             },
             {
               "titre": "LCP, 2026-09-29",
@@ -9257,7 +9714,7 @@
         {
           "id": "social-02",
           "theme": "social",
-          "proposition": "« Généraliser à tous les salariés la retraite par capitalisation collective », avec « un premier versement de l'État de 500€ dès le premier emploi » ; volet « neutre pour le coût du travail » selon son entourage (AFP)",
+          "proposition": "« Généraliser à tous les salariés la retraite par capitalisation collective », avec « un premier versement de l'État de 500€ dès le premier emploi » ; le programme y ajoute un plan d'épargne retraite ouvert à chaque Français ; volet « neutre pour le coût du travail » selon son entourage (AFP)",
           "chiffrage_annonce": "500 € par bénéficiaire ; coût total non annoncé",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9265,6 +9722,10 @@
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Retraites »",
+              "url": "https://www.edouardphilippe.fr/programme/retraites"
             },
             {
               "titre": "La Gazette France (AFP), 2026-09-29",
@@ -9275,7 +9736,7 @@
         {
           "id": "social-03",
           "theme": "social",
-          "proposition": "Limiter l'indemnisation chômage à 12 mois pour les moins de 50 ans",
+          "proposition": "Limiter l'indemnisation chômage à 12 mois pour les moins de 50 ans, « contre 18 mois aujourd’hui »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9283,13 +9744,17 @@
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Travail et salaires »",
+              "url": "https://www.edouardphilippe.fr/programme/travail"
             }
           ]
         },
         {
           "id": "social-04",
           "theme": "social",
-          "proposition": "Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures",
+          "proposition": "Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures ; le programme présente la mesure sous la priorité « Financer la protection sociale autrement que par le travail, pour augmenter le salaire net. » (le seuil d'exonération des heures est donné tantôt à 35 h, tantôt à 37 h selon les réponses)",
           "chiffrage_annonce": "environ 1 000 €/an pour un salarié au SMIC faisant 2 h de plus par semaine",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9297,6 +9762,10 @@
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Travail et salaires »",
+              "url": "https://www.edouardphilippe.fr/programme/travail"
             }
           ]
         },
@@ -9311,6 +9780,10 @@
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Travail et salaires »",
+              "url": "https://www.edouardphilippe.fr/programme/travail"
             }
           ]
         },
@@ -9365,9 +9838,79 @@
           ]
         },
         {
+          "id": "social-09",
+          "theme": "social",
+          "proposition": "Limiter la durée du RSA pour favoriser la reprise d'emploi",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Finances publiques »",
+              "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
+            }
+          ]
+        },
+        {
+          "id": "social-10",
+          "theme": "social",
+          "proposition": "Instaurer un délai de 3 à 6 mois entre un arrêt maladie et une rupture conventionnelle",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Travail et salaires »",
+              "url": "https://www.edouardphilippe.fr/programme/travail"
+            }
+          ]
+        },
+        {
+          "id": "social-11",
+          "theme": "social",
+          "proposition": "Après une naissance, permettre un temps partiel à 80 % payé à 100 % du salaire pendant deux mois",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Travail et salaires »",
+              "url": "https://www.edouardphilippe.fr/programme/travail"
+            }
+          ]
+        },
+        {
+          "id": "social-12",
+          "theme": "social",
+          "proposition": "Confier la gestion du système de retraites aux partenaires sociaux « une fois les retraites revenues à l’équilibre »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "après le retour à l'équilibre",
+          "sources": [
+            {
+              "titre": "Programme « Retraites »",
+              "url": "https://www.edouardphilippe.fr/programme/retraites"
+            }
+          ]
+        },
+        {
+          "id": "social-13",
+          "theme": "social",
+          "proposition": "« Développer l'apprentissage. »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Travail et salaires »",
+              "url": "https://www.edouardphilippe.fr/programme/travail"
+            }
+          ]
+        },
+        {
           "id": "env-01",
           "theme": "env",
-          "proposition": "Lancer 8 EPR supplémentaires, soit 14 au total",
+          "proposition": "Lancer 8 EPR supplémentaires, soit 14 au total ; « Relancer le nucléaire et développer les renouvelables là où elles sont efficaces. »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9375,6 +9918,10 @@
             {
               "titre": "Priorités « Conquérante »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+            },
+            {
+              "titre": "Programme « Énergie »",
+              "url": "https://www.edouardphilippe.fr/programme/energie"
             }
           ]
         },
@@ -9403,6 +9950,10 @@
             {
               "titre": "Priorités « Conquérante »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+            },
+            {
+              "titre": "Programme « Énergie »",
+              "url": "https://www.edouardphilippe.fr/programme/energie"
             }
           ]
         },
@@ -9421,6 +9972,34 @@
           ]
         },
         {
+          "id": "env-05",
+          "theme": "env",
+          "proposition": "« Électrifier massivement nos usages pour sortir du pétrole et du gaz. », avec une électricité nucléaire et renouvelable produite en France",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Énergie »",
+              "url": "https://www.edouardphilippe.fr/programme/energie"
+            }
+          ]
+        },
+        {
+          "id": "env-06",
+          "theme": "env",
+          "proposition": "Accorder « la même aide pour une voiture électrique d'occasion que pour une neuve »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Énergie »",
+              "url": "https://www.edouardphilippe.fr/programme/energie"
+            }
+          ]
+        },
+        {
           "id": "secu-01",
           "theme": "secu",
           "proposition": "Instaurer des peines planchers pour les infractions les plus graves",
@@ -9431,6 +10010,10 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
             }
           ]
         },
@@ -9445,13 +10028,17 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
             }
           ]
         },
         {
           "id": "secu-03",
           "theme": "secu",
-          "proposition": "Supprimer le juge d'application des peines",
+          "proposition": "Supprimer le juge d'application des peines : « une peine prononcée sera une peine exécutée »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9459,6 +10046,10 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
             }
           ]
         },
@@ -9493,7 +10084,7 @@
         {
           "id": "secu-06",
           "theme": "secu",
-          "proposition": "Ouvrir le recrutement des magistrats à des personnes ayant exercé d'autres métiers du droit",
+          "proposition": "Ouvrir le recrutement des magistrats à des personnes ayant exercé d'autres métiers du droit ; « Une réforme du recrutement des magistrats. »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9501,6 +10092,10 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
             }
           ]
         },
@@ -9515,6 +10110,62 @@
             {
               "titre": "Orange Actualités (L'Express), 2026-10-27",
               "url": "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html"
+            }
+          ]
+        },
+        {
+          "id": "secu-08",
+          "theme": "secu",
+          "proposition": "« Une loi d’accélération de la construction de prisons. »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
+            }
+          ]
+        },
+        {
+          "id": "secu-09",
+          "theme": "secu",
+          "proposition": "« Le retour des juges de paix : une justice civile plus rapide et plus proche. »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
+            }
+          ]
+        },
+        {
+          "id": "secu-10",
+          "theme": "secu",
+          "proposition": "« Un déploiement massif de l’intelligence artificielle pour accélérer l’instruction des dossiers » ; refonte de la procédure pénale",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
+            }
+          ]
+        },
+        {
+          "id": "secu-11",
+          "theme": "secu",
+          "proposition": "Permettre au garde des Sceaux d'« adresser des instructions individuelles aux procureurs »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
             }
           ]
         },
@@ -9649,6 +10300,10 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
             }
           ]
         },
@@ -9663,13 +10318,17 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
             }
           ]
         },
         {
           "id": "europe-03",
           "theme": "europe",
-          "proposition": "Nouvelle loi de programmation militaire « de la massification » : drones, plus de 100 000 obus par an",
+          "proposition": "Nouvelle loi de programmation militaire « de la massification » : « Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. » ; dépasser « l’objectif actuel de 100 000 obus par an » pour atteindre « l’échelle des 700 000 produits par l’Allemagne »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9677,6 +10336,10 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
             }
           ]
         },
@@ -9711,7 +10374,7 @@
         {
           "id": "europe-06",
           "theme": "europe",
-          "proposition": "Rétablir un service national obligatoire, présenté comme un levier d'intégration (entretien au Point, rapporté par L'Express) ; le programme prévoit un « volet environnemental au futur service national »",
+          "proposition": "Rétablir un service national obligatoire, présenté comme un levier d'intégration (entretien au Point, rapporté par L'Express) ; le programme prévoit un « volet environnemental au futur service national » ; à la question « Édouard Philippe veut-il rétablir le service militaire obligatoire ? », la page « Défense » du programme répond : « Édouard Philippe mise d’abord sur l’engagement. » (voir « Évolutions »)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9723,13 +10386,31 @@
             {
               "titre": "Priorités « Conquérante »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+            },
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
+            }
+          ]
+        },
+        {
+          "id": "europe-07",
+          "theme": "europe",
+          "proposition": "Des armements « made in Europe » : « au moins 1 % de la richesse nationale des pays européens de l’OTAN » consacré à des équipements fabriqués en Europe",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
             }
           ]
         },
         {
           "id": "educ-01",
           "theme": "educ",
-          "proposition": "Augmenter de 20 % la rémunération moyenne des enseignants",
+          "proposition": "« Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat. »",
           "chiffrage_annonce": "« près de 7 000 euros annuels de plus » par enseignant à la fin du quinquennat ; coût total non annoncé",
           "chiffrage_independant": "",
           "calendrier": "quinquennat",
@@ -9741,13 +10422,17 @@
             {
               "titre": "edouardphilippe.fr, L'école : questions-réponses, 2026-10-23",
               "url": "https://www.edouardphilippe.fr/questions-reponses/ecoles"
+            },
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
             }
           ]
         },
         {
           "id": "educ-02",
           "theme": "educ",
-          "proposition": "« Concentrer l'enseignement primaire sur les savoirs fondamentaux » : « En recommençant par le commencement : lire, écrire, compter. » ; soutien scolaire gratuit et accessible à tous",
+          "proposition": "« Concentrer l'enseignement primaire sur les savoirs fondamentaux » : « En recommençant par le commencement : lire, écrire, compter. » ; « Apprendre à lire dès la maternelle et concentrer l’école primaire sur lire, écrire, compter. » ; « L’objectif pour chaque élève sera de maîtriser 2500 mots en arrivant au CP » ; service public universel du soutien scolaire",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9759,13 +10444,17 @@
             {
               "titre": "edouardphilippe.fr, L'école : questions-réponses, 2026-10-23",
               "url": "https://www.edouardphilippe.fr/questions-reponses/ecoles"
+            },
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
             }
           ]
         },
         {
           "id": "educ-03",
           "theme": "educ",
-          "proposition": "Donner aux chefs d'établissement des libertés sur les méthodes, horaires, uniforme, discipline et recrutement",
+          "proposition": "Donner aux chefs d'établissement des libertés sur les méthodes, horaires, uniforme, discipline et recrutement ; possibilité d'avancer la rentrée d'une à deux semaines",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9773,13 +10462,17 @@
             {
               "titre": "Priorités « Enfants »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+            },
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
             }
           ]
         },
         {
           "id": "educ-04",
           "theme": "educ",
-          "proposition": "Publier les évaluations de performance des établissements",
+          "proposition": "Publier les évaluations de performance des établissements, auprès des parents et des élus locaux",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9787,6 +10480,10 @@
             {
               "titre": "Priorités « Enfants »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+            },
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
             }
           ]
         },
@@ -9801,13 +10498,17 @@
             {
               "titre": "Priorités « Enfants »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+            },
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
             }
           ]
         },
         {
           "id": "educ-06",
           "theme": "educ",
-          "proposition": "Interdire les téléphones portables à l'école primaire et au collège",
+          "proposition": "Interdire les téléphones portables à l'école primaire et au collège, puis au lycée selon le programme : « Édouard Philippe veut interdire strictement le téléphone portable à l’école primaire, au collège et au lycée. »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9815,6 +10516,10 @@
             {
               "titre": "Priorités « Enfants »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+            },
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
             }
           ]
         },
@@ -9829,6 +10534,38 @@
             {
               "titre": "Priorités « Enfants »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+            },
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
+            }
+          ]
+        },
+        {
+          "id": "educ-08",
+          "theme": "educ",
+          "proposition": "« faire passer le nombre d’ingénieurs formés chaque année de 40 000 à 100 000 en cinq ans »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "cinq ans",
+          "sources": [
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
+            }
+          ]
+        },
+        {
+          "id": "educ-09",
+          "theme": "educ",
+          "proposition": "« refonder l’orientation dès la 5e »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
             }
           ]
         },
@@ -9861,7 +10598,42 @@
           ]
         }
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "date": "2026-11-12",
+          "description": "mise en ligne d'une section « programme » de 15 thématiques (« Mise à jour le 12 novembre 2026 »), qui reprend les quatre pages de priorités et les complète (prisons, juges de paix, RSA, armements « made in Europe », etc.) ; elle devient la source principale de la fiche [edouardphilippe.fr, Le programme](https://www.edouardphilippe.fr/programme)",
+          "sources": [
+            {
+              "titre": "edouardphilippe.fr, Le programme",
+              "url": "https://www.edouardphilippe.fr/programme"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "description": "le programme étend l'interdiction du téléphone portable au lycée (les priorités visaient l'école primaire et le collège) (educ-06) [Programme « École »](https://www.edouardphilippe.fr/programme/ecole)",
+          "sources": [
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "description": "service national : à la question du rétablissement du service militaire obligatoire, le programme répond « Édouard Philippe mise d’abord sur l’engagement » et met en avant le service militaire volontaire, alors que l'entretien au Point du 2026-10-27, rapporté par L'Express, présentait un service national obligatoire (europe-06) ; écart à confirmer, sans effet sur les dilemmes [Programme « Défense »](https://www.edouardphilippe.fr/programme/defense) ; [Orange Actualités (L'Express), 2026-10-27](https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html)",
+          "sources": [
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
+            },
+            {
+              "titre": "Orange Actualités (L'Express), 2026-10-27",
+              "url": "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html"
+            }
+          ]
+        }
+      ],
       "faisabilite": null
     },
     {
@@ -11298,8 +12070,8 @@
       "inclus": true,
       "date_declaration": "2026-09-06",
       "programme_url": "",
-      "programme_version": "pas de programme publié trouvé au 2026-10-26 ; déclarations et annonces de campagne (2026-09-06 à 2026-10-21)",
-      "derniere_maj": "2026-10-31",
+      "programme_version": "pas de programme publié trouvé au 2026-10-26 ; déclarations et annonces de campagne (2026-09-06 à 2026-11-12)",
+      "derniere_maj": "2026-11-14",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse ciblée sur les hauts revenus et les grandes entreprises, baisse de la TVA sur les carburants",
@@ -11412,9 +12184,14 @@
           ]
         },
         "Q-secu-effectifs": {
-          "position": "pas de position",
-          "detail": "Pas d'objectif d'effectifs trouvé",
-          "sources": []
+          "position": "hausse",
+          "detail": "60 000 recrutements supplémentaires dans la police, la gendarmerie et les douanes ; refus que les polices municipales remplacent la police nationale (grand oral de Radio France, 2026-11-12, propos paraphrasés par Public Sénat)",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
         },
         "Q-secu-justice": {
           "position": "peines plus lourdes pour la fraude fiscale",
@@ -11519,8 +12296,8 @@
           ]
         },
         "Q-educ-enseign": {
-          "position": "davantage d'enseignants et de moyens, sans chiffrage",
-          "detail": "« Nous avons besoin de plus d'enseignants pour faire reculer les inégalités » ; « Bien sûr il y a la question des salaires » (lettre aux enseignants, non datée, mise en ligne fin août 2026, avant l'investiture) ; un budget 2027 qui « garantisse qu'il y ait un professeur dans chaque classe » et « augmenter le budget de l'Éducation nationale » (2026-10-04)",
+          "position": "davantage d'enseignants et de moyens ; point d'indice relevé",
+          "detail": "« Nous avons besoin de plus d'enseignants pour faire reculer les inégalités » ; « Bien sûr il y a la question des salaires » (lettre aux enseignants, non datée, mise en ligne fin août 2026, avant l'investiture) ; un budget 2027 qui « garantisse qu'il y ait un professeur dans chaque classe » et « augmenter le budget de l'Éducation nationale » (2026-10-04) ; au grand oral de Radio France (2026-11-12), abrogation de la réforme Blanquer et vaste plan de recrutement d'enseignants, point d'indice des fonctionnaires relevé de 10 % immédiatement puis de 20 à 30 % sur le quinquennat (Public Sénat, sans citation)",
           "sources": [
             {
               "titre": "Lettre aux enseignants, non datée, fin août 2026",
@@ -11529,6 +12306,10 @@
             {
               "titre": "La Gazette France (AFP), 2026-10-04",
               "url": "https://www.lagazettefrance.fr/article/roussel-pcf-appelle-a-soutenir-et-accompagner-les-lyceens-mardi"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -11648,11 +12429,16 @@
           ]
         },
         "D-secu-budget": {
-          "option": "pas de position",
-          "proposition": "",
+          "option": "A",
+          "proposition": "secu-02",
           "texte_court": "",
-          "justification": "",
-          "sources": []
+          "justification": "Seule mesure de sécurité-justice chiffrée en effectifs : 60 000 recrutements supplémentaires dans la police, la gendarmerie et les douanes (secu-02, grand oral de Radio France sur les services publics, propos paraphrasés par Public Sénat) ; aucune mesure en euros ; pas de mesure trouvée sur les prisons, les magistrats ou la prévention",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
         },
         "D-immig-travail": {
           "option": "pas de position",
@@ -11689,18 +12475,18 @@
           ]
         },
         "D-educ-niveau": {
-          "option": "B",
-          "proposition": "educ-01",
+          "option": "A",
+          "proposition": "educ-03",
           "texte_court": "",
-          "justification": "Présenté en premier : l'attractivité du métier, « Bien sûr il y a la question des salaires » ; puis « Nous avons besoin de plus d'enseignants pour faire reculer les inégalités » (option A, sans objectif d'effectif par classe ; voir aussi educ-02) ; lettre antérieure à l'investiture (educ-01) ; rattachement fragile, à revoir dès une mesure de campagne",
+          "justification": "Aucune mesure scolaire chiffrée en euros. Première mesure de campagne présentée pour l'école : abroger la réforme Blanquer et lancer un vaste plan de recrutement d'enseignants (educ-03, grand oral de Radio France, 2026-11-12, propos paraphrasés par Public Sénat), dans la continuité de « Nous avons besoin de plus d'enseignants pour faire reculer les inégalités » (educ-01) ; recruter des enseignants est le moyen de l'option A, sans objectif d'élèves par classe annoncé ; il propose aussi de relever le point d'indice des fonctionnaires de 10 % immédiatement puis de 20 à 30 % (social-04, option B, voisine), et la lettre aux enseignants, antérieure à l'investiture, évoquait d'abord « la question des salaires » (rattachement B jusqu'au 2026-11-14)",
           "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            },
             {
               "titre": "Lettre aux enseignants, non datée, fin août 2026",
               "url": "https://assets.nationbuilder.com/pcf/pages/43388/attachments/original/1787922495/lettre_aux_enseignants.pdf"
-            },
-            {
-              "titre": "La Gazette France (AFP), 2026-10-04",
-              "url": "https://www.lagazettefrance.fr/article/roussel-pcf-appelle-a-soutenir-et-accompagner-les-lyceens-mardi"
             }
           ]
         },
@@ -11889,6 +12675,20 @@
           ]
         },
         {
+          "id": "social-04",
+          "theme": "social",
+          "proposition": "Fonction publique : recruter près de 500 000 fonctionnaires en cinq ans ; relever le point d'indice de 10 % immédiatement, puis de 20 à 30 % sur le quinquennat (grand oral de Radio France sur les services publics, propos paraphrasés par Public Sénat)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "cinq ans",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
+        },
+        {
           "id": "env-01",
           "theme": "env",
           "proposition": "Augmenter la production d'électricité, avec la filière nucléaire comme « outil indispensable » (équipe : Ian Brossat, directeur de campagne)",
@@ -11977,6 +12777,20 @@
           ]
         },
         {
+          "id": "secu-02",
+          "theme": "secu",
+          "proposition": "60 000 recrutements supplémentaires dans la police, la gendarmerie et les douanes ; refus que les polices municipales remplacent la police nationale ; interdiction des lanceurs de balle de défense (LBD) (grand oral de Radio France, propos paraphrasés par Public Sénat)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
+        },
+        {
           "id": "europe-01",
           "theme": "europe",
           "proposition": "Ukraine : « cessez-le-feu rapide » ; « Il faut que la France retrouve son leadership pour mener la bataille diplomatique » ; « réorienter l'argent du ministère de la guerre vers les services publics » (2026-09-11)",
@@ -12057,6 +12871,20 @@
             {
               "titre": "La Gazette France (AFP), 2026-10-04",
               "url": "https://www.lagazettefrance.fr/article/roussel-pcf-appelle-a-soutenir-et-accompagner-les-lyceens-mardi"
+            }
+          ]
+        },
+        {
+          "id": "educ-03",
+          "theme": "educ",
+          "proposition": "Abroger la réforme Blanquer et lancer un vaste plan de recrutement d'enseignants (grand oral de Radio France, propos paraphrasés par Public Sénat)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -13103,8 +13931,8 @@
       "inclus": true,
       "date_declaration": "2025-10-22",
       "programme_url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
-      "programme_version": "« Pour une prospérité écologique », programme des Écologistes (juillet 2026, 557 mesures) + déclarations et annonces de campagne (2025-10-22 à 2026-10-26)",
-      "derniere_maj": "2026-10-31",
+      "programme_version": "« Pour une prospérité écologique », programme des Écologistes (juillet 2026, 557 mesures) + déclarations et annonces de campagne (2025-10-22 à 2026-11-12)",
+      "derniere_maj": "2026-11-14",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse ciblée sur les plus fortunés, le capital et les plus émetteurs",
@@ -13366,11 +14194,15 @@
         },
         "Q-sante-acces": {
           "position": "centres de santé, régulation de l'installation",
-          "detail": "« Créer 2 000 nouveaux centres de santé d'ici 2030, notamment dans les zones rurales et les quartiers prioritaires » ; former davantage de professionnels et rééquilibrer la carte des formations vers les régions les moins dotées ; « Réguler l'installation des médecins libéraux par une autorisation d'installation des médecins délivrée par l'Agence Régionale de Santé », de droit dans les zones sous-dotées (programme)",
+          "detail": "« Créer 2 000 nouveaux centres de santé d'ici 2030, notamment dans les zones rurales et les quartiers prioritaires » ; former davantage de professionnels et rééquilibrer la carte des formations vers les régions les moins dotées ; « Réguler l'installation des médecins libéraux par une autorisation d'installation des médecins délivrée par l'Agence Régionale de Santé », de droit dans les zones sous-dotées (programme) ; confirmé au grand oral de Radio France (2026-11-12) : dans les zones bien dotées, installation conditionnée au départ à la retraite d'un autre praticien (Public Sénat, sans citation)",
           "sources": [
             {
               "titre": "P, juillet 2026, p. 115 et 152",
               "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -13512,7 +14344,7 @@
           "option": "A",
           "proposition": "secu-02",
           "texte_court": "Recréer une police nationale de proximité et donner la priorité au renforcement des effectifs de terrain, formés à la médiation et à la prévention ; limiter les contrôles d'identité aux situations justifiées, avec récépissé",
-          "justification": "Aucune mesure chiffrée en euros ne relève d'une seule option (les 3 Md€ de la loi intégrale contre les violences sexistes et sexuelles, secu-01, couvrent prévention, accompagnement et justice). Présenté en premier dans le programme : « Mettre la priorité sur le renforcement des effectifs de terrain, formés à la médiation et à la prévention » (secu-02, p. 166, chapitre 50) ; elle propose aussi 9 000 magistrats, 10 000 greffiers et 7 000 attachés de justice sur dix ans (secu-03, p. 168, chapitre 51, option C) et la loi intégrale (secu-01, en partie proche de l'option D)",
+          "justification": "Aucune mesure chiffrée en euros ne relève d'une seule option (les 3 Md€ de la loi intégrale contre les violences sexistes et sexuelles, secu-01, couvrent prévention, accompagnement et justice). Présenté en premier dans le programme : « Mettre la priorité sur le renforcement des effectifs de terrain, formés à la médiation et à la prévention » (secu-02, p. 166, chapitre 50) ; elle propose aussi 9 000 magistrats, 10 000 greffiers et 7 000 attachés de justice sur dix ans (secu-03, p. 168, chapitre 51, option C ; chiffres repris au grand oral de Radio France sur les services publics, 2026-11-12, où aucune mesure de police n'est rapportée) et la loi intégrale (secu-01, en partie proche de l'option D)",
           "sources": [
             {
               "titre": "P, juillet 2026, p. 134, 165-166 et 168",
@@ -13521,6 +14353,10 @@
             {
               "titre": "marinetondelier.fr, journal de campagne, 2026-09-07",
               "url": "https://marinetondelier.fr/journal-de-campagne/manifestation-loi-integrale-vss"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -14044,14 +14880,18 @@
         {
           "id": "secu-03",
           "theme": "secu",
-          "proposition": "« Créer 9000 postes de magistrats sur dix ans ainsi que 10 000 postes de greffiers et 7000 postes attachés de justice » (programme)",
+          "proposition": "« Créer 9000 postes de magistrats sur dix ans ainsi que 10 000 postes de greffiers et 7000 postes attachés de justice » (programme) ; au grand oral de Radio France sur les services publics, « 9 000 magistrats, 10 000 greffiers et 7 000 assistants de justice supplémentaires », avec une politique carcérale tournée vers la prévention et l'éducation selon Public Sénat (2026-11-12)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
-          "calendrier": "dix ans",
+          "calendrier": "dix ans (programme)",
           "sources": [
             {
               "titre": "P, juillet 2026, p. 168",
               "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -14256,7 +15096,7 @@
         {
           "id": "sante-01",
           "theme": "sante",
-          "proposition": "« Créer 2 000 nouveaux centres de santé d'ici 2030, notamment dans les zones rurales et les quartiers prioritaires » ; former davantage de soignants et rééquilibrer la carte des formations ; « Réguler l'installation des médecins libéraux par une autorisation d'installation des médecins délivrée par l'Agence Régionale de Santé », de droit dans les zones sous-dotées et, ailleurs, liée à la cessation d'activité d'un praticien (programme)",
+          "proposition": "« Créer 2 000 nouveaux centres de santé d'ici 2030, notamment dans les zones rurales et les quartiers prioritaires » ; former davantage de soignants et rééquilibrer la carte des formations ; « Réguler l'installation des médecins libéraux par une autorisation d'installation des médecins délivrée par l'Agence Régionale de Santé », de droit dans les zones sous-dotées et, ailleurs, liée à la cessation d'activité d'un praticien (programme) ; au grand oral de Radio France, encadrer la liberté d'installation, une nouvelle installation dans les zones déjà bien dotées étant conditionnée au départ à la retraite d'un autre praticien (propos paraphrasés par Public Sénat, 2026-11-12)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "2030",
@@ -14264,6 +15104,10 @@
             {
               "titre": "P, juillet 2026, p. 115 et 152",
               "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -14380,6 +15224,20 @@
               "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
             }
           ]
+        },
+        {
+          "id": "instit-06",
+          "theme": "instit",
+          "proposition": "Services publics : création de 250 000 à 350 000 postes dans la fonction publique et un « guichet physique accessible à quinze minutes de chaque Français » (grand oral de Radio France, propos rapportés par Public Sénat)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
         }
       ],
       "evolutions": [
@@ -14466,7 +15324,7 @@
       "date_declaration": "2026-09-17",
       "programme_url": "",
       "programme_version": "pas de programme 2027 publié trouvé au 2026-10-31 ; déclarations de campagne (mai-octobre 2026) + programme européen de Reconquête (2024) pour quelques positions",
-      "derniere_maj": "2026-10-31",
+      "derniere_maj": "2026-11-14",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
@@ -14514,7 +15372,7 @@
         },
         "Q-social-chomage": {
           "position": "pas de position",
-          "detail": "Pas de proposition trouvée sur les règles générales d'indemnisation ; propose qu'un étranger au chômage depuis un an quitte la France (voir immig-03)",
+          "detail": "Pas de proposition trouvée sur les règles générales d'indemnisation ; propose qu'un étranger au chômage quitte la France (un an en septembre 2026, six mois depuis le 2026-11-10 ; voir immig-03)",
           "sources": []
         },
         "Q-social-logement": {
@@ -14585,7 +15443,7 @@
         },
         "Q-immig-niveau": {
           "position": "« immigration zéro » et « immigration négative »",
-          "detail": "Selon ses termes : « je suis non seulement pour l'immigration zéro, mais pour l'immigration négative » (2026-06-23) ; « Il faut la remigration » ; renvoi de plusieurs catégories d'étrangers (voir immig-01 à immig-03)",
+          "detail": "Selon ses termes : « je suis non seulement pour l'immigration zéro, mais pour l'immigration négative » (2026-06-23) ; « Il faut la remigration » ; renvoi de plusieurs catégories d'étrangers (voir immig-01 à immig-03) ; objectif de « deux millions d'immigrés en moins à la fin du quinquennat » (TF1, 2026-11-10, voir immig-08)",
           "sources": [
             {
               "titre": "Europe 1, 2026-06-23",
@@ -14594,6 +15452,10 @@
             {
               "titre": "Europe 1, 2026-09-13",
               "url": "https://www.europe1.fr/politique/presidentielle-2027-eric-zemmour-appelle-a-un-vote-du-sursaut-lors-de-son-discours-de-rentree-1075178"
+            },
+            {
+              "titre": "La Gazette France (AFP), 2026-11-11",
+              "url": "https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle"
             }
           ]
         },
@@ -14675,9 +15537,13 @@
           "sources": []
         },
         "Q-sante-acces": {
-          "position": "pas de position",
-          "detail": "Pas de proposition de campagne trouvée ; en 2022 : 1 000 médecins salariés par l'État dans les zones sous-dotées, majoration des consultations, rétablissement des gardes",
+          "position": "médecins retraités, numerus clausus, infirmiers et pharmaciens",
+          "detail": "Exonérer d'impôt les revenus des médecins retraités qui exercent, supprimer le numerus clausus, élargir les missions des infirmiers et des pharmaciens (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat ; voir sante-01, sante-02) ; en 2022 : 1 000 médecins salariés par l'État dans les zones sous-dotées, majoration des consultations, rétablissement des gardes",
           "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            },
             {
               "titre": "Le Quotidien du médecin, 2022-04-01",
               "url": "https://cancerologie.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/eric-zemmour-reconquete-un-conventionnement-preferentiel-pourra-etre-mis-en-place"
@@ -14695,9 +15561,13 @@
           "sources": []
         },
         "Q-instit-referend": {
-          "position": "pas de position",
-          "detail": "Pas de proposition de campagne trouvée ; en 2022 : référendum sur l'immigration, la sécurité et la justice après les législatives",
+          "position": "référendum sur l'immigration",
+          "detail": "Référendum sur la politique migratoire dans son ensemble (TF1, 2026-11-10, selon l'AFP ; voir immig-08) ; en 2022 : référendum sur l'immigration, la sécurité et la justice après les législatives",
           "sources": [
+            {
+              "titre": "La Gazette France (AFP), 2026-11-11",
+              "url": "https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle"
+            },
             {
               "titre": "Public Sénat, 2022-03-23",
               "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme"
@@ -14720,7 +15590,7 @@
           "option": "A",
           "proposition": "eco-01",
           "texte_court": "",
-          "justification": "Mesure chiffrée en euros : « Je pense qu'il faut au minimum 100 milliards par an de baisse des dépenses publiques », présentée comme finançant aussi des baisses d'impôts et de charges (eco-01, eco-02) ; les sources ne mentionnent ni le déficit ni une cible",
+          "justification": "Mesure chiffrée en euros : « Je pense qu'il faut au minimum 100 milliards par an de baisse des dépenses publiques », présentée comme finançant aussi des baisses d'impôts et de charges (eco-01, eco-02) ; les sources ne mentionnent ni le déficit ni une cible ; objectif de 800 000 suppressions de postes publics en cinq ans (eco-06, grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat)",
           "sources": [
             {
               "titre": "Europe 1, 2026-05-19, direct",
@@ -14729,6 +15599,10 @@
             {
               "titre": "Europe 1, 2026-05-19",
               "url": "https://www.europe1.fr/societe/la-france-en-face-les-francais-se-sont-appauvris-constate-eric-zemmour-936431"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -14799,11 +15673,15 @@
           "option": "B",
           "proposition": "secu-04",
           "texte_court": "Construire rapidement 100 000 places de prison supplémentaires, supprimer la fonction de juge de l'application des peines et rétablir une législation spécifique contre les casseurs",
-          "justification": "Aucune mesure chiffrée en euros ; seul poste visé : « la construction rapide de 100 000 places de prison supplémentaires » (objectif quantifié, selon Entrevue, 2026-10-25, secu-04), avec les peines planchers (secu-01) ; aucun objectif d'effectifs de police, de magistrats ni de prévention trouvé",
+          "justification": "Aucune mesure chiffrée en euros ; seul poste visé : « la construction rapide de 100 000 places de prison supplémentaires » (objectif quantifié, selon Entrevue, 2026-10-25, secu-04), avec les peines planchers (secu-01) ; recrutement de 40 000 surveillants pénitentiaires (secu-05, grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat), au service de l'exécution des peines ; postes de policiers épargnés par les suppressions d'emplois publics (eco-06), sans objectif de hausse ; aucun objectif d'effectifs de magistrats ni de prévention trouvé",
           "sources": [
             {
               "titre": "Entrevue, 2026-10-26",
               "url": "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -14850,20 +15728,29 @@
           "option": "D",
           "proposition": "educ-01",
           "texte_court": "Revenir à la dictée, au calcul mental, à la récitation et à la discipline ; renforcer l'autorité et l'autonomie des chefs d'établissement et la concurrence entre public et privé",
-          "justification": "Présenté en premier, selon Entrevue (2026-10-25) : « un retour à la dictée, au calcul mental, à la récitation, à la discipline » (educ-01), sans mention d'évaluations ; il propose aussi de « renforcer leur autonomie », celle des établissements, et la concurrence entre public et privé (option C)",
+          "justification": "Présenté en premier, selon Entrevue (2026-10-25) : « un retour à la dictée, au calcul mental, à la récitation, à la discipline » (educ-01), sans mention d'évaluations ; il propose aussi de « renforcer leur autonomie », celle des établissements, et la concurrence entre public et privé (option C) ; au grand oral du 2026-11-12, selon Public Sénat : suppression du collège unique et orientation vers l'enseignement professionnel dès la quatrième (educ-02, aucune option), puis retour à des méthodes d'apprentissage traditionnelles (même orientation que educ-01)",
           "sources": [
             {
               "titre": "Entrevue, 2026-10-26",
               "url": "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
         "D-sante-deserts": {
-          "option": "pas de position",
-          "proposition": "",
+          "option": "C",
+          "proposition": "sante-02",
           "texte_court": "",
-          "justification": "",
-          "sources": []
+          "justification": "Seule option dont l'idée est sourcée : élargir les missions des infirmiers et des pharmaciens (sante-02) ; aucune mesure chiffrée en euros ; selon le compte rendu de Public Sénat, cette mesure vient après l'exonération d'impôt des revenus des médecins retraités qui exercent et la suppression du numerus clausus (sante-01), qui augmentent l'offre de médecins sans relever d'aucune option (ni obligation, ni rémunération liée à l'installation en zone sous-dotée)",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
         },
         "D-instit-participation": {
           "option": "pas de position",
@@ -14966,6 +15853,20 @@
             {
               "titre": "La Nouvelle Tribune, 2026-09-15",
               "url": "https://lanouvelletribune.info/2026/09/immigration-zemmour-veut-des-robots-pour-remplacer-les-etrangers/"
+            }
+          ]
+        },
+        {
+          "id": "eco-06",
+          "theme": "eco",
+          "proposition": "Supprimer 800 000 postes d'emplois publics en cinq ans, en épargnant les enseignants, les policiers, les militaires et les soignants (« il n'y a pas trop de médecins, il y a trop d'emplois publics ») (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "cinq ans",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
             }
           ]
         },
@@ -15110,6 +16011,20 @@
           ]
         },
         {
+          "id": "secu-05",
+          "theme": "secu",
+          "proposition": "Recruter 40 000 surveillants pénitentiaires ; rétablir les peines planchers et supprimer les aménagements de peine (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
+        },
+        {
           "id": "immig-01",
           "theme": "immig",
           "proposition": "Renvoyer tous les étrangers détenus dans les prisons françaises (selon lui, « 25% des prisons »)",
@@ -15148,7 +16063,7 @@
         {
           "id": "immig-03",
           "theme": "immig",
-          "proposition": "Faire quitter la France à tout étranger, même en situation régulière, au chômage depuis un an, et à ceux qui vivent uniquement des aides sociales, en invoquant une disposition du code des étrangers selon laquelle un étranger ne doit pas peser sur les finances publiques",
+          "proposition": "Faire quitter la France à tout étranger, même en situation régulière, au chômage depuis un an (six mois depuis le 2026-11-10 : expulser « les chômeurs étrangers de plus de six mois », TF1, selon Euronews), et à ceux qui vivent uniquement des aides sociales, en invoquant une disposition du code des étrangers selon laquelle un étranger ne doit pas peser sur les finances publiques",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -15164,6 +16079,14 @@
             {
               "titre": "L'Essentiel de l'Éco, 2026-09-22",
               "url": "https://lessentieldeleco.fr/8508-zemmour-et-la-remigration-qui-est-vise/"
+            },
+            {
+              "titre": "Euronews, 2026-11-10",
+              "url": "https://fr.euronews.com/2026/11/10/eric-zemmour-annonce-sa-candidature-a-la-presidentielle"
+            },
+            {
+              "titre": "La Gazette France (AFP), 2026-11-11",
+              "url": "https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle"
             }
           ]
         },
@@ -15236,6 +16159,24 @@
           ]
         },
         {
+          "id": "immig-08",
+          "theme": "immig",
+          "proposition": "Viser « deux millions d'immigrés en moins à la fin du quinquennat » ; organiser un référendum sur la politique migratoire dans son ensemble (TF1, 2026-11-10, selon l'AFP)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "fin du quinquennat",
+          "sources": [
+            {
+              "titre": "La Gazette France (AFP), 2026-11-11",
+              "url": "https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle"
+            },
+            {
+              "titre": "Euronews, 2026-11-10",
+              "url": "https://fr.euronews.com/2026/11/10/eric-zemmour-annonce-sa-candidature-a-la-presidentielle"
+            }
+          ]
+        },
+        {
           "id": "europe-01",
           "theme": "europe",
           "proposition": "Modifier l'article 55 de la Constitution pour que les lois nationales aient une valeur supérieure aux traités, sans sortie de l'UE (déclaration de 2024)",
@@ -15304,6 +16245,48 @@
               "url": "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
             }
           ]
+        },
+        {
+          "id": "educ-02",
+          "theme": "educ",
+          "proposition": "Supprimer le collège unique et orienter les élèves vers l'enseignement professionnel dès la quatrième ; revenir à des méthodes d'apprentissage traditionnelles (l'école d'hier valait « mille fois mieux », selon lui) (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
+        },
+        {
+          "id": "sante-01",
+          "theme": "sante",
+          "proposition": "Exonérer d'impôt les revenus des médecins retraités qui exercent ; supprimer le numerus clausus (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
+        },
+        {
+          "id": "sante-02",
+          "theme": "sante",
+          "proposition": "Élargir les missions des infirmiers et des pharmaciens (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
         }
       ],
       "evolutions": [
@@ -15360,6 +16343,20 @@
             {
               "titre": "Entrevue, 2026-10-26",
               "url": "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "description": "chômage des étrangers : départ exigé après six mois de chômage (« les chômeurs étrangers de plus de six mois », TF1), contre un an le 2026-09-17 [Euronews, 2026-11-10](https://fr.euronews.com/2026/11/10/eric-zemmour-annonce-sa-candidature-a-la-presidentielle) ; [La Gazette France (AFP), 2026-11-11](https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle)",
+          "sources": [
+            {
+              "titre": "Euronews, 2026-11-10",
+              "url": "https://fr.euronews.com/2026/11/10/eric-zemmour-annonce-sa-candidature-a-la-presidentielle"
+            },
+            {
+              "titre": "La Gazette France (AFP), 2026-11-11",
+              "url": "https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle"
             }
           ]
         }
@@ -15440,6 +16437,10 @@
               {
                 "titre": "Priorités « Prospère »",
                 "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+              },
+              {
+                "titre": "Programme « Finances publiques »",
+                "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
               }
             ]
           },
@@ -15625,12 +16626,16 @@
           {
             "candidat": "philippe-edouard",
             "proposition": "social-04",
-            "texte": "Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures",
+            "texte": "Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures ; le programme présente la mesure sous la priorité Financer la protection sociale autrement que par le travail, pour augmenter le salaire net.",
             "texte_court": false,
             "sources": [
               {
                 "titre": "Priorités « Prospère »",
                 "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+              },
+              {
+                "titre": "Programme « Travail et salaires »",
+                "url": "https://www.edouardphilippe.fr/programme/travail"
               }
             ]
           },
@@ -15745,12 +16750,16 @@
           {
             "candidat": "philippe-edouard",
             "proposition": "social-01",
-            "texte": "Porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans, sans hausse des cotisations ni baisse générale des pensions ; départs anticipés maintenus pour raisons de santé",
+            "texte": "Porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans, sans hausse des cotisations ni baisse générale des pensions ; départs anticipés maintenus pour raisons de santé et pour carrières longues ; critères de pénibilité négociés avec les partenaires sociaux",
             "texte_court": false,
             "sources": [
               {
                 "titre": "Priorités « Prospère »",
                 "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+              },
+              {
+                "titre": "Programme « Retraites »",
+                "url": "https://www.edouardphilippe.fr/programme/retraites"
               },
               {
                 "titre": "LCP, 2026-09-29",
@@ -15887,12 +16896,16 @@
           {
             "candidat": "philippe-edouard",
             "proposition": "social-03",
-            "texte": "Limiter l'indemnisation chômage à 12 mois pour les moins de 50 ans",
+            "texte": "Limiter l'indemnisation chômage à 12 mois pour les moins de 50 ans, contre 18 mois aujourd’hui",
             "texte_court": false,
             "sources": [
               {
                 "titre": "Priorités « Prospère »",
                 "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+              },
+              {
+                "titre": "Programme « Travail et salaires »",
+                "url": "https://www.edouardphilippe.fr/programme/travail"
               }
             ]
           },
@@ -15996,12 +17009,16 @@
           {
             "candidat": "philippe-edouard",
             "proposition": "env-01",
-            "texte": "Lancer 8 EPR supplémentaires, soit 14 au total",
+            "texte": "Lancer 8 EPR supplémentaires, soit 14 au total ; Relancer le nucléaire et développer les renouvelables là où elles sont efficaces.",
             "texte_court": false,
             "sources": [
               {
                 "titre": "Priorités « Conquérante »",
                 "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+              },
+              {
+                "titre": "Programme « Énergie »",
+                "url": "https://www.edouardphilippe.fr/programme/energie"
               }
             ]
           },
@@ -16105,25 +17122,21 @@
                 "url": "https://www.generationecologie.fr/2026/06/22/quelle-politique-energetique-pour-la-france/"
               }
             ]
-          },
-          {
-            "candidat": "glucksmann-raphael",
-            "proposition": "env-01",
-            "texte": "Engager les 100 jours de la révolution écologique dès l'élection, avec pour priorité la sortie du gaz et du pétrole ; rénovation thermique des bâtiments, efficacité énergétique, sobriété",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "LCP, 2026-08-25",
-                "url": "https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la"
-              },
-              {
-                "titre": "L'Info Durable, 2026-10-12",
-                "url": "https://www.linfodurable.fr/politique/apres-la-primaire-quelles-ambitions-ecologiques-pour-raphael-glucksmann-59331"
-              }
-            ]
           }
         ],
         "B": [
+          {
+            "candidat": "glucksmann-raphael",
+            "proposition": "env-05",
+            "texte": "Financer la transition par une taxe européenne sur les superprofits pétroliers et gaziers, une nouvelle fiscalité aérienne et sur la consommation ostentatoire, la suppression de l'exonération de kérosène sur les vols intérieurs et un grand emprunt écologique européen",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Public Sénat, 2026-11-09",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+              }
+            ]
+          },
           {
             "candidat": "melenchon-jean-luc",
             "proposition": "env-01",
@@ -16268,6 +17281,18 @@
             ]
           },
           {
+            "candidat": "roussel-fabien",
+            "proposition": "secu-02",
+            "texte": "60 000 recrutements supplémentaires dans la police, la gendarmerie et les douanes ; refus que les polices municipales remplacent la police nationale ; interdiction des lanceurs de balle de défense",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Public Sénat, 2026-11-12",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+              }
+            ]
+          },
+          {
             "candidat": "tondelier-marine",
             "proposition": "secu-02",
             "texte": "Recréer une police nationale de proximité et donner la priorité au renforcement des effectifs de terrain, formés à la médiation et à la prévention ; limiter les contrôles d'identité aux situations justifiées, avec récépissé",
@@ -16294,6 +17319,18 @@
               {
                 "titre": "Europe 1 (AFP), 2026-06-12",
                 "url": "https://www.europe1.fr/node/952973"
+              }
+            ]
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "secu-08",
+            "texte": "Une loi d’accélération de la construction de prisons.",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Programme « Justice »",
+                "url": "https://www.edouardphilippe.fr/programme/justice"
               }
             ]
           },
@@ -16623,13 +17660,17 @@
           },
           {
             "candidat": "philippe-edouard",
-            "proposition": "europe-01",
-            "texte": "Porter le nombre de réservistes de 45 000 à 250 000",
+            "proposition": "europe-03",
+            "texte": "Nouvelle loi de programmation militaire de la massification : Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. ; dépasser l’objectif actuel de 100 000 obus par an pour atteindre l’échelle des 700 000 produits par l’Allemagne",
             "texte_court": false,
             "sources": [
               {
                 "titre": "Priorités « Sûre »",
                 "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+              },
+              {
+                "titre": "Programme « Défense »",
+                "url": "https://www.edouardphilippe.fr/programme/defense"
               }
             ]
           }
@@ -16763,6 +17804,18 @@
             ]
           },
           {
+            "candidat": "roussel-fabien",
+            "proposition": "educ-03",
+            "texte": "Abroger la réforme Blanquer et lancer un vaste plan de recrutement d'enseignants",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Public Sénat, 2026-11-12",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+              }
+            ]
+          },
+          {
             "candidat": "tondelier-marine",
             "proposition": "educ-02",
             "texte": "réduisant la taille des classes à 19 élèves en 2032 et à 12 élèves dans les établissements en réseau d'éducation prioritaire",
@@ -16789,6 +17842,10 @@
               {
                 "titre": "attalpresident.fr, « École »",
                 "url": "https://attalpresident.fr/programme/education"
+              },
+              {
+                "titre": "Public Sénat, 2026-11-12",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
               }
             ]
           },
@@ -16809,6 +17866,10 @@
               {
                 "titre": "Sud Radio, 2026-09-03",
                 "url": "https://www.sudradio.fr/sud-radio/presidentielle-2027-comment-les-candidats-draguent-les-professeurs-et-lecole"
+              },
+              {
+                "titre": "Public Sénat, 2026-11-12",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
               }
             ]
           },
@@ -16827,7 +17888,7 @@
           {
             "candidat": "philippe-edouard",
             "proposition": "educ-01",
-            "texte": "Augmenter de 20 % la rémunération moyenne des enseignants",
+            "texte": "Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat.",
             "texte_court": false,
             "sources": [
               {
@@ -16837,6 +17898,10 @@
               {
                 "titre": "edouardphilippe.fr, L'école : questions-réponses, 2026-10-23",
                 "url": "https://www.edouardphilippe.fr/questions-reponses/ecoles"
+              },
+              {
+                "titre": "Programme « École »",
+                "url": "https://www.edouardphilippe.fr/programme/ecole"
               }
             ]
           },
@@ -16849,18 +17914,6 @@
               {
                 "titre": "Public Sénat, 2026-08-31",
                 "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
-              }
-            ]
-          },
-          {
-            "candidat": "roussel-fabien",
-            "proposition": "educ-01",
-            "texte": "Nous avons besoin de plus d'enseignants pour faire reculer les inégalités ; la baisse démographique ne doit pas être utilisée pour faire des économies ; faire de l'accès aux connaissances et aux savoirs la priorité du quinquennat à venir",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Lettre aux enseignants, non datée, fin août 2026",
-                "url": "https://assets.nationbuilder.com/pcf/pages/43388/attachments/original/1787922495/lettre_aux_enseignants.pdf"
               }
             ]
           }
@@ -16917,6 +17970,10 @@
               {
                 "titre": "P, juillet 2026, p. 115 et 152",
                 "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+              },
+              {
+                "titre": "Public Sénat, 2026-11-12",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
               }
             ]
           }
@@ -16935,7 +17992,20 @@
             ]
           }
         ],
-        "C": [],
+        "C": [
+          {
+            "candidat": "zemmour-eric",
+            "proposition": "sante-02",
+            "texte": "Élargir les missions des infirmiers et des pharmaciens",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Public Sénat, 2026-11-12",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+              }
+            ]
+          }
+        ],
         "D": []
       },
       "D-instit-participation": {

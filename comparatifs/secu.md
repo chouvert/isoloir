@@ -1,6 +1,6 @@
 ---
 theme: secu
-derniere_maj: 2026-11-08
+derniere_maj: 2026-11-14
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -18,24 +18,24 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 | question | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-secu-effectifs | pas de position | pas de position | pas de position | pas de position | remise à niveau de la police nationale, sans objectif chiffré d'effectifs | pas de position | pas de position | pas de position | pas de position | pas de position | police de proximité, priorité aux effectifs de terrain, sans objectif chiffré | pas de position |
+| Q-secu-effectifs | pas de position | pas de position | pas de position | pas de position | remise à niveau de la police nationale, sans objectif chiffré d'effectifs | pas de position | pas de position | pas de position | hausse | pas de position | police de proximité, priorité aux effectifs de terrain, sans objectif chiffré | pas de position |
 | Q-secu-justice | durcissement pour les crimes sur mineurs | réexamen des plaintes de mineurs victimes ; vote contre la loi sur l'ordre public | pas de position | pas de position | peines planchers et hausse des moyens judiciaires | priorité à la réinsertion | peines planchers et courtes peines | courtes peines et référendum pénal | peines plus lourdes pour la fraude fiscale | indépendance du parquet, fin des privilèges de juridiction, délinquance financière et environnementale | hausse des moyens, régulation carcérale | peines planchers, exécution des peines, places de prison |
 
 ## Dilemmes du thème
 
 | dilemme | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-secu-budget | B | pas de position | pas de position | pas de position | A | D | pas de position | B | pas de position | pas de position | A | B |
+| D-secu-budget | B | pas de position | pas de position | pas de position | A | D | B | B | A | pas de position | A | B |
 
 ### D-secu-budget
 
 > Le budget sécurité-justice ne peut augmenter que sur un seul poste. Lequel choisir ?
 
-- **A** — Plus de policiers et de gendarmes sur le terrain : Lisnard, Tondelier
-- **B** — Plus de places de prison pour exécuter les peines : Attal, Retailleau, Zemmour
+- **A** — Plus de policiers et de gendarmes sur le terrain : Lisnard, Roussel, Tondelier
+- **B** — Plus de places de prison pour exécuter les peines : Attal, Philippe, Retailleau, Zemmour
 - **C** — Plus de magistrats et de greffiers pour juger plus vite : —
 - **D** — Plus de prévention (éducateurs, médiation, insertion) : Mélenchon
-- *pas de position* : Batho, Glucksmann, Le Pen, Philippe, Roussel, Ruffin
+- *pas de position* : Batho, Glucksmann, Le Pen, Ruffin
 
 ## Coûts des propositions du thème
 

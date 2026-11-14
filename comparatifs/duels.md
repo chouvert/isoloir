@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-08
+derniere_maj: 2026-11-14
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -38,7 +38,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Gabriel Attal | social-04 | un choc des salaires : réduire les charges pour rapprocher le net du brut, en réduisant les charges salariales pour faire monter le salaire net ; financement non précisé |
 | B | Raphaël Glucksmann | eco-02 | Baisser la CSG sur les salaires pour rapprocher le salaire net du salaire brut, financé par la taxe sur les méga héritages : Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages |
 | B | David Lisnard | eco-02 | Rendre aux actifs, en salaire net, une partie des économies par la baisse des cotisations et l'alignement de la CSG des actifs sur celle des inactifs ; baisse durable des charges entre 2 et 4 SMIC |
-| B | Édouard Philippe | social-04 | Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures |
+| B | Édouard Philippe | social-04 | Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures ; le programme présente la mesure sous la priorité Financer la protection sociale autrement que par le travail, pour augmenter le salaire net. |
 | B | Bruno Retailleau | social-05 (texte court) | Sortir des 35 heures : exonérer de cotisations salariales et patronales les heures travaillées au-delà de la 35e, pour que le brut soit égal au net, soit près de deux mois de salaire en plus par an pour 30 minutes de travail en plus par jour |
 | C | Marine Le Pen | eco-04 | Ramener la TVA de 20 % à 5,5 % sur l'électricité, le gaz et les carburants |
 | C | Fabien Roussel | eco-02 | Carburants : supprimer tout de suite les certificats d'économie d'énergie qu'ils ont mis sur le litre d'essence depuis le 1er janvier ; baisser la TVA sur les carburants de 20% à 5,5% ; obliger TotalEnergies à réduire ses marges |
@@ -54,7 +54,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | A | David Lisnard | social-01 | Âge légal de 65 ans : la norme de l'âge légal de 65 ans est un impératif national urgent pour des raisons d'équilibre financier |
-| A | Édouard Philippe | social-01 | Porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans, sans hausse des cotisations ni baisse générale des pensions ; départs anticipés maintenus pour raisons de santé |
+| A | Édouard Philippe | social-01 | Porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans, sans hausse des cotisations ni baisse générale des pensions ; départs anticipés maintenus pour raisons de santé et pour carrières longues ; critères de pénibilité négociés avec les partenaires sociaux |
 | A | Bruno Retailleau | social-01 | Âge minimal de départ à 63 ans avec une décote de 7 % par an ; taux plein automatique à 65 ans au lieu de 67, même sans tous les trimestres ; départ à taux plein à 63 ans pour les carrières longues complètes ; prise en compte du handicap, de la pénibilité et de l'usure professionnelle |
 | A | Éric Zemmour | social-01 | Allonger la durée de cotisation pour la retraite, en excluant de diminuer la retraite des gens |
 | B | Marine Tondelier | social-02 (texte court) | Revenir à 62 ans et viser 60 ans pour les carrières longues et pénibles, en finançant le régime par la hausse des cotisations vieillesse : +0,2 point par an pendant le quinquennat, et des cotisations étendues à l'épargne salariale, à l'intéressement et à la participation |
@@ -69,7 +69,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | A | Gabriel Attal | social-05 | Reprendre la réforme de l'assurance chômage engagée en 2024 et bloquée par la dissolution, qui créerait 100 000 emplois supplémentaires ; elle réduisait la durée d'indemnisation de 18 à 15 mois |
-| A | Édouard Philippe | social-03 | Limiter l'indemnisation chômage à 12 mois pour les moins de 50 ans |
+| A | Édouard Philippe | social-03 | Limiter l'indemnisation chômage à 12 mois pour les moins de 50 ans, contre 18 mois aujourd’hui |
 | A | Bruno Retailleau | social-03 | Aligner les modalités des allocations chômage sur les standards européens |
 | B | Marine Tondelier | social-07 (texte court) | Créer une sécurité sociale professionnelle pour les travailleurs touchés par la transition écologique : salaire garanti pendant deux ans en cas de perte d'emploi et formation rémunérée de 6 à 10 mois vers un métier de la transition |
 | C | Jean-Luc Mélenchon | social-02 | Porter le SMIC à 1 700 € net |
@@ -86,7 +86,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Gabriel Attal | env-01 | Construire 14 nouveaux réacteurs nucléaires, à terme un par an |
 | A | Marine Le Pen | env-02 (texte court) | Mix électrique à 60 % nucléaire et 40 % renouvelable en 2050, en s'appuyant d'abord sur le nucléaire |
 | A | David Lisnard | env-01 | Nucléaire : prolongation de la durée de vie des réacteurs jusqu'à 60 ans, construction d'EPR de nouvelle génération, déploiement de mini-réacteurs nucléaires, recherche sur le traitement des déchets par laser |
-| A | Édouard Philippe | env-01 | Lancer 8 EPR supplémentaires, soit 14 au total |
+| A | Édouard Philippe | env-01 | Lancer 8 EPR supplémentaires, soit 14 au total ; Relancer le nucléaire et développer les renouvelables là où elles sont efficaces. |
 | A | Bruno Retailleau | env-01 | Stratégie énergétique fondée en priorité sur le nucléaire, les renouvelables ne venant qu'en complément |
 | A | Éric Zemmour | env-01 | Relancer le nucléaire : six EPR d'ici 2035, quatorze d'ici 2045 ; l'électricité française cessera d'être bradée |
 | B | Jean-Luc Mélenchon | env-03 | Sortir du nucléaire : abandon des projets d'EPR, planification du démantèlement |
@@ -101,7 +101,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 |---|---|---|---|
 | A | Gabriel Attal | env-03 | tripler notre rythme annuel de réduction des émissions, de 1,8 % à 5 % par an ; baisser de moitié les émissions de gaz à effet de serre dans les dix ans à venir |
 | A | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en débattant des besoins avant de produire, qu'il s'agisse des écrans publicitaires, des data centers ou de la 6G ; développer les boucles locales d'énergie partagée et l'autoconsommation collective |
-| A | Raphaël Glucksmann | env-01 | Engager les 100 jours de la révolution écologique dès l'élection, avec pour priorité la sortie du gaz et du pétrole ; rénovation thermique des bâtiments, efficacité énergétique, sobriété |
+| B | Raphaël Glucksmann | env-05 | Financer la transition par une taxe européenne sur les superprofits pétroliers et gaziers, une nouvelle fiscalité aérienne et sur la consommation ostentatoire, la suppression de l'exonération de kérosène sur les vols intérieurs et un grand emprunt écologique européen |
 | B | Jean-Luc Mélenchon | env-01 | Réduire de 65 % les émissions de gaz à effet de serre en 2033, avec un bilan annuel public |
 | B | François Ruffin | eco-01 | Mise en place d'une taxe de 4% sur les dividendes des entreprises pour financer la transition écologique, 2 % pour les entreprises versant moins de 10 M€ de dividendes ; mesure à soumettre par référendum |
 | B | Marine Tondelier | env-03 | une fiscalité sur les entreprises fossiles et les ménages les plus émetteurs en carbone ; Supprimer progressivement les niches fiscales qui favorisent les énergies fossiles ; taxe exceptionnelle sur les superprofits pétrogaziers |
@@ -120,8 +120,10 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | A | David Lisnard | secu-06 (texte court) | Plan massif de remise à niveau de la police nationale sur dix ans, présenté comme la première priorité pour la sécurité : porter la présence des policiers sur le terrain à 50 % au minimum, contre 37 % aujourd'hui |
+| A | Fabien Roussel | secu-02 | 60 000 recrutements supplémentaires dans la police, la gendarmerie et les douanes ; refus que les polices municipales remplacent la police nationale ; interdiction des lanceurs de balle de défense |
 | A | Marine Tondelier | secu-02 (texte court) | Recréer une police nationale de proximité et donner la priorité au renforcement des effectifs de terrain, formés à la médiation et à la prévention ; limiter les contrôles d'identité aux situations justifiées, avec récépissé |
 | B | Gabriel Attal | secu-06 | Faciliter l'implantation de prisons : obligations de logement social allégées pour les communes volontaires, possibilité pour le préfet de passer outre l'accord des élus locaux |
+| B | Édouard Philippe | secu-08 | Une loi d’accélération de la construction de prisons. |
 | B | Bruno Retailleau | secu-02 | Courtes peines dès le premier délit grave, dans des prisons spécifiques qui couteront moins chères |
 | B | Éric Zemmour | secu-04 (texte court) | Construire rapidement 100 000 places de prison supplémentaires, supprimer la fonction de juge de l'application des peines et rétablir une législation spécifique contre les casseurs |
 | D | Jean-Luc Mélenchon | secu-04 | Instaurer une régulation carcérale contraignante et des moyens de réinsertion |
@@ -167,7 +169,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 |---|---|---|---|
 | A | Gabriel Attal | europe-03 (texte court) | Poursuivre et amplifier le réarmement national et faire de la dissuasion nucléaire un outil de puissance, avec une doctrine de dissuasion avancée |
 | A | David Lisnard | europe-04 (texte court) | Couper les dépenses inutiles de l'État pour investir davantage dans la défense ; rester allié des États-Unis sans s'aligner sur toutes leurs positions ; bâtir les coopérations d'armement à partir des besoins militaires et industriels |
-| A | Édouard Philippe | europe-01 | Porter le nombre de réservistes de 45 000 à 250 000 |
+| A | Édouard Philippe | europe-03 | Nouvelle loi de programmation militaire de la massification : Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. ; dépasser l’objectif actuel de 100 000 obus par an pour atteindre l’échelle des 700 000 produits par l’Allemagne |
 | B | Delphine Batho | europe-01 (texte court) | Augmenter sans hésiter le budget de la défense pour construire une Europe de la défense autonome, avec une dissuasion civile fondée sur la réduction de nos dépendances |
 | B | Raphaël Glucksmann | europe-02 | Plan pour la souveraineté européenne et grand emprunt européen |
 | B | François Ruffin | europe-03 (texte court) | Construire une défense de l'Europe et une industrie de défense par la coopération entre nations volontaires, sans confier ce chantier à la Commission européenne ni tout miser sur l'OTAN |
@@ -185,13 +187,13 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | A | Jean-Luc Mélenchon | educ-03 | Réduire les effectifs par classe, en priorité en maternelle et en éducation prioritaire |
+| A | Fabien Roussel | educ-03 | Abroger la réforme Blanquer et lancer un vaste plan de recrutement d'enseignants |
 | A | Marine Tondelier | educ-02 | réduisant la taille des classes à 19 élèves en 2032 et à 12 élèves dans les établissements en réseau d'éducation prioritaire |
 | B | Gabriel Attal | educ-02 | Salaire des enseignants revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière ; meilleure rémunération des accompagnants d'élèves en situation de handicap |
 | B | Raphaël Glucksmann | educ-01 | Augmenter de 10 % la rémunération de tous les enseignants, jusqu'à 25 % selon la progression de carrière |
 | B | Marine Le Pen | educ-01 | Maintenir le budget de l'éducation malgré la baisse démographique, pour financer plus d'enseignants et des salaires plus élevés |
-| B | Édouard Philippe | educ-01 | Augmenter de 20 % la rémunération moyenne des enseignants |
+| B | Édouard Philippe | educ-01 | Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat. |
 | B | Bruno Retailleau | educ-01 | Revaloriser significativement les salaires des enseignants, pour rapprocher leur rémunération de la moyenne européenne ; réformer en profondeur les règles d'affectation et de progression de carrière |
-| B | Fabien Roussel | educ-01 | Nous avons besoin de plus d'enseignants pour faire reculer les inégalités ; la baisse démographique ne doit pas être utilisée pour faire des économies ; faire de l'accès aux connaissances et aux savoirs la priorité du quinquennat à venir |
 | C | David Lisnard | educ-05 | la liberté donnée aux chefs d’établissement de recruter leurs équipes pédagogiques, de fixer les méthodes, de gérer leur budget et de refuser les élèves perturbateurs |
 | D | Éric Zemmour | educ-01 (texte court) | Revenir à la dictée, au calcul mental, à la récitation et à la discipline ; renforcer l'autorité et l'autonomie des chefs d'établissement et la concurrence entre public et privé |
 
@@ -206,6 +208,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Jean-Luc Mélenchon | sante-07 | Réguler l'installation des médecins ; recruter des médecins salariés et développer les centres de santé |
 | A | Marine Tondelier | sante-01 (texte court) | Soumettre l'installation des médecins libéraux à une autorisation de l'agence régionale de santé, accordée de droit dans les zones sous-dotées et ailleurs seulement en remplacement d'un départ ; créer 2 000 centres de santé d'ici 2030 |
 | B | David Lisnard | sante-03 | Nous proposons un conventionnement différencié : la Sécurité sociale rembourse mieux les actes dans les zones sous-dotées, avec liberté d'installation |
+| C | Éric Zemmour | sante-02 | Élargir les missions des infirmiers et des pharmaciens |
 
 ## Institutions & démocratie
 

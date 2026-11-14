@@ -1,6 +1,6 @@
 ---
 theme: europe
-derniere_maj: 2026-11-08
+derniere_maj: 2026-11-14
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -23,7 +23,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Q-europe-traites | nouveau traité pour un noyau fédéral | pas de position | réforme de l'UE | primauté de la Constitution | réforme des traités et dérogations | « désobéissance » dans certains domaines | pas de position | primauté du droit national dans certains domaines | pas de position | changer certaines politiques européennes, sans sortie | réforme dans un sens fédéral | primauté du droit national, sans sortie de l'UE |
 | Q-europe-defense | pas de position | hausse, sans niveau chiffré | pas de position | pas de position | pas de position | contre l'objectif de 5 % du PIB | pas de position | pas de position | baisse souhaitée, sans niveau chiffré | pas de position | pas de position | pas de position |
 | Q-europe-otan | pas de position | pas de position | pas de position | sortie du commandement intégré, reportée | pas de position | sortie par étapes | favorable à l'adhésion de l'Ukraine | pas de position | critique, sans proposition de sortie trouvée | réservé, sans proposition de sortie trouvée | maintien à court terme, pilier européen autonome | pas de position |
-| Q-europe-ukraine | soutien | soutien humanitaire, civil, financier et militaire | soutien accru | aide militaire sans aide financière | soutien | cessez-le-feu négocié | soutien | pas de position | cessez-le-feu rapide et négociation | nuancé | soutien politique, militaire et économique | pas de position |
+| Q-europe-ukraine | soutien | soutien humanitaire, civil, financier et militaire | soutien accru | aide militaire sans aide financière | soutien | cessez-le-feu négocié ; vote des populations sur toute modification de frontière | soutien | pas de position | cessez-le-feu rapide et négociation | nuancé | soutien politique, militaire et économique | pas de position |
 
 ## Dilemmes du thème
 

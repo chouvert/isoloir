@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-08
+derniere_maj: 2026-11-14
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -19,13 +19,13 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 | D-social-retraites | D | pas de position | pas de position | D | A | C | A | A | pas de position | pas de position | B | A |
 | D-social-chomage | A | pas de position | pas de position | pas de position | aucune | C | A | A | pas de position | C | B | pas de position |
 | D-env-electricite | A | D | C | A | A | B | A | A | pas de position | D | D | A |
-| D-env-rythme | A | A | A | D | D | B | pas de position | D | D | B | B | D |
-| D-secu-budget | B | pas de position | pas de position | pas de position | A | D | pas de position | B | pas de position | pas de position | A | B |
+| D-env-rythme | A | A | B | D | D | B | pas de position | D | D | B | B | D |
+| D-secu-budget | B | pas de position | pas de position | pas de position | A | D | B | B | A | pas de position | A | B |
 | D-immig-travail | A | pas de position | B | aucune | A | B | A | pas de position | pas de position | B | B | aucune |
 | D-europe-regles | B | pas de position | pas de position | D | C | C | pas de position | C | pas de position | B | B | D |
 | D-europe-defense | A | B | B | D | A | D | A | pas de position | D | B | B | pas de position |
-| D-educ-niveau | B | pas de position | B | B | C | A | B | B | B | pas de position | A | D |
-| D-sante-deserts | pas de position | pas de position | pas de position | pas de position | B | A | pas de position | pas de position | pas de position | pas de position | A | pas de position |
+| D-educ-niveau | B | pas de position | B | B | C | A | B | B | A | pas de position | A | D |
+| D-sante-deserts | pas de position | pas de position | pas de position | pas de position | B | A | pas de position | pas de position | pas de position | pas de position | A | C |
 | D-instit-participation | D | pas de position | C | B | A | A | pas de position | A | pas de position | A | A | pas de position |
 
 ## Couverture par candidat
@@ -38,12 +38,12 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 | Marine Le Pen | 9 | 1 | 3 |
 | David Lisnard | 12 | 1 | 0 |
 | Jean-Luc Mélenchon | 13 | 0 | 0 |
-| Édouard Philippe | 8 | 0 | 5 |
+| Édouard Philippe | 9 | 0 | 4 |
 | Bruno Retailleau | 10 | 0 | 3 |
-| Fabien Roussel | 4 | 0 | 9 |
+| Fabien Roussel | 5 | 0 | 8 |
 | François Ruffin | 8 | 0 | 5 |
 | Marine Tondelier | 13 | 0 | 0 |
-| Éric Zemmour | 8 | 1 | 4 |
+| Éric Zemmour | 9 | 1 | 3 |
 
 ## Économie & fiscalité
 
@@ -105,8 +105,8 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 > Accélérer la transition écologique a un coût à court terme. Quel rythme vous paraît le bon ?
 
-- **A** — Accélérer, même si cela pèse sur certains prix et certaines activités : Attal, Batho, Glucksmann
-- **B** — Accélérer en faisant contribuer d'abord les plus gros émetteurs : Mélenchon, Ruffin, Tondelier
+- **A** — Accélérer, même si cela pèse sur certains prix et certaines activités : Attal, Batho
+- **B** — Accélérer en faisant contribuer d'abord les plus gros émetteurs : Glucksmann, Mélenchon, Ruffin, Tondelier
 - **C** — Garder le rythme actuel des engagements : —
 - **D** — Assouplir certaines normes pour préserver pouvoir d'achat et compétitivité : Le Pen, Lisnard, Retailleau, Roussel, Zemmour
 - *pas de position* : Philippe
@@ -117,11 +117,11 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 > Le budget sécurité-justice ne peut augmenter que sur un seul poste. Lequel choisir ?
 
-- **A** — Plus de policiers et de gendarmes sur le terrain : Lisnard, Tondelier
-- **B** — Plus de places de prison pour exécuter les peines : Attal, Retailleau, Zemmour
+- **A** — Plus de policiers et de gendarmes sur le terrain : Lisnard, Roussel, Tondelier
+- **B** — Plus de places de prison pour exécuter les peines : Attal, Philippe, Retailleau, Zemmour
 - **C** — Plus de magistrats et de greffiers pour juger plus vite : —
 - **D** — Plus de prévention (éducateurs, médiation, insertion) : Mélenchon
-- *pas de position* : Batho, Glucksmann, Le Pen, Philippe, Roussel, Ruffin
+- *pas de position* : Batho, Glucksmann, Le Pen, Ruffin
 
 ## Immigration
 
@@ -164,8 +164,8 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 > Pour améliorer le niveau des élèves, un seul effort peut être financé. Lequel ?
 
-- **A** — Réduire le nombre d'élèves par classe : Mélenchon, Tondelier
-- **B** — Mieux payer les enseignants : Attal, Glucksmann, Le Pen, Philippe, Retailleau, Roussel
+- **A** — Réduire le nombre d'élèves par classe : Mélenchon, Roussel, Tondelier
+- **B** — Mieux payer les enseignants : Attal, Glucksmann, Le Pen, Philippe, Retailleau
 - **C** — Donner plus d'autonomie aux établissements : Lisnard
 - **D** — Recentrer sur les fondamentaux avec des évaluations régulières : Zemmour
 - *pas de position* : Batho, Ruffin
@@ -178,9 +178,9 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 - **A** — Obliger les jeunes médecins à exercer quelques années dans les zones sous-dotées : Mélenchon, Tondelier
 - **B** — Mieux rémunérer les médecins qui s'installent dans ces zones : Lisnard
-- **C** — Confier davantage d'actes aux pharmaciens et aux infirmiers : —
+- **C** — Confier davantage d'actes aux pharmaciens et aux infirmiers : Zemmour
 - **D** — Développer fortement la téléconsultation : —
-- *pas de position* : Attal, Batho, Glucksmann, Le Pen, Philippe, Retailleau, Roussel, Ruffin, Zemmour
+- *pas de position* : Attal, Batho, Glucksmann, Le Pen, Philippe, Retailleau, Roussel, Ruffin
 
 ## Institutions & démocratie
 

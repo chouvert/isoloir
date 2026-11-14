@@ -1,6 +1,6 @@
 ---
 theme: eco
-derniere_maj: 2026-11-08
+derniere_maj: 2026-11-14
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -59,6 +59,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Delphine Batho | eco-02 | Prix des carburants : aide d'urgence aux ménages les plus vulnérables et aux professions et associations les plus exposées, par des « dispositifs déclaratifs avec versement immédiat », puis aides versées automatiquement et mensuellement ; financement en mettant « à contribution le surplus de TVA engrangé », avec les employeurs et les organismes payeurs ; réformer la filière pétrolière contre la spéculation, les recettes éventuelles finançant des « mesures concrètes comme le leasing électrique social » (parti : communiqué signé Alexandre Fernier et Quentin Guillemain, 2026-04-10) | non chiffré | — |
 | Raphaël Glucksmann | eco-01 | Taxer les « méga héritages » au-delà de deux millions d'euros (seuil rapporté par LCP), soit les « 1% les plus gros » ; « 99% des héritages ne seront pas affectés » | 15 Md€ de recettes (périodicité non précisée) | — |
 | Raphaël Glucksmann | eco-02 | Baisser la CSG sur les salaires pour « rapprocher le salaire net du salaire brut » (LCP), financé par la taxe sur les méga héritages (eco-01) : « Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages » (Public Sénat) | non chiffré séparément ; financé par eco-01 (15 Md€ annoncés) | — |
+| Raphaël Glucksmann | eco-05 | Contribution exceptionnelle (CEPIC) de 5 % sur les patrimoines supérieurs à 100 millions d'euros, pour une seule année, affectée à un fonds pour la transition climatique | 50 Md€ de recettes, une seule fois | — |
 | Marine Le Pen | eco-01 | Réaliser 140 Md€ d'économies nettes, surtout les trois premières années : équilibre primaire en 18 mois, déficit sous 3 % du PIB en 2030 et sous 2,5 % en 2032, dépenses publiques sous 50 % du PIB, dette à 112 % du PIB en 2032 | 140 Md€ d'économies nettes en 2032 par rapport à 2026 (125 Md€ annoncés le 2026-08-27) | — |
 | Marine Le Pen | eco-03 | Baisser les impôts d'au moins 30 Md€ nets, dont 20 Md€ sur les impôts de production | au moins 30 Md€ nets | — |
 | Marine Le Pen | eco-04 | Ramener la TVA de 20 % à 5,5 % sur l'électricité, le gaz et les carburants (« l'électricité, le gaz et le fioul » selon le compte rendu du débat du Medef du 2026-08-27 ; « gas, electricity and heating oil » à Hénin-Beaumont le 2026-09-13) | 12 Md€ selon le RN (15 Md€ selon la ministre Maud Bregeon) | — |
@@ -78,6 +79,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Jean-Luc Mélenchon | eco-06 | Raboter les niches fiscales et sociales | +22 Md€ en 2027 | — |
 | Jean-Luc Mélenchon | eco-07 | Taxer les « superprofits » | +5 Md€ | — |
 | Jean-Luc Mélenchon | eco-08 | Pôle public bancaire investissant 100 Md€ par an, hors budget de l'État | 100 Md€/an hors budget | — |
+| Jean-Luc Mélenchon | eco-09 | Investir 22 milliards d'euros dans les services publics dès les premiers mois du quinquennat (grand oral de Radio France sur les services publics, propos paraphrasés par Public Sénat ; ventilation non précisée) | 22 Md€ selon lui | — |
 | Édouard Philippe | eco-02 | Baisser de 50 Md€ les impôts de production, en supprimant 50 Md€ d'aides publiques jugées improductives | 50 Md€ de baisse, en contrepartie de 50 Md€ d'aides en moins | — |
 | Bruno Retailleau | eco-01 | Plan d'économies de 197 Md€ « sans augmentation d'impôts » : État 96 Md€, social 91 Md€, collectivités 10 Md€ ; 146 Md€ pour réduire la dépense et la dette, 51 Md€ d'allègements ; déficit sous 3 % du PIB en 2031 et à 2,2 % en 2032 | 197 Md€ cumulés jusqu'en 2032 (non annuel) | — |
 | Bruno Retailleau | eco-02 | Ne pas remplacer 400 000 fonctionnaires partant à la retraite d'ici 2032 | 25 Md€ d'économies cumulées (non annuel) | — |
