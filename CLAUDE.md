@@ -10,7 +10,7 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 - `README.md` : conventions, règle d'inclusion des candidats, sources, propositions phares.
 - `referentiel/dilemmes.md` : 13 dilemmes et **règles de rattachement** (orientation principale,
   départage, position de la campagne, `aucune` / `pas de position`).
-- `referentiel/questions.md` (26 questions-clés), `themes.md`, `preoccupations.md`,
+- `referentiel/questions.md` (27 questions-clés), `themes.md`, `preoccupations.md`,
   `methode-proximite.md`, `faisabilite.md`, `candidats-inclus.md` (12 candidats retenus au 2026-10-28).
 - `candidats/_modele.md` : gabarit. Fiches de référence conformes : `tondelier-marine.md`,
   `ruffin-francois.md`, `roussel-fabien.md`.
