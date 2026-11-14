@@ -1,6 +1,6 @@
 ---
 theme: immig
-derniere_maj: 2026-11-08
+derniere_maj: 2026-11-14
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
