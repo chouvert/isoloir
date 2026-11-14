@@ -1,6 +1,6 @@
 ---
 theme: env
-derniere_maj: 2026-11-08
+derniere_maj: 2026-11-14
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -28,7 +28,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | dilemme | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | D-env-electricite | A | D | C | A | A | B | A | A | pas de position | D | D | A |
-| D-env-rythme | A | A | A | D | D | B | pas de position | D | D | B | B | D |
+| D-env-rythme | A | A | B | D | D | B | pas de position | D | D | B | B | D |
 
 ### D-env-electricite
 
@@ -44,8 +44,8 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 > Accélérer la transition écologique a un coût à court terme. Quel rythme vous paraît le bon ?
 
-- **A** — Accélérer, même si cela pèse sur certains prix et certaines activités : Attal, Batho, Glucksmann
-- **B** — Accélérer en faisant contribuer d'abord les plus gros émetteurs : Mélenchon, Ruffin, Tondelier
+- **A** — Accélérer, même si cela pèse sur certains prix et certaines activités : Attal, Batho
+- **B** — Accélérer en faisant contribuer d'abord les plus gros émetteurs : Glucksmann, Mélenchon, Ruffin, Tondelier
 - **C** — Garder le rythme actuel des engagements : —
 - **D** — Assouplir certaines normes pour préserver pouvoir d'achat et compétitivité : Le Pen, Lisnard, Retailleau, Roussel, Zemmour
 - *pas de position* : Philippe
@@ -55,8 +55,9 @@ Le détail et les sources de chaque position sont dans les fiches.
 | candidat | id | proposition | chiffrage annoncé | chiffrage indépendant |
 |---|---|---|---|---|
 | Delphine Batho | env-03 | Canicules : une France « dotée d'un ministère régalien de la résilience, de la protection civile et des situations d'urgence » ; « généraliser les réserves communales de sécurité civile » (présentes dans 755 communes) ; « une loi de programmation pour l'adaptation et la résilience face au changement climatique » ; « plan de mise à l'abri avec liste des lieux frais accessibles gratuitement » ; « isolation des logements et des bâtiments publics » ; refus d'un « grand plan climatisation » (parti, 2026-05-27) ; la candidate : « chacun, même en bonne santé, devrait pouvoir passer deux à trois heures par jour dans un endroit rafraîchi » (2026-06-26) | non chiffré | — |
-| Raphaël Glucksmann | env-01 | Engager « les 100 jours de la révolution écologique » dès l'élection, avec pour priorité la sortie du gaz et du pétrole ; rénovation thermique des bâtiments, efficacité énergétique, sobriété | non chiffré : « Nous le chiffrerons lors de la présentation de ce plan » (L'Info Durable) | — |
-| Raphaël Glucksmann | env-02 | Leasing social : un million de voitures électriques mises à disposition des ménages modestes pour « 100 euros par mois » | 6 Md€ (périodicité non précisée) | — |
+| Raphaël Glucksmann | env-01 | Engager « les 100 jours de la révolution écologique » dès l'élection, avec pour priorité la sortie du gaz et du pétrole ; rénovation thermique des bâtiments, efficacité énergétique, sobriété ; premier volet présenté le 2026-11-09 : plan des « 100 premiers jours pour sortir des énergies fossiles », 200 Md€ d'investissements engagés par l'ensemble des administrations publiques (État, collectivités, Sécurité sociale) dès les premiers jours du quinquennat | 200 Md€ d'investissements (durée et périodicité non précisées) | — |
+| Raphaël Glucksmann | env-02 | Leasing social : un million de voitures électriques mises à disposition des ménages modestes pour « 100 euros par mois » ; précisé le 2026-11-09 : voitures compactes, sans apport, pour les actifs gagnant moins de 2 000 euros net par mois et parcourant plus de 30 km par jour pour travailler ; 100 000 véhicules la première année réservés aux soignants, infirmières libérales et auxiliaires de vie en zone rurale | 6 Md€ (périodicité non précisée) | — |
+| Raphaël Glucksmann | env-06 | Chèque énergie exceptionnel : « un chèque énergie exceptionnel de 500 euros pour 6 millions de familles », et 200 euros pour 10 millions de familles supplémentaires des classes moyennes | montants unitaires, sans coût total annoncé | — |
 | Jean-Luc Mélenchon | env-02 | Plan de 200 Md€ d'investissements écologiques et « socialement utiles » | 200 Md€ (durée non précisée) | — |
 | Jean-Luc Mélenchon | env-05 | Investir 10 Md€ dans la planification écologique (le document écrit « dès 2026 ») | 10 Md€ | — |
 | Édouard Philippe | env-02 | Créer un fonds unique d'adaptation au changement climatique (fusion du fonds Barnier et du Fonds vert) | 2 Md€/an | — |

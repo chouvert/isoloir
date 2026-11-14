@@ -1,6 +1,6 @@
 ---
 theme: sante
-derniere_maj: 2026-11-08
+derniere_maj: 2026-11-14
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -18,14 +18,14 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 | question | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-sante-acces | pas de position | pas de position | pas de position | pas de position | conventionnement différencié et formation | régulation de l'installation et services publics de proximité | pas de position | pas de position | pas de position | pas de position | centres de santé, régulation de l'installation | pas de position |
+| Q-sante-acces | pas de position | pas de position | pas de position | pas de position | conventionnement différencié et formation | régulation de l'installation et services publics de proximité | pas de position | pas de position | pas de position | pas de position | centres de santé, régulation de l'installation | médecins retraités, numerus clausus, infirmiers et pharmaciens |
 | Q-sante-findevie | pour | pour | pas de position | contre | pas de position | pour | nuancé | contre | pas de position | pour | pour | pas de position |
 
 ## Dilemmes du thème
 
 | dilemme | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-sante-deserts | pas de position | pas de position | pas de position | pas de position | B | A | pas de position | pas de position | pas de position | pas de position | A | pas de position |
+| D-sante-deserts | pas de position | pas de position | pas de position | pas de position | B | A | pas de position | pas de position | pas de position | pas de position | A | C |
 
 ### D-sante-deserts
 
@@ -33,9 +33,9 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 - **A** — Obliger les jeunes médecins à exercer quelques années dans les zones sous-dotées : Mélenchon, Tondelier
 - **B** — Mieux rémunérer les médecins qui s'installent dans ces zones : Lisnard
-- **C** — Confier davantage d'actes aux pharmaciens et aux infirmiers : —
+- **C** — Confier davantage d'actes aux pharmaciens et aux infirmiers : Zemmour
 - **D** — Développer fortement la téléconsultation : —
-- *pas de position* : Attal, Batho, Glucksmann, Le Pen, Philippe, Retailleau, Roussel, Ruffin, Zemmour
+- *pas de position* : Attal, Batho, Glucksmann, Le Pen, Philippe, Retailleau, Roussel, Ruffin
 
 ## Coûts des propositions du thème
 

@@ -3,7 +3,17 @@
 Règle : README, « Candidats inclus ». Situation au **2026-11-14**, à réexaminer à chaque mise à jour
 importante des candidatures et des sondages.
 
-Contrôle du **2026-11-14** : **entrée de Nicolas Dupont-Aignan** au titre des sondages (fiche à rédiger) ; aucune
+Contrôle du **2026-11-14** (mise à jour 2026-S46) : aucune entrée ni sortie. Sondage Toluna Harris Interactive pour
+M6 et RTL (terrain du 3 au 5 novembre 2026, 2 101 inscrits), cinq hypothèses : Le Pen 34 – 36 %, Mélenchon 18 – 19 %,
+Philippe 11 – 14 %, Glucksmann 11 – 13 %, Attal 6 – 10 %, Lisnard 9 %, Retailleau 5 – 10 %, Zemmour 3 – 4 %,
+Tondelier 2 – 3 %, Roussel 1 – 2 %, Villepin 2 %, Dupont-Aignan 1 – 2 % (relevé sur une notice en diapositives : Le Pen, Mélenchon et Philippe confirmés par
+[Politique Matin, 2026-11-10](https://www.politiquematin.fr/presidentielle-2027-sondage-harris-melenchon-19-primaire-centre-10-novembre))
+([notice de la Commission des sondages](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf)).
+Teddy Riner, candidat déclaré le 2026-11-09 : 2 % dans le sondage Cluster17 pour Politico (dates de terrain non données par l'article) ([Euronews, 2026-11-12](https://fr.euronews.com/2026/11/12/presidentielle-2027-teddy-riner-rattrape-par-le-fisc-un-premier-combat-sur-le-terrain-poli)) ;
+un second institut (CSA, 4 % selon le titre du JDD du 2026-11-12) n'a pas pu être lu : voir « Non inclus ».
+Éric Zemmour a officialisé sa candidature sur TF1 le 2026-11-10 (déjà inclus).
+
+Contrôle complémentaire du **2026-11-14**, qui remplace le précédent : **entrée de Nicolas Dupont-Aignan** au titre des sondages (fiche à rédiger) ; aucune
 sortie. Relevé refait sur les notices de la Commission des sondages et les rapports des instituts (12 sondages,
 terrains du 14 octobre au 12 novembre 2026), repérés par la page Wikipédia « Liste de sondages sur l'élection
 présidentielle française de 2027 », qui ne sert que de relevé. Le sondage Ifop pour LCI publié le 2026-11-03 a été
@@ -78,6 +88,7 @@ et François Asselineau 1 % au plus ; Nathalie Arthaud 0,5 – 1 %.
 | Olivier Becht          | Député, mais candidat indépendant (« Mon parti, ce sont les Français »), sans soutien de parti | [Parlons Politique](https://www.parlons-politique.fr/elections/candidature-presidentielle-2027-olivier-becht-mise-sur-lindependance-pour-convaincre-les-electeurs-eloignes-des-partis_27747/) |
 | Bernard Cazeneuve      | La Convention revendique une trentaine de parlementaires, mais la candidature n'est pas déclarée selon LCP ; à inclure dès sa déclaration | [La Gazette France, 2026-04-23](https://www.lagazettefrance.fr/article/bernard-cazeneuve-affiche-sa-determination-totale-pour-2027) ; [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) |
 | Xavier Bertrand        | Pas encore déclaré ; annonce une candidature indépendante | [LCP, 2026-08-27](https://lcp.fr/actualites/2027-figure-de-la-droite-xavier-bertrand-confirme-qu-il-sera-candidat-a-l-election) |
+| Teddy Riner            | Déclaré le 2026-11-09, sans parti ni parlementaire trouvé. Testé dans certaines hypothèses seulement : 4 % (OpinionWay pour CNews, 10 – 12 nov.) et 2 % (Cluster17 pour Politico, 9 – 10 nov.). Deux instituts à 2 % ou plus : il entre si l'on retient la lecture « au moins une hypothèse publiée » recommandée dans la PR #45 (à arbitrer). L'Ifop du 9 – 10 novembre (22 % prêts à voter pour lui) mesure un potentiel, pas une intention de vote | [notice 10371](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf) ; [rapport Cluster17](https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf) ; [Euronews, 2026-11-12](https://fr.euronews.com/2026/11/12/presidentielle-2027-teddy-riner-rattrape-par-le-fisc-un-premier-combat-sur-le-terrain-poli) |
 | Lydie Massard          | Union démocratique bretonne : aucun parlementaire trouvé | [Wikipédia](https://en.wikipedia.org/wiki/Lydie_Massard) |
 | Nathalie Arthaud, François Asselineau, Clara Egger, Francis Lalanne, Antoine Mikolajczak, Florian Philippot, Natacha Polony et les autres candidats déclarés | Moins de 2 % dans les sondages, ou 2 % ou plus dans un seul institut (Polony : 2,5 % chez Cluster17, 9 – 10 nov.) ; aucun parlementaire trouvé pour leur parti | [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) ; [Élections 2027](https://elections2027.com/sondages) |
 
@@ -90,6 +101,5 @@ Scores relevés dans les sondages listés plus haut ; aucun ne compte tant que l
 | Dominique de Villepin | La France humaniste ; « Je ne suis pas encore candidat » (France Inter, 2026-11-03) | 1 – 3 % ; 2 % ou plus chez Elabe et Toluna Harris Interactive : entre dès sa déclaration | [franceinfo, 2026-11-03](https://www.franceinfo.fr/elections/presidentielle/je-ne-suis-pas-encore-candidat-a-la-presidentielle-2027-indique-dominique-de-villepin_8265395.html) ; [LCP, 2026-10-23](https://www.lcp.fr/actualites/presidentielle-dominique-de-villepin-annonce-avoir-depasse-la-barre-des-300-signatures) |
 | François Hollande | décision annoncée pour décembre ou janvier | 6,5 % (Cluster17, 19 – 22 oct.) ; 10 % (Ifop, 17 – 19 oct.) | [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) |
 | Christine Lagarde | testée par Cluster17 seulement | 8 – 14 % (Cluster17, 9 – 10 nov.) | [rapport Cluster17](https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf) |
-| Teddy Riner | testé par deux instituts | 4 % (OpinionWay, 10 – 12 nov.) ; 2 % (Cluster17, 9 – 10 nov.) : entrerait s'il se déclarait | [notice 10371](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf) ; [rapport Cluster17](https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf) |
 | Bernard Cazeneuve, Xavier Bertrand | voir « Non inclus » | non testés en premier tour | |
 | Élisabeth Borne, Bruno Le Maire ; Jordan Bardella en cas de retrait de Marine Le Pen | | non testés en premier tour | [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) |
