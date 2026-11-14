@@ -7,7 +7,7 @@ derniere_maj: 2026-11-14
 
 # Comparatif — Écologie & énergie
 
-Candidats (12) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
+Candidats (13) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
 
 Le détail et les sources de chaque position sont dans les fiches.
 
@@ -17,24 +17,24 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **Q-env-renouv** : Développement de l'éolien et du solaire ?
 - **Q-env-climat** : Maintien de l'objectif de neutralité carbone en 2050 ?
 
-| question | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-env-nuc | pour | contre | pour | pour | pour | contre | pour | pour | pour | pour | contre | pour |
-| Q-env-renouv | pour | pour | pour | contre | nuancé | pour | pour | nuancé | pas de position | pour | pour | contre |
-| Q-env-climat | pour | pas de position | pas de position | pour | pas de position | pas de position | pas de position | pas de position | pas de position | pas de position | pour | pas de position |
+| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q-env-nuc | pour | contre | pour | pour | pour | pour | contre | pour | pour | pour | pour | contre | pour |
+| Q-env-renouv | pour | pour | contre | pour | contre | nuancé | pour | pour | nuancé | pas de position | pour | pour | contre |
+| Q-env-climat | pour | pas de position | pas de position | pas de position | pour | pas de position | pas de position | pas de position | pas de position | pas de position | pas de position | pour | pas de position |
 
 ## Dilemmes du thème
 
-| dilemme | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-env-electricite | A | D | C | A | A | B | A | A | pas de position | D | D | A |
-| D-env-rythme | A | A | B | D | D | B | pas de position | D | D | B | B | D |
+| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D-env-electricite | A | D | A | C | A | A | B | A | A | pas de position | D | D | A |
+| D-env-rythme | A | A | D | B | D | D | B | pas de position | D | D | B | B | D |
 
 ### D-env-electricite
 
 > Les besoins en électricité vont augmenter. Sur quoi miser en priorité ?
 
-- **A** — Construire de nouveaux réacteurs nucléaires : Attal, Le Pen, Lisnard, Philippe, Retailleau, Zemmour
+- **A** — Construire de nouveaux réacteurs nucléaires : Attal, Dupont-Aignan, Le Pen, Lisnard, Philippe, Retailleau, Zemmour
 - **B** — Développer massivement l'éolien et le solaire : Mélenchon
 - **C** — Combiner nucléaire et renouvelables à parts comparables : Glucksmann
 - **D** — Réduire d'abord la consommation (sobriété, efficacité) : Batho, Ruffin, Tondelier
@@ -47,7 +47,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **A** — Accélérer, même si cela pèse sur certains prix et certaines activités : Attal, Batho
 - **B** — Accélérer en faisant contribuer d'abord les plus gros émetteurs : Glucksmann, Mélenchon, Ruffin, Tondelier
 - **C** — Garder le rythme actuel des engagements : —
-- **D** — Assouplir certaines normes pour préserver pouvoir d'achat et compétitivité : Le Pen, Lisnard, Retailleau, Roussel, Zemmour
+- **D** — Assouplir certaines normes pour préserver pouvoir d'achat et compétitivité : Dupont-Aignan, Le Pen, Lisnard, Retailleau, Roussel, Zemmour
 - *pas de position* : Philippe
 
 ## Coûts des propositions du thème
@@ -55,6 +55,10 @@ Le détail et les sources de chaque position sont dans les fiches.
 | candidat | id | proposition | chiffrage annoncé | chiffrage indépendant |
 |---|---|---|---|---|
 | Delphine Batho | env-03 | Canicules : une France « dotée d'un ministère régalien de la résilience, de la protection civile et des situations d'urgence » ; « généraliser les réserves communales de sécurité civile » (présentes dans 755 communes) ; « une loi de programmation pour l'adaptation et la résilience face au changement climatique » ; « plan de mise à l'abri avec liste des lieux frais accessibles gratuitement » ; « isolation des logements et des bâtiments publics » ; refus d'un « grand plan climatisation » (parti, 2026-05-27) ; la candidate : « chacun, même en bonne santé, devrait pouvoir passer deux à trois heures par jour dans un endroit rafraîchi » (2026-06-26) | non chiffré | — |
+| Nicolas Dupont-Aignan | env-01 | Accélérer la construction des EPR2 et le déploiement des petits réacteurs modulaires pour remplacer les centrales en fin de vie, lancer un programme de recherche sur les réacteurs à neutrons rapides (projet Astrid), rénover les barrages hydroélectriques maintenus à EDF (Livret, mesure 30) | non chiffré | — |
+| Nicolas Dupont-Aignan | env-02 | « Supprimer les aides de l'État à l'installations des éoliennes et des panneaux solaires en annulant le décret sur la PPE3 » (Livret, mesure 25) | 10 d'économies | — |
+| Nicolas Dupont-Aignan | env-03 | Supprimer l'interdiction du moteur thermique en 2035 (discours de déclaration, 2025-03-08), supprimer les ZFE et le seuil minimal de DPE pour louer un logement, diviser par deux les normes administratives des entreprises (Livret, mesure 2) | non chiffré | — |
+| Nicolas Dupont-Aignan | env-04 | Remplacer la politique agricole commune par une politique agricole nationale : « Une politique agricole nationale remplacera la fameuse PAC » (discours de déclaration, 2025-03-08) | non chiffré | — |
 | Raphaël Glucksmann | env-01 | Engager « les 100 jours de la révolution écologique » dès l'élection, avec pour priorité la sortie du gaz et du pétrole ; rénovation thermique des bâtiments, efficacité énergétique, sobriété ; premier volet présenté le 2026-11-09 : plan des « 100 premiers jours pour sortir des énergies fossiles », 200 Md€ d'investissements engagés par l'ensemble des administrations publiques (État, collectivités, Sécurité sociale) dès les premiers jours du quinquennat | 200 Md€ d'investissements (durée et périodicité non précisées) | — |
 | Raphaël Glucksmann | env-02 | Leasing social : un million de voitures électriques mises à disposition des ménages modestes pour « 100 euros par mois » ; précisé le 2026-11-09 : voitures compactes, sans apport, pour les actifs gagnant moins de 2 000 euros net par mois et parcourant plus de 30 km par jour pour travailler ; 100 000 véhicules la première année réservés aux soignants, infirmières libérales et auxiliaires de vie en zone rurale | 6 Md€ (périodicité non précisée) | — |
 | Raphaël Glucksmann | env-06 | Chèque énergie exceptionnel : « un chèque énergie exceptionnel de 500 euros pour 6 millions de familles », et 200 euros pour 10 millions de familles supplémentaires des classes moyennes | montants unitaires, sans coût total annoncé | — |

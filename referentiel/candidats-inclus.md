@@ -60,7 +60,7 @@ hypothèses où il est seul candidat de la droite et du centre, quand elles sort
 | Gabriel Attal         | Renaissance        | 2 – 13 % (17 % seul candidat de la droite et du centre, Cluster17/Le Point) | 6 | `attal-gabriel` |
 | Éric Zemmour          | Reconquête         | 2 – 6 %    | 6 | `zemmour-eric` |
 | Marine Tondelier      | Les Écologistes    | 1 – 3,5 %  | 6 | `tondelier-marine` |
-| Nicolas Dupont-Aignan | Debout la France   | 1 – 3,5 %  | 6 (dans toutes les hypothèses chez Cluster17 et Elabe) | fiche à rédiger : `dupont-aignan-nicolas` |
+| Nicolas Dupont-Aignan | Debout la France   | 1 – 3,5 %  | 6 (dans toutes les hypothèses chez Cluster17 et Elabe) | `dupont-aignan-nicolas` |
 | Teddy Riner           | sans étiquette     | 2 – 4 % (hypothèses où il est testé) | 2 (OpinionWay 4 %, 10 – 12 nov. ; Cluster17 2 %, 9 – 10 nov.) | fiche à rédiger : `riner-teddy` |
 
 Nicolas Dupont-Aignan, candidat déclaré ([LCP, liste des candidats, mise à jour du 2026-10-14](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373)),

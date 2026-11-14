@@ -18,6 +18,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | A | Gabriel Attal | eco-01 | Plan d'économies sans hausse d'impôts, ouvert par un frein d'urgence dès l'élection pour stopper l'hémorragie ; deux tiers des économies sur les dépenses sociales, jugées hors de contrôle |
+| A | Nicolas Dupont-Aignan | eco-07 (texte court) | Plan de redressement de 140 milliards d'euros par an en fin de quinquennat : 100 milliards d'économies et 40 milliards de recettes nouvelles |
 | A | Marine Le Pen | eco-01 | Réaliser 140 Md€ d'économies nettes, surtout les trois premières années : équilibre primaire en 18 mois, déficit sous 3 % du PIB en 2030 et sous 2,5 % en 2032, dépenses publiques sous 50 % du PIB, dette à 112 % du PIB en 2032 |
 | A | David Lisnard | eco-01 | Baisser la dépense publique : 200 milliards d’euros de baisse de la dépense publique documentés, objectif de 300 Md€ ; Mon objectif, sur dix ans, consiste à ramener notre dépense publique au niveau actuel des Pays-Bas |
 | A | Édouard Philippe | eco-03 | Ramener le déficit public de plus de 5 % à 2 % du PIB : effort sur les dépenses sociales, l'État et les collectivités, et la croissance |
@@ -40,6 +41,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | David Lisnard | eco-02 | Rendre aux actifs, en salaire net, une partie des économies par la baisse des cotisations et l'alignement de la CSG des actifs sur celle des inactifs ; baisse durable des charges entre 2 et 4 SMIC |
 | B | Édouard Philippe | social-04 | Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures ; le programme présente la mesure sous la priorité Financer la protection sociale autrement que par le travail, pour augmenter le salaire net. |
 | B | Bruno Retailleau | social-05 (texte court) | Sortir des 35 heures : exonérer de cotisations salariales et patronales les heures travaillées au-delà de la 35e, pour que le brut soit égal au net, soit près de deux mois de salaire en plus par an pour 30 minutes de travail en plus par jour |
+| C | Nicolas Dupont-Aignan | eco-02 | Baisser de 40 centimes le prix des carburants : suppression des certificats d'économies d'énergie, suppression de la TVA sur l'accise, plafonnement des marges des raffineurs |
 | C | Marine Le Pen | eco-04 | Ramener la TVA de 20 % à 5,5 % sur l'électricité, le gaz et les carburants |
 | C | Fabien Roussel | eco-02 | Carburants : supprimer tout de suite les certificats d'économie d'énergie qu'ils ont mis sur le litre d'essence depuis le 1er janvier ; baisser la TVA sur les carburants de 20% à 5,5% ; obliger TotalEnergies à réduire ses marges |
 | C | Éric Zemmour | eco-03 | Baisser d'un tiers l'accise sur les carburants, financée par des économies |
@@ -60,6 +62,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Marine Tondelier | social-02 (texte court) | Revenir à 62 ans et viser 60 ans pour les carrières longues et pénibles, en finançant le régime par la hausse des cotisations vieillesse : +0,2 point par an pendant le quinquennat, et des cotisations étendues à l'épargne salariale, à l'intéressement et à la participation |
 | C | Jean-Luc Mélenchon | eco-01 | Rétablir un ISF renforcé |
 | D | Gabriel Attal | social-02 | Introduire une part de capitalisation : 1 000 € versés par l'État à la naissance de chaque enfant sur un plan d'épargne retraite que les parents et grands-parents pourraient abonder jusqu'aux 18 ans de l'enfant ; mesure annoncée en novembre 2025 comme amendement au PLF |
+| D | Nicolas Dupont-Aignan | social-02 | Doter chaque nouveau-né français d'un capital de 10 000 euros qui sera bloqué jusqu'à sa retraite, géré par un fonds public de capitalisation : à 60 ans, un complément de retraite par capitalisation d'au moins 400 euros par mois |
 | D | Marine Le Pen | social-02 | Créer un véritable pilier de capitalisation dans le système de retraite |
 
 ### D-social-chomage
@@ -71,6 +74,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Gabriel Attal | social-05 | Reprendre la réforme de l'assurance chômage engagée en 2024 et bloquée par la dissolution, qui créerait 100 000 emplois supplémentaires ; elle réduisait la durée d'indemnisation de 18 à 15 mois |
 | A | Édouard Philippe | social-03 | Limiter l'indemnisation chômage à 12 mois pour les moins de 50 ans, contre 18 mois aujourd’hui |
 | A | Bruno Retailleau | social-03 | Aligner les modalités des allocations chômage sur les standards européens |
+| B | Nicolas Dupont-Aignan | social-08 | Donner accès à un crédit d'études ou de formations pour les jeunes ayant quitté tôt l'école |
 | B | Marine Tondelier | social-07 (texte court) | Créer une sécurité sociale professionnelle pour les travailleurs touchés par la transition écologique : salaire garanti pendant deux ans en cas de perte d'emploi et formation rémunérée de 6 à 10 mois vers un métier de la transition |
 | C | Jean-Luc Mélenchon | social-02 | Porter le SMIC à 1 700 € net |
 | C | François Ruffin | social-02 (texte court) | Statut des travailleurs essentiels : heures avant 8 h et après 18 h payées double, coupures de plus de deux heures rémunérées, temps de trajet entre deux interventions compté comme temps de travail, plancher de 24 heures pour le temps partiel |
@@ -84,6 +88,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | A | Gabriel Attal | env-01 | Construire 14 nouveaux réacteurs nucléaires, à terme un par an |
+| A | Nicolas Dupont-Aignan | env-01 | Accélérer la construction des EPR2 et le déploiement des petits réacteurs modulaires pour remplacer les centrales en fin de vie, lancer un programme de recherche sur les réacteurs à neutrons rapides, rénover les barrages hydroélectriques maintenus à EDF |
 | A | Marine Le Pen | env-02 (texte court) | Mix électrique à 60 % nucléaire et 40 % renouvelable en 2050, en s'appuyant d'abord sur le nucléaire |
 | A | David Lisnard | env-01 | Nucléaire : prolongation de la durée de vie des réacteurs jusqu'à 60 ans, construction d'EPR de nouvelle génération, déploiement de mini-réacteurs nucléaires, recherche sur le traitement des déchets par laser |
 | A | Édouard Philippe | env-01 | Lancer 8 EPR supplémentaires, soit 14 au total ; Relancer le nucléaire et développer les renouvelables là où elles sont efficaces. |
@@ -105,6 +110,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Jean-Luc Mélenchon | env-01 | Réduire de 65 % les émissions de gaz à effet de serre en 2033, avec un bilan annuel public |
 | B | François Ruffin | eco-01 | Mise en place d'une taxe de 4% sur les dividendes des entreprises pour financer la transition écologique, 2 % pour les entreprises versant moins de 10 M€ de dividendes ; mesure à soumettre par référendum |
 | B | Marine Tondelier | env-03 | une fiscalité sur les entreprises fossiles et les ménages les plus émetteurs en carbone ; Supprimer progressivement les niches fiscales qui favorisent les énergies fossiles ; taxe exceptionnelle sur les superprofits pétrogaziers |
+| D | Nicolas Dupont-Aignan | env-03 | Supprimer l'interdiction du moteur thermique en 2035, supprimer les ZFE et le seuil minimal de DPE pour louer un logement, diviser par deux les normes administratives des entreprises |
 | D | Marine Le Pen | env-04 | Supprimer le zéro artificialisation nette ; réduire le DPE à un simple élément indicatif |
 | D | David Lisnard | eco-07 | Moratoire de trois ans sur les nouvelles normes ; Nous supprimerons le seuil de 50 salariés ; réécriture des codes du travail, de l'urbanisme et de la commande publique |
 | D | Bruno Retailleau | env-03 | Baisser la facture d'électricité : Je propose d'alléger de deux mois la facture d'électricité des Français ; baisse de 10 % pour la compétitivité des entreprises et des exploitations agricoles |
@@ -126,6 +132,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Édouard Philippe | secu-08 | Une loi d’accélération de la construction de prisons. |
 | B | Bruno Retailleau | secu-02 | Courtes peines dès le premier délit grave, dans des prisons spécifiques qui couteront moins chères |
 | B | Éric Zemmour | secu-04 (texte court) | Construire rapidement 100 000 places de prison supplémentaires, supprimer la fonction de juge de l'application des peines et rétablir une législation spécifique contre les casseurs |
+| C | Nicolas Dupont-Aignan | secu-01 | Doubler la dépense moyenne par habitant consacrée à la justice et augmenter le nombre de magistrats et de greffiers ; faire passer le budget de la justice de 10,1 milliards à 15 milliards |
 | D | Jean-Luc Mélenchon | secu-04 | Instaurer une régulation carcérale contraignante et des moyens de réinsertion |
 
 ## Immigration
@@ -143,6 +150,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Jean-Luc Mélenchon | immig-03 | Faciliter les visas et les régularisations ; carte de séjour de dix ans comme titre de référence |
 | B | François Ruffin | immig-01 (texte court) | Régulariser les personnes déjà présentes, pour des raisons humanitaires et de production, plutôt que recourir à une immigration de travail ; former en France les médecins dont le pays a besoin |
 | B | Marine Tondelier | immig-01 | Régulariser les travailleurs et les travailleuses sans papiers et accorder des titres de séjours pluriannuels automatiquement renouvelables ; programme : régulariser travailleurs, étudiants et parents d'enfants scolarisés selon des critères objectifs |
+| C | Nicolas Dupont-Aignan | social-06 | Proposer à chaque jeune sans diplôme une formation qualifiante intensive aux métiers manuels, du numérique ou des secteurs en demande, assortie d'un emploi à la clé dans les secteurs en pénurie de main-d'œuvre |
 
 ## Europe & international
 
@@ -158,6 +166,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | C | David Lisnard | europe-02 | Référendum En cas d’impossibilité pour un Etat d’exercer sa souveraineté en raison de règles supranationales ; obtenir une dispense des règles communes d'asile et d'immigration sur le modèle du Danemark |
 | C | Jean-Luc Mélenchon | europe-05 | Cesser d'appliquer les normes européennes incompatibles avec les engagements écologiques et sociaux |
 | C | Bruno Retailleau | europe-01 (texte court) | Changer la Constitution par référendum pour que le droit français prime sur le droit européen dans certaines situations, notamment en matière d'immigration et de sécurité, et permettre à une loi de revenir sur une jurisprudence européenne contraire aux intérêts fondamentaux |
+| D | Nicolas Dupont-Aignan | europe-02 | Faire primer le droit français sur le droit européen : Primauté du droit français sur le droit européen ; inscription par référendum dans la Constitution |
 | D | Marine Le Pen | europe-02 | Inscrire la primauté de la Constitution sur les engagements internationaux ; conditionner la participation à l'UE au respect de la Constitution ; interdire aux actes de l'UE de limiter le contrôle des frontières |
 | D | Éric Zemmour | europe-01 | Modifier l'article 55 de la Constitution pour que les lois nationales aient une valeur supérieure aux traités, sans sortie de l'UE |
 
@@ -168,6 +177,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | A | Gabriel Attal | europe-03 (texte court) | Poursuivre et amplifier le réarmement national et faire de la dissuasion nucléaire un outil de puissance, avec une doctrine de dissuasion avancée |
+| A | Nicolas Dupont-Aignan | europe-03 | Augmenter et sanctuariser le budget de la Défense à 2,3 % du PIB ; doubler le budget du renseignement |
 | A | David Lisnard | europe-04 (texte court) | Couper les dépenses inutiles de l'État pour investir davantage dans la défense ; rester allié des États-Unis sans s'aligner sur toutes leurs positions ; bâtir les coopérations d'armement à partir des besoins militaires et industriels |
 | A | Édouard Philippe | europe-03 | Nouvelle loi de programmation militaire de la massification : Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. ; dépasser l’objectif actuel de 100 000 obus par an pour atteindre l’échelle des 700 000 produits par l’Allemagne |
 | B | Delphine Batho | europe-01 (texte court) | Augmenter sans hésiter le budget de la défense pour construire une Europe de la défense autonome, avec une dissuasion civile fondée sur la réduction de nos dépendances |
@@ -190,6 +200,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Fabien Roussel | educ-03 | Abroger la réforme Blanquer et lancer un vaste plan de recrutement d'enseignants |
 | A | Marine Tondelier | educ-02 | réduisant la taille des classes à 19 élèves en 2032 et à 12 élèves dans les établissements en réseau d'éducation prioritaire |
 | B | Gabriel Attal | educ-02 | Salaire des enseignants revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière ; meilleure rémunération des accompagnants d'élèves en situation de handicap |
+| B | Nicolas Dupont-Aignan | educ-01 | Revaloriser les salaires des professeurs en deux temps : 20 % d'augmentation automatique pour tous, puis 20 % supplémentaires en contrepartie d'heures de soutien scolaire auprès des élèves en difficulté |
 | B | Raphaël Glucksmann | educ-01 | Augmenter de 10 % la rémunération de tous les enseignants, jusqu'à 25 % selon la progression de carrière |
 | B | Marine Le Pen | educ-01 | Maintenir le budget de l'éducation malgré la baisse démographique, pour financer plus d'enseignants et des salaires plus élevés |
 | B | Édouard Philippe | educ-01 | Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat. |
@@ -207,6 +218,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 |---|---|---|---|
 | A | Jean-Luc Mélenchon | sante-07 | Réguler l'installation des médecins ; recruter des médecins salariés et développer les centres de santé |
 | A | Marine Tondelier | sante-01 (texte court) | Soumettre l'installation des médecins libéraux à une autorisation de l'agence régionale de santé, accordée de droit dans les zones sous-dotées et ailleurs seulement en remplacement d'un départ ; créer 2 000 centres de santé d'ici 2030 |
+| B | Nicolas Dupont-Aignan | sante-01 | Une bourse pour les étudiants en médecine en échange d'un engagement à s'installer dans une zone sous-dotée pendant leurs cinq premières années d'exercice |
 | B | David Lisnard | sante-03 | Nous proposons un conventionnement différencié : la Sécurité sociale rembourse mieux les actes dans les zones sous-dotées, avec liberté d'installation |
 | C | Éric Zemmour | sante-02 | Élargir les missions des infirmiers et des pharmaciens |
 
@@ -218,6 +230,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
+| A | Nicolas Dupont-Aignan | instit-01 | Référendum d'initiative citoyenne à partir d'un million de signatures, RIC constituant et référendum de l'article 11 dans tous les domaines |
 | A | David Lisnard | instit-04 | Référendum : tout sujet pourra être soumis au pays ; La Constitution doit pouvoir, à terme, être révisée directement par référendum ; Le référendum d’initiative populaire sera vraiment institué et rendu praticable ; possibilité de passer outre par référendum une censure fondée sur le préambule |
 | A | Jean-Luc Mélenchon | instit-03 | Instaurer le référendum d'initiative citoyenne, y compris révocatoire |
 | A | Bruno Retailleau | instit-03 | Alléger le référendum d'initiative partagée : 2,5 millions de signatures nécessaires, contre 5 millions |
