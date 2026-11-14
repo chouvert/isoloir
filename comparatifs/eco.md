@@ -16,12 +16,14 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **Q-eco-impots** : Évolution du niveau global des prélèvements obligatoires ?
 - **Q-eco-patrimoine** : Taxation du patrimoine (ISF, IFI, succession) ?
 - **Q-eco-deficit** : Trajectoire de déficit public visée sur le quinquennat ?
+- **Q-eco-fonctionnaires** : Évolution des effectifs de la fonction publique ?
 
 | question | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Q-eco-impots | baisse | pas de position | hausse ciblée sur les plus gros héritages et patrimoines | baisse | baisse | hausse | baisse | baisse | hausse ciblée sur les hauts revenus et les grandes entreprises, baisse de la TVA sur les carburants | hausse ciblée sur les dividendes et certains revenus immobiliers | hausse ciblée sur les plus fortunés, le capital et les plus émetteurs | baisse |
 | Q-eco-patrimoine | allègement des transmissions | pas de position | hausse sur les plus grosses successions | contre la taxe Zucman (avant la candidature) | allègement des transmissions | hausse | allègement des transmissions | baisse des droits de succession | pour la taxe Zucman (avant la candidature) | pas de position | hausse sur les grandes fortunes et les gros héritages | pas de position |
 | Q-eco-deficit | sous 3 % du PIB avant 2032 | pas de position | pas de position | moins de 3 % du PIB en 2030 | réduction, sans cible de déficit trouvée | baisse de 24,7 Md€ en 2027 | 2 % du PIB en fin de quinquennat | 2,2 % du PIB en 2032 | pas de position | pas de position | stabilisation de la dette, trajectoire de réduction du déficit renégociée | pas de position |
+| Q-eco-fonctionnaires | baisse : −100 000 postes sur le quinquennat | pas de position | pas de position | baisse : au moins −200 000 postes en cinq ans | baisse, sans objectif global chiffré | hausse, sans objectif global chiffré | baisse : plus de −250 000 postes sur le quinquennat | baisse : −400 000 postes d'ici 2032 | hausse : près de +500 000 postes en cinq ans | pas de position | hausse : +250 000 à +350 000 postes | baisse : −800 000 postes en cinq ans |
 
 ## Dilemmes du thème
 
