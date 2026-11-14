@@ -113,7 +113,8 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
    **À récupérer** : noter dans `veille/a-recuperer.md` les documents qui n'ont pas pu être lus (PDF tronqué, article
    réservé aux abonnés, page refusée aux robots, source muette depuis au moins 7 jours) **et qui peuvent changer les
    résultats** (programme, annonce dédiée, seule source d'un candidat) ; au plus 5 demandés à la fois, les plus importants
-   d'abord. Un document reçu passe à `traité` ; un document demandé sans réponse depuis deux samedis est `abandonné`, sauf un
+   d'abord. Chaque document a son **lien direct** (URL de la page ou du PDF, pas une page d'accueil ni un résultat de
+   recherche) : Julien l'ouvre et l'enregistre sans chercher. Un document reçu passe à `traité` ; un document demandé sans réponse depuis deux samedis est `abandonné`, sauf un
    programme. Le résumé final de la tâche (notification) se termine par « N document(s) à récupérer » s'il y en a.
 
 **Seconde PR « Référentiel : … »** (au plus une par semaine), si un déclencheur de `sujets-emergents.md` est atteint : depuis
@@ -122,31 +123,38 @@ des candidats inclus ; préoccupation liée si besoin ; gabarit `_modele.md` ; *
 vérification par un agent neuf centrée sur la neutralité des options. Corps : pourquoi (extrait du registre), l'élément
 proposé, le tableau des rattachements, l'effet sur le parcours (les utilisateurs refont le parcours).
 
-**Corps de la PR hebdomadaire** (Julien la lit en 15 minutes ; sans réponse de sa part, les recommandations s'appliquent) :
+**Corps de la PR hebdomadaire** (Julien la lit en 15 minutes ; sans réponse de sa part, les recommandations s'appliquent).
+Quatre parties, dans cet ordre, puis les changements à valider :
 
 ```markdown
-## Candidats
-| candidat | changement | raison | source |
-Sondages retenus : institut, dates, fourchette.
+## 1. Candidats retenus et pressentis
+Retenus (tous, ordre alphabétique) :
+| candidat | parti | critère | changement cette semaine |
+Pressentis à surveiller :
+| personnalité | situation | à surveiller |
+Sondages retenus : institut, commanditaire, dates de terrain, fourchette, lien de la notice.
 
-## Ce qui modifie les scores
-| candidat | dilemme | avant | après | justification | source |
+## 2. Sujets émergents
+Déclencheurs atteints : sujet, candidats, suite donnée (PR « Référentiel », reporté).
+Sujets nouveaux de la semaine :
+| sujet | thème | candidats | couvert par |
 
-## Phares modifiés
-| candidat | ancien | nouveau | motif |
+## 3. Fichiers à stocker dans Google Drive
+À ouvrir puis enregistrer en PDF dans le dossier Drive « Isoloir — sources » (le nom du fichier n'a pas d'importance) :
+| document | lien | pourquoi | ce qu'on en attend |
+Facultatifs (pages non lues, moins importantes) : titre et lien direct.
 
-## À arbitrer
-1. … — recommandation : …   (trois points au plus)
+## 4. Sources lues
+| source | pages lues (liens) | ce qui en a été tiré |
+Sources muettes : source, muette depuis, compensation.
 
-## À récupérer
-À enregistrer en PDF dans le dossier Drive « Isoloir — sources » (le nom du fichier n'a pas d'importance) :
-| document | pourquoi | ce qu'on en attend |
-
-## Sources muettes
-| source | muette depuis | compensation |
+## 5. Changements à valider
+Ce qui modifie les scores : | candidat | dilemme | avant | après | justification | source |
+Phares modifiés : | candidat | ancien | nouveau | motif |
+À arbitrer : 1. … — recommandation : …   (trois points au plus)
 
 <details><summary>Le reste</summary>
-Sources ajoutées, citations précisées, informations reportées à la semaine suivante.
+Propositions ajoutées ou précisées par fiche, informations reportées à la semaine suivante, contrôles (`npm run valider`, `npm test`).
 </details>
 ```
 
