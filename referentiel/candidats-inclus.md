@@ -10,10 +10,10 @@ Tondelier 2 – 3 %, Roussel 1 – 2 %, Villepin 2 %, Dupont-Aignan 1 – 2 % (r
 [Politique Matin, 2026-11-10](https://www.politiquematin.fr/presidentielle-2027-sondage-harris-melenchon-19-primaire-centre-10-novembre))
 ([notice de la Commission des sondages](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf)).
 Teddy Riner, candidat déclaré le 2026-11-09 : 2 % dans le sondage Cluster17 pour Politico (dates de terrain non données par l'article) ([Euronews, 2026-11-12](https://fr.euronews.com/2026/11/12/presidentielle-2027-teddy-riner-rattrape-par-le-fisc-un-premier-combat-sur-le-terrain-poli)) ;
-un second institut (CSA, 4 % selon le titre du JDD du 2026-11-12) n'a pas pu être lu : voir « Non inclus ».
+un second institut (CSA, 4 % selon le titre du JDD du 2026-11-12) n'a pas pu être lu ; voir le contrôle complémentaire ci-dessous.
 Éric Zemmour a officialisé sa candidature sur TF1 le 2026-11-10 (déjà inclus).
 
-Contrôle complémentaire du **2026-11-14**, qui remplace le précédent : **entrée de Nicolas Dupont-Aignan** au titre des sondages (fiche à rédiger) ; aucune
+Contrôle complémentaire du **2026-11-14**, qui remplace le précédent : **entrée de Nicolas Dupont-Aignan et de Teddy Riner** au titre des sondages (fiches à rédiger) ; aucune
 sortie. Relevé refait sur les notices de la Commission des sondages et les rapports des instituts (12 sondages,
 terrains du 14 octobre au 12 novembre 2026), repérés par la page Wikipédia « Liste de sondages sur l'élection
 présidentielle française de 2027 », qui ne sert que de relevé. Le sondage Ifop pour LCI publié le 2026-11-03 a été
@@ -61,11 +61,18 @@ hypothèses où il est seul candidat de la droite et du centre, quand elles sort
 | Éric Zemmour          | Reconquête         | 2 – 6 %    | 6 | `zemmour-eric` |
 | Marine Tondelier      | Les Écologistes    | 1 – 3,5 %  | 6 | `tondelier-marine` |
 | Nicolas Dupont-Aignan | Debout la France   | 1 – 3,5 %  | 6 (dans toutes les hypothèses chez Cluster17 et Elabe) | fiche à rédiger : `dupont-aignan-nicolas` |
+| Teddy Riner           | sans étiquette     | 2 – 4 % (hypothèses où il est testé) | 2 (OpinionWay 4 %, 10 – 12 nov. ; Cluster17 2 %, 9 – 10 nov.) | fiche à rédiger : `riner-teddy` |
 
 Nicolas Dupont-Aignan, candidat déclaré ([LCP, liste des candidats, mise à jour du 2026-10-14](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373)),
 remplit le critère quelle que soit la lecture retenue : 2 % ou plus dans chacune des hypothèses de Cluster17
 (2 – 3,5 %) et d'Elabe (2 – 3 %), et dans au moins une hypothèse des quatre autres instituts. Il était jusqu'ici
 classé « non inclus » sur la foi d'un agrégateur (2 % dans un seul institut).
+
+Teddy Riner, candidat déclaré le 2026-11-09 ([Euronews, 2026-11-12](https://fr.euronews.com/2026/11/12/presidentielle-2027-teddy-riner-rattrape-par-le-fisc-un-premier-combat-sur-le-terrain-poli)),
+remplit le critère avec la lecture fixée par Julien le 2026-11-14 (2 % dans au moins une hypothèse publiée, voir README) :
+4 % chez OpinionWay pour CNews (10 – 12 nov., [notice 10371](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf))
+et 2 % chez Cluster17 pour Politico (9 – 10 nov., [rapport Cluster17](https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf)).
+L'Ifop du 9 – 10 novembre (22 % prêts à voter pour lui) mesure un potentiel et n'est pas compté.
 
 Autres candidats testés : Fabien Roussel 1 – 3 % et François Ruffin 1,5 – 3 % (inclus au titre des
 parlementaires) ; Dominique de Villepin 1 – 3 % (2 % ou plus chez Elabe et Toluna Harris Interactive, mais non
@@ -88,7 +95,6 @@ et François Asselineau 1 % au plus ; Nathalie Arthaud 0,5 – 1 %.
 | Olivier Becht          | Député, mais candidat indépendant (« Mon parti, ce sont les Français »), sans soutien de parti | [Parlons Politique](https://www.parlons-politique.fr/elections/candidature-presidentielle-2027-olivier-becht-mise-sur-lindependance-pour-convaincre-les-electeurs-eloignes-des-partis_27747/) |
 | Bernard Cazeneuve      | La Convention revendique une trentaine de parlementaires, mais la candidature n'est pas déclarée selon LCP ; à inclure dès sa déclaration | [La Gazette France, 2026-04-23](https://www.lagazettefrance.fr/article/bernard-cazeneuve-affiche-sa-determination-totale-pour-2027) ; [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) |
 | Xavier Bertrand        | Pas encore déclaré ; annonce une candidature indépendante | [LCP, 2026-08-27](https://lcp.fr/actualites/2027-figure-de-la-droite-xavier-bertrand-confirme-qu-il-sera-candidat-a-l-election) |
-| Teddy Riner            | Déclaré le 2026-11-09, sans parti ni parlementaire trouvé. Testé dans certaines hypothèses seulement : 4 % (OpinionWay pour CNews, 10 – 12 nov.) et 2 % (Cluster17 pour Politico, 9 – 10 nov.). Deux instituts à 2 % ou plus : il entre si l'on retient la lecture « au moins une hypothèse publiée » recommandée dans la PR #45 (à arbitrer). L'Ifop du 9 – 10 novembre (22 % prêts à voter pour lui) mesure un potentiel, pas une intention de vote | [notice 10371](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf) ; [rapport Cluster17](https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf) ; [Euronews, 2026-11-12](https://fr.euronews.com/2026/11/12/presidentielle-2027-teddy-riner-rattrape-par-le-fisc-un-premier-combat-sur-le-terrain-poli) |
 | Lydie Massard          | Union démocratique bretonne : aucun parlementaire trouvé | [Wikipédia](https://en.wikipedia.org/wiki/Lydie_Massard) |
 | Nathalie Arthaud, François Asselineau, Clara Egger, Francis Lalanne, Antoine Mikolajczak, Florian Philippot, Natacha Polony et les autres candidats déclarés | Moins de 2 % dans les sondages, ou 2 % ou plus dans un seul institut (Polony : 2,5 % chez Cluster17, 9 – 10 nov.) ; aucun parlementaire trouvé pour leur parti | [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) ; [Élections 2027](https://elections2027.com/sondages) |
 
