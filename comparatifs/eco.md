@@ -7,7 +7,7 @@ derniere_maj: 2026-11-14
 
 # Comparatif — Économie & fiscalité
 
-Candidats (12) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
+Candidats (13) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
 
 Le détail et les sources de chaque position sont dans les fiches.
 
@@ -18,25 +18,25 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **Q-eco-deficit** : Trajectoire de déficit public visée sur le quinquennat ?
 - **Q-eco-fonctionnaires** : Évolution des effectifs de la fonction publique ?
 
-| question | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-eco-impots | baisse | pas de position | hausse ciblée sur les plus gros héritages et patrimoines | baisse | baisse | hausse | baisse | baisse | hausse ciblée sur les hauts revenus et les grandes entreprises, baisse de la TVA sur les carburants | hausse ciblée sur les dividendes et certains revenus immobiliers | hausse ciblée sur les plus fortunés, le capital et les plus émetteurs | baisse |
-| Q-eco-patrimoine | allègement des transmissions | pas de position | hausse sur les plus grosses successions | contre la taxe Zucman (avant la candidature) | allègement des transmissions | hausse | allègement des transmissions | baisse des droits de succession | pour la taxe Zucman (avant la candidature) | pas de position | hausse sur les grandes fortunes et les gros héritages | pas de position |
-| Q-eco-deficit | sous 3 % du PIB avant 2032 | pas de position | pas de position | moins de 3 % du PIB en 2030 | réduction, sans cible de déficit trouvée | baisse de 24,7 Md€ en 2027 | 2 % du PIB en fin de quinquennat | 2,2 % du PIB en 2032 | pas de position | pas de position | stabilisation de la dette, trajectoire de réduction du déficit renégociée | pas de position |
-| Q-eco-fonctionnaires | baisse : −100 000 postes sur le quinquennat | pas de position | pas de position | baisse : au moins −200 000 postes en cinq ans | baisse, sans objectif global chiffré | hausse, sans objectif global chiffré | baisse : plus de −250 000 postes sur le quinquennat | baisse : −400 000 postes d'ici 2032 | hausse : près de +500 000 postes en cinq ans | pas de position | hausse : +250 000 à +350 000 postes | baisse : −800 000 postes en cinq ans |
+| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q-eco-impots | baisse | pas de position | baisse | hausse ciblée sur les plus gros héritages et patrimoines | baisse | baisse | hausse | baisse | baisse | hausse ciblée sur les hauts revenus et les grandes entreprises, baisse de la TVA sur les carburants | hausse ciblée sur les dividendes et certains revenus immobiliers | hausse ciblée sur les plus fortunés, le capital et les plus émetteurs | baisse |
+| Q-eco-patrimoine | allègement des transmissions | pas de position | baisse des droits de succession | hausse sur les plus grosses successions | contre la taxe Zucman (avant la candidature) | allègement des transmissions | hausse | allègement des transmissions | baisse des droits de succession | pour la taxe Zucman (avant la candidature) | pas de position | hausse sur les grandes fortunes et les gros héritages | pas de position |
+| Q-eco-deficit | sous 3 % du PIB avant 2032 | pas de position | 2,9 % du PIB en 2030, 2,0 % en 2032 | pas de position | moins de 3 % du PIB en 2030 | réduction, sans cible de déficit trouvée | baisse de 24,7 Md€ en 2027 | 2 % du PIB en fin de quinquennat | 2,2 % du PIB en 2032 | pas de position | pas de position | stabilisation de la dette, trajectoire de réduction du déficit renégociée | pas de position |
+| Q-eco-fonctionnaires | baisse : −100 000 postes sur le quinquennat | pas de position | pas de position | pas de position | baisse : au moins −200 000 postes en cinq ans | baisse, sans objectif global chiffré | hausse, sans objectif global chiffré | baisse : plus de −250 000 postes sur le quinquennat | baisse : −400 000 postes d'ici 2032 | hausse : près de +500 000 postes en cinq ans | pas de position | hausse : +250 000 à +350 000 postes | baisse : −800 000 postes en cinq ans |
 
 ## Dilemmes du thème
 
-| dilemme | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-eco-dette | A | pas de position | pas de position | A | A | B | A | A | pas de position | pas de position | C | A |
-| D-eco-pouvoir-achat | B | D | B | C | B | A | B | B | C | A | A | C |
+| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D-eco-dette | A | pas de position | A | pas de position | A | A | B | A | A | pas de position | pas de position | C | A |
+| D-eco-pouvoir-achat | B | D | C | B | C | B | A | B | B | C | A | A | C |
 
 ### D-eco-dette
 
 > La dette publique a fortement augmenté ces dernières années. Pour les finances publiques, quelle priorité vous paraît la plus juste ?
 
-- **A** — Réduire le déficit surtout en baissant les dépenses publiques : Attal, Le Pen, Lisnard, Philippe, Retailleau, Zemmour
+- **A** — Réduire le déficit surtout en baissant les dépenses publiques : Attal, Dupont-Aignan, Le Pen, Lisnard, Philippe, Retailleau, Zemmour
 - **B** — Réduire le déficit surtout en augmentant certains impôts : Mélenchon
 - **C** — Réduire le déficit plus lentement pour préserver l'investissement public : Tondelier
 - **D** — Miser d'abord sur la croissance, qui réduira le déficit ensuite : —
@@ -48,7 +48,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 - **A** — Augmenter le salaire minimum par la loi : Mélenchon, Ruffin, Tondelier
 - **B** — Baisser les cotisations sur les salaires pour augmenter le net : Attal, Glucksmann, Lisnard, Philippe, Retailleau
-- **C** — Baisser les taxes sur la consommation (TVA, carburants) : Le Pen, Roussel, Zemmour
+- **C** — Baisser les taxes sur la consommation (TVA, carburants) : Dupont-Aignan, Le Pen, Roussel, Zemmour
 - **D** — Augmenter les aides ciblées sur les ménages modestes : Batho
 
 ## Coûts des propositions du thème
@@ -59,6 +59,15 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Gabriel Attal | eco-03 | Supprimer 100 000 postes de fonctionnaires par un plan de départs volontaires avec prime de départ et le non-remplacement d'une partie des départs en retraite, hors Éducation, Armées, Justice et Intérieur | 7 Md€ d'économies attendues d'une refonte de l'organisation de l'État (montant non ventilé, période non précisée) | — |
 | Gabriel Attal | eco-09 | Investir dans la puissance de calcul pour l'intelligence artificielle | 200 Md€ (période non précisée) | — |
 | Delphine Batho | eco-02 | Prix des carburants : aide d'urgence aux ménages les plus vulnérables et aux professions et associations les plus exposées, par des « dispositifs déclaratifs avec versement immédiat », puis aides versées automatiquement et mensuellement ; financement en mettant « à contribution le surplus de TVA engrangé », avec les employeurs et les organismes payeurs ; réformer la filière pétrolière contre la spéculation, les recettes éventuelles finançant des « mesures concrètes comme le leasing électrique social » (parti : communiqué signé Alexandre Fernier et Quentin Guillemain, 2026-04-10) | non chiffré | — |
+| Nicolas Dupont-Aignan | eco-01 | « Diviser par 2 le prix de l'électricité dès la première année » en sortant du marché européen de fixation du prix, en rétablissant le monopole de production et de distribution d'EDF et en garantissant un tarif réglementé de 10 centimes le kWh ; prix du gaz réduit de 20 % et importations de gaz russe réautorisées (Livret, mesure 1) | non chiffré | — |
+| Nicolas Dupont-Aignan | eco-02 | « Baisser de 40 centimes le prix des carburants » : suppression des certificats d'économies d'énergie (17 centimes), suppression de la TVA sur l'accise (13 centimes), plafonnement des marges des raffineurs (10 centimes) (Livret, mesure 1) | 4 (suppression de la TVA sur l'accise) | — |
+| Nicolas Dupont-Aignan | eco-03 | « TVA à zéro sur une liste de 50 produits de première nécessité » et réduction des frais bancaires (Livret, mesure 13) | 3,5 | — |
+| Nicolas Dupont-Aignan | eco-04 | « Déployer un protectionnisme intelligent et renégocier tous les accords de libre-échange à l'occasion de la sortie de l'UE » ; contrôle aux frontières du respect des normes sanitaires, environnementales et sociales et droits de douane compensateurs contre les importations déloyales (Livret, mesure 7) | non chiffré (taxe anti-dumping : 5 de recettes) | — |
+| Nicolas Dupont-Aignan | eco-05 | « BUY French ACT » : commande publique réservée aux entreprises qui produisent le bien en France, sauf prix supérieur de plus de 50 % au produit étranger (Livret, mesure 8) | non chiffré | — |
+| Nicolas Dupont-Aignan | eco-06 | Baisser les impôts de production (5 Md€), crédit d'impôt production pour les entreprises qui réinvestissent leurs bénéfices en France (4 Md€) et fonds d'investissement et de relocalisation « doté de 4 milliards d'euros par an », piloté par la Caisse des dépôts (Livret, mesures 3 à 5) | 13 | — |
+| Nicolas Dupont-Aignan | eco-07 | Plan de redressement financier : « 100 milliards d'économies en s'attaquant aux gaspillages massifs » (fraude sociale 20 Md€, contribution à l'UE 15 Md€, agences, échelon régional et subventions aux associations 40 Md€, aides aux éoliennes et au solaire 10 Md€, emprunts à 0 % auprès de la Banque de France 10 Md€, conditions d'accès des étrangers aux aides 5 Md€) et « 40 milliards de recettes nouvelles en combattant la fraude fiscale » et l'optimisation des multinationales ; 90 Md€ de dépenses nouvelles et baisses d'impôts ; « réduire le déficit de 50 milliards d'euros » hors effet de croissance ; déficit à 2,0 % du PIB en 2032 | 140 de ressources, 90 de dépenses | — |
+| Nicolas Dupont-Aignan | eco-08 | Supprimer les droits de succession sur la résidence principale et sur les 100 premiers hectares de terres agricoles, doubler les plafonds d'exonération des donations, exonérer 90 % de la valeur des titres d'une entreprise transmise (Livret, mesure 17) | 5 | — |
+| Nicolas Dupont-Aignan | eco-09 | Rapatrier le pouvoir monétaire en France pour « permettre à l'État d'emprunter directement auprès de la Banque de France » à taux zéro pour les investissements publics ; grand emprunt national ; la mesure évoque « notre nouvelle monnaie » (Livret, mesure 29) | 10 d'intérêts économisés | — |
 | Raphaël Glucksmann | eco-01 | Taxer les « méga héritages » au-delà de deux millions d'euros (seuil rapporté par LCP), soit les « 1% les plus gros » ; « 99% des héritages ne seront pas affectés » | 15 Md€ de recettes (périodicité non précisée) | — |
 | Raphaël Glucksmann | eco-02 | Baisser la CSG sur les salaires pour « rapprocher le salaire net du salaire brut » (LCP), financé par la taxe sur les méga héritages (eco-01) : « Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages » (Public Sénat) | non chiffré séparément ; financé par eco-01 (15 Md€ annoncés) | — |
 | Raphaël Glucksmann | eco-05 | Contribution exceptionnelle (CEPIC) de 5 % sur les patrimoines supérieurs à 100 millions d'euros, pour une seule année, affectée à un fonds pour la transition climatique | 50 Md€ de recettes, une seule fois | — |

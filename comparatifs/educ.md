@@ -7,7 +7,7 @@ derniere_maj: 2026-11-14
 
 # Comparatif — Éducation & recherche
 
-Candidats (12) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
+Candidats (13) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
 
 Le détail et les sources de chaque position sont dans les fiches.
 
@@ -16,23 +16,23 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **Q-educ-enseign** : Rémunération et recrutement des enseignants ?
 - **Q-educ-univ** : Sélection et financement de l'université ?
 
-| question | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-educ-enseign | hausse | pas de position | hausse | hausse | hausse conditionnée | hausse | hausse | revalorisation | davantage d'enseignants et de moyens ; point d'indice relevé | pas de suppression de postes | hausse | pas de position |
-| Q-educ-univ | réorientation et évaluation des formations | pas de position | suppression de Parcoursup | pas de position | suppression de Parcoursup | accès sans sélection | hausse des droits pour les étudiants extra-européens | pour la sélection | pas de position | suppression de Parcoursup | suppression de Parcoursup, hausse du financement | pas de position |
+| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q-educ-enseign | hausse | pas de position | hausse de 20 % puis 20 % sous condition | hausse | hausse | hausse conditionnée | hausse | hausse | revalorisation | davantage d'enseignants et de moyens ; point d'indice relevé | pas de suppression de postes | hausse | pas de position |
+| Q-educ-univ | réorientation et évaluation des formations | pas de position | suppression de Parcoursup | suppression de Parcoursup | pas de position | suppression de Parcoursup | accès sans sélection | hausse des droits pour les étudiants extra-européens | pour la sélection | pas de position | suppression de Parcoursup | suppression de Parcoursup, hausse du financement | pas de position |
 
 ## Dilemmes du thème
 
-| dilemme | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-educ-niveau | B | pas de position | B | B | C | A | B | B | A | pas de position | A | D |
+| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D-educ-niveau | B | pas de position | B | B | B | C | A | B | B | A | pas de position | A | D |
 
 ### D-educ-niveau
 
 > Pour améliorer le niveau des élèves, un seul effort peut être financé. Lequel ?
 
 - **A** — Réduire le nombre d'élèves par classe : Mélenchon, Roussel, Tondelier
-- **B** — Mieux payer les enseignants : Attal, Glucksmann, Le Pen, Philippe, Retailleau
+- **B** — Mieux payer les enseignants : Attal, Dupont-Aignan, Glucksmann, Le Pen, Philippe, Retailleau
 - **C** — Donner plus d'autonomie aux établissements : Lisnard
 - **D** — Recentrer sur les fondamentaux avec des évaluations régulières : Zemmour
 - *pas de position* : Batho, Ruffin
@@ -42,6 +42,9 @@ Le détail et les sources de chaque position sont dans les fiches.
 | candidat | id | proposition | chiffrage annoncé | chiffrage indépendant |
 |---|---|---|---|---|
 | Gabriel Attal | educ-02 | Salaire des enseignants « revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière » ; meilleure rémunération des accompagnants d'élèves en situation de handicap | +200 € à +500 € net par mois et par enseignant (pas de coût global annoncé) | — |
+| Nicolas Dupont-Aignan | educ-01 | Revaloriser les salaires des professeurs en deux temps : 20 % d'augmentation automatique pour tous, puis 20 % supplémentaires en contrepartie d'heures de soutien scolaire auprès des élèves en difficulté (Cahier rouge) | 8 | — |
+| Nicolas Dupont-Aignan | educ-02 | « Suppression de Parcoursup », « Rétablissement d'un bac égalitaire », « Une école des savoirs et du mérite avec des programmes exigeants » (communiqué de Limoges) | non chiffré | — |
+| Nicolas Dupont-Aignan | educ-03 | Porter l'effort de recherche à 3 % du PIB dès 2029 et rétablir un commissariat au Plan (Livret, mesure 30) | 2 | — |
 | Raphaël Glucksmann | educ-01 | Augmenter de 10 % la rémunération de tous les enseignants, jusqu'à 25 % selon la progression de carrière | 6 Md€ (périodicité non précisée) | — |
 | Marine Le Pen | educ-01 | Maintenir le budget de l'éducation malgré la baisse démographique, pour financer plus d'enseignants et des salaires plus élevés | budget maintenu (pas de montant) | — |
 | David Lisnard | educ-03 | « Nous proposons une augmentation de 20 % des rémunérations en cinq ans », conditionnée à plus d'autonomie, de présence dans l'établissement, une formation continue obligatoire et une évaluation régulière (NE) | non chiffré en euros | — |

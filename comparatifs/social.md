@@ -7,7 +7,7 @@ derniere_maj: 2026-11-14
 
 # Comparatif — Travail, retraites, social
 
-Candidats (12) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
+Candidats (13) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
 
 Le détail et les sources de chaque position sont dans les fiches.
 
@@ -18,19 +18,19 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **Q-social-chomage** : Évolution des règles d'indemnisation du chômage ?
 - **Q-social-logement** : Mesures principales sur le logement ?
 
-| question | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-social-retraite | suppression de l'âge légal | pas d'âge annoncé ; vote pour la suspension de la réforme de 2023 (avant la candidature) | 62 ans | 62 ans | 65 ans | 60 ans | 65 ans | 63 ans (âge minimal), taux plein à 65 ans | suspension de la réforme de 2023 demandée ; retour à 62 ans souhaité selon Public Sénat (octobre 2025, avant la candidature) | 60 ans | 62 ans | pas d'âge annoncé |
-| Q-social-smic | pas de position | pas de position | pas de position | pas de position | pas de position | pour | pas de position | pas de position | pas de position | pour | pour | pas de position |
-| Q-social-chomage | reprise de la réforme de 2024 | pas de position | pas de position | pas de position | pas de position | abrogation des réformes récentes | réduction de la durée d'indemnisation | alignement sur les « standards européens » | pas de position | pas de position | abrogation des réformes récentes, indexation des allocations | pas de position |
-| Q-social-logement | relance de la construction | isolation des logements face aux canicules, sans chiffrage | pas de position | « priorité nationale » et assouplissement des règles d'urbanisme | suppression de l'obligation SRU, révision du ZAN | construction de logements publics | aide aux familles | assouplissement des règles d'urbanisme et de location | construction plutôt que priorité nationale ; TVA sur l'énergie à 5,5 % | production publique, encadrement des loyers, rénovation | encadrement des loyers, logement social et rénovation | pas de position |
+| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q-social-retraite | suppression de l'âge légal | pas d'âge annoncé ; vote pour la suspension de la réforme de 2023 (avant la candidature) | maintien de l'âge issu de la réforme de 2010 (page ancienne) | 62 ans | 62 ans | 65 ans | 60 ans | 65 ans | 63 ans (âge minimal), taux plein à 65 ans | suspension de la réforme de 2023 demandée ; retour à 62 ans souhaité selon Public Sénat (octobre 2025, avant la candidature) | 60 ans | 62 ans | pas d'âge annoncé |
+| Q-social-smic | pas de position | pas de position | nuancé | pas de position | pas de position | pas de position | pour | pas de position | pas de position | pas de position | pour | pour | pas de position |
+| Q-social-chomage | reprise de la réforme de 2024 | pas de position | pas de position | pas de position | pas de position | pas de position | abrogation des réformes récentes | réduction de la durée d'indemnisation | alignement sur les « standards européens » | pas de position | pas de position | abrogation des réformes récentes, indexation des allocations | pas de position |
+| Q-social-logement | relance de la construction | isolation des logements face aux canicules, sans chiffrage | baisse des droits sur l'achat, suppression du seuil de DPE | pas de position | « priorité nationale » et assouplissement des règles d'urbanisme | suppression de l'obligation SRU, révision du ZAN | construction de logements publics | aide aux familles | assouplissement des règles d'urbanisme et de location | construction plutôt que priorité nationale ; TVA sur l'énergie à 5,5 % | production publique, encadrement des loyers, rénovation | encadrement des loyers, logement social et rénovation | pas de position |
 
 ## Dilemmes du thème
 
-| dilemme | attal-gabriel | batho-delphine | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-social-retraites | D | pas de position | pas de position | D | A | C | A | A | pas de position | pas de position | B | A |
-| D-social-chomage | A | pas de position | pas de position | pas de position | aucune | C | A | A | pas de position | C | B | pas de position |
+| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D-social-retraites | D | pas de position | D | pas de position | D | A | C | A | A | pas de position | pas de position | B | A |
+| D-social-chomage | A | pas de position | B | pas de position | pas de position | aucune | C | A | A | pas de position | C | B | pas de position |
 
 ### D-social-retraites
 
@@ -39,7 +39,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **A** — Reculer progressivement l'âge de départ ou allonger la durée de cotisation : Lisnard, Philippe, Retailleau, Zemmour
 - **B** — Augmenter les cotisations des salariés et des employeurs : Tondelier
 - **C** — Faire contribuer davantage les revenus du capital et les patrimoines élevés : Mélenchon
-- **D** — Ajouter une part de retraite par capitalisation : Attal, Le Pen
+- **D** — Ajouter une part de retraite par capitalisation : Attal, Dupont-Aignan, Le Pen
 - *pas de position* : Batho, Glucksmann, Roussel, Ruffin
 
 ### D-social-chomage
@@ -47,7 +47,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 > Des emplois restent vacants alors que le chômage persiste. Quelle approche privilégier ?
 
 - **A** — Réduire la durée ou le montant de certaines indemnités pour inciter à la reprise d'emploi : Attal, Philippe, Retailleau
-- **B** — Investir davantage dans la formation et l'accompagnement : Tondelier
+- **B** — Investir davantage dans la formation et l'accompagnement : Dupont-Aignan, Tondelier
 - **C** — Rendre les métiers en tension plus attractifs (salaires, conditions) : Mélenchon, Ruffin
 - **D** — Faciliter la mobilité géographique (logement, transport) : —
 - *aucune* : Lisnard
@@ -61,6 +61,14 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Gabriel Attal | social-05 | Reprendre la réforme de l'assurance chômage engagée en 2024 et bloquée par la dissolution, qui « créerait 100 000 emplois supplémentaires » ; elle réduisait la durée d'indemnisation de 18 à 15 mois | plus de 4 Md€ d'économies selon le site (période non précisée) | — |
 | Gabriel Attal | social-07 | Créer un livret d'épargne « garde d'enfant » sur le modèle du livret A pour financer des places en crèche ; former 200 000 professionnels de la petite enfance | besoin de financement évalué à 3 Md€ par le site (sans précision de période) | — |
 | Delphine Batho | social-01 | « une nouvelle branche de la sécurité sociale couvrant les impacts du changement climatique » ; « Les superprofits sur les énergies fossiles sont les premiers à devoir être mis à contribution » (financements de l'adaptation) (parti : cahier d'acteur « Pour un État-Résilience », 2024-12-27, avant la candidature) | non chiffré | — |
+| Nicolas Dupont-Aignan | social-01 | « Augmenter le SMIC à 1 600 euros net (98 euros supplémentaires par mois) en compensant cette hausse par une baisse proportionnelle des cotisations salariales pour ne pas pénaliser les entreprises » ; réduction dégressive, 2,5 millions de salariés concernés (Livret, mesure 12) | 3 | — |
+| Nicolas Dupont-Aignan | social-02 | « Doter chaque nouveau-né français d'un capital de 10 000 euros qui sera bloqué jusqu'à sa retraite », géré par un fonds public de capitalisation : à 60 ans, un complément de retraite par capitalisation d'au moins 400 euros par mois (Livret, mesure 11) | 6 | — |
+| Nicolas Dupont-Aignan | social-03 | « Réindexer les pensions de retraite et les traitements des fonctionnaires sur l'inflation » ; rétablir le cumul emploi-retraite entre 62 et 67 ans (Livret, mesure 14) | non chiffré | — |
+| Nicolas Dupont-Aignan | social-04 | Exonérer de charges patronales le premier CDI d'un jeune de moins de 26 ans pendant trois mois et le CDI d'un chômeur de longue durée (5 ans) pendant deux ans (Livret, mesure 15 ; le communiqué de Limoges du 2026-10-20 disait « pendant un an » pour le premier emploi) | 1 | — |
+| Nicolas Dupont-Aignan | social-05 | « Défiscaliser les heures supplémentaires » au-delà de 1 607 heures par an, dans la limite de 300 heures, sans cotisations salariales (Livret, mesure 16) | 0,5 | — |
+| Nicolas Dupont-Aignan | social-06 | Proposer à chaque jeune sans diplôme une formation qualifiante intensive aux métiers manuels, du numérique ou des secteurs en demande, « assortie d'un emploi à la clé dans les secteurs en pénurie de main-d'œuvre » (Livret, mesure 19) | non chiffré | — |
+| Nicolas Dupont-Aignan | social-07 | « Supprimer les droits de mutation pour les primo-accédants » (Cahier rouge) | 3 | — |
+| Nicolas Dupont-Aignan | social-08 | « Donner accès à un crédit d'études ou de formations pour les jeunes ayant quitté tôt l'école » (Cahier rouge) | 0,4 | — |
 | Marine Le Pen | social-01 | Ramener l'âge légal de départ à 62 ans, et à 60 ans pour ceux qui ont commencé à travailler avant 20 ans et cotisé 40 annuités ; financement par 15 à 20 Md€ de « corrections de mesures injustes » | 9 Md€/an en année pleine pour l'ensemble formé avec social-03 (« Le tout pour un coût chiffré par la candidate à "9 milliards d'euros en année pleine" », AFP, 2026-08-27) | Institut Montaigne (page non datée) : 34,7 Md€/an à horizon 2027 dans le scénario central (31,5 à 44,7 Md€), sur la version du RN aux législatives de 2024, de périmètre plus large (annulation des réformes de 2003, 2010 et 2014 pour les carrières longues et de celle de 2023) |
 | David Lisnard | social-02 | « conserver un socle de pension minimale par répartition pour tous les retraités », « complété par un minimum-vieillesse à hauteur de 1000 euros par mois » ; « faire évoluer tous les autres régimes vers la capitalisation » ; « Une Agence Centrale Publique de Retraite sera en charge de l'ensemble de la gestion » (NE) | non chiffré | — |
 | David Lisnard | social-07 | « la mise en place progressive d'une capitalisation obligatoire », avec « un système par répartition comme filet de sécurité » ; « libérer davantage les plans d'épargne en actions (PEA) » ; engagement à ne pas modifier la fiscalité de l'assurance-vie ; capitalisation obligatoire réaffirmée le 2026-11-06, avec « la création d'un fonds souverain pour les épargnants » (rédaction du site du parti) | non chiffré | — |

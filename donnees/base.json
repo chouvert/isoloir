@@ -3131,6 +3131,1378 @@
       "faisabilite": null
     },
     {
+      "id": "dupont-aignan-nicolas",
+      "nom": "Nicolas Dupont-Aignan",
+      "parti": "Debout la France",
+      "famille_politique": "droite à extrême droite",
+      "statut": "déclaré",
+      "inclus": true,
+      "date_declaration": "2025-03-08",
+      "programme_url": "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/",
+      "programme_version": "projet économique 2027 (livret « Nos 30 mesures » et « Cahier rouge » de financement, 2026-11-12) + pages « Projet » de Debout la France (livrets datés de 2025 et 2026 par leur nom de fichier, mise à jour pour 2027 en cours) + discours et déclarations de campagne (2025-03-08 à 2026-11-12)",
+      "derniere_maj": "2026-11-14",
+      "positions": {
+        "Q-eco-impots": {
+          "position": "baisse",
+          "detail": "« Alléger les impôts des particuliers de 9 milliards d'euros immédiatement et de 12,5 milliards à l'issue du quinquennat » ; baisse des impôts de production (5 Md€ par an) ; recettes nouvelles de 40 Md€ par la lutte contre la fraude fiscale, l'imposition du bénéfice consolidé des multinationales, une taxe sur les données personnelles et une taxe anti-dumping (Cahier rouge)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        "Q-eco-patrimoine": {
+          "position": "baisse des droits de succession",
+          "detail": "« Supprimer les droits de succession sur la résidence principale et sur les 100 premiers hectares de terres agricoles, doubler les plafonds d'exonération des donations » ; exonération de 90 % des titres d'une entreprise transmise ; pas de position trouvée sur l'ISF ou l'IFI (Livret, mesure 17)",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        "Q-eco-deficit": {
+          "position": "2,9 % du PIB en 2030, 2,0 % en 2032",
+          "detail": "Tableau du Cahier rouge : déficit de 5,8 % du PIB en 2027, 4,8 % en 2028, 2,9 % en 2030, 2,0 % en 2032 ; « Le déficit budgétaire sera inférieur à 100 milliards d'euros à terme et la dette sera stabilisée » ; dette à 129 % du PIB en 2032",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        "Q-eco-fonctionnaires": {
+          "position": "pas de position",
+          "detail": "Aucun objectif global d'effectifs ; recrutement de « 30 000 représentants des forces de l'ordre et 10 000 personnels administratifs » et de 30 000 aides-soignants ; suppression progressive d'agences de l'État (ADEME, ARS…) dont les missions seraient reprises par les ministères, avec un objectif d'économie de 20 Md€ par an (Cahier rouge)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        "Q-social-retraite": {
+          "position": "maintien de l'âge issu de la réforme de 2010 (page ancienne)",
+          "detail": "(parti, page non datée et antérieure à la réforme de 2023, qu'elle ne mentionne pas) « Maintenir l'âge minimum de départ à la retraite et la durée de cotisations aux niveaux actuels. », niveaux que la page dit « issue de la réforme de 2010 » ; le livret prévoit de « Rétablir la possibilité du cumul emploi retraite entre 62 et 67 ans » (mesure 14)",
+          "sources": [
+            {
+              "titre": "Debout la France, Retraites",
+              "url": "https://www.debout-la-france.fr/projet/retraites/"
+            },
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        "Q-social-smic": {
+          "position": "nuancé",
+          "detail": "Hausse du SMIC net, non du coût du travail : « Augmenter le SMIC à 1 600 euros net (98 euros supplémentaires par mois) en compensant cette hausse par une baisse proportionnelle des cotisations salariales pour ne pas pénaliser les entreprises » (Livret, mesure 12 ; coût de 3 Md€ par an selon le Cahier rouge)",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        "Q-social-chomage": {
+          "position": "pas de position",
+          "detail": "Aucune mesure trouvée sur l'indemnisation du chômage ; « Plafonner le cumul des aides sociales en dessous du SMIC » (discours du 2026-09-19) ; exonération de charges patronales pour l'embauche en CDI de chômeurs de longue durée (voir social-04)",
+          "sources": [
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        },
+        "Q-social-logement": {
+          "position": "baisse des droits sur l'achat, suppression du seuil de DPE",
+          "detail": "« Supprimer les droits de mutation pour les primo-accédants » (3 Md€ par an) et droits de succession sur la résidence principale (Cahier rouge) ; suppression du « seuil minimal de DPE pour louer un logement » (Livret, mesure 2)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        "Q-env-nuc": {
+          "position": "pour",
+          "detail": "« Les programmes de construction des EPR2 et de déploiement des petits réacteurs modulaires français pour remplacer nos centrales en fin de vie seront accélérés. » ; relance du projet Astrid (Livret, mesure 30)",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        "Q-env-renouv": {
+          "position": "contre",
+          "detail": "« Supprimer les aides de l'État à l'installations des éoliennes et des panneaux solaires en annulant le décret sur la PPE3 (10 milliards d'euros économisés). » (Livret, mesure 25)",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        "Q-env-climat": {
+          "position": "pas de position",
+          "detail": "Aucune mention de la neutralité carbone en 2050 trouvée dans le livret ni sur la page Environnement et Énergie du parti",
+          "sources": [
+            {
+              "titre": "Debout la France, Environnement et Énergie",
+              "url": "https://www.debout-la-france.fr/projet/environnement-energie/"
+            }
+          ]
+        },
+        "Q-secu-effectifs": {
+          "position": "+30 000",
+          "detail": "« Recruter 30 000 représentants des forces de l'ordre et 10 000 personnels administratifs. » (2,2 Md€ par an en 2032) ; la page Sécurité du parti (livret daté du 2025-10-31) prévoyait « 10 000 policiers et gendarmes supplémentaires nets en 5 ans »",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Debout la France, Sécurité",
+              "url": "https://www.debout-la-france.fr/projet/securite/"
+            }
+          ]
+        },
+        "Q-secu-justice": {
+          "position": "hausse des moyens et des peines",
+          "detail": "« Renforcer les moyens au ministère de la justice et doubler la dépense moyenne par Français dans la justice » (6 Md€ par an en 2032) et « Créer 40 000 places de prison supplémentaires au cours du quinquennat » (Cahier rouge) ; « Peine plancher de prison pour agression de policiers », « Baisse de la majorité pénale à 16 ans », « Prison ferme pour les multirécidivistes » (Limoges, 2026-10-20) ; référendum sur la peine de mort pour les meurtriers d'enfants (secu-04)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Debout la France, 2026-10-20",
+              "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/"
+            }
+          ]
+        },
+        "Q-immig-niveau": {
+          "position": "forte baisse",
+          "detail": "« il faudra avoir le courage de mettre fin à l'immigration illégale et réduire drastiquement les entrées légales. » (discours de déclaration, 2025-03-08) ; « Le blocage de l'immigration et le rétablissement de l'ordre public » (2026-09-19) ; pas d'objectif chiffré",
+          "sources": [
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            },
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        },
+        "Q-immig-asile": {
+          "position": "demande hors du territoire",
+          "detail": "« Les demandeurs d'asile devront faire leur demande en amont, à l'extérieur du pays, » (2025-03-08) ; (parti, livret daté du 2026-03-03) « Limiter le droit d'asile aux personnes le demandant directement aux frontières »",
+          "sources": [
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            },
+            {
+              "titre": "Debout la France, Immigration",
+              "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/"
+            }
+          ]
+        },
+        "Q-immig-nation": {
+          "position": "fin du droit du sol",
+          "detail": "« Fin du droit du sol » (Limoges, 2026-10-20) ; (parti) « Supprimer le droit du sol via un référendum » et plafond annuel de naturalisations voté par le Parlement",
+          "sources": [
+            {
+              "titre": "Debout la France, 2026-10-20",
+              "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/"
+            },
+            {
+              "titre": "Debout la France, Immigration",
+              "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/"
+            }
+          ]
+        },
+        "Q-europe-traites": {
+          "position": "sortie de l'UE",
+          "detail": "« Je veux sortir de l'Union européenne pour rendre son indépendance à la France » (Sud Radio, 2026-09-20) ; (parti) « La France, si le peuple l'accepte par référendum, quittera l'Union européenne. » ; en mars 2025, la sortie devait « rester la dernière solution » (voir Évolutions)",
+          "sources": [
+            {
+              "titre": "Sud Radio, 2026-09-20",
+              "url": "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
+            },
+            {
+              "titre": "Debout la France, Affaires européennes",
+              "url": "https://www.debout-la-france.fr/projet/affaires-europeennes/"
+            }
+          ]
+        },
+        "Q-europe-defense": {
+          "position": "2,3 %",
+          "detail": "« Augmenter et sanctuariser le budget de la Défense à 2,3 % du PIB (équipements, second porte-avion, service national) » (7 Md€ par an en 2032) ; la page Défense du parti (livret daté du 2025-04-15) visait « 2,5% du PIB »",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Debout la France, Défense",
+              "url": "https://www.debout-la-france.fr/projet/defense/"
+            }
+          ]
+        },
+        "Q-europe-otan": {
+          "position": "sortie du commandement intégré",
+          "detail": "« je propose la sortie du commandement militaire intégré de l'OTAN pour retrouver notre pleine autonomie de défense. » (2025-03-08) ; le discours du 2026-09-19 dit « Pour sortir de l'OTAN en plein accord avec Trump », le chapeau de la même page parlant du commandement intégré",
+          "sources": [
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            },
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        },
+        "Q-europe-ukraine": {
+          "position": "contre l'aide, paix négociée",
+          "detail": "« Je veux faire la paix en Ukraine. » ; « que l'Ukraine reste en dehors de l'OTAN et de l'Union européenne » (Sud Radio, 2026-09-20) ; « Neutralité et Démilitarisation de l'Ukraine, référendum au Donbass, forces de l'ONU autour des centrales nucléaires. » (2026-09-19) ; « Mettre fin aux aides à l'Ukraine » (Livret, mesure 22)",
+          "sources": [
+            {
+              "titre": "Sud Radio, 2026-09-20",
+              "url": "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
+            },
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            },
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        "Q-educ-enseign": {
+          "position": "hausse de 20 % puis 20 % sous condition",
+          "detail": "« Revaloriser les salaires des professeurs en deux temps : 20% d'augmentation automatique pour tous les professeurs, et 20% supplémentaires en contrepartie d'heures de soutien scolaire auprès des élèves en difficulté. » (8 Md€ par an) ; la page Éducation du parti (non datée) prévoyait 15 % en 4 ans",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Debout la France, Éducation",
+              "url": "https://www.debout-la-france.fr/projet/instruction-publique/"
+            }
+          ]
+        },
+        "Q-educ-univ": {
+          "position": "suppression de Parcoursup",
+          "detail": "« Suppression de Parcoursup », « Rétablissement d'un bac égalitaire », « Priorité aux étudiants français pour les aides universitaires » (Limoges, 2026-10-20) ; hausse du nombre d'étudiants boursiers français (0,5 Md€ en 2032, Cahier rouge)",
+          "sources": [
+            {
+              "titre": "Debout la France, 2026-10-20",
+              "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/"
+            },
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        "Q-sante-acces": {
+          "position": "bourse contre engagement d'installation",
+          "detail": "« Créer, afin de mettre fin aux déserts médicaux, une bourse pour les étudiants en médecine en échange de laquelle ils s'engageront à s'installer dans une zone sous-dotée pendant leurs 5 premières années. » (0,6 Md€ par an) ; maisons et camions de santé, revalorisation de la consultation généraliste (Cahier rouge)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        "Q-sante-findevie": {
+          "position": "contre",
+          "detail": "Tribune cosignée par le candidat contre le projet de loi : « Il élargit considérablement le champ des personnes concernées » (2026-01-09) ; (parti, page non datée) « Doubler le nombre d'unités de soins palliatifs (USP) »",
+          "sources": [
+            {
+              "titre": "Debout la France, 2026-01-09",
+              "url": "https://www.debout-la-france.fr/actualite/le-projet-de-loi-sur-la-fin-de-vie-un-risque-majeur-de-derive-anthropologique/"
+            },
+            {
+              "titre": "Debout la France, Dépendance et fin de vie",
+              "url": "https://www.debout-la-france.fr/projet/dependance-fin-de-vie/"
+            }
+          ]
+        },
+        "Q-instit-scrutin": {
+          "position": "pas de position",
+          "detail": "Aucune position de campagne trouvée sur la proportionnelle ; la page Démocratie du parti (livret daté du 2026-06-09) n'en parle pas",
+          "sources": [
+            {
+              "titre": "Debout la France, Démocratie",
+              "url": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/"
+            }
+          ]
+        },
+        "Q-instit-referend": {
+          "position": "RIC à un million de signatures, RIC constituant",
+          "detail": "« Le RIC à partir d'un million de signatures pour oxygéner le débat public. » ; « Le référendum de l'article 11 dans tous les domaines » (2026-09-19) ; cinq référendums sur les grandes réformes du quinquennat (2025-03-08)",
+          "sources": [
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            },
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        "Q-instit-constit": {
+          "position": "primauté du droit national, réduction du Parlement, vote blanc",
+          "detail": "(parti, livret justice daté du 2026-06-10) « Rétablir par référendum dans la Constitution la primauté du droit français sur toute norme européenne. » ; (parti, livret démocratie daté du 2026-06-09) « Diminuer le nombre de parlementaires » (500 députés, 300 sénateurs) et « Prendre en compte le vote blanc dans les résultats des élections » ; référendum obligatoire pour toute modification de la Constitution",
+          "sources": [
+            {
+              "titre": "Debout la France, Justice",
+              "url": "https://www.debout-la-france.fr/projet/justice/"
+            },
+            {
+              "titre": "Debout la France, Démocratie",
+              "url": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/"
+            }
+          ]
+        }
+      },
+      "dilemmes": {
+        "D-eco-dette": {
+          "option": "A",
+          "proposition": "eco-07",
+          "texte_court": "Plan de redressement de 140 milliards d'euros par an en fin de quinquennat : 100 milliards d'économies (fraude sociale, contribution européenne, agences, échelon régional, aides aux renouvelables) et 40 milliards de recettes nouvelles (fraude fiscale, multinationales, nouvelles taxes)",
+          "justification": "Chiffrage le plus lourd : « 100 milliards d'économies en s'attaquant aux gaspillages massifs », contre 40 Md€ de recettes nouvelles (lutte contre la fraude fiscale, impôt sur les multinationales, taxes sur les données et anti-dumping, proche de B) et 50 Md€ de recettes attendues de la croissance (option D) ; dépense publique ramenée de 56,9 % du PIB en 2026 à 51,6 % en 2032 (eco-07)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "présentation du projet économique, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/"
+            }
+          ]
+        },
+        "D-eco-pouvoir-achat": {
+          "option": "C",
+          "proposition": "eco-02",
+          "texte_court": "",
+          "justification": "Mesure de pouvoir d'achat la plus chiffrée : suppression de la TVA sur l'accise des carburants (4 Md€ par an), au sein d'une baisse de 40 centimes du litre (eco-02) ; s'y ajoute la TVA à zéro sur 50 produits de première nécessité (3,5 Md€, eco-03, même option) ; le SMIC à 1 600 € nets financé par une baisse des cotisations salariales (3 Md€, social-01, option B) pèse moins",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        "D-social-retraites": {
+          "option": "D",
+          "proposition": "social-02",
+          "texte_court": "",
+          "justification": "Seule mesure de retraite chiffrée : un capital de 10 000 € par nouveau-né, placé dans un fonds public, qui donnerait à 60 ans « un socle de retraite par capitalisation, qui viendrait en complément de la retraite par répartition » (6 Md€ par an, social-02) ; (parti, page non datée) maintien de l'âge et de la durée de cotisation issus de la réforme de 2010 (page antérieure à 2023), ce qui écarte l'option A, et financement « par l'augmentation du nombre de cotisants », sans option correspondante",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Debout la France, Retraites",
+              "url": "https://www.debout-la-france.fr/projet/retraites/"
+            }
+          ]
+        },
+        "D-social-chomage": {
+          "option": "B",
+          "proposition": "social-08",
+          "texte_court": "",
+          "justification": "Seule mesure de l'une des options chiffrée : crédit d'études ou de formation pour les jeunes ayant quitté tôt l'école (0,4 Md€ en 2032, social-08) ; le livret propose aussi une « formation qualifiante intensive » avec emploi à la clé pour chaque jeune sans diplôme (social-06) ; les exonérations de charges pour l'embauche de jeunes et de chômeurs de longue durée (1 Md€, social-04) ne correspondent à aucune option ; « Plafonner le cumul des aides sociales en dessous du SMIC » (2026-09-19) porte sur les aides sociales, non sur les indemnités chômage : sans option correspondante ; aucune mesure sur les indemnités (A)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        "D-env-electricite": {
+          "option": "A",
+          "proposition": "env-01",
+          "texte_court": "",
+          "justification": "Nouveaux réacteurs : « Les programmes de construction des EPR2 et de déploiement des petits réacteurs modulaires français […] seront accélérés » (env-01) ; « le nucléaire est l'avenir de l'électricité » ; suppression des aides à l'éolien et au solaire (env-02), ce qui écarte B et C",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        "D-env-rythme": {
+          "option": "D",
+          "proposition": "env-03",
+          "texte_court": "",
+          "justification": "Assouplissement des normes : suppression de l'interdiction du moteur thermique en 2035, des ZFE et du seuil minimal de DPE pour louer (env-03) ; normes divisées par deux pour les entreprises ; suppression des aides aux renouvelables par l'annulation de la PPE3 (env-02)",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        "D-secu-budget": {
+          "option": "C",
+          "proposition": "secu-01",
+          "texte_court": "",
+          "justification": "Poste le plus chiffré : « Renforcer les moyens au ministère de la justice et doubler la dépense moyenne par Français dans la justice » (6 Md€ par an en 2032), contre 3,2 Md€ pour les forces de l'ordre (recrutements et matériel, option A) et 1,8 à 3,9 Md€ par an pour 40 000 places de prison (option B) ; (parti, livret justice daté du 2026-06-10) « augmenter le nombre de magistrats et de greffiers » (secu-01)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Debout la France, Justice",
+              "url": "https://www.debout-la-france.fr/projet/justice/"
+            }
+          ]
+        },
+        "D-immig-travail": {
+          "option": "C",
+          "proposition": "social-06",
+          "texte_court": "",
+          "justification": "Aucune mesure chiffrée. Pour les secteurs en pénurie, le livret propose de former chaque jeune sans diplôme avec « un emploi à la clé dans les secteurs en pénurie de main-d'œuvre, plutôt que de laisser des milliers de postes non pourvus » (social-06) ; (parti, livret daté du 2026-03-03) « si le chômage est élevé, cette immigration doit rester exceptionnelle », ce qui écarte A ; (parti) « supprimer la régularisation pour les étrangers en situation irrégulière » (B écartée)",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Debout la France, Immigration",
+              "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/"
+            }
+          ]
+        },
+        "D-europe-regles": {
+          "option": "D",
+          "proposition": "europe-02",
+          "texte_court": "",
+          "justification": "Primauté générale du droit national : « Primauté du droit français sur le droit européen » (Limoges, 2026-10-20, europe-02) ; « le droit national redeviendra supérieur au droit européen » (2025-03-08) ; le candidat va au-delà, avec la sortie de l'Union (europe-01), position la plus éloignée de ce dilemme gradué",
+          "sources": [
+            {
+              "titre": "Debout la France, 2026-10-20",
+              "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/"
+            },
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        "D-europe-defense": {
+          "option": "A",
+          "proposition": "europe-03",
+          "texte_court": "",
+          "justification": "Augmentation chiffrée du budget de la Défense : « Augmenter et sanctuariser le budget de la Défense à 2,3 % du PIB » (7 Md€ par an en 2032, ligne de dépense du plan de financement, europe-03) ; la fin des aides à l'Ukraine est aussi chiffrée (7 Md€ par an d'économies, Livret, mesure 22, europe-05, proche de D), mais c'est une économie, non comptée dans les tableaux du Cahier rouge (« À noter que nous mettrons fin aux aides à l'Ukraine »), et non une dépense de diplomatie ; sortie du commandement intégré de l'OTAN (C écartée) ; refus du partage de la dissuasion et sortie du programme SCAF (B écartée)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        "D-educ-niveau": {
+          "option": "B",
+          "proposition": "educ-01",
+          "texte_court": "",
+          "justification": "Salaires des professeurs : 20 % de hausse automatique puis 20 % en échange d'heures de soutien (8 Md€ par an, educ-01), plus gros poste de dépenses nouvelles hors entreprises ; aucun objectif d'effectif par classe trouvé ; « la reconstruction de l'école publique des savoirs, de l'effort et du mérite » (2026-09-19, proche de D)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        },
+        "D-sante-deserts": {
+          "option": "B",
+          "proposition": "sante-01",
+          "texte_court": "",
+          "justification": "Seule mesure chiffrée : une bourse versée aux étudiants en médecine en échange de cinq ans d'exercice en zone sous-dotée (0,6 Md€ par an, sante-01), incitation financière et non obligation générale (A) ; (parti, page non datée) « permettre aux médecins s'établissant dans les déserts médicaux de toucher plus de revenus » et rôle accru des pharmaciens (C)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Debout la France, Santé",
+              "url": "https://www.debout-la-france.fr/projet/sante/"
+            }
+          ]
+        },
+        "D-instit-participation": {
+          "option": "A",
+          "proposition": "instit-01",
+          "texte_court": "",
+          "justification": "Référendum d'initiative citoyenne : « Le RIC à partir d'un million de signatures pour oxygéner le débat public. » (2026-09-19, instit-01), l'un des « 4 points cardinaux » du projet (« La démocratie directe ! ») ; pas de position trouvée sur la proportionnelle (B)",
+          "sources": [
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        }
+      },
+      "phares": [
+        {
+          "rang": 1,
+          "proposition": "europe-01",
+          "motif": "Résumé du candidat : premier des « 4 points cardinaux » de son projet (discours de rentrée, 2026-09-19), résumé de la campagne : « Sortir de l'Union européenne pour rendre à la France son indépendance »",
+          "sources": [
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        },
+        {
+          "rang": 2,
+          "proposition": "eco-04",
+          "motif": "Résumé du candidat : deuxième point cardinal, « Le protectionnisme économique et social. », résumé de la campagne : « Instaurer un protectionnisme intelligent pour relocaliser la production et les emplois »",
+          "sources": [
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        },
+        {
+          "rang": 3,
+          "proposition": "europe-05",
+          "motif": "Résumé du candidat : troisième point cardinal, « La paix de l'Atlantique à l'Oural. », résumé de la campagne : « Rechercher une paix négociée en Ukraine afin de mettre fin à la guerre et de réduire le coût de l'énergie »",
+          "sources": [
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        }
+      ],
+      "propositions": [
+        {
+          "id": "eco-01",
+          "theme": "eco",
+          "proposition": "« Diviser par 2 le prix de l'électricité dès la première année » en sortant du marché européen de fixation du prix, en rétablissant le monopole de production et de distribution d'EDF et en garantissant un tarif réglementé de 10 centimes le kWh ; prix du gaz réduit de 20 % et importations de gaz russe réautorisées (Livret, mesure 1)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "première année",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "eco-02",
+          "theme": "eco",
+          "proposition": "« Baisser de 40 centimes le prix des carburants » : suppression des certificats d'économies d'énergie (17 centimes), suppression de la TVA sur l'accise (13 centimes), plafonnement des marges des raffineurs (10 centimes) (Livret, mesure 1)",
+          "chiffrage_annonce": "4 (suppression de la TVA sur l'accise)",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "eco-03",
+          "theme": "eco",
+          "proposition": "« TVA à zéro sur une liste de 50 produits de première nécessité » et réduction des frais bancaires (Livret, mesure 13)",
+          "chiffrage_annonce": "3,5",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "eco-04",
+          "theme": "eco",
+          "proposition": "« Déployer un protectionnisme intelligent et renégocier tous les accords de libre-échange à l'occasion de la sortie de l'UE » ; contrôle aux frontières du respect des normes sanitaires, environnementales et sociales et droits de douane compensateurs contre les importations déloyales (Livret, mesure 7)",
+          "chiffrage_annonce": "non chiffré (taxe anti-dumping : 5 de recettes)",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "eco-05",
+          "theme": "eco",
+          "proposition": "« BUY French ACT » : commande publique réservée aux entreprises qui produisent le bien en France, sauf prix supérieur de plus de 50 % au produit étranger (Livret, mesure 8)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "eco-06",
+          "theme": "eco",
+          "proposition": "Baisser les impôts de production (5 Md€), crédit d'impôt production pour les entreprises qui réinvestissent leurs bénéfices en France (4 Md€) et fonds d'investissement et de relocalisation « doté de 4 milliards d'euros par an », piloté par la Caisse des dépôts (Livret, mesures 3 à 5)",
+          "chiffrage_annonce": "13",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "eco-07",
+          "theme": "eco",
+          "proposition": "Plan de redressement financier : « 100 milliards d'économies en s'attaquant aux gaspillages massifs » (fraude sociale 20 Md€, contribution à l'UE 15 Md€, agences, échelon régional et subventions aux associations 40 Md€, aides aux éoliennes et au solaire 10 Md€, emprunts à 0 % auprès de la Banque de France 10 Md€, conditions d'accès des étrangers aux aides 5 Md€) et « 40 milliards de recettes nouvelles en combattant la fraude fiscale » et l'optimisation des multinationales ; 90 Md€ de dépenses nouvelles et baisses d'impôts ; « réduire le déficit de 50 milliards d'euros » hors effet de croissance ; déficit à 2,0 % du PIB en 2032",
+          "chiffrage_annonce": "140 de ressources, 90 de dépenses",
+          "chiffrage_independant": "",
+          "calendrier": "2027-2032",
+          "sources": [
+            {
+              "titre": "présentation du projet économique, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/"
+            },
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "eco-08",
+          "theme": "eco",
+          "proposition": "Supprimer les droits de succession sur la résidence principale et sur les 100 premiers hectares de terres agricoles, doubler les plafonds d'exonération des donations, exonérer 90 % de la valeur des titres d'une entreprise transmise (Livret, mesure 17)",
+          "chiffrage_annonce": "5",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "eco-09",
+          "theme": "eco",
+          "proposition": "Rapatrier le pouvoir monétaire en France pour « permettre à l'État d'emprunter directement auprès de la Banque de France » à taux zéro pour les investissements publics ; grand emprunt national ; la mesure évoque « notre nouvelle monnaie » (Livret, mesure 29)",
+          "chiffrage_annonce": "10 d'intérêts économisés",
+          "chiffrage_independant": "",
+          "calendrier": "au terme des 5 ans",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "social-01",
+          "theme": "social",
+          "proposition": "« Augmenter le SMIC à 1 600 euros net (98 euros supplémentaires par mois) en compensant cette hausse par une baisse proportionnelle des cotisations salariales pour ne pas pénaliser les entreprises » ; réduction dégressive, 2,5 millions de salariés concernés (Livret, mesure 12)",
+          "chiffrage_annonce": "3",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "social-02",
+          "theme": "social",
+          "proposition": "« Doter chaque nouveau-né français d'un capital de 10 000 euros qui sera bloqué jusqu'à sa retraite », géré par un fonds public de capitalisation : à 60 ans, un complément de retraite par capitalisation d'au moins 400 euros par mois (Livret, mesure 11)",
+          "chiffrage_annonce": "6",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "social-03",
+          "theme": "social",
+          "proposition": "« Réindexer les pensions de retraite et les traitements des fonctionnaires sur l'inflation » ; rétablir le cumul emploi-retraite entre 62 et 67 ans (Livret, mesure 14)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "social-04",
+          "theme": "social",
+          "proposition": "Exonérer de charges patronales le premier CDI d'un jeune de moins de 26 ans pendant trois mois et le CDI d'un chômeur de longue durée (5 ans) pendant deux ans (Livret, mesure 15 ; le communiqué de Limoges du 2026-10-20 disait « pendant un an » pour le premier emploi)",
+          "chiffrage_annonce": "1",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "social-05",
+          "theme": "social",
+          "proposition": "« Défiscaliser les heures supplémentaires » au-delà de 1 607 heures par an, dans la limite de 300 heures, sans cotisations salariales (Livret, mesure 16)",
+          "chiffrage_annonce": "0,5",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "social-06",
+          "theme": "social",
+          "proposition": "Proposer à chaque jeune sans diplôme une formation qualifiante intensive aux métiers manuels, du numérique ou des secteurs en demande, « assortie d'un emploi à la clé dans les secteurs en pénurie de main-d'œuvre » (Livret, mesure 19)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "social-07",
+          "theme": "social",
+          "proposition": "« Supprimer les droits de mutation pour les primo-accédants » (Cahier rouge)",
+          "chiffrage_annonce": "3",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "social-08",
+          "theme": "social",
+          "proposition": "« Donner accès à un crédit d'études ou de formations pour les jeunes ayant quitté tôt l'école » (Cahier rouge)",
+          "chiffrage_annonce": "0,4",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "env-01",
+          "theme": "env",
+          "proposition": "Accélérer la construction des EPR2 et le déploiement des petits réacteurs modulaires pour remplacer les centrales en fin de vie, lancer un programme de recherche sur les réacteurs à neutrons rapides (projet Astrid), rénover les barrages hydroélectriques maintenus à EDF (Livret, mesure 30)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "env-02",
+          "theme": "env",
+          "proposition": "« Supprimer les aides de l'État à l'installations des éoliennes et des panneaux solaires en annulant le décret sur la PPE3 » (Livret, mesure 25)",
+          "chiffrage_annonce": "10 d'économies",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "env-03",
+          "theme": "env",
+          "proposition": "Supprimer l'interdiction du moteur thermique en 2035 (discours de déclaration, 2025-03-08), supprimer les ZFE et le seuil minimal de DPE pour louer un logement, diviser par deux les normes administratives des entreprises (Livret, mesure 2)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        {
+          "id": "env-04",
+          "theme": "env",
+          "proposition": "Remplacer la politique agricole commune par une politique agricole nationale : « Une politique agricole nationale remplacera la fameuse PAC » (discours de déclaration, 2025-03-08)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        {
+          "id": "secu-01",
+          "theme": "secu",
+          "proposition": "Doubler la dépense moyenne par habitant consacrée à la justice et augmenter le nombre de magistrats et de greffiers ; (parti, livret justice daté du 2026-06-10) « faire passer le budget de la justice de 10,1 milliards à 15 milliards »",
+          "chiffrage_annonce": "6",
+          "chiffrage_independant": "",
+          "calendrier": "2032",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Debout la France, Justice",
+              "url": "https://www.debout-la-france.fr/projet/justice/"
+            }
+          ]
+        },
+        {
+          "id": "secu-02",
+          "theme": "secu",
+          "proposition": "« Recruter 30 000 représentants des forces de l'ordre et 10 000 personnels administratifs » et moderniser les moyens matériels des policiers et gendarmes (Cahier rouge)",
+          "chiffrage_annonce": "3,2",
+          "chiffrage_independant": "",
+          "calendrier": "quinquennat",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "secu-03",
+          "theme": "secu",
+          "proposition": "« Créer 40 000 places de prison supplémentaires au cours du quinquennat » (Cahier rouge)",
+          "chiffrage_annonce": "1,8 (3,9 en 2029-2030)",
+          "chiffrage_independant": "",
+          "calendrier": "quinquennat",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "secu-04",
+          "theme": "secu",
+          "proposition": "Référendum sur le rétablissement de la peine de mort pour les meurtriers d'enfants : « je demande qu'un référendum soit organisé » (tribune signée)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "dupontaignan.fr, 2026-06-11",
+              "url": "https://www.dupontaignan.fr/pour-un-referendum-sur-la-peine-de-mort-pour-les-meurtriers-d-enfants/"
+            }
+          ]
+        },
+        {
+          "id": "secu-05",
+          "theme": "secu",
+          "proposition": "« Loi anti-casseurs », « Peine plancher de prison pour agression de policiers », « Baisse de la majorité pénale à 16 ans », « Prison ferme pour les multirécidivistes » (communiqué de Limoges)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, 2026-10-20",
+              "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/"
+            }
+          ]
+        },
+        {
+          "id": "immig-01",
+          "theme": "immig",
+          "proposition": "Déployer l'armée aux frontières, « mettre fin à l'immigration illégale et réduire drastiquement les entrées légales » (discours de déclaration)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        {
+          "id": "immig-02",
+          "theme": "immig",
+          "proposition": "Conditionner les aides sociales non contributives à 5 ans de résidence pour tout étranger, supprimer l'AME, lutter contre les fraudes aux mineurs isolés (Livret, mesure 24)",
+          "chiffrage_annonce": "5 d'économies",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "immig-03",
+          "theme": "immig",
+          "proposition": "« Fin du droit du sol » et « Expulsion des délinquants étrangers » (communiqué de Limoges) ; (parti) suppression du droit du sol par référendum",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, 2026-10-20",
+              "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/"
+            },
+            {
+              "titre": "Debout la France, Immigration",
+              "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/"
+            }
+          ]
+        },
+        {
+          "id": "immig-04",
+          "theme": "immig",
+          "proposition": "Demandes d'asile déposées hors du territoire ou en centre de rétention ; dénonciation de l'accord franco-algérien de 1968 (« L'accord de 1968 avec l'Algérie sera dénoncé ») et suppression de l'aide au développement des pays qui refusent de reprendre leurs ressortissants expulsés (discours de déclaration ; cette dernière mesure résumée par l'outil de lecture)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        {
+          "id": "immig-05",
+          "theme": "immig",
+          "proposition": "(parti, livret daté du 2026-03-03) « Rétablir le contrôle aux frontières en sortant de Schengen » ; « la suspension du regroupement familial » (introduction de la page ; la mesure 5 dit « Limiter strictement le regroupement familial »)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, Immigration",
+              "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/"
+            }
+          ]
+        },
+        {
+          "id": "europe-01",
+          "theme": "europe",
+          "proposition": "« Sortir de l'UE et économiser ainsi les 15 milliards d'euros de notre solde contributeur » (Livret, mesure 21) ; « Je veux sortir de l'Union européenne pour rendre son indépendance à la France » (Sud Radio, 2026-09-20) ; (parti) sortie soumise à référendum ; coopérations entre nations volontaires",
+          "chiffrage_annonce": "15 d'économies",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Sud Radio, 2026-09-20",
+              "url": "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
+            },
+            {
+              "titre": "Debout la France, Affaires européennes",
+              "url": "https://www.debout-la-france.fr/projet/affaires-europeennes/"
+            }
+          ]
+        },
+        {
+          "id": "europe-02",
+          "theme": "europe",
+          "proposition": "Faire primer le droit français sur le droit européen : « Primauté du droit français sur le droit européen » (communiqué de Limoges) ; (parti, livret justice daté du 2026-06-10) inscription par référendum dans la Constitution",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, 2026-10-20",
+              "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/"
+            },
+            {
+              "titre": "Debout la France, Justice",
+              "url": "https://www.debout-la-france.fr/projet/justice/"
+            }
+          ]
+        },
+        {
+          "id": "europe-03",
+          "theme": "europe",
+          "proposition": "« Augmenter et sanctuariser le budget de la Défense à 2,3 % du PIB (équipements, second porte-avion, service national) » ; doubler le budget du renseignement (Cahier rouge)",
+          "chiffrage_annonce": "7",
+          "chiffrage_independant": "",
+          "calendrier": "2032",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "europe-04",
+          "theme": "europe",
+          "proposition": "Sortir du commandement militaire intégré de l'OTAN ; refuser tout partage de la dissuasion nucléaire : « Notre stratégie de dissuasion nucléaire ne vaut que pour notre territoire national. » ; quitter le programme SCAF : « nous sortirons des programmes d'armement qui, comme le SCAF » (discours de déclaration)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        {
+          "id": "europe-05",
+          "theme": "europe",
+          "proposition": "Paix négociée en Ukraine : « Neutralité et Démilitarisation de l'Ukraine, référendum au Donbass, forces de l'ONU autour des centrales nucléaires » (discours du 2026-09-19) ; « Mettre fin aux aides à l'Ukraine » (Livret, mesure 22)",
+          "chiffrage_annonce": "7 d'économies",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            },
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "educ-01",
+          "theme": "educ",
+          "proposition": "Revaloriser les salaires des professeurs en deux temps : 20 % d'augmentation automatique pour tous, puis 20 % supplémentaires en contrepartie d'heures de soutien scolaire auprès des élèves en difficulté (Cahier rouge)",
+          "chiffrage_annonce": "8",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "educ-02",
+          "theme": "educ",
+          "proposition": "« Suppression de Parcoursup », « Rétablissement d'un bac égalitaire », « Une école des savoirs et du mérite avec des programmes exigeants » (communiqué de Limoges)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, 2026-10-20",
+              "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/"
+            }
+          ]
+        },
+        {
+          "id": "educ-03",
+          "theme": "educ",
+          "proposition": "Porter l'effort de recherche à 3 % du PIB dès 2029 et rétablir un commissariat au Plan (Livret, mesure 30)",
+          "chiffrage_annonce": "2",
+          "chiffrage_independant": "",
+          "calendrier": "2029",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            },
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "sante-01",
+          "theme": "sante",
+          "proposition": "Une bourse pour les étudiants en médecine en échange d'un engagement à s'installer dans une zone sous-dotée pendant leurs cinq premières années d'exercice (Cahier rouge)",
+          "chiffrage_annonce": "0,6",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "sante-02",
+          "theme": "sante",
+          "proposition": "Reconstruire la médecine scolaire en doublant le nombre de médecins, d'infirmières scolaires et d'assistantes sociales et en revalorisant leurs salaires de 15 % (Cahier rouge)",
+          "chiffrage_annonce": "0,6",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "sante-03",
+          "theme": "sante",
+          "proposition": "Dépendance : moyens de fonctionnement des EHPAD (2 Md€), 30 000 postes d'aides-soignants et assistants, TVA réduite sur les travaux d'adaptation des logements des personnes âgées, financés par le redéploiement de la CRDS (Cahier rouge)",
+          "chiffrage_annonce": "4",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        {
+          "id": "instit-01",
+          "theme": "instit",
+          "proposition": "Référendum d'initiative citoyenne à partir d'un million de signatures, RIC constituant et référendum de l'article 11 dans tous les domaines (discours du 2026-09-19)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        },
+        {
+          "id": "instit-02",
+          "theme": "instit",
+          "proposition": "Cinq référendums sur les grandes réformes du quinquennat : fin de l'UE, sécurité et nouveau code pénal, réforme éducative, contrôle migratoire, réforme institutionnelle (discours de déclaration)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "quinquennat",
+          "sources": [
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        {
+          "id": "instit-03",
+          "theme": "instit",
+          "proposition": "Reconnaissance du vote blanc (discours du 2026-09-19) ; (parti, livret daté du 2026-06-09) scrutin reporté si le vote blanc est majoritaire, 500 députés et 300 sénateurs",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            },
+            {
+              "titre": "Debout la France, Démocratie",
+              "url": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/"
+            }
+          ]
+        },
+        {
+          "id": "instit-04",
+          "theme": "instit",
+          "proposition": "« Supprimer l'échelon régional, le mandat de conseiller régional, les intercommunalités inutiles, le Conseil économique, social et environnemental (CESE) », en renforçant les maires et les conseils départementaux (Livret, mesure 26)",
+          "chiffrage_annonce": "10 d'économies",
+          "chiffrage_independant": "",
+          "calendrier": "au terme de 3 ans",
+          "sources": [
+            {
+              "titre": "Livret, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        }
+      ],
+      "evolutions": [
+        {
+          "date": "2025-03-08",
+          "description": "déclaration de candidature à Yerres ; la sortie de l'Union européenne y est envisagée comme ultime recours (« il doit rester la dernière solution ») [Debout la France, discours du 2025-03-08](https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/)",
+          "sources": [
+            {
+              "titre": "Debout la France, discours du 2025-03-08",
+              "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-22",
+          "description": "redevient maire de Yerres après les élections municipales [Wikipédia](https://en.wikipedia.org/wiki/Nicolas_Dupont-Aignan)",
+          "sources": [
+            {
+              "titre": "Wikipédia",
+              "url": "https://en.wikipedia.org/wiki/Nicolas_Dupont-Aignan"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-23",
+          "description": "confirme sa candidature sur X [info.fr, 2026-04-23](https://info.fr/yerres-dupont-aignan-candidature-presidentielle-2027-sursaut-gaulliste/)",
+          "sources": [
+            {
+              "titre": "info.fr, 2026-04-23",
+              "url": "https://info.fr/yerres-dupont-aignan-candidature-presidentielle-2027-sursaut-gaulliste/"
+            }
+          ]
+        },
+        {
+          "date": "2026-09-19",
+          "description": "discours de rentrée de Yerres ; la sortie de l'Union européenne devient le premier des « 4 points cardinaux » du projet, et le 2026-09-20 : « Je veux sortir de l'Union européenne pour rendre son indépendance à la France » (revirement par rapport au « dernière solution » de mars 2025) [discours de Yerres, 2026-09-19](https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/) ; [Sud Radio, 2026-09-20](https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible)",
+          "sources": [
+            {
+              "titre": "discours de Yerres, 2026-09-19",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            },
+            {
+              "titre": "Sud Radio, 2026-09-20",
+              "url": "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "description": "présentation du projet économique et de son financement ; budget de défense ramené de 2,5 % du PIB (page Défense du parti, livret daté du 2025-04-15) à 2,3 % ; effectifs de police et de gendarmerie portés de 10 000 (page Sécurité, livret daté du 2025-10-31) à 30 000 recrutements ; hausse des salaires des professeurs portée de 15 % en 4 ans (page Éducation, non datée) à 20 % puis 20 % sous condition [Cahier rouge, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf) ; [Debout la France, Défense](https://www.debout-la-france.fr/projet/defense/) ; [Debout la France, Sécurité](https://www.debout-la-france.fr/projet/securite/) ; [Debout la France, Éducation](https://www.debout-la-france.fr/projet/instruction-publique/)",
+          "sources": [
+            {
+              "titre": "Cahier rouge, 2026-11-12",
+              "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            },
+            {
+              "titre": "Debout la France, Défense",
+              "url": "https://www.debout-la-france.fr/projet/defense/"
+            },
+            {
+              "titre": "Debout la France, Sécurité",
+              "url": "https://www.debout-la-france.fr/projet/securite/"
+            },
+            {
+              "titre": "Debout la France, Éducation",
+              "url": "https://www.debout-la-france.fr/projet/instruction-publique/"
+            }
+          ]
+        }
+      ],
+      "faisabilite": null
+    },
+    {
       "id": "glucksmann-raphael",
       "nom": "Raphaël Glucksmann",
       "parti": "Place publique",
@@ -16543,6 +17915,22 @@
             ]
           },
           {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "eco-07",
+            "texte": "Plan de redressement de 140 milliards d'euros par an en fin de quinquennat : 100 milliards d'économies et 40 milliards de recettes nouvelles",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "présentation du projet économique, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/"
+              },
+              {
+                "titre": "Cahier rouge, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+              }
+            ]
+          },
+          {
             "candidat": "le-pen-marine",
             "proposition": "eco-01",
             "texte": "Réaliser 140 Md€ d'économies nettes, surtout les trois premières années : équilibre primaire en 18 mois, déficit sous 3 % du PIB en 2030 et sous 2,5 % en 2032, dépenses publiques sous 50 % du PIB, dette à 112 % du PIB en 2032",
@@ -16820,6 +18208,22 @@
         ],
         "C": [
           {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "eco-02",
+            "texte": "Baisser de 40 centimes le prix des carburants : suppression des certificats d'économies d'énergie, suppression de la TVA sur l'accise, plafonnement des marges des raffineurs",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Livret, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+              },
+              {
+                "titre": "Cahier rouge, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+              }
+            ]
+          },
+          {
             "candidat": "le-pen-marine",
             "proposition": "eco-04",
             "texte": "Ramener la TVA de 20 % à 5,5 % sur l'électricité, le gaz et les carburants",
@@ -17008,6 +18412,18 @@
             ]
           },
           {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "social-02",
+            "texte": "Doter chaque nouveau-né français d'un capital de 10 000 euros qui sera bloqué jusqu'à sa retraite, géré par un fonds public de capitalisation : à 60 ans, un complément de retraite par capitalisation d'au moins 400 euros par mois",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Livret, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+              }
+            ]
+          },
+          {
             "candidat": "le-pen-marine",
             "proposition": "social-02",
             "texte": "Créer un véritable pilier de capitalisation dans le système de retraite",
@@ -17078,6 +18494,18 @@
         ],
         "B": [
           {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "social-08",
+            "texte": "Donner accès à un crédit d'études ou de formations pour les jeunes ayant quitté tôt l'école",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Cahier rouge, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+              }
+            ]
+          },
+          {
             "candidat": "tondelier-marine",
             "proposition": "social-07",
             "texte": "Créer une sécurité sociale professionnelle pour les travailleurs touchés par la transition écologique : salaire garanti pendant deux ans en cas de perte d'emploi et formation rémunérée de 6 à 10 mois vers un métier de la transition",
@@ -17129,6 +18557,18 @@
               {
                 "titre": "Lyon Mag, 2026-10-10",
                 "url": "https://www.lyonmag.com/article/154267/presidentielle-2027-a-lyon-gabriel-attal-devoile-son-pacte-pour-la-jeunesse-et-cible-jean-luc-melenchon"
+              }
+            ]
+          },
+          {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "env-01",
+            "texte": "Accélérer la construction des EPR2 et le déploiement des petits réacteurs modulaires pour remplacer les centrales en fin de vie, lancer un programme de recherche sur les réacteurs à neutrons rapides, rénover les barrages hydroélectriques maintenus à EDF",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Livret, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
               }
             ]
           },
@@ -17339,6 +18779,22 @@
         "C": [],
         "D": [
           {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "env-03",
+            "texte": "Supprimer l'interdiction du moteur thermique en 2035, supprimer les ZFE et le seuil minimal de DPE pour louer un logement, diviser par deux les normes administratives des entreprises",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Livret, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+              },
+              {
+                "titre": "Debout la France, discours du 2025-03-08",
+                "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+              }
+            ]
+          },
+          {
             "candidat": "le-pen-marine",
             "proposition": "env-04",
             "texte": "Supprimer le zéro artificialisation nette ; réduire le DPE à un simple élément indicatif",
@@ -17513,7 +18969,24 @@
             ]
           }
         ],
-        "C": [],
+        "C": [
+          {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "secu-01",
+            "texte": "Doubler la dépense moyenne par habitant consacrée à la justice et augmenter le nombre de magistrats et de greffiers ; faire passer le budget de la justice de 10,1 milliards à 15 milliards",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Cahier rouge, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+              },
+              {
+                "titre": "Debout la France, Justice",
+                "url": "https://www.debout-la-france.fr/projet/justice/"
+              }
+            ]
+          }
+        ],
         "D": [
           {
             "candidat": "melenchon-jean-luc",
@@ -17642,7 +19115,20 @@
             ]
           }
         ],
-        "C": [],
+        "C": [
+          {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "social-06",
+            "texte": "Proposer à chaque jeune sans diplôme une formation qualifiante intensive aux métiers manuels, du numérique ou des secteurs en demande, assortie d'un emploi à la clé dans les secteurs en pénurie de main-d'œuvre",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Livret, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+              }
+            ]
+          }
+        ],
         "D": []
       },
       "D-europe-regles": {
@@ -17753,6 +19239,22 @@
         ],
         "D": [
           {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "europe-02",
+            "texte": "Faire primer le droit français sur le droit européen : Primauté du droit français sur le droit européen ; inscription par référendum dans la Constitution",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Debout la France, 2026-10-20",
+                "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/"
+              },
+              {
+                "titre": "Debout la France, Justice",
+                "url": "https://www.debout-la-france.fr/projet/justice/"
+              }
+            ]
+          },
+          {
             "candidat": "le-pen-marine",
             "proposition": "europe-02",
             "texte": "Inscrire la primauté de la Constitution sur les engagements internationaux ; conditionner la participation à l'UE au respect de la Constitution ; interdire aux actes de l'UE de limiter le contrôle des frontières",
@@ -17793,6 +19295,18 @@
               {
                 "titre": "attalpresident.fr, « Frontières »",
                 "url": "https://attalpresident.fr/programme/frontieres"
+              }
+            ]
+          },
+          {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "europe-03",
+            "texte": "Augmenter et sanctuariser le budget de la Défense à 2,3 % du PIB ; doubler le budget du renseignement",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Cahier rouge, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
               }
             ]
           },
@@ -18004,6 +19518,18 @@
             ]
           },
           {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "educ-01",
+            "texte": "Revaloriser les salaires des professeurs en deux temps : 20 % d'augmentation automatique pour tous, puis 20 % supplémentaires en contrepartie d'heures de soutien scolaire auprès des élèves en difficulté",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Cahier rouge, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+              }
+            ]
+          },
+          {
             "candidat": "glucksmann-raphael",
             "proposition": "educ-01",
             "texte": "Augmenter de 10 % la rémunération de tous les enseignants, jusqu'à 25 % selon la progression de carrière",
@@ -18134,6 +19660,18 @@
         ],
         "B": [
           {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "sante-01",
+            "texte": "Une bourse pour les étudiants en médecine en échange d'un engagement à s'installer dans une zone sous-dotée pendant leurs cinq premières années d'exercice",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "Cahier rouge, 2026-11-12",
+                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+              }
+            ]
+          },
+          {
             "candidat": "lisnard-david",
             "proposition": "sante-03",
             "texte": "Nous proposons un conventionnement différencié : la Sécurité sociale rembourse mieux les actes dans les zones sous-dotées, avec liberté d'installation",
@@ -18164,6 +19702,18 @@
       },
       "D-instit-participation": {
         "A": [
+          {
+            "candidat": "dupont-aignan-nicolas",
+            "proposition": "instit-01",
+            "texte": "Référendum d'initiative citoyenne à partir d'un million de signatures, RIC constituant et référendum de l'article 11 dans tous les domaines",
+            "texte_court": false,
+            "sources": [
+              {
+                "titre": "discours de Yerres, 2026-09-19",
+                "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
+              }
+            ]
+          },
           {
             "candidat": "lisnard-david",
             "proposition": "instit-04",
