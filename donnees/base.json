@@ -3598,7 +3598,7 @@
         {
           "rang": 1,
           "proposition": "env-01",
-          "motif": "Annonce dédiée la plus récente : conférence de presse avec Yannick Jadot consacrée au plan des « 100 premiers jours pour sortir des énergies fossiles », 2026-11-09 ; mesure principale : 200 Md€ d'investissements",
+          "motif": "Annonce dédiée la plus récente : présentation publique avec Yannick Jadot consacrée au plan des « 100 premiers jours pour sortir des énergies fossiles », 2026-11-09 ; mesure principale : 200 Md€ d'investissements",
           "sources": [
             {
               "titre": "Public Sénat, 2026-11-09",
@@ -9422,11 +9422,15 @@
           "option": "B",
           "proposition": "secu-08",
           "texte_court": "",
-          "justification": "Programme (2026-11-12) : aucune mesure chiffrée en euros ; parmi les mesures de moyens de la page « Justice », la première présentée est « Une loi d’accélération de la construction de prisons. » (secu-08), après trois mesures pénales (peines planchers, courtes peines, suppression du juge d'application des peines, secu-01 à secu-03) ; viennent ensuite le retour des juges de paix pour « une justice civile plus rapide et plus proche » (secu-09, proche de l'option C, non voisine) et une réforme du recrutement des magistrats (secu-06) ; ni hausse d'effectifs de police ou de gendarmerie (option A) ni prévention (option D) sur cette page (page « Sécurité » non lue)",
+          "justification": "Programme (2026-11-12) : aucune mesure chiffrée en euros ; parmi les mesures de moyens de la page « Justice », la première présentée est « Une loi d’accélération de la construction de prisons. » (secu-08), après trois mesures pénales (peines planchers, courtes peines, suppression du juge d'application des peines, secu-01 à secu-03) ; viennent ensuite le retour des juges de paix pour « une justice civile plus rapide et plus proche » (secu-09, proche de l'option C, non voisine) et une réforme du recrutement des magistrats (secu-06) ; ni hausse d'effectifs de police ou de gendarmerie (option A) ni prévention (option D) sur cette page ; la page « Sécurité » (mise à jour le 2026-11-12) ne contient ni hausse chiffrée des effectifs de police ou de gendarmerie ni volet prévention",
           "sources": [
             {
               "titre": "Programme « Justice »",
               "url": "https://www.edouardphilippe.fr/programme/justice"
+            },
+            {
+              "titre": "Programme « Sécurité »",
+              "url": "https://www.edouardphilippe.fr/programme/securite"
             }
           ]
         },

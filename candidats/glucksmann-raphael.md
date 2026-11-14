@@ -41,7 +41,7 @@ derniere_maj: 2026-11-14
   du 2026-10-04 (LCP, 2026-10-05), source principale des positions sur les retraites, la régularisation,
   le seuil de la taxe sur les héritages et l'énergie.
 - Mise à jour du 2026-11-14 (veille S46) : premier volet du plan des « 100 premiers jours pour sortir des énergies
-  fossiles », présenté le 2026-11-09 avec Yannick Jadot lors d'une conférence de presse (Public Sénat, 2026-11-09 ;
+  fossiles », présenté le 2026-11-09 avec Yannick Jadot lors d'une présentation publique (Public Sénat, 2026-11-09 ;
   la veille datait l'article du 2026-11-10, la page indique le 2026-11-09) ; le montant de 200 Md€ et le détail des
   mesures sont rapportés par la narration du journaliste. Grand oral de Radio France sur les services publics du
   2026-11-12 lu via Public Sénat (2026-11-12). Non lus : franceinfo « que veulent-ils faire pour l'éducation »
@@ -123,7 +123,7 @@ où a été annoncée la hausse de 10 % des enseignants, educ-01).
 Non retenue : publication du 2026-06-25 consacrée à l'adaptation des écoles au climat (educ-06), antérieure
 à la candidature (README : seules comptent les annonces postérieures à la déclaration). Deux annonces dédiées
 seulement ont été trouvées depuis la candidature.
-Mise à jour du 2026-11-14 : conférence de presse du 2026-11-09 consacrée au plan des « 100 premiers jours pour sortir
+Mise à jour du 2026-11-14 : présentation publique du 2026-11-09 consacrée au plan des « 100 premiers jours pour sortir
 des énergies fossiles », mesure principale présentée : le plan de 200 Md€ (env-01) ; elle devient le rang 1.
 Le déplacement de Saint-Jean-de-Liversay (2026-08-25) avait pour mesure principale le même plan (env-01) : une même
 proposition ne pouvant figurer deux fois, il n'occupe plus de rang. Non retenus : grand oral de Radio France sur les
@@ -131,7 +131,7 @@ services publics (2026-11-12, audition sur plusieurs thèmes : éducation, justi
 sur les médias (non lu). -->
 | rang | proposition | motif | source |
 |------|-------------|-------|--------|
-| 1 | env-01 | Annonce dédiée la plus récente : conférence de presse avec Yannick Jadot consacrée au plan des « 100 premiers jours pour sortir des énergies fossiles », 2026-11-09 ; mesure principale : 200 Md€ d'investissements | [Public Sénat, 2026-11-09](https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique) |
+| 1 | env-01 | Annonce dédiée la plus récente : présentation publique avec Yannick Jadot consacrée au plan des « 100 premiers jours pour sortir des énergies fossiles », 2026-11-09 ; mesure principale : 200 Md€ d'investissements | [Public Sénat, 2026-11-09](https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique) |
 | 2 | env-02 | Annonce dédiée : déplacement à l'usine Renault de Cléon consacré à l'écologie et à la voiture électrique, 2026-10-02 ; réaction à la mobilisation lycéenne en marge du déplacement (non retenue comme annonce) | [L'Info Durable, 2026-10-02](https://www.linfodurable.fr/en-seine-maritime-glucksmann-defend-les-voitures-electriques-et-la-transition-ecologique-59229) |
 
 ## Propositions par thème
