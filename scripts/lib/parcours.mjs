@@ -1,5 +1,5 @@
-// Étapes 1 à 3 du parcours : pré-remplissage du budget à partir des préoccupations,
-// puis ordre dans lequel les dilemmes sont posés.
+// Étape 1 du parcours et son réglage facultatif : budget des thèmes à partir des sujets choisis
+// (préoccupations) ou des réglettes, puis ordre dans lequel les dilemmes sont posés.
 // Implémentation de la section 0 de referentiel/methode-proximite.md.
 //
 // Module sans dépendance ni accès disque, destiné au navigateur de l'utilisateur.
@@ -69,6 +69,17 @@ export function arrondirPlusFortReste(valeurs, total, aleatoire = Math.random) {
   return resultat;
 }
 
+/** Parts de chaque thème d'après les sujets choisis : 2 pour le thème principal, 1 pour le secondaire. */
+function partsThemes(themes, preoccupations, choisies) {
+  const parts = new Map(themes.map((t) => [t, 0]));
+  for (const id of choisies) {
+    const p = lire(preoccupations, id);
+    parts.set(p.principal, parts.get(p.principal) + PARCOURS.partsPrincipal);
+    if (p.secondaire) parts.set(p.secondaire, parts.get(p.secondaire) + PARCOURS.partsSecondaire);
+  }
+  return { parts, totalParts: [...parts.values()].reduce((s, v) => s + v, 0) };
+}
+
 /**
  * Pré-remplit le budget de priorités à partir des préoccupations choisies.
  * @param {object} p
@@ -80,13 +91,7 @@ export function arrondirPlusFortReste(valeurs, total, aleatoire = Math.random) {
 export function preremplirBudget({ themes, preoccupations, choisies, aleatoire = Math.random }) {
   verifierChoix(preoccupations, choisies);
 
-  const parts = new Map(themes.map((t) => [t, 0]));
-  for (const id of choisies) {
-    const p = lire(preoccupations, id);
-    parts.set(p.principal, parts.get(p.principal) + PARCOURS.partsPrincipal);
-    if (p.secondaire) parts.set(p.secondaire, parts.get(p.secondaire) + PARCOURS.partsSecondaire);
-  }
-  const totalParts = [...parts.values()].reduce((s, v) => s + v, 0);
+  const { parts, totalParts } = partsThemes(themes, preoccupations, choisies);
 
   const aRepartir = totalParts > 0 ? PARCOURS.pointsPreoccupations : 0;
   const base = (PARCOURS.totalPoints - aRepartir) / themes.length;
@@ -134,13 +139,7 @@ export function budgetDepuisNiveaux({ niveaux, aleatoire = Math.random }) {
  */
 export function rapportSujets({ themes, preoccupations, choisies }) {
   verifierChoix(preoccupations, choisies);
-  const parts = new Map();
-  for (const id of choisies) {
-    const p = lire(preoccupations, id);
-    parts.set(p.principal, (parts.get(p.principal) ?? 0) + PARCOURS.partsPrincipal);
-    if (p.secondaire) parts.set(p.secondaire, (parts.get(p.secondaire) ?? 0) + PARCOURS.partsSecondaire);
-  }
-  const totalParts = [...parts.values()].reduce((s, v) => s + v, 0);
+  const { parts, totalParts } = partsThemes(themes, preoccupations, choisies);
   if (totalParts === 0) return null;
   const base = (PARCOURS.totalPoints - PARCOURS.pointsPreoccupations) / themes.length;
   const max = base + (PARCOURS.pointsPreoccupations * Math.max(...parts.values())) / totalParts;

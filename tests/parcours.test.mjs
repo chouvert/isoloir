@@ -135,3 +135,22 @@ test('un thème mis à 0 par réglage n’est pas abordé, même lié à un suje
   assert.ok(ordre.length > 0);
   assert.ok(!ordre.includes('D-social-retraites'));
 });
+
+test('exemple du réglage de la méthode : social à 10, env à 0', () => {
+  const niveaux = { ...niveauxDepuisBudget(budget(['P-fin-de-mois', 'P-retraite', 'P-climat'])), social: 10, env: 0 };
+  const b = budgetDepuisNiveaux({ niveaux, aleatoire: tirageFixe() });
+  assert.deepEqual([b.eco, b.social, b.env], [22, 36, 0]);
+  assert.ok(THEMES.filter((t) => !['eco', 'social', 'env'].includes(t)).every((t) => b[t] === 7));
+  assert.equal(somme(b), 100);
+});
+
+test('rapport des sujets : thème secondaire, et accord avec le budget pré-rempli', () => {
+  const r = (choisies) => rapportSujets({ themes: THEMES, preoccupations: ref.preoccupations, choisies });
+  assert.equal(r(['P-fin-de-mois']), 5);
+  // Le rapport annoncé suit le budget réel : thème le plus doté sur thème sans part, à l'arrondi du budget près.
+  for (const choisies of [['P-retraite'], ['P-fin-de-mois', 'P-retraite', 'P-climat'], ['P-energie', 'P-ecole']]) {
+    const v = Object.values(budget(choisies));
+    const reel = Math.max(...v) / Math.min(...v);
+    assert.ok(Math.abs(reel - r(choisies)) < 1.2, `${choisies} : annoncé ${r(choisies)}, réel ${reel}`);
+  }
+});

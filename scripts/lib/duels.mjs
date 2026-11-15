@@ -1,4 +1,4 @@
-// Étape 4 du parcours : tirage des duels à l'aveugle et indicateur de cohérence avec les dilemmes.
+// Étape 3 du parcours : tirage des duels à l'aveugle et indicateur de cohérence avec les dilemmes.
 // Implémentation de la section 5 de referentiel/methode-proximite.md.
 //
 // Module sans dépendance ni accès disque, destiné au navigateur de l'utilisateur.

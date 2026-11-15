@@ -51,7 +51,8 @@ au calcul. L'utilisateur choisit jusqu'à 3 sujets, et le budget est calculé ai
 
 Dès qu'un sujet est choisi, l'écran indique combien de fois le thème le plus doté pèse plus qu'un
 thème non choisi : valeur exacte du thème le plus doté, divisée par 60 / 9, arrondie à l'entier
-(de 3 pour trois sujets de thèmes différents à 7 pour un seul sujet).
+(de 3 à 7 selon les sujets : 3 pour trois sujets de thèmes différents, 7 pour un seul sujet sans
+thème secondaire). L'écran dit « jusqu'à environ N fois plus », les autres thèmes choisis pesant moins.
 
 **Exemple.** Préoccupations : « Boucler les fins de mois » (eco 2 parts, social 1 part),
 « La retraite » (social 2 parts), « Le climat et l'environnement » (env 2 parts). Soit 7 parts :
@@ -79,6 +80,11 @@ L'utilisateur peut ouvrir un réglage : une réglette par thème, de 0 (« ne co
    reste.
 4. Un thème à 0 n'est pas abordé. Il faut garder au moins un thème au-dessus de 0.
 5. Changer de sujets efface le réglage ; l'utilisateur en est prévenu.
+6. Le réglage n'est accepté que s'il laisse au moins 5 dilemmes à poser (voir « Minimum de réponses »).
+
+Le réglage **remplace** le poids donné par les sujets, ce que l'écran indique : la position de départ
+d'une réglette étant arrondie et plafonnée à 10, le premier cran déplacé peut modifier le poids de
+tous les thèmes (jusqu'à 9 points pour un thème, quand un seul sujet a été choisi).
 
 **Exemple.** L'utilisateur part de l'exemple précédent et met `social` à 10 et `env` à 0. Niveaux :
 eco 6, social 10, env 0, six autres thèmes à 2, soit 28. Points : eco 100 × 6/28 = 21,43 ;
@@ -126,7 +132,7 @@ Règles :
 
 ## 2. Poids d'un dilemme
 
-Le poids d'un thème est le nombre de points que l'utilisateur lui a attribués. Ce poids est
+Le poids d'un thème est son nombre de points dans le budget (section 0). Ce poids est
 partagé entre les dilemmes du thème auxquels il a répondu :
 
 ```
@@ -258,7 +264,7 @@ filtrer sur la faisabilité, mais elle n'entre jamais dans le score de proximit�
 
 ## Exemple
 
-L'utilisateur répartit ses points : `eco` 30, `social` 30, `env` 20, `europe` 20,
+Le budget des thèmes vaut (réglettes à 3, 3, 2 et 2, les autres à 0) : `eco` 30, `social` 30, `env` 20, `europe` 20,
 autres thèmes 0. Il répond :
 
 | dilemme            | thème  | réponse   | poids |
