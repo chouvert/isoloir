@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 import {
   lireFlux, lireSitemap, lirePage, dateIso, normaliserUrl, identifiant, semaineIso,
   detecter, autoriseParRobots, retenir, journalMarkdown, collecter, sourcesMuettes, dictionnaire,
-  blocsDeTexte, codesDeBlocs, comparerCodes, titreDePage,
+  blocsDeTexte, codesDeBlocs, comparerCodes, titreDePage, liensProgramme,
 } from '../scripts/lib/veille.mjs';
 
 const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -325,4 +325,183 @@ test('titreDePage : <title>, sinon premier h1, sinon l’adresse', () => {
   assert.equal(titreDePage(fixture('programme-chapitre-v1.html'), 'https://c.fr/p'), 'Chapitre 2 — Produire en France | Campagne d’essai');
   assert.equal(titreDePage('<body><h1>Le <em>projet</em></h1></body>', 'https://c.fr/p'), 'Le projet');
   assert.equal(titreDePage('<body></body>', 'https://c.fr/p'), 'https://c.fr/p');
+});
+
+// ---------------------------------------------------------------------------
+// Programmes : suivi d'une source `programme` dans collecter()
+// ---------------------------------------------------------------------------
+
+const PROG = { id: 'essai-programme', nom: 'Essai — programme', type: 'programme', url: 'https://c.fr/programme/',
+  prefixes: ['/programme/'], categorie: 'campagne', candidats: ['attal-gabriel'] };
+const SOMMAIRE = fixture('programme-sommaire.html');
+const CH_V1 = fixture('programme-chapitre-v1.html');
+const CH_V2 = fixture('programme-chapitre-v2.html');
+const ok = (texte) => ({ statut: 200, texte });
+
+/** Site d'essai : pages (table url → réponse), en-têtes de PDF, journal des adresses demandées. */
+function site({ pages = {}, entetes = {} } = {}) {
+  const demandees = [];
+  const table = {
+    'https://c.fr/programme/': ok(SOMMAIRE),
+    'https://c.fr/programme/livre/chapitre1': ok(CH_V1),
+    'https://c.fr/programme/livre/chapitre2': ok(CH_V1),
+    ...pages,
+  };
+  const enTetes = { 'https://c.fr/programme/plan.pdf': { statut: 200, etag: '"a1"', modifie: null, taille: '1000' }, ...entetes };
+  return {
+    demandees,
+    lireUrl: async (url) => { demandees.push(url); return table[url] ?? { statut: 404, texte: '' }; },
+    lireEntete: async (url) => { demandees.push(`HEAD ${url}`); return enTetes[url] ?? { statut: 404 }; },
+  };
+}
+
+async function passage(s, precedent = {}, extra = {}) {
+  return collecter({ ...BASE, sources: [PROG], etat: precedent.etat ?? {}, vus: precedent.vus ?? new Set(),
+    empreintes: precedent.empreintes ?? {}, lireUrl: s.lireUrl, lireEntete: s.lireEntete, ...extra });
+}
+
+test('programme : premier passage → une seule information « suivi commencé », 4 pages suivies', async () => {
+  const s = site();
+  const r = await passage(s);
+  assert.equal(r.infos.length, 1);
+  assert.equal(r.infos[0].nature, 'programme-suivi');
+  assert.match(r.infos[0].chapo, /^4 pages suivies/);
+  assert.deepEqual(r.infos[0].candidats, ['attal-gabriel']);
+  assert.deepEqual(Object.keys(r.empreintes).sort(), [
+    'https://c.fr/programme', 'https://c.fr/programme/livre/chapitre1',
+    'https://c.fr/programme/livre/chapitre2', 'https://c.fr/programme/plan.pdf',
+  ]);
+  assert.ok(Object.values(r.empreintes).every((e) => e.source === 'essai-programme' && e.vu === '2026-11-07' && e.absences === 0));
+  assert.ok(!s.demandees.some((u) => /evenement|autre\.fr/.test(u)), s.demandees.join(' '));
+  assert.equal(new Set(s.demandees).size, s.demandees.length, 'adresse demandée deux fois');
+  assert.equal(r.etat['essai-programme'].echecs, 0);
+  assert.doesNotMatch(JSON.stringify(r.empreintes), /importations|coop[ée]ratives|banque publique/i, 'aucun texte de programme enregistré');
+});
+
+test('programme : deuxième passage sans changement → aucune information', async () => {
+  const s = site();
+  const r1 = await passage(s);
+  const r2 = await passage(s, r1, { maintenant: '2026-11-08' });
+  assert.deepEqual(r2.infos, []);
+});
+
+test('programme : chapitre modifié → « page modifiée », +1 / −1 blocs et début du bloc ajouté', async () => {
+  const r1 = await passage(site());
+  const r2 = await passage(site({ pages: { 'https://c.fr/programme/livre/chapitre2': ok(CH_V2) } }), r1, { maintenant: '2026-11-08' });
+  assert.equal(r2.infos.length, 1);
+  const i = r2.infos[0];
+  assert.equal(i.nature, 'programme-modifie');
+  assert.equal(i.lien, 'https://c.fr/programme/livre/chapitre2');
+  assert.equal(i.titre, 'Programme : page modifiée — Chapitre 2 — Produire en France | Campagne d’essai');
+  assert.match(i.chapo, /^\+1 \/ −1 blocs · Relocaliser les productions essentielles/);
+  assert.ok(i.chapo.length <= 300);
+  assert.deepEqual(i.candidats, ['attal-gabriel']);
+  assert.match(i.id, /^2026-11-08-[0-9a-f]{8}$/);
+  assert.ok(r2.vus.has('https://c.fr/programme/livre/chapitre2'));
+});
+
+test('programme : page modifiée déjà vue → signalée malgré vus.txt', async () => {
+  const r1 = await passage(site());
+  r1.vus.add('https://c.fr/programme/livre/chapitre2');
+  const r2 = await passage(site({ pages: { 'https://c.fr/programme/livre/chapitre2': ok(CH_V2) } }), r1, { maintenant: '2026-11-08' });
+  assert.deepEqual(r2.infos.map((i) => i.nature), ['programme-modifie']);
+});
+
+test('programme : nouveau chapitre → « page nouvelle » et sommaire modifié', async () => {
+  const r1 = await passage(site());
+  const sommaire2 = SOMMAIRE.replace('<!-- CHAPITRE3 -->', '<li><a href="/programme/livre/chapitre3/">Chapitre 3 : apprendre et chercher ensemble</a></li>');
+  const r2 = await passage(site({ pages: {
+    'https://c.fr/programme/': ok(sommaire2), 'https://c.fr/programme/livre/chapitre3': ok(CH_V2),
+  } }), r1, { maintenant: '2026-11-08' });
+  const parNature = Object.fromEntries(r2.infos.map((i) => [i.nature, i]));
+  assert.deepEqual(r2.infos.map((i) => i.nature).sort(), ['programme-modifie', 'programme-nouveau']);
+  assert.equal(parNature['programme-nouveau'].lien, 'https://c.fr/programme/livre/chapitre3');
+  assert.match(parNature['programme-nouveau'].titre, /^Programme : page nouvelle — Chapitre 2/);
+  assert.equal(parNature['programme-modifie'].lien, 'https://c.fr/programme');
+});
+
+test('programme : page en erreur → empreinte conservée ; retirée au 3e passage, puis plus rien', async () => {
+  let r = await passage(site());
+  const empreinteAvant = r.empreintes['https://c.fr/programme/livre/chapitre1'].blocs;
+  const panne = site({ pages: { 'https://c.fr/programme/livre/chapitre1': { statut: 500, texte: '' } } });
+  const jours = ['2026-11-08', '2026-11-09', '2026-11-10', '2026-11-11'];
+  const natures = [];
+  for (const [n, jour] of jours.entries()) {
+    r = await passage(panne, r, { maintenant: jour });
+    natures.push(r.infos.map((i) => i.nature));
+    if (n === 0) {
+      assert.deepEqual(r.empreintes['https://c.fr/programme/livre/chapitre1'].blocs, empreinteAvant);
+      assert.equal(r.empreintes['https://c.fr/programme/livre/chapitre1'].absences, 1);
+    }
+  }
+  assert.deepEqual(natures, [[], [], ['programme-retire'], []]);
+  assert.equal(r.etat['essai-programme'].echecs, 0);
+});
+
+test('programme : PDF — etag changé → modifié ; sans en-tête → jamais modifié', async () => {
+  const r1 = await passage(site());
+  const r2 = await passage(site({ entetes: { 'https://c.fr/programme/plan.pdf': { statut: 200, etag: '"b2"', modifie: null, taille: '1000' } } }), r1, { maintenant: '2026-11-08' });
+  assert.deepEqual(r2.infos.map((i) => [i.nature, i.lien]), [['programme-modifie', 'https://c.fr/programme/plan.pdf']]);
+  const nu = { 'https://c.fr/programme/plan.pdf': { statut: 200 } };
+  const r3 = await passage(site({ entetes: nu }));
+  const r4 = await passage(site({ entetes: nu }), r3, { maintenant: '2026-11-08' });
+  assert.deepEqual(r4.infos, []);
+  const r5 = await passage(site(), r4, { maintenant: '2026-11-09' });
+  assert.deepEqual(r5.infos, [], 'un PDF sans empreinte n’est pas « modifié » quand des en-têtes apparaissent');
+});
+
+test('programme : robots.txt — pages interdites non demandées ; point d’entrée interdit → échec', async () => {
+  const s = site({ pages: { 'https://c.fr/robots.txt': ok('User-agent: *\nDisallow: /programme/livre/') } });
+  const r = await passage(s);
+  assert.ok(!s.demandees.some((u) => u.includes('/livre/')), s.demandees.join(' '));
+  assert.match(r.infos[0].chapo, /^2 pages suivies/);
+  const t = site({ pages: { 'https://c.fr/robots.txt': ok('User-agent: *\nDisallow: /programme') } });
+  const r2 = await passage(t);
+  assert.deepEqual(r2.infos, []);
+  assert.equal(r2.etat['essai-programme'].echecs, 1);
+  assert.deepEqual(r2.empreintes, {});
+  assert.deepEqual(t.demandees, ['https://c.fr/robots.txt']);
+});
+
+test('programme : point d’entrée en erreur → échec de la source, empreintes inchangées', async () => {
+  const r1 = await passage(site());
+  const r2 = await passage(site({ pages: { 'https://c.fr/programme/': { statut: 503, texte: '' } } }), r1, { maintenant: '2026-11-08' });
+  assert.deepEqual(r2.infos, []);
+  assert.equal(r2.etat['essai-programme'].echecs, 1);
+  assert.deepEqual(r2.empreintes, r1.empreintes);
+});
+
+test('programme : plafond de pages → 2 pages lues, une information « plafond » par semaine', async () => {
+  const s = site();
+  const r1 = await passage(s, {}, { maxPagesProgramme: 2 });
+  assert.equal(Object.keys(r1.empreintes).length, 2);
+  assert.equal(s.demandees.filter((u) => u !== 'https://c.fr/robots.txt').length, 2);
+  assert.equal(r1.infos.filter((i) => i.nature === 'programme-plafond').length, 1);
+  const r2 = await passage(site(), r1, { maxPagesProgramme: 2, maintenant: '2026-11-08' });
+  assert.deepEqual(r2.infos, [], 'même semaine ISO : pas de seconde information « plafond »');
+  const r3 = await passage(site(), r2, { maxPagesProgramme: 2, maintenant: '2026-11-09' });
+  assert.deepEqual(r3.infos.map((i) => i.nature), ['programme-plafond'], 'semaine suivante');
+});
+
+test('programme : plan du site → page orpheline sous le préfixe suivie', async () => {
+  const plan = '<urlset><url><loc>https://c.fr/programme/annexe</loc></url><url><loc>https://c.fr/blog/x</loc></url></urlset>';
+  const s = site({ pages: { 'https://c.fr/sitemap.xml': ok(plan), 'https://c.fr/programme/annexe': ok(CH_V2) } });
+  const r = await collecter({ ...BASE, sources: [{ ...PROG, plan: 'https://c.fr/sitemap.xml' }], etat: {}, vus: new Set(),
+    empreintes: {}, lireUrl: s.lireUrl, lireEntete: s.lireEntete });
+  assert.ok(r.empreintes['https://c.fr/programme/annexe']);
+  assert.ok(!s.demandees.includes('https://c.fr/blog/x'));
+});
+
+test('programme : collecter sans empreintes ni lireEntete → empreintes vides', async () => {
+  const r = await collecter({ ...BASE, sources: [SOURCES[0]], etat: {}, vus: new Set(),
+    lireUrl: lecteur({ 'https://a.fr/rss': { statut: 200, texte: rss([['Sondage', 'https://x.fr/s', '2026-11-07']]) } }) });
+  assert.deepEqual(r.empreintes, {});
+  assert.equal(r.infos.length, 1);
+  assert.equal('nature' in r.infos[0], false);
+});
+
+test('liensProgramme : même site, sous un préfixe, ancres retirées, sans doublon', () => {
+  assert.deepEqual(liensProgramme(SOMMAIRE, 'https://c.fr/programme/', ['/programme/']), [
+    'https://c.fr/programme/livre/chapitre1', 'https://c.fr/programme/livre/chapitre2', 'https://c.fr/programme/plan.pdf',
+  ]);
 });
