@@ -11,6 +11,8 @@ export const PARCOURS = Object.freeze({
   pointsPreoccupations: 40,   // le reste (60) est réparti à parts égales entre tous les thèmes
   partsPrincipal: 2,
   partsSecondaire: 1,
+  niveauMax: 10,              // réglage facultatif : une réglette par thème, de 0 à 10
+  pointsParCran: 3,           // position de départ d'une réglette : points / 3, plafonné à niveauMax
 });
 
 const PRECISION = 1e9;
@@ -92,6 +94,57 @@ export function preremplirBudget({ themes, preoccupations, choisies, aleatoire =
     t, base + (totalParts > 0 ? (aRepartir * parts.get(t)) / totalParts : 0),
   ]));
   return arrondirPlusFortReste(valeurs, PARCOURS.totalPoints, aleatoire);
+}
+
+/**
+ * Position de départ des réglettes du réglage facultatif, d'après un budget en points.
+ * @param {Record<string, number>} points thème -> points
+ * @returns {Record<string, number>}      thème -> niveau entier de 0 à 10
+ */
+export function niveauxDepuisBudget(points) {
+  return Object.fromEntries(entrees(points).map(([t, p]) => [
+    t, Math.min(PARCOURS.niveauMax, Math.round(Number(p) / PARCOURS.pointsParCran)),
+  ]));
+}
+
+/**
+ * Budget en points à partir des niveaux réglés par l'utilisateur : 100 × niveau / somme des niveaux,
+ * arrondi par la méthode du plus fort reste.
+ * @param {object} p
+ * @param {Record<string, number>} p.niveaux thème -> niveau entier de 0 à 10
+ * @returns {Record<string, number>}         points entiers par thème, total 100
+ */
+export function budgetDepuisNiveaux({ niveaux, aleatoire = Math.random }) {
+  const liste = entrees(niveaux);
+  for (const [t, n] of liste) {
+    if (!Number.isInteger(n) || n < 0 || n > PARCOURS.niveauMax) {
+      throw new Error(`niveau invalide pour « ${t} » : ${n} (entier de 0 à ${PARCOURS.niveauMax})`);
+    }
+  }
+  const total = liste.reduce((s, [, n]) => s + n, 0);
+  if (total === 0) throw new Error('aucun thème retenu');
+  const valeurs = new Map(liste.map(([t, n]) => [t, (PARCOURS.totalPoints * n) / total]));
+  return arrondirPlusFortReste(valeurs, PARCOURS.totalPoints, aleatoire);
+}
+
+/**
+ * Combien de fois le thème le plus doté par les sujets choisis pèse plus qu'un thème non choisi.
+ * Calculé sur les valeurs exactes du pré-remplissage (avant arrondi), arrondi à l'entier.
+ * @returns {number|null} null sans sujet choisi
+ */
+export function rapportSujets({ themes, preoccupations, choisies }) {
+  verifierChoix(preoccupations, choisies);
+  const parts = new Map();
+  for (const id of choisies) {
+    const p = lire(preoccupations, id);
+    parts.set(p.principal, (parts.get(p.principal) ?? 0) + PARCOURS.partsPrincipal);
+    if (p.secondaire) parts.set(p.secondaire, (parts.get(p.secondaire) ?? 0) + PARCOURS.partsSecondaire);
+  }
+  const totalParts = [...parts.values()].reduce((s, v) => s + v, 0);
+  if (totalParts === 0) return null;
+  const base = (PARCOURS.totalPoints - PARCOURS.pointsPreoccupations) / themes.length;
+  const max = base + (PARCOURS.pointsPreoccupations * Math.max(...parts.values())) / totalParts;
+  return Math.round(arrondiCalcul(max / base));
 }
 
 /**
