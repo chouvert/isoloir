@@ -4944,7 +4944,7 @@
         "D-env-rythme": {
           "option": "B",
           "proposition": "env-05",
-          "texte_court": "Financer la transition écologique par des taxes sur les bénéfices exceptionnels des entreprises du pétrole et du gaz et sur le transport aérien",
+          "texte_court": "Financer la transition écologique par une taxe européenne sur les bénéfices exceptionnels du pétrole et du gaz et par des taxes sur le transport aérien",
           "justification": "Accélération : plan des « 100 premiers jours pour sortir des énergies fossiles », 200 Md€ d'investissements publics engagés dès le début du quinquennat (env-01, 2026-11-09) ; financement par une taxe européenne sur les superprofits pétroliers et gaziers, une nouvelle fiscalité aérienne et la suppression de l'exonération de kérosène sur les vols intérieurs (env-05), ce qui fait contribuer d'abord des secteurs fortement émetteurs (option B ; l'article ne les présente pas explicitement comme une mise à contribution des émetteurs) ; la recette chiffrée principale (50 Md€) vient d'une contribution exceptionnelle sur les patrimoines supérieurs à 100 M€ (eco-05), qui ne relève d'aucune option ; il écarte une hausse des prix pour les ménages (moratoire sur les hausses de taxes sur l'électricité, env-07 ; chèque énergie, env-06), contrairement à l'option A, rattachement antérieur",
           "sources": [
             {
@@ -4999,7 +4999,7 @@
         "D-europe-defense": {
           "option": "B",
           "proposition": "europe-02",
-          "texte_court": "Lancer un plan pour rendre l'Europe plus indépendante et un grand emprunt commun aux pays européens",
+          "texte_court": "",
           "justification": "Pendant la primaire, partage l'objectif commun de renforcer les moyens de la défense européenne (débats d'octobre 2026) ; avant la candidature (mai 2026), plan pour la souveraineté européenne et grand emprunt européen (europe-02) ; soutien accru à l'Ukraine (europe-01)",
           "sources": [
             {
@@ -6081,7 +6081,7 @@
         "D-eco-dette": {
           "option": "A",
           "proposition": "eco-01",
-          "texte_court": "Économiser 140 milliards d'euros sur les dépenses publiques d'ici la fin du mandat, avec l'essentiel de l'effort au début",
+          "texte_court": "Faire 140 milliards d'euros d'économies par an à la fin du mandat, avec l'essentiel de l'effort les premières années",
           "justification": "Réduction du déficit par 140 Md€ d'économies nettes, accompagnées d'au moins 30 Md€ de baisses d'impôts (eco-01, eco-03)",
           "sources": [
             {
@@ -6113,7 +6113,7 @@
         "D-social-retraites": {
           "option": "D",
           "proposition": "social-02",
-          "texte_court": "Créer dans le système de retraite une part de capitalisation, c'est-à-dire une épargne placée pour financer sa future pension",
+          "texte_court": "Créer une part de capitalisation dans le système de retraite",
           "justification": "Annonce d'un « véritable pilier de capitalisation », détails à venir (social-02) ; le reste du projet abaisse l'âge de départ (social-01), à l'inverse de l'option A ; le financement principal (15 à 20 Md€ de « corrections de mesures injustes ») ne correspond à aucune option",
           "sources": [
             {
@@ -6156,7 +6156,7 @@
         "D-env-rythme": {
           "option": "D",
           "proposition": "env-04",
-          "texte_court": "Supprimer l'objectif de ne plus construire sur de nouvelles terres naturelles ou agricoles et rendre simplement indicatif le classement énergétique des logements",
+          "texte_court": "Supprimer l'objectif de ne plus construire sur de nouvelles terres naturelles ou agricoles et rendre indicatif le classement énergétique des logements",
           "justification": "Suppression du ZAN, DPE rendu indicatif (env-04), fin des subventions aux renouvelables intermittentes (env-01), ordonnances contre la « folie normative » agricole (env-06), abrogation de la loi Hulot interdisant la recherche d'hydrocarbures (env-08, 2026-10-25)",
           "sources": [
             {
@@ -6223,7 +6223,7 @@
         "D-europe-defense": {
           "option": "D",
           "proposition": "europe-04",
-          "texte_court": "Arrêter l'aide financière à l'Ukraine six mois après l'élection, tout en continuant l'aide militaire et la formation de ses soldats",
+          "texte_court": "",
           "justification": "Recherche d'« une issue diplomatique à la guerre » (communiqué commun de la candidate et de Jordan Bardella, président du RN, 2026-09-19) et appel à une « grande conférence pour la paix » ; aucun montant en euros sur la défense ; elle veut aussi dégager des fonds pour « investir dans notre souveraineté, à savoir la défense et le rattrapage technologique » (2026-10-06, sans montant, idée proche de l'option A) ; aide militaire à l'Ukraine maintenue (europe-04) ; sortie du commandement intégré de l'OTAN reportée (europe-03)",
           "sources": [
             {
@@ -6239,7 +6239,7 @@
         "D-educ-niveau": {
           "option": "B",
           "proposition": "educ-01",
-          "texte_court": "Garder le même budget pour l'école alors que le nombre d'élèves baisse, afin de mieux payer les enseignants et d'en recruter davantage",
+          "texte_court": "Garder le même budget pour l'école alors que le nombre d'élèves baisse, afin d'augmenter le salaire des enseignants et d'en recruter davantage",
           "justification": "Budget maintenu malgré la baisse du nombre d'élèves pour financer des salaires plus élevés et plus d'enseignants (educ-01) ; pas d'engagement sur la taille des classes",
           "sources": [
             {
@@ -6258,7 +6258,7 @@
         "D-instit-participation": {
           "option": "B",
           "proposition": "instit-02",
-          "texte_court": "Élire les députés au scrutin proportionnel dans chaque département, chaque liste obtenant des sièges selon son score, avec un bonus pour celle arrivée en tête",
+          "texte_court": "Élire les députés à la proportionnelle dans chaque département, avec des sièges en plus pour la liste arrivée en tête",
           "justification": "Proportionnelle départementale avec prime majoritaire (instit-02), défendue en avril 2025, avant la candidature, comme présidente du groupe RN : position du parti qui l'a investie, dont ni lui ni la candidate ne se sont démarqués ; pas de déclaration de campagne trouvée ; les référendums à l'initiative du président (instit-01) ne relèvent pas de l'option A ; le RIC du programme 2022 n'a pas été confirmé depuis",
           "sources": [
             {
@@ -7445,7 +7445,7 @@
         "D-env-rythme": {
           "option": "D",
           "proposition": "eco-07",
-          "texte_court": "Ne créer aucune nouvelle norme pendant trois ans",
+          "texte_court": "Suspendre pendant trois ans la création de nouvelles normes",
           "justification": "Sortie du principe de précaution de la Constitution et fin de la Charte de l'environnement comme norme de contrôle (instit-05) ; moratoire de trois ans sur les nouvelles normes (eco-07) ; autorisation des NTG et fin des surtranspositions en agriculture (env-05, europe-03) ; fiscalité environnementale à taxation totale constante (env-03)",
           "sources": [
             {
@@ -7465,7 +7465,7 @@
         "D-secu-budget": {
           "option": "A",
           "proposition": "secu-06",
-          "texte_court": "Lancer un plan de remise à niveau de la police nationale, avec au moins 50 % de présence des policiers sur le terrain",
+          "texte_court": "Lancer un plan pour la police nationale, avec au moins 50 % de présence des policiers sur le terrain",
           "justification": "Présentée comme « La première priorité pour la sécurité » : plan massif de remise à niveau de la police nationale sur dix ans, présence sur le terrain portée à 50 % (secu-06) ; il propose aussi de doubler les procureurs et les effectifs des juridictions correctionnelles (secu-07, option C) et des centres de rétention supplémentaires (immig-04)",
           "sources": [
             {
@@ -7509,7 +7509,7 @@
         "D-europe-defense": {
           "option": "A",
           "proposition": "europe-04",
-          "texte_court": "Réduire les dépenses de l'État jugées inutiles pour investir davantage dans la défense",
+          "texte_court": "Réduire d'autres dépenses de l'État pour investir dans la défense, la sécurité et la justice",
           "justification": "Couper « ses dépenses inutiles pour mieux investir dans la sécurité, la justice et la défense » ; rester « alliés des États-Unis sans nous aligner sur toutes leurs positions » ; scepticisme envers les coopérations franco-allemandes (« Les impasses des projets franco-allemands d’avion de combat et de char du futur ») ; aucun objectif chiffré (europe-04) ; il appelle aussi à rechercher « la paix » et à éviter « l'escalade » face à Moscou (option D)",
           "sources": [
             {
@@ -7545,7 +7545,7 @@
         "D-sante-deserts": {
           "option": "B",
           "proposition": "sante-03",
-          "texte_court": "Faire mieux rembourser par la Sécurité sociale les soins des médecins installés dans les zones qui en manquent, sans les obliger à s'y installer",
+          "texte_court": "Faire rembourser davantage par la Sécurité sociale les soins des médecins installés dans les zones qui en manquent, sans les obliger à s'y installer",
           "justification": "Conventionnement différencié : « la Sécurité sociale rembourse mieux les actes dans les zones sous-dotées » (sante-03), avec liberté d'installation ; il propose aussi l'accès direct aux infirmiers, kinésithérapeutes et pharmaciens (sante-04, option C)",
           "sources": [
             {
@@ -7557,7 +7557,7 @@
         "D-instit-participation": {
           "option": "A",
           "proposition": "instit-04",
-          "texte_court": "Permettre aux citoyens de déclencher eux-mêmes un référendum, avec des conditions qui le rendent utilisable en pratique",
+          "texte_court": "Permettre aux citoyens de déclencher eux-mêmes un référendum",
           "justification": "« Le référendum d’initiative populaire sera vraiment institué et rendu praticable » (instit-04), dans le discours consacré aux institutions ; il propose aussi d'étendre l'article 11 à tout sujet (référendum à l'initiative de l'exécutif, qui ne relève d'aucune option) ; pas de proportionnelle ni de conventions citoyennes trouvées",
           "sources": [
             {
@@ -17987,7 +17987,7 @@
           {
             "candidat": "le-pen-marine",
             "proposition": "eco-01",
-            "texte": "Économiser 140 milliards d'euros sur les dépenses publiques d'ici la fin du mandat, avec l'essentiel de l'effort au début",
+            "texte": "Faire 140 milliards d'euros d'économies par an à la fin du mandat, avec l'essentiel de l'effort les premières années",
             "texte_court": true,
             "sources": [
               {
@@ -18278,7 +18278,7 @@
           {
             "candidat": "le-pen-marine",
             "proposition": "social-02",
-            "texte": "Créer dans le système de retraite une part de capitalisation, c'est-à-dire une épargne placée pour financer sa future pension",
+            "texte": "Créer une part de capitalisation dans le système de retraite",
             "texte_court": true,
             "sources": [
               {
@@ -18477,7 +18477,7 @@
           {
             "candidat": "glucksmann-raphael",
             "proposition": "env-05",
-            "texte": "Financer la transition écologique par des taxes sur les bénéfices exceptionnels des entreprises du pétrole et du gaz et sur le transport aérien",
+            "texte": "Financer la transition écologique par une taxe européenne sur les bénéfices exceptionnels du pétrole et du gaz et par des taxes sur le transport aérien",
             "texte_court": true,
             "sources": [
               {
@@ -18508,7 +18508,7 @@
           {
             "candidat": "le-pen-marine",
             "proposition": "env-04",
-            "texte": "Supprimer l'objectif de ne plus construire sur de nouvelles terres naturelles ou agricoles et rendre simplement indicatif le classement énergétique des logements",
+            "texte": "Supprimer l'objectif de ne plus construire sur de nouvelles terres naturelles ou agricoles et rendre indicatif le classement énergétique des logements",
             "texte_court": true,
             "sources": [
               {
@@ -18524,7 +18524,7 @@
           {
             "candidat": "lisnard-david",
             "proposition": "eco-07",
-            "texte": "Ne créer aucune nouvelle norme pendant trois ans",
+            "texte": "Suspendre pendant trois ans la création de nouvelles normes",
             "texte_court": true,
             "sources": [
               {
@@ -18540,7 +18540,7 @@
           {
             "candidat": "lisnard-david",
             "proposition": "secu-06",
-            "texte": "Lancer un plan de remise à niveau de la police nationale, avec au moins 50 % de présence des policiers sur le terrain",
+            "texte": "Lancer un plan pour la police nationale, avec au moins 50 % de présence des policiers sur le terrain",
             "texte_court": true,
             "sources": [
               {
@@ -18819,7 +18819,7 @@
           {
             "candidat": "lisnard-david",
             "proposition": "europe-04",
-            "texte": "Réduire les dépenses de l'État jugées inutiles pour investir davantage dans la défense",
+            "texte": "Réduire d'autres dépenses de l'État pour investir dans la défense, la sécurité et la justice",
             "texte_court": true,
             "sources": [
               {
@@ -18847,18 +18847,6 @@
               {
                 "titre": "Datan, votes de la députée",
                 "url": "https://datan.fr/deputes/deux-sevres-79/depute_delphine-batho/votes"
-              }
-            ]
-          },
-          {
-            "candidat": "glucksmann-raphael",
-            "proposition": "europe-02",
-            "texte": "Lancer un plan pour rendre l'Europe plus indépendante et un grand emprunt commun aux pays européens",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "LCP, 2026-05-26",
-                "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
               }
             ]
           },
@@ -18892,28 +18880,7 @@
           }
         ],
         "C": [],
-        "D": [
-          {
-            "candidat": "le-pen-marine",
-            "proposition": "europe-04",
-            "texte": "Arrêter l'aide financière à l'Ukraine six mois après l'élection, tout en continuant l'aide militaire et la formation de ses soldats",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "Euronews, 2026-10-16",
-                "url": "https://fr.euronews.com/2026/10/16/marine-le-pen-prete-a-debattre-avec-zelensky-apres-avoir-promis-de-couper-laide-francaise-"
-              },
-              {
-                "titre": "Paris Match Belgique (Belga), 2026-10-15",
-                "url": "https://www.parismatch.be/actualites/monde/2026/10/15/presidentielle-francaise-si-elle-arrive-a-lelysee-marine-le-pen-promet-de-couper-laide-a-lukraine-je-ne-prends-personne-en-traitre-EKOIX7JLGZBBTPVJXNLDVDTVXY/"
-              },
-              {
-                "titre": "Kyiv Post, 2026-09-24",
-                "url": "https://kyivpost.com/post/85353"
-              }
-            ]
-          }
-        ]
+        "D": []
       },
       "D-educ-niveau": {
         "A": [],
@@ -18977,7 +18944,7 @@
           {
             "candidat": "le-pen-marine",
             "proposition": "educ-01",
-            "texte": "Garder le même budget pour l'école alors que le nombre d'élèves baisse, afin de mieux payer les enseignants et d'en recruter davantage",
+            "texte": "Garder le même budget pour l'école alors que le nombre d'élèves baisse, afin d'augmenter le salaire des enseignants et d'en recruter davantage",
             "texte_court": true,
             "sources": [
               {
@@ -19051,7 +19018,7 @@
           {
             "candidat": "lisnard-david",
             "proposition": "sante-03",
-            "texte": "Faire mieux rembourser par la Sécurité sociale les soins des médecins installés dans les zones qui en manquent, sans les obliger à s'y installer",
+            "texte": "Faire rembourser davantage par la Sécurité sociale les soins des médecins installés dans les zones qui en manquent, sans les obliger à s'y installer",
             "texte_court": true,
             "sources": [
               {
@@ -19081,7 +19048,7 @@
           {
             "candidat": "lisnard-david",
             "proposition": "instit-04",
-            "texte": "Permettre aux citoyens de déclencher eux-mêmes un référendum, avec des conditions qui le rendent utilisable en pratique",
+            "texte": "Permettre aux citoyens de déclencher eux-mêmes un référendum",
             "texte_court": true,
             "sources": [
               {
@@ -19095,7 +19062,7 @@
           {
             "candidat": "le-pen-marine",
             "proposition": "instit-02",
-            "texte": "Élire les députés au scrutin proportionnel dans chaque département, chaque liste obtenant des sièges selon son score, avec un bonus pour celle arrivée en tête",
+            "texte": "Élire les députés à la proportionnelle dans chaque département, avec des sièges en plus pour la liste arrivée en tête",
             "texte_court": true,
             "sources": [
               {
@@ -19364,6 +19331,18 @@
         "dilemme": "D-europe-regles",
         "candidat": "zemmour-eric",
         "proposition": "europe-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "glucksmann-raphael",
+        "proposition": "europe-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "le-pen-marine",
+        "proposition": "europe-04",
         "motif": "sans texte court"
       },
       {
