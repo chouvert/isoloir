@@ -9091,7 +9091,7 @@
         "D-eco-dette": {
           "option": "B",
           "proposition": "eco-01",
-          "texte_court": "Réduire le déficit public par des hausses d'impôts, dont le rétablissement de l'impôt sur la fortune à un niveau plus élevé qu'avant",
+          "texte_court": "Rétablir l'impôt sur la fortune, à un niveau plus élevé qu'avant, parmi les hausses d'impôts prévues pour réduire le déficit public",
           "justification": "Réduction du déficit de 24,7 Md€ en 2027 obtenue par 106,4 Md€ de recettes nouvelles, les dépenses augmentant de 81,7 Md€ (eco-01 à eco-07)",
           "sources": [
             {
@@ -9115,7 +9115,7 @@
         "D-social-retraites": {
           "option": "C",
           "proposition": "eco-01",
-          "texte_court": "Ramener l'âge légal de la retraite à 60 ans, dans un budget dont les nouvelles recettes viennent surtout d'impôts sur le capital et les gros patrimoines",
+          "texte_court": "",
           "justification": "Retour à 60 ans (social-01) dans un budget dont les recettes nouvelles portent surtout sur le capital et les hauts patrimoines (eco-01 à eco-05), sans affectation spécifique aux retraites ; s'y ajoute la fin des exonérations de cotisations au-dessus de 2 SMIC, qui relève de l'option B",
           "sources": [
             {
@@ -9127,7 +9127,7 @@
         "D-social-chomage": {
           "option": "C",
           "proposition": "social-02",
-          "texte_court": "Augmenter les salaires, en relevant le salaire minimum et en réunissant une conférence sur les salaires",
+          "texte_court": "",
           "justification": "Hausse des salaires (SMIC à 1 700 € net et conférence sur les salaires, social-02) et abrogation des réformes de l'assurance chômage (social-03)",
           "sources": [
             {
@@ -9139,7 +9139,7 @@
         "D-env-electricite": {
           "option": "B",
           "proposition": "env-03",
-          "texte_court": "Sortir du nucléaire, en abandonnant les projets de nouveaux réacteurs, et viser uniquement des énergies renouvelables au plus tard en 2060",
+          "texte_court": "Viser uniquement des énergies renouvelables au plus tard en 2060, en sortant du nucléaire et en abandonnant les projets de nouveaux réacteurs",
           "justification": "Sortie du nucléaire et abandon des EPR (env-03), maintenue dans le programme de novembre 2026 ; 100 % d'énergies renouvelables visé au plus tard en 2060",
           "sources": [
             {
@@ -9167,7 +9167,7 @@
         "D-env-rythme": {
           "option": "B",
           "proposition": "env-01",
-          "texte_court": "Réduire de 65 % les émissions de gaz à effet de serre en quelques années, en finançant l'effort par des impôts sur les grandes fortunes et les grandes entreprises",
+          "texte_court": "",
           "justification": "Accélération (−65 % d'émissions en 2033, env-01 ; « règle verte » dans la Constitution, env-07) financée par la fiscalité sur les hauts patrimoines et les grandes entreprises (eco-01 à eco-07) plutôt que par une hausse des prix pour les ménages",
           "sources": [
             {
@@ -9191,7 +9191,7 @@
         "D-secu-budget": {
           "option": "D",
           "proposition": "secu-04",
-          "texte_court": "Donner plus de moyens à la prévention et à la réinsertion, et imposer une limite au nombre de détenus plutôt que construire des places de prison",
+          "texte_court": "Donner des moyens à la réinsertion des détenus et fixer une limite obligatoire au nombre de personnes en prison",
           "justification": "Renforcement des moyens humains de la prévention spécialisée et moyens de réinsertion, plutôt que de nouvelles places de prison (secu-04)",
           "sources": [
             {
@@ -9223,7 +9223,7 @@
         "D-europe-regles": {
           "option": "C",
           "proposition": "europe-05",
-          "texte_court": "Rester dans l'Union européenne mais cesser d'appliquer celles de ses règles qui sont jugées incompatibles avec des engagements écologiques et sociaux",
+          "texte_court": "Cesser d'appliquer les règles européennes jugées incompatibles avec des engagements écologiques et sociaux",
           "justification": "Rester dans l'UE en cessant d'appliquer les normes jugées incompatibles avec les engagements écologiques et sociaux (europe-05) ; le programme de novembre 2026 confirme la « désobéissance aux règles bloquantes » et ajoute un moratoire voté par le Parlement sur plusieurs règles européennes (europe-07)",
           "sources": [
             {
@@ -9287,7 +9287,7 @@
         "D-sante-deserts": {
           "option": "A",
           "proposition": "sante-07",
-          "texte_court": "Fixer des règles sur le lieu où les médecins peuvent s'installer, au lieu de les laisser choisir librement",
+          "texte_court": "Encadrer par des règles le lieu où les médecins peuvent s'installer",
           "justification": "Régulation de l'installation des médecins (sante-07) : contrainte proche de l'option A, sans obligation d'exercice limitée dans le temps",
           "sources": [
             {
@@ -10924,7 +10924,7 @@
         "D-env-electricite": {
           "option": "A",
           "proposition": "env-01",
-          "texte_court": "Lancer la construction de 14 nouveaux réacteurs nucléaires, soit davantage que ce qui est déjà prévu",
+          "texte_court": "Lancer la construction de 14 nouveaux réacteurs nucléaires",
           "justification": "Sans montant en euros, le nucléaire vient en premier et seul chiffré : « Relancer le nucléaire et développer les renouvelables là où elles sont efficaces. » ; « 8 EPR supplémentaires, en plus des 6 déjà prévus, soit 14 nouveaux réacteurs » (env-01) ; renouvelables « aux côtés du nucléaire », sans objectif chiffré (ni développement massif, option B, ni parts comparables, option C) ; électrification des usages (env-05)",
           "sources": [
             {
@@ -10963,7 +10963,7 @@
         "D-immig-travail": {
           "option": "A",
           "proposition": "immig-06",
-          "texte_court": "Fixer un nombre maximal d'étrangers autorisés à venir travailler en France",
+          "texte_court": "Fixer des quotas d'étrangers autorisés à venir travailler en France",
           "justification": "Quotas pour l'immigration économique (immig-06) et titres de séjour réservés « aux seuls motifs professionnels et aux étudiants » (immig-08), dans un objectif de division par deux de l'immigration (immig-01) ; même traitement qu'Attal et Lisnard",
           "sources": [
             {
@@ -12501,7 +12501,7 @@
         "D-eco-pouvoir-achat": {
           "option": "B",
           "proposition": "social-05",
-          "texte_court": "Supprimer les cotisations des salariés et des employeurs sur les heures travaillées au-delà de 35 heures par semaine, pour que le salaire net soit égal au brut",
+          "texte_court": "Supprimer les cotisations des salariés et des employeurs sur les heures travaillées au-delà de 35 heures par semaine, pour que le net de ces heures soit égal au brut",
           "justification": "Seule mesure de pouvoir d'achat assortie d'un montant budgétaire en euros : baisse massive des charges de 30 Md€ dès la première heure travaillée et exonération de cotisations salariales et patronales sur les heures supplémentaires, brut égal au net à partir de la 36e heure (social-05, 2026-09-15) ; l'exonération des heures supplémentaires figure dans les 21 Md€ d'allègements pour les ménages du plan du 2026-10-12. À la conférence du 2026-09-15, il présente d'abord la suppression des certificats d'économies d'énergie, « environ 15 centimes par litre de carburant » (env-08, option C, voisine), évaluation de leur poids dans le prix et non du coût de la mesure, puis la baisse de la facture d'électricité (env-03)",
           "sources": [
             {
@@ -12517,7 +12517,7 @@
         "D-social-retraites": {
           "option": "A",
           "proposition": "social-01",
-          "texte_court": "Fixer à 63 ans l'âge minimal de départ à la retraite, avec une pension réduite pour ceux qui partent avant l'âge du taux plein",
+          "texte_court": "Fixer à 63 ans l'âge minimal de départ à la retraite, avec une pension réduite pour ceux qui partent avant l'âge du taux plein, lui-même abaissé",
           "justification": "Mesure chiffrée en euros et présentée en premier (LCI, 2026-09-22) : âge minimal à 63 ans et décote de 7 % par an avant 65 ans (social-01), qui représente 12 Md€ des économies retraites ; malgré l'abaissement du taux plein automatique de 67 à 65 ans ; une part de capitalisation pour les jeunes est aussi prévue (social-02, option D, non voisine)",
           "sources": [
             {
@@ -12533,7 +12533,7 @@
         "D-social-chomage": {
           "option": "A",
           "proposition": "social-03",
-          "texte_court": "Aligner les règles des allocations chômage sur celles pratiquées ailleurs en Europe, pour faire des économies",
+          "texte_court": "Aligner les règles des allocations chômage sur celles pratiquées ailleurs en Europe, ce qui réduirait les dépenses d'assurance chômage",
           "justification": "Réduire les indemnités chômage : aligner les allocations chômage « sur les standards européens », mesure d'économies du plan du 2026-10-12 (social-03), avec une enveloppe de 30 Md€ cumulés partagée avec le plafonnement des aides non contributives à 70 % du SMIC (social-04, qui ne porte pas sur l'indemnisation du chômage) ; il veut « être moins généreux » (2026-07-01) ; aucune mesure de formation, d'attractivité des métiers en tension ni de mobilité trouvée",
           "sources": [
             {
@@ -12565,7 +12565,7 @@
         "D-env-rythme": {
           "option": "D",
           "proposition": "env-03",
-          "texte_court": "Baisser la facture d'électricité des ménages de l'équivalent de deux mois, et le coût de l'électricité pour les entreprises et les agriculteurs",
+          "texte_court": "",
           "justification": "Suppression de la PPE3 et baisse de la facture d'électricité pour les ménages et la compétitivité des entreprises (env-03, env-04) ; suppression du principe de précaution, jugé « un principe de blocage » (env-06)",
           "sources": [
             {
@@ -18061,7 +18061,7 @@
           {
             "candidat": "melenchon-jean-luc",
             "proposition": "eco-01",
-            "texte": "Réduire le déficit public par des hausses d'impôts, dont le rétablissement de l'impôt sur la fortune à un niveau plus élevé qu'avant",
+            "texte": "Rétablir l'impôt sur la fortune, à un niveau plus élevé qu'avant, parmi les hausses d'impôts prévues pour réduire le déficit public",
             "texte_court": true,
             "sources": [
               {
@@ -18206,7 +18206,7 @@
           {
             "candidat": "retailleau-bruno",
             "proposition": "social-05",
-            "texte": "Supprimer les cotisations des salariés et des employeurs sur les heures travaillées au-delà de 35 heures par semaine, pour que le salaire net soit égal au brut",
+            "texte": "Supprimer les cotisations des salariés et des employeurs sur les heures travaillées au-delà de 35 heures par semaine, pour que le net de ces heures soit égal au brut",
             "texte_court": true,
             "sources": [
               {
@@ -18322,7 +18322,7 @@
           {
             "candidat": "retailleau-bruno",
             "proposition": "social-01",
-            "texte": "Fixer à 63 ans l'âge minimal de départ à la retraite, avec une pension réduite pour ceux qui partent avant l'âge du taux plein",
+            "texte": "Fixer à 63 ans l'âge minimal de départ à la retraite, avec une pension réduite pour ceux qui partent avant l'âge du taux plein, lui-même abaissé",
             "texte_court": true,
             "sources": [
               {
@@ -18350,20 +18350,7 @@
             ]
           }
         ],
-        "C": [
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "eco-01",
-            "texte": "Ramener l'âge légal de la retraite à 60 ans, dans un budget dont les nouvelles recettes viennent surtout d'impôts sur le capital et les gros patrimoines",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "Budget 2027, p. 13",
-                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-              }
-            ]
-          }
-        ],
+        "C": [],
         "D": [
           {
             "candidat": "attal-gabriel",
@@ -18460,7 +18447,7 @@
           {
             "candidat": "retailleau-bruno",
             "proposition": "social-03",
-            "texte": "Aligner les règles des allocations chômage sur celles pratiquées ailleurs en Europe, pour faire des économies",
+            "texte": "Aligner les règles des allocations chômage sur celles pratiquées ailleurs en Europe, ce qui réduirait les dépenses d'assurance chômage",
             "texte_court": true,
             "sources": [
               {
@@ -18497,18 +18484,6 @@
           }
         ],
         "C": [
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "social-02",
-            "texte": "Augmenter les salaires, en relevant le salaire minimum et en réunissant une conférence sur les salaires",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "Budget 2027, p. 9",
-                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-              }
-            ]
-          },
           {
             "candidat": "ruffin-francois",
             "proposition": "social-02",
@@ -18581,7 +18556,7 @@
           {
             "candidat": "philippe-edouard",
             "proposition": "env-01",
-            "texte": "Lancer la construction de 14 nouveaux réacteurs nucléaires, soit davantage que ce qui est déjà prévu",
+            "texte": "Lancer la construction de 14 nouveaux réacteurs nucléaires",
             "texte_court": true,
             "sources": [
               {
@@ -18611,7 +18586,7 @@
           {
             "candidat": "melenchon-jean-luc",
             "proposition": "env-03",
-            "texte": "Sortir du nucléaire, en abandonnant les projets de nouveaux réacteurs, et viser uniquement des énergies renouvelables au plus tard en 2060",
+            "texte": "Viser uniquement des énergies renouvelables au plus tard en 2060, en sortant du nucléaire et en abandonnant les projets de nouveaux réacteurs",
             "texte_court": true,
             "sources": [
               {
@@ -18696,26 +18671,6 @@
                 "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
               }
             ]
-          },
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "env-01",
-            "texte": "Réduire de 65 % les émissions de gaz à effet de serre en quelques années, en finançant l'effort par des impôts sur les grandes fortunes et les grandes entreprises",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "LCP, 2026-11-06",
-                "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
-              },
-              {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
-              }
-            ]
           }
         ],
         "C": [],
@@ -18761,22 +18716,6 @@
               {
                 "titre": "La Lettre du Made in France, fichier daté du 2026-05-07",
                 "url": "https://www.institutmolinari.org/wp-content/uploads/2026/05/2026-05-07-LA-LETTRE-DU-MADE-IN-FRANCE.pdf"
-              }
-            ]
-          },
-          {
-            "candidat": "retailleau-bruno",
-            "proposition": "env-03",
-            "texte": "Baisser la facture d'électricité des ménages de l'équivalent de deux mois, et le coût de l'électricité pour les entreprises et les agriculteurs",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "Europe 1, 2026-06-01",
-                "url": "https://www.europe1.fr/node/940817"
-              },
-              {
-                "titre": "ECOinfos, 2026-08-28",
-                "url": "https://www.les-energies-renouvelables.eu/article/actualites/energies/ce-que-chaque-candidat-a-la-presidentielle-veut-faire-a-votre-facture-electricite-1719/"
               }
             ]
           }
@@ -18889,7 +18828,7 @@
           {
             "candidat": "melenchon-jean-luc",
             "proposition": "secu-04",
-            "texte": "Donner plus de moyens à la prévention et à la réinsertion, et imposer une limite au nombre de détenus plutôt que construire des places de prison",
+            "texte": "Donner des moyens à la réinsertion des détenus et fixer une limite obligatoire au nombre de personnes en prison",
             "texte_court": true,
             "sources": [
               {
@@ -18937,7 +18876,7 @@
           {
             "candidat": "philippe-edouard",
             "proposition": "immig-06",
-            "texte": "Fixer un nombre maximal d'étrangers autorisés à venir travailler en France",
+            "texte": "Fixer des quotas d'étrangers autorisés à venir travailler en France",
             "texte_court": true,
             "sources": [
               {
@@ -19049,7 +18988,7 @@
           {
             "candidat": "melenchon-jean-luc",
             "proposition": "europe-05",
-            "texte": "Rester dans l'Union européenne mais cesser d'appliquer celles de ses règles qui sont jugées incompatibles avec des engagements écologiques et sociaux",
+            "texte": "Cesser d'appliquer les règles européennes jugées incompatibles avec des engagements écologiques et sociaux",
             "texte_court": true,
             "sources": [
               {
@@ -19406,7 +19345,7 @@
           {
             "candidat": "melenchon-jean-luc",
             "proposition": "sante-07",
-            "texte": "Fixer des règles sur le lieu où les médecins peuvent s'installer, au lieu de les laisser choisir librement",
+            "texte": "Encadrer par des règles le lieu où les médecins peuvent s'installer",
             "texte_court": true,
             "sources": [
               {
@@ -19603,14 +19542,38 @@
       },
       {
         "dilemme": "D-social-retraites",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "eco-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-retraites",
         "candidat": "zemmour-eric",
         "proposition": "social-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-chomage",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "social-02",
         "motif": "sans texte court"
       },
       {
         "dilemme": "D-env-electricite",
         "candidat": "zemmour-eric",
         "proposition": "env-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "env-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "retailleau-bruno",
+        "proposition": "env-03",
         "motif": "sans texte court"
       },
       {

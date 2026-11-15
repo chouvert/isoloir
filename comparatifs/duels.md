@@ -23,7 +23,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | David Lisnard | eco-01 (texte court) | Baisser les dépenses publiques de 200 milliards d'euros par an d'ici la fin du mandat |
 | A | Édouard Philippe | eco-03 (texte court) | Réduire le déficit public surtout par la baisse des dépenses : la moitié de l'effort sur les dépenses sociales, le reste venant de l'État, des collectivités et de la croissance |
 | A | Bruno Retailleau | eco-01 (texte court) | Économiser 197 milliards d'euros sur les dépenses publiques, au total sur la durée du mandat, sans augmenter les impôts |
-| B | Jean-Luc Mélenchon | eco-01 (texte court) | Réduire le déficit public par des hausses d'impôts, dont le rétablissement de l'impôt sur la fortune à un niveau plus élevé qu'avant |
+| B | Jean-Luc Mélenchon | eco-01 (texte court) | Rétablir l'impôt sur la fortune, à un niveau plus élevé qu'avant, parmi les hausses d'impôts prévues pour réduire le déficit public |
 | C | Marine Tondelier | eco-06 (texte court) | Ralentir la baisse des déficits pour préserver l'emploi : exclure les investissements de transition écologique du calcul du déficit autorisé, renégocier la trajectoire budgétaire européenne et stabiliser la dette publique |
 
 ### D-eco-pouvoir-achat
@@ -38,7 +38,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Raphaël Glucksmann | eco-02 (texte court) | Baisser la CSG prélevée sur les salaires pour augmenter le salaire net, en finançant cette baisse par une taxe sur les plus gros héritages |
 | B | David Lisnard | eco-02 (texte court) | Utiliser 60 % des économies faites sur les dépenses publiques pour baisser les cotisations et augmenter le salaire net |
 | B | Édouard Philippe | social-04 (texte court) | Supprimer les cotisations et l'impôt sur les heures supplémentaires, pour augmenter le salaire net |
-| B | Bruno Retailleau | social-05 (texte court) | Supprimer les cotisations des salariés et des employeurs sur les heures travaillées au-delà de 35 heures par semaine, pour que le salaire net soit égal au brut |
+| B | Bruno Retailleau | social-05 (texte court) | Supprimer les cotisations des salariés et des employeurs sur les heures travaillées au-delà de 35 heures par semaine, pour que le net de ces heures soit égal au brut |
 | C | Nicolas Dupont-Aignan | eco-02 (texte court) | Baisser le prix des carburants de 40 centimes par litre, notamment en supprimant la TVA perçue sur la taxe sur les carburants |
 | C | Marine Le Pen | eco-04 (texte court) | Baisser la TVA à 5,5 % sur l'électricité, le gaz et les carburants |
 | D | Delphine Batho | eco-02 (texte court) | Verser une aide d'urgence aux ménages les plus vulnérables et aux professions les plus touchées par la hausse du prix des carburants |
@@ -53,9 +53,8 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 |---|---|---|---|
 | A | David Lisnard | social-01 (texte court) | Porter à 65 ans l'âge légal de départ à la retraite |
 | A | Édouard Philippe | social-01 (texte court) | Porter progressivement l'âge légal de départ à la retraite à 65 ans et allonger la durée de cotisation exigée |
-| A | Bruno Retailleau | social-01 (texte court) | Fixer à 63 ans l'âge minimal de départ à la retraite, avec une pension réduite pour ceux qui partent avant l'âge du taux plein |
+| A | Bruno Retailleau | social-01 (texte court) | Fixer à 63 ans l'âge minimal de départ à la retraite, avec une pension réduite pour ceux qui partent avant l'âge du taux plein, lui-même abaissé |
 | B | Marine Tondelier | social-02 (texte court) | Revenir à 62 ans et viser 60 ans pour les carrières longues et pénibles, en finançant le régime par la hausse des cotisations vieillesse : +0,2 point par an pendant le quinquennat, et des cotisations étendues à l'épargne salariale, à l'intéressement et à la participation |
-| C | Jean-Luc Mélenchon | eco-01 (texte court) | Ramener l'âge légal de la retraite à 60 ans, dans un budget dont les nouvelles recettes viennent surtout d'impôts sur le capital et les gros patrimoines |
 | D | Gabriel Attal | social-02 (texte court) | Faire verser par l'État 1 000 euros à la naissance de chaque enfant sur un compte d'épargne pour sa retraite, que sa famille peut compléter |
 | D | Nicolas Dupont-Aignan | social-02 (texte court) | Verser 10 000 euros à la naissance de chaque enfant français, placés dans un fonds public jusqu'à sa retraite, en complément de sa pension |
 | D | Marine Le Pen | social-02 (texte court) | Créer une part de capitalisation dans le système de retraite |
@@ -68,10 +67,9 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 |---|---|---|---|
 | A | Gabriel Attal | social-05 (texte court) | Réduire à 15 mois la durée maximale de versement des allocations chômage |
 | A | Édouard Philippe | social-03 (texte court) | Réduire à 12 mois la durée maximale des allocations chômage, sauf pour les demandeurs d'emploi les plus âgés |
-| A | Bruno Retailleau | social-03 (texte court) | Aligner les règles des allocations chômage sur celles pratiquées ailleurs en Europe, pour faire des économies |
+| A | Bruno Retailleau | social-03 (texte court) | Aligner les règles des allocations chômage sur celles pratiquées ailleurs en Europe, ce qui réduirait les dépenses d'assurance chômage |
 | B | Nicolas Dupont-Aignan | social-08 (texte court) | Donner accès à un crédit d'études ou de formation aux jeunes qui ont quitté l'école tôt |
 | B | Marine Tondelier | social-07 (texte court) | Créer une sécurité sociale professionnelle pour les travailleurs touchés par la transition écologique : salaire garanti pendant deux ans en cas de perte d'emploi et formation rémunérée de 6 à 10 mois vers un métier de la transition |
-| C | Jean-Luc Mélenchon | social-02 (texte court) | Augmenter les salaires, en relevant le salaire minimum et en réunissant une conférence sur les salaires |
 | C | François Ruffin | social-02 (texte court) | Statut des travailleurs essentiels : heures avant 8 h et après 18 h payées double, coupures de plus de deux heures rémunérées, temps de trajet entre deux interventions compté comme temps de travail, plancher de 24 heures pour le temps partiel |
 
 ## Écologie & énergie
@@ -86,9 +84,9 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Nicolas Dupont-Aignan | env-01 (texte court) | Accélérer la construction de nouveaux réacteurs nucléaires, grands et petits, pour remplacer les centrales en fin de vie |
 | A | Marine Le Pen | env-02 (texte court) | S'appuyer d'abord sur le nucléaire pour produire l'électricité, avec 60 % de nucléaire à terme et le reste en énergies renouvelables |
 | A | David Lisnard | env-01 (texte court) | Construire de nouveaux réacteurs nucléaires et faire fonctionner les réacteurs actuels jusqu'à 60 ans |
-| A | Édouard Philippe | env-01 (texte court) | Lancer la construction de 14 nouveaux réacteurs nucléaires, soit davantage que ce qui est déjà prévu |
+| A | Édouard Philippe | env-01 (texte court) | Lancer la construction de 14 nouveaux réacteurs nucléaires |
 | A | Bruno Retailleau | env-01 (texte court) | Produire l'électricité d'abord avec le nucléaire, les énergies renouvelables ne venant qu'en complément |
-| B | Jean-Luc Mélenchon | env-03 (texte court) | Sortir du nucléaire, en abandonnant les projets de nouveaux réacteurs, et viser uniquement des énergies renouvelables au plus tard en 2060 |
+| B | Jean-Luc Mélenchon | env-03 (texte court) | Viser uniquement des énergies renouvelables au plus tard en 2060, en sortant du nucléaire et en abandonnant les projets de nouveaux réacteurs |
 | D | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en débattant des besoins avant de décider comment produire |
 | D | François Ruffin | env-01 (texte court) | Faire de la rénovation des logements une priorité : 800 000 rénovations d'ampleur par an, 15 milliards d'euros par an, éco-prêts à taux zéro pour tous, avec l'objectif de réduire d'environ un tiers les besoins en énergie d'ici 2050 |
 
@@ -101,11 +99,9 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Gabriel Attal | env-03 (texte court) | Réduire les émissions de gaz à effet de serre trois fois plus vite qu'aujourd'hui |
 | A | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en ouvrant un débat avant de développer les centres de données ou une nouvelle génération de réseaux mobiles |
 | B | Raphaël Glucksmann | env-05 (texte court) | Financer la transition écologique par une taxe européenne sur les bénéfices exceptionnels du pétrole et du gaz et par des taxes sur le transport aérien |
-| B | Jean-Luc Mélenchon | env-01 (texte court) | Réduire de 65 % les émissions de gaz à effet de serre en quelques années, en finançant l'effort par des impôts sur les grandes fortunes et les grandes entreprises |
 | D | Nicolas Dupont-Aignan | env-03 (texte court) | Supprimer plusieurs règles environnementales, dont l'interdiction de vendre des voitures neuves à essence ou diesel à partir de 2035 |
 | D | Marine Le Pen | env-04 (texte court) | Supprimer l'objectif de ne plus construire sur de nouvelles terres naturelles ou agricoles et rendre indicatif le classement énergétique des logements |
 | D | David Lisnard | eco-07 (texte court) | Suspendre pendant trois ans la création de nouvelles normes |
-| D | Bruno Retailleau | env-03 (texte court) | Baisser la facture d'électricité des ménages de l'équivalent de deux mois, et le coût de l'électricité pour les entreprises et les agriculteurs |
 
 ## Sécurité & justice
 
@@ -122,7 +118,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Bruno Retailleau | secu-02 (texte court) | Créer des prisons réservées aux courtes peines, prononcées dès le premier délit grave |
 | B | Éric Zemmour | secu-04 (texte court) | Construire rapidement 100 000 places de prison supplémentaires, supprimer la fonction de juge de l'application des peines et rétablir une législation spécifique contre les casseurs |
 | C | Nicolas Dupont-Aignan | secu-01 (texte court) | Doubler la dépense consacrée à la justice par habitant et recruter davantage de magistrats et de greffiers |
-| D | Jean-Luc Mélenchon | secu-04 (texte court) | Donner plus de moyens à la prévention et à la réinsertion, et imposer une limite au nombre de détenus plutôt que construire des places de prison |
+| D | Jean-Luc Mélenchon | secu-04 (texte court) | Donner des moyens à la réinsertion des détenus et fixer une limite obligatoire au nombre de personnes en prison |
 
 ## Immigration
 
@@ -134,7 +130,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 |---|---|---|---|
 | A | Gabriel Attal | immig-02 (texte court) | Donner la priorité à l'immigration pour le travail, avec un système à points pour choisir les personnes accueillies |
 | A | David Lisnard | immig-07 (texte court) | Fixer un nombre limité de travailleurs étrangers admis, selon les besoins des secteurs qui manquent de main-d'œuvre |
-| A | Édouard Philippe | immig-06 (texte court) | Fixer un nombre maximal d'étrangers autorisés à venir travailler en France |
+| A | Édouard Philippe | immig-06 (texte court) | Fixer des quotas d'étrangers autorisés à venir travailler en France |
 | B | Raphaël Glucksmann | immig-02 (texte court) | Donner un titre de séjour aux travailleurs étrangers sans papiers |
 | B | Jean-Luc Mélenchon | immig-03 (texte court) | Faciliter la régularisation des étrangers qui vivent en France sans titre de séjour |
 | B | François Ruffin | immig-01 (texte court) | Régulariser les personnes déjà présentes, pour des raisons humanitaires et de production, plutôt que recourir à une immigration de travail ; former en France les médecins dont le pays a besoin |
@@ -150,7 +146,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 |---|---|---|---|
 | B | Gabriel Attal | europe-01 (texte court) | Négocier, entre un petit groupe de pays européens, un nouveau traité d'union plus étroite, soumis à un référendum européen |
 | C | David Lisnard | europe-02 (texte court) | Obtenir que la France ne soit plus tenue d'appliquer les règles européennes communes sur l'asile et l'immigration |
-| C | Jean-Luc Mélenchon | europe-05 (texte court) | Rester dans l'Union européenne mais cesser d'appliquer celles de ses règles qui sont jugées incompatibles avec des engagements écologiques et sociaux |
+| C | Jean-Luc Mélenchon | europe-05 (texte court) | Cesser d'appliquer les règles européennes jugées incompatibles avec des engagements écologiques et sociaux |
 | C | Bruno Retailleau | europe-01 (texte court) | Changer la Constitution par référendum pour que le droit français passe avant le droit européen dans certains cas, notamment sur l'immigration et la sécurité |
 | D | Nicolas Dupont-Aignan | europe-02 (texte court) | Faire passer le droit français avant le droit européen |
 | D | Marine Le Pen | europe-02 (texte court) | Inscrire dans la Constitution qu'elle l'emporte sur les traités internationaux, y compris les règles européennes |
@@ -196,7 +192,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
-| A | Jean-Luc Mélenchon | sante-07 (texte court) | Fixer des règles sur le lieu où les médecins peuvent s'installer, au lieu de les laisser choisir librement |
+| A | Jean-Luc Mélenchon | sante-07 (texte court) | Encadrer par des règles le lieu où les médecins peuvent s'installer |
 | A | Marine Tondelier | sante-01 (texte court) | Soumettre l'installation des médecins libéraux à une autorisation de l'agence régionale de santé, accordée de droit dans les zones sous-dotées et ailleurs seulement en remplacement d'un départ ; créer 2 000 centres de santé d'ici 2030 |
 | B | Nicolas Dupont-Aignan | sante-01 (texte court) | Verser une bourse aux étudiants en médecine qui s'engagent à exercer cinq ans dans une zone qui manque de médecins |
 | B | David Lisnard | sante-03 (texte court) | Faire rembourser davantage par la Sécurité sociale les soins des médecins installés dans les zones qui en manquent, sans les obliger à s'y installer |
@@ -225,8 +221,12 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | D-eco-pouvoir-achat | Fabien Roussel | eco-02 | sans texte court |
 | D-eco-pouvoir-achat | Marine Tondelier | social-01 | sans texte court |
 | D-eco-pouvoir-achat | Éric Zemmour | eco-03 | sans texte court |
+| D-social-retraites | Jean-Luc Mélenchon | eco-01 | sans texte court |
 | D-social-retraites | Éric Zemmour | social-01 | sans texte court |
+| D-social-chomage | Jean-Luc Mélenchon | social-02 | sans texte court |
 | D-env-electricite | Éric Zemmour | env-01 | sans texte court |
+| D-env-rythme | Jean-Luc Mélenchon | env-01 | sans texte court |
+| D-env-rythme | Bruno Retailleau | env-03 | sans texte court |
 | D-env-rythme | Fabien Roussel | eco-02 | sans texte court |
 | D-env-rythme | François Ruffin | eco-01 | sans texte court |
 | D-env-rythme | Marine Tondelier | env-03 | sans texte court |
