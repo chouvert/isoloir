@@ -13,6 +13,27 @@ const tirer = (liste, aleatoire) => liste[Math.min(liste.length - 1, Math.floor(
 const voisines = (dilemme, x, y) => (dilemme?.voisines ?? [])
   .some(([a, b]) => (a === x && b === y) || (a === y && b === x));
 
+const sansAccents = (s) => String(s ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/’/g, "'");
+const echapper = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+/**
+ * Définition à afficher sous une mesure : celle du terme du glossaire rencontré en premier dans le
+ * texte (mot entier, sans tenir compte de la casse ni des accents), ou null.
+ * @param {string} texte
+ * @param {{ terme: string, definition: string }[]} glossaire  base.json, glossaire
+ * @returns {{ terme: string, definition: string } | null}
+ */
+export function definitionPour(texte, glossaire) {
+  const t = sansAccents(texte);
+  let trouve = null;
+  let position = Infinity;
+  for (const entree of glossaire ?? []) {
+    const m = new RegExp(`(^|[^a-z0-9])${echapper(sansAccents(entree.terme))}($|[^a-z0-9])`).exec(t);
+    if (m && m.index < position) { position = m.index; trouve = entree; }
+  }
+  return trouve ? { terme: trouve.terme, definition: trouve.definition } : null;
+}
+
 /**
  * Choisit les duels : les premiers dilemmes éligibles, dans l'ordre où ils ont été posés.
  * @param {object} p

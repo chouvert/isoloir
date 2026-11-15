@@ -253,16 +253,36 @@ test('dilemmes : texte court trop long ou sans proposition', () => {
   assert.match(m, /« D-eco-dette » : texte court sans proposition/);
 });
 
-test('dilemmes : proposition trop longue sans texte court, avertissement seulement', () => {
+test('dilemmes : proposition sans texte court, avertissement seulement', () => {
   const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
-    .replace(/^\| eco-01 \| Baisse de l'IR \|/m, `| eco-01 | ${'Baisse de l\'IR '.repeat(25)} |`)));
+    .replace(/^\| D-social-retraites .*$/m, '| D-social-retraites | A | eco-01 | | Report à 65 ans | [prog](https://exemple.fr) |')));
   assert.equal(r.erreurs.length, 0, messages(r));
-  assert.match(r.avertissements.map((a) => a.message).join('\n'), /« D-social-retraites » : texte de « eco-01 » trop long pour les duels \(\d+ caractères\) : ajouter un texte court/);
+  assert.match(r.avertissements.map((a) => a.message).join('\n'), /« D-social-retraites » : pas de texte court pour « eco-01 » \(pas de duel à l'aveugle pour ce rattachement\)/);
+});
+
+test('dilemmes : texte court de plus de 200 caractères, avertissement seulement', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| D-social-retraites .*$/m, `| D-social-retraites | A | eco-01 | ${'x'.repeat(201)} | Report à 65 ans | [prog](https://exemple.fr) |`)));
+  assert.equal(r.erreurs.length, 0, messages(r));
+  assert.match(r.avertissements.map((a) => a.message).join('\n'), /« D-social-retraites » : texte court de 201 caractères \(200 au plus\)/);
 });
 
 test('dilemmes : texte court valide', () => {
   const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
     .replace(/^\| D-social-retraites .*$/m, '| D-social-retraites | A | eco-01 | Reculer l\'âge de départ à 65 ans | Report à 65 ans | [prog](https://exemple.fr) |')));
+  assert.equal(r.erreurs.length, 0, messages(r));
+});
+
+test('glossaire : terme en double, définition vide ou trop longue', () => {
+  const r = valider((d) => editer(d, 'referentiel/glossaire.md', (t) => `${t}| TVA | Une autre définition |\n| octroi de mer | |\n| accise | ${'x'.repeat(121)} |\n`));
+  const m = messages(r);
+  assert.match(m, /terme « TVA » défini deux fois/);
+  assert.match(m, /« octroi de mer » : définition vide/);
+  assert.match(m, /« accise » : définition de 121 caractères \(120 au plus\)/);
+});
+
+test('glossaire : le fichier du dépôt est valide et exporté', () => {
+  const r = valider(() => {});
   assert.equal(r.erreurs.length, 0, messages(r));
 });
 

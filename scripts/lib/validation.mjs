@@ -5,7 +5,7 @@ import {
   normaliser, lireFrontmatter, lireSections, lireTableaux, trouverTableau,
   contientSource, estDateIso, nettoyerId,
 } from './markdown.mjs';
-import { texteAveugle, MAX_CARACTERES } from './anonymisation.mjs';
+import { MAX_CARACTERES, MAX_TEXTE_COURT } from './anonymisation.mjs';
 
 export const STATUTS_CANDIDAT = ['pressenti', 'déclaré', 'parrainages validés', 'retiré'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -72,6 +72,7 @@ export function lireReferentiel(racine, rapport) {
     confiances: [],             // élevé | moyen | faible
     dilemmes: new Map(),        // id -> { theme, statut, options: string[], voisines: string[][] }
     preoccupations: new Map(),  // id -> { libelle, explication, principal, secondaire, dilemme }
+    glossaire: new Map(),       // terme -> définition (duels à l'aveugle)
   };
 
   // Thèmes
@@ -133,7 +134,32 @@ export function lireReferentiel(racine, rapport) {
 
   lireDilemmes(racine, ref, rapport);
   lirePreoccupations(racine, ref, rapport);
+  lireGlossaire(racine, ref, rapport);
   return ref;
+}
+
+export const MAX_DEFINITION = 120;
+
+/** Glossaire des duels : un tableau terme | définition ; fichier facultatif. */
+function lireGlossaire(racine, ref, rapport) {
+  const fichier = 'referentiel/glossaire.md';
+  if (!existsSync(join(racine, fichier))) return;
+  const t = trouverTableau(lireTableaux(lire(racine, fichier)), ['terme', 'définition']);
+  if (!t) { rapport.erreur(fichier, 1, 'tableau du glossaire (colonnes terme, définition) introuvable'); return; }
+  const vus = new Set();
+  for (const { cellules, ligne } of t.lignes) {
+    const terme = String(cellules.terme ?? '').trim();
+    const definition = String(cellules[normaliser('définition')] ?? '').trim();
+    if (!terme) { rapport.erreur(fichier, ligne, 'terme vide'); continue; }
+    if (vus.has(normaliser(terme))) { rapport.erreur(fichier, ligne, `terme « ${terme} » défini deux fois`); continue; }
+    vus.add(normaliser(terme));
+    if (!definition) { rapport.erreur(fichier, ligne, `« ${terme} » : définition vide`); continue; }
+    if (definition.length > MAX_DEFINITION) {
+      rapport.erreur(fichier, ligne, `« ${terme} » : définition de ${definition.length} caractères (${MAX_DEFINITION} au plus)`);
+      continue;
+    }
+    ref.glossaire.set(terme, definition);
+  }
 }
 
 /** Préoccupations : un tableau, chaque thème principal d'au moins une préoccupation. */
@@ -364,6 +390,8 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
         if (texteCourt && !proposition) rapport.erreur(fichier, ligne, `« ${id} » : texte court sans proposition`);
         if (texteCourt.length > MAX_CARACTERES) {
           rapport.erreur(fichier, ligne, `« ${id} » : texte court de ${texteCourt.length} caractères (${MAX_CARACTERES} au plus)`);
+        } else if (texteCourt.length > MAX_TEXTE_COURT) {
+          rapport.avertissement(fichier, ligne, `« ${id} » : texte court de ${texteCourt.length} caractères (${MAX_TEXTE_COURT} au plus)`);
         }
         if (speciale && proposition) {
           rapport.erreur(fichier, ligne, `« ${id} » : proposition renseignée pour une réponse « ${normaliser(option)} »`);
@@ -428,9 +456,8 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
         rapport.erreur(fichier, ligne, `« ${id} » : proposition « ${proposition} » absente des propositions de la fiche`);
         continue;
       }
-      const longueur = texteAveugle(textesPropositions.get(proposition)).length;
-      if (!texteCourt && longueur > MAX_CARACTERES) {
-        rapport.avertissement(fichier, ligne, `« ${id} » : texte de « ${proposition} » trop long pour les duels (${longueur} caractères) : ajouter un texte court`);
+      if (!texteCourt) {
+        rapport.avertissement(fichier, ligne, `« ${id} » : pas de texte court pour « ${proposition} » (pas de duel à l'aveugle pour ce rattachement)`);
       }
     }
   }

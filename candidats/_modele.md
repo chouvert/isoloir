@@ -55,8 +55,9 @@ derniere_maj:            # AAAA-MM-JJ
 Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ».
 Proposition : identifiant de la proposition de la fiche qui fonde le rattachement (lettre d'option
 seulement ; vide pour « aucune » et « pas de position ») ; elle sert aux duels à l'aveugle.
-Texte court : seulement si le texte de la proposition, nettoyé, dépasse 300 caractères ; reformulation
-neutre et fidèle de 300 caractères au plus, sans guillemets, nom ni source, montrée à sa place dans les duels. -->
+Texte court : obligatoire dès qu'il y a une proposition (sans lui, pas de duel pour ce rattachement) ;
+la mesure dite en langage courant, une phrase à l'infinitif de 200 caractères au plus, fidèle, sans sigle,
+guillemets, nom ni source (règles : referentiel/anonymisation.md). C'est le texte montré dans les duels. -->
 | dilemme                | option | proposition | texte court | justification | source |
 |------------------------|--------|-------------|---|---------------|--------|
 | D-eco-dette            |        |             | |               |        |

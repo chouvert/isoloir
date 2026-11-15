@@ -1,7 +1,7 @@
 // Tests du tirage et de l'évaluation des duels à l'aveugle (section 5 de referentiel/methode-proximite.md).
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { DUELS, preparerDuels, evaluerDuels } from '../scripts/lib/duels.mjs';
+import { DUELS, preparerDuels, evaluerDuels, definitionPour } from '../scripts/lib/duels.mjs';
 
 /** Tirage injecté : renvoie les valeurs dans l'ordre, puis 0. */
 const suite = (...valeurs) => () => (valeurs.length ? valeurs.shift() : 0);
@@ -17,6 +17,17 @@ function cas(n, { participants } = {}) {
     participants: participants ?? Object.fromEntries(ids.map((id, i) => [id, { A: [p(`a${i}`)], B: [p(`b${i}`)] }])),
   };
 }
+
+test('glossaire : premier terme rencontré, mot entier, sans casse ni accents', () => {
+  const g = [{ terme: 'TVA', definition: 'd1' }, { terme: 'impôt sur la fortune', definition: 'd2' }, { terme: 'âge légal', definition: 'd3' }];
+  assert.deepEqual(definitionPour('Baisser la tva sur le gaz', g), { terme: 'TVA', definition: 'd1' });
+  assert.equal(definitionPour('Faciliter l’activation des droits', g), null);
+  assert.equal(definitionPour('Rétablir l’impôt sur la fortune et baisser la TVA', g).terme, 'impôt sur la fortune');
+  assert.equal(definitionPour('Reculer l’age legal à 65 ans', g).terme, 'âge légal');
+  assert.equal(definitionPour('Porter le salaire minimum à 1 700 euros', g), null);
+  assert.equal(definitionPour('Baisser la TVA', []), null);
+  assert.equal(definitionPour('Baisser la TVA', undefined), null);
+});
 
 test('constantes', () => {
   assert.deepEqual(DUELS, { nombre: 4, maxApparitions: 2 });

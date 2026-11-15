@@ -131,11 +131,12 @@ function baseAvecDuels() {
   const durand = structuredClone(base.candidats[1]);
   Object.assign(durand, {
     id: 'durand-paul', nom: 'Paul Durand', parti: 'Parti du progrès',
-    dilemmes: { 'D-eco-dette': { option: 'B', proposition: 'eco-01', justification: '', sources: [] } },
+    dilemmes: { 'D-eco-dette': { option: 'B', proposition: 'eco-01', texte_court: 'Le plan Durand : taxer les rentes', justification: '', sources: [] } },
     propositions: [{ id: 'eco-01', theme: 'eco', proposition: 'Le plan Durand : « taxer les rentes » (AFP)', chiffrage_annonce: '', chiffrage_independant: '', calendrier: '', sources: [] }],
   });
   const martin = base.candidats[1];
-  martin.dilemmes['D-eco-dette'] = { option: 'B', proposition: 'eco-02', justification: '', sources: [] };
+  martin.dilemmes['D-eco-dette'] = { option: 'B', proposition: 'eco-02', texte_court: 'Augmenter l\'impôt sur les « hauts revenus »', justification: '', sources: [] };
+  base.candidats[0].dilemmes['D-eco-dette'].texte_court = 'Baisser l\'impôt sur le revenu | en partie';
   martin.propositions = [{ id: 'eco-02', theme: 'eco', proposition: 'Hausser l\'impôt sur les « hauts revenus » [x](https://a.fr)', chiffrage_annonce: '', chiffrage_independant: '', calendrier: '', sources: [{ titre: 'prog', url: 'https://p.fr' }] }];
   base.candidats.push(durand);
   base.termesManuels = [];
@@ -145,8 +146,8 @@ function baseAvecDuels() {
 test('duels : participants et exclusions dans le JSON', () => {
   const json = JSON.parse(genererFichiers(baseAvecDuels()).get(FICHIER_DONNEES));
   assert.deepEqual(json.duels.participants['D-eco-dette'], {
-    A: [{ candidat: 'dupont-jean', proposition: 'eco-01', texte: "Baisse de l'IR | partielle", texte_court: false, sources: [] }],
-    B: [{ candidat: 'martin-anne', proposition: 'eco-02', texte: "Hausser l'impôt sur les hauts revenus", texte_court: false, sources: [{ titre: 'prog', url: 'https://p.fr' }] }],
+    A: [{ candidat: 'dupont-jean', proposition: 'eco-01', texte: "Baisser l'impôt sur le revenu | en partie", texte_court: true, sources: [] }],
+    B: [{ candidat: 'martin-anne', proposition: 'eco-02', texte: "Augmenter l'impôt sur les hauts revenus", texte_court: true, sources: [{ titre: 'prog', url: 'https://p.fr' }] }],
   });
   assert.deepEqual(json.duels.exclusions, [
     { dilemme: 'D-eco-dette', candidat: 'durand-paul', proposition: 'eco-01', motif: 'terme interdit : Durand' },
@@ -165,7 +166,7 @@ test('duels : page duels.md lisible et tableau valide malgré une barre vertical
   const page = genererFichiers(baseAvecDuels()).get('comparatifs/duels.md');
   assert.ok(page.includes(AVERTISSEMENT));
   assert.match(page, /### D-eco-dette/);
-  assert.match(page, /\| A \| Jean Dupont \| eco-01 \| Baisse de l'IR \/ partielle \|/);
+  assert.match(page, /\| A \| Jean Dupont \| eco-01 \(texte court\) \| Baisser l'impôt sur le revenu \/ en partie \|/);
   assert.match(page, /## Exclusions[\s\S]*\| D-eco-dette \| Paul Durand \| eco-01 \| terme interdit : Durand \|/);
 });
 
@@ -190,6 +191,15 @@ test('duels : texte court soumis aux termes interdits', () => {
   assert.deepEqual(json.duels.exclusions.map((e) => e.motif), ['terme interdit : Durand']);
 });
 
+test('duels : sans texte court, le rattachement ne participe pas', () => {
+  const base = baseAvecDuels();
+  delete base.candidats[1].dilemmes['D-eco-dette'].texte_court;
+  const { participants, exclusions } = participantsDuels(base);
+  assert.deepEqual(participants['D-eco-dette'].B, []);
+  assert.deepEqual(exclusions.find((e) => e.candidat === 'martin-anne'),
+    { dilemme: 'D-eco-dette', candidat: 'martin-anne', proposition: 'eco-02', motif: 'sans texte court' });
+});
+
 test('lireBase : champ inclus (oui par défaut, non si déclaré)', () => {
   const dossier = mkdtempSync(join(tmpdir(), 'base-'));
   try {
@@ -202,6 +212,14 @@ test('lireBase : champ inclus (oui par défaut, non si déclaré)', () => {
   } finally {
     rmSync(dossier, { recursive: true, force: true });
   }
+});
+
+test('donnees : glossaire exporté', () => {
+  const g = donnees(lireBase(RACINE)).glossaire;
+  assert.ok(g.length >= 8);
+  assert.deepEqual(Object.keys(g[0]), ['terme', 'definition']);
+  assert.ok(g.some((e) => e.terme === 'TVA'));
+  assert.ok(g.every((e) => e.definition.length <= 120));
 });
 
 test('donnees : date de version du référentiel', () => {

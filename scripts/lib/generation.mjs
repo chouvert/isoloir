@@ -172,9 +172,10 @@ export function participantsDuels(base) {
       const r = c.dilemmes[d.id];
       if (!r?.proposition || !participants[d.id][r.option]) continue;
       const prop = c.propositions.find((p) => p.id === r.proposition);
+      // Seul un texte court, rédigé en langage courant, est montré dans un duel (referentiel/anonymisation.md).
       const court = Boolean(r.texte_court);
-      const texte = texteAveugle(court ? r.texte_court : prop?.proposition);
-      const motif = exclusion(texte, termes);
+      const texte = court ? texteAveugle(r.texte_court) : '';
+      const motif = court ? exclusion(texte, termes) : 'sans texte court';
       if (motif) exclusions.push({ dilemme: d.id, candidat: c.id, proposition: r.proposition, motif });
       else {
         participants[d.id][r.option].push({
@@ -224,6 +225,7 @@ export function donnees(base) {
     questions: base.questions,
     dilemmes: base.dilemmes,
     preoccupations: base.preoccupations,
+    glossaire: base.glossaire ?? [],
     criteres_faisabilite: base.criteres,
     candidats: base.candidats,
     duels: participantsDuels(base),

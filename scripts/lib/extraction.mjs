@@ -178,6 +178,7 @@ export function lireBase(racine) {
     questions: lireQuestions(racine),
     dilemmes: lireDilemmes(racine, ref),
     preoccupations: [...ref.preoccupations].map(([id, p]) => ({ id, ...p })),
+    glossaire: [...ref.glossaire].map(([terme, definition]) => ({ terme, definition })),
     criteres: ref.criteres,
     candidats: fichiers.map((f) => lireFiche(racine, f, ref)),
     termesManuels: lireTermesManuels(racine),

@@ -1,18 +1,36 @@
 # Anonymisation des duels à l'aveugle
 
-Dans les duels à l'aveugle, chaque mesure est montrée sans le nom de son auteur. Le texte affiché
-est celui de la proposition de la fiche (colonne `proposition` du tableau des dilemmes), nettoyé
-automatiquement : liens et sources supprimés, passages entre parenthèses ou crochets supprimés,
-guillemets retirés (le texte cité reste, en prose).
+Dans les duels à l'aveugle, chaque mesure est montrée sans le nom de son auteur, **en langage
+courant**. Le texte affiché est le **texte court** de la colonne `texte court` du tableau des
+dilemmes de la fiche : une reformulation de la proposition qui fonde le rattachement (colonne
+`proposition`). Le texte de la proposition elle-même, écrit pour être exact et sourcé, n'est plus
+montré dans les duels. La source de la proposition est montrée à la révélation de l'auteur.
 
-Quand le texte nettoyé dépasse 300 caractères ou contient un terme interdit, on écrit un **texte
-court** dans la colonne `texte court` du tableau des dilemmes de la fiche : reformulation neutre et
-fidèle de la proposition, 300 caractères au plus, sans guillemets, nom, parenthèse ni source. Il est
-montré à la place du texte nettoyé et passe les mêmes contrôles. La source de la proposition est
-montrée à la révélation de l'auteur.
+## Rédiger un texte court
 
-Un texte est **exclu** des duels, avec son motif, s'il est vide après nettoyage, s'il dépasse
-300 caractères ou s'il contient un terme interdit (comparaison sans accents ni casse, en mot entier).
+- **200 caractères au plus, une seule phrase, une seule idée** : la mesure qui fonde le rattachement
+  à l'option, pas tout le contenu de la proposition.
+- Commence par un **verbe à l'infinitif** ; vocabulaire du quotidien.
+- **Pas de sigle non développé** (écrire « impôt sur la fortune », « salaire minimum »), pas de
+  « % du PIB », pas de « Md€ » (écrire « milliards d'euros ») ; **au plus un chiffre**, celui qui dit
+  la mesure (un âge, un montant, un taux).
+- **Fidèle** : rien d'ajouté ; aucun bénéfice ni inconvénient qui ne soit dans la proposition ; aucun
+  mot de jugement ; le financement n'est mentionné que s'il fait partie de la mesure.
+- **Anonyme** : sans guillemets, nom, parenthèse ni source ; aucun terme interdit (ci-dessous).
+- **Même registre pour tous les candidats** : ni slogan, ni citation.
+
+Exemple : « Rétablir un ISF renforcé » devient « Rétablir l'impôt sur la fortune, à un niveau plus
+élevé qu'avant ».
+
+Les termes techniques qui restent nécessaires sont expliqués par `referentiel/glossaire.md` : la
+même définition pour tous, affichée sous la mesure.
+
+## Exclusions
+
+Un rattachement **ne participe pas** aux duels, avec son motif, s'il n'a pas de texte court, si
+celui-ci est vide après nettoyage, s'il dépasse 300 caractères ou s'il contient un terme interdit
+(comparaison sans accents ni casse, en mot entier). Au-delà de 200 caractères, `npm run valider`
+émet un avertissement.
 Les termes interdits sont :
 
 - automatiques, tirés des fiches : nom complet de chaque candidat, son nom de famille et son parti ;

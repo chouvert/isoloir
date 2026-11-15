@@ -19,6 +19,7 @@ const donnees = {
     reponses: Object.fromEntries(Object.entries(c.dilemmes ?? {}).map(([id, r]) => [id, r.option])),
   })),
   participants: base.duels.participants,
+  glossaire: base.glossaire ?? [],
   liens: { candidats: lien('candidats/'), methode: lien('methode/#proximite'), comparer: lien('comparer/') },
 };
 ---
@@ -86,6 +87,9 @@ const donnees = {
   .choix[aria-checked='true'] .detail, .choix[aria-pressed='true'] .detail { color: var(--encre); }
 
   .mesure-duel { font-family: var(--titres); font-size: 18px; line-height: 26px; border: 1.5px solid var(--encre); border-radius: var(--rayon-rideau); padding: 18px; min-height: 96px; }
+  .mesure-duel .texte { display: flex; flex-direction: column; gap: 8px; }
+  .mesure-duel .definition { font-family: var(--texte); font-size: 14px; line-height: 20px; color: var(--encre-secondaire); }
+  .mesure-duel[aria-pressed='true'] .definition { color: var(--encre); }
   .ou { text-align: center; margin: 0; }
 
   .actions { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; margin-top: 14px; }

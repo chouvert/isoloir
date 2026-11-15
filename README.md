@@ -89,7 +89,7 @@ Ce qui est vérifié :
 | Gabarit          | `_modele.md` contient toutes les questions actives, tous les dilemmes actifs et tous les thèmes du référentiel |
 | Frontmatter      | Champs obligatoires (`id`, `nom`, `statut`, `derniere_maj`) ; `id` = nom du fichier ; statut autorisé ; dates ISO |
 | Positions        | Toutes les questions actives présentes une seule fois ; valeurs autorisées pour les questions fermées ; une source par position renseignée |
-| Dilemmes (fiche) | Tous les dilemmes actifs présents une seule fois ; réponse = option existante, `aucune` ou `pas de position` ; justification et source pour toute réponse autre que `pas de position` ; colonne `proposition` : identifiant d'une proposition de la fiche, interdit avec `aucune` ou `pas de position` ; colonne `texte court` : 300 caractères au plus, seulement avec une proposition |
+| Dilemmes (fiche) | Tous les dilemmes actifs présents une seule fois ; réponse = option existante, `aucune` ou `pas de position` ; justification et source pour toute réponse autre que `pas de position` ; colonne `proposition` : identifiant d'une proposition de la fiche, interdit avec `aucune` ou `pas de position` ; colonne `texte court` : la mesure en langage courant, 200 caractères au plus (avertissement au-delà, erreur au-delà de 300), seulement avec une proposition |
 | Phares           | Au plus 3 ; chacune renvoie à une proposition de la fiche, une seule fois, avec motif et source du choix |
 | Propositions     | Une sous-section par thème ; identifiants `<theme>-NN` uniques ; texte et source présents      |
 | Évolutions       | Format `- AAAA-MM-JJ : description`                                                           |
