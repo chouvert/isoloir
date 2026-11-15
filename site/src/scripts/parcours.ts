@@ -1,8 +1,8 @@
-// Parcours « Me situer » : préoccupations, priorités, dilemmes, duels à l'aveugle, résultat.
+// Parcours « Me situer » : vos sujets (réglage facultatif des poids), dilemmes, duels à l'aveugle, résultat.
 // Tout le calcul se fait ici, dans le navigateur, avec les modules testés de scripts/lib.
 // Les réponses ne vivent qu'en mémoire, le temps de la visite : rien n'est conservé ni envoyé,
 // et recharger la page efface le parcours (README, « Calcul de proximité »).
-import { preremplirBudget, ordonnerDilemmes, PARCOURS } from '../../../scripts/lib/parcours.mjs';
+import { preremplirBudget, ordonnerDilemmes, niveauxDepuisBudget, budgetDepuisNiveaux, rapportSujets, PARCOURS } from '../../../scripts/lib/parcours.mjs';
 import { calculerProximite, SEUILS, SANS_AVIS } from '../../../scripts/lib/proximite.mjs';
 import { preparerDuels, evaluerDuels } from '../../../scripts/lib/duels.mjs';
 
@@ -21,12 +21,15 @@ type Donnees = {
 };
 type Cote = { candidat: string; option: string; proposition: string; texte: string; utilisateur: boolean };
 type Duel = { dilemme: string; optionUtilisateur: string; gauche: Cote; droite: Cote };
-type Etape = 'accueil' | 'preoccupations' | 'priorites' | 'dilemmes' | 'duels' | 'resultat';
+type Etape = 'accueil' | 'preoccupations' | 'reglage' | 'dilemmes' | 'intro-duels' | 'duels' | 'resultat';
 type Etat = {
   etape: Etape;
   ordrePreoccupations: string[];
   choisies: string[];
   points: Record<string, number>;
+  /** Réglage manuel des poids ; null tant qu'aucune réglette n'a été déplacée. */
+  niveaux: Record<string, number> | null;
+  avisReglage: boolean;
   ordre: string[];
   ordreOptions: Record<string, string[]>;
   index: number;
@@ -37,7 +40,11 @@ type Etat = {
   vue: 'themes' | 'synthese';
 };
 
-const ETAPES: Etape[] = ['preoccupations', 'priorites', 'dilemmes', 'duels'];
+const ETAPES: Etape[] = ['preoccupations', 'dilemmes', 'duels'];
+const RANG_ETAPE: Partial<Record<Etape, number>> = { preoccupations: 0, reglage: 0, dilemmes: 1, 'intro-duels': 2, duels: 2 };
+
+/** Niveau d'une réglette dit en mots (lecteurs d'écran et libellé affiché). */
+const motNiveau = (n: number) => (n === 0 ? 'ne compte pas' : n <= 3 ? 'compte peu' : n <= 6 ? 'compte' : 'compte beaucoup');
 
 const echapper = (s: unknown) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -75,10 +82,15 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
     theme: x.theme, statut: x.statut, voisines: x.voisines, options: x.options.map((o) => o.option),
   }]));
 
+  const idsThemes = d.themes.map((t) => t.id);
+  const budgetSujets = (choisies: string[]): Record<string, number> => preremplirBudget({ themes: idsThemes, preoccupations, choisies });
+  const sommeNiveaux = (n: Record<string, number>) => Object.values(n).reduce((s, v) => s + v, 0);
+
   const nouvelEtat = (): Etat => ({
     etape: 'accueil',
     ordrePreoccupations: melanger(d.preoccupations.map((p) => p.id)),
-    choisies: [], points: {}, ordre: [], ordreOptions: {}, index: 0, reponses: {},
+    choisies: [], points: budgetSujets([]), niveaux: null, avisReglage: false,
+    ordre: [], ordreOptions: {}, index: 0, reponses: {},
     duels: [], choixDuels: [], indexDuel: 0, vue: 'themes',
   });
 
@@ -96,13 +108,12 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
   // ---------- éléments communs ----------
 
   function tringle(etape: Etape) {
-    const i = ETAPES.indexOf(etape);
+    const i = RANG_ETAPE[etape] ?? 0;
     let fraction = i / (ETAPES.length - 1);
-    if (etape === 'dilemmes' && etat.ordre.length) fraction = (2 + etat.index / etat.ordre.length) / 3;
-    if (etape === 'duels' && etat.duels.length) fraction = 1;
+    if (etape === 'dilemmes' && etat.ordre.length) fraction = (1 + etat.index / etat.ordre.length) / 2;
     const anneaux = ETAPES.map((_, k) => `<span class="anneau ${k < i ? 'fait' : k === i ? 'encours' : ''}"></span>`).join('');
-    const libelles = ['vos sujets', 'vos priorités', 'les dilemmes', 'les duels'];
-    return `<div class="tringle-etapes" role="img" aria-label="Étape ${i + 1} sur 4 : ${libelles[i]}">
+    const libelles = ['vos sujets', 'les dilemmes', 'les duels'];
+    return `<div class="tringle-etapes" role="img" aria-label="Étape ${i + 1} sur ${ETAPES.length} : ${libelles[i]}">
       <span class="rail"></span><span class="rempli" style="width: calc((100% - 14px) * ${Math.min(1, fraction).toFixed(3)})"></span>
       <span class="anneaux">${anneaux}</span></div>`;
   }
@@ -114,10 +125,9 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
     return `<section class="etape" tabindex="-1">
       <h1 class="titre-2">Me situer</h1>
       <p class="voix">Il n’y a pas de mauvaise réponse.</p>
-      <p>En une dizaine de minutes, voyez de quels programmes vous êtes proche, thème par thème. Le parcours se fait en quatre étapes :</p>
+      <p>En une dizaine de minutes, voyez de quels programmes vous êtes proche, thème par thème. Le parcours se fait en trois étapes :</p>
       <ol>
-        <li>vos sujets : jusqu’à 3 préoccupations ;</li>
-        <li>vos priorités : 100 points à répartir entre les thèmes ;</li>
+        <li>vos sujets : jusqu’à 3 sujets qui comptent le plus pour vous ;</li>
         <li>les dilemmes : des arbitrages concrets, chacun avec sa contrepartie ;</li>
         <li>les duels à l’aveugle : des mesures à comparer sans savoir de qui elles viennent.</li>
       </ol>
@@ -140,43 +150,44 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
         ${bulletin(coche)}<span><span class="libelle">${echapper(p.libelle)}</span><span class="detail">${echapper(p.explication)}</span></span>
       </button></li>`;
     }).join('');
+    const rapport = rapportSujets({ themes: idsThemes, preoccupations, choisies: etat.choisies });
+    const effet = rapport === null ? 'Aucun sujet choisi.'
+      : `${n === 1 ? '1 sujet choisi' : `${n} sujets choisis${n === PARCOURS.maxPreoccupations ? ', le maximum' : ''}`}. Leurs thèmes compteront environ ${rapport} fois plus qu’un thème non choisi.`;
     return `${tringle('preoccupations')}<section class="etape" tabindex="-1">
       <p class="voix">Il n’y a pas de mauvaise réponse.</p>
-      <h1 class="titre-2">Qu’est-ce qui vous préoccupe le plus ?</h1>
-      <p class="secondaire">Choisissez jusqu’à 3 sujets parmi les ${d.preoccupations.length} de la liste. Ils préparent l’étape suivante.</p>
+      <h1 class="titre-2">Qu’est-ce qui compte le plus pour vous ?</h1>
+      <p class="secondaire">Choisissez jusqu’à ${PARCOURS.maxPreoccupations} sujets.</p>
+      <div class="a-quoi"><strong>À quoi ça sert</strong>
+        <p>Vos sujets pèseront plus que les autres dans votre résultat, et les questions commenceront par eux.</p></div>
+      ${etat.avisReglage ? '<p class="legende" role="status">Votre réglage a été remplacé par celui de vos nouveaux sujets.</p>' : ''}
       <ul class="choix-liste defile" aria-label="Sujets">${items}</ul>
-      <p class="legende" aria-live="polite">${n === 0 ? 'Aucun sujet choisi.' : n === 1 ? '1 sujet choisi.' : `${n} sujets choisis${n === 3 ? ', le maximum' : ''}.`}</p>
+      <p class="legende" aria-live="polite">${effet}</p>
       <div class="actions">
-        <button class="bouton" data-action="vers-priorites" ${n === 0 ? 'disabled' : ''}>Continuer${n ? ` avec ${n} sujet${n > 1 ? 's' : ''}` : ''}</button>
-        <button class="lien-bouton" data-action="aucune-preoccupation">Rien de tout ça en particulier</button>
+        <button class="bouton" data-action="vers-dilemmes" ${n === 0 ? 'disabled' : ''}>Passer aux questions${n ? ` avec ${n} sujet${n > 1 ? 's' : ''}` : ''}</button>
+        <button class="lien-bouton" data-action="aucune-preoccupation">Tout compte autant</button>
+        <button class="lien-bouton" data-action="vers-reglage">Régler moi-même</button>
       </div>
       <button class="lien-bouton" data-action="vers-accueil">Retour</button>
     </section>`;
   }
 
-  function ecranPriorites() {
-    const total = Object.values(etat.points).reduce((s, v) => s + v, 0);
+  function ecranReglage() {
+    const niveaux = etat.niveaux ?? niveauxDepuisBudget(etat.points);
+    const vide = sommeNiveaux(niveaux) === 0;
     const lignes = d.themes.map((t) => {
-      const v = etat.points[t.id] ?? 0;
-      return `<li>
-        <span class="theme-nom"><label for="pts-${t.id}">${echapper(t.libelle)}</label><span class="jauge"><span style="width:${v}%"></span></span></span>
-        <button aria-label="Retirer un point à ${echapper(t.libelle)}" data-action="moins" data-id="${t.id}" ${v <= 0 ? 'disabled' : ''}>−</button>
-        <input id="pts-${t.id}" type="number" inputmode="numeric" min="0" max="100" value="${v}" data-action="saisie" data-id="${t.id}">
-        <button aria-label="Ajouter un point à ${echapper(t.libelle)}" data-action="plus" data-id="${t.id}" ${total >= 100 ? 'disabled' : ''}>+</button>
-      </li>`;
+      const v = niveaux[t.id] ?? 0;
+      return `<li><label for="niv-${t.id}">${echapper(t.libelle)}</label><span class="mot" data-mot="${t.id}">${motNiveau(v)}</span>
+        <input id="niv-${t.id}" type="range" min="0" max="${PARCOURS.niveauMax}" step="1" value="${v}" aria-valuetext="${motNiveau(v)}" data-action="niveau" data-id="${t.id}"></li>`;
     }).join('');
-    const juste = total === PARCOURS.totalPoints;
-    const message = juste ? '100 points répartis sur 100'
-      : total < 100 ? `${total} points répartis : il en reste ${100 - total} à placer`
-      : `${total} points répartis : retirez-en ${total - 100}`;
-    return `${tringle('priorites')}<section class="etape" tabindex="-1">
-      <p class="voix">Rien n’est figé, vous pourrez y revenir.</p>
-      <h1 class="titre-2">Répartissez 100 points entre les thèmes</h1>
-      <p class="secondaire">${etat.choisies.length ? 'Pré-rempli d’après vos sujets.' : 'Répartis à parts égales pour commencer.'} Un thème à 0 point n’est pas abordé.</p>
-      <ul class="budget">${lignes}</ul>
-      <p class="total ${juste ? 'juste' : ''}" aria-live="polite">${message}</p>
+    return `${tringle('reglage')}<section class="etape" tabindex="-1">
+      <p class="surtitre">Réglage facultatif</p>
+      <h1 class="titre-2">Le poids de chaque thème</h1>
+      <p class="secondaire">${etat.choisies.length ? 'Déjà réglé d’après vos sujets.' : 'Tous les thèmes comptent autant pour commencer.'} Poussez une réglette à droite pour qu’un thème compte plus, tout à gauche pour l’écarter : ses questions ne seront pas posées.</p>
+      <p class="echelle" aria-hidden="true"><span>Ne compte pas</span><span>Compte beaucoup</span></p>
+      <ul class="reglettes">${lignes}</ul>
+      <p class="legende" id="avis-reglage" role="status" ${vide ? '' : 'hidden'}>Gardez au moins un thème.</p>
       <div class="actions">
-        <button class="bouton" data-action="vers-dilemmes" ${juste ? '' : 'disabled'}>Passer aux dilemmes</button>
+        <button class="bouton" id="fin-reglage" data-action="vers-dilemmes" ${vide ? 'disabled' : ''}>Passer aux questions</button>
         <button class="lien-bouton" data-action="vers-preoccupations">Revenir à mes sujets</button>
       </div>
     </section>`;
@@ -221,31 +232,47 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
       <ul class="choix-liste" role="radiogroup" aria-label="Options">${options}</ul>
       <div class="actions">
         <button class="bouton-second" data-action="sans-avis" aria-pressed="${choisi === SANS_AVIS}">Sans avis</button>
-        <button class="lien-bouton" data-action="precedent">${etat.index > 0 ? 'Dilemme précédent' : 'Revenir aux priorités'}</button>
+        <button class="lien-bouton" data-action="precedent">${etat.index > 0 ? 'Dilemme précédent' : 'Revenir à mes sujets'}</button>
         ${n >= SEUILS.minReponses && etat.index < etat.ordre.length - 1 ? '<button class="lien-bouton" data-action="fin-dilemmes">Arrêter ici et passer aux duels</button>' : ''}
       </div>
       ${apercu()}
     </section>`;
   }
 
+  function ecranIntroDuels() {
+    const n = etat.duels.length;
+    return `${tringle('intro-duels')}<section class="etape" tabindex="-1">
+      <p class="voix">Dernière étape.</p>
+      <h1 class="titre-2">Et sans les noms, choisiriez-vous pareil ?</h1>
+      <p>Pour finir, ${n === 1 ? '1 comparaison' : `${n} comparaisons`} sans les noms : ${n === 1 ? 'elle vous montre' : 'elles vous montrent'} si, à l’aveugle, vous préférez les mesures qui vont avec vos réponses.</p>
+      <p class="legende">Les duels ne changent pas votre résultat.</p>
+      <div class="actions">
+        <button class="bouton" data-action="commencer-duels">Commencer</button>
+        <button class="lien-bouton" data-action="duel-precedent">Revenir aux dilemmes</button>
+      </div>
+    </section>`;
+  }
+
   function ecranDuel() {
     const duel = etat.duels[etat.indexDuel];
     const choix = etat.choixDuels[etat.indexDuel];
+    const dil = dilemmes.get(duel.dilemme)!;
     const bouton = (cote: 'gauche' | 'droite') => `<button class="choix mesure-duel" aria-pressed="${choix === cote}" data-action="duel" data-choix="${cote}"
         aria-label="Choisir cette mesure : ${echapper(duel[cote].texte)}">${bulletin(choix === cote)}<span class="libelle">${echapper(duel[cote].texte)}</span></button>`;
     return `${tringle('duels')}<section class="etape" tabindex="-1">
-      <p class="surtitre">Duel ${etat.indexDuel + 1} sur ${etat.duels.length}, ${echapper(themes.get(dilemmes.get(duel.dilemme)!.theme)?.libelle)}</p>
-      <h1 class="titre-2">Laquelle de ces deux mesures préférez-vous ?</h1>
-      <p class="voix">Ne cherchez pas l’auteur, fiez-vous à la mesure. Les noms apparaîtront à la fin.</p>
+      <p class="surtitre">Duel ${etat.indexDuel + 1} sur ${etat.duels.length}</p>
+      <div class="contexte-duel"><strong>Le sujet : ${echapper(themes.get(dil.theme)?.libelle)}</strong>
+        <p>${echapper(dil.enonce.replace(/\s+/g, ' ').trim())}</p></div>
+      <h1 class="titre-2">Deux candidats proposent ceci. Que préférez-vous ?</h1>
       ${bouton('gauche')}
       <p class="ou voix" aria-hidden="true">ou</p>
       ${bouton('droite')}
       <div class="actions">
         <button class="bouton-second" data-action="duel" data-choix="les deux" aria-pressed="${choix === 'les deux'}">Les deux</button>
         <button class="bouton-second" data-action="duel" data-choix="aucune" aria-pressed="${choix === 'aucune'}">Aucune des deux</button>
-        <button class="lien-bouton" data-action="duel-precedent">${etat.indexDuel > 0 ? 'Duel précédent' : 'Revenir aux dilemmes'}</button>
+        <button class="lien-bouton" data-action="duel-precedent">${etat.indexDuel > 0 ? 'Duel précédent' : 'Retour'}</button>
       </div>
-      <p class="legende">Les duels ne changent pas votre proximité. Ils vérifient si vos préférences, sans les noms, rejoignent vos choix aux dilemmes.</p>
+      <p class="legende">Les noms des deux candidats apparaîtront après le dernier duel. Votre résultat ne change pas.</p>
     </section>`;
   }
 
@@ -294,7 +321,7 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
       const seuil = lignes[Math.min(2, lignes.length - 1)]?.s ?? 0;
       const premiers = lignes.filter((x: any) => x.s >= seuil);
       const autres = lignes.filter((x: any) => x.s < seuil);
-      return `<section class="bloc-resultat"><h3>${echapper(t.libelle)} <small>${etat.points[t.id]} points</small></h3>
+      return `<section class="bloc-resultat"><h3>${echapper(t.libelle)}</h3>
         <ul class="rangs">${premiers.map((x: any) => rang(x.id, x.s)).join('')}</ul>
         ${autres.length ? `<details class="detail-candidat"><summary>Voir les ${autres.length} autres candidats</summary>
           <ul class="rangs" style="margin-top:10px">${autres.map((x: any) => rang(x.id, x.s)).join('')}</ul></details>` : ''}</section>`;
@@ -339,7 +366,7 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
     return `<section class="etape resultat" tabindex="-1">${rideau}
       <p class="voix">Le rideau s’ouvre.</p>
       <h1 class="titre-2">Les programmes proches de vos choix</h1>
-      <p class="legende">D’après ${r.nbReponses} dilemmes répondus et vos priorités.</p>
+      <p class="legende">D’après ${r.nbReponses} dilemmes répondus et le poids de vos sujets.</p>
       <div class="onglets-resultat" role="tablist" aria-label="Affichage">
         <button role="tab" aria-selected="${etat.vue === 'themes'}" data-action="vue" data-vue="themes">Par thème</button>
         <button role="tab" aria-selected="${etat.vue === 'synthese'}" data-action="vue" data-vue="synthese">Synthèse</button>
@@ -369,7 +396,7 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
     const reponses: Record<string, string> = {};
     for (const id of ordre) if (etat.reponses[id]) reponses[id] = etat.reponses[id];
     const premier = ordre.findIndex((id) => !reponses[id]);
-    aller({ etape: 'dilemmes', ordre, ordreOptions, reponses, index: premier === -1 ? 0 : premier });
+    aller({ etape: 'dilemmes', ordre, ordreOptions, reponses, avisReglage: false, index: premier === -1 ? 0 : premier });
   }
 
   function versDuels() {
@@ -377,7 +404,7 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
       dilemmes: dilemmesCalcul, ordre: etat.ordre, reponses: etat.reponses, participants: d.participants,
     });
     if (!duels.length) { aller({ etape: 'resultat', duels: [], choixDuels: [] }); return; }
-    aller({ etape: 'duels', duels, choixDuels: [], indexDuel: 0 });
+    aller({ etape: 'intro-duels', duels, choixDuels: [], indexDuel: 0 });
   }
 
   function repondre(valeur: string) {
@@ -405,27 +432,26 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
       case 'preoccupation': {
         const id = cible.dataset.id!;
         const choisies = etat.choisies.includes(id) ? etat.choisies.filter((x) => x !== id) : [...etat.choisies, id];
-        etat = { ...etat, choisies }; afficher(false, `[data-id="${id}"]`); break;
+        // Changer de sujets recalcule le poids des thèmes et efface un réglage manuel (annoncé à l'écran).
+        etat = { ...etat, choisies, points: budgetSujets(choisies), niveaux: null, avisReglage: etat.avisReglage || etat.niveaux !== null };
+        afficher(false, `[data-id="${id}"]`); break;
       }
-      case 'aucune-preoccupation': etat = { ...etat, choisies: [] }; // puis comme « continuer »
-      // falls through
-      case 'vers-priorites':
-        aller({ etape: 'priorites', points: preremplirBudget({ themes: d.themes.map((t) => t.id), preoccupations, choisies: etat.choisies }) });
-        break;
-      case 'vers-preoccupations': aller({ etape: 'preoccupations' }); break;
-      case 'moins': case 'plus': {
-        const id = cible.dataset.id!;
-        const v = (etat.points[id] ?? 0) + (a === 'plus' ? 1 : -1);
-        etat = { ...etat, points: { ...etat.points, [id]: Math.max(0, Math.min(100, v)) } };
-        afficher(false, `[data-action="${a}"][data-id="${id}"]`); break;
-      }
+      case 'aucune-preoccupation':
+        etat = { ...etat, choisies: [], points: budgetSujets([]), niveaux: null };
+        versDilemmes(); break;
+      case 'vers-reglage': aller({ etape: 'reglage', avisReglage: false }); break;
+      case 'vers-preoccupations':
+        // Un réglage laissé entièrement à zéro n'est pas gardé : on revient au poids des sujets.
+        if (etat.niveaux && sommeNiveaux(etat.niveaux) === 0) etat = { ...etat, niveaux: null, points: budgetSujets(etat.choisies) };
+        aller({ etape: 'preoccupations' }); break;
       case 'vers-dilemmes': versDilemmes(); break;
       case 'option': repondre(cible.dataset.option!); break;
       case 'sans-avis': repondre(SANS_AVIS); break;
       case 'precedent':
-        if (etat.index > 0) aller({ index: etat.index - 1 }); else aller({ etape: 'priorites' });
+        if (etat.index > 0) aller({ index: etat.index - 1 }); else aller({ etape: 'preoccupations' });
         break;
       case 'fin-dilemmes': versDuels(); break;
+      case 'commencer-duels': aller({ etape: 'duels' }); break;
       case 'duel': {
         const choixDuels = [...etat.choixDuels];
         choixDuels[etat.indexDuel] = cible.dataset.choix!;
@@ -434,7 +460,8 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
         break;
       }
       case 'duel-precedent':
-        if (etat.indexDuel > 0) aller({ indexDuel: etat.indexDuel - 1 });
+        if (etat.etape === 'duels' && etat.indexDuel > 0) aller({ indexDuel: etat.indexDuel - 1 });
+        else if (etat.etape === 'duels') aller({ etape: 'intro-duels' });
         else aller({ etape: 'dilemmes', index: Math.max(0, etat.ordre.length - 1) });
         break;
       case 'vue': etat = { ...etat, vue: cible.dataset.vue as Etat['vue'] }; afficher(false, `[data-vue="${etat.vue}"]`); break;
@@ -443,22 +470,33 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
     }
   });
 
-  racine.addEventListener('change', (ev) => {
+  // Réglettes : l'écran n'est pas redessiné pendant le geste (la réglette serait remplacée sous le doigt) ;
+  // seuls le libellé du niveau, l'avertissement et le bouton sont mis à jour.
+  racine.addEventListener('input', (ev) => {
     const champ = ev.target as HTMLInputElement;
-    if (champ.dataset.action !== 'saisie') return;
-    const v = Math.max(0, Math.min(100, Math.round(Number(champ.value) || 0)));
-    etat = { ...etat, points: { ...etat.points, [champ.dataset.id!]: v } };
-    afficher(false, `#pts-${champ.dataset.id}`);
+    if (champ.dataset.action !== 'niveau') return;
+    const id = champ.dataset.id!;
+    const v = Math.max(0, Math.min(PARCOURS.niveauMax, Math.round(Number(champ.value) || 0)));
+    const niveaux = { ...(etat.niveaux ?? niveauxDepuisBudget(etat.points)), [id]: v };
+    const vide = sommeNiveaux(niveaux) === 0;
+    etat = { ...etat, niveaux, points: vide ? etat.points : budgetDepuisNiveaux({ niveaux }) };
+    champ.setAttribute('aria-valuetext', motNiveau(v));
+    const mot = racine.querySelector<HTMLElement>(`[data-mot="${id}"]`);
+    if (mot) mot.textContent = motNiveau(v);
+    const avis = racine.querySelector<HTMLElement>('#avis-reglage');
+    if (avis) avis.hidden = !vide;
+    const fin = racine.querySelector<HTMLButtonElement>('#fin-reglage');
+    if (fin) fin.disabled = vide;
   });
 
   /** Redessine l'écran ; au changement d'étape, place le focus sur son titre (lecteurs d'écran). */
   function afficher(nouvelleEtape = true, garderFocus?: string) {
     const ecrans: Record<Etape, () => string> = {
-      accueil: ecranAccueil, preoccupations: ecranPreoccupations, priorites: ecranPriorites,
-      dilemmes: ecranDilemme, duels: ecranDuel, resultat: ecranResultat,
+      accueil: ecranAccueil, preoccupations: ecranPreoccupations, reglage: ecranReglage,
+      dilemmes: ecranDilemme, 'intro-duels': ecranIntroDuels, duels: ecranDuel, resultat: ecranResultat,
     };
-    if (etat.etape === 'dilemmes' && !etat.ordre.length) etat.etape = 'priorites';
-    if (etat.etape === 'duels' && !etat.duels.length) etat.etape = 'resultat';
+    if (etat.etape === 'dilemmes' && !etat.ordre.length) etat.etape = 'preoccupations';
+    if ((etat.etape === 'duels' || etat.etape === 'intro-duels') && !etat.duels.length) etat.etape = 'resultat';
     const defilement = nouvelleEtape ? 0 : racine.querySelector('.defile')?.scrollTop ?? 0;
     racine.innerHTML = ecrans[etat.etape]();
     const liste = racine.querySelector('.defile');

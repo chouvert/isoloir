@@ -24,7 +24,7 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 npm install
 npm run valider          # contrôle des données (0 erreur exigé)
 npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
-node --test tests/*.test.mjs   # ou npm test (131 tests)
+node --test tests/*.test.mjs   # ou npm test (135 tests)
 npm run veille -- --sortie <dossier>   # collecte de veille (le workflow quotidien la lance sur la branche veille)
 cd site && npm install && npm run build   # site Astro (lit donnees/base.json et identite/)
 cd site && npm run dev                    # aperçu local sur http://localhost:4321/isoloir/
@@ -189,5 +189,8 @@ Propositions ajoutées ou précisées par fiche, informations reportées à la s
   8. Veille hebdomadaire (spec et plan du 2026-11-07) : collecte quotidienne sur la branche `veille`, procédure ci-dessus.
      Reste : éprouver `veille/sources.yml` au premier lancement, puis créer les tâches planifiées (samedi et dimanche 6 h).
      Plus tard : une issue GitHub par information (le JSONL de la veille est prévu pour).
-  9. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
+  9. Parcours simplifié (spec et plan du 2026-11-15, retours des bêta-testeurs) : PR 1 `parcours-simplifie` (trois étapes,
+     réglettes facultatives, 4 duels avec leur contexte). Reste : PR 2 « Duels en langage courant : règles » (texte court
+     obligatoire ≤ 200 car., glossaire), à fusionner le même jour que le premier lot de textes courts (PR 3, lots de 3 fiches).
+  10. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
      pour tous).
