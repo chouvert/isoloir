@@ -16,16 +16,16 @@ terme rencontré dans le texte).
 
 ## Termes
 
-| terme                  | définition                                                                                              |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| dépenses publiques     | Dépenses de l'État, de la Sécurité sociale et des collectivités locales                                   |
-| déficit public         | Ce que l'État, la Sécurité sociale et les collectivités dépensent en plus de leurs recettes, sur un an    |
-| dette publique         | Total des emprunts de l'État, de la Sécurité sociale et des collectivités qui restent à rembourser        |
-| impôt sur la fortune   | Impôt annuel sur le patrimoine des ménages les plus fortunés, limité à l'immobilier depuis 2018           |
-| cotisations sociales   | Sommes prélevées sur les salaires pour financer la retraite, la santé et le chômage                       |
-| salaire minimum        | Salaire le plus bas autorisé par la loi pour une heure de travail                                         |
-| âge légal              | Âge à partir duquel on a le droit de partir à la retraite                                                 |
-| taux plein             | Retraite versée sans réduction, quand la durée de cotisation exigée est atteinte                          |
-| TVA                    | Taxe sur la valeur ajoutée, comprise dans le prix de presque tous les achats                              |
-| CSG                    | Contribution sociale généralisée, prélevée sur les salaires, les retraites et les revenus du capital      |
-| heures supplémentaires | Heures travaillées au-delà de la durée légale de 35 heures par semaine                                    |
+| terme                  | définition                                                                                                   |
+|------------------------|--------------------------------------------------------------------------------------------------------------|
+| dépenses publiques     | Dépenses de l'État, de la Sécurité sociale et des collectivités locales                                        |
+| déficit public         | Ce que l'État, la Sécurité sociale et les collectivités dépensent en plus de leurs recettes, sur un an         |
+| dette publique         | Total des emprunts de l'État, de la Sécurité sociale et des collectivités qui restent à rembourser             |
+| impôt sur la fortune   | Impôt payé chaque année par les ménages dont le patrimoine dépasse un seuil                                    |
+| cotisations            | Sommes versées par les salariés et les employeurs, calculées sur le salaire, pour la retraite, la santé, le chômage |
+| salaire minimum        | Salaire le plus bas autorisé par la loi pour une heure de travail                                              |
+| âge légal              | Âge à partir duquel on a le droit de partir à la retraite                                                      |
+| taux plein             | Retraite sans réduction, obtenue avec la durée de cotisation exigée ou, à défaut, à partir d'un âge fixé par la loi |
+| TVA                    | Taxe sur la valeur ajoutée, comprise dans le prix de presque tous les achats                                   |
+| CSG                    | Contribution sociale généralisée : impôt sur les salaires, retraites et revenus du capital, pour la Sécurité sociale |
+| heures supplémentaires | Heures travaillées au-delà de la durée légale du travail (35 heures par semaine pour un temps plein)           |

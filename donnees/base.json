@@ -823,11 +823,11 @@
     },
     {
       "terme": "impôt sur la fortune",
-      "definition": "Impôt annuel sur le patrimoine des ménages les plus fortunés, limité à l'immobilier depuis 2018"
+      "definition": "Impôt payé chaque année par les ménages dont le patrimoine dépasse un seuil"
     },
     {
-      "terme": "cotisations sociales",
-      "definition": "Sommes prélevées sur les salaires pour financer la retraite, la santé et le chômage"
+      "terme": "cotisations",
+      "definition": "Sommes versées par les salariés et les employeurs, calculées sur le salaire, pour la retraite, la santé, le chômage"
     },
     {
       "terme": "salaire minimum",
@@ -839,7 +839,7 @@
     },
     {
       "terme": "taux plein",
-      "definition": "Retraite versée sans réduction, quand la durée de cotisation exigée est atteinte"
+      "definition": "Retraite sans réduction, obtenue avec la durée de cotisation exigée ou, à défaut, à partir d'un âge fixé par la loi"
     },
     {
       "terme": "TVA",
@@ -847,11 +847,11 @@
     },
     {
       "terme": "CSG",
-      "definition": "Contribution sociale généralisée, prélevée sur les salaires, les retraites et les revenus du capital"
+      "definition": "Contribution sociale généralisée : impôt sur les salaires, retraites et revenus du capital, pour la Sécurité sociale"
     },
     {
       "terme": "heures supplémentaires",
-      "definition": "Heures travaillées au-delà de la durée légale de 35 heures par semaine"
+      "definition": "Heures travaillées au-delà de la durée légale du travail (35 heures par semaine pour un temps plein)"
     }
   ],
   "criteres_faisabilite": [
