@@ -5,7 +5,7 @@ import {
   normaliser, lireFrontmatter, lireSections, lireTableaux, trouverTableau,
   contientSource, estDateIso, nettoyerId,
 } from './markdown.mjs';
-import { MAX_CARACTERES, MAX_TEXTE_COURT } from './anonymisation.mjs';
+import { MAX_TEXTE_COURT } from './anonymisation.mjs';
 
 export const STATUTS_CANDIDAT = ['pressenti', 'déclaré', 'parrainages validés', 'retiré'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -388,10 +388,8 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
         const proposition = nettoyerId(cellules.proposition);
         const texteCourt = cellules[normaliser('texte court')] ?? '';
         if (texteCourt && !proposition) rapport.erreur(fichier, ligne, `« ${id} » : texte court sans proposition`);
-        if (texteCourt.length > MAX_CARACTERES) {
-          rapport.erreur(fichier, ligne, `« ${id} » : texte court de ${texteCourt.length} caractères (${MAX_CARACTERES} au plus)`);
-        } else if (texteCourt.length > MAX_TEXTE_COURT) {
-          rapport.avertissement(fichier, ligne, `« ${id} » : texte court de ${texteCourt.length} caractères (${MAX_TEXTE_COURT} au plus)`);
+        if (texteCourt.length > MAX_TEXTE_COURT) {
+          rapport.erreur(fichier, ligne, `« ${id} » : texte court de ${texteCourt.length} caractères (${MAX_TEXTE_COURT} au plus)`);
         }
         if (speciale && proposition) {
           rapport.erreur(fichier, ligne, `« ${id} » : proposition renseignée pour une réponse « ${normaliser(option)} »`);

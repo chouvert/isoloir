@@ -31,3 +31,7 @@ terme rencontré dans le texte).
 | heures supplémentaires | Heures travaillées au-delà de la durée légale du travail (35 heures par semaine pour un temps plein)           |
 | capitalisation         | Retraite financée par une épargne placée pendant la vie active, et non par les cotisations des actifs du moment |
 | proportionnelle        | Mode d'élection où chaque parti obtient un nombre de sièges proportionnel à son nombre de voix                 |
+| net                    | Salaire réellement touché par le salarié, une fois ses cotisations retirées du salaire brut                    |
+| brut                   | Salaire avant le retrait des cotisations du salarié : le montant réellement touché, le net, est plus bas       |
+| certificats d'économie d'énergie | Obligation faite aux vendeurs d'énergie de financer des économies d'énergie ; son coût se retrouve dans les prix |
+| éducation prioritaire  | Écoles et collèges des quartiers les plus en difficulté, qui reçoivent des moyens supplémentaires              |
