@@ -852,6 +852,14 @@
     {
       "terme": "heures supplémentaires",
       "definition": "Heures travaillées au-delà de la durée légale du travail (35 heures par semaine pour un temps plein)"
+    },
+    {
+      "terme": "capitalisation",
+      "definition": "Retraite financée par une épargne placée pendant la vie active, et non par les cotisations des actifs du moment"
+    },
+    {
+      "terme": "proportionnelle",
+      "definition": "Mode d'élection où chaque parti obtient un nombre de sièges proportionnel à son nombre de voix"
     }
   ],
   "criteres_faisabilite": [
