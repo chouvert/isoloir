@@ -29,3 +29,5 @@ terme rencontré dans le texte).
 | TVA                    | Taxe sur la valeur ajoutée, comprise dans le prix de presque tous les achats                                   |
 | CSG                    | Contribution sociale généralisée : impôt sur les salaires, retraites et revenus du capital, pour la Sécurité sociale |
 | heures supplémentaires | Heures travaillées au-delà de la durée légale du travail (35 heures par semaine pour un temps plein)           |
+| capitalisation         | Retraite financée par une épargne placée pendant la vie active, et non par les cotisations des actifs du moment |
+| proportionnelle        | Mode d'élection où chaque parti obtient un nombre de sièges proportionnel à son nombre de voix                 |
