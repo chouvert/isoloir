@@ -214,6 +214,14 @@ test('lireBase : champ inclus (oui par défaut, non si déclaré)', () => {
   }
 });
 
+test('donnees : glossaire exporté', () => {
+  const g = donnees(lireBase(RACINE)).glossaire;
+  assert.ok(g.length >= 8);
+  assert.deepEqual(Object.keys(g[0]), ['terme', 'definition']);
+  assert.ok(g.some((e) => e.terme === 'TVA'));
+  assert.ok(g.every((e) => e.definition.length <= 120));
+});
+
 test('donnees : date de version du référentiel', () => {
   const attendu = readFileSync(join(RACINE, 'referentiel/version.yml'), 'utf8').match(/^date: (\S+)/m)[1];
   assert.equal(donnees(lireBase(RACINE)).referentiel_maj, attendu);

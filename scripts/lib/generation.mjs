@@ -225,6 +225,7 @@ export function donnees(base) {
     questions: base.questions,
     dilemmes: base.dilemmes,
     preoccupations: base.preoccupations,
+    glossaire: base.glossaire ?? [],
     criteres_faisabilite: base.criteres,
     candidats: base.candidats,
     duels: participantsDuels(base),

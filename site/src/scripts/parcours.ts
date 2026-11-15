@@ -4,7 +4,7 @@
 // et recharger la page efface le parcours (README, « Calcul de proximité »).
 import { preremplirBudget, ordonnerDilemmes, niveauxDepuisBudget, budgetDepuisNiveaux, rapportSujets, PARCOURS } from '../../../scripts/lib/parcours.mjs';
 import { calculerProximite, SEUILS, SANS_AVIS } from '../../../scripts/lib/proximite.mjs';
-import { preparerDuels, evaluerDuels } from '../../../scripts/lib/duels.mjs';
+import { preparerDuels, evaluerDuels, definitionPour } from '../../../scripts/lib/duels.mjs';
 
 type Option = { option: string; libelle: string; contrepartie: string };
 type Dilemme = { id: string; theme: string; statut: string; enonce: string; options: Option[]; voisines: string[][] };
@@ -17,6 +17,7 @@ type Donnees = {
   dilemmes: Dilemme[];
   candidats: Candidat[];
   participants: Record<string, Record<string, Participant[]>>;
+  glossaire: { terme: string; definition: string }[];
   liens: { candidats: string; methode: string; comparer: string };
 };
 type Cote = { candidat: string; option: string; proposition: string; texte: string; utilisateur: boolean };
@@ -273,8 +274,13 @@ export function demarrer(racine: HTMLElement, d: Donnees) {
     const duel = etat.duels[etat.indexDuel];
     const choix = etat.choixDuels[etat.indexDuel];
     const dil = dilemmes.get(duel.dilemme)!;
-    const bouton = (cote: 'gauche' | 'droite') => `<button class="choix mesure-duel" aria-pressed="${choix === cote}" data-action="duel" data-choix="${cote}"
-        aria-label="Choisir cette mesure : ${echapper(duel[cote].texte)}">${bulletin(choix === cote)}<span class="libelle">${echapper(duel[cote].texte)}</span></button>`;
+    const bouton = (cote: 'gauche' | 'droite') => {
+      // Un terme du glossaire présent dans la mesure est expliqué dessous, de la même façon pour tous.
+      const def = definitionPour(duel[cote].texte, d.glossaire) as { terme: string; definition: string } | null;
+      const explication = def ? `${def.terme.charAt(0).toUpperCase()}${def.terme.slice(1)} : ${def.definition.charAt(0).toLowerCase()}${def.definition.slice(1)}.` : '';
+      return `<button class="choix mesure-duel" aria-pressed="${choix === cote}" data-action="duel" data-choix="${cote}"
+        aria-label="Choisir cette mesure : ${echapper(duel[cote].texte)}${explication ? ` (${echapper(explication)})` : ''}">${bulletin(choix === cote)}<span class="texte"><span class="libelle">${echapper(duel[cote].texte)}</span>${explication ? `<span class="definition">${echapper(explication)}</span>` : ''}</span></button>`;
+    };
     return `${tringle('duels')}<section class="etape" tabindex="-1">
       <p class="surtitre">Duel ${etat.indexDuel + 1} sur ${etat.duels.length}</p>
       <div class="contexte-duel"><strong>Le sujet : ${echapper(themes.get(dil.theme)?.libelle)}</strong>

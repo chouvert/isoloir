@@ -273,6 +273,19 @@ test('dilemmes : texte court valide', () => {
   assert.equal(r.erreurs.length, 0, messages(r));
 });
 
+test('glossaire : terme en double, définition vide ou trop longue', () => {
+  const r = valider((d) => editer(d, 'referentiel/glossaire.md', (t) => `${t}| TVA | Une autre définition |\n| octroi de mer | |\n| accise | ${'x'.repeat(121)} |\n`));
+  const m = messages(r);
+  assert.match(m, /terme « TVA » défini deux fois/);
+  assert.match(m, /« octroi de mer » : définition vide/);
+  assert.match(m, /« accise » : définition de 121 caractères \(120 au plus\)/);
+});
+
+test('glossaire : le fichier du dépôt est valide et exporté', () => {
+  const r = valider(() => {});
+  assert.equal(r.erreurs.length, 0, messages(r));
+});
+
 test('référentiel des dilemmes : erreurs de rédaction', () => {
   const r = valider((d) => editer(d, 'referentiel/dilemmes.md', (t) => t
     .replace('### D-eco-pouvoir-achat\n- statut : actif\n- voisines : B-C (deux baisses de prélèvements)\n\n>', '### D-eco-pouvoir-achat\n- statut : en cours\n- voisines : B-C (deux baisses de prélèvements)\n\n')

@@ -808,6 +808,52 @@
       "dilemme": "D-instit-participation"
     }
   ],
+  "glossaire": [
+    {
+      "terme": "dépenses publiques",
+      "definition": "Dépenses de l'État, de la Sécurité sociale et des collectivités locales"
+    },
+    {
+      "terme": "déficit public",
+      "definition": "Ce que l'État, la Sécurité sociale et les collectivités dépensent en plus de leurs recettes, sur un an"
+    },
+    {
+      "terme": "dette publique",
+      "definition": "Total des emprunts de l'État, de la Sécurité sociale et des collectivités qui restent à rembourser"
+    },
+    {
+      "terme": "impôt sur la fortune",
+      "definition": "Impôt annuel sur le patrimoine des ménages les plus fortunés, limité à l'immobilier depuis 2018"
+    },
+    {
+      "terme": "cotisations sociales",
+      "definition": "Sommes prélevées sur les salaires pour financer la retraite, la santé et le chômage"
+    },
+    {
+      "terme": "salaire minimum",
+      "definition": "Salaire le plus bas autorisé par la loi pour une heure de travail"
+    },
+    {
+      "terme": "âge légal",
+      "definition": "Âge à partir duquel on a le droit de partir à la retraite"
+    },
+    {
+      "terme": "taux plein",
+      "definition": "Retraite versée sans réduction, quand la durée de cotisation exigée est atteinte"
+    },
+    {
+      "terme": "TVA",
+      "definition": "Taxe sur la valeur ajoutée, comprise dans le prix de presque tous les achats"
+    },
+    {
+      "terme": "CSG",
+      "definition": "Contribution sociale généralisée, prélevée sur les salaires, les retraites et les revenus du capital"
+    },
+    {
+      "terme": "heures supplémentaires",
+      "definition": "Heures travaillées au-delà de la durée légale de 35 heures par semaine"
+    }
+  ],
   "criteres_faisabilite": [
     "F-fin",
     "F-jur",
