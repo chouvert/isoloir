@@ -1,6 +1,14 @@
 # Sources de la veille quotidienne (scripts/veille.mjs, branche `veille`).
-# type : rss | page | sitemap — categorie : campagne | parti | presse | sondages | institution
+# type : rss | page | sitemap | programme — categorie : campagne | parti | presse | sondages | institution
 # candidats : transverse, ou liste d'identifiants de fiches (rattachement automatique).
+# Programmes (spec docs/superpowers/specs/2026-11-15-suivi-programmes-design.md) :
+#   type programme : `url` = point d'entrée (programme_url de la fiche) ; `prefixes` = chemins suivis sur le même
+#     site (défaut : dossier du point d'entrée) ; `plan` = plan du site facultatif, filtré par les préfixes.
+#     Empreinte du texte de chaque page comparée chaque jour (empreintes.json) ; candidats obligatoires.
+#   `motifs` (source sitemap) : seules les adresses nouvelles dont le chemin contient un motif sont gardées,
+#     comme « Programme : page apparue » (candidats sans programme publié).
+#   Adresses des sources programme et à motifs non éprouvées au 2026-11-15 : essai par
+#     `gh workflow run veille.yml -f essai=true`.
 # Les sources campagne, parti et sondages sont gardées sans filtre ; les autres seulement si elles citent
 # un candidat ou un mot-clé de veille/mots-cles.yml.
 #
@@ -144,3 +152,123 @@
   url: https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/Presidentielle-2027
   categorie: sondages
   candidats: transverse
+
+# ---------------------------------------------------------------------------
+# Programmes publiés (une source par programme_url)
+# ---------------------------------------------------------------------------
+
+- id: attal-programme
+  nom: Gabriel Attal — programme
+  type: programme
+  url: https://attalpresident.fr/programme
+  prefixes: [/programme]
+  categorie: campagne
+  candidats: [attal-gabriel]
+
+- id: dupont-aignan-programme
+  nom: Nicolas Dupont-Aignan — projet économique 2027
+  type: programme
+  url: https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/
+  prefixes: [/actualite/presentation-du-projet-economique-2027, /wp-content/uploads/]
+  categorie: campagne
+  candidats: [dupont-aignan-nicolas]
+
+- id: dupont-aignan-projet-dlf
+  nom: Debout la France — pages « Projet »
+  type: programme
+  url: https://www.debout-la-france.fr/projet/
+  prefixes: [/projet/]
+  categorie: parti
+  candidats: [dupont-aignan-nicolas]
+
+- id: lisnard-programme
+  nom: David Lisnard — programme
+  type: programme
+  url: https://www.unenouvelleenergie.fr/notre-programme/
+  prefixes: [/notre-programme]
+  categorie: campagne
+  candidats: [lisnard-david]
+
+- id: melenchon-programme
+  nom: Mélenchon 2027 — programme
+  type: programme
+  url: https://melenchon2027.fr/programme/decouvrir/
+  prefixes: [/programme/]
+  categorie: campagne
+  candidats: [melenchon-jean-luc]
+
+- id: philippe-programme
+  nom: Édouard Philippe — programme
+  type: programme
+  url: https://www.edouardphilippe.fr/programme
+  prefixes: [/programme]
+  categorie: campagne
+  candidats: [philippe-edouard]
+
+- id: ruffin-programme
+  nom: François Ruffin — cahiers de campagne
+  type: programme
+  url: https://nouspresident.fr/cahiers-de-campagne/
+  prefixes: [/cahiers-de-campagne]
+  categorie: campagne
+  candidats: [ruffin-francois]
+
+- id: tondelier-programme
+  nom: Les Écologistes — projet 2027
+  type: programme
+  url: https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027
+  prefixes: [/pages/6ImK65GKUnvibm33WGkjkj]
+  categorie: parti
+  candidats: [tondelier-marine]
+
+# ---------------------------------------------------------------------------
+# Candidats sans programme publié : plans de site filtrés par motifs (à éprouver à l'essai)
+# ---------------------------------------------------------------------------
+
+- id: batho-plan-programme
+  nom: Génération écologie — plan du site (pages de programme)
+  type: sitemap
+  url: https://www.generationecologie.fr/sitemap.xml
+  motifs: [programme, projet, propositions, mesures]
+  categorie: parti
+  candidats: [batho-delphine]
+
+- id: glucksmann-plan-programme
+  nom: Place publique — plan du site (pages de programme)
+  type: sitemap
+  url: https://place-publique.eu/sitemap.xml
+  motifs: [programme, projet, propositions, mesures]
+  categorie: parti
+  candidats: [glucksmann-raphael]
+
+- id: le-pen-plan-programme
+  nom: Rassemblement national — plan du site (pages de programme)
+  type: sitemap
+  url: https://rassemblementnational.fr/sitemap.xml
+  motifs: [programme, projet, propositions, mesures]
+  categorie: parti
+  candidats: [le-pen-marine]
+
+- id: retailleau-plan-programme
+  nom: Les Républicains — plan du site (pages de programme)
+  type: sitemap
+  url: https://republicains.fr/sitemap.xml
+  motifs: [programme, projet, propositions, mesures]
+  categorie: parti
+  candidats: [retailleau-bruno]
+
+- id: roussel-plan-programme
+  nom: PCF — plan du site (pages de programme)
+  type: sitemap
+  url: https://www.pcf.fr/sitemap.xml
+  motifs: [programme, projet, propositions, mesures]
+  categorie: parti
+  candidats: [roussel-fabien]
+
+- id: zemmour-plan-programme
+  nom: Reconquête — plan du site (pages de programme)
+  type: sitemap
+  url: https://www.parti-reconquete.fr/sitemap.xml
+  motifs: [programme, projet, propositions, mesures]
+  categorie: parti
+  candidats: [zemmour-eric]
