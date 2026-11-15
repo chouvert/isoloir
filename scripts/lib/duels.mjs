@@ -5,7 +5,7 @@
 // Le tirage au sort est injectable (`aleatoire`) pour les tests.
 import { SEUILS, SANS_AVIS } from './proximite.mjs';
 
-export const DUELS = Object.freeze({ nombre: 6, maxApparitions: 2 });
+export const DUELS = Object.freeze({ nombre: 4, maxApparitions: 2 });
 
 const lire = (collection, cle) => (collection instanceof Map ? collection.get(cle) : collection?.[cle]);
 const tirer = (liste, aleatoire) => liste[Math.min(liste.length - 1, Math.floor(aleatoire() * liste.length))];
