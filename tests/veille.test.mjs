@@ -550,3 +550,15 @@ test('journalMarkdown : informations « programme » d’abord dans la section d
     '- 2026-11-11 · [Titre autre](https://site.fr/autre) · src',
   ]);
 });
+
+test('liensProgramme : vues filtrées (adresse avec paramètres) écartées', () => {
+  const html = '<a href="/programme?thematique=sante">Santé</a><a href="/programme/sante">Santé</a><a href="/programme/x?utm_source=y">X</a>';
+  assert.deepEqual(liensProgramme(html, 'https://c.fr/programme', ['/programme']), ['https://c.fr/programme/sante', 'https://c.fr/programme/x']);
+});
+
+test('programme : diagnostic de l’essai — statut du point d’entrée en échec, liens hors préfixes', async () => {
+  const r = await passage(site({ pages: { 'https://c.fr/programme/': { statut: 403, texte: '' } } }));
+  assert.deepEqual(r.programmes['essai-programme'].pages, [{ url: 'https://c.fr/programme', statut: 403, blocs: 0 }]);
+  const r2 = await passage(site());
+  assert.deepEqual(r2.programmes['essai-programme'].horsPrefixes, ['https://c.fr/', 'https://c.fr/evenement/reunion']);
+});

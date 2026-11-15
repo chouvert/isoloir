@@ -57,10 +57,14 @@ if (essai) {
     console.log(`${e?.echecs ? '✖' : '✓'} ${s.id} (${s.type})`);
     if (s.type === 'programme' && p) {
       console.log(`    ${p.pages.filter((x) => x.statut === 200).length} page(s) suivie(s), ${p.refusees.length} refusée(s) par robots.txt`);
-      for (const x of p.pages) console.log(`    ${x.statut === 200 ? `${String(x.blocs).padStart(4)} bloc(s)${x.blocs ? '' : ' — page construite par JavaScript ?'}` : `statut ${x.statut}`}  ${x.url}`);
+      for (const x of p.pages) {
+        const pdf = /\.pdf$/i.test(x.url);
+        console.log(`    ${x.statut !== 200 ? `statut ${x.statut}` : pdf ? '  PDF (en-têtes)' : `${String(x.blocs).padStart(4)} bloc(s)${x.blocs ? '' : ' — page construite par JavaScript ?'}`}  ${x.url}`);
+      }
       for (const u of p.refusees) console.log(`    refusée  ${u}`);
+      for (const u of p.horsPrefixes ?? []) console.log(`    hors préfixes  ${u}`);
     } else if (p) {
-      console.log(`    ${p.adresses} adresse(s) dans le plan, ${p.correspondantes.length} sous un motif`);
+      console.log(`    ${p.statut !== undefined ? `statut ${p.statut}, ` : ''}${p.adresses} adresse(s) dans le plan, ${p.correspondantes.length} sous un motif`);
       for (const u of p.correspondantes.slice(0, 20)) console.log(`    motif  ${u}`);
     }
   }

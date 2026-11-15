@@ -219,8 +219,9 @@ export function liensProgramme(html, urlPage, prefixes) {
   for (const [, href] of html.replace(/<!--[\s\S]*?-->/g, ' ').matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)) {
     let u;
     try { u = new URL(decoderEntites(href), page); } catch { continue; }
-    if (!sousPrefixes(u, page, prefixes)) continue;
+    if (prefixes ? !sousPrefixes(u, page, prefixes) : (!/^https?:$/.test(u.protocol) || sansWww(u.host) !== sansWww(page.host))) continue;
     const lien = normaliserUrl(u.toString());
+    if (new URL(lien).search) continue; // vue filtrée d'une page déjà suivie
     if (lien !== soi && !liens.includes(lien)) liens.push(lien);
   }
   return liens;
@@ -252,7 +253,8 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
   const base = new URL(source.url);
   const anciennes = Object.fromEntries(Object.entries(empreintes).filter(([, e]) => e.source === source.id));
   const premierPassage = Object.keys(anciennes).length === 0;
-  const echec = { infos: [], empreintes, succes: false, plafond: false, pages: [], refusees: [] };
+  const echec = (statut) => ({ infos: [], empreintes, succes: false, plafond: false, pages: [{ url: entree, statut, blocs: 0 }], refusees: [], horsPrefixes: [] });
+  let horsPrefixes = [];
 
   const file = [{ url: entree, profondeur: 0, brute: source.url }];
   const connues = new Set([entree]);
@@ -273,7 +275,7 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
     const { url, profondeur, brute } = file.shift();
     if (pages.length >= maxPages) { plafond = url; break; }
     if (!(await autorise(url))) {
-      if (url === entree) return echec;
+      if (url === entree) return { ...echec('robots.txt'), refusees: [url] };
       refusees.push(url);
       continue;
     }
@@ -289,7 +291,7 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
     }
     const r = await lire(brute ?? url);
     if (r.statut !== 200) {
-      if (url === entree) return echec;
+      if (url === entree) return echec(r.statut);
       pages.push({ url, statut: r.statut, blocs: 0 });
       enErreur.add(url);
       continue;
@@ -297,6 +299,10 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
     const blocs = blocsDeTexte(r.texte);
     pages.push({ url, statut: 200, blocs: blocs.length });
     lues.set(url, { titre: titreDePage(r.texte, url), blocsOrdonnes: blocs, blocs: codesDeBlocs(blocs) });
+    if (url === entree) {
+      const sous = new Set(liensProgramme(r.texte, r.url ?? url, prefixes));
+      horsPrefixes = liensProgramme(r.texte, r.url ?? url, null).filter((l) => !sous.has(l)).slice(0, 30);
+    }
     if (profondeur < PROFONDEUR_PROGRAMME) {
       for (const lien of liensProgramme(r.texte, r.url ?? url, prefixes)) ajouter(lien, profondeur + 1);
     }
@@ -360,7 +366,7 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
     infos.push({ nature: 'programme-plafond', titre: `Programme : plafond de pages atteint — ${source.nom ?? source.id}`,
       lien: plafond, chapo: `${maxPages} pages lues ; revoir le plafond ou les préfixes de la source.` });
   }
-  return { infos, empreintes: nouvelles, succes: true, plafond: Boolean(plafond), pages, refusees };
+  return { infos, empreintes: nouvelles, succes: true, plafond: Boolean(plafond), pages, refusees, horsPrefixes };
 }
 
 // ---------------------------------------------------------------------------
@@ -504,7 +510,7 @@ export async function collecter({
       const precedent = nouvelEtat[source.id];
       const suivi = await suivreProgramme({ source, empreintes: nouvellesEmpreintes, lire, lireEntete: lireEnTete, autorise, jour,
         maxPages: maxPagesProgramme, plafondSignale: precedent?.plafond === semaine });
-      programmes[source.id] = { pages: suivi.pages, refusees: suivi.refusees };
+      programmes[source.id] = { pages: suivi.pages, refusees: suivi.refusees, horsPrefixes: suivi.horsPrefixes };
       if (!suivi.succes) { echec(source.id); continue; }
       nouvellesEmpreintes = suivi.empreintes;
       const plafond = suivi.plafond && precedent?.plafond !== semaine ? semaine : precedent?.plafond;
@@ -523,8 +529,9 @@ export async function collecter({
 
     const reponse = await lire(source.url);
     const elements = reponse.statut === 200 ? LECTEURS[source.type](reponse.texte, reponse.url ?? source.url) : [];
-    if (!elements.length) { echec(source.id); continue; }
     const motifs = Array.isArray(source.motifs) && source.motifs.length ? source.motifs.map(plier) : null;
+    if (motifs && !elements.length) programmes[source.id] = { statut: reponse.statut, adresses: 0, correspondantes: [] };
+    if (!elements.length) { echec(source.id); continue; }
     const sousMotif = (lien) => { try { return motifs.some((m) => plier(new URL(lien).pathname).includes(m)); } catch { return false; } };
     if (motifs) programmes[source.id] = { adresses: elements.length, correspondantes: elements.map((e) => e.lien).filter(sousMotif) };
     // Premier succès d'une page ou d'un plan de site : tout ce qui s'y trouve déjà (menus, archives) est marqué vu.
