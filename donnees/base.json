@@ -9091,7 +9091,7 @@
         "D-eco-dette": {
           "option": "B",
           "proposition": "eco-01",
-          "texte_court": "",
+          "texte_court": "Réduire le déficit public par des hausses d'impôts, dont le rétablissement de l'impôt sur la fortune à un niveau plus élevé qu'avant",
           "justification": "Réduction du déficit de 24,7 Md€ en 2027 obtenue par 106,4 Md€ de recettes nouvelles, les dépenses augmentant de 81,7 Md€ (eco-01 à eco-07)",
           "sources": [
             {
@@ -9103,7 +9103,7 @@
         "D-eco-pouvoir-achat": {
           "option": "A",
           "proposition": "social-02",
-          "texte_court": "",
+          "texte_court": "Porter le salaire minimum à 1 700 euros net par mois",
           "justification": "SMIC porté à 1 700 € net (social-02)",
           "sources": [
             {
@@ -9115,7 +9115,7 @@
         "D-social-retraites": {
           "option": "C",
           "proposition": "eco-01",
-          "texte_court": "",
+          "texte_court": "Ramener l'âge légal de la retraite à 60 ans, dans un budget dont les nouvelles recettes viennent surtout d'impôts sur le capital et les gros patrimoines",
           "justification": "Retour à 60 ans (social-01) dans un budget dont les recettes nouvelles portent surtout sur le capital et les hauts patrimoines (eco-01 à eco-05), sans affectation spécifique aux retraites ; s'y ajoute la fin des exonérations de cotisations au-dessus de 2 SMIC, qui relève de l'option B",
           "sources": [
             {
@@ -9127,7 +9127,7 @@
         "D-social-chomage": {
           "option": "C",
           "proposition": "social-02",
-          "texte_court": "",
+          "texte_court": "Augmenter les salaires, en relevant le salaire minimum et en réunissant une conférence sur les salaires",
           "justification": "Hausse des salaires (SMIC à 1 700 € net et conférence sur les salaires, social-02) et abrogation des réformes de l'assurance chômage (social-03)",
           "sources": [
             {
@@ -9139,7 +9139,7 @@
         "D-env-electricite": {
           "option": "B",
           "proposition": "env-03",
-          "texte_court": "",
+          "texte_court": "Sortir du nucléaire, en abandonnant les projets de nouveaux réacteurs, et viser uniquement des énergies renouvelables au plus tard en 2060",
           "justification": "Sortie du nucléaire et abandon des EPR (env-03), maintenue dans le programme de novembre 2026 ; 100 % d'énergies renouvelables visé au plus tard en 2060",
           "sources": [
             {
@@ -9167,7 +9167,7 @@
         "D-env-rythme": {
           "option": "B",
           "proposition": "env-01",
-          "texte_court": "",
+          "texte_court": "Réduire de 65 % les émissions de gaz à effet de serre en quelques années, en finançant l'effort par des impôts sur les grandes fortunes et les grandes entreprises",
           "justification": "Accélération (−65 % d'émissions en 2033, env-01 ; « règle verte » dans la Constitution, env-07) financée par la fiscalité sur les hauts patrimoines et les grandes entreprises (eco-01 à eco-07) plutôt que par une hausse des prix pour les ménages",
           "sources": [
             {
@@ -9191,7 +9191,7 @@
         "D-secu-budget": {
           "option": "D",
           "proposition": "secu-04",
-          "texte_court": "",
+          "texte_court": "Donner plus de moyens à la prévention et à la réinsertion, et imposer une limite au nombre de détenus plutôt que construire des places de prison",
           "justification": "Renforcement des moyens humains de la prévention spécialisée et moyens de réinsertion, plutôt que de nouvelles places de prison (secu-04)",
           "sources": [
             {
@@ -9207,7 +9207,7 @@
         "D-immig-travail": {
           "option": "B",
           "proposition": "immig-03",
-          "texte_court": "",
+          "texte_court": "Faciliter la régularisation des étrangers qui vivent en France sans titre de séjour",
           "justification": "Facilitation des régularisations (immig-03)",
           "sources": [
             {
@@ -9223,7 +9223,7 @@
         "D-europe-regles": {
           "option": "C",
           "proposition": "europe-05",
-          "texte_court": "",
+          "texte_court": "Rester dans l'Union européenne mais cesser d'appliquer celles de ses règles qui sont jugées incompatibles avec des engagements écologiques et sociaux",
           "justification": "Rester dans l'UE en cessant d'appliquer les normes jugées incompatibles avec les engagements écologiques et sociaux (europe-05) ; le programme de novembre 2026 confirme la « désobéissance aux règles bloquantes » et ajoute un moratoire voté par le Parlement sur plusieurs règles européennes (europe-07)",
           "sources": [
             {
@@ -9247,7 +9247,7 @@
         "D-europe-defense": {
           "option": "D",
           "proposition": "europe-02",
-          "texte_court": "",
+          "texte_court": "Rechercher par la diplomatie un cessez-le-feu en Ukraine, le retrait de l'armée russe et l'ouverture de négociations de paix",
           "justification": "Priorité à la diplomatie : cadre diplomatique pour un cessez-le-feu et des négociations de paix en Ukraine (europe-02), sortie de l'OTAN (europe-01) ; toute modification de frontière en Ukraine conditionnée à un vote des populations concernées (europe-09, 2026-11-09)",
           "sources": [
             {
@@ -9271,7 +9271,7 @@
         "D-educ-niveau": {
           "option": "A",
           "proposition": "educ-03",
-          "texte_court": "",
+          "texte_court": "Réduire le nombre d'élèves par classe, en commençant par la maternelle et les établissements d'éducation prioritaire",
           "justification": "Réduction des effectifs par classe, en priorité en maternelle et en éducation prioritaire (educ-03)",
           "sources": [
             {
@@ -9287,7 +9287,7 @@
         "D-sante-deserts": {
           "option": "A",
           "proposition": "sante-07",
-          "texte_court": "",
+          "texte_court": "Fixer des règles sur le lieu où les médecins peuvent s'installer, au lieu de les laisser choisir librement",
           "justification": "Régulation de l'installation des médecins (sante-07) : contrainte proche de l'option A, sans obligation d'exercice limitée dans le temps",
           "sources": [
             {
@@ -9299,7 +9299,7 @@
         "D-instit-participation": {
           "option": "A",
           "proposition": "instit-03",
-          "texte_court": "",
+          "texte_court": "Permettre aux citoyens de déclencher eux-mêmes un référendum, y compris pour mettre fin au mandat d'un élu",
           "justification": "Référendum d'initiative citoyenne (instit-03) ; il propose aussi la proportionnelle (option B, non voisine)",
           "sources": [
             {
@@ -10844,7 +10844,7 @@
         "D-eco-dette": {
           "option": "A",
           "proposition": "eco-03",
-          "texte_court": "",
+          "texte_court": "Réduire le déficit public surtout par la baisse des dépenses : la moitié de l'effort sur les dépenses sociales, le reste venant de l'État, des collectivités et de la croissance",
           "justification": "Programme (2026-11-12) : « Ne créer aucun nouvel impôt pendant cinq ans » (eco-01, option B écartée) ; déficit ramené « de plus de 5 % à 2 % » du PIB, l'effort portant pour 75 % sur la baisse des dépenses : 50 % sur les dépenses sociales (retraites, chômage, arrêts maladie) et 25 % sur l'État et les collectivités (eco-03, eco-05, eco-07) ; le programme ne donne aucun montant d'économies en euros ; seule économie chiffrée en euros, hors programme : « environ 30 milliards d'euros » en année pleine pour la réforme des retraites (social-01) ; il compte aussi sur la croissance et l'emploi pour 25 % de l'effort (option D)",
           "sources": [
             {
@@ -10864,7 +10864,7 @@
         "D-eco-pouvoir-achat": {
           "option": "B",
           "proposition": "social-04",
-          "texte_court": "",
+          "texte_court": "Supprimer les cotisations et l'impôt sur les heures supplémentaires, pour augmenter le salaire net",
           "justification": "Première mesure mise en avant de la page « Travail et salaires » : « Financer la protection sociale autrement que par le travail, pour augmenter le salaire net. » ; mesure chiffrée en euros : heures supplémentaires sans impôt ni cotisation et plus de cotisation patronale au-delà de la 37e heure, « environ 1 000 € de plus par an » au SMIC pour deux heures de plus par semaine (social-04) ; il propose aussi une allocation familiale unique de 350 € par mois « dégressive avec le revenu » (social-06, proche de l'option D) et la suppression de l'impôt sur le revenu des classes moyennes pendant les trois premières années de l'enfant (social-07)",
           "sources": [
             {
@@ -10884,7 +10884,7 @@
         "D-social-retraites": {
           "option": "A",
           "proposition": "social-01",
-          "texte_court": "",
+          "texte_court": "Porter progressivement l'âge légal de départ à la retraite à 65 ans et allonger la durée de cotisation exigée",
           "justification": "Première mesure de la page « Retraites » : « Porter progressivement l’âge de départ à 65 ans et la durée de cotisation à 45 ans en moins de dix ans » (social-01), « sans hausse des cotisations » (option B écartée) ; seule mesure chiffrée en euros : « un gain chiffré en année pleine d'environ 30 milliards d'euros » (AFP) ; une part de capitalisation collective est aussi prévue (social-02, option D, non voisine) ; pas de contribution du capital ou des patrimoines (option C)",
           "sources": [
             {
@@ -10904,7 +10904,7 @@
         "D-social-chomage": {
           "option": "A",
           "proposition": "social-03",
-          "texte_court": "",
+          "texte_court": "Réduire à 12 mois la durée maximale des allocations chômage, sauf pour les demandeurs d'emploi les plus âgés",
           "justification": "« Limiter à 12 mois l'indemnisation chômage des moins de 50 ans » (social-03), contre 18 mois aujourd'hui, et limitation de la durée du RSA (social-09) ; il propose aussi de « Développer l'apprentissage » (social-13, proche de l'option B), sans chiffrage",
           "sources": [
             {
@@ -10924,7 +10924,7 @@
         "D-env-electricite": {
           "option": "A",
           "proposition": "env-01",
-          "texte_court": "",
+          "texte_court": "Lancer la construction de 14 nouveaux réacteurs nucléaires, soit davantage que ce qui est déjà prévu",
           "justification": "Sans montant en euros, le nucléaire vient en premier et seul chiffré : « Relancer le nucléaire et développer les renouvelables là où elles sont efficaces. » ; « 8 EPR supplémentaires, en plus des 6 déjà prévus, soit 14 nouveaux réacteurs » (env-01) ; renouvelables « aux côtés du nucléaire », sans objectif chiffré (ni développement massif, option B, ni parts comparables, option C) ; électrification des usages (env-05)",
           "sources": [
             {
@@ -10947,7 +10947,7 @@
         "D-secu-budget": {
           "option": "B",
           "proposition": "secu-08",
-          "texte_court": "",
+          "texte_court": "Voter une loi pour construire plus vite de nouvelles prisons",
           "justification": "Programme (2026-11-12) : aucune mesure chiffrée en euros ; parmi les mesures de moyens de la page « Justice », la première présentée est « Une loi d’accélération de la construction de prisons. » (secu-08), après trois mesures pénales (peines planchers, courtes peines, suppression du juge d'application des peines, secu-01 à secu-03) ; viennent ensuite le retour des juges de paix pour « une justice civile plus rapide et plus proche » (secu-09, proche de l'option C, non voisine) et une réforme du recrutement des magistrats (secu-06) ; ni hausse d'effectifs de police ou de gendarmerie (option A) ni prévention (option D) sur cette page ; la page « Sécurité » (mise à jour le 2026-11-12) ne contient ni hausse chiffrée des effectifs de police ou de gendarmerie ni volet prévention",
           "sources": [
             {
@@ -10963,7 +10963,7 @@
         "D-immig-travail": {
           "option": "A",
           "proposition": "immig-06",
-          "texte_court": "",
+          "texte_court": "Fixer un nombre maximal d'étrangers autorisés à venir travailler en France",
           "justification": "Quotas pour l'immigration économique (immig-06) et titres de séjour réservés « aux seuls motifs professionnels et aux étudiants » (immig-08), dans un objectif de division par deux de l'immigration (immig-01) ; même traitement qu'Attal et Lisnard",
           "sources": [
             {
@@ -10986,7 +10986,7 @@
         "D-europe-defense": {
           "option": "A",
           "proposition": "europe-03",
-          "texte_court": "",
+          "texte_court": "Voter une loi pour que les armées aient plus de soldats, de réservistes, de munitions et de drones",
           "justification": "Renforcement des armées nationales, première mesure de la page « Défense » : « Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. » (europe-03), puis service militaire volontaire de 50 000 jeunes par an et 250 000 réservistes (europe-01, europe-02) ; aucun montant en euros ni niveau en % du PIB pour le budget français ; volet européen limité à des armements « made in Europe » (europe-07, au moins 1 % de la richesse des pays européens de l'OTAN pour des équipements fabriqués en Europe), sans défense européenne commune (option B) ni renforcement dans l'OTAN (option C)",
           "sources": [
             {
@@ -11002,7 +11002,7 @@
         "D-educ-niveau": {
           "option": "B",
           "proposition": "educ-01",
-          "texte_court": "",
+          "texte_court": "Augmenter le salaire des enseignants de 20 % en moyenne d'ici la fin du mandat",
           "justification": "Première mesure de la page « École » du programme : « Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat. » (educ-01), seule mesure scolaire chiffrée en euros (« près de 7 000 euros annuels de plus à la fin du quinquennat », questions-réponses du 2026-10-23 ; la page du programme ne donne pas de montant en euros) ; viennent ensuite l'autonomie des établissements (educ-03, option C), le soutien scolaire, la réduction de la taille des classes en maternelle et en primaire (educ-05, option A, voisine) et les fondamentaux « lire, écrire, compter » avec des évaluations rendues publiques (educ-02, educ-04, option D)",
           "sources": [
             {
@@ -12489,7 +12489,7 @@
         "D-eco-dette": {
           "option": "A",
           "proposition": "eco-01",
-          "texte_court": "",
+          "texte_court": "Économiser 197 milliards d'euros sur les dépenses publiques, au total sur la durée du mandat, sans augmenter les impôts",
           "justification": "197 Md€ d'économies cumulées « sans augmentation d'impôts », dont 146 Md€ affectés à la réduction de la dépense et de la dette (eco-01)",
           "sources": [
             {
@@ -12501,7 +12501,7 @@
         "D-eco-pouvoir-achat": {
           "option": "B",
           "proposition": "social-05",
-          "texte_court": "Sortir des 35 heures : exonérer de cotisations salariales et patronales les heures travaillées au-delà de la 35e, pour que le brut soit égal au net, soit près de deux mois de salaire en plus par an pour 30 minutes de travail en plus par jour",
+          "texte_court": "Supprimer les cotisations des salariés et des employeurs sur les heures travaillées au-delà de 35 heures par semaine, pour que le salaire net soit égal au brut",
           "justification": "Seule mesure de pouvoir d'achat assortie d'un montant budgétaire en euros : baisse massive des charges de 30 Md€ dès la première heure travaillée et exonération de cotisations salariales et patronales sur les heures supplémentaires, brut égal au net à partir de la 36e heure (social-05, 2026-09-15) ; l'exonération des heures supplémentaires figure dans les 21 Md€ d'allègements pour les ménages du plan du 2026-10-12. À la conférence du 2026-09-15, il présente d'abord la suppression des certificats d'économies d'énergie, « environ 15 centimes par litre de carburant » (env-08, option C, voisine), évaluation de leur poids dans le prix et non du coût de la mesure, puis la baisse de la facture d'électricité (env-03)",
           "sources": [
             {
@@ -12517,7 +12517,7 @@
         "D-social-retraites": {
           "option": "A",
           "proposition": "social-01",
-          "texte_court": "",
+          "texte_court": "Fixer à 63 ans l'âge minimal de départ à la retraite, avec une pension réduite pour ceux qui partent avant l'âge du taux plein",
           "justification": "Mesure chiffrée en euros et présentée en premier (LCI, 2026-09-22) : âge minimal à 63 ans et décote de 7 % par an avant 65 ans (social-01), qui représente 12 Md€ des économies retraites ; malgré l'abaissement du taux plein automatique de 67 à 65 ans ; une part de capitalisation pour les jeunes est aussi prévue (social-02, option D, non voisine)",
           "sources": [
             {
@@ -12533,7 +12533,7 @@
         "D-social-chomage": {
           "option": "A",
           "proposition": "social-03",
-          "texte_court": "",
+          "texte_court": "Aligner les règles des allocations chômage sur celles pratiquées ailleurs en Europe, pour faire des économies",
           "justification": "Réduire les indemnités chômage : aligner les allocations chômage « sur les standards européens », mesure d'économies du plan du 2026-10-12 (social-03), avec une enveloppe de 30 Md€ cumulés partagée avec le plafonnement des aides non contributives à 70 % du SMIC (social-04, qui ne porte pas sur l'indemnisation du chômage) ; il veut « être moins généreux » (2026-07-01) ; aucune mesure de formation, d'attractivité des métiers en tension ni de mobilité trouvée",
           "sources": [
             {
@@ -12549,7 +12549,7 @@
         "D-env-electricite": {
           "option": "A",
           "proposition": "env-01",
-          "texte_court": "",
+          "texte_court": "Produire l'électricité d'abord avec le nucléaire, les énergies renouvelables ne venant qu'en complément",
           "justification": "Option la plus proche : stratégie fondée en priorité sur le nucléaire, les renouvelables ne venant qu'en complément (formulation d'ECOinfos, env-01) ; fin du soutien public aux renouvelables, « On arrête de les subventionner » (env-02, option B écartée) ; pas de construction de réacteurs ni de nombre de réacteurs annoncé",
           "sources": [
             {
@@ -12565,7 +12565,7 @@
         "D-env-rythme": {
           "option": "D",
           "proposition": "env-03",
-          "texte_court": "",
+          "texte_court": "Baisser la facture d'électricité des ménages de l'équivalent de deux mois, et le coût de l'électricité pour les entreprises et les agriculteurs",
           "justification": "Suppression de la PPE3 et baisse de la facture d'électricité pour les ménages et la compétitivité des entreprises (env-03, env-04) ; suppression du principe de précaution, jugé « un principe de blocage » (env-06)",
           "sources": [
             {
@@ -12581,7 +12581,7 @@
         "D-secu-budget": {
           "option": "B",
           "proposition": "secu-02",
-          "texte_court": "",
+          "texte_court": "Créer des prisons réservées aux courtes peines, prononcées dès le premier délit grave",
           "justification": "Courtes peines dès le premier délit grave, exécutées dans des prisons spécifiques (secu-02) ; aucune hausse d'effectifs de police, de magistrats ou de prévention trouvée",
           "sources": [
             {
@@ -12600,7 +12600,7 @@
         "D-europe-regles": {
           "option": "C",
           "proposition": "europe-01",
-          "texte_court": "Changer la Constitution par référendum pour que le droit français prime sur le droit européen dans certaines situations, notamment en matière d'immigration et de sécurité, et permettre à une loi de revenir sur une jurisprudence européenne contraire aux intérêts fondamentaux",
+          "texte_court": "Changer la Constitution par référendum pour que le droit français passe avant le droit européen dans certains cas, notamment sur l'immigration et la sécurité",
           "justification": "Dérogation dans quelques domaines : « bouclier constitutionnel » permettant au droit français de primer sur le droit européen dans certaines situations, notamment en matière d'immigration et de sécurité (Public Sénat), et loi organique permettant de s'écarter d'une jurisprudence européenne « contraire à nos intérêts fondamentaux » (europe-01, entretien au Figaro, 2026-09-02) ; la formule du 2026-02-13, « redonner la primauté à notre droit national », ne précisait pas de domaine ; la proposition de loi constitutionnelle de 2023 permettait déjà de déroger aux règles européennes qui « contreviennent à l'identité constitutionnelle de la France » (parti : groupe LR du Sénat, avant la candidature) ; il veut aussi changer les règles européennes sur les visas (europe-02, option B, voisine)",
           "sources": [
             {
@@ -12627,7 +12627,7 @@
         "D-educ-niveau": {
           "option": "B",
           "proposition": "educ-01",
-          "texte_court": "",
+          "texte_court": "Augmenter le salaire des enseignants pour le rapprocher de la moyenne européenne",
           "justification": "Aucune mesure scolaire chiffrée en euros. Premier des quatre axes de son projet pour l'école (2026-08-31) : revaloriser significativement les salaires des enseignants pour rapprocher leur rémunération de la moyenne européenne (formulation de Public Sénat, sans montant, educ-01) ; « On va parler rémunération et augmentation des salaires. C'est indispensable » (parti : Max Brisson, secrétaire national LR chargé du projet éducation) ; il propose aussi la liberté des établissements (educ-05, option C), l'examen d'entrée en sixième et les groupes de niveau (educ-03, option D)",
           "sources": [
             {
@@ -12646,7 +12646,7 @@
         "D-instit-participation": {
           "option": "A",
           "proposition": "instit-03",
-          "texte_court": "",
+          "texte_court": "Abaisser à 2,5 millions le nombre de signatures de citoyens nécessaires pour qu'un référendum proposé par des parlementaires puisse avoir lieu",
           "justification": "Seule option défendue, idée d'initiative citoyenne : seuil du référendum d'initiative partagée ramené à 2,5 millions de signatures contre 5 millions (instit-03, entretien au Figaro, 2026-09-02) ; sa mesure principale, présentée en premier, l'extension du référendum à l'initiative de l'exécutif à toutes les questions législatives (instit-01, instit-02), ne correspond à aucune option ; aucune proportionnelle, convention citoyenne ni RIC proprement dit trouvés",
           "sources": [
             {
@@ -18023,9 +18023,54 @@
                 "url": "https://www.unenouvelleenergie.fr/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan/"
               }
             ]
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "eco-03",
+            "texte": "Réduire le déficit public surtout par la baisse des dépenses : la moitié de l'effort sur les dépenses sociales, le reste venant de l'État, des collectivités et de la croissance",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Priorités « Prospère »",
+                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+              },
+              {
+                "titre": "Programme « Finances publiques »",
+                "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
+              }
+            ]
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "eco-01",
+            "texte": "Économiser 197 milliards d'euros sur les dépenses publiques, au total sur la durée du mandat, sans augmenter les impôts",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "LCP (AFP), 2026-10-12",
+                "url": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de"
+              },
+              {
+                "titre": "Public Sénat, 2026-10-12",
+                "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+              }
+            ]
           }
         ],
-        "B": [],
+        "B": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "eco-01",
+            "texte": "Réduire le déficit public par des hausses d'impôts, dont le rétablissement de l'impôt sur la fortune à un niveau plus élevé qu'avant",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Budget 2027, p. 13",
+                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+              }
+            ]
+          }
+        ],
         "C": [
           {
             "candidat": "tondelier-marine",
@@ -18044,6 +18089,18 @@
       },
       "D-eco-pouvoir-achat": {
         "A": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "social-02",
+            "texte": "Porter le salaire minimum à 1 700 euros net par mois",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Budget 2027, p. 9",
+                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+              }
+            ]
+          },
           {
             "candidat": "ruffin-francois",
             "proposition": "social-01",
@@ -18131,9 +18188,25 @@
             ]
           },
           {
+            "candidat": "philippe-edouard",
+            "proposition": "social-04",
+            "texte": "Supprimer les cotisations et l'impôt sur les heures supplémentaires, pour augmenter le salaire net",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Priorités « Prospère »",
+                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+              },
+              {
+                "titre": "Programme « Travail et salaires »",
+                "url": "https://www.edouardphilippe.fr/programme/travail"
+              }
+            ]
+          },
+          {
             "candidat": "retailleau-bruno",
             "proposition": "social-05",
-            "texte": "Sortir des 35 heures : exonérer de cotisations salariales et patronales les heures travaillées au-delà de la 35e, pour que le brut soit égal au net, soit près de deux mois de salaire en plus par an pour 30 minutes de travail en plus par jour",
+            "texte": "Supprimer les cotisations des salariés et des employeurs sur les heures travaillées au-delà de 35 heures par semaine, pour que le salaire net soit égal au brut",
             "texte_court": true,
             "sources": [
               {
@@ -18221,6 +18294,46 @@
                 "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
               }
             ]
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "social-01",
+            "texte": "Porter progressivement l'âge légal de départ à la retraite à 65 ans et allonger la durée de cotisation exigée",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Priorités « Prospère »",
+                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+              },
+              {
+                "titre": "Programme « Retraites »",
+                "url": "https://www.edouardphilippe.fr/programme/retraites"
+              },
+              {
+                "titre": "LCP, 2026-09-29",
+                "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de"
+              },
+              {
+                "titre": "La Gazette France (AFP), 2026-09-29",
+                "url": "https://www.lagazettefrance.fr/article/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-devoile-son-projet-de-reforme-des-retraites"
+              }
+            ]
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "social-01",
+            "texte": "Fixer à 63 ans l'âge minimal de départ à la retraite, avec une pension réduite pour ceux qui partent avant l'âge du taux plein",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "LCP, 2026-09-23",
+                "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65"
+              },
+              {
+                "titre": "Public Sénat, 2026-10-12",
+                "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+              }
+            ]
           }
         ],
         "B": [
@@ -18237,7 +18350,20 @@
             ]
           }
         ],
-        "C": [],
+        "C": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "eco-01",
+            "texte": "Ramener l'âge légal de la retraite à 60 ans, dans un budget dont les nouvelles recettes viennent surtout d'impôts sur le capital et les gros patrimoines",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Budget 2027, p. 13",
+                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+              }
+            ]
+          }
+        ],
         "D": [
           {
             "candidat": "attal-gabriel",
@@ -18314,6 +18440,34 @@
                 "url": "https://www.publicsenat.fr/actualites/politique/pourquoi-le-gouvernement-a-suspendu-la-reforme-de-lassurance-chomage"
               }
             ]
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "social-03",
+            "texte": "Réduire à 12 mois la durée maximale des allocations chômage, sauf pour les demandeurs d'emploi les plus âgés",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Priorités « Prospère »",
+                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+              },
+              {
+                "titre": "Programme « Travail et salaires »",
+                "url": "https://www.edouardphilippe.fr/programme/travail"
+              }
+            ]
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "social-03",
+            "texte": "Aligner les règles des allocations chômage sur celles pratiquées ailleurs en Europe, pour faire des économies",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Public Sénat, 2026-10-12",
+                "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+              }
+            ]
           }
         ],
         "B": [
@@ -18343,6 +18497,18 @@
           }
         ],
         "C": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "social-02",
+            "texte": "Augmenter les salaires, en relevant le salaire minimum et en réunissant une conférence sur les salaires",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Budget 2027, p. 9",
+                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+              }
+            ]
+          },
           {
             "candidat": "ruffin-francois",
             "proposition": "social-02",
@@ -18411,9 +18577,54 @@
                 "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/"
               }
             ]
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "env-01",
+            "texte": "Lancer la construction de 14 nouveaux réacteurs nucléaires, soit davantage que ce qui est déjà prévu",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Priorités « Conquérante »",
+                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+              },
+              {
+                "titre": "Programme « Énergie »",
+                "url": "https://www.edouardphilippe.fr/programme/energie"
+              }
+            ]
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "env-01",
+            "texte": "Produire l'électricité d'abord avec le nucléaire, les énergies renouvelables ne venant qu'en complément",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "ECOinfos, 2026-08-28",
+                "url": "https://www.les-energies-renouvelables.eu/article/actualites/energies/ce-que-chaque-candidat-a-la-presidentielle-veut-faire-a-votre-facture-electricite-1719/"
+              }
+            ]
           }
         ],
-        "B": [],
+        "B": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "env-03",
+            "texte": "Sortir du nucléaire, en abandonnant les projets de nouveaux réacteurs, et viser uniquement des énergies renouvelables au plus tard en 2060",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2025",
+                "url": "https://melenchon2027.fr/programme2025/livre/"
+              },
+              {
+                "titre": "relevé",
+                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              }
+            ]
+          }
+        ],
         "C": [],
         "D": [
           {
@@ -18485,6 +18696,26 @@
                 "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
               }
             ]
+          },
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "env-01",
+            "texte": "Réduire de 65 % les émissions de gaz à effet de serre en quelques années, en finançant l'effort par des impôts sur les grandes fortunes et les grandes entreprises",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "LCP, 2026-11-06",
+                "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              },
+              {
+                "titre": "AEC 2025",
+                "url": "https://melenchon2027.fr/programme2025/livre/"
+              },
+              {
+                "titre": "relevé",
+                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              }
+            ]
           }
         ],
         "C": [],
@@ -18530,6 +18761,22 @@
               {
                 "titre": "La Lettre du Made in France, fichier daté du 2026-05-07",
                 "url": "https://www.institutmolinari.org/wp-content/uploads/2026/05/2026-05-07-LA-LETTRE-DU-MADE-IN-FRANCE.pdf"
+              }
+            ]
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "env-03",
+            "texte": "Baisser la facture d'électricité des ménages de l'équivalent de deux mois, et le coût de l'électricité pour les entreprises et les agriculteurs",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Europe 1, 2026-06-01",
+                "url": "https://www.europe1.fr/node/940817"
+              },
+              {
+                "titre": "ECOinfos, 2026-08-28",
+                "url": "https://www.les-energies-renouvelables.eu/article/actualites/energies/ce-que-chaque-candidat-a-la-presidentielle-veut-faire-a-votre-facture-electricite-1719/"
               }
             ]
           }
@@ -18584,6 +18831,30 @@
             ]
           },
           {
+            "candidat": "philippe-edouard",
+            "proposition": "secu-08",
+            "texte": "Voter une loi pour construire plus vite de nouvelles prisons",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Programme « Justice »",
+                "url": "https://www.edouardphilippe.fr/programme/justice"
+              }
+            ]
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "secu-02",
+            "texte": "Créer des prisons réservées aux courtes peines, prononcées dès le premier délit grave",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Europe 1, 2026-06-01",
+                "url": "https://www.europe1.fr/node/940817"
+              }
+            ]
+          },
+          {
             "candidat": "zemmour-eric",
             "proposition": "secu-04",
             "texte": "Construire rapidement 100 000 places de prison supplémentaires, supprimer la fonction de juge de l'application des peines et rétablir une législation spécifique contre les casseurs",
@@ -18614,7 +18885,24 @@
             ]
           }
         ],
-        "D": []
+        "D": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "secu-04",
+            "texte": "Donner plus de moyens à la prévention et à la réinsertion, et imposer une limite au nombre de détenus plutôt que construire des places de prison",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2025",
+                "url": "https://melenchon2027.fr/programme2025/livre/"
+              },
+              {
+                "titre": "relevé",
+                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              }
+            ]
+          }
+        ]
       },
       "D-immig-travail": {
         "A": [
@@ -18645,6 +18933,18 @@
                 "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
               }
             ]
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "immig-06",
+            "texte": "Fixer un nombre maximal d'étrangers autorisés à venir travailler en France",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Priorités « Sûre »",
+                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+              }
+            ]
           }
         ],
         "B": [
@@ -18657,6 +18957,22 @@
               {
                 "titre": "LCP, 2026-10-05",
                 "url": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat"
+              }
+            ]
+          },
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "immig-03",
+            "texte": "Faciliter la régularisation des étrangers qui vivent en France sans titre de séjour",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2025",
+                "url": "https://melenchon2027.fr/programme2025/livre/"
+              },
+              {
+                "titre": "relevé",
+                "url": "https://votons-2027.fr/candidats/melenchon/programme"
               }
             ]
           },
@@ -18731,9 +19047,29 @@
             ]
           },
           {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "europe-05",
+            "texte": "Rester dans l'Union européenne mais cesser d'appliquer celles de ses règles qui sont jugées incompatibles avec des engagements écologiques et sociaux",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2025",
+                "url": "https://melenchon2027.fr/programme2025/livre/"
+              },
+              {
+                "titre": "relevé",
+                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              },
+              {
+                "titre": "J.-L. Mélenchon, 2026-06-24",
+                "url": "https://x.com/JLMelenchon/status/2069836316183810338"
+              }
+            ]
+          },
+          {
             "candidat": "retailleau-bruno",
             "proposition": "europe-01",
-            "texte": "Changer la Constitution par référendum pour que le droit français prime sur le droit européen dans certaines situations, notamment en matière d'immigration et de sécurité, et permettre à une loi de revenir sur une jurisprudence européenne contraire aux intérêts fondamentaux",
+            "texte": "Changer la Constitution par référendum pour que le droit français passe avant le droit européen dans certains cas, notamment sur l'immigration et la sécurité",
             "texte_court": true,
             "sources": [
               {
@@ -18831,6 +19167,22 @@
                 "url": "https://www.unenouvelleenergie.fr/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan/"
               }
             ]
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "europe-03",
+            "texte": "Voter une loi pour que les armées aient plus de soldats, de réservistes, de munitions et de drones",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Priorités « Sûre »",
+                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+              },
+              {
+                "titre": "Programme « Défense »",
+                "url": "https://www.edouardphilippe.fr/programme/defense"
+              }
+            ]
           }
         ],
         "B": [
@@ -18880,10 +19232,44 @@
           }
         ],
         "C": [],
-        "D": []
+        "D": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "europe-02",
+            "texte": "Rechercher par la diplomatie un cessez-le-feu en Ukraine, le retrait de l'armée russe et l'ouverture de négociations de paix",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2025",
+                "url": "https://melenchon2027.fr/programme2025/livre/"
+              },
+              {
+                "titre": "relevé",
+                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              }
+            ]
+          }
+        ]
       },
       "D-educ-niveau": {
-        "A": [],
+        "A": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "educ-03",
+            "texte": "Réduire le nombre d'élèves par classe, en commençant par la maternelle et les établissements d'éducation prioritaire",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2025",
+                "url": "https://melenchon2027.fr/programme2025/livre/"
+              },
+              {
+                "titre": "relevé",
+                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              }
+            ]
+          }
+        ],
         "B": [
           {
             "candidat": "attal-gabriel",
@@ -18952,6 +19338,38 @@
                 "url": "https://brusselssignal.eu/2026/10/rn-sets-out-budget-plans-with-a-deficit-below-3-per-cent-and-e140-billion-in-savings/"
               }
             ]
+          },
+          {
+            "candidat": "philippe-edouard",
+            "proposition": "educ-01",
+            "texte": "Augmenter le salaire des enseignants de 20 % en moyenne d'ici la fin du mandat",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Priorités « Enfants »",
+                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+              },
+              {
+                "titre": "edouardphilippe.fr, L'école : questions-réponses, 2026-10-23",
+                "url": "https://www.edouardphilippe.fr/questions-reponses/ecoles"
+              },
+              {
+                "titre": "Programme « École »",
+                "url": "https://www.edouardphilippe.fr/programme/ecole"
+              }
+            ]
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "educ-01",
+            "texte": "Augmenter le salaire des enseignants pour le rapprocher de la moyenne européenne",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Public Sénat, 2026-08-31",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+              }
+            ]
           }
         ],
         "C": [
@@ -18985,6 +19403,18 @@
       },
       "D-sante-deserts": {
         "A": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "sante-07",
+            "texte": "Fixer des règles sur le lieu où les médecins peuvent s'installer, au lieu de les laisser choisir librement",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Plan Ruralité",
+                "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+              }
+            ]
+          },
           {
             "candidat": "tondelier-marine",
             "proposition": "sante-01",
@@ -19056,6 +19486,42 @@
                 "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
               }
             ]
+          },
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "instit-03",
+            "texte": "Permettre aux citoyens de déclencher eux-mêmes un référendum, y compris pour mettre fin au mandat d'un élu",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2025",
+                "url": "https://melenchon2027.fr/programme2025/livre/"
+              },
+              {
+                "titre": "relevé",
+                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              },
+              {
+                "titre": "Lettre au peuple de France, 2026-05-05",
+                "url": "https://melenchon.fr/wp-content/uploads/2026/05/LETTRE-AU-PEUPLE-DE-FRANCE-.pdf"
+              }
+            ]
+          },
+          {
+            "candidat": "retailleau-bruno",
+            "proposition": "instit-03",
+            "texte": "Abaisser à 2,5 millions le nombre de signatures de citoyens nécessaires pour qu'un référendum proposé par des parlementaires puisse avoir lieu",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Public Sénat, 2026-09-03",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-propose-une-revolution-copernicienne-dans-laquelle-la-constitution-ne-serait-plus-le-bouclier-qui-prote"
+              },
+              {
+                "titre": "Public Sénat, 2026-09-03 (réforme constitutionnelle)",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"
+              }
+            ]
           }
         ],
         "B": [
@@ -19113,38 +19579,8 @@
     "exclusions": [
       {
         "dilemme": "D-eco-dette",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "eco-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-eco-dette",
-        "candidat": "philippe-edouard",
-        "proposition": "eco-03",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-eco-dette",
-        "candidat": "retailleau-bruno",
-        "proposition": "eco-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-eco-dette",
         "candidat": "zemmour-eric",
         "proposition": "eco-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-eco-pouvoir-achat",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "social-02",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-eco-pouvoir-achat",
-        "candidat": "philippe-edouard",
-        "proposition": "social-04",
         "motif": "sans texte court"
       },
       {
@@ -19167,80 +19603,14 @@
       },
       {
         "dilemme": "D-social-retraites",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "eco-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-social-retraites",
-        "candidat": "philippe-edouard",
-        "proposition": "social-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-social-retraites",
-        "candidat": "retailleau-bruno",
-        "proposition": "social-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-social-retraites",
         "candidat": "zemmour-eric",
         "proposition": "social-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-social-chomage",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "social-02",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-social-chomage",
-        "candidat": "philippe-edouard",
-        "proposition": "social-03",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-social-chomage",
-        "candidat": "retailleau-bruno",
-        "proposition": "social-03",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-env-electricite",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "env-03",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-env-electricite",
-        "candidat": "philippe-edouard",
-        "proposition": "env-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-env-electricite",
-        "candidat": "retailleau-bruno",
-        "proposition": "env-01",
         "motif": "sans texte court"
       },
       {
         "dilemme": "D-env-electricite",
         "candidat": "zemmour-eric",
         "proposition": "env-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-env-rythme",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "env-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-env-rythme",
-        "candidat": "retailleau-bruno",
-        "proposition": "env-03",
         "motif": "sans texte court"
       },
       {
@@ -19269,50 +19639,14 @@
       },
       {
         "dilemme": "D-secu-budget",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "secu-04",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-secu-budget",
-        "candidat": "philippe-edouard",
-        "proposition": "secu-08",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-secu-budget",
-        "candidat": "retailleau-bruno",
-        "proposition": "secu-02",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-secu-budget",
         "candidat": "roussel-fabien",
         "proposition": "secu-02",
         "motif": "sans texte court"
       },
       {
         "dilemme": "D-immig-travail",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "immig-03",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-immig-travail",
-        "candidat": "philippe-edouard",
-        "proposition": "immig-06",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-immig-travail",
         "candidat": "tondelier-marine",
         "proposition": "immig-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-europe-regles",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "europe-05",
         "motif": "sans texte court"
       },
       {
@@ -19347,38 +19681,8 @@
       },
       {
         "dilemme": "D-europe-defense",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "europe-02",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-europe-defense",
-        "candidat": "philippe-edouard",
-        "proposition": "europe-03",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-europe-defense",
         "candidat": "roussel-fabien",
         "proposition": "europe-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-educ-niveau",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "educ-03",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-educ-niveau",
-        "candidat": "philippe-edouard",
-        "proposition": "educ-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-educ-niveau",
-        "candidat": "retailleau-bruno",
-        "proposition": "educ-01",
         "motif": "sans texte court"
       },
       {
@@ -19395,26 +19699,8 @@
       },
       {
         "dilemme": "D-sante-deserts",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "sante-07",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-sante-deserts",
         "candidat": "zemmour-eric",
         "proposition": "sante-02",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-instit-participation",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "instit-03",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-instit-participation",
-        "candidat": "retailleau-bruno",
-        "proposition": "instit-03",
         "motif": "sans texte court"
       },
       {
