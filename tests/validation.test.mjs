@@ -253,11 +253,18 @@ test('dilemmes : texte court trop long ou sans proposition', () => {
   assert.match(m, /« D-eco-dette » : texte court sans proposition/);
 });
 
-test('dilemmes : proposition trop longue sans texte court, avertissement seulement', () => {
+test('dilemmes : proposition sans texte court, avertissement seulement', () => {
   const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
-    .replace(/^\| eco-01 \| Baisse de l'IR \|/m, `| eco-01 | ${'Baisse de l\'IR '.repeat(25)} |`)));
+    .replace(/^\| D-social-retraites .*$/m, '| D-social-retraites | A | eco-01 | | Report à 65 ans | [prog](https://exemple.fr) |')));
   assert.equal(r.erreurs.length, 0, messages(r));
-  assert.match(r.avertissements.map((a) => a.message).join('\n'), /« D-social-retraites » : texte de « eco-01 » trop long pour les duels \(\d+ caractères\) : ajouter un texte court/);
+  assert.match(r.avertissements.map((a) => a.message).join('\n'), /« D-social-retraites » : pas de texte court pour « eco-01 » \(pas de duel à l'aveugle pour ce rattachement\)/);
+});
+
+test('dilemmes : texte court de plus de 200 caractères, avertissement seulement', () => {
+  const r = valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t
+    .replace(/^\| D-social-retraites .*$/m, `| D-social-retraites | A | eco-01 | ${'x'.repeat(201)} | Report à 65 ans | [prog](https://exemple.fr) |`)));
+  assert.equal(r.erreurs.length, 0, messages(r));
+  assert.match(r.avertissements.map((a) => a.message).join('\n'), /« D-social-retraites » : texte court de 201 caractères \(200 au plus\)/);
 });
 
 test('dilemmes : texte court valide', () => {

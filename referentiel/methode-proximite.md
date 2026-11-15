@@ -199,13 +199,17 @@ Chaque duel est précédé de son contexte : le thème et l'énoncé du dilemme 
 réponse que l'utilisateur a donnée à ce dilemme n'est pas rappelée, pour ne pas orienter son choix.
 
 Pour chaque dilemme, chaque candidat rattaché à une option est représenté par la proposition de
-sa fiche qui fonde ce rattachement (colonne `proposition` du tableau des dilemmes). Elle est
-montrée sans nom ni source, après le nettoyage décrit dans `referentiel/anonymisation.md`. Quand ce
-texte dépasse 300 caractères ou trahit son auteur, la fiche fournit un **texte court** : une
-reformulation neutre et fidèle de la même proposition, montrée à sa place. Un texte encore trop long
-ou reconnaissable est exclu, et le candidat ne participe pas à ce dilemme. Les
-réponses `aucune` et `pas de position` ne participent jamais. La liste des textes montrés et des
-exclusions est publiée dans `comparatifs/duels.md`.
+sa fiche qui fonde ce rattachement (colonne `proposition` du tableau des dilemmes). Ce qui est
+montré est son **texte court** : la même mesure dite en langage courant, en une phrase de 200
+caractères au plus, sans nom ni source, rédigée selon les règles de `referentiel/anonymisation.md`
+et relue comme le reste de la fiche. Un rattachement sans texte court, ou dont le texte court est
+trop long ou reconnaissable, ne participe pas aux duels. Les réponses `aucune` et `pas de position`
+ne participent jamais. La liste des textes montrés et des exclusions est publiée dans
+`comparatifs/duels.md`.
+
+Quand une mesure contient un terme de `referentiel/glossaire.md` (« dette publique », « TVA »…), sa
+définition est affichée dessous : la même pour tous les candidats, une seule par mesure (le premier
+terme rencontré dans le texte).
 
 ### Choix des duels
 1. Un dilemme donne un duel si l'utilisateur y a choisi une option X (pas « sans avis »), si au
@@ -310,6 +314,6 @@ revanche que Y rejoint l'utilisateur sur les retraites, que X ne rejoint pas.
 - Les voisinages entre options sont un choix éditorial, publié et identique pour tous.
 - Un programme peut évoluer pendant la campagne : la date de mise à jour de chaque fiche est
   affichée avec le résultat.
-- Les duels reposent sur un nettoyage automatique des textes, qui ne garantit pas l'anonymat ; les
-  textes courts sont des reformulations, relues comme le reste de la fiche. Un candidat peu
-  renseigné dans les dilemmes apparaît moins souvent dans les duels.
+- Les textes des duels sont des reformulations en langage courant : fidèles à la proposition et
+  relues comme le reste de la fiche, elles restent une interprétation, et l'anonymat n'est pas garanti.
+  Un candidat peu renseigné dans les dilemmes apparaît moins souvent dans les duels.

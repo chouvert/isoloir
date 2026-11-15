@@ -5,6 +5,8 @@ import { join } from 'node:path';
 import { normaliser, lireTableaux, trouverTableau } from './markdown.mjs';
 
 export const MAX_CARACTERES = 300;
+/** Longueur visée d'un texte court (langage courant) ; au-delà, avertissement tant que les fiches ne sont pas toutes reprises. */
+export const MAX_TEXTE_COURT = 200;
 
 /** Retire les passages entre délimiteurs, en partant des plus intérieurs ; un délimiteur non fermé coupe le reste. */
 function retirerEntre(texte, ouvrant, fermant) {

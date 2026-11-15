@@ -17895,26 +17895,6 @@
       "D-eco-dette": {
         "A": [
           {
-            "candidat": "attal-gabriel",
-            "proposition": "eco-01",
-            "texte": "Plan d'économies sans hausse d'impôts, ouvert par un frein d'urgence dès l'élection pour stopper l'hémorragie ; deux tiers des économies sur les dépenses sociales, jugées hors de contrôle",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "attalpresident.fr, lettre aux Français, 2026-10-15",
-                "url": "https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques"
-              },
-              {
-                "titre": "La Gazette France (AFP), 2026-10-15",
-                "url": "https://www.lagazettefrance.fr/article/presidentielle-attal-pour-une-coalition-des-democrates"
-              },
-              {
-                "titre": "MoneyVox (AFP), 2026-07-03",
-                "url": "https://www.moneyvox.fr/impot/actualites/109548/attal-veut-100-000-departs-volontaires-de-fonctionnaires-et-impunite-budgetaire-zero"
-              }
-            ]
-          },
-          {
             "candidat": "dupont-aignan-nicolas",
             "proposition": "eco-07",
             "texte": "Plan de redressement de 140 milliards d'euros par an en fin de quinquennat : 100 milliards d'économies et 40 milliards de recettes nouvelles",
@@ -17929,110 +17909,9 @@
                 "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
               }
             ]
-          },
-          {
-            "candidat": "le-pen-marine",
-            "proposition": "eco-01",
-            "texte": "Réaliser 140 Md€ d'économies nettes, surtout les trois premières années : équilibre primaire en 18 mois, déficit sous 3 % du PIB en 2030 et sous 2,5 % en 2032, dépenses publiques sous 50 % du PIB, dette à 112 % du PIB en 2032",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2026-10-06",
-                "url": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f"
-              },
-              {
-                "titre": "Brussels Signal, 2026-10-06",
-                "url": "https://brusselssignal.eu/2026/10/rn-sets-out-budget-plans-with-a-deficit-below-3-per-cent-and-e140-billion-in-savings/"
-              }
-            ]
-          },
-          {
-            "candidat": "lisnard-david",
-            "proposition": "eco-01",
-            "texte": "Baisser la dépense publique : 200 milliards d’euros de baisse de la dépense publique documentés, objectif de 300 Md€ ; Mon objectif, sur dix ans, consiste à ramener notre dépense publique au niveau actuel des Pays-Bas",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "NE, FAQ, 2026-10-16",
-                "url": "https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/"
-              },
-              {
-                "titre": "L'Essentiel de l'Éco, 2026-10-21",
-                "url": "https://lessentieldeleco.fr/8893-david-lisnard-la-surprise-de-la-course-a-lelysee/"
-              },
-              {
-                "titre": "Europe 1, 2026-05-27",
-                "url": "https://www.europe1.fr/politique/aujourdhui-en-france-on-depouille-les-actifs-au-profit-des-inactifs-denonce-david-lisnard-938960"
-              },
-              {
-                "titre": "JDNews, 2026-10-15",
-                "url": "https://www.unenouvelleenergie.fr/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan/"
-              }
-            ]
-          },
-          {
-            "candidat": "philippe-edouard",
-            "proposition": "eco-03",
-            "texte": "Ramener le déficit public de plus de 5 % à 2 % du PIB : effort sur les dépenses sociales, l'État et les collectivités, et la croissance",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Priorités « Prospère »",
-                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
-              },
-              {
-                "titre": "Programme « Finances publiques »",
-                "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
-              }
-            ]
-          },
-          {
-            "candidat": "retailleau-bruno",
-            "proposition": "eco-01",
-            "texte": "Plan d'économies de 197 Md€ sans augmentation d'impôts : État 96 Md€, social 91 Md€, collectivités 10 Md€ ; 146 Md€ pour réduire la dépense et la dette, 51 Md€ d'allègements ; déficit sous 3 % du PIB en 2031 et à 2,2 % en 2032",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "LCP (AFP), 2026-10-12",
-                "url": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de"
-              },
-              {
-                "titre": "Public Sénat, 2026-10-12",
-                "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
-              }
-            ]
-          },
-          {
-            "candidat": "zemmour-eric",
-            "proposition": "eco-01",
-            "texte": "Baisser les dépenses publiques d'au moins 100 Md€ par an",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Europe 1, 2026-05-19",
-                "url": "https://www.europe1.fr/societe/la-france-en-face-les-francais-se-sont-appauvris-constate-eric-zemmour-936431"
-              },
-              {
-                "titre": "Europe 1, 2026-05-19, direct",
-                "url": "https://www.europe1.fr/politique/en-direct-immigration-pouvoir-dachat-narcotrafic-ce-quil-faut-retenir-de-linterview-deric-zemmour-dans-la-france-en-face-936419"
-              }
-            ]
           }
         ],
-        "B": [
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "eco-01",
-            "texte": "Rétablir un ISF renforcé",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Budget 2027, p. 13",
-                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-              }
-            ]
-          }
-        ],
+        "B": [],
         "C": [
           {
             "candidat": "tondelier-marine",
@@ -18052,18 +17931,6 @@
       "D-eco-pouvoir-achat": {
         "A": [
           {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "social-02",
-            "texte": "Porter le SMIC à 1 700 € net",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Budget 2027, p. 9",
-                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-              }
-            ]
-          },
-          {
             "candidat": "ruffin-francois",
             "proposition": "social-01",
             "texte": "Porter le SMIC à 1 700 euros nets par mois, indexer les salaires sur l'inflation comme jusqu'en 1982 et revaloriser les grilles de classification pour que les minima atteignent au moins le SMIC",
@@ -18078,109 +17945,9 @@
                 "url": "https://www.lyoncapitale.fr/?p=495954"
               }
             ]
-          },
-          {
-            "candidat": "tondelier-marine",
-            "proposition": "social-01",
-            "texte": "Augmenter le SMIC et mettre en place une indexation des bas salaires sur l'inflation ; Passer le salaire minimum à 2000€ brut par mois dès 2027, avec des dispositifs de soutien aux TPE, PME et associations",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "marinetondelier.fr, 21 priorités, 2026-04-17",
-                "url": "https://marinetondelier.fr/blog/21-priorites-gouverner-ensemble-demain"
-              },
-              {
-                "titre": "P, juillet 2026, p. 56",
-                "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
-              }
-            ]
           }
         ],
         "B": [
-          {
-            "candidat": "attal-gabriel",
-            "proposition": "social-04",
-            "texte": "un choc des salaires : réduire les charges pour rapprocher le net du brut, en réduisant les charges salariales pour faire monter le salaire net ; financement non précisé",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2026-05-30",
-                "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
-              },
-              {
-                "titre": "attalpresident.fr, « Travail & salaires »",
-                "url": "https://attalpresident.fr/programme/travail-salaires"
-              }
-            ]
-          },
-          {
-            "candidat": "glucksmann-raphael",
-            "proposition": "eco-02",
-            "texte": "Baisser la CSG sur les salaires pour rapprocher le salaire net du salaire brut, financé par la taxe sur les méga héritages : Nous augmenterons la rémunération nette des travailleurs français et nous le financerons en taxant les méga héritages",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "LCP, 2026-10-09",
-                "url": "https://lcp.fr/actualites/glucksmann-faure-royal-maurel-guedj-quelles-differences-entre-les-candidats-a-la"
-              },
-              {
-                "titre": "Public Sénat, 2026-08-24",
-                "url": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
-              },
-              {
-                "titre": "LCP, 2026-10-05",
-                "url": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat"
-              },
-              {
-                "titre": "Les Nouvelles Calédoniennes (AFP), 2026-08-24",
-                "url": "https://www.lnc.nc/article/presidentielle-l-eurodepute-de-centre-gauche-glucksmann-officialise-sa-candidature"
-              },
-              {
-                "titre": "LCP, 2026-08-27",
-                "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670"
-              }
-            ]
-          },
-          {
-            "candidat": "lisnard-david",
-            "proposition": "eco-02",
-            "texte": "Rendre aux actifs, en salaire net, une partie des économies par la baisse des cotisations et l'alignement de la CSG des actifs sur celle des inactifs ; baisse durable des charges entre 2 et 4 SMIC",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "NE, FAQ, 2026-10-16",
-                "url": "https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/"
-              },
-              {
-                "titre": "JDNews, 2026-10-15",
-                "url": "https://www.unenouvelleenergie.fr/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan/"
-              },
-              {
-                "titre": "La Lettre du Made in France, fichier daté du 2026-05-07",
-                "url": "https://www.institutmolinari.org/wp-content/uploads/2026/05/2026-05-07-LA-LETTRE-DU-MADE-IN-FRANCE.pdf"
-              },
-              {
-                "titre": "Europe 1, Objectif Élysée 2027, 2026-10-27",
-                "url": "https://www.europe1.fr/politique/en-direct-emeutes-parcoursup-primaire-a-droite-ce-quil-faut-retenir-de-linterview-de-david-lisnard-dans-objectif-elysee-2027-1186743"
-              }
-            ]
-          },
-          {
-            "candidat": "philippe-edouard",
-            "proposition": "social-04",
-            "texte": "Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures ; le programme présente la mesure sous la priorité Financer la protection sociale autrement que par le travail, pour augmenter le salaire net.",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Priorités « Prospère »",
-                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
-              },
-              {
-                "titre": "Programme « Travail et salaires »",
-                "url": "https://www.edouardphilippe.fr/programme/travail"
-              }
-            ]
-          },
           {
             "candidat": "retailleau-bruno",
             "proposition": "social-05",
@@ -18206,76 +17973,7 @@
             ]
           }
         ],
-        "C": [
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "eco-02",
-            "texte": "Baisser de 40 centimes le prix des carburants : suppression des certificats d'économies d'énergie, suppression de la TVA sur l'accise, plafonnement des marges des raffineurs",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Livret, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
-              },
-              {
-                "titre": "Cahier rouge, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
-              }
-            ]
-          },
-          {
-            "candidat": "le-pen-marine",
-            "proposition": "eco-04",
-            "texte": "Ramener la TVA de 20 % à 5,5 % sur l'électricité, le gaz et les carburants",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Orange Actu, 2026-09-21",
-                "url": "https://actu.orange.fr/question-du-jour-2026-09-21-CNT000002s0few.html"
-              },
-              {
-                "titre": "ECOinfos, 2026-08-28",
-                "url": "https://www.les-energies-renouvelables.eu/article/actualites/energies/ce-que-chaque-candidat-a-la-presidentielle-veut-faire-a-votre-facture-electricite-1719/"
-              },
-              {
-                "titre": "Brussels Signal, 2026-09-14",
-                "url": "https://brusselssignal.eu/2026/09/le-pen-puts-housing-and-national-priority-at-centre-of-campaign-launch/"
-              }
-            ]
-          },
-          {
-            "candidat": "roussel-fabien",
-            "proposition": "eco-02",
-            "texte": "Carburants : supprimer tout de suite les certificats d'économie d'énergie qu'ils ont mis sur le litre d'essence depuis le 1er janvier ; baisser la TVA sur les carburants de 20% à 5,5% ; obliger TotalEnergies à réduire ses marges",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "La Gazette France (AFP), 2026-09-11",
-                "url": "https://www.lagazettefrance.fr/article/prix-de-l-energie-roussel-pcf-appelle-a-se-mobiliser-sur-les-ronds-points"
-              },
-              {
-                "titre": "Connaissance des énergies (AFP), 2026-09-11",
-                "url": "https://www.connaissancedesenergies.org/afp/prix-de-lenergie-roussel-pcf-appelle-a-se-mobiliser-sur-les-ronds-points-260911"
-              },
-              {
-                "titre": "Connaissance des énergies (AFP), 2026-09-19",
-                "url": "https://www.connaissancedesenergies.org/afp/carburants-sur-un-peage-dautoroute-fabien-roussel-pcf-appelle-a-la-mobilisation-260919"
-              }
-            ]
-          },
-          {
-            "candidat": "zemmour-eric",
-            "proposition": "eco-03",
-            "texte": "Baisser d'un tiers l'accise sur les carburants, financée par des économies",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Europe 1, 2026-05-19, direct",
-                "url": "https://www.europe1.fr/politique/en-direct-immigration-pouvoir-dachat-narcotrafic-ce-quil-faut-retenir-de-linterview-deric-zemmour-dans-la-france-en-face-936419"
-              }
-            ]
-          }
-        ],
+        "C": [],
         "D": [
           {
             "candidat": "batho-delphine",
@@ -18292,72 +17990,7 @@
         ]
       },
       "D-social-retraites": {
-        "A": [
-          {
-            "candidat": "lisnard-david",
-            "proposition": "social-01",
-            "texte": "Âge légal de 65 ans : la norme de l'âge légal de 65 ans est un impératif national urgent pour des raisons d'équilibre financier",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "NE, « Réussir »",
-                "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
-              }
-            ]
-          },
-          {
-            "candidat": "philippe-edouard",
-            "proposition": "social-01",
-            "texte": "Porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans, sans hausse des cotisations ni baisse générale des pensions ; départs anticipés maintenus pour raisons de santé et pour carrières longues ; critères de pénibilité négociés avec les partenaires sociaux",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Priorités « Prospère »",
-                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
-              },
-              {
-                "titre": "Programme « Retraites »",
-                "url": "https://www.edouardphilippe.fr/programme/retraites"
-              },
-              {
-                "titre": "LCP, 2026-09-29",
-                "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de"
-              },
-              {
-                "titre": "La Gazette France (AFP), 2026-09-29",
-                "url": "https://www.lagazettefrance.fr/article/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-devoile-son-projet-de-reforme-des-retraites"
-              }
-            ]
-          },
-          {
-            "candidat": "retailleau-bruno",
-            "proposition": "social-01",
-            "texte": "Âge minimal de départ à 63 ans avec une décote de 7 % par an ; taux plein automatique à 65 ans au lieu de 67, même sans tous les trimestres ; départ à taux plein à 63 ans pour les carrières longues complètes ; prise en compte du handicap, de la pénibilité et de l'usure professionnelle",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "LCP, 2026-09-23",
-                "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65"
-              },
-              {
-                "titre": "Public Sénat, 2026-10-12",
-                "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
-              }
-            ]
-          },
-          {
-            "candidat": "zemmour-eric",
-            "proposition": "social-01",
-            "texte": "Allonger la durée de cotisation pour la retraite, en excluant de diminuer la retraite des gens",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Europe 1, 2026-05-19",
-                "url": "https://www.europe1.fr/politique/la-france-en-face-on-va-etre-oblige-de-travailler-plus-longtemps-declare-eric-zemmour-936434"
-              }
-            ]
-          }
-        ],
+        "A": [],
         "B": [
           {
             "candidat": "tondelier-marine",
@@ -18372,139 +18005,12 @@
             ]
           }
         ],
-        "C": [
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "eco-01",
-            "texte": "Rétablir un ISF renforcé",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Budget 2027, p. 13",
-                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-              }
-            ]
-          }
-        ],
-        "D": [
-          {
-            "candidat": "attal-gabriel",
-            "proposition": "social-02",
-            "texte": "Introduire une part de capitalisation : 1 000 € versés par l'État à la naissance de chaque enfant sur un plan d'épargne retraite que les parents et grands-parents pourraient abonder jusqu'aux 18 ans de l'enfant ; mesure annoncée en novembre 2025 comme amendement au PLF",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "attalpresident.fr, Assises de l'AFER, 2026-09-29",
-                "url": "https://attalpresident.fr/actualites/aux-assises-de-l-afer-gabriel-attal-defend-une-epargne-qui-finance-l-economie-francaise"
-              },
-              {
-                "titre": "Public Sénat, 2026-05-30",
-                "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
-              },
-              {
-                "titre": "LCP, 2025-11-10",
-                "url": "https://lcp.fr/actualites/retraites-avant-le-debat-sur-la-suspension-de-la-reforme-gabriel-attal-prone-une"
-              },
-              {
-                "titre": "France Épargne, Assises de l'AFER",
-                "url": "https://www.france-epargne.fr/news/assurance-vie-aux-assises-de-lafer-sept-camps-presidentiels-promettent-le-statu-quo-fiscal"
-              }
-            ]
-          },
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "social-02",
-            "texte": "Doter chaque nouveau-né français d'un capital de 10 000 euros qui sera bloqué jusqu'à sa retraite, géré par un fonds public de capitalisation : à 60 ans, un complément de retraite par capitalisation d'au moins 400 euros par mois",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Livret, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
-              }
-            ]
-          },
-          {
-            "candidat": "le-pen-marine",
-            "proposition": "social-02",
-            "texte": "Créer un véritable pilier de capitalisation dans le système de retraite",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Brussels Signal, 2026-10-06",
-                "url": "https://brusselssignal.eu/2026/10/rn-sets-out-budget-plans-with-a-deficit-below-3-per-cent-and-e140-billion-in-savings/"
-              },
-              {
-                "titre": "Sud Radio, 2026-10-06",
-                "url": "https://www.sudradio.fr/societe/presidentielle-en-quete-de-credibilite-budgetaire-le-pen-promet-un-effort-radical-de-140-milliards-net"
-              }
-            ]
-          }
-        ]
+        "C": [],
+        "D": []
       },
       "D-social-chomage": {
-        "A": [
-          {
-            "candidat": "attal-gabriel",
-            "proposition": "social-05",
-            "texte": "Reprendre la réforme de l'assurance chômage engagée en 2024 et bloquée par la dissolution, qui créerait 100 000 emplois supplémentaires ; elle réduisait la durée d'indemnisation de 18 à 15 mois",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "attalpresident.fr, « Dette de l'État »",
-                "url": "https://attalpresident.fr/programme/dette-de-letat"
-              },
-              {
-                "titre": "attalpresident.fr, « Travail & salaires »",
-                "url": "https://attalpresident.fr/programme/travail-salaires"
-              },
-              {
-                "titre": "Public Sénat, 2024-07-02",
-                "url": "https://www.publicsenat.fr/actualites/politique/pourquoi-le-gouvernement-a-suspendu-la-reforme-de-lassurance-chomage"
-              }
-            ]
-          },
-          {
-            "candidat": "philippe-edouard",
-            "proposition": "social-03",
-            "texte": "Limiter l'indemnisation chômage à 12 mois pour les moins de 50 ans, contre 18 mois aujourd’hui",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Priorités « Prospère »",
-                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
-              },
-              {
-                "titre": "Programme « Travail et salaires »",
-                "url": "https://www.edouardphilippe.fr/programme/travail"
-              }
-            ]
-          },
-          {
-            "candidat": "retailleau-bruno",
-            "proposition": "social-03",
-            "texte": "Aligner les modalités des allocations chômage sur les standards européens",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2026-10-12",
-                "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
-              }
-            ]
-          }
-        ],
+        "A": [],
         "B": [
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "social-08",
-            "texte": "Donner accès à un crédit d'études ou de formations pour les jeunes ayant quitté tôt l'école",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Cahier rouge, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
-              }
-            ]
-          },
           {
             "candidat": "tondelier-marine",
             "proposition": "social-07",
@@ -18519,18 +18025,6 @@
           }
         ],
         "C": [
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "social-02",
-            "texte": "Porter le SMIC à 1 700 € net",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Budget 2027, p. 9",
-                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-              }
-            ]
-          },
           {
             "candidat": "ruffin-francois",
             "proposition": "social-02",
@@ -18549,30 +18043,6 @@
       "D-env-electricite": {
         "A": [
           {
-            "candidat": "attal-gabriel",
-            "proposition": "env-01",
-            "texte": "Construire 14 nouveaux réacteurs nucléaires, à terme un par an",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Lyon Mag, 2026-10-10",
-                "url": "https://www.lyonmag.com/article/154267/presidentielle-2027-a-lyon-gabriel-attal-devoile-son-pacte-pour-la-jeunesse-et-cible-jean-luc-melenchon"
-              }
-            ]
-          },
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "env-01",
-            "texte": "Accélérer la construction des EPR2 et le déploiement des petits réacteurs modulaires pour remplacer les centrales en fin de vie, lancer un programme de recherche sur les réacteurs à neutrons rapides, rénover les barrages hydroélectriques maintenus à EDF",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Livret, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
-              }
-            ]
-          },
-          {
             "candidat": "le-pen-marine",
             "proposition": "env-02",
             "texte": "Mix électrique à 60 % nucléaire et 40 % renouvelable en 2050, en s'appuyant d'abord sur le nucléaire",
@@ -18587,78 +18057,9 @@
                 "url": "https://www.europe1.fr/politique/energie-les-deputes-approuvent-une-relance-massive-du-nucleaire-760053"
               }
             ]
-          },
-          {
-            "candidat": "lisnard-david",
-            "proposition": "env-01",
-            "texte": "Nucléaire : prolongation de la durée de vie des réacteurs jusqu'à 60 ans, construction d'EPR de nouvelle génération, déploiement de mini-réacteurs nucléaires, recherche sur le traitement des déchets par laser",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "NE, « Générer »",
-                "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/"
-              }
-            ]
-          },
-          {
-            "candidat": "philippe-edouard",
-            "proposition": "env-01",
-            "texte": "Lancer 8 EPR supplémentaires, soit 14 au total ; Relancer le nucléaire et développer les renouvelables là où elles sont efficaces.",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Priorités « Conquérante »",
-                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
-              },
-              {
-                "titre": "Programme « Énergie »",
-                "url": "https://www.edouardphilippe.fr/programme/energie"
-              }
-            ]
-          },
-          {
-            "candidat": "retailleau-bruno",
-            "proposition": "env-01",
-            "texte": "Stratégie énergétique fondée en priorité sur le nucléaire, les renouvelables ne venant qu'en complément",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "ECOinfos, 2026-08-28",
-                "url": "https://www.les-energies-renouvelables.eu/article/actualites/energies/ce-que-chaque-candidat-a-la-presidentielle-veut-faire-a-votre-facture-electricite-1719/"
-              }
-            ]
-          },
-          {
-            "candidat": "zemmour-eric",
-            "proposition": "env-01",
-            "texte": "Relancer le nucléaire : six EPR d'ici 2035, quatorze d'ici 2045 ; l'électricité française cessera d'être bradée",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Europe 1, 2026-09-13",
-                "url": "https://www.europe1.fr/politique/presidentielle-2027-eric-zemmour-appelle-a-un-vote-du-sursaut-lors-de-son-discours-de-rentree-1075178"
-              }
-            ]
           }
         ],
-        "B": [
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "env-03",
-            "texte": "Sortir du nucléaire : abandon des projets d'EPR, planification du démantèlement",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
-              }
-            ]
-          }
-        ],
+        "B": [],
         "C": [],
         "D": [
           {
@@ -18690,22 +18091,6 @@
       "D-env-rythme": {
         "A": [
           {
-            "candidat": "attal-gabriel",
-            "proposition": "env-03",
-            "texte": "tripler notre rythme annuel de réduction des émissions, de 1,8 % à 5 % par an ; baisser de moitié les émissions de gaz à effet de serre dans les dix ans à venir",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "attalpresident.fr, « Dette écologique »",
-                "url": "https://attalpresident.fr/programme/dette-ecologique"
-              },
-              {
-                "titre": "DH (AFP), 2026-05-30",
-                "url": "https://www.dhnet.be/dernieres-depeches/2026/05/30/presidentielle-en-meeting-attal-vante-sa-force-dagir-et-expose-sa-promesse-francaise-U2TTRNIMBNBTFDJKTXRIT5IHE4/"
-              }
-            ]
-          },
-          {
             "candidat": "batho-delphine",
             "proposition": "env-01",
             "texte": "Diviser par deux la consommation d'énergie, en débattant des besoins avant de produire, qu'il s'agisse des écrans publicitaires, des data centers ou de la 6G ; développer les boucles locales d'énergie partagée et l'autoconsommation collective",
@@ -18718,159 +18103,9 @@
             ]
           }
         ],
-        "B": [
-          {
-            "candidat": "glucksmann-raphael",
-            "proposition": "env-05",
-            "texte": "Financer la transition par une taxe européenne sur les superprofits pétroliers et gaziers, une nouvelle fiscalité aérienne et sur la consommation ostentatoire, la suppression de l'exonération de kérosène sur les vols intérieurs et un grand emprunt écologique européen",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2026-11-09",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
-              }
-            ]
-          },
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "env-01",
-            "texte": "Réduire de 65 % les émissions de gaz à effet de serre en 2033, avec un bilan annuel public",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "LCP, 2026-11-06",
-                "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
-              },
-              {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
-              }
-            ]
-          },
-          {
-            "candidat": "ruffin-francois",
-            "proposition": "eco-01",
-            "texte": "Mise en place d'une taxe de 4% sur les dividendes des entreprises pour financer la transition écologique, 2 % pour les entreprises versant moins de 10 M€ de dividendes ; mesure à soumettre par référendum",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "C05, 2026-09-09",
-                "url": "https://nouspresident.fr/travaillisme-ecologique/"
-              }
-            ]
-          },
-          {
-            "candidat": "tondelier-marine",
-            "proposition": "env-03",
-            "texte": "une fiscalité sur les entreprises fossiles et les ménages les plus émetteurs en carbone ; Supprimer progressivement les niches fiscales qui favorisent les énergies fossiles ; taxe exceptionnelle sur les superprofits pétrogaziers",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "P, juillet 2026, p. 17, 19 et 67",
-                "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
-              }
-            ]
-          }
-        ],
+        "B": [],
         "C": [],
-        "D": [
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "env-03",
-            "texte": "Supprimer l'interdiction du moteur thermique en 2035, supprimer les ZFE et le seuil minimal de DPE pour louer un logement, diviser par deux les normes administratives des entreprises",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Livret, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
-              },
-              {
-                "titre": "Debout la France, discours du 2025-03-08",
-                "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
-              }
-            ]
-          },
-          {
-            "candidat": "le-pen-marine",
-            "proposition": "env-04",
-            "texte": "Supprimer le zéro artificialisation nette ; réduire le DPE à un simple élément indicatif",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Sud Radio (AFP), 2026-09-13, veille du discours",
-                "url": "https://www.sudradio.fr/societe/le-pen-a-henin-beaumont-pour-reprendre-le-fil-dune-campagne-a-deux-visages"
-              },
-              {
-                "titre": "Sud Radio (AFP), 2026-09-13",
-                "url": "https://www.sudradio.fr/societe/le-pen-veut-mettre-la-priorite-nationale-au-centre-dun-grand-chantier-sur-le-logement"
-              }
-            ]
-          },
-          {
-            "candidat": "lisnard-david",
-            "proposition": "eco-07",
-            "texte": "Moratoire de trois ans sur les nouvelles normes ; Nous supprimerons le seuil de 50 salariés ; réécriture des codes du travail, de l'urbanisme et de la commande publique",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "La Lettre du Made in France, fichier daté du 2026-05-07",
-                "url": "https://www.institutmolinari.org/wp-content/uploads/2026/05/2026-05-07-LA-LETTRE-DU-MADE-IN-FRANCE.pdf"
-              }
-            ]
-          },
-          {
-            "candidat": "retailleau-bruno",
-            "proposition": "env-03",
-            "texte": "Baisser la facture d'électricité : Je propose d'alléger de deux mois la facture d'électricité des Français ; baisse de 10 % pour la compétitivité des entreprises et des exploitations agricoles",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Europe 1, 2026-06-01",
-                "url": "https://www.europe1.fr/node/940817"
-              },
-              {
-                "titre": "ECOinfos, 2026-08-28",
-                "url": "https://www.les-energies-renouvelables.eu/article/actualites/energies/ce-que-chaque-candidat-a-la-presidentielle-veut-faire-a-votre-facture-electricite-1719/"
-              }
-            ]
-          },
-          {
-            "candidat": "roussel-fabien",
-            "proposition": "eco-02",
-            "texte": "Carburants : supprimer tout de suite les certificats d'économie d'énergie qu'ils ont mis sur le litre d'essence depuis le 1er janvier ; baisser la TVA sur les carburants de 20% à 5,5% ; obliger TotalEnergies à réduire ses marges",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "La Gazette France (AFP), 2026-09-11",
-                "url": "https://www.lagazettefrance.fr/article/prix-de-l-energie-roussel-pcf-appelle-a-se-mobiliser-sur-les-ronds-points"
-              },
-              {
-                "titre": "Connaissance des énergies (AFP), 2026-09-11",
-                "url": "https://www.connaissancedesenergies.org/afp/prix-de-lenergie-roussel-pcf-appelle-a-se-mobiliser-sur-les-ronds-points-260911"
-              },
-              {
-                "titre": "Connaissance des énergies (AFP), 2026-09-19",
-                "url": "https://www.connaissancedesenergies.org/afp/carburants-sur-un-peage-dautoroute-fabien-roussel-pcf-appelle-a-la-mobilisation-260919"
-              }
-            ]
-          },
-          {
-            "candidat": "zemmour-eric",
-            "proposition": "env-03",
-            "texte": "Supprimer l'interdiction de la vente de véhicules thermiques à l'horizon 2035",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Reconquête, programme européennes 2024, p. 13",
-                "url": "https://ojim.fr/wp-content/uploads/2024/06/Programme-Reconque%CC%82te-Europe%CC%81ennes-2024.pdf"
-              }
-            ]
-          }
-        ]
+        "D": []
       },
       "D-secu-budget": {
         "A": [
@@ -18887,18 +18122,6 @@
               {
                 "titre": "NE, sécurité",
                 "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/"
-              }
-            ]
-          },
-          {
-            "candidat": "roussel-fabien",
-            "proposition": "secu-02",
-            "texte": "60 000 recrutements supplémentaires dans la police, la gendarmerie et les douanes ; refus que les polices municipales remplacent la police nationale ; interdiction des lanceurs de balle de défense",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2026-11-12",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
               }
             ]
           },
@@ -18921,42 +18144,6 @@
         ],
         "B": [
           {
-            "candidat": "attal-gabriel",
-            "proposition": "secu-06",
-            "texte": "Faciliter l'implantation de prisons : obligations de logement social allégées pour les communes volontaires, possibilité pour le préfet de passer outre l'accord des élus locaux",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Europe 1 (AFP), 2026-06-12",
-                "url": "https://www.europe1.fr/node/952973"
-              }
-            ]
-          },
-          {
-            "candidat": "philippe-edouard",
-            "proposition": "secu-08",
-            "texte": "Une loi d’accélération de la construction de prisons.",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Programme « Justice »",
-                "url": "https://www.edouardphilippe.fr/programme/justice"
-              }
-            ]
-          },
-          {
-            "candidat": "retailleau-bruno",
-            "proposition": "secu-02",
-            "texte": "Courtes peines dès le premier délit grave, dans des prisons spécifiques qui couteront moins chères",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Europe 1, 2026-06-01",
-                "url": "https://www.europe1.fr/node/940817"
-              }
-            ]
-          },
-          {
             "candidat": "zemmour-eric",
             "proposition": "secu-04",
             "texte": "Construire rapidement 100 000 places de prison supplémentaires, supprimer la fonction de juge de l'application des peines et rétablir une législation spécifique contre les casseurs",
@@ -18969,57 +18156,11 @@
             ]
           }
         ],
-        "C": [
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "secu-01",
-            "texte": "Doubler la dépense moyenne par habitant consacrée à la justice et augmenter le nombre de magistrats et de greffiers ; faire passer le budget de la justice de 10,1 milliards à 15 milliards",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Cahier rouge, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
-              },
-              {
-                "titre": "Debout la France, Justice",
-                "url": "https://www.debout-la-france.fr/projet/justice/"
-              }
-            ]
-          }
-        ],
-        "D": [
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "secu-04",
-            "texte": "Instaurer une régulation carcérale contraignante et des moyens de réinsertion",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
-              }
-            ]
-          }
-        ]
+        "C": [],
+        "D": []
       },
       "D-immig-travail": {
         "A": [
-          {
-            "candidat": "attal-gabriel",
-            "proposition": "immig-02",
-            "texte": "la préférence travail : priorité à l'immigration économique, avec un système à points comme au Canada",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "attalpresident.fr, « Frontières »",
-                "url": "https://attalpresident.fr/programme/frontieres"
-              }
-            ]
-          },
           {
             "candidat": "lisnard-david",
             "proposition": "immig-07",
@@ -19035,49 +18176,9 @@
                 "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
               }
             ]
-          },
-          {
-            "candidat": "philippe-edouard",
-            "proposition": "immig-06",
-            "texte": "Fixer des quotas pour l'immigration économique",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Priorités « Sûre »",
-                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
-              }
-            ]
           }
         ],
         "B": [
-          {
-            "candidat": "glucksmann-raphael",
-            "proposition": "immig-02",
-            "texte": "Régulariser les travailleurs sans papiers : Nous le ferons et ce sera populaire",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "LCP, 2026-10-05",
-                "url": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat"
-              }
-            ]
-          },
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "immig-03",
-            "texte": "Faciliter les visas et les régularisations ; carte de séjour de dix ans comme titre de référence",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
-              }
-            ]
-          },
           {
             "candidat": "ruffin-francois",
             "proposition": "immig-01",
@@ -19093,125 +18194,15 @@
                 "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-limmigration-nouveau-clivage-a-gauche"
               }
             ]
-          },
-          {
-            "candidat": "tondelier-marine",
-            "proposition": "immig-01",
-            "texte": "Régulariser les travailleurs et les travailleuses sans papiers et accorder des titres de séjours pluriannuels automatiquement renouvelables ; programme : régulariser travailleurs, étudiants et parents d'enfants scolarisés selon des critères objectifs",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "marinetondelier.fr, 21 priorités, 2026-04-17",
-                "url": "https://marinetondelier.fr/blog/21-priorites-gouverner-ensemble-demain"
-              },
-              {
-                "titre": "La Gazette France (AFP), 2026-04-17",
-                "url": "https://www.lagazettefrance.fr/article/presidentielle-tondelier-propose-un-socle-programmatique-aux-autres-partis-de-gauche"
-              },
-              {
-                "titre": "P, juillet 2026, p. 179",
-                "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
-              }
-            ]
           }
         ],
-        "C": [
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "social-06",
-            "texte": "Proposer à chaque jeune sans diplôme une formation qualifiante intensive aux métiers manuels, du numérique ou des secteurs en demande, assortie d'un emploi à la clé dans les secteurs en pénurie de main-d'œuvre",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Livret, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
-              }
-            ]
-          }
-        ],
+        "C": [],
         "D": []
       },
       "D-europe-regles": {
         "A": [],
-        "B": [
-          {
-            "candidat": "attal-gabriel",
-            "proposition": "europe-01",
-            "texte": "Créer des États-Unis d'Europe avec un noyau dur de pays, par un nouveau traité soumis au premier référendum européen, avec un président élu au suffrage universel",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2026-09-17",
-                "url": "https://www.publicsenat.fr/actualites/politique/gabriel-attal-veut-construire-les-etats-unis-deurope-proposition-choc-pour-relancer-lideal-europeen"
-              },
-              {
-                "titre": "La Gazette France (AFP), 2026-09-17",
-                "url": "https://www.lagazettefrance.fr/article/gabriel-attal-plaide-pour-des-etats-unis-d-europe-le-projet-d-une-generation"
-              }
-            ]
-          },
-          {
-            "candidat": "ruffin-francois",
-            "proposition": "europe-01",
-            "texte": "faire basculer la politique commerciale du libre-échange vers la protection ; opposition aux accords avec le Mercosur et l'Inde ; refus de l'extension de la majorité qualifiée à la politique étrangère : La France doit s'y opposer avec fermeté",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Le Grand Continent, 2026-02-25",
-                "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/"
-              }
-            ]
-          },
-          {
-            "candidat": "tondelier-marine",
-            "proposition": "europe-01",
-            "texte": "Faire un saut fédéral européen ; Réviser les traités européens pour garantir un non-dépassement des limites planétaires et la construction progressive d'un Etat social européen ; Renforcer le rôle du Parlement européen",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "P, juillet 2026, p. 8 et 191",
-                "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
-              }
-            ]
-          }
-        ],
+        "B": [],
         "C": [
-          {
-            "candidat": "lisnard-david",
-            "proposition": "europe-02",
-            "texte": "Référendum En cas d’impossibilité pour un Etat d’exercer sa souveraineté en raison de règles supranationales ; obtenir une dispense des règles communes d'asile et d'immigration sur le modèle du Danemark",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "NE, « Être maître »",
-                "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/"
-              },
-              {
-                "titre": "Discours de Bayeux, 2026-06-17",
-                "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
-              }
-            ]
-          },
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "europe-05",
-            "texte": "Cesser d'appliquer les normes européennes incompatibles avec les engagements écologiques et sociaux",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
-              },
-              {
-                "titre": "J.-L. Mélenchon, 2026-06-24",
-                "url": "https://x.com/JLMelenchon/status/2069836316183810338"
-              }
-            ]
-          },
           {
             "candidat": "retailleau-bruno",
             "proposition": "europe-01",
@@ -19237,52 +18228,7 @@
             ]
           }
         ],
-        "D": [
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "europe-02",
-            "texte": "Faire primer le droit français sur le droit européen : Primauté du droit français sur le droit européen ; inscription par référendum dans la Constitution",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Debout la France, 2026-10-20",
-                "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/"
-              },
-              {
-                "titre": "Debout la France, Justice",
-                "url": "https://www.debout-la-france.fr/projet/justice/"
-              }
-            ]
-          },
-          {
-            "candidat": "le-pen-marine",
-            "proposition": "europe-02",
-            "texte": "Inscrire la primauté de la Constitution sur les engagements internationaux ; conditionner la participation à l'UE au respect de la Constitution ; interdire aux actes de l'UE de limiter le contrôle des frontières",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "PPL constitutionnelle n° 2120, 2024-01-25",
-                "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf"
-              },
-              {
-                "titre": "Sud Radio (AFP), 2026-09-05",
-                "url": "https://www.sudradio.fr/societe/en-revisant-la-constitution-par-referendum-le-rn-au-pouvoir-ouvrirait-une-crise-majeure"
-              }
-            ]
-          },
-          {
-            "candidat": "zemmour-eric",
-            "proposition": "europe-01",
-            "texte": "Modifier l'article 55 de la Constitution pour que les lois nationales aient une valeur supérieure aux traités, sans sortie de l'UE",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Actu-Juridique, 2024-02-16",
-                "url": "https://www.actu-juridique.fr/ntic-medias-presse/chez-les-surligneurs-la-commission-europeenne-est-elle-reellement-toute-puissante/"
-              }
-            ]
-          }
-        ]
+        "D": []
       },
       "D-europe-defense": {
         "A": [
@@ -19295,18 +18241,6 @@
               {
                 "titre": "attalpresident.fr, « Frontières »",
                 "url": "https://attalpresident.fr/programme/frontieres"
-              }
-            ]
-          },
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "europe-03",
-            "texte": "Augmenter et sanctuariser le budget de la Défense à 2,3 % du PIB ; doubler le budget du renseignement",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Cahier rouge, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
               }
             ]
           },
@@ -19325,22 +18259,6 @@
                 "url": "https://www.unenouvelleenergie.fr/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan/"
               }
             ]
-          },
-          {
-            "candidat": "philippe-edouard",
-            "proposition": "europe-03",
-            "texte": "Nouvelle loi de programmation militaire de la massification : Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. ; dépasser l’objectif actuel de 100 000 obus par an pour atteindre l’échelle des 700 000 produits par l’Allemagne",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Priorités « Sûre »",
-                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
-              },
-              {
-                "titre": "Programme « Défense »",
-                "url": "https://www.edouardphilippe.fr/programme/defense"
-              }
-            ]
           }
         ],
         "B": [
@@ -19357,18 +18275,6 @@
               {
                 "titre": "Datan, votes de la députée",
                 "url": "https://datan.fr/deputes/deux-sevres-79/depute_delphine-batho/votes"
-              }
-            ]
-          },
-          {
-            "candidat": "glucksmann-raphael",
-            "proposition": "europe-02",
-            "texte": "Plan pour la souveraineté européenne et grand emprunt européen",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "LCP, 2026-05-26",
-                "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
               }
             ]
           },
@@ -19402,216 +18308,12 @@
           }
         ],
         "C": [],
-        "D": [
-          {
-            "candidat": "le-pen-marine",
-            "proposition": "europe-04",
-            "texte": "Ukraine : maintenir l'aide financière six mois après l'élection puis l'arrêter ; poursuivre la formation des soldats et l'aide militaire",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Euronews, 2026-10-16",
-                "url": "https://fr.euronews.com/2026/10/16/marine-le-pen-prete-a-debattre-avec-zelensky-apres-avoir-promis-de-couper-laide-francaise-"
-              },
-              {
-                "titre": "Paris Match Belgique (Belga), 2026-10-15",
-                "url": "https://www.parismatch.be/actualites/monde/2026/10/15/presidentielle-francaise-si-elle-arrive-a-lelysee-marine-le-pen-promet-de-couper-laide-a-lukraine-je-ne-prends-personne-en-traitre-EKOIX7JLGZBBTPVJXNLDVDTVXY/"
-              },
-              {
-                "titre": "Kyiv Post, 2026-09-24",
-                "url": "https://kyivpost.com/post/85353"
-              }
-            ]
-          },
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "europe-02",
-            "texte": "Ukraine : cadre diplomatique pour un cessez-le-feu, le retrait russe et des négociations de paix",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
-              }
-            ]
-          },
-          {
-            "candidat": "roussel-fabien",
-            "proposition": "europe-01",
-            "texte": "Ukraine : cessez-le-feu rapide ; Il faut que la France retrouve son leadership pour mener la bataille diplomatique ; réorienter l'argent du ministère de la guerre vers les services publics",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "LCP, 2026-09-11",
-                "url": "https://lcp.fr/actualites/presidentielle-a-la-fete-de-l-huma-fabien-roussel-au-defi-de-prouver-l-utilite-d-une"
-              }
-            ]
-          }
-        ]
+        "D": []
       },
       "D-educ-niveau": {
-        "A": [
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "educ-03",
-            "texte": "Réduire les effectifs par classe, en priorité en maternelle et en éducation prioritaire",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
-              }
-            ]
-          },
-          {
-            "candidat": "roussel-fabien",
-            "proposition": "educ-03",
-            "texte": "Abroger la réforme Blanquer et lancer un vaste plan de recrutement d'enseignants",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2026-11-12",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
-              }
-            ]
-          },
-          {
-            "candidat": "tondelier-marine",
-            "proposition": "educ-02",
-            "texte": "réduisant la taille des classes à 19 élèves en 2032 et à 12 élèves dans les établissements en réseau d'éducation prioritaire",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "P, juillet 2026, p. 91",
-                "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
-              }
-            ]
-          }
-        ],
-        "B": [
-          {
-            "candidat": "attal-gabriel",
-            "proposition": "educ-02",
-            "texte": "Salaire des enseignants revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière ; meilleure rémunération des accompagnants d'élèves en situation de handicap",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "LCP, 2026-08-25",
-                "url": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose"
-              },
-              {
-                "titre": "attalpresident.fr, « École »",
-                "url": "https://attalpresident.fr/programme/education"
-              },
-              {
-                "titre": "Public Sénat, 2026-11-12",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
-              }
-            ]
-          },
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "educ-01",
-            "texte": "Revaloriser les salaires des professeurs en deux temps : 20 % d'augmentation automatique pour tous, puis 20 % supplémentaires en contrepartie d'heures de soutien scolaire auprès des élèves en difficulté",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Cahier rouge, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
-              }
-            ]
-          },
-          {
-            "candidat": "glucksmann-raphael",
-            "proposition": "educ-01",
-            "texte": "Augmenter de 10 % la rémunération de tous les enseignants, jusqu'à 25 % selon la progression de carrière",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Europe 1, 2026-08-30",
-                "url": "https://www.europe1.fr/politique/presidentielle-2027-raphael-glucksmann-propose-daugmenter-les-salaires-des-enseignants-dau-moins-10-1044509"
-              },
-              {
-                "titre": "Public Sénat, 2026-08-31",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
-              },
-              {
-                "titre": "Sud Radio, 2026-09-03",
-                "url": "https://www.sudradio.fr/sud-radio/presidentielle-2027-comment-les-candidats-draguent-les-professeurs-et-lecole"
-              },
-              {
-                "titre": "Public Sénat, 2026-11-12",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
-              }
-            ]
-          },
-          {
-            "candidat": "le-pen-marine",
-            "proposition": "educ-01",
-            "texte": "Maintenir le budget de l'éducation malgré la baisse démographique, pour financer plus d'enseignants et des salaires plus élevés",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Brussels Signal, 2026-10-06",
-                "url": "https://brusselssignal.eu/2026/10/rn-sets-out-budget-plans-with-a-deficit-below-3-per-cent-and-e140-billion-in-savings/"
-              }
-            ]
-          },
-          {
-            "candidat": "philippe-edouard",
-            "proposition": "educ-01",
-            "texte": "Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat.",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Priorités « Enfants »",
-                "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
-              },
-              {
-                "titre": "edouardphilippe.fr, L'école : questions-réponses, 2026-10-23",
-                "url": "https://www.edouardphilippe.fr/questions-reponses/ecoles"
-              },
-              {
-                "titre": "Programme « École »",
-                "url": "https://www.edouardphilippe.fr/programme/ecole"
-              }
-            ]
-          },
-          {
-            "candidat": "retailleau-bruno",
-            "proposition": "educ-01",
-            "texte": "Revaloriser significativement les salaires des enseignants, pour rapprocher leur rémunération de la moyenne européenne ; réformer en profondeur les règles d'affectation et de progression de carrière",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2026-08-31",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
-              }
-            ]
-          }
-        ],
-        "C": [
-          {
-            "candidat": "lisnard-david",
-            "proposition": "educ-05",
-            "texte": "la liberté donnée aux chefs d’établissement de recruter leurs équipes pédagogiques, de fixer les méthodes, de gérer leur budget et de refuser les élèves perturbateurs",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "NE, éducation",
-                "url": "https://www.unenouvelleenergie.fr/notre-programme/education/"
-              }
-            ]
-          }
-        ],
+        "A": [],
+        "B": [],
+        "C": [],
         "D": [
           {
             "candidat": "zemmour-eric",
@@ -19630,18 +18332,6 @@
       "D-sante-deserts": {
         "A": [
           {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "sante-07",
-            "texte": "Réguler l'installation des médecins ; recruter des médecins salariés et développer les centres de santé",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Plan Ruralité",
-                "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
-              }
-            ]
-          },
-          {
             "candidat": "tondelier-marine",
             "proposition": "sante-01",
             "texte": "Soumettre l'installation des médecins libéraux à une autorisation de l'agence régionale de santé, accordée de droit dans les zones sous-dotées et ailleurs seulement en remplacement d'un départ ; créer 2 000 centres de santé d'ici 2030",
@@ -19658,187 +18348,600 @@
             ]
           }
         ],
-        "B": [
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "sante-01",
-            "texte": "Une bourse pour les étudiants en médecine en échange d'un engagement à s'installer dans une zone sous-dotée pendant leurs cinq premières années d'exercice",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Cahier rouge, 2026-11-12",
-                "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
-              }
-            ]
-          },
-          {
-            "candidat": "lisnard-david",
-            "proposition": "sante-03",
-            "texte": "Nous proposons un conventionnement différencié : la Sécurité sociale rembourse mieux les actes dans les zones sous-dotées, avec liberté d'installation",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "NE, santé",
-                "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
-              }
-            ]
-          }
-        ],
-        "C": [
-          {
-            "candidat": "zemmour-eric",
-            "proposition": "sante-02",
-            "texte": "Élargir les missions des infirmiers et des pharmaciens",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2026-11-12",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
-              }
-            ]
-          }
-        ],
+        "B": [],
+        "C": [],
         "D": []
       },
       "D-instit-participation": {
-        "A": [
-          {
-            "candidat": "dupont-aignan-nicolas",
-            "proposition": "instit-01",
-            "texte": "Référendum d'initiative citoyenne à partir d'un million de signatures, RIC constituant et référendum de l'article 11 dans tous les domaines",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "discours de Yerres, 2026-09-19",
-                "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/"
-              }
-            ]
-          },
-          {
-            "candidat": "lisnard-david",
-            "proposition": "instit-04",
-            "texte": "Référendum : tout sujet pourra être soumis au pays ; La Constitution doit pouvoir, à terme, être révisée directement par référendum ; Le référendum d’initiative populaire sera vraiment institué et rendu praticable ; possibilité de passer outre par référendum une censure fondée sur le préambule",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Discours de Bayeux, 2026-06-17",
-                "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
-              }
-            ]
-          },
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "instit-03",
-            "texte": "Instaurer le référendum d'initiative citoyenne, y compris révocatoire",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
-              },
-              {
-                "titre": "Lettre au peuple de France, 2026-05-05",
-                "url": "https://melenchon.fr/wp-content/uploads/2026/05/LETTRE-AU-PEUPLE-DE-FRANCE-.pdf"
-              }
-            ]
-          },
-          {
-            "candidat": "retailleau-bruno",
-            "proposition": "instit-03",
-            "texte": "Alléger le référendum d'initiative partagée : 2,5 millions de signatures nécessaires, contre 5 millions",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2026-09-03",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-propose-une-revolution-copernicienne-dans-laquelle-la-constitution-ne-serait-plus-le-bouclier-qui-prote"
-              },
-              {
-                "titre": "Public Sénat, 2026-09-03 (réforme constitutionnelle)",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"
-              }
-            ]
-          },
-          {
-            "candidat": "ruffin-francois",
-            "proposition": "instit-03",
-            "texte": "Référendums : nous proposons de soumettre au vote des Français, par référendum, les mesures suivantes ; Les idées de référendum devront aussi et surtout venir des citoyens, avec le Référendum d'initiative citoyenne",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "C05, 2026-09-09",
-                "url": "https://nouspresident.fr/travaillisme-ecologique/"
-              }
-            ]
-          },
-          {
-            "candidat": "tondelier-marine",
-            "proposition": "instit-05",
-            "texte": "Référendum d'Initiative Citoyenne propositionnel ou abrogatif – sous condition d'un contrôle de constitutionnalité préalable ; convention citoyenne permanente au sein d'un CESE transformé ; vote obligatoire à l'Assemblée sur une pétition de 500 000 signatures dans 30 départements",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "P, juillet 2026, p. 162",
-                "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
-              }
-            ]
-          }
-        ],
-        "B": [
-          {
-            "candidat": "le-pen-marine",
-            "proposition": "instit-02",
-            "texte": "Élire les députés à la proportionnelle dans le cadre départemental, avec une prime majoritaire pour la liste arrivée en tête",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Public Sénat, 2025-04-30",
-                "url": "https://www.publicsenat.fr/actualites/politique/legislatives-marine-le-pen-prete-a-defendre-le-retour-la-proportionnelle-integrale-de-1986-0"
-              }
-            ]
-          }
-        ],
-        "C": [
-          {
-            "candidat": "glucksmann-raphael",
-            "proposition": "immig-01",
-            "texte": "Convention citoyenne sur l'immigration, composée de citoyens tirés au sort, dont les propositions seraient débattues et votées par le Parlement : Au lieu de fuir le débat migratoire, nous l'assumerons",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "LCP, 2026-05-26",
-                "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
-              },
-              {
-                "titre": "Public Sénat, 2026-08-24",
-                "url": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
-              }
-            ]
-          }
-        ],
-        "D": [
-          {
-            "candidat": "attal-gabriel",
-            "proposition": "instit-03",
-            "texte": "big bang territorial : nouvelle carte de collectivités uniques, maire devenu l'élu le plus puissant de France, davantage de compétences et de ressources pour les territoires",
-            "texte_court": false,
-            "sources": [
-              {
-                "titre": "Acteurs publics, 2026-07-03",
-                "url": "https://acteurspublics.fr/articles/gabriel-attal-propose-100-000-fonctionnaires-en-moins-et-limpunite-zero-pour-les-ministres-depensiers/"
-              },
-              {
-                "titre": "Public Sénat, 2026-05-30",
-                "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
-              }
-            ]
-          }
-        ]
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": []
       }
     },
-    "exclusions": []
+    "exclusions": [
+      {
+        "dilemme": "D-eco-dette",
+        "candidat": "attal-gabriel",
+        "proposition": "eco-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-dette",
+        "candidat": "le-pen-marine",
+        "proposition": "eco-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-dette",
+        "candidat": "lisnard-david",
+        "proposition": "eco-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-dette",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "eco-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-dette",
+        "candidat": "philippe-edouard",
+        "proposition": "eco-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-dette",
+        "candidat": "retailleau-bruno",
+        "proposition": "eco-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-dette",
+        "candidat": "zemmour-eric",
+        "proposition": "eco-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "attal-gabriel",
+        "proposition": "social-04",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "eco-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "glucksmann-raphael",
+        "proposition": "eco-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "le-pen-marine",
+        "proposition": "eco-04",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "lisnard-david",
+        "proposition": "eco-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "social-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "philippe-edouard",
+        "proposition": "social-04",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "roussel-fabien",
+        "proposition": "eco-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "tondelier-marine",
+        "proposition": "social-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-eco-pouvoir-achat",
+        "candidat": "zemmour-eric",
+        "proposition": "eco-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-retraites",
+        "candidat": "attal-gabriel",
+        "proposition": "social-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-retraites",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "social-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-retraites",
+        "candidat": "le-pen-marine",
+        "proposition": "social-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-retraites",
+        "candidat": "lisnard-david",
+        "proposition": "social-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-retraites",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "eco-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-retraites",
+        "candidat": "philippe-edouard",
+        "proposition": "social-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-retraites",
+        "candidat": "retailleau-bruno",
+        "proposition": "social-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-retraites",
+        "candidat": "zemmour-eric",
+        "proposition": "social-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-chomage",
+        "candidat": "attal-gabriel",
+        "proposition": "social-05",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-chomage",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "social-08",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-chomage",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "social-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-chomage",
+        "candidat": "philippe-edouard",
+        "proposition": "social-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-social-chomage",
+        "candidat": "retailleau-bruno",
+        "proposition": "social-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-electricite",
+        "candidat": "attal-gabriel",
+        "proposition": "env-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-electricite",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "env-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-electricite",
+        "candidat": "lisnard-david",
+        "proposition": "env-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-electricite",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "env-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-electricite",
+        "candidat": "philippe-edouard",
+        "proposition": "env-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-electricite",
+        "candidat": "retailleau-bruno",
+        "proposition": "env-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-electricite",
+        "candidat": "zemmour-eric",
+        "proposition": "env-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "attal-gabriel",
+        "proposition": "env-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "env-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "glucksmann-raphael",
+        "proposition": "env-05",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "le-pen-marine",
+        "proposition": "env-04",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "lisnard-david",
+        "proposition": "eco-07",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "env-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "retailleau-bruno",
+        "proposition": "env-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "roussel-fabien",
+        "proposition": "eco-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "ruffin-francois",
+        "proposition": "eco-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "tondelier-marine",
+        "proposition": "env-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-env-rythme",
+        "candidat": "zemmour-eric",
+        "proposition": "env-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-secu-budget",
+        "candidat": "attal-gabriel",
+        "proposition": "secu-06",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-secu-budget",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "secu-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-secu-budget",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "secu-04",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-secu-budget",
+        "candidat": "philippe-edouard",
+        "proposition": "secu-08",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-secu-budget",
+        "candidat": "retailleau-bruno",
+        "proposition": "secu-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-secu-budget",
+        "candidat": "roussel-fabien",
+        "proposition": "secu-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-immig-travail",
+        "candidat": "attal-gabriel",
+        "proposition": "immig-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-immig-travail",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "social-06",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-immig-travail",
+        "candidat": "glucksmann-raphael",
+        "proposition": "immig-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-immig-travail",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "immig-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-immig-travail",
+        "candidat": "philippe-edouard",
+        "proposition": "immig-06",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-immig-travail",
+        "candidat": "tondelier-marine",
+        "proposition": "immig-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-regles",
+        "candidat": "attal-gabriel",
+        "proposition": "europe-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-regles",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "europe-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-regles",
+        "candidat": "le-pen-marine",
+        "proposition": "europe-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-regles",
+        "candidat": "lisnard-david",
+        "proposition": "europe-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-regles",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "europe-05",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-regles",
+        "candidat": "ruffin-francois",
+        "proposition": "europe-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-regles",
+        "candidat": "tondelier-marine",
+        "proposition": "europe-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-regles",
+        "candidat": "zemmour-eric",
+        "proposition": "europe-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "europe-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "glucksmann-raphael",
+        "proposition": "europe-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "le-pen-marine",
+        "proposition": "europe-04",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "europe-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "philippe-edouard",
+        "proposition": "europe-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-europe-defense",
+        "candidat": "roussel-fabien",
+        "proposition": "europe-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "attal-gabriel",
+        "proposition": "educ-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "educ-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "glucksmann-raphael",
+        "proposition": "educ-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "le-pen-marine",
+        "proposition": "educ-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "lisnard-david",
+        "proposition": "educ-05",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "educ-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "philippe-edouard",
+        "proposition": "educ-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "retailleau-bruno",
+        "proposition": "educ-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "roussel-fabien",
+        "proposition": "educ-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-educ-niveau",
+        "candidat": "tondelier-marine",
+        "proposition": "educ-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-sante-deserts",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "sante-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-sante-deserts",
+        "candidat": "lisnard-david",
+        "proposition": "sante-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-sante-deserts",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "sante-07",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-sante-deserts",
+        "candidat": "zemmour-eric",
+        "proposition": "sante-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-instit-participation",
+        "candidat": "attal-gabriel",
+        "proposition": "instit-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-instit-participation",
+        "candidat": "dupont-aignan-nicolas",
+        "proposition": "instit-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-instit-participation",
+        "candidat": "glucksmann-raphael",
+        "proposition": "immig-01",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-instit-participation",
+        "candidat": "le-pen-marine",
+        "proposition": "instit-02",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-instit-participation",
+        "candidat": "lisnard-david",
+        "proposition": "instit-04",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-instit-participation",
+        "candidat": "melenchon-jean-luc",
+        "proposition": "instit-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-instit-participation",
+        "candidat": "retailleau-bruno",
+        "proposition": "instit-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-instit-participation",
+        "candidat": "ruffin-francois",
+        "proposition": "instit-03",
+        "motif": "sans texte court"
+      },
+      {
+        "dilemme": "D-instit-participation",
+        "candidat": "tondelier-marine",
+        "proposition": "instit-05",
+        "motif": "sans texte court"
+      }
+    ]
   }
 }
