@@ -9,6 +9,7 @@ import { fileURLToPath } from 'node:url';
 import {
   lireFlux, lireSitemap, lirePage, dateIso, normaliserUrl, identifiant, semaineIso,
   detecter, autoriseParRobots, retenir, journalMarkdown, collecter, sourcesMuettes, dictionnaire,
+  blocsDeTexte, codesDeBlocs, comparerCodes, titreDePage,
 } from '../scripts/lib/veille.mjs';
 
 const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -275,4 +276,53 @@ test('revue : dictionnaire réel — noms de famille déclarés, pas « Philippe
   assert.deepEqual(detecter('Melenchon répond à ses critiques', { candidats: dico, motsCles: [] }).candidats, ['melenchon-jean-luc']);
   assert.deepEqual(detecter('Le prince Philippe en visite', { candidats: dico, motsCles: [] }).candidats, []);
   assert.ok(dico.has('villepin-dominique') && dico.has('borne-elisabeth') && dico.has('le-maire-bruno'));
+});
+
+// ---------------------------------------------------------------------------
+// Programmes : empreinte des pages (spec 2026-11-15-suivi-programmes-design.md)
+// ---------------------------------------------------------------------------
+
+test('blocsDeTexte : blocs de <main> seulement, menus, pied, scripts et bouton court écartés', () => {
+  const blocs = blocsDeTexte(fixture('programme-chapitre-v1.html'));
+  assert.deepEqual(blocs, [
+    'Chapitre 2 : produire en France',
+    'Ce chapitre présente les mesures d’essai pour l’industrie.',
+    'Créer une banque publique d’investissement d’essai.',
+    'Planifier la formation des ouvriers et des techniciens.',
+    'Réduire la dépendance aux importations de médicaments.',
+    'Un encadré de texte libre assez long pour compter.',
+    'Soutenir les coopératives ouvrières de production.',
+  ]);
+  assert.ok(!blocs.some((b) => /Partager|Accueil|Mise à jour|compteur|Tout le programme/.test(b)));
+});
+
+test('blocsDeTexte : sans <main> ni <article> → <body> ; <article> ; HTML vide → []', () => {
+  const corps = '<html><body><nav><p>Menu de navigation du site entier</p></nav><p>Un paragraphe du corps de la page.</p></body></html>';
+  assert.deepEqual(blocsDeTexte(corps), ['Un paragraphe du corps de la page.']);
+  const article = '<body><p>Paragraphe hors article, assez long.</p><article><p>Paragraphe dans l’article, assez long.</p></article></body>';
+  assert.deepEqual(blocsDeTexte(article), ['Paragraphe dans l’article, assez long.']);
+  assert.deepEqual(blocsDeTexte(''), []);
+});
+
+test('codesDeBlocs : 10 hexadécimaux, sans doublon, triés, insensibles à la casse, aux accents et aux espaces', () => {
+  const codes = codesDeBlocs(['Réduire la dépendance', 'REDUIRE  la   dependance', 'Autre bloc de texte']);
+  assert.equal(codes.length, 2);
+  assert.ok(codes.every((c) => /^[0-9a-f]{10}$/.test(c)));
+  assert.deepEqual(codes, [...codes].sort());
+});
+
+test('comparerCodes : v1 → v2 donne +1 / −1 ; v1 → v1 réordonnée donne 0 / 0', () => {
+  const v1 = codesDeBlocs(blocsDeTexte(fixture('programme-chapitre-v1.html')));
+  const v2 = codesDeBlocs(blocsDeTexte(fixture('programme-chapitre-v2.html')));
+  const d = comparerCodes(v1, v2);
+  assert.equal(d.ajoutes, 1);
+  assert.equal(d.retires, 1);
+  assert.ok(d.premierAjoute >= 0 && !v1.includes(v2[d.premierAjoute]));
+  assert.deepEqual(comparerCodes(v1, [...v1].reverse()), { ajoutes: 0, retires: 0, premierAjoute: -1 });
+});
+
+test('titreDePage : <title>, sinon premier h1, sinon l’adresse', () => {
+  assert.equal(titreDePage(fixture('programme-chapitre-v1.html'), 'https://c.fr/p'), 'Chapitre 2 — Produire en France | Campagne d’essai');
+  assert.equal(titreDePage('<body><h1>Le <em>projet</em></h1></body>', 'https://c.fr/p'), 'Le projet');
+  assert.equal(titreDePage('<body></body>', 'https://c.fr/p'), 'https://c.fr/p');
 });

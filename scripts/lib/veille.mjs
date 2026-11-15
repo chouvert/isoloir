@@ -152,6 +152,59 @@ export function lirePage(html, urlPage) {
 }
 
 // ---------------------------------------------------------------------------
+// Programmes : empreinte des pages
+// Spec : docs/superpowers/specs/2026-11-15-suivi-programmes-design.md
+// ---------------------------------------------------------------------------
+
+export const MAX_PAGES_PROGRAMME = 120;
+export const PROFONDEUR_PROGRAMME = 3;
+export const MIN_BLOC = 20;
+export const LONGUEUR_CODE = 10;
+
+const HORS_TEXTE = ['script', 'style', 'noscript', 'nav', 'header', 'footer', 'aside', 'form'];
+// Ouverture ou fermeture de ces éléments : fin du bloc en cours.
+const COUPURES = /<\/?(p|li|h[1-6]|td|th|blockquote|dd|dt|div|section|article|main|ul|ol|dl|table|tr|tbody|thead|figure|figcaption)\b[^>]*>/gi;
+
+const contenu = (html, balise) => html.match(new RegExp(`<${balise}\\b[^>]*>([\\s\\S]*)</${balise}>`, 'i'))?.[1];
+
+/** Texte lisible de chaque bloc de la partie utile d'une page (main, sinon article, sinon body), dans l'ordre. */
+export function blocsDeTexte(html = '') {
+  let utile = html.replace(/<!--[\s\S]*?-->/g, ' ');
+  utile = contenu(utile, 'main') ?? contenu(utile, 'article') ?? contenu(utile, 'body') ?? utile;
+  for (const b of HORS_TEXTE) utile = utile.replace(new RegExp(`<${b}\\b[\\s\\S]*?</${b}>`, 'gi'), ' ');
+  return utile.split(COUPURES).filter((_, i) => i % 2 === 0) // split capture le nom de balise aux indices impairs
+    .map((s) => texte(s)).filter((s) => s.length >= MIN_BLOC);
+}
+
+/** Code d'un bloc : 10 premiers caractères hexadécimaux du SHA-1 du texte plié (casse, accents, espaces). */
+function codeDeBloc(bloc) {
+  return createHash('sha1').update(plier(bloc).replace(/\s+/g, ' ').trim()).digest('hex').slice(0, LONGUEUR_CODE);
+}
+
+/** Empreinte d'une page : ensemble des codes de ses blocs, triés. */
+export function codesDeBlocs(blocs) {
+  return [...new Set(blocs.map(codeDeBloc))].sort();
+}
+
+/** Blocs ajoutés et retirés ; `premierAjoute` : indice dans `apres` du premier code absent de `avant`, ou -1. */
+export function comparerCodes(avant, apres) {
+  const a = new Set(avant);
+  const b = new Set(apres);
+  return {
+    ajoutes: [...b].filter((c) => !a.has(c)).length,
+    retires: [...a].filter((c) => !b.has(c)).length,
+    premierAjoute: apres.findIndex((c) => !a.has(c)),
+  };
+}
+
+/** Titre d'une page : `<title>`, sinon premier `h1`, sinon l'adresse. */
+export function titreDePage(html, url) {
+  return texte(contenuCourt(html, 'title')) || texte(contenuCourt(html, 'h1')) || url;
+}
+
+const contenuCourt = (html, balise) => html.match(new RegExp(`<${balise}\\b[^>]*>([\\s\\S]*?)</${balise}>`, 'i'))?.[1] ?? '';
+
+// ---------------------------------------------------------------------------
 // Tri
 // ---------------------------------------------------------------------------
 
