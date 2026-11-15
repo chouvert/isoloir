@@ -28,9 +28,8 @@ même définition pour tous, affichée sous la mesure.
 ## Exclusions
 
 Un rattachement **ne participe pas** aux duels, avec son motif, s'il n'a pas de texte court, si
-celui-ci est vide après nettoyage, s'il dépasse 300 caractères ou s'il contient un terme interdit
-(comparaison sans accents ni casse, en mot entier). Au-delà de 200 caractères, `npm run valider`
-émet un avertissement.
+celui-ci est vide après nettoyage ou s'il contient un terme interdit (comparaison sans accents ni
+casse, en mot entier). Un texte court de plus de 200 caractères est une erreur de `npm run valider`.
 Les termes interdits sont :
 
 - automatiques, tirés des fiches : nom complet de chaque candidat, son nom de famille et son parti ;

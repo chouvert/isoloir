@@ -860,6 +860,22 @@
     {
       "terme": "proportionnelle",
       "definition": "Mode d'élection où chaque parti obtient un nombre de sièges proportionnel à son nombre de voix"
+    },
+    {
+      "terme": "net",
+      "definition": "Salaire réellement touché par le salarié, une fois ses cotisations retirées du salaire brut"
+    },
+    {
+      "terme": "brut",
+      "definition": "Salaire avant le retrait des cotisations du salarié : le montant réellement touché, le net, est plus bas"
+    },
+    {
+      "terme": "certificats d'économie d'énergie",
+      "definition": "Obligation faite aux vendeurs d'énergie de financer des économies d'énergie ; son coût se retrouve dans les prix"
+    },
+    {
+      "terme": "éducation prioritaire",
+      "definition": "Écoles et collèges des quartiers les plus en difficulté, qui reçoivent des moyens supplémentaires"
     }
   ],
   "criteres_faisabilite": [
@@ -9103,7 +9119,7 @@
         "D-eco-pouvoir-achat": {
           "option": "A",
           "proposition": "social-02",
-          "texte_court": "Porter le salaire minimum à 1 700 euros net par mois",
+          "texte_court": "Porter à 1 700 euros net par mois le salaire minimum",
           "justification": "SMIC porté à 1 700 € net (social-02)",
           "sources": [
             {
@@ -13965,7 +13981,7 @@
         "D-env-rythme": {
           "option": "D",
           "proposition": "eco-02",
-          "texte_court": "Supprimer immédiatement les certificats d'économie d'énergie, un dispositif dont le coût s'ajoute au prix du litre d'essence",
+          "texte_court": "Supprimer immédiatement les certificats d'économie d'énergie appliqués au litre d'essence",
           "justification": "Suppression « tout de suite » des « certificats d'économie d'énergie qu'ils ont mis sur le litre d'essence depuis le 1er janvier » pour faire baisser les prix (France 2, 2026-09-11 ; eco-02) ; il revendique aussi « un plan climat qui donne une trajectoire carbone » (env-02), non publié",
           "sources": [
             {
@@ -14007,7 +14023,7 @@
         "D-europe-defense": {
           "option": "D",
           "proposition": "europe-01",
-          "texte_court": "Engager la France dans un effort diplomatique pour obtenir rapidement un cessez-le-feu en Ukraine",
+          "texte_court": "Engager la France dans un effort diplomatique pour obtenir un cessez-le-feu en Ukraine",
           "justification": "« cessez-le-feu rapide » et « bataille diplomatique » menée par la France (europe-01) ; « Nous voulons une diplomatie de la paix » et « mettre un stop sur l'économie de guerre » (europe-02) ; initiatives avec d'autres pays, notamment au sein des BRICS, pour des cessez-le-feu rapides (europe-04)",
           "sources": [
             {
@@ -14027,7 +14043,7 @@
         "D-educ-niveau": {
           "option": "A",
           "proposition": "educ-03",
-          "texte_court": "Lancer un plan de recrutement d'enseignants de grande ampleur",
+          "texte_court": "Lancer un plan de recrutement d'enseignants",
           "justification": "Aucune mesure scolaire chiffrée en euros. Première mesure de campagne présentée pour l'école : abroger la réforme Blanquer et lancer un vaste plan de recrutement d'enseignants (educ-03, grand oral de Radio France, 2026-11-12, propos paraphrasés par Public Sénat), dans la continuité de « Nous avons besoin de plus d'enseignants pour faire reculer les inégalités » (educ-01) ; recruter des enseignants est le moyen de l'option A, sans objectif d'élèves par classe annoncé ; il propose aussi de relever le point d'indice des fonctionnaires de 10 % immédiatement puis de 20 à 30 % (social-04, option B, voisine), et la lettre aux enseignants, antérieure à l'investiture, évoquait d'abord « la question des salaires » (rattachement B jusqu'au 2026-11-14)",
           "sources": [
             {
@@ -14785,7 +14801,7 @@
         "D-eco-pouvoir-achat": {
           "option": "A",
           "proposition": "social-01",
-          "texte_court": "Porter le salaire minimum à 1 700 euros net par mois",
+          "texte_court": "Porter à 1 700 euros net par mois le salaire minimum",
           "justification": "Mesure chiffrée en euros : (candidat) hausse du SMIC « à 1 700 euros nets mensuel » (Lyon, 2026-04-25, Lyon Capitale) ; (équipe : Sophie Taillé-Polian, responsable du programme) « le SMIC à 1600€ » (C01, 2026-04-13, net ou brut non précisé) (social-01) ; il propose aussi d'indexer les salaires sur l'inflation et de payer double les heures avant 8 h et après 18 h (social-01, social-02), sans option correspondante",
           "sources": [
             {
@@ -14841,7 +14857,7 @@
         "D-env-rythme": {
           "option": "B",
           "proposition": "eco-01",
-          "texte_court": "Soumettre à référendum une taxe de 4 % sur les dividendes des entreprises, moins élevée pour celles qui en versent le moins, pour financer la transition écologique",
+          "texte_court": "Créer, après référendum, une taxe de 4 % sur les dividendes des entreprises, réduite pour celles qui en versent peu, pour financer la transition écologique",
           "justification": "Accélération financée par une taxe sur les dividendes des entreprises versant plus de 10 M€ (eco-01) et non par les prix ; présomption de connaissance pour le « dirigeant de la maison-mère des groupes responsables de pollution majeure » (env-04) ; il soumet aussi à référendum l'interdiction des vols intérieurs et de la publicité pour les produits polluants (env-03, proche de A)",
           "sources": [
             {
@@ -14881,7 +14897,7 @@
         "D-europe-regles": {
           "option": "B",
           "proposition": "europe-01",
-          "texte_court": "Faire passer la politique commerciale européenne du libre-échange à la protection",
+          "texte_court": "Obtenir que la politique commerciale de l'Union européenne passe du libre-échange à la protection",
           "justification": "Changer les règles par la négociation et le rapport de force, sans désobéissance : « faire basculer la politique commerciale du libre-échange vers la protection » (europe-01) ; le cahier industrie s'appuie sur les aides d'État encadrées et les clauses de sauvegarde, avec une pression sur la Commission (europe-02) ; le prix plancher agricole, avec interdiction des importations à prix inférieurs, « devra être défendu au niveau européen » (env-05) ; il évoque, sans la recommander, la pratique française dans la défense, « en ne respectant pas la concurrence libre et non faussée » (indice de l'option C)",
           "sources": [
             {
@@ -14937,7 +14953,7 @@
         "D-instit-participation": {
           "option": "A",
           "proposition": "instit-03",
-          "texte_court": "Créer un référendum d'initiative citoyenne, pour que des référendums puissent être proposés par les citoyens eux-mêmes",
+          "texte_court": "Permettre aux citoyens de proposer eux-mêmes des référendums",
           "justification": "Référendum d'initiative citoyenne : « Les idées de référendum devront aussi et surtout venir des citoyens, avec le Référendum d'initiative citoyenne (RIC) » (instit-03) ; il propose aussi d'étendre les prérogatives des parlements locaux de l'eau « en intégrant des collèges de citoyens tirés au sort » (instit-05, proche de l'option C, limité à l'eau) ; pas de déclaration de campagne trouvée sur la proportionnelle (option B)",
           "sources": [
             {
@@ -15841,7 +15857,7 @@
         "D-eco-pouvoir-achat": {
           "option": "A",
           "proposition": "social-01",
-          "texte_court": "Porter le salaire minimum à 2 000 euros brut par mois, avec des aides pour les petites entreprises et les associations",
+          "texte_court": "Porter à 2 000 euros brut par mois le salaire minimum, avec des aides pour les petites et moyennes entreprises et les associations",
           "justification": "Mesure chiffrée en euros : « Passer le salaire minimum à 2000€ brut par mois dès 2027 », première mesure du chapitre sur les rémunérations (social-01) ; hausse du SMIC présentée en premier dans ses 21 priorités (2026-04-17) ; elle propose aussi la revalorisation de 10 % des APL et de 250 € de l'AAH (social-05, social-06, proches de l'option D) et l'encadrement des prix d'un panier de biens essentiels (eco-04)",
           "sources": [
             {
@@ -17240,7 +17256,7 @@
         "D-env-rythme": {
           "option": "D",
           "proposition": "env-03",
-          "texte_court": "Supprimer l'interdiction de vendre des véhicules à essence ou diesel prévue pour 2035",
+          "texte_court": "Supprimer l'interdiction de vendre des véhicules neufs à essence ou diesel prévue pour 2035",
           "justification": "(parti : Reconquête, programme européen 2024, avant la candidature) : « Supprimer l'interdiction de la vente de véhicules thermiques à l'horizon 2035 » et « Abroger toutes les directives et règlements du Pacte vert » (env-03, env-04) ; pas de déclaration de campagne 2026 trouvée sur ce point",
           "sources": [
             {
@@ -17252,7 +17268,7 @@
         "D-secu-budget": {
           "option": "B",
           "proposition": "secu-04",
-          "texte_court": "Construire rapidement 100 000 places de prison supplémentaires",
+          "texte_court": "Construire 100 000 places de prison supplémentaires",
           "justification": "Aucune mesure chiffrée en euros ; seul poste visé : « la construction rapide de 100 000 places de prison supplémentaires » (objectif quantifié, selon Entrevue, 2026-10-25, secu-04), avec les peines planchers (secu-01) ; recrutement de 40 000 surveillants pénitentiaires (secu-05, grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat), au service de l'exécution des peines ; postes de policiers épargnés par les suppressions d'emplois publics (eco-06), sans objectif de hausse ; aucun objectif d'effectifs de magistrats ni de prévention trouvé",
           "sources": [
             {
@@ -18108,7 +18124,7 @@
           {
             "candidat": "melenchon-jean-luc",
             "proposition": "social-02",
-            "texte": "Porter le salaire minimum à 1 700 euros net par mois",
+            "texte": "Porter à 1 700 euros net par mois le salaire minimum",
             "texte_court": true,
             "sources": [
               {
@@ -18120,7 +18136,7 @@
           {
             "candidat": "ruffin-francois",
             "proposition": "social-01",
-            "texte": "Porter le salaire minimum à 1 700 euros net par mois",
+            "texte": "Porter à 1 700 euros net par mois le salaire minimum",
             "texte_court": true,
             "sources": [
               {
@@ -18136,7 +18152,7 @@
           {
             "candidat": "tondelier-marine",
             "proposition": "social-01",
-            "texte": "Porter le salaire minimum à 2 000 euros brut par mois, avec des aides pour les petites entreprises et les associations",
+            "texte": "Porter à 2 000 euros brut par mois le salaire minimum, avec des aides pour les petites et moyennes entreprises et les associations",
             "texte_court": true,
             "sources": [
               {
@@ -18763,7 +18779,7 @@
           {
             "candidat": "ruffin-francois",
             "proposition": "eco-01",
-            "texte": "Soumettre à référendum une taxe de 4 % sur les dividendes des entreprises, moins élevée pour celles qui en versent le moins, pour financer la transition écologique",
+            "texte": "Créer, après référendum, une taxe de 4 % sur les dividendes des entreprises, réduite pour celles qui en versent peu, pour financer la transition écologique",
             "texte_court": true,
             "sources": [
               {
@@ -18834,7 +18850,7 @@
           {
             "candidat": "roussel-fabien",
             "proposition": "eco-02",
-            "texte": "Supprimer immédiatement les certificats d'économie d'énergie, un dispositif dont le coût s'ajoute au prix du litre d'essence",
+            "texte": "Supprimer immédiatement les certificats d'économie d'énergie appliqués au litre d'essence",
             "texte_court": true,
             "sources": [
               {
@@ -18854,7 +18870,7 @@
           {
             "candidat": "zemmour-eric",
             "proposition": "env-03",
-            "texte": "Supprimer l'interdiction de vendre des véhicules à essence ou diesel prévue pour 2035",
+            "texte": "Supprimer l'interdiction de vendre des véhicules neufs à essence ou diesel prévue pour 2035",
             "texte_court": true,
             "sources": [
               {
@@ -18952,7 +18968,7 @@
           {
             "candidat": "zemmour-eric",
             "proposition": "secu-04",
-            "texte": "Construire rapidement 100 000 places de prison supplémentaires",
+            "texte": "Construire 100 000 places de prison supplémentaires",
             "texte_court": true,
             "sources": [
               {
@@ -19146,7 +19162,7 @@
           {
             "candidat": "ruffin-francois",
             "proposition": "europe-01",
-            "texte": "Faire passer la politique commerciale européenne du libre-échange à la protection",
+            "texte": "Obtenir que la politique commerciale de l'Union européenne passe du libre-échange à la protection",
             "texte_court": true,
             "sources": [
               {
@@ -19403,7 +19419,7 @@
           {
             "candidat": "roussel-fabien",
             "proposition": "europe-01",
-            "texte": "Engager la France dans un effort diplomatique pour obtenir rapidement un cessez-le-feu en Ukraine",
+            "texte": "Engager la France dans un effort diplomatique pour obtenir un cessez-le-feu en Ukraine",
             "texte_court": true,
             "sources": [
               {
@@ -19435,7 +19451,7 @@
           {
             "candidat": "roussel-fabien",
             "proposition": "educ-03",
-            "texte": "Lancer un plan de recrutement d'enseignants de grande ampleur",
+            "texte": "Lancer un plan de recrutement d'enseignants",
             "texte_court": true,
             "sources": [
               {
@@ -19726,7 +19742,7 @@
           {
             "candidat": "ruffin-francois",
             "proposition": "instit-03",
-            "texte": "Créer un référendum d'initiative citoyenne, pour que des référendums puissent être proposés par les citoyens eux-mêmes",
+            "texte": "Permettre aux citoyens de proposer eux-mêmes des référendums",
             "texte_court": true,
             "sources": [
               {

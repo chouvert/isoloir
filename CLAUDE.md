@@ -24,7 +24,7 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 npm install
 npm run valider          # contrôle des données (0 erreur exigé)
 npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
-node --test tests/*.test.mjs   # ou npm test (143 tests)
+node --test tests/*.test.mjs   # ou npm test (142 tests)
 npm run veille -- --sortie <dossier>   # collecte de veille (le workflow quotidien la lance sur la branche veille)
 cd site && npm install && npm run build   # site Astro (lit donnees/base.json et identite/)
 cd site && npm run dev                    # aperçu local sur http://localhost:4321/isoloir/
@@ -163,6 +163,9 @@ Propositions ajoutées ou précisées par fiche, informations reportées à la s
   chiffrages) ; autres options mentionnées ; une idée par option ; `aucune` réservé.
 - R2 Qui parle : candidat, programme, équipe, parti qui l'a investi (sauf primaire ouverte ou coalition) ;
   élu à titre personnel ou militant local = « (indice : …) » ; « avant la candidature » signalé.
+- R2 bis Texte court (duels) : présent pour chaque rattachement qui a une proposition, sauf si celle-ci ne porte pas
+  l'option ; une phrase à l'infinitif, ≤ 200 caractères, langage courant, fidèle à la proposition référencée (rien
+  d'emprunté à la justification), sans mot de jugement ni formule du candidat (`referentiel/anonymisation.md`).
 - R3 Phares : résumé du candidat, sinon 3 annonces dédiées les plus récentes au contenu vérifiable ;
   commentaire des annonces écartées.
 - R4 Sources (voir plus haut). R5 Actualité depuis `derniere_maj` ; mettre `derniere_maj` à jour.
