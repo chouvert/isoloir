@@ -418,6 +418,8 @@ export function retenir(element, source, detection) {
 // Journal
 // ---------------------------------------------------------------------------
 
+const estProgramme = (info) => typeof info.nature === 'string' && info.nature.startsWith('programme-');
+
 /** Journal lisible d'une semaine : sources muettes, puis une section par candidat (ordre alphabétique), puis « transverse ». */
 export function journalMarkdown(infos, { semaine, muettes = [] }) {
   const parties = [`# Veille — ${semaine}`, ''];
@@ -435,8 +437,9 @@ export function journalMarkdown(infos, { semaine, muettes = [] }) {
   if (groupes.has('transverse')) cles.push('transverse');
   for (const c of cles) {
     parties.push(`## ${c}`, '');
-    const lignes = groupes.get(c).sort((a, b) => b.date.localeCompare(a.date) || a.titre.localeCompare(b.titre));
-    for (const i of lignes) parties.push(`- ${i.date} · [${i.titre.replace(/[[\]]/g, '')}](${i.lien}) · ${i.source}${i.chapo ? ` — ${i.chapo}` : ''}`);
+    const lignes = groupes.get(c).sort((a, b) => Number(estProgramme(b)) - Number(estProgramme(a))
+      || b.date.localeCompare(a.date) || a.titre.localeCompare(b.titre));
+    for (const i of lignes) parties.push(`- ${estProgramme(i) ? '**Programme** · ' : ''}${i.date} · [${i.titre.replace(/[[\]]/g, '')}](${i.lien}) · ${i.source}${i.chapo ? ` — ${i.chapo}` : ''}`);
     parties.push('');
   }
   if (!infos.length) parties.push('Aucune information cette semaine.', '');
@@ -521,6 +524,9 @@ export async function collecter({
     const reponse = await lire(source.url);
     const elements = reponse.statut === 200 ? LECTEURS[source.type](reponse.texte, reponse.url ?? source.url) : [];
     if (!elements.length) { echec(source.id); continue; }
+    const motifs = Array.isArray(source.motifs) && source.motifs.length ? source.motifs.map(plier) : null;
+    const sousMotif = (lien) => { try { return motifs.some((m) => plier(new URL(lien).pathname).includes(m)); } catch { return false; } };
+    if (motifs) programmes[source.id] = { adresses: elements.length, correspondantes: elements.map((e) => e.lien).filter(sousMotif) };
     // Premier succès d'une page ou d'un plan de site : tout ce qui s'y trouve déjà (menus, archives) est marqué vu.
     const etalonnage = source.type !== 'rss' && !nouvelEtat[source.id]?.dernierSucces;
     nouvelEtat[source.id] = { dernierSucces: jour, echecs: 0 };
@@ -536,6 +542,16 @@ export async function collecter({
       if (dejaVus.has(lien)) continue;
       dejaVus.add(lien);
       if (el.date && joursEntre(el.date, jour) > FENETRE_JOURS) continue;
+      if (motifs) {
+        // Source à motifs : seules les adresses de programme sont gardées.
+        if (!sousMotif(lien)) continue;
+        infos.push({
+          id: identifiant(jour, lien), semaine, source: source.id, categorie: source.categorie, date: jour, collecte: jour,
+          titre: `Programme : page apparue — ${el.titre}`, lien, chapo: el.chapo, candidats: [...propres].sort(), motsCles: [],
+          nature: 'programme-apparu',
+        });
+        continue;
+      }
       const detection = detecter(`${el.titre} ${el.chapo}`, { candidats, motsCles });
       if (!retenir(el, source, detection)) continue;
       const date = el.date && el.date <= jour ? el.date : jour;

@@ -225,7 +225,13 @@ test('sources.yml : entrées bien formées', () => {
   assert.equal(new Set(ids).size, ids.length, 'identifiants en double');
   for (const s of sources) {
     assert.match(s.id, /^[a-z0-9]+(-[a-z0-9]+)*$/, s.id);
-    assert.ok(['rss', 'page', 'sitemap'].includes(s.type), `${s.id} : type`);
+    assert.ok(['rss', 'page', 'sitemap', 'programme'].includes(s.type), `${s.id} : type`);
+    if (s.type === 'programme') assert.ok(Array.isArray(s.candidats) && s.candidats.length, `${s.id} : programme sans candidat`);
+    for (const champ of ['prefixes', 'motifs']) {
+      if (s[champ] !== undefined) assert.ok(Array.isArray(s[champ]) && s[champ].every((x) => typeof x === 'string' && x), `${s.id} : ${champ}`);
+    }
+    if (s.prefixes) assert.ok(s.prefixes.every((x) => x.startsWith('/')), `${s.id} : préfixe sans « / » initial`);
+    if (s.plan !== undefined) assert.match(s.plan, /^https?:\/\//, `${s.id} : plan`);
     assert.ok(['campagne', 'parti', 'presse', 'sondages', 'institution'].includes(s.categorie), `${s.id} : catégorie`);
     assert.match(s.url, /^https:\/\//, `${s.id} : url`);
     assert.ok(s.candidats === 'transverse' || (Array.isArray(s.candidats) && s.candidats.every((c) => fiches.has(c))), `${s.id} : candidats`);
@@ -503,5 +509,44 @@ test('programme : collecter sans empreintes ni lireEntete → empreintes vides',
 test('liensProgramme : même site, sous un préfixe, ancres retirées, sans doublon', () => {
   assert.deepEqual(liensProgramme(SOMMAIRE, 'https://c.fr/programme/', ['/programme/']), [
     'https://c.fr/programme/livre/chapitre1', 'https://c.fr/programme/livre/chapitre2', 'https://c.fr/programme/plan.pdf',
+  ]);
+});
+
+// ---------------------------------------------------------------------------
+// Programmes : motifs, journal
+// ---------------------------------------------------------------------------
+
+const plan = (chemins) => `<urlset>${chemins.map((c) => `<url><loc>https://d.fr${c}</loc></url>`).join('')}</urlset>`;
+
+test('motifs : plan de site — adresse nouvelle sous un motif gardée comme « page apparue », le reste écarté', async () => {
+  const src = { id: 'site-d', type: 'sitemap', url: 'https://d.fr/sitemap.xml', categorie: 'campagne',
+    candidats: ['zemmour-eric'], motifs: ['programme', 'projet'] };
+  const r1 = await collecter({ ...BASE, sources: [src], etat: {}, vus: new Set(),
+    lireUrl: lecteur({ 'https://d.fr/sitemap.xml': ok(plan(['/accueil'])) }) });
+  assert.deepEqual(r1.infos, []);
+  const r2 = await collecter({ ...BASE, sources: [src], etat: r1.etat, vus: r1.vus, maintenant: '2026-11-08',
+    lireUrl: lecteur({ 'https://d.fr/sitemap.xml': ok(plan(['/accueil', '/notre-projet/sante', '/actualites/meeting'])) }) });
+  assert.deepEqual(r2.infos.map((i) => [i.lien, i.nature]), [['https://d.fr/notre-projet/sante', 'programme-apparu']]);
+  assert.equal(r2.infos[0].titre, 'Programme : page apparue — https://d.fr/notre-projet/sante');
+  assert.deepEqual(r2.infos[0].candidats, ['zemmour-eric']);
+  const sans = { ...src, motifs: undefined };
+  const r3 = await collecter({ ...BASE, sources: [sans], etat: r1.etat, vus: r1.vus, maintenant: '2026-11-08',
+    lireUrl: lecteur({ 'https://d.fr/sitemap.xml': ok(plan(['/accueil', '/notre-projet/sante', '/actualites/meeting'])) }) });
+  assert.equal(r3.infos.length, 2);
+  assert.ok(r3.infos.every((i) => !('nature' in i)));
+});
+
+test('journalMarkdown : informations « programme » d’abord dans la section du candidat, marquées', () => {
+  const info = (id, date, nature) => ({
+    id, semaine: '2026-S46', source: 'src', categorie: 'campagne', date, collecte: date,
+    titre: `Titre ${id}`, lien: `https://site.fr/${id}`, chapo: '', candidats: ['attal-gabriel'], motsCles: [], ...(nature ? { nature } : {}),
+  });
+  const md = journalMarkdown([info('recent', '2026-11-12'), info('prog', '2026-11-10', 'programme-modifie'), info('autre', '2026-11-11')],
+    { semaine: '2026-S46' });
+  const lignes = md.split('\n').filter((l) => l.startsWith('- '));
+  assert.deepEqual(lignes, [
+    '- **Programme** · 2026-11-10 · [Titre prog](https://site.fr/prog) · src',
+    '- 2026-11-12 · [Titre recent](https://site.fr/recent) · src',
+    '- 2026-11-11 · [Titre autre](https://site.fr/autre) · src',
   ]);
 });
