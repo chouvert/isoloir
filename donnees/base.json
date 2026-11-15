@@ -852,6 +852,14 @@
     {
       "terme": "heures supplémentaires",
       "definition": "Heures travaillées au-delà de la durée légale du travail (35 heures par semaine pour un temps plein)"
+    },
+    {
+      "terme": "capitalisation",
+      "definition": "Retraite financée par une épargne placée pendant la vie active, et non par les cotisations des actifs du moment"
+    },
+    {
+      "terme": "proportionnelle",
+      "definition": "Mode d'élection où chaque parti obtient un nombre de sièges proportionnel à son nombre de voix"
     }
   ],
   "criteres_faisabilite": [
@@ -1194,7 +1202,7 @@
         "D-eco-dette": {
           "option": "A",
           "proposition": "eco-01",
-          "texte_court": "Économiser 150 milliards d'euros en cinq ans sans augmenter les impôts, surtout sur les dépenses sociales",
+          "texte_court": "Économiser 150 milliards d'euros en cinq ans, surtout sur les dépenses sociales, sans augmenter les impôts",
           "justification": "Plan de 150 Md€ d'économies « sans hausse d'impôts », dont deux tiers sur les dépenses sociales (eco-01) ; 100 000 postes de fonctionnaires supprimés (eco-03)",
           "sources": [
             {
@@ -1270,7 +1278,7 @@
         "D-env-electricite": {
           "option": "A",
           "proposition": "env-01",
-          "texte_court": "Construire 14 nouveaux réacteurs nucléaires, au rythme d'un par an à terme",
+          "texte_court": "Construire 14 nouveaux réacteurs nucléaires",
           "justification": "14 nouveaux réacteurs, à terme un par an (env-01) ; développement des renouvelables sans objectif chiffré (env-02) ; à Lyon, nucléaire et renouvelables présentés comme développés conjointement, sans parts comparables annoncées (option C non retenue)",
           "sources": [
             {
@@ -1298,7 +1306,7 @@
         "D-secu-budget": {
           "option": "B",
           "proposition": "secu-06",
-          "texte_court": "Faciliter la construction de prisons, en demandant moins de logements sociaux aux communes qui acceptent d'en accueillir une",
+          "texte_court": "Faciliter la construction de prisons, en allégeant les obligations de logement social des communes volontaires et en permettant à l'État de passer outre le refus des élus locaux",
           "justification": "Facilités pour construire des prisons (allègement des obligations de logement social des communes volontaires) et prison ferme automatiquement encourue pour les crimes contre les mineurs (secu-06, secu-02) ; il propose aussi l'IA et la réécriture de la procédure pénale pour accélérer les jugements (secu-05), sans hausse d'effectifs de magistrats annoncée ; il propose aussi de mobiliser militaires et réservistes pour la surveillance statique afin de libérer les forces de l'ordre (secu-08, idée proche de l'option A)",
           "sources": [
             {
@@ -1330,7 +1338,7 @@
         "D-europe-regles": {
           "option": "B",
           "proposition": "europe-01",
-          "texte_court": "Négocier un nouveau traité créant une union plus étroite entre un petit groupe de pays européens, soumis à un référendum européen",
+          "texte_court": "Négocier, entre un petit groupe de pays européens, un nouveau traité d'union plus étroite, soumis à un référendum européen",
           "justification": "Changer les règles par la négociation d'un nouveau traité entre un noyau dur de pays (europe-01, europe-02) ; aucune dérogation nationale au droit européen proposée",
           "sources": [
             {
@@ -1346,7 +1354,7 @@
         "D-europe-defense": {
           "option": "A",
           "proposition": "europe-03",
-          "texte_court": "Poursuivre et amplifier le réarmement de la France",
+          "texte_court": "Amplifier le réarmement de la France",
           "justification": "Poursuivre et amplifier le réarmement national, dissuasion nucléaire comme « outil de puissance » (europe-03) ; selon Public Sénat, la défense resterait aux États dans son projet européen ; la défense figure aussi parmi les domaines d'une coopération européenne par coalitions d'États volontaires (tribune au Figaro, europe-05) ; pas de niveau de dépense annoncé",
           "sources": [
             {
@@ -2795,7 +2803,7 @@
         "D-env-rythme": {
           "option": "A",
           "proposition": "env-01",
-          "texte_court": "Diviser par deux la consommation d'énergie, en ouvrant un débat avant de multiplier les écrans publicitaires lumineux, les centres de données ou les réseaux mobiles",
+          "texte_court": "Diviser par deux la consommation d'énergie, en ouvrant un débat avant de développer les centres de données ou une nouvelle génération de réseaux mobiles",
           "justification": "Accélérer en acceptant un coût sur l'activité : « vouloir sauver la croissance du PIB est incompatible avec la sécurité climatique » (2025-11-26) ; « Un nouveau modèle est possible : la décroissance » (2026-06-26) ; diviser par deux la consommation d'énergie ; débat préalable sur les data centers, la 6G et les écrans publicitaires (2026-06-22, env-01) ; le parti propose aussi de réformer la filière pétrolière contre la spéculation (2026-04-10)",
           "sources": [
             {
@@ -3531,7 +3539,7 @@
         "D-eco-dette": {
           "option": "A",
           "proposition": "eco-07",
-          "texte_court": "Réduire les dépenses publiques de 100 milliards d'euros par an en cinq ans, notamment sur la fraude aux aides sociales, les agences publiques et les régions",
+          "texte_court": "Réduire les dépenses publiques de 100 milliards d'euros par an au bout de cinq ans",
           "justification": "Chiffrage le plus lourd : « 100 milliards d'économies en s'attaquant aux gaspillages massifs », contre 40 Md€ de recettes nouvelles (lutte contre la fraude fiscale, impôt sur les multinationales, taxes sur les données et anti-dumping, proche de B) et 50 Md€ de recettes attendues de la croissance (option D) ; dépense publique ramenée de 56,9 % du PIB en 2026 à 51,6 % en 2032 (eco-07)",
           "sources": [
             {
@@ -3563,7 +3571,7 @@
         "D-social-retraites": {
           "option": "D",
           "proposition": "social-02",
-          "texte_court": "Verser 10 000 euros à la naissance de chaque enfant français, placés dans un fonds public jusqu'à sa retraite pour lui assurer un complément de pension",
+          "texte_court": "Verser 10 000 euros à la naissance de chaque enfant français, placés dans un fonds public jusqu'à sa retraite, en complément de sa pension",
           "justification": "Seule mesure de retraite chiffrée : un capital de 10 000 € par nouveau-né, placé dans un fonds public, qui donnerait à 60 ans « un socle de retraite par capitalisation, qui viendrait en complément de la retraite par répartition » (6 Md€ par an, social-02) ; (parti, page non datée) maintien de l'âge et de la durée de cotisation issus de la réforme de 2010 (page antérieure à 2023), ce qui écarte l'option A, et financement « par l'augmentation du nombre de cotisants », sans option correspondante",
           "sources": [
             {
@@ -3671,7 +3679,7 @@
         "D-europe-defense": {
           "option": "A",
           "proposition": "europe-03",
-          "texte_court": "Augmenter le budget de la défense de 7 milliards d'euros par an en fin de mandat et le mettre à l'abri des baisses",
+          "texte_court": "Augmenter le budget annuel de la défense de 7 milliards d'euros d'ici la fin du mandat et le mettre à l'abri des baisses",
           "justification": "Augmentation chiffrée du budget de la Défense : « Augmenter et sanctuariser le budget de la Défense à 2,3 % du PIB » (7 Md€ par an en 2032, ligne de dépense du plan de financement, europe-03) ; la fin des aides à l'Ukraine est aussi chiffrée (7 Md€ par an d'économies, Livret, mesure 22, europe-05, proche de D), mais c'est une économie, non comptée dans les tableaux du Cahier rouge (« À noter que nous mettrons fin aux aides à l'Ukraine »), et non une dépense de diplomatie ; sortie du commandement intégré de l'OTAN (C écartée) ; refus du partage de la dissuasion et sortie du programme SCAF (B écartée)",
           "sources": [
             {
@@ -3687,7 +3695,7 @@
         "D-educ-niveau": {
           "option": "B",
           "proposition": "educ-01",
-          "texte_court": "Augmenter de 20 % le salaire de tous les professeurs, puis d'autant pour ceux qui assurent des heures de soutien aux élèves en difficulté",
+          "texte_court": "Augmenter de 20 % le salaire de tous les professeurs, puis de 20 % de plus pour ceux qui assurent des heures de soutien aux élèves en difficulté",
           "justification": "Salaires des professeurs : 20 % de hausse automatique puis 20 % en échange d'heures de soutien (8 Md€ par an, educ-01), plus gros poste de dépenses nouvelles hors entreprises ; aucun objectif d'effectif par classe trouvé ; « la reconstruction de l'école publique des savoirs, de l'effort et du mérite » (2026-09-19, proche de D)",
           "sources": [
             {
@@ -17943,7 +17951,7 @@
           {
             "candidat": "attal-gabriel",
             "proposition": "eco-01",
-            "texte": "Économiser 150 milliards d'euros en cinq ans sans augmenter les impôts, surtout sur les dépenses sociales",
+            "texte": "Économiser 150 milliards d'euros en cinq ans, surtout sur les dépenses sociales, sans augmenter les impôts",
             "texte_court": true,
             "sources": [
               {
@@ -17963,7 +17971,7 @@
           {
             "candidat": "dupont-aignan-nicolas",
             "proposition": "eco-07",
-            "texte": "Réduire les dépenses publiques de 100 milliards d'euros par an en cinq ans, notamment sur la fraude aux aides sociales, les agences publiques et les régions",
+            "texte": "Réduire les dépenses publiques de 100 milliards d'euros par an au bout de cinq ans",
             "texte_court": true,
             "sources": [
               {
@@ -18258,7 +18266,7 @@
           {
             "candidat": "dupont-aignan-nicolas",
             "proposition": "social-02",
-            "texte": "Verser 10 000 euros à la naissance de chaque enfant français, placés dans un fonds public jusqu'à sa retraite pour lui assurer un complément de pension",
+            "texte": "Verser 10 000 euros à la naissance de chaque enfant français, placés dans un fonds public jusqu'à sa retraite, en complément de sa pension",
             "texte_court": true,
             "sources": [
               {
@@ -18355,7 +18363,7 @@
           {
             "candidat": "attal-gabriel",
             "proposition": "env-01",
-            "texte": "Construire 14 nouveaux réacteurs nucléaires, au rythme d'un par an à terme",
+            "texte": "Construire 14 nouveaux réacteurs nucléaires",
             "texte_court": true,
             "sources": [
               {
@@ -18455,7 +18463,7 @@
           {
             "candidat": "batho-delphine",
             "proposition": "env-01",
-            "texte": "Diviser par deux la consommation d'énergie, en ouvrant un débat avant de multiplier les écrans publicitaires lumineux, les centres de données ou les réseaux mobiles",
+            "texte": "Diviser par deux la consommation d'énergie, en ouvrant un débat avant de développer les centres de données ou une nouvelle génération de réseaux mobiles",
             "texte_court": true,
             "sources": [
               {
@@ -18566,7 +18574,7 @@
           {
             "candidat": "attal-gabriel",
             "proposition": "secu-06",
-            "texte": "Faciliter la construction de prisons, en demandant moins de logements sociaux aux communes qui acceptent d'en accueillir une",
+            "texte": "Faciliter la construction de prisons, en allégeant les obligations de logement social des communes volontaires et en permettant à l'État de passer outre le refus des élus locaux",
             "texte_court": true,
             "sources": [
               {
@@ -18691,7 +18699,7 @@
           {
             "candidat": "attal-gabriel",
             "proposition": "europe-01",
-            "texte": "Négocier un nouveau traité créant une union plus étroite entre un petit groupe de pays européens, soumis à un référendum européen",
+            "texte": "Négocier, entre un petit groupe de pays européens, un nouveau traité d'union plus étroite, soumis à un référendum européen",
             "texte_court": true,
             "sources": [
               {
@@ -18787,7 +18795,7 @@
           {
             "candidat": "attal-gabriel",
             "proposition": "europe-03",
-            "texte": "Poursuivre et amplifier le réarmement de la France",
+            "texte": "Amplifier le réarmement de la France",
             "texte_court": true,
             "sources": [
               {
@@ -18799,7 +18807,7 @@
           {
             "candidat": "dupont-aignan-nicolas",
             "proposition": "europe-03",
-            "texte": "Augmenter le budget de la défense de 7 milliards d'euros par an en fin de mandat et le mettre à l'abri des baisses",
+            "texte": "Augmenter le budget annuel de la défense de 7 milliards d'euros d'ici la fin du mandat et le mettre à l'abri des baisses",
             "texte_court": true,
             "sources": [
               {
@@ -18933,7 +18941,7 @@
           {
             "candidat": "dupont-aignan-nicolas",
             "proposition": "educ-01",
-            "texte": "Augmenter de 20 % le salaire de tous les professeurs, puis d'autant pour ceux qui assurent des heures de soutien aux élèves en difficulté",
+            "texte": "Augmenter de 20 % le salaire de tous les professeurs, puis de 20 % de plus pour ceux qui assurent des heures de soutien aux élèves en difficulté",
             "texte_court": true,
             "sources": [
               {

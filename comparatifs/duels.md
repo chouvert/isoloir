@@ -17,8 +17,8 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
-| A | Gabriel Attal | eco-01 (texte court) | Économiser 150 milliards d'euros en cinq ans sans augmenter les impôts, surtout sur les dépenses sociales |
-| A | Nicolas Dupont-Aignan | eco-07 (texte court) | Réduire les dépenses publiques de 100 milliards d'euros par an en cinq ans, notamment sur la fraude aux aides sociales, les agences publiques et les régions |
+| A | Gabriel Attal | eco-01 (texte court) | Économiser 150 milliards d'euros en cinq ans, surtout sur les dépenses sociales, sans augmenter les impôts |
+| A | Nicolas Dupont-Aignan | eco-07 (texte court) | Réduire les dépenses publiques de 100 milliards d'euros par an au bout de cinq ans |
 | A | Marine Le Pen | eco-01 (texte court) | Économiser 140 milliards d'euros sur les dépenses publiques d'ici la fin du mandat, avec l'essentiel de l'effort au début |
 | A | David Lisnard | eco-01 (texte court) | Baisser les dépenses publiques de 200 milliards d'euros par an d'ici la fin du mandat |
 | C | Marine Tondelier | eco-06 (texte court) | Ralentir la baisse des déficits pour préserver l'emploi : exclure les investissements de transition écologique du calcul du déficit autorisé, renégocier la trajectoire budgétaire européenne et stabiliser la dette publique |
@@ -49,7 +49,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | David Lisnard | social-01 (texte court) | Porter à 65 ans l'âge légal de départ à la retraite |
 | B | Marine Tondelier | social-02 (texte court) | Revenir à 62 ans et viser 60 ans pour les carrières longues et pénibles, en finançant le régime par la hausse des cotisations vieillesse : +0,2 point par an pendant le quinquennat, et des cotisations étendues à l'épargne salariale, à l'intéressement et à la participation |
 | D | Gabriel Attal | social-02 (texte court) | Faire verser par l'État 1 000 euros à la naissance de chaque enfant sur un compte d'épargne pour sa retraite, que sa famille peut compléter |
-| D | Nicolas Dupont-Aignan | social-02 (texte court) | Verser 10 000 euros à la naissance de chaque enfant français, placés dans un fonds public jusqu'à sa retraite pour lui assurer un complément de pension |
+| D | Nicolas Dupont-Aignan | social-02 (texte court) | Verser 10 000 euros à la naissance de chaque enfant français, placés dans un fonds public jusqu'à sa retraite, en complément de sa pension |
 | D | Marine Le Pen | social-02 (texte court) | Créer dans le système de retraite une part de capitalisation, c'est-à-dire une épargne placée pour financer sa future pension |
 
 ### D-social-chomage
@@ -71,7 +71,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
-| A | Gabriel Attal | env-01 (texte court) | Construire 14 nouveaux réacteurs nucléaires, au rythme d'un par an à terme |
+| A | Gabriel Attal | env-01 (texte court) | Construire 14 nouveaux réacteurs nucléaires |
 | A | Nicolas Dupont-Aignan | env-01 (texte court) | Accélérer la construction de nouveaux réacteurs nucléaires, grands et petits, pour remplacer les centrales en fin de vie |
 | A | Marine Le Pen | env-02 (texte court) | S'appuyer d'abord sur le nucléaire pour produire l'électricité, avec 60 % de nucléaire à terme et le reste en énergies renouvelables |
 | A | David Lisnard | env-01 (texte court) | Construire de nouveaux réacteurs nucléaires et faire fonctionner les réacteurs actuels jusqu'à 60 ans |
@@ -85,7 +85,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | A | Gabriel Attal | env-03 (texte court) | Réduire les émissions de gaz à effet de serre trois fois plus vite qu'aujourd'hui |
-| A | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en ouvrant un débat avant de multiplier les écrans publicitaires lumineux, les centres de données ou les réseaux mobiles |
+| A | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en ouvrant un débat avant de développer les centres de données ou une nouvelle génération de réseaux mobiles |
 | B | Raphaël Glucksmann | env-05 (texte court) | Financer la transition écologique par des taxes sur les bénéfices exceptionnels des entreprises du pétrole et du gaz et sur le transport aérien |
 | D | Nicolas Dupont-Aignan | env-03 (texte court) | Supprimer plusieurs règles environnementales, dont l'interdiction de vendre des voitures neuves à essence ou diesel à partir de 2035 |
 | D | Marine Le Pen | env-04 (texte court) | Supprimer l'objectif de ne plus construire sur de nouvelles terres naturelles ou agricoles et rendre simplement indicatif le classement énergétique des logements |
@@ -101,7 +101,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 |---|---|---|---|
 | A | David Lisnard | secu-06 (texte court) | Lancer un plan de remise à niveau de la police nationale, avec au moins 50 % de présence des policiers sur le terrain |
 | A | Marine Tondelier | secu-02 (texte court) | Recréer une police nationale de proximité et donner la priorité au renforcement des effectifs de terrain, formés à la médiation et à la prévention ; limiter les contrôles d'identité aux situations justifiées, avec récépissé |
-| B | Gabriel Attal | secu-06 (texte court) | Faciliter la construction de prisons, en demandant moins de logements sociaux aux communes qui acceptent d'en accueillir une |
+| B | Gabriel Attal | secu-06 (texte court) | Faciliter la construction de prisons, en allégeant les obligations de logement social des communes volontaires et en permettant à l'État de passer outre le refus des élus locaux |
 | B | Éric Zemmour | secu-04 (texte court) | Construire rapidement 100 000 places de prison supplémentaires, supprimer la fonction de juge de l'application des peines et rétablir une législation spécifique contre les casseurs |
 | C | Nicolas Dupont-Aignan | secu-01 (texte court) | Doubler la dépense consacrée à la justice par habitant et recruter davantage de magistrats et de greffiers |
 
@@ -127,7 +127,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
-| B | Gabriel Attal | europe-01 (texte court) | Négocier un nouveau traité créant une union plus étroite entre un petit groupe de pays européens, soumis à un référendum européen |
+| B | Gabriel Attal | europe-01 (texte court) | Négocier, entre un petit groupe de pays européens, un nouveau traité d'union plus étroite, soumis à un référendum européen |
 | C | David Lisnard | europe-02 (texte court) | Obtenir que la France ne soit plus tenue d'appliquer les règles européennes communes sur l'asile et l'immigration |
 | C | Bruno Retailleau | europe-01 (texte court) | Changer la Constitution par référendum pour que le droit français prime sur le droit européen dans certaines situations, notamment en matière d'immigration et de sécurité, et permettre à une loi de revenir sur une jurisprudence européenne contraire aux intérêts fondamentaux |
 | D | Nicolas Dupont-Aignan | europe-02 (texte court) | Faire passer le droit français avant le droit européen |
@@ -139,8 +139,8 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
-| A | Gabriel Attal | europe-03 (texte court) | Poursuivre et amplifier le réarmement de la France |
-| A | Nicolas Dupont-Aignan | europe-03 (texte court) | Augmenter le budget de la défense de 7 milliards d'euros par an en fin de mandat et le mettre à l'abri des baisses |
+| A | Gabriel Attal | europe-03 (texte court) | Amplifier le réarmement de la France |
+| A | Nicolas Dupont-Aignan | europe-03 (texte court) | Augmenter le budget annuel de la défense de 7 milliards d'euros d'ici la fin du mandat et le mettre à l'abri des baisses |
 | A | David Lisnard | europe-04 (texte court) | Réduire les dépenses de l'État jugées inutiles pour investir davantage dans la défense |
 | B | Delphine Batho | europe-01 (texte court) | Augmenter le budget de la défense pour construire une défense européenne autonome |
 | B | Raphaël Glucksmann | europe-02 (texte court) | Lancer un plan pour rendre l'Europe plus indépendante et un grand emprunt commun aux pays européens |
@@ -157,7 +157,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | B | Gabriel Attal | educ-02 (texte court) | Augmenter le salaire des enseignants d'au moins 200 euros net par mois, davantage en milieu de carrière |
-| B | Nicolas Dupont-Aignan | educ-01 (texte court) | Augmenter de 20 % le salaire de tous les professeurs, puis d'autant pour ceux qui assurent des heures de soutien aux élèves en difficulté |
+| B | Nicolas Dupont-Aignan | educ-01 (texte court) | Augmenter de 20 % le salaire de tous les professeurs, puis de 20 % de plus pour ceux qui assurent des heures de soutien aux élèves en difficulté |
 | B | Raphaël Glucksmann | educ-01 (texte court) | Augmenter de 10 % le salaire de tous les enseignants, et davantage selon l'avancement de leur carrière |
 | B | Marine Le Pen | educ-01 (texte court) | Garder le même budget pour l'école alors que le nombre d'élèves baisse, afin de mieux payer les enseignants et d'en recruter davantage |
 | C | David Lisnard | educ-05 (texte court) | Laisser les chefs d'établissement recruter leurs enseignants, choisir les méthodes et gérer leur budget |
