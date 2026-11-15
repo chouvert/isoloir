@@ -19,13 +19,13 @@ function cas(n, { participants } = {}) {
 }
 
 test('constantes', () => {
-  assert.deepEqual(DUELS, { nombre: 6, maxApparitions: 2 });
+  assert.deepEqual(DUELS, { nombre: 4, maxApparitions: 2 });
 });
 
-test('au plus 6 duels, dans l\'ordre des dilemmes, éligibles tous comptés', () => {
+test('au plus 4 duels, dans l\'ordre des dilemmes, éligibles tous comptés', () => {
   const { duels, eligibles } = preparerDuels({ ...cas(8), aleatoire: suite() });
   assert.equal(eligibles, 8);
-  assert.deepEqual(duels.map((d) => d.dilemme), ['D1', 'D2', 'D3', 'D4', 'D5', 'D6']);
+  assert.deepEqual(duels.map((d) => d.dilemme), ['D1', 'D2', 'D3', 'D4']);
   assert.deepEqual(duels[0], {
     dilemme: 'D1', optionUtilisateur: 'A',
     gauche: { candidat: 'a0', option: 'A', proposition: 'x-a0', texte: 'mesure de a0', utilisateur: true },
@@ -69,7 +69,7 @@ test('tirage : candidat et côté choisis par le tirage, reproductibles', () => 
   assert.deepEqual(tirer(), d);
 });
 
-test('moins de 6 duels possibles : tous proposés, aucune erreur', () => {
+test('moins de 4 duels possibles : tous proposés, aucune erreur', () => {
   const { duels, eligibles } = preparerDuels({ ...cas(2), aleatoire: suite() });
   assert.equal(duels.length, 2);
   assert.equal(eligibles, 2);
@@ -100,11 +100,11 @@ test('Map acceptée comme objet', () => {
   assert.equal(r.duels.length, 1);
 });
 
-test('exemple de la méthode : 4 duels cohérents sur 5 comptés', () => {
+test('exemple de la méthode : 2 duels cohérents sur 3 comptés', () => {
   // Utilisateur toujours à gauche (tirage 0) ; réponses de l'exemple de la section 5.
-  const ids = ['D-eco-dette', 'D-social-retraites', 'D-social-chomage', 'D-env-electricite', 'D-europe-regles', 'D-europe-defense'];
-  const options = ['A', 'B', 'C', 'C', 'B', 'B'];
-  const autres = ['B', 'D', 'A', 'A', 'A', 'A'];
+  const ids = ['D-eco-dette', 'D-social-retraites', 'D-social-chomage', 'D-env-electricite'];
+  const options = ['A', 'B', 'C', 'C'];
+  const autres = ['B', 'D', 'A', 'A'];
   const participants = Object.fromEntries(ids.map((id, i) => [id, { [options[i]]: [p(`u${i}`)], [autres[i]]: [p(`v${i}`)] }]));
   const { duels } = preparerDuels({
     dilemmes: Object.fromEntries(ids.map((id) => [id, { voisines: [] }])),
@@ -113,7 +113,7 @@ test('exemple de la méthode : 4 duels cohérents sur 5 comptés', () => {
     participants,
     aleatoire: suite(),
   });
-  const r = evaluerDuels(duels, ['gauche', 'droite', 'gauche', 'les deux', 'gauche', 'gauche']);
-  assert.deepEqual(r.details.map((d) => d.statut), ['cohérent', 'écart', 'cohérent', 'non compté', 'cohérent', 'cohérent']);
-  assert.deepEqual([r.coherents, r.comptes, r.taux], [4, 5, 0.8]);
+  const r = evaluerDuels(duels, ['gauche', 'droite', 'gauche', 'les deux']);
+  assert.deepEqual(r.details.map((d) => d.statut), ['cohérent', 'écart', 'cohérent', 'non compté']);
+  assert.deepEqual([r.coherents, r.comptes, r.taux], [2, 3, 2 / 3]);
 });

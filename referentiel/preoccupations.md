@@ -1,10 +1,10 @@
 # Préoccupations
 
 Première étape du parcours web. L'utilisateur choisit **jusqu'à 3** sujets qui le préoccupent
-le plus, ou « Rien de tout ça en particulier ». Ses choix servent à :
+le plus, ou « Tout compte autant ». Ses choix servent à :
 
-1. pré-remplir le budget de priorités (étape 2), qu'il ajuste ensuite librement ;
-2. poser en premier les dilemmes liés à ses préoccupations (étape 3).
+1. fixer le poids des thèmes, qu'il peut ensuite régler lui-même (réglage facultatif) ;
+2. poser en premier les dilemmes liés à ses préoccupations (étape 2).
 
 Les règles de calcul sont dans `referentiel/methode-proximite.md`.
 

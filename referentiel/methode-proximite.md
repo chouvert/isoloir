@@ -20,35 +20,39 @@ le calcul à la main.
 
 | Donnée                       | Origine                                         | Étape du parcours |
 |------------------------------|-------------------------------------------------|-------------------|
-| Préoccupations choisies      | Jusqu'à 3, parmi `referentiel/preoccupations.md` | 1 — Préoccupations |
-| Poids des thèmes             | 100 points répartis par l'utilisateur           | 2 — Priorités     |
-| Réponses de l'utilisateur    | Une option par dilemme, ou « sans avis »        | 3 — Dilemmes      |
+| Sujets choisis               | Jusqu'à 3, parmi `referentiel/preoccupations.md` | 1 — Vos sujets    |
+| Poids des thèmes             | Déduits des sujets ; réglables par des réglettes | 1 — Vos sujets (réglage facultatif) |
+| Réponses de l'utilisateur    | Une option par dilemme, ou « sans avis »        | 2 — Dilemmes      |
 | Réponses des candidats       | Section « Réponses aux dilemmes » des fiches    | —                 |
 | Options voisines             | Ligne `voisines` de chaque dilemme              | —                 |
-| Choix à l'aveugle            | Duels de propositions (`comparatifs/duels.md`)  | 4 — Duels         |
+| Choix à l'aveugle            | Duels de propositions (`comparatifs/duels.md`)  | 3 — Duels         |
 | Notes de faisabilité         | Section « Analyse de faisabilité » des fiches   | —                 |
 
-## 0. Préoccupations : pré-remplissage du budget et ordre des dilemmes
+## 0. Vos sujets : poids des thèmes et ordre des dilemmes
 
-Les préoccupations n'entrent pas dans le calcul de proximité. Elles préparent les deux étapes
-suivantes, que l'utilisateur garde entièrement en main.
+Les sujets choisis (les « préoccupations » du référentiel) n'entrent pas dans le calcul de
+proximité. Ils fixent le poids de chaque thème et l'ordre des dilemmes. L'écran le dit à
+l'utilisateur : ses sujets pèseront plus que les autres, et les questions commenceront par eux.
 
-### Pré-remplissage du budget
-L'utilisateur choisit jusqu'à 3 préoccupations. Le budget de 100 points est pré-rempli ainsi :
+### Budget des thèmes
+Le poids des thèmes est un budget de 100 points. **Il n'est jamais affiché en points** : il sert
+au calcul. L'utilisateur choisit jusqu'à 3 sujets, et le budget est calculé ainsi :
 
 1. **60 points** sont répartis à parts égales entre les 9 thèmes ;
 2. **40 points** sont répartis entre les thèmes des préoccupations choisies : chaque préoccupation
    donne 2 parts à son thème principal et 1 part à son thème secondaire ; les parts s'additionnent
    quand plusieurs préoccupations touchent le même thème ;
-3. sans préoccupation choisie (« Rien de tout ça en particulier »), les 100 points sont répartis
+3. sans préoccupation choisie (« Tout compte autant »), les 100 points sont répartis
    à parts égales ;
 4. les valeurs sont arrondies à l'entier en gardant un total de 100 (méthode du plus fort reste) :
    chaque thème reçoit la partie entière de sa valeur, puis les points restants vont, un par un,
    aux thèmes dont la partie décimale est la plus grande. **Les égalités sont départagées par
    tirage au sort**, pour qu'aucun thème ne soit systématiquement avantagé par l'arrondi.
 
-L'écran indique que le budget est pré-rempli d'après les choix de l'utilisateur, qui l'ajuste
-librement, y compris jusqu'à 0 point pour un thème.
+Dès qu'un sujet est choisi, l'écran indique combien de fois le thème le plus doté pèse plus qu'un
+thème non choisi : valeur exacte du thème le plus doté, divisée par 60 / 9, arrondie à l'entier
+(de 3 à 7 selon les sujets : 3 pour trois sujets de thèmes différents, 7 pour un seul sujet sans
+thème secondaire). L'écran dit « jusqu'à environ N fois plus », les autres thèmes choisis pesant moins.
 
 **Exemple.** Préoccupations : « Boucler les fins de mois » (eco 2 parts, social 1 part),
 « La retraite » (social 2 parts), « Le climat et l'environnement » (env 2 parts). Soit 7 parts :
@@ -61,10 +65,35 @@ eco 2, social 3, env 2.
 | env                | 6,67   | 40 × 2/7    | 18,10         | 18      |
 | 6 autres thèmes    | 6,67   | 0           | 6,67          | 7 pour 4 d'entre eux, 6 pour 2 (tirage) |
 
-Total : 18 + 24 + 18 + 4 × 7 + 2 × 6 = 100.
+Total : 18 + 24 + 18 + 4 × 7 + 2 × 6 = 100. Le thème le plus doté (social) pèse 23,81 / 6,67,
+soit environ 4 fois plus qu'un thème non choisi.
+
+### Réglage facultatif
+L'utilisateur peut ouvrir un réglage : une réglette par thème, de 0 (« ne compte pas ») à 10
+(« compte beaucoup »).
+
+1. Position de départ d'une réglette : points du thème divisés par 3, arrondis à l'entier, 10 au
+   plus. Dans l'exemple : eco 6, social 8, env 6, les autres thèmes 2. À parts égales : 4 partout.
+2. **Tant qu'aucune réglette n'est déplacée, le budget calculé plus haut est conservé tel quel.**
+3. Dès qu'une réglette est déplacée, le budget est recalculé pour tous les thèmes :
+   `points(thème) = 100 × niveau / somme des niveaux`, arrondi par la même méthode du plus fort
+   reste.
+4. Un thème à 0 n'est pas abordé. Il faut garder au moins un thème au-dessus de 0.
+5. Changer de sujets efface le réglage ; l'utilisateur en est prévenu.
+6. Le réglage n'est accepté que s'il laisse au moins 5 dilemmes à poser (voir « Minimum de réponses »).
+
+Le réglage **remplace** le poids donné par les sujets, ce que l'écran indique : la position de départ
+d'une réglette étant arrondie et plafonnée à 10, le premier cran déplacé peut modifier le poids de
+tous les thèmes (jusqu'à 9 points pour un thème, quand un seul sujet a été choisi).
+
+**Exemple.** L'utilisateur part de l'exemple précédent et met `social` à 10 et `env` à 0. Niveaux :
+eco 6, social 10, env 0, six autres thèmes à 2, soit 28. Points : eco 100 × 6/28 = 21,43 ;
+social 35,71 ; env 0 ; chacun des six autres 7,14. Parties entières : 21 + 35 + 0 + 6 × 7 = 98 ; les
+deux points restants vont aux plus forts restes, social (0,71) puis eco (0,43). Budget : eco 22,
+social 36, env 0, 7 pour chacun des six autres.
 
 ### Ordre des dilemmes
-Une fois le budget validé :
+Une fois les sujets choisis (et le réglage éventuel terminé) :
 
 1. les dilemmes associés aux préoccupations choisies sont posés en premier, dans l'ordre où
    l'utilisateur a choisi ses préoccupations ;
@@ -103,7 +132,7 @@ Règles :
 
 ## 2. Poids d'un dilemme
 
-Le poids d'un thème est le nombre de points que l'utilisateur lui a attribués. Ce poids est
+Le poids d'un thème est son nombre de points dans le budget (section 0). Ce poids est
 partagé entre les dilemmes du thème auxquels il a répondu :
 
 ```
@@ -166,6 +195,9 @@ sans voir le nom des candidats, l'utilisateur préfère-t-il les mesures qui cor
 options qu'il a choisies dans les dilemmes ?
 
 ### Ce qui est montré
+Chaque duel est précédé de son contexte : le thème et l'énoncé du dilemme dont il est tiré. La
+réponse que l'utilisateur a donnée à ce dilemme n'est pas rappelée, pour ne pas orienter son choix.
+
 Pour chaque dilemme, chaque candidat rattaché à une option est représenté par la proposition de
 sa fiche qui fonde ce rattachement (colonne `proposition` du tableau des dilemmes). Elle est
 montrée sans nom ni source, après le nettoyage décrit dans `referentiel/anonymisation.md`. Quand ce
@@ -178,7 +210,7 @@ exclusions est publiée dans `comparatifs/duels.md`.
 ### Choix des duels
 1. Un dilemme donne un duel si l'utilisateur y a choisi une option X (pas « sans avis »), si au
    moins un candidat participant est rattaché à X et au moins un à une autre option.
-2. Les dilemmes sont parcourus dans l'ordre où ils ont été posés ; on retient les **6 premiers**.
+2. Les dilemmes sont parcourus dans l'ordre où ils ont été posés ; on retient les **4 premiers**.
 3. D'un côté, un candidat rattaché à X, tiré au sort ; de l'autre, un candidat rattaché à une
    option différente **et non voisine** de X, tiré au sort, ou, s'il n'y en a aucun, à une option
    voisine.
@@ -186,7 +218,7 @@ exclusions est publiée dans `comparatifs/duels.md`.
    dilemme est passé.
 5. La place à gauche ou à droite de chaque mesure est tirée au sort.
 
-S'il y a moins de 6 dilemmes éligibles (beaucoup de « sans avis », candidats peu renseignés), tous
+S'il y a moins de 4 dilemmes éligibles (beaucoup de « sans avis », candidats peu renseignés), tous
 les duels possibles sont proposés et l'utilisateur en est informé.
 
 ### Réponses et indicateur
@@ -212,7 +244,7 @@ chaque duel : les deux candidats, l'option de chacun, le statut, la **source** d
 mesure rattachée à B. »
 
 ### Exemple
-Six dilemmes éligibles ; l'utilisateur répond :
+Quatre dilemmes retenus ; l'utilisateur répond :
 
 | duel | dilemme            | option choisie au dilemme | mesure préférée à l'aveugle         | statut     |
 |------|--------------------|---------------------------|-------------------------------------|------------|
@@ -220,10 +252,8 @@ Six dilemmes éligibles ; l'utilisateur répond :
 | 2    | D-social-retraites | B                         | celle du candidat rattaché à D      | écart      |
 | 3    | D-social-chomage   | C                         | celle du candidat rattaché à C      | cohérent   |
 | 4    | D-env-electricite  | C                         | « les deux »                        | non compté |
-| 5    | D-europe-regles    | B                         | celle du candidat rattaché à B      | cohérent   |
-| 6    | D-europe-defense   | B                         | celle du candidat rattaché à B      | cohérent   |
 
-Résultat : **4 duels cohérents sur 5 comptés**. Le duel 2 invite à revoir le dilemme des
+Résultat : **2 duels cohérents sur 3 comptés**. Le duel 2 invite à revoir le dilemme des
 retraites : la mesure préférée à l'aveugle relève d'une autre option que celle choisie.
 
 ## 6. Faisabilité
@@ -234,7 +264,7 @@ filtrer sur la faisabilité, mais elle n'entre jamais dans le score de proximit�
 
 ## Exemple
 
-L'utilisateur répartit ses points : `eco` 30, `social` 30, `env` 20, `europe` 20,
+Le budget des thèmes vaut (réglettes à 3, 3, 2 et 2, les autres à 0) : `eco` 30, `social` 30, `env` 20, `europe` 20,
 autres thèmes 0. Il répond :
 
 | dilemme            | thème  | réponse   | poids |

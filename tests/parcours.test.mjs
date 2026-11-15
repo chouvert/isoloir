@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { lireReferentiel } from '../scripts/lib/validation.mjs';
-import { preremplirBudget, ordonnerDilemmes, arrondirPlusFortReste } from '../scripts/lib/parcours.mjs';
+import { preremplirBudget, ordonnerDilemmes, arrondirPlusFortReste, niveauxDepuisBudget, budgetDepuisNiveaux, rapportSujets } from '../scripts/lib/parcours.mjs';
 
 const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const ref = lireReferentiel(RACINE, { erreur: () => {}, avertissement: () => {} });
@@ -94,4 +94,63 @@ test('ordre : dans un thème, ordre du référentiel', () => {
   const o = ordre([]);
   assert.ok(o.indexOf('D-eco-dette') < o.indexOf('D-eco-pouvoir-achat'));
   assert.ok(o.indexOf('D-europe-regles') < o.indexOf('D-europe-defense'));
+});
+
+// ---------- réglage facultatif des poids (réglettes) ----------
+
+test('niveaux de départ des réglettes', () => {
+  const n = niveauxDepuisBudget(budget(['P-fin-de-mois', 'P-retraite', 'P-climat']));
+  assert.deepEqual([n.eco, n.social, n.env, n.secu], [6, 8, 6, 2]);
+  assert.ok(Object.values(niveauxDepuisBudget(budget([]))).every((v) => v === 4));
+  assert.equal(niveauxDepuisBudget({ eco: 47 }).eco, 10);
+});
+
+test('budget depuis les niveaux des réglettes', () => {
+  const egal = Object.fromEntries(THEMES.map((t) => [t, 4]));
+  const b = budgetDepuisNiveaux({ niveaux: egal, aleatoire: tirageFixe() });
+  assert.equal(somme(b), 100);
+  assert.ok(Object.values(b).every((v) => v === 11 || v === 12));
+  const seul = Object.fromEntries(THEMES.map((t) => [t, t === 'eco' ? 10 : 0]));
+  assert.equal(budgetDepuisNiveaux({ niveaux: seul }).eco, 100);
+  const zero = Object.fromEntries(THEMES.map((t) => [t, 0]));
+  assert.throws(() => budgetDepuisNiveaux({ niveaux: zero }), /aucun thème retenu/);
+  assert.throws(() => budgetDepuisNiveaux({ niveaux: { ...egal, eco: 11 } }));
+  assert.throws(() => budgetDepuisNiveaux({ niveaux: { ...egal, eco: 2.5 } }));
+});
+
+test('rapport entre un thème choisi et un thème non choisi', () => {
+  const r = (choisies) => rapportSujets({ themes: THEMES, preoccupations: ref.preoccupations, choisies });
+  assert.equal(r([]), null);
+  assert.equal(r(['P-retraite']), 7);
+  assert.equal(r(['P-retraite', 'P-climat', 'P-dette']), 3);
+  assert.equal(r(['P-fin-de-mois', 'P-retraite', 'P-climat']), 4);
+});
+
+test('un thème mis à 0 par réglage n’est pas abordé, même lié à un sujet choisi', () => {
+  const niveaux = { ...Object.fromEntries(THEMES.map((t) => [t, 4])), social: 0 };
+  const points = budgetDepuisNiveaux({ niveaux, aleatoire: tirageFixe() });
+  const ordre = ordonnerDilemmes({
+    dilemmes: ref.dilemmes, preoccupations: ref.preoccupations, choisies: ['P-retraite'], points, aleatoire: tirageFixe(),
+  });
+  assert.ok(ordre.length > 0);
+  assert.ok(!ordre.includes('D-social-retraites'));
+});
+
+test('exemple du réglage de la méthode : social à 10, env à 0', () => {
+  const niveaux = { ...niveauxDepuisBudget(budget(['P-fin-de-mois', 'P-retraite', 'P-climat'])), social: 10, env: 0 };
+  const b = budgetDepuisNiveaux({ niveaux, aleatoire: tirageFixe() });
+  assert.deepEqual([b.eco, b.social, b.env], [22, 36, 0]);
+  assert.ok(THEMES.filter((t) => !['eco', 'social', 'env'].includes(t)).every((t) => b[t] === 7));
+  assert.equal(somme(b), 100);
+});
+
+test('rapport des sujets : thème secondaire, et accord avec le budget pré-rempli', () => {
+  const r = (choisies) => rapportSujets({ themes: THEMES, preoccupations: ref.preoccupations, choisies });
+  assert.equal(r(['P-fin-de-mois']), 5);
+  // Le rapport annoncé suit le budget réel : thème le plus doté sur thème sans part, à l'arrondi du budget près.
+  for (const choisies of [['P-retraite'], ['P-fin-de-mois', 'P-retraite', 'P-climat'], ['P-energie', 'P-ecole']]) {
+    const v = Object.values(budget(choisies));
+    const reel = Math.max(...v) / Math.min(...v);
+    assert.ok(Math.abs(reel - r(choisies)) < 1.2, `${choisies} : annoncé ${r(choisies)}, réel ${reel}`);
+  }
 });
