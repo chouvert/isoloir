@@ -1,3 +1,4 @@
+https://attalpresident.fr/actualites/de-nice-a-la-rochelle-gabriel-attal-multiplie-les-reunions-publiques
 https://attalpresident.fr/actualites/gabriel-attal-bfm-tv-seule-primaire-peut-permettre-rassemblement
 https://attalpresident.fr/actualites/gabriel-attal-bretagne-deux-jours-rencontre-territoire
 https://attalpresident.fr/actualites/gabriel-attal-dans-le-parisien-rassemblement-jeunesse-et-dette
@@ -10,6 +11,7 @@ https://attalpresident.fr/actualites/gabriel-attal-grande-primaire-rassembler-de
 https://attalpresident.fr/actualites/gabriel-attal-lance-une-grande-consultation-pacte-pour-la-jeunesse
 https://attalpresident.fr/actualites/gabriel-attal-lci-restos-du-coeur-nouveau-modele-social
 https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques
+https://attalpresident.fr/actualites/gabriel-attal-petits-patrons-professionnels-liberaux-lci
 https://attalpresident.fr/actualites/gabriel-attal-presente-ses-mesures-pour-la-jeunesse-et-l-avenir-de-la-france
 https://attalpresident.fr/actualites/gabriel-attal-primaire-grand-rassemblement-risque-second-tour-rn-lfi
 https://attalpresident.fr/actualites/gabriel-attal-rassemblement-eviter-second-tour-rn-lfi-hausse-salaires
@@ -25,6 +27,7 @@ https://attalpresident.fr/actualites/gabriel-attal-sud-ouest-tous-proprietaires-
 https://attalpresident.fr/actualites/gabriel-attal-vision-economique-liberer-innover-independance-france
 https://attalpresident.fr/actualites/gabriel-attal-voix-du-nord-france-premiere-puissance-europe-primaire
 https://attalpresident.fr/actualites/harcelement-scolaire-gabriel-attal-parole-huit-jeunes-victimes-engagement
+https://attalpresident.fr/actualites/plus-de-1000-elus-appellent-a-une-primaire-pour-2027
 https://attalpresident.fr/actualites?page=2
 https://attalpresident.fr/actualites?page=3
 https://attalpresident.fr/actualites?page=4
@@ -116,6 +119,7 @@ https://lcp.fr/actualites/crise-du-logement-le-gouvernement-veut-assouplir-les-r
 https://lcp.fr/actualites/cybersecurite-l-assemblee-nationale-approuve-le-projet-de-loi-musclant-les-mesures-de
 https://lcp.fr/actualites/cybersecurite-les-secteurs-hautement-critiques-bientot-inscrits-dans-la-loi-444844
 https://lcp.fr/actualites/d-un-seul-coup-et-en-masse-en-cas-de-victoire-les-insoumis-veulent-gouverner-vite-en
+https://lcp.fr/actualites/des-policiers-manifestent-devant-beauvau-jean-luc-melenchon-appelle-a-severement-les
 https://lcp.fr/actualites/des-propos-tout-bonnement-inadmissibles-la-ciivise-saisit-l-assemblee-nationale-apres
 https://lcp.fr/actualites/ecarte-des-instances-du-pcf-apres-son-soutien-a-jean-luc-melenchon-stephane-peu-veut
 https://lcp.fr/actualites/equipe-de-campagne-de-raphael-glucksmann-apres-les-divisions-de-la-primaire-l-heure-du
@@ -154,6 +158,7 @@ https://lcp.fr/actualites/lutte-contre-les-derives-des-plateformes-de-e-commerce
 https://lcp.fr/actualites/manifestations-du-17-octobre-emmanuel-gregoire-et-gerald-darmanin-au-programme-des
 https://lcp.fr/actualites/motion-de-censure-constructive-renovation-energetique-les-textes-de-la-niche
 https://lcp.fr/actualites/mouvement-lyceen-le-gouvernement-annonce-une-saisine-systematique-de-la-justice-pour-les
+https://lcp.fr/actualites/parcoursup-le-defenseur-des-droits-deplore-le-manque-de-transparence-des-algorithmes
 https://lcp.fr/actualites/permis-gratuit-apl-climatisation-des-ecoles-marine-le-pen-passe-son-brevet-presidentiel
 https://lcp.fr/actualites/petition-contre-cnews-coup-d-arret-au-texte-qui-demandait-la-suppression-de-la-chaine-du
 https://lcp.fr/actualites/petition-contre-cnews-le-classement-du-texte-confirme-par-l-assemblee-un-debat-plus
@@ -164,10 +169,12 @@ https://lcp.fr/actualites/pouvoir-d-achat-les-francais-vont-ils-pouvoir-debloque
 https://lcp.fr/actualites/pouvoir-d-achat-sebastien-lecornu-reunira-syndicats-et-patronat-lundi-pour-apporter-des
 https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841
 https://lcp.fr/actualites/presidentielle-2027-divises-entre-melenchon-et-roussel-les-deputes-communistes-s
+https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa
 https://lcp.fr/actualites/presidentielle-2027-entre-gabriel-attal-bruno-retailleau-et-david-lisnard-une-primaire
 https://lcp.fr/actualites/presidentielle-2027-face-a-teddy-riner-le-centre-et-la-droite-cherchent-la-reponse-entre
 https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932
 https://lcp.fr/actualites/presidentielle-2027-marc-fesneau-plaide-pour-une-primaire-large-de-bruno-retailleau-a
+https://lcp.fr/actualites/presidentielle-2027-marine-tondelier-prete-a-une-coalition-autour-de-jean-luc-melenchon
 https://lcp.fr/actualites/presidentielle-2027-pourquoi-edouard-philippe-sera-absent-du-debat-face-a-marine-le-pen
 https://lcp.fr/actualites/presidentielle-2027-pourquoi-jean-luc-melenchon-va-diner-ce-mardi-avec-des-grands
 https://lcp.fr/actualites/presidentielle-2027-quels-scenarios-pour-le-bloc-central-et-la-droite-444800
@@ -182,9 +189,11 @@ https://lcp.fr/actualites/reforme-des-retraites-la-gauche-presente-ses-contre-pr
 https://lcp.fr/actualites/reforme-des-retraites-les-reactions-apres-la-decision-de-laisser-du-temps-a-la
 https://lcp.fr/actualites/reforme-des-retraites-pourquoi-le-rn-veut-supprimer-les-criteres-de-penibilite-du
 https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935
+https://lcp.fr/actualites/saisi-a-plus-de-100-reprises-le-defenseur-des-droits-appelle-a-se-reposer-la-question-de
 https://lcp.fr/actualites/salaires-pouvoir-d-achat-que-peut-on-attendre-de-la-conference-sociale-du-lundi-9
 https://lcp.fr/actualites/smic-a-1502-euros-prime-carburant-les-annonces-du-gouvernement-sur-le-pouvoir-d-achat
 https://lcp.fr/actualites/smic-retraites-pouvoir-d-achat-jusqu-ou-un-gouvernement-peut-il-agir-sans-vote-du
+https://lcp.fr/actualites/sortie-de-gta-vi-violence-et-jeu-video-pourquoi-les-politiques-sont-divises-445014
 https://lcp.fr/actualites/ukraine-l-amerique-ne-peut-pas-negocier-a-notre-place-alerte-la-cheffe-de-la-diplomatie
 https://lcp.fr/actualites/ukraine-marine-le-pen-revendique-un-soutien-sans-faille-mais-veut-fermer-le-robinet
 https://lcp.fr/actualites/universites-sebastien-lecornu-annonce-la-creation-de-5000-places-supplementaires-en
@@ -302,6 +311,7 @@ https://marinetondelier.fr/journal-de-campagne/nos-services-publics
 https://marinetondelier.fr/journal-de-campagne/pacte-droit-animal
 https://marinetondelier.fr/journal-de-campagne/panier-sain
 https://marinetondelier.fr/journal-de-campagne/pour-une-culture-vivante
+https://marinetondelier.fr/journal-de-campagne/precarite-energetique
 https://marinetondelier.fr/journal-de-campagne/rencontre-lycees
 https://marinetondelier.fr/journal-de-campagne/rencontre-lycees-tk4yt
 https://marinetondelier.fr/journal-de-campagne/rencontre-organisations-jeunesse
@@ -317,6 +327,7 @@ https://marinetondelier.fr/journal-de-campagne?offset=1789229294190
 https://marinetondelier.fr/journal-de-campagne?offset=1789579903990
 https://marinetondelier.fr/journal-de-campagne?offset=1790406392487
 https://marinetondelier.fr/journal-de-campagne?offset=1791267031804
+https://marinetondelier.fr/journal-de-campagne?offset=1791526191633
 https://marinetondelier.fr/la-campagne
 https://marinetondelier.fr/le-programme
 https://marinetondelier.fr/lelivre
@@ -329,6 +340,7 @@ https://marinetondelier.fr/politique-confidentialite
 https://melenchon2027.fr/actualites/communique/plan-textile
 https://melenchon2027.fr/communique/plan-pauvrete
 https://melenchon2027.fr/evenement/campagne/conference-lenfance-au-coeur-de-la-nouvelle-france-avec-j-l-melenchon-jeudi-19-novembre-a-19h
+https://melenchon2027.fr/evenement/campagne/je-participe-a-la-conference-redonner-a-la-mer-le-gout-du-futur-du-mardi-24-novembre-2026-avec-jean-luc-melenchon
 https://melenchon2027.fr/evenement/campagne/manifestation-contre-la-repression-pour-nos-jeunes-pour-nos-salaires-pour-les-services-publics
 https://melenchon2027.fr/evenement/campagne/reunion-publique
 https://melenchon2027.fr/evenement/campagne/reunion-publique-a-vernon-avec-antoine-leaument-et-nadege-abomangoli
@@ -646,6 +658,11 @@ https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2404
 https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2405
 https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2406
 https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2407
+https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2408
+https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2409
+https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2410
+https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2411
+https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2412
 https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/11/2022-2-tour-presidentielle
 https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/12/2022-1er-tour-presidentielle
 https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/13/2024-Legislatives
@@ -689,6 +706,7 @@ https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-
 https://www.edouardphilippe.fr/actualites/le-15-octobre-venez-parler-decole-avec-edouard-philippe
 https://www.edouardphilippe.fr/actualites/le-comite-de-campagne-est-lance
 https://www.edouardphilippe.fr/actualites/mondial-de-l-auto-un-pacte-pour-la-filiere-automobile
+https://www.edouardphilippe.fr/actualites/parlons-sante-chez-vous-avec-edouard-philippe
 https://www.edouardphilippe.fr/actualites/proteger-adapter-equiper-mon-plan-pour-le-climat
 https://www.edouardphilippe.fr/actualites/ralliements-de-nouveaux-elus-rejoignent-le-rassemblement-autour-d-edouard
 https://www.edouardphilippe.fr/actualites/retraites-la-reforme-que-je-propose-aux-francais
@@ -804,6 +822,7 @@ https://www.franceinfo.fr/economie/vincent-bollore
 https://www.franceinfo.fr/elections
 https://www.franceinfo.fr/elections/candidats-a-la-presidentielle-que-veulent-ils-faire-des-fonctionnaires_8281235.html
 https://www.franceinfo.fr/elections/candidats-a-la-presidentielle-que-veulent-ils-faire-pour-l-education_8279921.html
+https://www.franceinfo.fr/elections/elle-a-choisi-de-tourner-le-dos-a-la-tradition-ecologiste-regrette-raphael-glucksmann-apres-le-rapprochement-de-marine-tondelier-a-la-candidature-de-jean-luc-melenchon_8289584.html
 https://www.franceinfo.fr/elections/presidentielle
 https://www.franceinfo.fr/elections/presidentielle/jean-noel-barrot-assure-que-la-primaire-du-bloc-central-est-ouverte-jusqu-a-raphael-glucksmann_8238292.html
 https://www.franceinfo.fr/elections/presidentielle/les-emmerdes-commencent-les-huit-defis-que-raphael-glucksmann-va-devoir-relever-apres-sa-victoire-a-la-primaire-de-la-gauche_8234041.html
@@ -812,6 +831,7 @@ https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-glucksman
 https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-je-ne-veux-pas-d-une-societe-ou-les-grands-medias-sont-controles-par-quelques-oligarques-assure-raphael-glucksmann_8279636.html
 https://www.franceinfo.fr/elections/presidentielle/primaire-populaire-gauche/retraites-je-refuse-ce-debat-tant-que-la-question-du-retour-de-l-isf-n-est-pas-posee-affirme-segolene-royal-candidate-a-la-primaire-du-pole-socialiste_8170295.html
 https://www.franceinfo.fr/elections/presidentielle/raphael-glucksmann-dit-etre-victime-d-une-campagne-de-harcelement-de-lfi_8253889.html
+https://www.franceinfo.fr/elections/presidentielle/un-reniement-existentiel-les-ecologistes-divises-les-socialistes-navres-apres-la-main-tendue-de-marine-tondelier-a-lfi-pour-la-presidentielle-2027_8289569.html
 https://www.franceinfo.fr/elections/presidentielle/vous-allez-voir-qu-il-est-de-gauche-un-mois-apres-la-primaire-raphael-glucksmann-veut-donner-des-gages-a-son-camp_8288081.html
 https://www.franceinfo.fr/elections/primaire-a-droite-et-au-centre-les-verts-courtises-a-gauche-le-point-sur-la-bataille-de-l-elysee-ce-12-novembre_8280032.html
 https://www.franceinfo.fr/elections/senatoriales
@@ -913,6 +933,7 @@ https://www.franceinfo.fr/monde/russie
 https://www.franceinfo.fr/monde/story-killers
 https://www.franceinfo.fr/monde/usa
 https://www.franceinfo.fr/monde/usa/midterms-2018
+https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/direct-rencontre-donald-trump-vladimir-poutine-xi-jinping-suivez-l-entretien-inedit-entre-les-trois-presidents-en-chine_8288564.html
 https://www.franceinfo.fr/nous-contacter.html
 https://www.franceinfo.fr/politique
 https://www.franceinfo.fr/politique/affaire
@@ -955,10 +976,12 @@ https://www.franceinfo.fr/politique/raphael-glucksmann/raphael-glucksmann-rempor
 https://www.franceinfo.fr/politique/raphael-glucksmann/victoire-a-la-primaire-sociale-democrate-enfin-on-a-une-gauche-democratique-qui-reprend-de-la-vigueur-et-qui-peut-gagner-l-election-presidentielle-reagit-raphael-glucksmann_8233474.html
 https://www.franceinfo.fr/recherche
 https://www.franceinfo.fr/redaction
+https://www.franceinfo.fr/replay-jt/france-2/20-heures/journal-de-campagne-la-bataille-de-l-elysee_8289041.html
 https://www.franceinfo.fr/replay-jt/france-2/20-heures/raphael-glucksmann-gagne-la-primaire-de-la-gauche-c-est-la-victoire-de-ceux-qui-croient-qu-il-faut-une-gauche-democratique-dans-notre-pays-declare-le-candidat-a-l-election-presidentielle_8233051.html
 https://www.franceinfo.fr/replay-jt/france-2/20-heures/victoire-de-raphael-glucksmann-des-le-premier-tour-de-la-primaire-de-la-gauche_8232985.html
 https://www.franceinfo.fr/replay-jt/franceinfo/21h-minuit/23-heures/primaire-de-la-gauche-raphael-glucksmann-elu-des-le-premier-tour_8233390.html
 https://www.franceinfo.fr/replay-radio
+https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/sommet-international-presidentielle-pouvoir-d-achat-le-8h30-franceinfo-de-raphael-glucksmann_8268626.html
 https://www.franceinfo.fr/replay-radio/l-edito-politique/edito-le-premier-debat-presidentiel-organise-par-le-medef-a-donne-le-ton-de-la-campagne-2027_8081753.html
 https://www.franceinfo.fr/replay-radio/l-edito-politique/edito-le-tout-sauf-glucksmann-va-t-il-profiter-a-olivier-faure-lors-de-la-primaire-socialiste_8145044.html
 https://www.franceinfo.fr/replay-radio/l-edito-politique/edito-raphael-glucksmann-la-victoire-d-un-geneur_8212703.html
@@ -1092,20 +1115,25 @@ https://www.lagazettefrance.fr/article/amiens-apf-france-handicap-multiplie-les-
 https://www.lagazettefrance.fr/article/amiens-la-chaise-longue-rouvre-bientot-au-centre-commercial-grand-a
 https://www.lagazettefrance.fr/article/amiens-lance-une-campagne-de-vaccination-dans-les-quartiers-jusqu-au-16-decembre-2026
 https://www.lagazettefrance.fr/article/anne-percin-est-laureate-du-prix-erckmann-chatrian-pour-son-roman-eugenie-sous-les-bombes
+https://www.lagazettefrance.fr/article/apres-le-pas-de-tondelier-vers-melenchon-glucksmann-en-appelle-a-la-tradition-pro-europeenne-des-ecologistes
 https://www.lagazettefrance.fr/article/apres-matignon-les-fonctionnaires-de-retour-dans-la-rue-pour-demander-des-hausses-de-salaires
 https://www.lagazettefrance.fr/article/arras-et-les-7-vallees-cles-en-main-pour-le-grand-plan-d-electrification
 https://www.lagazettefrance.fr/article/artisans-d-art-des-rencontres-fructueuses
+https://www.lagazettefrance.fr/article/au-havre-l-armateur-newtowt-devient-anemos-et-poursuit-le-fret-a-la-voile
 https://www.lagazettefrance.fr/article/au-milieu-d-une-foret-de-candidats-villepin-se-prepare-a-entrer-en-scene
 https://www.lagazettefrance.fr/article/au-pakistan-des-robots-serveurs-dans-un-restaurant-offrent-un-avant-gout-de-l-avenir
 https://www.lagazettefrance.fr/article/autun-mobilise-ses-habitants-autour-de-la-reduction-des-dechets-en-novembre
 https://www.lagazettefrance.fr/article/avec-somme-2050-imaginer-la-somme-de-demain-et-agir-des-aujourd-hui-pour-la-construire
 https://www.lagazettefrance.fr/article/baie-de-somme-l-office-de-tourisme-lance-un-nouveau-site-internet
 https://www.lagazettefrance.fr/article/baie-de-somme-natura-2000-permet-de-connaitre-les-sites-pour-mieux-orienter-leur-gestion
+https://www.lagazettefrance.fr/article/bar-le-duc-le-carrefour-foch-change-de-circulation
 https://www.lagazettefrance.fr/article/barentin-des-ombrieres-photovoltaiques-en-construction-sur-le-parking-de-carrefour
 https://www.lagazettefrance.fr/article/bas-salaires-les-revalorisations-annoncees-couteront-plus-d-un-milliard-d-euros-aux-finances-publiques-dit-amiel
 https://www.lagazettefrance.fr/article/bassin-minier-l-erbm-poursuit-ses-actions-pour-2027
 https://www.lagazettefrance.fr/article/beauvais-les-ovalies-unilasalle-reversent-90-000-euros-a-trois-associations
+https://www.lagazettefrance.fr/article/berlin-et-unicredit-s-accordent-sur-l-avenir-de-commerzbank
 https://www.lagazettefrance.fr/article/blendecques-le-groupe-italien-cartiere-carrara-acquiert-une-friche-industrielle
+https://www.lagazettefrance.fr/article/bolbec-1-24-million-d-euros-investis-dans-une-academie-dediee-a-l-hydrogene
 https://www.lagazettefrance.fr/article/bouygues-batiment-nord-est-structure-son-offre-sur-la-mel-avec-deux-agences-specialisees
 https://www.lagazettefrance.fr/article/bresles-le-smdo-inaugure-un-nouvel-outil-pour-les-agents-et-elus
 https://www.lagazettefrance.fr/article/breteuil-une-seconde-vie-du-batiment-a-ete-utilise-pour-46-pavillons-sociaux
@@ -1116,6 +1144,7 @@ https://www.lagazettefrance.fr/article/cesi-arras-celebre-ses-60-ans-d-histoire
 https://www.lagazettefrance.fr/article/chalon-sur-saone-le-festival-chefs-op-en-lumiere-revient-du-7-au-14-mars-2027
 https://www.lagazettefrance.fr/article/charge-du-gouvernement-contre-melenchon-accuse-d-etre-un-telegraphiste-du-kremlin
 https://www.lagazettefrance.fr/article/charmes-teste-le-dispositif-patron-dans-mon-village-une-premiere-dans-l-aisne
+https://www.lagazettefrance.fr/article/chocmod-delice-des-fetes
 https://www.lagazettefrance.fr/article/clermont-le-labopera-fait-chanter-du-mozart-en-francais-aux-lyceens
 https://www.lagazettefrance.fr/article/compiegne-en-12-ans-le-tigre-attire-et-genere-des-millions-de-retombees-economiques
 https://www.lagazettefrance.fr/article/compiegne-le-paris-roubaix-engendre-un-impact-benefique-pour-la-ville
@@ -1123,9 +1152,12 @@ https://www.lagazettefrance.fr/article/compiegne-le-stade-equestre-represente-un
 https://www.lagazettefrance.fr/article/consommation-novembre-est-aujourd-hui-le-plus-gros-mois-pour-l-e-commerce
 https://www.lagazettefrance.fr/article/contestation-de-la-jeunesse-le-gouvernement-durcit-le-ton-face-aux-violences
 https://www.lagazettefrance.fr/article/cop31-pour-le-maire-de-londres-la-solution-a-la-crise-climatique-vient-aussi-des-villes
+https://www.lagazettefrance.fr/article/cop31-sur-le-climat-la-reference-aux-energies-fossiles-disparait-dans-le-projet-de-decision-finale-D7Z66CQ
 https://www.lagazettefrance.fr/article/cop31-un-projet-de-decision-propose-d-accelerer-la-sortie-des-energies-fossiles
+https://www.lagazettefrance.fr/article/coquillettes-club-revisite-l-alimentation-des-enfants-par-le-jeu
 https://www.lagazettefrance.fr/article/corse-deux-jeunes-ayant-profane-une-statue-de-la-vierge-juges-lundi
 https://www.lagazettefrance.fr/article/cote-d-or-100-membres-de-l-ube-distingues-dans-le-classement-stanford-elsevier-2026
+https://www.lagazettefrance.fr/article/cote-d-or-l-ube-participe-a-la-semaine-europeenne-de-reduction-des-dechets
 https://www.lagazettefrance.fr/article/cote-d-or-le-champ-des-sourires-recoit-le-prix-national-de-l-ess-2026
 https://www.lagazettefrance.fr/article/crise-dans-l-education-etudiants-lyceens-et-enseignants-appellent-a-une-nouvelle-journee-d-action-mardi
 https://www.lagazettefrance.fr/article/crise-du-logement-le-projet-de-loi-examine-a-l-assemblee-nationale
@@ -1163,7 +1195,9 @@ https://www.lagazettefrance.fr/article/epiceries-participatives-un-appel-aux-can
 https://www.lagazettefrance.fr/article/epr2-une-journee-de-recrutement-organisee-a-dieppe-le-24-novembre
 https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle
 https://www.lagazettefrance.fr/article/et-si-les-acteurs-d-interet-general-reprenaient-le-controle-de-leurs-choix-numeriques
+https://www.lagazettefrance.fr/article/fm-logistic-conclut-un-contrat-strategique-avec-cosnova-beauty-en-espagne
 https://www.lagazettefrance.fr/article/fonctionnaires-jeunesse-salaries-du-prive-une-colere-qui-converge-malgre-des-corteges-moins-fournis
+https://www.lagazettefrance.fr/article/former-tout-au-long-de-la-vie-le-pari-de-l-ieseg
 https://www.lagazettefrance.fr/article/france-travail-pro-donne-la-parole-aux-recruteurs-en-meurthe-et-moselle
 https://www.lagazettefrance.fr/article/france-travail-propose-deux-rencontres-pour-donner-un-nouvel-elan-a-sa-carriere-en-saone-et-loire
 https://www.lagazettefrance.fr/article/franceinfo-regrette-d-avoir-donne-la-parole-a-un-enfant-insultant-emmanuel-macron
@@ -1191,7 +1225,9 @@ https://www.lagazettefrance.fr/article/l-agglo-de-chauny-tergnier-la-fere-va-mod
 https://www.lagazettefrance.fr/article/l-allemagne-va-baisser-sa-taxe-sur-l-electricite-et-plafonner-les-prix-des-carburants
 https://www.lagazettefrance.fr/article/l-apec-organise-sa-soiree-decouverte-metiers-au-fc-metz-stadium
 https://www.lagazettefrance.fr/article/l-espagne-en-greve-pour-defendre-l-acces-au-logement-et-le-pouvoir-d-achat
+https://www.lagazettefrance.fr/article/l-immobilier-neuf-plonge-encore
 https://www.lagazettefrance.fr/article/l-ore-ou-comment-proteger-la-nature-depuis-son-jardin
+https://www.lagazettefrance.fr/article/l-u2p-sur-le-qui-vive-avant-les-fetes-de-noel
 https://www.lagazettefrance.fr/article/l-universite-de-lorraine-abandonne-web-of-science-au-profit-d-openalex-en-2027
 https://www.lagazettefrance.fr/article/l-universite-de-lorraine-mise-sur-le-vivier-transfrontalier-a-strasbourg
 https://www.lagazettefrance.fr/article/la-5e-edition-du-salon-de-l-installation-et-de-la-transmission-agricole-prevu-le-26-novembre
@@ -1202,8 +1238,11 @@ https://www.lagazettefrance.fr/article/la-cour-des-comptes-demande-au-depute-all
 https://www.lagazettefrance.fr/article/la-france-fourbit-sa-riposte-contre-l-iran-apres-la-cyberattaque-contre-des-frigos
 https://www.lagazettefrance.fr/article/la-large-coalition-suggeree-par-macron-decredibilise-la-politique-estime-glucksmann
 https://www.lagazettefrance.fr/article/la-maison-forestiere-du-spitzberg-remporte-10-000-grace-au-vote-du-public
+https://www.lagazettefrance.fr/article/la-pepite-lgm-en-pleine-promotion-et-recrutement-a-marville
 https://www.lagazettefrance.fr/article/la-prefete-de-l-aisne-a-la-rencontre-des-acteurs-locaux-a-chateau-thierry
 https://www.lagazettefrance.fr/article/la-region-hauts-de-france-adopte-sa-nouvelle-strategie-plus-robuste-pour-l-elevage
+https://www.lagazettefrance.fr/article/la-soiree-de-l-engagement-met-25-entreprises-de-l-artois-a-l-honneur
+https://www.lagazettefrance.fr/article/la-vignery-ouvre-ses-portes-a-saint-quentin
 https://www.lagazettefrance.fr/article/la-ville-de-metz-offre-400-arbres-aux-habitants-pour-vegetaliser-leurs-jardins
 https://www.lagazettefrance.fr/article/le-college-charles-guerin-de-luneville-rouvre-se-portes-le-12-novembre
 https://www.lagazettefrance.fr/article/le-creusot-inaugure-un-jardin-des-simples-inspire-des-traditions-medievales
@@ -1239,6 +1278,7 @@ https://www.lagazettefrance.fr/article/longvic-alexis-daguet-decroche-le-titre-d
 https://www.lagazettefrance.fr/article/loos-en-gohelle-une-promotion-100-feminine-dans-le-btp
 https://www.lagazettefrance.fr/article/lyceen-poignarde-en-seine-saint-denis-le-suspect-mis-en-examen-et-place-sous-controle-judiciaire
 https://www.lagazettefrance.fr/article/macon-accueille-une-grande-etape-du-telethon-2026-avec-un-defi-de-40-metres
+https://www.lagazettefrance.fr/article/maconnais-beaujolais-agglomeration-met-en-avant-trois-startups-innovantes-au-salon-des-maires
 https://www.lagazettefrance.fr/article/macron-affirme-que-ceux-qui-veulent-rationner-l-aide-a-l-ukraine-veulent-l-obliger-a-une-paix-injuste
 https://www.lagazettefrance.fr/article/macron-passe-a-l-offensive-contre-le-pen-sur-l-ukraine
 https://www.lagazettefrance.fr/article/made-in-france-un-salon-record-pour-la-scop-bergere-de-france
@@ -1250,6 +1290,7 @@ https://www.lagazettefrance.fr/article/metiers-du-numerique-la-banque-de-france-
 https://www.lagazettefrance.fr/article/metz-30-photos-revelent-les-tresors-du-patrimoine-de-l-eau
 https://www.lagazettefrance.fr/article/metz-show-industrie-revient-pour-faire-decouvrir-les-metiers-qui-recrutent
 https://www.lagazettefrance.fr/article/meurthe-et-moselle-le-medef-lance-les-trophees-des-leaders-de-demain-2027
+https://www.lagazettefrance.fr/article/meuse-au-senat-jocelyne-antoine-alerte-sur-le-deficit-de-la-securite-sociale
 https://www.lagazettefrance.fr/article/meuse-le-nombre-de-demandeurs-d-emploi-recule-de-2-5-sur-un-an
 https://www.lagazettefrance.fr/article/meuse-les-portes-de-meuse-accompagnees-pour-accelerer-leur-transformation-numerique
 https://www.lagazettefrance.fr/article/micro-entreprise-comprendre-les-regles-pour-demarrer-sur-de-bonnes-bases
@@ -1267,6 +1308,7 @@ https://www.lagazettefrance.fr/article/nvidia-enquete-interne-sur-un-espionnage-
 https://www.lagazettefrance.fr/article/oise-34-logements-et-six-locaux-commerciaux-inaugures-a-plailly
 https://www.lagazettefrance.fr/article/oise-le-cinquieme-sens-rejoint-le-celebre-reseau-cosmetic-valley
 https://www.lagazettefrance.fr/article/oise-le-departement-lance-sa-campagne-de-viabilite-hivernale-2026-2027
+https://www.lagazettefrance.fr/article/oise-le-pole-metropolitain-devoilera-les-laureats-les-trophees-de-l-innovation
 https://www.lagazettefrance.fr/article/oise-les-clubs-cigales-mobilisent-l-epargne-citoyenne-pour-financer-les-projets-locaux
 https://www.lagazettefrance.fr/article/on-est-exsangues-les-proviseurs-appeles-a-se-mobiliser-face-aux-violences
 https://www.lagazettefrance.fr/article/onze-ans-apres-le-13-novembre-un-hommage-citoyen-a-toutes-les-victimes-du-terrorisme
@@ -1288,6 +1330,7 @@ https://www.lagazettefrance.fr/article/pour-la-sortie-de-son-programme-melenchon
 https://www.lagazettefrance.fr/article/pour-marine-le-pen-il-n-y-a-pas-de-discriminations-en-france
 https://www.lagazettefrance.fr/article/premier-deplacement-de-campagne-de-riner-dans-un-hopital-de-saint-denis
 https://www.lagazettefrance.fr/article/presente-dans-12-pays-cette-entreprise-lorraine-teste-son-premier-magasin-a-thionville
+https://www.lagazettefrance.fr/article/presidentielle-edouard-philippe-et-ses-potes-de-droite
 https://www.lagazettefrance.fr/article/presidentielle-en-france-rsf-dresse-dix-priorites-pour-le-droit-a-l-information
 https://www.lagazettefrance.fr/article/presidentielle-en-recul-dans-les-sondages-philippe-mise-sur-un-projet-radical-et-serieux
 https://www.lagazettefrance.fr/article/presidentielle-le-neophyte-riner-commence-sa-campagne-par-l-hopital
@@ -1301,7 +1344,9 @@ https://www.lagazettefrance.fr/article/quand-les-romancieres-lola-lafon-et-leila
 https://www.lagazettefrance.fr/article/quatre-nouveaux-restaurants-rejoignent-le-reseau-qualite-mosl
 https://www.lagazettefrance.fr/article/ratp-dev-prend-les-commandes-des-transports-en-commun-de-l-agglomeration-nanceienne
 https://www.lagazettefrance.fr/article/reconversion-professionnelle-quelles-solutions-pour-les-actifs-et-les-entreprises-de-la-meuse
+https://www.lagazettefrance.fr/article/regularisation-de-travailleurs-sans-papiers-le-ps-et-glucksmann-mettent-un-coup-de-barre-a-gauche
 https://www.lagazettefrance.fr/article/releve-de-la-peche-canal-seine-nord-le-credit-maritime-face-a-deux-defis
+https://www.lagazettefrance.fr/article/rencontres-industrielles-edf-met-en-avant-les-grands-projets-industriels-de-la-region
 https://www.lagazettefrance.fr/article/reprise-des-cours-au-lycee-de-nantes-incendie-le-ministre-hue
 https://www.lagazettefrance.fr/article/retailleau-propose-une-primaire-les-31-janvier-et-7-fevrier
 https://www.lagazettefrance.fr/article/riner-candidat-a-la-presidentielle-j-en-pense-pas-grand-chose-lance-wembanyama
@@ -1317,6 +1362,7 @@ https://www.lagazettefrance.fr/article/saint-quentin-retenue-dans-le-plan-nation
 https://www.lagazettefrance.fr/article/sans-latitude-lecornu-tente-de-repondre-a-la-colere-sociale
 https://www.lagazettefrance.fr/article/sante-mentale-l-ue-somme-tiktok-de-modifier-ses-flux-personnalises
 https://www.lagazettefrance.fr/article/saone-et-loire-5-trophees-recompensent-50-ans-d-engagement-des-femmes-pompiers
+https://www.lagazettefrance.fr/article/saone-et-loire-cap-medecin-71-accompagne-les-medecins-dans-leur-projet-d-installation
 https://www.lagazettefrance.fr/article/saone-et-loire-des-pratiques-agricoles-testees-pour-preserver-la-qualite-de-l-eau
 https://www.lagazettefrance.fr/article/saone-et-loire-l-uimm-met-a-l-honneur-le-talent-et-la-reussite-de-ses-diplomes
 https://www.lagazettefrance.fr/article/saone-et-loire-le-departement-invite-a-decouvrir-les-secrets-de-la-macon-antique
@@ -1327,6 +1373,7 @@ https://www.lagazettefrance.fr/article/seeph-2026-la-meurthe-et-moselle-deploie-
 https://www.lagazettefrance.fr/article/seeph-2026-les-vosges-se-mobilisent-pour-l-inclusion-professionnelle
 https://www.lagazettefrance.fr/article/seine-innopolis-160-entrepreneurs-reunis-pour-un-afterwork-au-petit-quevilly
 https://www.lagazettefrance.fr/article/seine-maritime-cinq-magasins-ecouter-voir-deploient-la-teleophtalmologie-avec-medadom
+https://www.lagazettefrance.fr/article/seine-maritime-enaspol-prevoit-10-millions-d-euros-pour-relancer-l-usine-e-s-chimie
 https://www.lagazettefrance.fr/article/seine-maritime-la-decarbonation-au-c-ur-de-la-5e-conference-des-ports
 https://www.lagazettefrance.fr/article/seine-maritime-les-ecarts-de-salaires-persistent-entre-les-femmes-et-les-hommes
 https://www.lagazettefrance.fr/article/seine-maritime-technomap-accelere-le-developpement-des-solutions-electriques-pour-le-maritime
@@ -1340,9 +1387,11 @@ https://www.lagazettefrance.fr/article/sud-meusien-la-mission-locale-alerte-sur-
 https://www.lagazettefrance.fr/article/tarifs-de-l-electricite-pour-les-particuliers-stables-jusqu-a-la-fin-de-l-hiver-selon-le-pdg-d-edf
 https://www.lagazettefrance.fr/article/tourisme-en-baie-de-somme-vers-un-bilan-2026-stable-et-des-projets-pour-reguler-les-flux
 https://www.lagazettefrance.fr/article/trophees-de-la-mode-circulaire-les-pionniers-de-la-mode-du-futur
+https://www.lagazettefrance.fr/article/trophees-rev3-du-batiment-durable-neuf-projets-regionaux-a-l-honneur
 https://www.lagazettefrance.fr/article/un-chercheur-de-l-ube-obtient-une-erc-starting-grant-pour-son-projet-firecomb
 https://www.lagazettefrance.fr/article/un-homme-retrouve-mort-dans-un-appartement-a-paris-la-gorge-en-partie-tranchee
 https://www.lagazettefrance.fr/article/un-suspect-recherche-apres-l-agression-a-l-arme-blanche-d-un-vice-president-d-universite
+https://www.lagazettefrance.fr/article/une-abbevilloise-lance-sa-marque-de-vetements-tendance-pour-la-grossesse
 https://www.lagazettefrance.fr/article/une-borne-memorielle-inauguree-a-la-necropole-nationale-de-le-sourd
 https://www.lagazettefrance.fr/article/une-filiale-de-la-poste-victime-d-un-vol-de-donnees-massif-22-millions-de-personnes-concernees
 https://www.lagazettefrance.fr/article/une-primaire-de-la-droite-et-du-centre-pourrait-aboutir-rapidement-selon-attal
@@ -1353,6 +1402,7 @@ https://www.lagazettefrance.fr/article/villers-les-nancy-equasens-annnonce-une-c
 https://www.lagazettefrance.fr/article/villerupt-mobilise-les-acteurs-locaux-contre-le-harcelement-et-le-cyberharcelement
 https://www.lagazettefrance.fr/article/violences-faites-aux-femmes-le-zonta-et-le-departement-unissent-leurs-forces-a-macon
 https://www.lagazettefrance.fr/article/violences-sexistes-la-meurthe-et-moselle-exige-un-budget-de-l-etat-et-mobilise-les-filieres-locales
+https://www.lagazettefrance.fr/article/volaille-de-licques-invitee-de-prestige-a-la-table-de-noel
 https://www.lagazettefrance.fr/article/volnay-la-saint-vincent-tournante-2027-limitee-a-23-000-personnes-par-jour
 https://www.lagazettefrance.fr/articles
 https://www.lagazettefrance.fr/bourgogne
@@ -1439,12 +1489,15 @@ https://www.publicsenat.fr/actualites/environnement
 https://www.publicsenat.fr/actualites/institutions
 https://www.publicsenat.fr/actualites/international
 https://www.publicsenat.fr/actualites/parlementaire
+https://www.publicsenat.fr/actualites/politique/a-droite-et-au-centre-la-primaire-de-la-zizanie-estime-le-senateur-horizons-claude-malhuret
 https://www.publicsenat.fr/actualites/politique/attaque-contre-des-frigos-de-supermarches-le-projet-de-loi-pour-renforcer-la-cybersecurite-enfin-a-lassemblee-apres-deux-ans-de-report
 https://www.publicsenat.fr/actualites/politique/blocages-duniversites-le-ministre-de-lenseignement-superieur-sattend-a-un-taux-dechec-encore-plus-important-cette-annee
 https://www.publicsenat.fr/actualites/politique/budget-2027-de-la-secu-apres-des-debats-houleux-le-senat-adopte-le-delai-de-carence-dun-an-pour-lacces-aux-prestations-familiales-des-etrangers
 https://www.publicsenat.fr/actualites/politique/budget-2027-de-la-securite-sociale-cnracl-le-senat-attenue-la-hausse-prevue-sur-les-cotisations-retraites-des-collectivites-locales-et-des-hopitaux
 https://www.publicsenat.fr/actualites/politique/budget-2027-de-la-securite-sociale-le-senat-adopte-un-volet-recettes-affaibli
 https://www.publicsenat.fr/actualites/politique/budget-2027-les-points-chauds-lors-des-debats-au-senat-du-9-au-17-novembre
+https://www.publicsenat.fr/actualites/politique/budget-de-fin-de-gestion-pour-2026-le-senat-adopte-le-texte-qui-prevoit-des-credits-pour-les-agriculteurs-ou-pour-pallier-les-consequences-de-la-crise-au-moyen-orient
+https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et
 https://www.publicsenat.fr/actualites/politique/catalogue-de-contradictions-vaste-arnaque-financiere-la-reforme-des-retraites-du-rn-suscite-la-critique-de-certains-candidats
 https://www.publicsenat.fr/actualites/politique/document-lorganigramme-de-campagne-complet-de-raphael-glucksmann-olivier-faure-membre-du-comite-politique
 https://www.publicsenat.fr/actualites/politique/enquete-fractures-francaises-y-a-t-il-un-retour-net-du-clivage-droite-gauche
@@ -1461,12 +1514,14 @@ https://www.publicsenat.fr/actualites/politique/lutte-contre-les-violences-subie
 https://www.publicsenat.fr/actualites/politique/manifestations-etudiants-lyceens-profsa-quoi-faut-il-sattendre-ce-mardi-10-novembre
 https://www.publicsenat.fr/actualites/politique/mobilisation-de-la-jeunesse-nous-avons-construit-un-etat-providence-qui-fonctionne-seulement-pour-les-adultes-reconnait-cette-eurodeputee
 https://www.publicsenat.fr/actualites/politique/mouvement-lyceen-des-cours-de-rattrapage-possibles-pendant-les-vacances-en-fevrier-ou-a-paques-annonce-edouard-geffray
+https://www.publicsenat.fr/actualites/politique/nada-aucun-signe-face-au-risque-de-censure-sur-le-budget-les-socialistes-denoncent-labsence-de-dialogue-avec-sebastien-lecornu
 https://www.publicsenat.fr/actualites/politique/nous-decouvrons-lobstruction-calendaire-au-senat-le-groupe-rn-udr-devoile-les-textes-de-sa-niche-parlementaire
 https://www.publicsenat.fr/actualites/politique/perpetuite-pour-les-assassins-du-frere-damine-kessaci-un-verdict-conforme-aux-attentes-des-familles-mais-la-lutte-contre-le-narcotrafic-nest-pas-terminee-rappelle-g
 https://www.publicsenat.fr/actualites/politique/plan-de-relance-agricole-une-des-thematiques-majeures-du-compromis-budgetaire-affirme-sebastien-lecornu
 https://www.publicsenat.fr/actualites/politique/pouvoir-dachat-sebastien-lecornu-annonce-une-hausse-anticipee-du-smic-a-1-502-euros-des-le-1er-decembre
 https://www.publicsenat.fr/actualites/politique/presidentielle-2027-adopter-les-codes-de-la-jeunesse-utiliser-tik-tok-na-rien-a-voir-avec-lidee-de-sadresser-a-la-jeunesse
 https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme
+https://www.publicsenat.fr/actualites/politique/presidentielle-2027-la-participation-deric-zemmour-flinguerait-la-primaire-estime-bruno-retailleau
 https://www.publicsenat.fr/actualites/politique/presidentielle-2027-le-judoka-teddy-riner-se-lance-dans-la-course-a-lelysee-au-milieu-dune-multitude-de-candidats
 https://www.publicsenat.fr/actualites/politique/presidentielle-2027-pauvrete-pouvoir-dachat-logement-le-pen-melenchon-glucksmann-retailleau-attal-confrontent-leurs-visions-de-la-solidarite-aux-restos
 https://www.publicsenat.fr/actualites/politique/presidentielle-2027-peut-on-interdire-les-syndicats-de-magistrats-comme-le-propose-edouard-philippe
@@ -1474,6 +1529,7 @@ https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient
 https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique
 https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics
 https://www.publicsenat.fr/actualites/politique/presidentielle-2027-teddy-riner-au-defi-de-transformer-son-capital-sympathie-en-capital-electoral
+https://www.publicsenat.fr/actualites/politique/presomption-de-legitime-defense-pour-les-forces-de-lordre-le-senat-se-divise-sur-cette-proposition-de-loi-polemique
 https://www.publicsenat.fr/actualites/politique/primaire-les-equipes-dattal-retailleau-et-lisnard-salignent-sur-un-vote-en-janvier-moins-sur-le-cas-deric-zemmour
 https://www.publicsenat.fr/actualites/politique/retraites-le-senat-refuse-la-reforme-des-majorations-de-pensions-pour-familles-nombreuses
 https://www.publicsenat.fr/actualites/politique/retraites-le-senat-vote-lindexation-complete-des-pensions-sur-linflation-en-2027
@@ -1497,6 +1553,7 @@ https://www.publicsenat.fr/direct?at_medium=PublicSenat&at_campaign=MenuBottom
 https://www.publicsenat.fr/documentaires
 https://www.publicsenat.fr/documentaires?at_medium=PublicSenat&at_campaign=MenuBottom
 https://www.publicsenat.fr/emission/bonjour-chez-vous/dominique-santoni-on-ne-peut-pas-vivre-plus-longtemps-et-travailler-moins-longtemps-e0
+https://www.publicsenat.fr/emission/bonjour-chez-vous/frederique-puissat-il-faut-trouver-le-bon-equilibre-pour-ne-pas-casser-la-restauration-e0
 https://www.publicsenat.fr/emission/bonjour-chez-vous/gerard-larcher-va-t-il-departager-les-candidats-du-bloc-central-e0
 https://www.publicsenat.fr/emission/bonjour-chez-vous/lauriane-josende-les-forces-de-lordre-sont-epuisees-e0
 https://www.publicsenat.fr/emission/bonjour-chez-vous/marine-tondelier-je-mene-une-double-campagne-pour-lecologie-et-pour-lunion-e0
@@ -1556,6 +1613,8 @@ https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-a-new-york
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-a-new-york/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-dubai
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-dubai/calendar.ics
+https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-haut-rhin
+https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-haut-rhin/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-haute-garonne
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-haute-garonne/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-loiret-orleans
@@ -1566,6 +1625,8 @@ https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-puy-de-dome-c
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-puy-de-dome-clermont-ferrand/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-suisse-lausanne
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-suisse-lausanne/calendar.ics
+https://www.unenouvelleenergie.fr/event/beaujolais-jeunes-energies-gard
+https://www.unenouvelleenergie.fr/event/beaujolais-jeunes-energies-gard/calendar.ics
 https://www.unenouvelleenergie.fr/event/conference-nouvelle-energie-ain-la-ruralite
 https://www.unenouvelleenergie.fr/event/conference-nouvelle-energie-ain-la-ruralite/calendar.ics
 https://www.unenouvelleenergie.fr/event/happy-hour-nouvelle-energie-a-san-francisco
@@ -1574,6 +1635,8 @@ https://www.unenouvelleenergie.fr/event/itinerances-tarn-et-garonnaises-barry-di
 https://www.unenouvelleenergie.fr/event/itinerances-tarn-et-garonnaises-barry-dislemade/calendar.ics
 https://www.unenouvelleenergie.fr/event/petits-dejeuners-nouvelle-energie-marne-chalons-en-champagne
 https://www.unenouvelleenergie.fr/event/petits-dejeuners-nouvelle-energie-marne-chalons-en-champagne/calendar.ics
+https://www.unenouvelleenergie.fr/event/rencontre-dedicaces-avec-romain-marsily-remiremont
+https://www.unenouvelleenergie.fr/event/rencontre-dedicaces-avec-romain-marsily-remiremont/calendar.ics
 https://www.unenouvelleenergie.fr/event/rencontre-nouvelle-energie-grand-baie-ile-maurice
 https://www.unenouvelleenergie.fr/event/rencontre-nouvelle-energie-grand-baie-ile-maurice/calendar.ics
 https://www.unenouvelleenergie.fr/event/reunion-de-lancement-nouvelle-energie-canet-en-roussillon
@@ -1596,6 +1659,8 @@ https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-gueran
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-guerande/calendar.ics
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-ille-et-vilaine-saint-gregoire
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-ille-et-vilaine-saint-gregoire/calendar.ics
+https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-irlande-dublin
+https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-irlande-dublin/calendar.ics
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-loir-et-cher-jeunesse-et-education
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-loir-et-cher-jeunesse-et-education/calendar.ics
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-monaco
