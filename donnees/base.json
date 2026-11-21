@@ -198,7 +198,7 @@
     {
       "id": "Q-educ-orientation",
       "theme": "educ",
-      "question": "Organisation du collège et de la voie professionnelle (collège unique, orientation, baccalauréat professionnel) ?",
+      "question": "Organisation du collège et de la voie professionnelle (collège unique, orientation au collège et au lycée, baccalauréat professionnel) ?",
       "type": "ouverte",
       "statut": "actif"
     },
@@ -1161,9 +1161,14 @@
           ]
         },
         "Q-educ-orientation": {
-          "position": "pas de position",
-          "detail": "Pas de proposition de campagne trouvée",
-          "sources": []
+          "position": "certificat d'études à l'entrée en sixième ; brevet obligatoire pour entrer en seconde",
+          "detail": "Certificat d'études à l'entrée en sixième, année passerelle pour les élèves qui ne l'obtiennent pas ; « le brevet des collèges deviendra obligatoire pour passer en classe de seconde » (voir educ-04)",
+          "sources": [
+            {
+              "titre": "LCP, 2026-08-25",
+              "url": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose"
+            }
+          ]
         },
         "Q-sante-acces": {
           "position": "pas de position",
@@ -7430,12 +7435,16 @@
           ]
         },
         "Q-educ-orientation": {
-          "position": "examen d'entrée au collège ; voie professionnelle renforcée",
-          "detail": "Certificat de fin de primaire conditionnant l'entrée au collège (voir educ-02) ; lycées professionnels et CFA renforcés, formations ouvertes ou fermées localement (voir educ-08)",
+          "position": "certificat de fin de primaire conditionnant l'entrée au collège ; lycées professionnels et CFA renforcés",
+          "detail": "Certificat de fin de primaire conditionnant l'entrée au collège (voir educ-02) ; lycées professionnels et CFA renforcés, formations ouvertes ou fermées localement (voir educ-08) ; limite d'âge de l'apprentissage revue à la baisse (voir social-05)",
           "sources": [
             {
               "titre": "NE, éducation",
               "url": "https://www.unenouvelleenergie.fr/notre-programme/education/"
+            },
+            {
+              "titre": "NE, « Réussir »",
+              "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
             }
           ]
         },
@@ -12706,7 +12715,7 @@
           ]
         },
         "Q-educ-orientation": {
-          "position": "remise en cause du collège unique",
+          "position": "examen d'entrée en sixième ; filière professionnelle en alternance confiée aux régions",
           "detail": "Examen d'entrée en sixième et groupes de niveau (voir educ-03) ; filière professionnelle en alternance confiée aux régions (voir educ-07)",
           "sources": [
             {
@@ -16077,10 +16086,10 @@
         },
         "Q-educ-orientation": {
           "position": "maintien du collège unique ; baccalauréat professionnel en quatre ans",
-          "detail": "« Défendre un collège unique et inclusif » ; rétablir le bac professionnel en quatre ans et abroger la réforme de la voie professionnelle ; « Créer un véritable service public de l’orientation » dans les lycées (programme)",
+          "detail": "« Défendre un collège unique et inclusif » ; rétablir le bac professionnel en quatre ans et abroger la réforme de la voie professionnelle ; « Créer un véritable service public de l’orientation » dans les lycées (voir educ-06)",
           "sources": [
             {
-              "titre": "P, juillet 2026, p. 91-92",
+              "titre": "P, juillet 2026, p. 92",
               "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
             }
           ]
@@ -16993,6 +17002,20 @@
             {
               "titre": "Livret « Nos propositions pour une culture vivante », campagne de Marine Tondelier, novembre 2026 (lien : page d'annonce, épisode 46 du journal de campagne ; livret lu en PDF)",
               "url": "https://marinetondelier.fr/journal-de-campagne/pour-une-culture-vivante"
+            }
+          ]
+        },
+        {
+          "id": "educ-06",
+          "theme": "educ",
+          "proposition": "« Défendre un collège unique et inclusif » ; rétablir le baccalauréat professionnel en 4 ans et abroger la réforme de la voie professionnelle ; « Créer un véritable service public de l'orientation dans les lycées généraux, professionnels, techniques et agricoles » (programme)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "P, juillet 2026, p. 92",
+              "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
             }
           ]
         },

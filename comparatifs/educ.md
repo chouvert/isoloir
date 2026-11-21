@@ -15,13 +15,13 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 - **Q-educ-enseign** : Rémunération et recrutement des enseignants ?
 - **Q-educ-univ** : Sélection et financement de l'université ?
-- **Q-educ-orientation** : Organisation du collège et de la voie professionnelle (collège unique, orientation, baccalauréat professionnel) ?
+- **Q-educ-orientation** : Organisation du collège et de la voie professionnelle (collège unique, orientation au collège et au lycée, baccalauréat professionnel) ?
 
 | question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Q-educ-enseign | hausse | pas de position | hausse de 20 % puis 20 % sous condition | hausse | hausse | hausse conditionnée | hausse | hausse | revalorisation | davantage d'enseignants et de moyens ; point d'indice relevé | pas de suppression de postes | hausse | pas de position |
 | Q-educ-univ | réorientation et évaluation des formations | pas de position | suppression de Parcoursup | suppression de Parcoursup | pas de position | suppression de Parcoursup | accès sans sélection | hausse des droits pour les étudiants extra-européens | pour la sélection | pas de position | suppression de Parcoursup | suppression de Parcoursup, hausse du financement | pas de position |
-| Q-educ-orientation | pas de position | pas de position | pas de position | pas de position | pas de position | examen d'entrée au collège ; voie professionnelle renforcée | baccalauréat professionnel en quatre ans | orientation dès la 5e | remise en cause du collège unique | pas de position | pas de position | maintien du collège unique ; baccalauréat professionnel en quatre ans | fin du collège unique |
+| Q-educ-orientation | certificat d'études à l'entrée en sixième ; brevet obligatoire pour entrer en seconde | pas de position | pas de position | pas de position | pas de position | certificat de fin de primaire conditionnant l'entrée au collège ; lycées professionnels et CFA renforcés | baccalauréat professionnel en quatre ans | orientation dès la 5e | examen d'entrée en sixième ; filière professionnelle en alternance confiée aux régions | pas de position | pas de position | maintien du collège unique ; baccalauréat professionnel en quatre ans | fin du collège unique |
 
 ## Dilemmes du thème
 
