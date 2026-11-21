@@ -8,7 +8,7 @@ export const AGENT = `${CLIENT} (+https://github.com/chouvert/isoloir)`;
 export const MAX_CHAPO = 300;
 export const SEUIL_MUETTE = 3;
 export const CATEGORIES = ['campagne', 'parti', 'presse', 'sondages', 'institution'];
-export const TYPES = ['rss', 'page', 'sitemap'];
+export const TYPES = ['rss', 'page', 'sitemap', 'programme'];
 
 const PARAMETRES_SUIVI = /^(utm_.*|fbclid|gclid|xtor|mc_cid|mc_eid)$/i;
 const MOIS = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
@@ -152,6 +152,224 @@ export function lirePage(html, urlPage) {
 }
 
 // ---------------------------------------------------------------------------
+// Programmes : empreinte des pages
+// Spec : docs/superpowers/specs/2026-11-15-suivi-programmes-design.md
+// ---------------------------------------------------------------------------
+
+export const MAX_PAGES_PROGRAMME = 120;
+export const PROFONDEUR_PROGRAMME = 3;
+export const MIN_BLOC = 20;
+export const LONGUEUR_CODE = 10;
+
+const HORS_TEXTE = ['script', 'style', 'noscript', 'nav', 'header', 'footer', 'aside', 'form'];
+// Ouverture ou fermeture de ces éléments : fin du bloc en cours.
+const COUPURES = /<\/?(p|li|h[1-6]|td|th|blockquote|dd|dt|div|section|article|main|ul|ol|dl|table|tr|tbody|thead|figure|figcaption)\b[^>]*>/gi;
+
+const contenu = (html, balise) => html.match(new RegExp(`<${balise}\\b[^>]*>([\\s\\S]*)</${balise}>`, 'i'))?.[1];
+
+/** Texte lisible de chaque bloc de la partie utile d'une page (main, sinon article, sinon body), dans l'ordre. */
+export function blocsDeTexte(html = '') {
+  let utile = html.replace(/<!--[\s\S]*?-->/g, ' ');
+  utile = contenu(utile, 'main') ?? contenu(utile, 'article') ?? contenu(utile, 'body') ?? utile;
+  for (const b of HORS_TEXTE) utile = utile.replace(new RegExp(`<${b}\\b[\\s\\S]*?</${b}>`, 'gi'), ' ');
+  return utile.split(COUPURES).filter((_, i) => i % 2 === 0) // split capture le nom de balise aux indices impairs
+    .map((s) => texte(s)).filter((s) => s.length >= MIN_BLOC);
+}
+
+/** Code d'un bloc : 10 premiers caractères hexadécimaux du SHA-1 du texte plié (casse, accents, espaces). */
+function codeDeBloc(bloc) {
+  return createHash('sha1').update(plier(bloc).replace(/\s+/g, ' ').trim()).digest('hex').slice(0, LONGUEUR_CODE);
+}
+
+/** Empreinte d'une page : ensemble des codes de ses blocs, triés. */
+export function codesDeBlocs(blocs) {
+  return [...new Set(blocs.map(codeDeBloc))].sort();
+}
+
+/** Blocs ajoutés et retirés ; `premierAjoute` : indice dans `apres` du premier code absent de `avant`, ou -1. */
+export function comparerCodes(avant, apres) {
+  const a = new Set(avant);
+  const b = new Set(apres);
+  return {
+    ajoutes: [...b].filter((c) => !a.has(c)).length,
+    retires: [...a].filter((c) => !b.has(c)).length,
+    premierAjoute: apres.findIndex((c) => !a.has(c)),
+  };
+}
+
+/** Titre d'une page : `<title>`, sinon premier `h1`, sinon l'adresse. */
+export function titreDePage(html, url) {
+  return texte(contenuCourt(html, 'title')) || texte(contenuCourt(html, 'h1')) || url;
+}
+
+const contenuCourt = (html, balise) => html.match(new RegExp(`<${balise}\\b[^>]*>([\\s\\S]*?)</${balise}>`, 'i'))?.[1] ?? '';
+
+/** L'adresse est-elle sur le même site que `base` et sous un des préfixes (le dossier lui-même compris) ? */
+function sousPrefixes(u, base, prefixes) {
+  if (!/^https?:$/.test(u.protocol) || sansWww(u.host) !== sansWww(base.host)) return false;
+  const chemin = u.pathname.endsWith('/') ? u.pathname : `${u.pathname}/`;
+  return prefixes.some((p) => chemin.startsWith(p.endsWith('/') ? p : `${p}/`) || u.pathname.startsWith(p));
+}
+
+/** Liens d'une page vers le même site sous un des préfixes : adresses normalisées, sans doublon, dans l'ordre. */
+export function liensProgramme(html, urlPage, prefixes) {
+  const page = new URL(urlPage);
+  const soi = normaliserUrl(page.toString());
+  const liens = [];
+  for (const [, href] of html.replace(/<!--[\s\S]*?-->/g, ' ').matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)) {
+    let u;
+    try { u = new URL(decoderEntites(href), page); } catch { continue; }
+    if (prefixes ? !sousPrefixes(u, page, prefixes) : (!/^https?:$/.test(u.protocol) || sansWww(u.host) !== sansWww(page.host))) continue;
+    const lien = normaliserUrl(u.toString());
+    if (new URL(lien).search) continue; // vue filtrée d'une page déjà suivie
+    if (lien !== soi && !liens.includes(lien)) liens.push(lien);
+  }
+  return liens;
+}
+
+function nomDeFichier(url) {
+  const nom = new URL(url).pathname.split('/').pop();
+  try { return decodeURIComponent(nom); } catch { return nom; }
+}
+
+const estPdf = (url) => /\.pdf$/i.test(new URL(url).pathname);
+
+/** Préfixes d'une source : champ `prefixes`, sinon le dossier du point d'entrée. */
+function prefixesDe(source) {
+  if (Array.isArray(source.prefixes) && source.prefixes.length) return source.prefixes;
+  const chemin = new URL(source.url).pathname;
+  return [chemin.slice(0, chemin.lastIndexOf('/') + 1) || '/'];
+}
+
+/**
+ * Suit les pages d'un programme et compare leur empreinte à celle du passage précédent.
+ * `lire(url)` → { statut, texte, url? } ; `lireEntete(url)` → { statut, etag, modifie, taille } (PDF) ;
+ * `autorise(url)` → booléen (robots.txt). `empreintes` : toutes les sources ; seules celles de `source.id` sont touchées.
+ * Rend { infos: [{ nature, titre, lien, chapo }], empreintes, succes, plafond, pages, refusees }.
+ */
+export async function suivreProgramme({ source, empreintes = {}, lire, lireEntete, autorise, jour, maxPages = MAX_PAGES_PROGRAMME, plafondSignale = false }) {
+  const prefixes = prefixesDe(source);
+  const entree = normaliserUrl(source.url);
+  const base = new URL(source.url);
+  const anciennes = Object.fromEntries(Object.entries(empreintes).filter(([, e]) => e.source === source.id));
+  const premierPassage = Object.keys(anciennes).length === 0;
+  const echec = (statut) => ({ infos: [], empreintes, succes: false, plafond: false, pages: [{ url: entree, statut, blocs: 0 }], refusees: [], horsPrefixes: [] });
+  let horsPrefixes = [];
+
+  const file = [{ url: entree, profondeur: 0, brute: source.url }];
+  const connues = new Set([entree]);
+  const lues = new Map(); // url → { titre, blocs, premier } pour les pages lues avec succès
+  const enErreur = new Set();
+  const pages = [];
+  const refusees = [];
+  let plafond = null;
+  let planAjoute = !source.plan;
+
+  const ajouter = (url, profondeur) => {
+    if (connues.has(url)) return;
+    connues.add(url);
+    file.push({ url, profondeur });
+  };
+
+  while (file.length) {
+    const { url, profondeur, brute } = file.shift();
+    if (pages.length >= maxPages) { plafond = url; break; }
+    if (!(await autorise(url))) {
+      if (url === entree) return { ...echec('robots.txt'), refusees: [url] };
+      refusees.push(url);
+      continue;
+    }
+    if (estPdf(url)) {
+      let r;
+      try { r = lireEntete ? await lireEntete(url) : { statut: 0 }; } catch { r = { statut: 0 }; }
+      pages.push({ url, statut: r.statut, blocs: 0 });
+      if (r.statut !== 200) { enErreur.add(url); continue; }
+      const empreinte = [r.etag, r.modifie, r.taille].filter(Boolean).join('|');
+      const code = empreinte ? createHash('sha1').update(empreinte).digest('hex').slice(0, LONGUEUR_CODE) : null;
+      lues.set(url, { titre: nomDeFichier(url), blocs: code ? [code] : [], premier: '', pdf: true });
+      continue;
+    }
+    const r = await lire(brute ?? url);
+    if (r.statut !== 200) {
+      if (url === entree) return echec(r.statut);
+      pages.push({ url, statut: r.statut, blocs: 0 });
+      enErreur.add(url);
+      continue;
+    }
+    const blocs = blocsDeTexte(r.texte);
+    pages.push({ url, statut: 200, blocs: blocs.length });
+    lues.set(url, { titre: titreDePage(r.texte, url), blocsOrdonnes: blocs, blocs: codesDeBlocs(blocs) });
+    if (url === entree) {
+      const sous = new Set(liensProgramme(r.texte, r.url ?? url, prefixes));
+      horsPrefixes = liensProgramme(r.texte, r.url ?? url, null).filter((l) => !sous.has(l)).slice(0, 30);
+    }
+    if (profondeur < PROFONDEUR_PROGRAMME) {
+      for (const lien of liensProgramme(r.texte, r.url ?? url, prefixes)) ajouter(lien, profondeur + 1);
+    }
+    if (!planAjoute) {
+      planAjoute = true;
+      if (await autorise(source.plan)) {
+        const p = await lire(source.plan);
+        if (p.statut === 200) {
+          for (const el of lireSitemap(p.texte)) {
+            let u;
+            try { u = new URL(el.lien); } catch { continue; }
+            if (sousPrefixes(u, base, prefixes)) ajouter(normaliserUrl(u.toString()), 1);
+          }
+        }
+      }
+    }
+  }
+
+  const infos = [];
+  const nouvelles = { ...empreintes };
+  for (const [url, page] of lues) {
+    const avant = anciennes[url];
+    if (!premierPassage && !avant) {
+      infos.push({ nature: 'programme-nouveau', titre: `Programme : page nouvelle — ${page.titre}`, lien: url,
+        chapo: couper(page.blocsOrdonnes?.[0] ?? '') });
+    } else if (avant && !page.pdf) {
+      const ordonnes = page.blocsOrdonnes.map(codeDeBloc);
+      const d = comparerCodes(avant.blocs, ordonnes);
+      if (d.ajoutes || d.retires) {
+        const debut = d.premierAjoute >= 0 ? ` · ${page.blocsOrdonnes[d.premierAjoute]}` : '';
+        infos.push({ nature: 'programme-modifie', titre: `Programme : page modifiée — ${page.titre}`, lien: url,
+          chapo: couper(`+${d.ajoutes} / −${d.retires} blocs${debut}`) });
+      }
+    } else if (avant && page.pdf && avant.blocs.length && page.blocs.length && avant.blocs[0] !== page.blocs[0]) {
+      infos.push({ nature: 'programme-modifie', titre: `Programme : page modifiée — ${page.titre}`, lien: url,
+        chapo: 'Document modifié (en-têtes etag, last-modified ou content-length).' });
+    }
+    // Un PDF devenu muet garde son ancienne empreinte : il ne sera pas signalé à tort au retour de ses en-têtes.
+    const blocs = page.pdf && !page.blocs.length && avant ? avant.blocs : page.blocs;
+    nouvelles[url] = { source: source.id, titre: page.titre, blocs, vu: jour, absences: 0 };
+  }
+  for (const [url, avant] of Object.entries(anciennes)) {
+    if (lues.has(url)) continue;
+    // Page non atteinte faute de place sous le plafond : ni présente ni absente.
+    if (plafond && !enErreur.has(url) && !refusees.includes(url)) continue;
+    const absences = (avant.absences ?? 0) + 1;
+    if (absences >= SEUIL_MUETTE) {
+      delete nouvelles[url];
+      infos.push({ nature: 'programme-retire', titre: `Programme : page retirée — ${avant.titre}`, lien: url,
+        chapo: `Dernière lecture réussie : ${avant.vu}.` });
+    } else {
+      nouvelles[url] = { ...avant, absences };
+    }
+  }
+  if (premierPassage) {
+    infos.length = 0;
+    infos.push({ nature: 'programme-suivi', titre: `Programme : suivi commencé — ${source.nom ?? source.id}`, lien: entree,
+      chapo: `${lues.size} pages suivies.` });
+  }
+  if (plafond && !plafondSignale) {
+    infos.push({ nature: 'programme-plafond', titre: `Programme : plafond de pages atteint — ${source.nom ?? source.id}`,
+      lien: plafond, chapo: `${maxPages} pages lues ; revoir le plafond ou les préfixes de la source.` });
+  }
+  return { infos, empreintes: nouvelles, succes: true, plafond: Boolean(plafond), pages, refusees, horsPrefixes };
+}
+
+// ---------------------------------------------------------------------------
 // Tri
 // ---------------------------------------------------------------------------
 
@@ -206,6 +424,8 @@ export function retenir(element, source, detection) {
 // Journal
 // ---------------------------------------------------------------------------
 
+const estProgramme = (info) => typeof info.nature === 'string' && info.nature.startsWith('programme-');
+
 /** Journal lisible d'une semaine : sources muettes, puis une section par candidat (ordre alphabétique), puis « transverse ». */
 export function journalMarkdown(infos, { semaine, muettes = [] }) {
   const parties = [`# Veille — ${semaine}`, ''];
@@ -223,8 +443,9 @@ export function journalMarkdown(infos, { semaine, muettes = [] }) {
   if (groupes.has('transverse')) cles.push('transverse');
   for (const c of cles) {
     parties.push(`## ${c}`, '');
-    const lignes = groupes.get(c).sort((a, b) => b.date.localeCompare(a.date) || a.titre.localeCompare(b.titre));
-    for (const i of lignes) parties.push(`- ${i.date} · [${i.titre.replace(/[[\]]/g, '')}](${i.lien}) · ${i.source}${i.chapo ? ` — ${i.chapo}` : ''}`);
+    const lignes = groupes.get(c).sort((a, b) => Number(estProgramme(b)) - Number(estProgramme(a))
+      || b.date.localeCompare(a.date) || a.titre.localeCompare(b.titre));
+    for (const i of lignes) parties.push(`- ${estProgramme(i) ? '**Programme** · ' : ''}${i.date} · [${i.titre.replace(/[[\]]/g, '')}](${i.lien}) · ${i.source}${i.chapo ? ` — ${i.chapo}` : ''}`);
     parties.push('');
   }
   if (!infos.length) parties.push('Aucune information cette semaine.', '');
@@ -249,12 +470,18 @@ function joursEntre(a, b) {
  * `lireUrl(url)` → Promise<{ statut, texte }> est injecté (fetch réel dans scripts/veille.mjs).
  * Échec d'une source : erreur réseau, statut ≠ 200, robots.txt qui l'interdit, ou aucun élément lisible.
  */
-export async function collecter({ sources, candidats, motsCles, etat, vus, lireUrl, maintenant, attendre = async () => {} }) {
+export async function collecter({
+  sources, candidats, motsCles, etat, vus, lireUrl, maintenant, attendre = async () => {},
+  empreintes = {}, lireEntete, maxPagesProgramme = MAX_PAGES_PROGRAMME,
+}) {
   const jour = typeof maintenant === 'string' ? maintenant : maintenant.toISOString().slice(0, 10);
+  const semaine = semaineIso(jour);
   const nouvelEtat = { ...etat };
   const dejaVus = new Set(vus);
   const robots = new Map();
   const infos = [];
+  const programmes = {};
+  let nouvellesEmpreintes = { ...empreintes };
 
   const lire = async (url) => {
     await attendre();
@@ -265,17 +492,48 @@ export async function collecter({ sources, candidats, motsCles, etat, vus, lireU
     nouvelEtat[id] = { dernierSucces: avant.dernierSucces, echecs: avant.echecs + 1 };
   };
 
-  for (const source of sources) {
-    const url = new URL(source.url);
-    if (!robots.has(url.origin)) {
-      const r = await lire(`${url.origin}/robots.txt`);
-      robots.set(url.origin, r.statut === 200 ? r.texte : '');
+  const autorise = async (adresse) => {
+    const u = new URL(adresse);
+    if (!robots.has(u.origin)) {
+      const r = await lire(`${u.origin}/robots.txt`);
+      robots.set(u.origin, r.statut === 200 ? r.texte : '');
     }
-    if (!autoriseParRobots(robots.get(url.origin), url.pathname)) { echec(source.id); continue; }
+    return autoriseParRobots(robots.get(u.origin), u.pathname);
+  };
+  const lireEnTete = lireEntete && (async (url) => {
+    await attendre();
+    try { return await lireEntete(url); } catch { return { statut: 0 }; }
+  });
+
+  for (const source of sources) {
+    if (source.type === 'programme') {
+      const precedent = nouvelEtat[source.id];
+      const suivi = await suivreProgramme({ source, empreintes: nouvellesEmpreintes, lire, lireEntete: lireEnTete, autorise, jour,
+        maxPages: maxPagesProgramme, plafondSignale: precedent?.plafond === semaine });
+      programmes[source.id] = { pages: suivi.pages, refusees: suivi.refusees, horsPrefixes: suivi.horsPrefixes };
+      if (!suivi.succes) { echec(source.id); continue; }
+      nouvellesEmpreintes = suivi.empreintes;
+      const plafond = suivi.plafond && precedent?.plafond !== semaine ? semaine : precedent?.plafond;
+      nouvelEtat[source.id] = { dernierSucces: jour, echecs: 0, ...(plafond ? { plafond } : {}) };
+      const propres = Array.isArray(source.candidats) ? [...source.candidats].sort() : [];
+      for (const i of suivi.infos) {
+        dejaVus.add(i.lien);
+        infos.push({
+          id: identifiant(jour, i.lien), semaine, source: source.id, categorie: source.categorie, date: jour, collecte: jour,
+          titre: i.titre, lien: i.lien, chapo: i.chapo, candidats: propres, motsCles: [], nature: i.nature,
+        });
+      }
+      continue;
+    }
+    if (!(await autorise(source.url))) { echec(source.id); continue; }
 
     const reponse = await lire(source.url);
     const elements = reponse.statut === 200 ? LECTEURS[source.type](reponse.texte, reponse.url ?? source.url) : [];
+    const motifs = Array.isArray(source.motifs) && source.motifs.length ? source.motifs.map(plier) : null;
+    if (motifs && !elements.length) programmes[source.id] = { statut: reponse.statut, adresses: 0, correspondantes: [] };
     if (!elements.length) { echec(source.id); continue; }
+    const sousMotif = (lien) => { try { return motifs.some((m) => plier(new URL(lien).pathname).includes(m)); } catch { return false; } };
+    if (motifs) programmes[source.id] = { adresses: elements.length, correspondantes: elements.map((e) => e.lien).filter(sousMotif) };
     // Premier succès d'une page ou d'un plan de site : tout ce qui s'y trouve déjà (menus, archives) est marqué vu.
     const etalonnage = source.type !== 'rss' && !nouvelEtat[source.id]?.dernierSucces;
     nouvelEtat[source.id] = { dernierSucces: jour, echecs: 0 };
@@ -291,12 +549,22 @@ export async function collecter({ sources, candidats, motsCles, etat, vus, lireU
       if (dejaVus.has(lien)) continue;
       dejaVus.add(lien);
       if (el.date && joursEntre(el.date, jour) > FENETRE_JOURS) continue;
+      if (motifs) {
+        // Source à motifs : seules les adresses de programme sont gardées.
+        if (!sousMotif(lien)) continue;
+        infos.push({
+          id: identifiant(jour, lien), semaine, source: source.id, categorie: source.categorie, date: jour, collecte: jour,
+          titre: `Programme : page apparue — ${el.titre}`, lien, chapo: el.chapo, candidats: [...propres].sort(), motsCles: [],
+          nature: 'programme-apparu',
+        });
+        continue;
+      }
       const detection = detecter(`${el.titre} ${el.chapo}`, { candidats, motsCles });
       if (!retenir(el, source, detection)) continue;
       const date = el.date && el.date <= jour ? el.date : jour;
       infos.push({
         id: identifiant(date, lien),
-        semaine: semaineIso(jour),
+        semaine,
         source: source.id,
         categorie: source.categorie,
         date,
@@ -309,7 +577,7 @@ export async function collecter({ sources, candidats, motsCles, etat, vus, lireU
       });
     }
   }
-  return { infos, etat: nouvelEtat, vus: dejaVus };
+  return { infos, etat: nouvelEtat, vus: dejaVus, empreintes: nouvellesEmpreintes, programmes };
 }
 
 /** Sources en échec depuis au moins `seuil` passages consécutifs. */
