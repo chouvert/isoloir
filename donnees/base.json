@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "derniere_maj": "2026-11-14",
+  "derniere_maj": "2026-11-21",
   "referentiel_maj": "2026-11-15",
   "themes": [
     {
@@ -4582,7 +4582,7 @@
       "date_declaration": "2026-08-23",
       "programme_url": "",
       "programme_version": "pas de programme complet publié au 2026-11-14 ; premier volet du plan des « 100 jours » (énergie, 2026-11-09), déclarations et déplacements de campagne",
-      "derniere_maj": "2026-11-14",
+      "derniere_maj": "2026-11-21",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse ciblée sur les plus gros héritages et patrimoines",
@@ -5494,7 +5494,7 @@
         {
           "id": "immig-02",
           "theme": "immig",
-          "proposition": "Régulariser les travailleurs sans papiers : « Nous le ferons [la régularisation] et ce sera populaire » (débat du 2026-10-04)",
+          "proposition": "Régulariser les travailleurs sans papiers : « Nous le ferons [la régularisation] et ce sera populaire » (débat du 2026-10-04) ; mesure de la proposition de loi des députés socialistes (titre de séjour « salarié » pour tout étranger justifiant d'au moins six mois d'activité professionnelle au cours des 24 derniers mois), « une mesure reprise par Raphaël Glucksmann dans son programme de campagne » selon LCP ; vidéo de la fin octobre : « C'est une question de dignité et d'égalité d'accès aux droits » (parti : groupe socialiste de l'Assemblée, pour le texte)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -5502,6 +5502,10 @@
             {
               "titre": "LCP, 2026-10-05",
               "url": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat"
+            },
+            {
+              "titre": "LCP, 2026-11-09",
+              "url": "https://lcp.fr/actualites/il-faut-sortir-de-l-hypocrisie-les-deputes-ps-defendent-un-texte-pour-regulariser-300000"
             }
           ]
         },
@@ -5743,8 +5747,8 @@
       "inclus": true,
       "date_declaration": "2026-07-07",
       "programme_url": "",
-      "programme_version": "pas de programme publié au 2026-10-31 ; déclarations de campagne (2026-07-07 à 2026-10-25, meeting d'Orléans compris) + proposition de loi constitutionnelle « Citoyenneté-Identité-Immigration » (2024-01-25)",
-      "derniere_maj": "2026-10-31",
+      "programme_version": "pas de programme publié au 2026-11-21 ; déclarations de campagne (2026-07-07 à 2026-11-17, meeting d'Orléans et présentation de la réforme des retraites compris) + proposition de loi constitutionnelle « Citoyenneté-Identité-Immigration » (2024-01-25)",
+      "derniere_maj": "2026-11-21",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
@@ -6129,16 +6133,20 @@
         "D-social-retraites": {
           "option": "D",
           "proposition": "social-02",
-          "texte_court": "Créer une part de capitalisation dans le système de retraite",
-          "justification": "Annonce d'un « véritable pilier de capitalisation », détails à venir (social-02) ; le reste du projet abaisse l'âge de départ (social-01), à l'inverse de l'option A ; le financement principal (15 à 20 Md€ de « corrections de mesures injustes ») ne correspond à aucune option",
+          "texte_court": "Ajouter à la retraite par répartition une part de capitalisation obligatoire, financée par des cotisations existantes réorientées",
+          "justification": "Mesure chiffrée relevant d'une option : un pilier de capitalisation « obligatoire et universel » en complément de la répartition, alimenté par « 12 milliards d'euros par an » de cotisations existantes réorientées (1 % logement, fonds d'aide au logement, part de la formation professionnelle), versés à un fonds géré par la Caisse des dépôts, dès le 1er janvier 2028 (social-02) ; le reste de la réforme abaisse l'âge d'ouverture des droits à 60 à 62 ans selon l'âge d'entrée dans la vie active (social-01, coût brut de 18,6 Md€ en 2032), à l'inverse de l'option A ; ses autres financements (moitié des excédents de l'Unédic, plancher de trimestres, décote) ne correspondent à aucune option",
           "sources": [
             {
-              "titre": "Brussels Signal, 2026-10-06",
-              "url": "https://brusselssignal.eu/2026/10/rn-sets-out-budget-plans-with-a-deficit-below-3-per-cent-and-e140-billion-in-savings/"
+              "titre": "Public Sénat, 2026-11-17",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
             },
             {
-              "titre": "Sud Radio, 2026-10-06",
-              "url": "https://www.sudradio.fr/societe/presidentielle-en-quete-de-credibilite-budgetaire-le-pen-promet-un-effort-radical-de-140-milliards-net"
+              "titre": "LCP, 2026-11-17",
+              "url": "https://lcp.fr/actualites/reforme-des-retraites-c-est-quoi-la-capitalisation-obligatoire-que-marine-le-pen-veut"
+            },
+            {
+              "titre": "Euronews, 2026-11-17",
+              "url": "https://fr.euronews.com/2026/11/17/dose-de-capitalisation-depart-de-60-a-62-ans-marine-le-pen-devoile-sa-reforme-des-retraite"
             }
           ]
         },
@@ -6287,8 +6295,23 @@
       "phares": [
         {
           "rang": 1,
+          "proposition": "social-01",
+          "motif": "Annonce dédiée la plus récente : présentation de la réforme des retraites en conférence de presse au siège du RN, 2026-11-17 ; mesure présentée en premier : âge d'ouverture des droits de 60 à 62 ans selon l'âge d'entrée dans la vie active (le pilier de capitalisation obligatoire, social-02, vient ensuite)",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-17",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
+            },
+            {
+              "titre": "LCP, 2026-11-17",
+              "url": "https://lcp.fr/actualites/reforme-des-retraites-c-est-quoi-la-capitalisation-obligatoire-que-marine-le-pen-veut"
+            }
+          ]
+        },
+        {
+          "rang": 2,
           "proposition": "env-06",
-          "motif": "Annonce dédiée la plus récente : déplacement au Sommet de l'élevage, 2026-10-07 ; mesure présentée en premier : ordonnances contre la « folie normative » (réactions à l'actualité en marge non retenues)",
+          "motif": "Annonce dédiée : déplacement au Sommet de l'élevage, 2026-10-07 ; mesure présentée en premier : ordonnances contre la « folie normative » (réactions à l'actualité en marge non retenues)",
           "sources": [
             {
               "titre": "La Gazette France (AFP), 2026-10-07",
@@ -6297,7 +6320,7 @@
           ]
         },
         {
-          "rang": 2,
+          "rang": 3,
           "proposition": "eco-01",
           "motif": "Annonce dédiée : plan de redressement des finances publiques présenté au siège du RN, 2026-10-06",
           "sources": [
@@ -6448,7 +6471,7 @@
         {
           "id": "social-01",
           "theme": "social",
-          "proposition": "Ramener l'âge légal de départ à 62 ans, et à 60 ans pour ceux qui ont commencé à travailler avant 20 ans et cotisé 40 annuités ; financement par 15 à 20 Md€ de « corrections de mesures injustes »",
+          "proposition": "Ramener l'âge légal de départ à 62 ans, et à 60 ans pour ceux qui ont commencé à travailler avant 20 ans et cotisé 40 annuités ; financement par 15 à 20 Md€ de « corrections de mesures injustes ». Précisé le 2026-11-17 : abrogation de la réforme de 2023 « au 1er janvier 2028 » ; âge d'ouverture des droits de 60 à 62 ans en cinq paliers selon l'âge d'entrée dans la vie active (premier emploi stable, apprentissage compris), de 160 à 168 trimestres (40 annuités avant 20 ans, 42 après 23 ans) ; trimestre validé par un travail « au moins à mi-temps pendant un trimestre, sans critère de salaire » ; taux plein à 67 ans ; décote de 5 % par trimestre manquant plafonnée à 50 % ; majoration pour trois enfants portée à 12 % pour les mères et supprimée progressivement pour les pères ; référendum en l'absence de majorité absolue ; « Notre réforme des retraites est pleinement financée »",
           "chiffrage_annonce": "9 Md€/an en année pleine pour l'ensemble formé avec social-03 (« Le tout pour un coût chiffré par la candidate à \"9 milliards d'euros en année pleine\" », AFP, 2026-08-27)",
           "chiffrage_independant": "Institut Montaigne (page non datée) : 34,7 Md€/an à horizon 2027 dans le scénario central (31,5 à 44,7 Md€), sur la version du RN aux législatives de 2024, de périmètre plus large (annulation des réformes de 2003, 2010 et 2014 pour les carrières longues et de celle de 2023)",
           "calendrier": "",
@@ -6464,16 +6487,24 @@
             {
               "titre": "Institut Montaigne",
               "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/abroger-la-reforme-des-retraites-et-pour-ceux-ayant-commence-a-travailler-avant-20-ans-partir-a-40-annuites-de-cotisations"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-17",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
+            },
+            {
+              "titre": "Euronews, 2026-11-17",
+              "url": "https://fr.euronews.com/2026/11/17/dose-de-capitalisation-depart-de-60-a-62-ans-marine-le-pen-devoile-sa-reforme-des-retraite"
             }
           ]
         },
         {
           "id": "social-02",
           "theme": "social",
-          "proposition": "Créer un « véritable pilier de capitalisation » dans le système de retraite (détails annoncés pour les semaines suivantes)",
-          "chiffrage_annonce": "",
+          "proposition": "Créer un « véritable pilier de capitalisation » (2026-10-06), précisé le 2026-11-17 : pilier « obligatoire et universel » en complément de la répartition, pour les actifs de moins de 52 ans au 1er janvier 2028, alimenté sans prélèvement supplémentaire par des cotisations existantes réorientées (1 % logement, Fonds national d'aide au logement, moitié des cotisations de formation professionnelle) et par le Fonds de réserve pour les retraites ; fonds individuel géré par la Caisse des dépôts ; objectif de « quasi 900 milliards d'euros en une génération » ; complément de pension estimé à 340 euros par mois pour une carrière complète ; capital mobilisable pour une formation",
+          "chiffrage_annonce": "12 Md€/an de cotisations réorientées",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "dès le 1er janvier 2028",
           "sources": [
             {
               "titre": "Brussels Signal, 2026-10-06",
@@ -6482,6 +6513,18 @@
             {
               "titre": "Sud Radio, 2026-10-06",
               "url": "https://www.sudradio.fr/societe/presidentielle-en-quete-de-credibilite-budgetaire-le-pen-promet-un-effort-radical-de-140-milliards-net"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-17",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
+            },
+            {
+              "titre": "LCP, 2026-11-17",
+              "url": "https://lcp.fr/actualites/reforme-des-retraites-c-est-quoi-la-capitalisation-obligatoire-que-marine-le-pen-veut"
+            },
+            {
+              "titre": "Euronews, 2026-11-17",
+              "url": "https://fr.euronews.com/2026/11/17/dose-de-capitalisation-depart-de-60-a-62-ans-marine-le-pen-devoile-sa-reforme-des-retraite"
             }
           ]
         },
@@ -7046,6 +7089,20 @@
             {
               "titre": "L'Essentiel de l'Éco, 2026-09-01",
               "url": "https://lessentieldeleco.fr/8209-bardella-le-pen-la-rupture-est-consommee/"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "description": "la réforme des retraites précise l'âge de départ : de 60 à 62 ans selon l'âge d'entrée dans la vie active, au lieu de « 62 ans, et 60 ans pour ceux qui ont commencé avant 20 ans » (débat du Medef, 2026-08-27) ; le pilier de capitalisation devient obligatoire [Public Sénat, 2026-11-17](https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen) ; [Euronews, 2026-11-17](https://fr.euronews.com/2026/11/17/dose-de-capitalisation-depart-de-60-a-62-ans-marine-le-pen-devoile-sa-reforme-des-retraite)",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-17",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
+            },
+            {
+              "titre": "Euronews, 2026-11-17",
+              "url": "https://fr.euronews.com/2026/11/17/dose-de-capitalisation-depart-de-60-a-62-ans-marine-le-pen-devoile-sa-reforme-des-retraite"
             }
           ]
         }
@@ -8694,7 +8751,7 @@
       "date_declaration": "2026-05-03",
       "programme_url": "https://melenchon2027.fr/programme/decouvrir/",
       "programme_version": "L'Avenir en commun, le programme de la Nouvelle France (livre paru le 2026-11-06, 1 069 mesures ; livre non lu, changements relevés par LCP et élection.fr) + édition 2025 pour les mesures non reprises par ces comptes rendus + orientations budgétaires 2027 (2026-10-15)",
-      "derniere_maj": "2026-11-14",
+      "derniere_maj": "2026-11-21",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse",
@@ -9504,6 +9561,20 @@
           ]
         },
         {
+          "id": "eco-10",
+          "theme": "eco",
+          "proposition": "« état d'urgence sociale » « Dès notre arrivée au pouvoir » : « bloquer les prix des produits de première nécessité (alimentation, énergie, etc.) », « réquisitionner les logements vides », « bloquer les loyers, y compris commerciaux », « encadrer les frais bancaires », « geler les remboursements de crédits ou de dettes personnelles » (parti : La France insoumise, plan pauvreté)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "dès l'arrivée au pouvoir",
+          "sources": [
+            {
+              "titre": "melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16",
+              "url": "https://melenchon2027.fr/?p=27248"
+            }
+          ]
+        },
+        {
           "id": "social-01",
           "theme": "social",
           "proposition": "Abroger le report de l'âge à 64 ans, puis revenir à 60 ans avec 40 annuités",
@@ -9520,7 +9591,7 @@
         {
           "id": "social-02",
           "theme": "social",
-          "proposition": "Porter le SMIC à 1 700 € net",
+          "proposition": "Porter le SMIC à 1 700 € net ; repris dans le plan pauvreté du 2026-11-16 (« augmenter le SMIC à 1700 euros net »)",
           "chiffrage_annonce": "non chiffré",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9528,6 +9599,10 @@
             {
               "titre": "Budget 2027, p. 9",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            },
+            {
+              "titre": "melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16",
+              "url": "https://melenchon2027.fr/?p=27248"
             }
           ]
         },
@@ -9562,7 +9637,7 @@
         {
           "id": "social-05",
           "theme": "social",
-          "proposition": "Créer une garantie d'autonomie pour les jeunes",
+          "proposition": "Créer une garantie d'autonomie pour les jeunes ; plan pauvreté du 2026-11-16 : « garantie d'autonomie, qui permettra à toute personne résidant en France de disposer d'un revenu au moins égal au seuil de pauvreté » (parti : La France insoumise)",
           "chiffrage_annonce": "9,5 Md€",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9570,6 +9645,10 @@
             {
               "titre": "Budget 2027, p. 8",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            },
+            {
+              "titre": "melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16",
+              "url": "https://melenchon2027.fr/?p=27248"
             }
           ]
         },
@@ -9774,6 +9853,20 @@
             {
               "titre": "LCP, 2026-11-06",
               "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+            }
+          ]
+        },
+        {
+          "id": "env-09",
+          "theme": "env",
+          "proposition": "Textile : « passer de 3 % de vêtements consommés en France produits en France à 10 % et à 25 % issus de l'économie circulaire » ; filière d'habillement « autour du lin et du chanvre » soutenue par le pôle public bancaire ; « Nous interdirons les produits chimiques dangereux dans l'habillement. » ; commande publique fléchée vers les productions locales (parti : La France insoumise, troisième plan d'investissement productif)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "melenchon2027.fr, communiqué « plan textile », 2026-11-13",
+              "url": "https://melenchon2027.fr/?p=27261"
             }
           ]
         },
@@ -10553,8 +10646,8 @@
       "inclus": true,
       "date_declaration": "2024-09-03",
       "programme_url": "https://www.edouardphilippe.fr/programme",
-      "programme_version": "v1 (2026-11-12) — programme en ligne sur edouardphilippe.fr/programme, 15 thématiques, « Mise à jour le 12 novembre 2026 », consulté le 2026-11-14 ; complété par les priorités (non datées) et les déclarations de campagne",
-      "derniere_maj": "2026-11-14",
+      "programme_version": "v1 (2026-11-12) — programme en ligne sur edouardphilippe.fr/programme, 15 thématiques, « Mise à jour le 12 novembre 2026 », consulté le 2026-11-14 ; complété par les priorités (non datées) et les déclarations de campagne ; livret de 142 mesures présenté en conférence de presse le 2026-11-18 (« V1 », livret non lu, compte rendu de Public Sénat)",
+      "derniere_maj": "2026-11-21",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
@@ -11178,6 +11271,10 @@
             {
               "titre": "Programme « Finances publiques »",
               "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -11250,6 +11347,10 @@
             {
               "titre": "La Gazette France (AFP), 2026-09-29",
               "url": "https://www.lagazettefrance.fr/article/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-devoile-son-projet-de-reforme-des-retraites"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -11290,6 +11391,10 @@
             {
               "titre": "Programme « Travail et salaires »",
               "url": "https://www.edouardphilippe.fr/programme/travail"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -11348,6 +11453,10 @@
             {
               "titre": "Journal du Net, 2026-10-22",
               "url": "https://www.journaldunet.com/business/action-publique/1557005-edouard-philippe-presente-ses-propositions-pour-les-familles-et-defend-ses-positions-securitaires/"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -11382,7 +11491,7 @@
         {
           "id": "social-09",
           "theme": "social",
-          "proposition": "Limiter la durée du RSA pour favoriser la reprise d'emploi",
+          "proposition": "Limiter la durée du RSA pour favoriser la reprise d'emploi ; objectif de diminution de 30 % du nombre d'allocataires du RSA (2026-11-18)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -11390,6 +11499,10 @@
             {
               "titre": "Programme « Finances publiques »",
               "url": "https://www.edouardphilippe.fr/programme/comptes-publics"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -11450,6 +11563,20 @@
           ]
         },
         {
+          "id": "social-14",
+          "theme": "social",
+          "proposition": "Supprimer les frais de notaire pour le premier achat immobilier des moins de 35 ans (« une réduction de 7.000 euros pour une maison de 100.000 euros »)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+            }
+          ]
+        },
+        {
           "id": "env-01",
           "theme": "env",
           "proposition": "Lancer 8 EPR supplémentaires, soit 14 au total ; « Relancer le nucléaire et développer les renouvelables là où elles sont efficaces. »",
@@ -11464,6 +11591,10 @@
             {
               "titre": "Programme « Énergie »",
               "url": "https://www.edouardphilippe.fr/programme/energie"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -11538,6 +11669,20 @@
             {
               "titre": "Programme « Énergie »",
               "url": "https://www.edouardphilippe.fr/programme/energie"
+            }
+          ]
+        },
+        {
+          "id": "env-07",
+          "theme": "env",
+          "proposition": "Supprimer l'objectif de zéro artificialisation nette",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -11658,7 +11803,7 @@
         {
           "id": "secu-08",
           "theme": "secu",
-          "proposition": "« Une loi d’accélération de la construction de prisons. »",
+          "proposition": "« Une loi d’accélération de la construction de prisons. » ; construction de 30 000 places de prison (Public Sénat, 2026-11-18)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -11666,6 +11811,10 @@
             {
               "titre": "Programme « Justice »",
               "url": "https://www.edouardphilippe.fr/programme/justice"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -11708,6 +11857,34 @@
             {
               "titre": "Programme « Justice »",
               "url": "https://www.edouardphilippe.fr/programme/justice"
+            }
+          ]
+        },
+        {
+          "id": "secu-12",
+          "theme": "secu",
+          "proposition": "« utiliser la vidéoprotection avec intelligence artificielle pour identifier les casseurs et les criminels » et « autoriser la reconnaissance faciale de façon ciblée et strictement encadrée »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+            }
+          ]
+        },
+        {
+          "id": "secu-13",
+          "theme": "secu",
+          "proposition": "Interdire aux magistrats de se syndiquer",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -11800,6 +11977,10 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -11968,6 +12149,10 @@
             {
               "titre": "Programme « École »",
               "url": "https://www.edouardphilippe.fr/programme/ecole"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -12008,6 +12193,10 @@
             {
               "titre": "Programme « École »",
               "url": "https://www.edouardphilippe.fr/programme/ecole"
+            },
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -12108,6 +12297,20 @@
             {
               "titre": "Programme « École »",
               "url": "https://www.edouardphilippe.fr/programme/ecole"
+            }
+          ]
+        },
+        {
+          "id": "educ-10",
+          "theme": "educ",
+          "proposition": "Université : « assumer la sélection à l'université » ; « Fermer les formations du supérieur aux faibles taux de diplomation et d'insertion » ; revaloriser les filières scientifiques",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-18",
+              "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
             }
           ]
         },
@@ -15507,8 +15710,8 @@
       "inclus": true,
       "date_declaration": "2025-10-22",
       "programme_url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
-      "programme_version": "« Pour une prospérité écologique », programme des Écologistes (juillet 2026, 557 mesures) + déclarations et annonces de campagne (2025-10-22 à 2026-11-12)",
-      "derniere_maj": "2026-11-14",
+      "programme_version": "« Pour une prospérité écologique », programme des Écologistes (juillet 2026, 557 mesures) + déclarations et annonces de campagne (2025-10-22 à 2026-11-18), dont le livret culture (novembre 2026)",
+      "derniere_maj": "2026-11-21",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse ciblée sur les plus fortunés, le capital et les plus émetteurs",
@@ -16034,8 +16237,19 @@
       "phares": [
         {
           "rang": 1,
+          "proposition": "educ-05",
+          "motif": "Annonce dédiée la plus récente : livret et épisode 46 du journal de campagne « Pour une culture vivante ! », 2026-11-10 ; première mesure clé du livret : le budget de la culture",
+          "sources": [
+            {
+              "titre": "Livret « Nos propositions pour une culture vivante », campagne de Marine Tondelier, novembre 2026 (lien : page d'annonce, épisode 46 du journal de campagne ; livret lu en PDF)",
+              "url": "https://marinetondelier.fr/journal-de-campagne/pour-une-culture-vivante"
+            }
+          ]
+        },
+        {
+          "rang": 2,
           "proposition": "env-05",
-          "motif": "Annonce dédiée la plus récente : déplacement au Salon de l'automobile consacré à la filière automobile, à la rencontre des syndicats CGT et CFDT et d'associations environnementalistes, 2026-10-14",
+          "motif": "Annonce dédiée : déplacement au Salon de l'automobile consacré à la filière automobile, à la rencontre des syndicats CGT et CFDT et d'associations environnementalistes, 2026-10-14",
           "sources": [
             {
               "titre": "marinetondelier.fr, journal de campagne, 2026-10-15",
@@ -16044,28 +16258,13 @@
           ]
         },
         {
-          "rang": 2,
+          "rang": 3,
           "proposition": "secu-01",
           "motif": "Annonce dédiée : manifestation hebdomadaire place Vendôme pour une loi intégrale sur les violences sexistes et sexuelles, compte rendu du 2026-09-07",
           "sources": [
             {
               "titre": "marinetondelier.fr, journal de campagne, 2026-09-07",
               "url": "https://marinetondelier.fr/journal-de-campagne/manifestation-loi-integrale-vss"
-            }
-          ]
-        },
-        {
-          "rang": 3,
-          "proposition": "instit-03",
-          "motif": "Annonce dédiée : publication consacrée à une loi contre le mensonge en politique, 2026-09-04",
-          "sources": [
-            {
-              "titre": "marinetondelier.fr, 2026-09-04",
-              "url": "https://marinetondelier.fr/blog/il-faut-interdire-le-mensonge-en-politique"
-            },
-            {
-              "titre": "La Gazette France (AFP), 2026-09-04",
-              "url": "https://www.lagazettefrance.fr/article/marine-tondelier-veut-une-loi-pour-interdire-le-mensonge-en-politique"
             }
           ]
         }
@@ -16680,6 +16879,20 @@
           ]
         },
         {
+          "id": "educ-05",
+          "theme": "educ",
+          "proposition": "Culture (aucun thème du référentiel ne couvre la culture ; classée en éducation, comme le « ministère du savoir » de David Lisnard) : « Consacrer 1% du budget de l'Etat à la Culture », avec « +1 milliard dès le premier budget du quinquennat » (budget du ministère de la Culture : 3,7 Md€ en 2026 hors audiovisuel public) ; « Sanctuariser le régime de l'intermittence du spectacle » ; assurance chômage des artistes-auteurs financée par « une augmentation de 5 % de la cotisation des diffuseurs » ; « Instaurer une présomption d'utilisation des contenus culturels par les fournisseurs d'intelligence artificielle » et labelliser les « œuvres » générées par l'IA ; taxe sur les entrées reversée au CNC élargie aux plateformes de streaming ; révision du Pass Culture ; ratification de la Charte européenne des langues régionales ou minoritaires ; ministère renommé « Ministère des libertés et des droits culturels »",
+          "chiffrage_annonce": "1 Md€ de plus dès le premier budget",
+          "chiffrage_independant": "",
+          "calendrier": "premier budget du quinquennat ; 1 % du budget de l'État au quinquennat suivant",
+          "sources": [
+            {
+              "titre": "Livret « Nos propositions pour une culture vivante », campagne de Marine Tondelier, novembre 2026 (lien : page d'annonce, épisode 46 du journal de campagne ; livret lu en PDF)",
+              "url": "https://marinetondelier.fr/journal-de-campagne/pour-une-culture-vivante"
+            }
+          ]
+        },
+        {
           "id": "sante-01",
           "theme": "sante",
           "proposition": "« Créer 2 000 nouveaux centres de santé d'ici 2030, notamment dans les zones rurales et les quartiers prioritaires » ; former davantage de soignants et rééquilibrer la carte des formations ; « Réguler l'installation des médecins libéraux par une autorisation d'installation des médecins délivrée par l'Agence Régionale de Santé », de droit dans les zones sous-dotées et, ailleurs, liée à la cessation d'activité d'un praticien (programme) ; au grand oral de Radio France, encadrer la liberté d'installation, une nouvelle installation dans les zones déjà bien dotées étant conditionnée au départ à la retraite d'un autre praticien (propos paraphrasés par Public Sénat, 2026-11-12)",
@@ -16782,7 +16995,7 @@
         {
           "id": "instit-04",
           "theme": "instit",
-          "proposition": "« Empêcher la concentration des médias entre les mains de quelques milliardaires » (2026-04-17) ; « Adopter une loi anti-concentration sur le modèle norvégien » (programme)",
+          "proposition": "« Empêcher la concentration des médias entre les mains de quelques milliardaires » (2026-04-17) ; « Adopter une loi anti-concentration sur le modèle norvégien » (programme) ; précisé en novembre 2026 : « Interdire à un groupe de détenir plus de deux titres de presse nationale, une chaîne de télévision nationale et une radio nationale » ; indépendance et pouvoirs de sanction de l'Arcom renforcés ; « Préserver un modèle de chaînes d'information en interdisant strictement les chaînes d'opinion sur la TNT » (livret culture)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -16794,6 +17007,10 @@
             {
               "titre": "P, juillet 2026, p. 176",
               "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+            },
+            {
+              "titre": "Livret « Nos propositions pour une culture vivante », campagne de Marine Tondelier, novembre 2026 (lien : page d'annonce, épisode 46 du journal de campagne ; livret lu en PDF)",
+              "url": "https://marinetondelier.fr/journal-de-campagne/pour-une-culture-vivante"
             }
           ]
         },
@@ -16894,6 +17111,20 @@
             {
               "titre": "Orange Actualités (L'Express), 2026-10-26",
               "url": "https://actu.orange.fr/politique/presidentielle-2027-marine-tondelier-evoque-la-possibilite-de-retirer-sa-candidature-l-express-via-6medias-CNT000002tosYK.html"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "description": "se dit, sur France 2, « prête, et les écologistes sont prêts, à travailler à une coalition autour de la candidature de Jean-Luc Mélenchon », sous condition d'accords de gouvernement, sur les législatives, programmatique et de campagne ; elle reste candidate jusqu'au vote des adhérents du 10 au 13 décembre 2026 [LCP, 2026-11-18](https://lcp.fr/actualites/presidentielle-2027-marine-tondelier-prete-a-une-coalition-autour-de-jean-luc-melenchon) ; [Bourse Direct (AFP), 2026-11-18](https://www.boursedirect.fr/fr/actualites/categorie/politique/presidentielle-tondelier-se-dit-prete-a-travailler-a-une-coalition-autour-de-la-candidature-melenchon-afp-1cecdd13b1e68c5d0aa32493219526d668596f70)",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-18",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-marine-tondelier-prete-a-une-coalition-autour-de-jean-luc-melenchon"
+            },
+            {
+              "titre": "Bourse Direct (AFP), 2026-11-18",
+              "url": "https://www.boursedirect.fr/fr/actualites/categorie/politique/presidentielle-tondelier-se-dit-prete-a-travailler-a-une-coalition-autour-de-la-candidature-melenchon-afp-1cecdd13b1e68c5d0aa32493219526d668596f70"
             }
           ]
         }
@@ -18130,6 +18361,10 @@
               {
                 "titre": "Budget 2027, p. 9",
                 "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+              },
+              {
+                "titre": "melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16",
+                "url": "https://melenchon2027.fr/?p=27248"
               }
             ]
           },
@@ -18396,6 +18631,10 @@
               {
                 "titre": "La Gazette France (AFP), 2026-09-29",
                 "url": "https://www.lagazettefrance.fr/article/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-devoile-son-projet-de-reforme-des-retraites"
+              },
+              {
+                "titre": "Public Sénat, 2026-11-18",
+                "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
               }
             ]
           },
@@ -18483,7 +18722,7 @@
           {
             "candidat": "le-pen-marine",
             "proposition": "social-02",
-            "texte": "Créer une part de capitalisation dans le système de retraite",
+            "texte": "Ajouter à la retraite par répartition une part de capitalisation obligatoire, financée par des cotisations existantes réorientées",
             "texte_court": true,
             "sources": [
               {
@@ -18493,6 +18732,18 @@
               {
                 "titre": "Sud Radio, 2026-10-06",
                 "url": "https://www.sudradio.fr/societe/presidentielle-en-quete-de-credibilite-budgetaire-le-pen-promet-un-effort-radical-de-140-milliards-net"
+              },
+              {
+                "titre": "Public Sénat, 2026-11-17",
+                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
+              },
+              {
+                "titre": "LCP, 2026-11-17",
+                "url": "https://lcp.fr/actualites/reforme-des-retraites-c-est-quoi-la-capitalisation-obligatoire-que-marine-le-pen-veut"
+              },
+              {
+                "titre": "Euronews, 2026-11-17",
+                "url": "https://fr.euronews.com/2026/11/17/dose-de-capitalisation-depart-de-60-a-62-ans-marine-le-pen-devoile-sa-reforme-des-retraite"
               }
             ]
           }
@@ -18533,6 +18784,10 @@
               {
                 "titre": "Programme « Travail et salaires »",
                 "url": "https://www.edouardphilippe.fr/programme/travail"
+              },
+              {
+                "titre": "Public Sénat, 2026-11-18",
+                "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
               }
             ]
           },
@@ -18658,6 +18913,10 @@
               {
                 "titre": "Programme « Énergie »",
                 "url": "https://www.edouardphilippe.fr/programme/energie"
+              },
+              {
+                "titre": "Public Sénat, 2026-11-18",
+                "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
               }
             ]
           },
@@ -18950,6 +19209,10 @@
               {
                 "titre": "Programme « Justice »",
                 "url": "https://www.edouardphilippe.fr/programme/justice"
+              },
+              {
+                "titre": "Public Sénat, 2026-11-18",
+                "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
               }
             ]
           },
@@ -19054,6 +19317,10 @@
               {
                 "titre": "Priorités « Sûre »",
                 "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+              },
+              {
+                "titre": "Public Sénat, 2026-11-18",
+                "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
               }
             ]
           }
@@ -19068,6 +19335,10 @@
               {
                 "titre": "LCP, 2026-10-05",
                 "url": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat"
+              },
+              {
+                "titre": "LCP, 2026-11-09",
+                "url": "https://lcp.fr/actualites/il-faut-sortir-de-l-hypocrisie-les-deputes-ps-defendent-un-texte-pour-regulariser-300000"
               }
             ]
           },
@@ -19559,6 +19830,10 @@
               {
                 "titre": "Programme « École »",
                 "url": "https://www.edouardphilippe.fr/programme/ecole"
+              },
+              {
+                "titre": "Public Sénat, 2026-11-18",
+                "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
               }
             ]
           },

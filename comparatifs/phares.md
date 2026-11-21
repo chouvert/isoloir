@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-14
+derniere_maj: 2026-11-21
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -43,8 +43,9 @@ Règle de choix : README, « Propositions phares ». Motifs détaillés et sourc
 
 | rang | id | proposition | motif |
 |---|---|---|---|
-| 1 | env-06 | Agriculture : ordonnances pour supprimer les contraintes réglementaires (« folie normative »), fiscalité adaptée au « caractère très aléatoire » de l'activité agricole, facilités de transmission des exploitations familiales, lutter contre une baisse du budget de la PAC | Annonce dédiée la plus récente : déplacement au Sommet de l'élevage, 2026-10-07 ; mesure présentée en premier : ordonnances contre la « folie normative » (réactions à l'actualité en marge non retenues) |
-| 2 | eco-01 | Réaliser 140 Md€ d'économies nettes, surtout les trois premières années : équilibre primaire en 18 mois, déficit sous 3 % du PIB en 2030 et sous 2,5 % en 2032, dépenses publiques sous 50 % du PIB, dette à 112 % du PIB en 2032 | Annonce dédiée : plan de redressement des finances publiques présenté au siège du RN, 2026-10-06 |
+| 1 | social-01 | Ramener l'âge légal de départ à 62 ans, et à 60 ans pour ceux qui ont commencé à travailler avant 20 ans et cotisé 40 annuités ; financement par 15 à 20 Md€ de « corrections de mesures injustes ». Précisé le 2026-11-17 : abrogation de la réforme de 2023 « au 1er janvier 2028 » ; âge d'ouverture des droits de 60 à 62 ans en cinq paliers selon l'âge d'entrée dans la vie active (premier emploi stable, apprentissage compris), de 160 à 168 trimestres (40 annuités avant 20 ans, 42 après 23 ans) ; trimestre validé par un travail « au moins à mi-temps pendant un trimestre, sans critère de salaire » ; taux plein à 67 ans ; décote de 5 % par trimestre manquant plafonnée à 50 % ; majoration pour trois enfants portée à 12 % pour les mères et supprimée progressivement pour les pères ; référendum en l'absence de majorité absolue ; « Notre réforme des retraites est pleinement financée » | Annonce dédiée la plus récente : présentation de la réforme des retraites en conférence de presse au siège du RN, 2026-11-17 ; mesure présentée en premier : âge d'ouverture des droits de 60 à 62 ans selon l'âge d'entrée dans la vie active (le pilier de capitalisation obligatoire, social-02, vient ensuite) |
+| 2 | env-06 | Agriculture : ordonnances pour supprimer les contraintes réglementaires (« folie normative »), fiscalité adaptée au « caractère très aléatoire » de l'activité agricole, facilités de transmission des exploitations familiales, lutter contre une baisse du budget de la PAC | Annonce dédiée : déplacement au Sommet de l'élevage, 2026-10-07 ; mesure présentée en premier : ordonnances contre la « folie normative » (réactions à l'actualité en marge non retenues) |
+| 3 | eco-01 | Réaliser 140 Md€ d'économies nettes, surtout les trois premières années : équilibre primaire en 18 mois, déficit sous 3 % du PIB en 2030 et sous 2,5 % en 2032, dépenses publiques sous 50 % du PIB, dette à 112 % du PIB en 2032 | Annonce dédiée : plan de redressement des finances publiques présenté au siège du RN, 2026-10-06 |
 
 ## [David Lisnard](../candidats/lisnard-david.md)
 
@@ -59,7 +60,7 @@ Règle de choix : README, « Propositions phares ». Motifs détaillés et sourc
 | rang | id | proposition | motif |
 |---|---|---|---|
 | 1 | social-01 | Abroger le report de l'âge à 64 ans, puis revenir à 60 ans avec 40 annuités | 1re mesure du résumé du programme par le candidat : « Retraite à 60 ans, SMIC à 1600 € net, planification écologique, 6e République » |
-| 2 | social-02 | Porter le SMIC à 1 700 € net | 2e mesure du même résumé (montant porté à 1 700 € net depuis, voir Évolutions) |
+| 2 | social-02 | Porter le SMIC à 1 700 € net ; repris dans le plan pauvreté du 2026-11-16 (« augmenter le SMIC à 1700 euros net ») | 2e mesure du même résumé (montant porté à 1 700 € net depuis, voir Évolutions) |
 | 3 | env-05 | Investir 10 Md€ dans la planification écologique (le document écrit « dès 2026 ») | 3e mesure du même résumé (« planification écologique ») |
 
 ## [Édouard Philippe](../candidats/philippe-edouard.md)
@@ -97,9 +98,9 @@ Règle de choix : README, « Propositions phares ». Motifs détaillés et sourc
 
 | rang | id | proposition | motif |
 |---|---|---|---|
-| 1 | env-05 | « Ensemble, nous militons pour une voiture électrique accessible aux plus modestes » ; voitures assemblées en France et équipements produits en France autant que possible (Salon de l'automobile) | Annonce dédiée la plus récente : déplacement au Salon de l'automobile consacré à la filière automobile, à la rencontre des syndicats CGT et CFDT et d'associations environnementalistes, 2026-10-14 |
-| 2 | secu-01 | Loi intégrale contre les violences sexistes et sexuelles, « avec un budget intégral, soit 3 milliards d'euros par an » (journal de campagne) ; « Dédier 3 milliards d'euros à la lutte contre les violences faites aux femmes et aux enfants » (2026-04-17) ; programme : loi intégrale « dotée de 3 milliards d'euros », sans périodicité précisée | Annonce dédiée : manifestation hebdomadaire place Vendôme pour une loi intégrale sur les violences sexistes et sexuelles, compte rendu du 2026-09-07 |
-| 3 | instit-03 | Loi pour « interdire le mensonge en politique, sous peine d'inéligibilité », visant les « mensonges factuels et délibérés », sur le modèle gallois | Annonce dédiée : publication consacrée à une loi contre le mensonge en politique, 2026-09-04 |
+| 1 | educ-05 | Culture (aucun thème du référentiel ne couvre la culture ; classée en éducation, comme le « ministère du savoir » de David Lisnard) : « Consacrer 1% du budget de l'Etat à la Culture », avec « +1 milliard dès le premier budget du quinquennat » (budget du ministère de la Culture : 3,7 Md€ en 2026 hors audiovisuel public) ; « Sanctuariser le régime de l'intermittence du spectacle » ; assurance chômage des artistes-auteurs financée par « une augmentation de 5 % de la cotisation des diffuseurs » ; « Instaurer une présomption d'utilisation des contenus culturels par les fournisseurs d'intelligence artificielle » et labelliser les « œuvres » générées par l'IA ; taxe sur les entrées reversée au CNC élargie aux plateformes de streaming ; révision du Pass Culture ; ratification de la Charte européenne des langues régionales ou minoritaires ; ministère renommé « Ministère des libertés et des droits culturels » | Annonce dédiée la plus récente : livret et épisode 46 du journal de campagne « Pour une culture vivante ! », 2026-11-10 ; première mesure clé du livret : le budget de la culture |
+| 2 | env-05 | « Ensemble, nous militons pour une voiture électrique accessible aux plus modestes » ; voitures assemblées en France et équipements produits en France autant que possible (Salon de l'automobile) | Annonce dédiée : déplacement au Salon de l'automobile consacré à la filière automobile, à la rencontre des syndicats CGT et CFDT et d'associations environnementalistes, 2026-10-14 |
+| 3 | secu-01 | Loi intégrale contre les violences sexistes et sexuelles, « avec un budget intégral, soit 3 milliards d'euros par an » (journal de campagne) ; « Dédier 3 milliards d'euros à la lutte contre les violences faites aux femmes et aux enfants » (2026-04-17) ; programme : loi intégrale « dotée de 3 milliards d'euros », sans périodicité précisée | Annonce dédiée : manifestation hebdomadaire place Vendôme pour une loi intégrale sur les violences sexistes et sexuelles, compte rendu du 2026-09-07 |
 
 ## [Éric Zemmour](../candidats/zemmour-eric.md)
 
