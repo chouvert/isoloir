@@ -7,7 +7,7 @@ statut: déclaré
 date_declaration: 2026-08-23
 programme_url:
 programme_version: pas de programme complet publié au 2026-11-14 ; premier volet du plan des « 100 jours » (énergie, 2026-11-09), déclarations et déplacements de campagne
-derniere_maj: 2026-11-14
+derniere_maj: 2026-11-21
 ---
 
 # Raphaël Glucksmann
@@ -180,7 +180,7 @@ sur les médias (non lu). -->
 | id       | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
 |----------|-------------|-------------------|-----------------------|------------|--------|
 | immig-01 | Convention citoyenne sur l'immigration, composée de citoyens tirés au sort, dont les propositions seraient débattues et votées par le Parlement : « Au lieu de fuir le débat migratoire, nous l'assumerons » (mai 2026, avant la candidature ; repris le 2026-08-24) | | | | [LCP, 2026-05-26](https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme) ; [Public Sénat, 2026-08-24](https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann) |
-| immig-02 | Régulariser les travailleurs sans papiers : « Nous le ferons [la régularisation] et ce sera populaire » (débat du 2026-10-04) | | | | [LCP, 2026-10-05](https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat) |
+| immig-02 | Régulariser les travailleurs sans papiers : « Nous le ferons [la régularisation] et ce sera populaire » (débat du 2026-10-04) ; mesure de la proposition de loi des députés socialistes (titre de séjour « salarié » pour tout étranger justifiant d'au moins six mois d'activité professionnelle au cours des 24 derniers mois), « une mesure reprise par Raphaël Glucksmann dans son programme de campagne » selon LCP ; vidéo de la fin octobre : « C'est une question de dignité et d'égalité d'accès aux droits » (parti : groupe socialiste de l'Assemblée, pour le texte) | | | | [LCP, 2026-10-05](https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat) ; [LCP, 2026-11-09](https://lcp.fr/actualites/il-faut-sortir-de-l-hypocrisie-les-deputes-ps-defendent-un-texte-pour-regulariser-300000) |
 
 ### europe — Europe & international
 | id        | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
