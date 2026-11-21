@@ -1,7 +1,7 @@
 {
   "format": 1,
   "derniere_maj": "2026-11-21",
-  "referentiel_maj": "2026-11-15",
+  "referentiel_maj": "2026-11-21",
   "themes": [
     {
       "id": "eco",
@@ -192,6 +192,13 @@
       "id": "Q-educ-univ",
       "theme": "educ",
       "question": "Sélection et financement de l'université ?",
+      "type": "ouverte",
+      "statut": "actif"
+    },
+    {
+      "id": "Q-educ-orientation",
+      "theme": "educ",
+      "question": "Organisation du collège et de la voie professionnelle (collège unique, orientation au collège et au lycée, baccalauréat professionnel) ?",
       "type": "ouverte",
       "statut": "actif"
     },
@@ -1150,6 +1157,16 @@
             {
               "titre": "Lyon Mag, 2026-10-10",
               "url": "https://www.lyonmag.com/article/154267/presidentielle-2027-a-lyon-gabriel-attal-devoile-son-pacte-pour-la-jeunesse-et-cible-jean-luc-melenchon"
+            }
+          ]
+        },
+        "Q-educ-orientation": {
+          "position": "certificat d'études à l'entrée en sixième ; brevet obligatoire pour entrer en seconde",
+          "detail": "Certificat d'études à l'entrée en sixième, année passerelle pour les élèves qui ne l'obtiennent pas ; « le brevet des collèges deviendra obligatoire pour passer en classe de seconde » (voir educ-04)",
+          "sources": [
+            {
+              "titre": "LCP, 2026-08-25",
+              "url": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose"
             }
           ]
         },
@@ -2697,6 +2714,11 @@
           "detail": "Pas de déclaration trouvée",
           "sources": []
         },
+        "Q-educ-orientation": {
+          "position": "pas de position",
+          "detail": "Pas de proposition trouvée",
+          "sources": []
+        },
         "Q-sante-acces": {
           "position": "pas de position",
           "detail": "Pas de déclaration de la candidate ni du parti ; indice : texte d'une militante (Véronique Jeanneret, référente Génération écologie Deux-Sèvres, 2026-10-26) demandant « l'embauche et l'installation de radiologues et de manipulateurs radio pour rouvrir l'accès aux examens » ; avant la candidature, vote pour la proposition de loi transpartisane contre les déserts médicaux (2025-05-07)",
@@ -3487,6 +3509,11 @@
               "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
             }
           ]
+        },
+        "Q-educ-orientation": {
+          "position": "pas de position",
+          "detail": "Pas de proposition trouvée",
+          "sources": []
         },
         "Q-sante-acces": {
           "position": "bourse contre engagement d'installation",
@@ -4855,6 +4882,11 @@
             }
           ]
         },
+        "Q-educ-orientation": {
+          "position": "pas de position",
+          "detail": "Pas de proposition trouvée",
+          "sources": []
+        },
         "Q-sante-acces": {
           "position": "pas de position",
           "detail": "Pas de proposition trouvée",
@@ -6024,6 +6056,11 @@
         "Q-educ-univ": {
           "position": "pas de position",
           "detail": "Pas de proposition trouvée",
+          "sources": []
+        },
+        "Q-educ-orientation": {
+          "position": "pas de position",
+          "detail": "Pas de proposition de campagne trouvée",
           "sources": []
         },
         "Q-sante-acces": {
@@ -7394,6 +7431,20 @@
             {
               "titre": "Europe 1, Objectif Élysée 2027, 2026-10-27",
               "url": "https://www.europe1.fr/politique/en-direct-emeutes-parcoursup-primaire-a-droite-ce-quil-faut-retenir-de-linterview-de-david-lisnard-dans-objectif-elysee-2027-1186743"
+            }
+          ]
+        },
+        "Q-educ-orientation": {
+          "position": "certificat de fin de primaire conditionnant l'entrée au collège ; lycées professionnels et CFA renforcés",
+          "detail": "Certificat de fin de primaire conditionnant l'entrée au collège (voir educ-02) ; lycées professionnels et CFA renforcés, formations ouvertes ou fermées localement (voir educ-08) ; limite d'âge de l'apprentissage revue à la baisse (voir social-05)",
+          "sources": [
+            {
+              "titre": "NE, éducation",
+              "url": "https://www.unenouvelleenergie.fr/notre-programme/education/"
+            },
+            {
+              "titre": "NE, « Réussir »",
+              "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
             }
           ]
         },
@@ -9070,6 +9121,20 @@
             {
               "titre": "Budget 2027, p. 10",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            }
+          ]
+        },
+        "Q-educ-orientation": {
+          "position": "baccalauréat professionnel en quatre ans",
+          "detail": "Rétablir le bac professionnel en quatre ans, rémunération des élèves au-dessus du seuil de pauvreté (voir educ-08) ; scolarité obligatoire jusqu'à 18 ans (voir educ-04)",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            },
+            {
+              "titre": "AEC 2025",
+              "url": "https://melenchon2027.fr/programme2025/livre/"
             }
           ]
         },
@@ -10904,6 +10969,20 @@
             }
           ]
         },
+        "Q-educ-orientation": {
+          "position": "orientation dès la 5e",
+          "detail": "« refonder l’orientation dès la 5e » (voir educ-09) ; développer l'apprentissage (voir social-13)",
+          "sources": [
+            {
+              "titre": "Programme « École »",
+              "url": "https://www.edouardphilippe.fr/programme/ecole"
+            },
+            {
+              "titre": "Programme « Travail et salaires »",
+              "url": "https://www.edouardphilippe.fr/programme/travail"
+            }
+          ]
+        },
         "Q-sante-acces": {
           "position": "pas de position",
           "detail": "Pas de proposition trouvée",
@@ -12635,6 +12714,20 @@
             }
           ]
         },
+        "Q-educ-orientation": {
+          "position": "examen d'entrée en sixième ; filière professionnelle en alternance confiée aux régions",
+          "detail": "Examen d'entrée en sixième et groupes de niveau (voir educ-03) ; filière professionnelle en alternance confiée aux régions (voir educ-07)",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-08-31",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+            },
+            {
+              "titre": "Public Sénat, 2026-10-27",
+              "url": "https://www.publicsenat.fr/actualites/politique/nous-allons-vivre-un-moment-historique-bruno-retailleau-appelle-la-jeunesse-a-prendre-part-a-la-pre"
+            }
+          ]
+        },
         "Q-sante-acces": {
           "position": "pas de position",
           "detail": "Pas de proposition trouvée sur les déserts médicaux",
@@ -14087,6 +14180,11 @@
           "detail": "Pas de déclaration trouvée sur la sélection ou le financement de l'université",
           "sources": []
         },
+        "Q-educ-orientation": {
+          "position": "pas de position",
+          "detail": "Pas de proposition trouvée",
+          "sources": []
+        },
         "Q-sante-acces": {
           "position": "pas de position",
           "detail": "Pas de déclaration de campagne trouvée sur les déserts médicaux",
@@ -14928,6 +15026,11 @@
               "url": "https://francoisruffin.fr/la-convergence-des-pourrissements-coleres-et-espoirs/"
             }
           ]
+        },
+        "Q-educ-orientation": {
+          "position": "pas de position",
+          "detail": "Pas de proposition trouvée",
+          "sources": []
         },
         "Q-sante-acces": {
           "position": "pas de position",
@@ -15981,6 +16084,16 @@
             }
           ]
         },
+        "Q-educ-orientation": {
+          "position": "maintien du collège unique ; baccalauréat professionnel en quatre ans",
+          "detail": "« Défendre un collège unique et inclusif » ; rétablir le bac professionnel en quatre ans et abroger la réforme de la voie professionnelle ; « Créer un véritable service public de l’orientation » dans les lycées (voir educ-06)",
+          "sources": [
+            {
+              "titre": "P, juillet 2026, p. 92",
+              "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+            }
+          ]
+        },
         "Q-sante-acces": {
           "position": "centres de santé, régulation de l'installation",
           "detail": "« Créer 2 000 nouveaux centres de santé d'ici 2030, notamment dans les zones rurales et les quartiers prioritaires » ; former davantage de professionnels et rééquilibrer la carte des formations vers les régions les moins dotées ; « Réguler l'installation des médecins libéraux par une autorisation d'installation des médecins délivrée par l'Agence Régionale de Santé », de droit dans les zones sous-dotées (programme) ; confirmé au grand oral de Radio France (2026-11-12) : dans les zones bien dotées, installation conditionnée au départ à la retraite d'un autre praticien (Public Sénat, sans citation)",
@@ -16893,6 +17006,20 @@
           ]
         },
         {
+          "id": "educ-06",
+          "theme": "educ",
+          "proposition": "« Défendre un collège unique et inclusif » ; rétablir le baccalauréat professionnel en 4 ans et abroger la réforme de la voie professionnelle ; « Créer un véritable service public de l'orientation dans les lycées généraux, professionnels, techniques et agricoles » (programme)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "P, juillet 2026, p. 92",
+              "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+            }
+          ]
+        },
+        {
           "id": "sante-01",
           "theme": "sante",
           "proposition": "« Créer 2 000 nouveaux centres de santé d'ici 2030, notamment dans les zones rurales et les quartiers prioritaires » ; former davantage de soignants et rééquilibrer la carte des formations ; « Réguler l'installation des médecins libéraux par une autorisation d'installation des médecins délivrée par l'Agence Régionale de Santé », de droit dans les zones sous-dotées et, ailleurs, liée à la cessation d'activité d'un praticien (programme) ; au grand oral de Radio France, encadrer la liberté d'installation, une nouvelle installation dans les zones déjà bien dotées étant conditionnée au départ à la retraite d'un autre praticien (propos paraphrasés par Public Sénat, 2026-11-12)",
@@ -17362,6 +17489,16 @@
           "position": "pas de position",
           "detail": "Pas de proposition de campagne trouvée",
           "sources": []
+        },
+        "Q-educ-orientation": {
+          "position": "fin du collège unique",
+          "detail": "Supprimer le collège unique et orienter vers l'enseignement professionnel dès la quatrième (grand oral de Radio France, 2026-11-12, propos paraphrasés par Public Sénat ; voir educ-02)",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-12",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
         },
         "Q-sante-acces": {
           "position": "médecins retraités, numerus clausus, infirmiers et pharmaciens",
