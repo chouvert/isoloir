@@ -225,7 +225,7 @@ test('donnees : glossaire exporté', () => {
 test('donnees : date de version du référentiel', () => {
   const attendu = readFileSync(join(RACINE, 'referentiel/version.yml'), 'utf8').match(/^date: (\S+)/m)[1];
   assert.equal(donnees(lireBase(RACINE)).referentiel_maj, attendu);
-  assert.equal(attendu, '2026-11-15');
+  assert.equal(attendu, '2026-11-21');
 });
 
 test('duels : un candidat inclus: non ne participe pas', () => {

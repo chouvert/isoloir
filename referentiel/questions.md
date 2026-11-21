@@ -42,6 +42,7 @@ contient la valeur annoncée et la colonne `détail` les conditions.
 | Q-europe-ukraine  | europe | Soutien à l'Ukraine ?                                                 | ouverte  | actif  |
 | Q-educ-enseign    | educ   | Rémunération et recrutement des enseignants ?                         | ouverte  | actif  |
 | Q-educ-univ       | educ   | Sélection et financement de l'université ?                            | ouverte  | actif  |
+| Q-educ-orientation | educ   | Organisation du collège et de la voie professionnelle (collège unique, orientation, baccalauréat professionnel) ? | ouverte  | actif  |
 | Q-sante-acces     | sante  | Mesures contre les déserts médicaux ?                                 | ouverte  | actif  |
 | Q-sante-findevie  | sante  | Aide active à mourir ?                                                | fermée   | actif  |
 | Q-instit-scrutin  | instit | Introduction de la proportionnelle aux législatives ?                 | fermée   | actif  |
