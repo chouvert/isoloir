@@ -7,7 +7,7 @@ statut: déclaré
 date_declaration: 2026-05-03
 programme_url: https://melenchon2027.fr/programme/decouvrir/
 programme_version: L'Avenir en commun, le programme de la Nouvelle France (livre paru le 2026-11-06, 1 069 mesures ; livre non lu, changements relevés par LCP et élection.fr) + édition 2025 pour les mesures non reprises par ces comptes rendus + orientations budgétaires 2027 (2026-10-15)
-derniere_maj: 2026-11-14
+derniere_maj: 2026-11-21
 ---
 
 # Jean-Luc Mélenchon
@@ -87,7 +87,9 @@ Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ». -->
 | D-instit-participation | A | instit-03 | Permettre aux citoyens de déclencher eux-mêmes un référendum, y compris pour mettre fin au mandat d'un élu | Référendum d'initiative citoyenne (instit-03) ; il propose aussi la proportionnelle (option B, non voisine) | [AEC 2025](https://melenchon2027.fr/programme2025/livre/) ([relevé](https://votons-2027.fr/candidats/melenchon/programme)) |
 
 ## Propositions phares
-<!-- Règle : README, « Propositions phares ». -->
+<!-- Règle : README, « Propositions phares ». Le candidat résume son programme (page du livre-programme) : ce résumé
+prime sur les annonces dédiées. Revue du 2026-11-21 : plans thématiques de LFI (textile, 2026-11-13 ; pauvreté,
+2026-11-16) sans effet sur les phares ; document complet du plan pauvreté (PDF) non lu (erreur du site). -->
 | rang | proposition | motif | source |
 |------|-------------|-------|--------|
 | 1 | social-01 | 1re mesure du résumé du programme par le candidat : « Retraite à 60 ans, SMIC à 1600 € net, planification écologique, 6e République » | [Page du livre-programme, description](https://melenchon2027.fr/programme2025/livre/) |
@@ -109,15 +111,16 @@ Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ». -->
 | eco-07 | Taxer les « superprofits » | +5 Md€ | | | [Budget 2027, p. 14](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) |
 | eco-08 | Pôle public bancaire investissant 100 Md€ par an, hors budget de l'État | 100 Md€/an hors budget | | | [Budget 2027, p. 7, 11 et 14-16](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) |
 | eco-09 | Investir 22 milliards d'euros dans les services publics dès les premiers mois du quinquennat (grand oral de Radio France sur les services publics, propos paraphrasés par Public Sénat ; ventilation non précisée) | 22 Md€ selon lui | | premiers mois du quinquennat | [Public Sénat, 2026-11-12](https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics) |
+| eco-10 | « état d'urgence sociale » « Dès notre arrivée au pouvoir » : « bloquer les prix des produits de première nécessité (alimentation, énergie, etc.) », « réquisitionner les logements vides », « bloquer les loyers, y compris commerciaux », « encadrer les frais bancaires », « geler les remboursements de crédits ou de dettes personnelles » (parti : La France insoumise, plan pauvreté) | | | dès l'arrivée au pouvoir | [melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16](https://melenchon2027.fr/?p=27248) |
 
 ### social — Travail, retraites, social
 | id        | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
 |-----------|-------------|-------------------|-----------------------|------------|--------|
 | social-01 | Abroger le report de l'âge à 64 ans, puis revenir à 60 ans avec 40 annuités | 9 Md€ (abrogation) | | abrogation en 2027, 60 ans sur le mandat | [Budget 2027, p. 11](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) |
-| social-02 | Porter le SMIC à 1 700 € net | non chiffré | | | [Budget 2027, p. 9](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) |
+| social-02 | Porter le SMIC à 1 700 € net ; repris dans le plan pauvreté du 2026-11-16 (« augmenter le SMIC à 1700 euros net ») | non chiffré | | | [Budget 2027, p. 9](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) ; [melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16](https://melenchon2027.fr/?p=27248) |
 | social-03 | Abroger les réformes de l'assurance chômage | 3 Md€ | | | [Budget 2027, p. 12](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) |
 | social-04 | Augmenter de 10 % les pensions, les allocations familiales et les APL | 8 Md€ | | | [Budget 2027, p. 8](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) |
-| social-05 | Créer une garantie d'autonomie pour les jeunes | 9,5 Md€ | | | [Budget 2027, p. 8](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) |
+| social-05 | Créer une garantie d'autonomie pour les jeunes ; plan pauvreté du 2026-11-16 : « garantie d'autonomie, qui permettra à toute personne résidant en France de disposer d'un revenu au moins égal au seuil de pauvreté » (parti : La France insoumise) | 9,5 Md€ | | | [Budget 2027, p. 8](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) ; [melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16](https://melenchon2027.fr/?p=27248) |
 | social-06 | Revenir aux 35 heures effectives et passer à 32 heures dans les métiers pénibles ou de nuit | | | | [AEC 2025](https://melenchon2027.fr/programme2025/livre/) ([relevé](https://votons-2027.fr/candidats/melenchon/programme)) |
 | social-07 | Construire 200 000 logements publics par an pendant cinq ans | | | 5 ans | [AEC 2025](https://melenchon2027.fr/programme2025/livre/) ([relevé](https://votons-2027.fr/candidats/melenchon/programme)) |
 | social-08 | Logements d'urgence et réquisitions | 3 Md€ | | | [Budget 2027, p. 8](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) |
@@ -134,6 +137,7 @@ Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ». -->
 | env-06 | Renationaliser la SNCF et refuser la mise en concurrence des lignes | | | | [AEC 2025](https://melenchon2027.fr/programme2025/livre/) ([relevé](https://votons-2027.fr/candidats/melenchon/programme)) |
 | env-07 | Inscrire la « règle verte » dans la Constitution | | | | [élection.fr, 2026-11-06](https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html) ; [LCP, 2026-11-06](https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841) |
 | env-08 | Interdire les vols de nuit entre 23 h et 6 h | | | | [LCP, 2026-11-06](https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841) |
+| env-09 | Textile : « passer de 3 % de vêtements consommés en France produits en France à 10 % et à 25 % issus de l'économie circulaire » ; filière d'habillement « autour du lin et du chanvre » soutenue par le pôle public bancaire ; « Nous interdirons les produits chimiques dangereux dans l'habillement. » ; commande publique fléchée vers les productions locales (parti : La France insoumise, troisième plan d'investissement productif) | | | | [melenchon2027.fr, communiqué « plan textile », 2026-11-13](https://melenchon2027.fr/?p=27261) |
 
 ### secu — Sécurité & justice
 | id      | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |

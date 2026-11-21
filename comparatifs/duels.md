@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-14
+derniere_maj: 2026-11-21
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -62,7 +62,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Marine Tondelier | social-02 (texte court) | Augmenter chaque année pendant le mandat les cotisations pour la retraite, afin de financer le retour de l'âge légal à 62 ans |
 | D | Gabriel Attal | social-02 (texte court) | Faire verser par l'État 1 000 euros à la naissance de chaque enfant sur un compte d'épargne pour sa retraite, que sa famille peut compléter |
 | D | Nicolas Dupont-Aignan | social-02 (texte court) | Verser 10 000 euros à la naissance de chaque enfant français, placés dans un fonds public jusqu'à sa retraite, en complément de sa pension |
-| D | Marine Le Pen | social-02 (texte court) | Créer une part de capitalisation dans le système de retraite |
+| D | Marine Le Pen | social-02 (texte court) | Ajouter à la retraite par répartition une part de capitalisation obligatoire, financée par des cotisations existantes réorientées |
 
 ### D-social-chomage
 

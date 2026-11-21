@@ -1,6 +1,6 @@
 ---
 theme: educ
-derniere_maj: 2026-11-14
+derniere_maj: 2026-11-21
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -58,3 +58,4 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Fabien Roussel | educ-02 | Appel aux forces républicaines pour un budget 2027 qui « garantisse qu'il y ait un professeur dans chaque classe » ; « augmenter le budget de l'Éducation nationale » (2026-10-04) | non chiffré | — |
 | Fabien Roussel | educ-03 | Abroger la réforme Blanquer et lancer un vaste plan de recrutement d'enseignants (grand oral de Radio France, propos paraphrasés par Public Sénat) | non chiffré | — |
 | Marine Tondelier | educ-03 | Plan de rénovation du bâti scolaire sur dix ans, à parts égales entre l'État et les collectivités à partir de 2027, présenté lors de la conférence de presse sur l'héritage (eco-01) | 4 Md€/an sur dix ans (État et collectivités) | — |
+| Marine Tondelier | educ-05 | Culture (aucun thème du référentiel ne couvre la culture ; classée en éducation, comme le « ministère du savoir » de David Lisnard) : « Consacrer 1% du budget de l'Etat à la Culture », avec « +1 milliard dès le premier budget du quinquennat » (budget du ministère de la Culture : 3,7 Md€ en 2026 hors audiovisuel public) ; « Sanctuariser le régime de l'intermittence du spectacle » ; assurance chômage des artistes-auteurs financée par « une augmentation de 5 % de la cotisation des diffuseurs » ; « Instaurer une présomption d'utilisation des contenus culturels par les fournisseurs d'intelligence artificielle » et labelliser les « œuvres » générées par l'IA ; taxe sur les entrées reversée au CNC élargie aux plateformes de streaming ; révision du Pass Culture ; ratification de la Charte européenne des langues régionales ou minoritaires ; ministère renommé « Ministère des libertés et des droits culturels » | 1 Md€ de plus dès le premier budget | — |
