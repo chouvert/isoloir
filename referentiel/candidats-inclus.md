@@ -1,7 +1,17 @@
 # Application de la règle d'inclusion
 
-Règle : README, « Candidats inclus ». Situation au **2026-11-14**, à réexaminer à chaque mise à jour
+Règle : README, « Candidats inclus ». Situation au **2026-11-21**, à réexaminer à chaque mise à jour
 importante des candidatures et des sondages.
+
+Contrôle du **2026-11-21** (mise à jour 2026-S47) : **entrée de Dominique de Villepin** (fiche à rédiger) ; aucune
+sortie. Il a déclaré sa candidature le 2026-11-20 en conférence de presse (« Je suis candidat à l'élection
+présidentielle de 2027. », [LCP, 2026-11-20](https://lcp.fr/actualites/presidentielle-2027-dominique-de-villepin-officiellement-candidat-a-l-elysee-445372)) et atteint 2 % chez deux instituts sur le dernier mois : Toluna Harris
+Interactive (3 – 5 nov.) et YouGov pour Le HuffPost (12 – 17 nov.) ; 1,5 % chez Ifop-Fiducial (13 – 16 nov.).
+Teddy Riner est confirmé : 4 % chez Ifop-Fiducial et 3 % chez YouGov. La notice CSA du 2026-11-10 (n° 10366), lue
+dans le dossier de documents, ne contient aucune intention de vote (question « bonne ou mauvaise chose » sur la
+candidature de Riner). Sondage Elabe du 14 novembre (notice 10375) non lu (le site de la Commission boucle en
+redirection). Marine Tondelier se dit le 2026-11-18 « prête » à une coalition autour de Jean-Luc Mélenchon mais
+reste candidate jusqu'au vote des adhérents (10 – 13 décembre 2026).
 
 Contrôle du **2026-11-14** (mise à jour 2026-S46) : aucune entrée ni sortie. Sondage Toluna Harris Interactive pour
 M6 et RTL (terrain du 3 au 5 novembre 2026, 2 101 inscrits), cinq hypothèses : Le Pen 34 – 36 %, Mélenchon 18 – 19 %,
@@ -41,8 +51,12 @@ Premier tour, en % des suffrages exprimés, toutes hypothèses publiées.
 | OpinionWay | Les Echos, Radio Classique | 9 – 10 nov. | 1 017 | 3 | [rapport Présitrack, vague 4](https://f.dviz.factoviz.com/UserFiles/0/9/2/2027/OpinionWay%20pour%20Les%20Echos%20et%20Radio%20Classique%20-%20Barom%C3%A8tre%20Pr%C3%A9sitrack%202027%20Vague%204%20-%20Novembre%202026.pdf) |
 | Cluster17 | Politico | 9 – 10 nov. | 1 164 inscrits | 4 | [rapport Cluster17](https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf) |
 | OpinionWay | CNews | 10 – 12 nov. | 1 001 | 2 | [notice 10371](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf) |
+| YouGov | Le HuffPost | 12 – 17 nov. | 952 inscrits | 5 | [rapport YouGov](https://ygo-assets-websites-editorial-emea.yougov.net/documents/R%C3%A9sultats_YouGov_pour_le_HuffPost_Intentions_de_vote_Novembre_2026_17.11.2026.pdf) |
+| Ifop-Fiducial | TF1-LCI, Le Figaro, Sud Radio | 13 – 16 nov. | 1 690 inscrits | 5 | [notice 10384](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10384-pres-iv-ifop-18-novembre.pdf) |
 
-Six instituts distincts : Cluster17, Elabe, Ifop, Ipsos bva, OpinionWay, Toluna Harris Interactive.
+Sept instituts distincts : Cluster17, Elabe, Ifop, Ipsos bva, OpinionWay, Toluna Harris Interactive, YouGov (ajouté le
+2026-11-21 ; les fourchettes du tableau suivant n'ont été mises à jour que pour les candidats dont l'inclusion change
+ou se confirme : Villepin, Riner).
 
 ## Inclus au titre des sondages (au moins 2 % dans au moins deux instituts)
 
@@ -61,7 +75,8 @@ hypothèses où il est seul candidat de la droite et du centre, quand elles sort
 | Éric Zemmour          | Reconquête         | 2 – 6 %    | 6 | `zemmour-eric` |
 | Marine Tondelier      | Les Écologistes    | 1 – 3,5 %  | 6 | `tondelier-marine` |
 | Nicolas Dupont-Aignan | Debout la France   | 1 – 3,5 %  | 6 (dans toutes les hypothèses chez Cluster17 et Elabe) | `dupont-aignan-nicolas` |
-| Teddy Riner           | sans étiquette     | 2 – 4 % (hypothèses où il est testé) | 2 (OpinionWay 4 %, 10 – 12 nov. ; Cluster17 2 %, 9 – 10 nov.) | fiche à rédiger : `riner-teddy` |
+| Teddy Riner           | sans étiquette     | 2 – 4 % (hypothèses où il est testé) | 4 (OpinionWay 4 %, 10 – 12 nov. ; Cluster17 2 %, 9 – 10 nov. ; YouGov 3 %, 12 – 17 nov. ; Ifop-Fiducial 4 %, 13 – 16 nov.) | fiche à rédiger : `riner-teddy` |
+| Dominique de Villepin | La France humaniste | 1 – 3 % | 2 sur le dernier mois (Toluna Harris Interactive 2 %, 3 – 5 nov. ; YouGov 2 %, 12 – 17 nov.) ; déclaré le 2026-11-20 | fiche à rédiger : `villepin-dominique` |
 
 Nicolas Dupont-Aignan, candidat déclaré ([LCP, liste des candidats, mise à jour du 2026-10-14](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373)),
 remplit le critère quelle que soit la lecture retenue : 2 % ou plus dans chacune des hypothèses de Cluster17
@@ -75,8 +90,7 @@ et 2 % chez Cluster17 pour Politico (9 – 10 nov., [rapport Cluster17](https://
 L'Ifop du 9 – 10 novembre (22 % prêts à voter pour lui) mesure un potentiel et n'est pas compté.
 
 Autres candidats testés : Fabien Roussel 1 – 3 % et François Ruffin 1,5 – 3 % (inclus au titre des
-parlementaires) ; Dominique de Villepin 1 – 3 % (2 % ou plus chez Elabe et Toluna Harris Interactive, mais non
-déclaré, voir « Pressentis ») ; Natacha Polony 1 – 2,5 % (2 % ou plus chez Cluster17 seulement) ; Karim Bouamrane
+parlementaires) ; Natacha Polony 1 – 2,5 % (2 % ou plus chez Cluster17 seulement) ; Karim Bouamrane
 et François Asselineau 1 % au plus ; Nathalie Arthaud 0,5 – 1 %.
 
 ## Inclus au titre des parlementaires du parti
@@ -104,7 +118,6 @@ Scores relevés dans les sondages listés plus haut ; aucun ne compte tant que l
 
 | personnalité | situation | scores testés | sources |
 |--------------|-----------|---------------|---------|
-| Dominique de Villepin | La France humaniste ; « Je ne suis pas encore candidat » (France Inter, 2026-11-03) | 1 – 3 % ; 2 % ou plus chez Elabe et Toluna Harris Interactive : entre dès sa déclaration | [franceinfo, 2026-11-03](https://www.franceinfo.fr/elections/presidentielle/je-ne-suis-pas-encore-candidat-a-la-presidentielle-2027-indique-dominique-de-villepin_8265395.html) ; [LCP, 2026-10-23](https://www.lcp.fr/actualites/presidentielle-dominique-de-villepin-annonce-avoir-depasse-la-barre-des-300-signatures) |
 | François Hollande | décision annoncée pour décembre ou janvier | 6,5 % (Cluster17, 19 – 22 oct.) ; 10 % (Ifop, 17 – 19 oct.) | [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) |
 | Christine Lagarde | testée par Cluster17 seulement | 8 – 14 % (Cluster17, 9 – 10 nov.) | [rapport Cluster17](https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf) |
 | Bernard Cazeneuve, Xavier Bertrand | voir « Non inclus » | non testés en premier tour | |

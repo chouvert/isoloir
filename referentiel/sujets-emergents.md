@@ -30,18 +30,18 @@ est noté « refusé le AAAA-MM-JJ » dans la colonne décision et n'est plus pr
 | Avenir institutionnel de la Nouvelle-Calédonie | instit | 2026-S45 | Mélenchon | non couvert | |
 | Pétitions citoyennes débattues au Parlement | instit | 2026-S45 | Mélenchon | Q-instit-referend | |
 | Prévention et dépistage des cancers, santé environnementale | sante | 2026-S45 | Batho (parti : Génération écologie) | non couvert | |
-| Effectifs de la fonction publique (recrutements ou suppressions de postes) | eco | 2026-S46 | Roussel (+500 000), Tondelier (+250 000 à 350 000), Zemmour (−800 000), Attal (−100 000), Mélenchon (22 Md€ pour les services publics) ; déjà dans les fiches Philippe, Retailleau | non couvert (en partie D-eco-dette, Q-eco-deficit) | déclencheur « sujet nouveau » atteint : PR « Référentiel : effectifs de la fonction publique » (2026-11-14) |
-| Orientation scolaire et voie professionnelle (collège unique, bac pro) | educ | 2026-S46 | Philippe (orientation dès la 5e), Zemmour (fin du collège unique), Mélenchon (bac pro en 4 ans) | non couvert | déclencheur atteint, reporté (un changement de référentiel par semaine) |
+| Effectifs de la fonction publique (recrutements ou suppressions de postes) | eco | 2026-S46, 2026-S47 | Roussel (+500 000), Tondelier (+250 000 à 350 000), Zemmour (−800 000), Attal (−100 000), Mélenchon (22 Md€ pour les services publics) ; déjà dans les fiches Philippe, Retailleau ; S47 : Philippe (−250 000 sur le quinquennat, confirmé), Villepin (« rénovation de la fonction publique », fiche à rédiger) | non couvert (en partie D-eco-dette, Q-eco-deficit) | déclencheur « sujet nouveau » atteint : PR « Référentiel : effectifs de la fonction publique » (2026-11-14) |
+| Orientation scolaire et voie professionnelle (collège unique, bac pro) | educ | 2026-S46 | Philippe (orientation dès la 5e), Zemmour (fin du collège unique), Mélenchon (bac pro en 4 ans) | non couvert | déclencheur atteint, reporté (un changement de référentiel par semaine) ; PR « Référentiel » proposée en 2026-S47 |
 | Plan d'investissement de transition chiffré et taxes sur les secteurs émetteurs | env | 2026-S46 | Glucksmann | D-env-rythme, Q-env-climat | |
 | Taxation des très grands patrimoines | eco | 2026-S46 | Glucksmann | Q-eco-patrimoine | |
 | Épargne réglementée fléchée (livret de souveraineté) | eco | 2026-S46 | Glucksmann | non couvert | |
 | Loi de programmation écologique | env | 2026-S46 | Glucksmann | non couvert | |
 | « République écologique » dans la Constitution | instit | 2026-S46 | Glucksmann | Q-instit-constit | |
-| Concentration des médias | instit | 2026-S46 | Glucksmann (entretien non lu) | non couvert | |
+| Concentration des médias | instit | 2026-S46, 2026-S47 | Glucksmann (S46, entretien non lu) ; Tondelier (S47, plafond de titres et de chaînes par groupe) | non couvert | |
 | Salaire et recrutement des enseignants | educ | 2026-S46 | Philippe, Attal, Roussel, Glucksmann | D-educ-niveau, Q-educ-enseign | |
 | Évaluations, fondamentaux, autonomie des établissements | educ | 2026-S46 | Philippe, Lisnard | D-educ-niveau | |
 | Organisation du ministère (ministère du savoir) | educ | 2026-S46 | Lisnard | non couvert | |
-| Parcoursup | educ | 2026-S46 | Glucksmann | Q-educ-univ | |
+| Parcoursup et sélection à l'université | educ | 2026-S46, 2026-S47 | Glucksmann (S46) ; Philippe (S47 : « assumer la sélection à l'université ») | Q-educ-univ | |
 | Mixité sociale dans l'enseignement privé | educ | 2026-S46 | Glucksmann | non couvert | |
 | Téléphone portable à l'école | educ | 2026-S46 | Philippe | non couvert | |
 | Prisons et exécution des peines | secu | 2026-S46 | Philippe, Zemmour, Attal | D-secu-budget, Q-secu-justice | |
@@ -49,7 +49,7 @@ est noté « refusé le AAAA-MM-JJ » dans la colonne décision et n'est plus pr
 | Effectifs de police et de gendarmerie | secu | 2026-S46 | Roussel, Glucksmann | D-secu-budget, Q-secu-effectifs | |
 | LBD et polices municipales | secu | 2026-S46 | Roussel | non couvert | |
 | Déserts médicaux : installation, délégation de tâches | sante | 2026-S46 | Tondelier, Zemmour | D-sante-deserts, Q-sante-acces | |
-| Retraites : âge, durée, capitalisation | social | 2026-S46 | Philippe, Lisnard | D-social-retraites, Q-social-retraite | |
+| Retraites : âge, durée, capitalisation | social | 2026-S46, 2026-S47 | Philippe, Lisnard (S46) ; Le Pen (capitalisation obligatoire, départ de 60 à 62 ans), Philippe (livret du 2026-11-18), Lisnard (tribune non lue) (S47) | D-social-retraites, Q-social-retraite | |
 | Gestion des retraites par les partenaires sociaux | social | 2026-S46 | Philippe | non couvert | |
 | Chômage et RSA, apprentissage | social | 2026-S46 | Philippe, Zemmour | D-social-chomage, Q-social-chomage | |
 | Congés et temps partiel après une naissance | social | 2026-S46 | Philippe | non couvert | |
@@ -62,4 +62,11 @@ est noté « refusé le AAAA-MM-JJ » dans la colonne décision et n'est plus pr
 | Niveau de l'immigration et référendum migratoire | immig | 2026-S46 | Zemmour | Q-immig-niveau, Q-instit-referend | |
 | Ukraine : vote des populations sur les frontières | europe | 2026-S46 | Mélenchon | Q-europe-ukraine | |
 | Services publics de proximité (guichet à 15 minutes) | instit | 2026-S46 | Tondelier | non couvert | |
-| Culture | non classé | 2026-S46 | Tondelier (propositions non lues) | non couvert | |
+| Culture | non classé | 2026-S46, 2026-S47 | Tondelier (S46 : propositions non lues ; S47 : livret lu, +1 Md€ pour la culture) | non couvert | |
+| Régularisation des travailleurs sans papiers | immig | 2026-S47 | Glucksmann (proposition de loi PS reprise dans son programme) | D-immig-travail | |
+| Vidéoprotection algorithmique et reconnaissance faciale | secu | 2026-S47 | Philippe | non couvert | |
+| Aides à la famille et à la naissance (allocation dès le premier enfant, prêt à taux zéro) | social | 2026-S47 | Philippe | non couvert (en partie D-eco-pouvoir-achat) | |
+| Zéro artificialisation nette | env | 2026-S47 | Philippe (suppression) | non couvert | |
+| Pauvreté : garantie d'autonomie, blocage des prix et des loyers | social | 2026-S47 | Mélenchon (plan de LFI) | D-eco-pouvoir-achat (en partie) | |
+| Relocalisation industrielle par filière (textile) | eco | 2026-S47 | Mélenchon (plan de LFI) | non couvert | |
+| Intelligence artificielle et droits d'auteur | eco | 2026-S47 | Tondelier (livret culture) | non couvert | |
