@@ -129,6 +129,7 @@ https://lcp.fr/actualites/encadrement-des-loyers-l-assemblee-prolonge-l-experime
 https://lcp.fr/actualites/equipe-de-campagne-de-raphael-glucksmann-apres-les-divisions-de-la-primaire-l-heure-du
 https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389
 https://lcp.fr/actualites/fonction-publique-sebastien-lecornu-ouvre-une-discussion-d-un-mois-sur-les-bas-salaires
+https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de
 https://lcp.fr/actualites/fuites-sur-des-enquetes-mettant-en-cause-le-rn-un-prefet-convoque-par-laurent-nunez
 https://lcp.fr/actualites/gaz-lacrymogenes-un-collectif-alerte-sur-la-sante-des-femmes-lfi-veut-les-interdire-en
 https://lcp.fr/actualites/greve-du-5-novembre-une-mobilisation-qui-s-annonce-tres-suivie-70000-policiers-et
@@ -1531,6 +1532,7 @@ https://www.lagazettefrance.fr/article/a-florange-les-ecoles-ont-commemore-l-arm
 https://www.lagazettefrance.fr/article/a-florange-une-journee-pour-securiser-l-usage-des-trottinettes-electriques
 https://www.lagazettefrance.fr/article/a-fressancourt-un-chantier-d-insertion-donne-une-seconde-vie-aux-batiments-communaux
 https://www.lagazettefrance.fr/article/a-gauchy-la-nuit-de-l-orientation-pour-aider-chacun-a-trouver-sa-voie
+https://www.lagazettefrance.fr/article/a-macon-le-departement-rend-hommage-a-74-agents-partis-a-la-retraite
 https://www.lagazettefrance.fr/article/a-metz-le-centre-commercial-muse-se-prepare-a-faire-vivre-la-magie-de-noel
 https://www.lagazettefrance.fr/article/a-nesle-le-parlement-numerique-des-hauts-de-france-sous-le-signe-de-la-mutualisation
 https://www.lagazettefrance.fr/article/a-octeville-sur-mer-leader-group-celebre-40-ans-au-service-des-pompiers
@@ -1589,6 +1591,7 @@ https://www.lagazettefrance.fr/article/charge-du-gouvernement-contre-melenchon-a
 https://www.lagazettefrance.fr/article/charmes-teste-le-dispositif-patron-dans-mon-village-une-premiere-dans-l-aisne
 https://www.lagazettefrance.fr/article/chocmod-delice-des-fetes
 https://www.lagazettefrance.fr/article/clermont-le-labopera-fait-chanter-du-mozart-en-francais-aux-lyceens
+https://www.lagazettefrance.fr/article/climat-la-cop31-au-bord-de-l-impasse-au-moment-decisif
 https://www.lagazettefrance.fr/article/compiegne-en-12-ans-le-tigre-attire-et-genere-des-millions-de-retombees-economiques
 https://www.lagazettefrance.fr/article/compiegne-le-paris-roubaix-engendre-un-impact-benefique-pour-la-ville
 https://www.lagazettefrance.fr/article/compiegne-le-stade-equestre-represente-un-levier-d-attractivite-majeur
@@ -1628,6 +1631,7 @@ https://www.lagazettefrance.fr/article/dijon-mobilise-dans-l-exercice-militaire-
 https://www.lagazettefrance.fr/article/dijon-symone-accelere-le-developpement-de-ses-solutions-de-mobilite-decarbonee
 https://www.lagazettefrance.fr/article/dijon-un-grand-deballage-pour-soutenir-les-commerces-du-centre-ville
 https://www.lagazettefrance.fr/article/dijon-un-nouvel-atelier-de-maintenance-pour-les-rames-mobigo
+https://www.lagazettefrance.fr/article/droite-et-rn-prets-a-soutenir-un-projet-de-regle-d-or-budgetaire
 https://www.lagazettefrance.fr/article/du-semis-a-la-panification-une-ferme-de-saone-et-loire-presente-son-experience
 https://www.lagazettefrance.fr/article/dunkerque-un-chercheur-de-l-ulco-recoit-une-bourse-erc-synergy-grant
 https://www.lagazettefrance.fr/article/economie-des-fetes-toujours-etre-solidaire
@@ -1635,10 +1639,12 @@ https://www.lagazettefrance.fr/article/economie-sociale-et-solidaire-la-region-r
 https://www.lagazettefrance.fr/article/edouard-philippe-nous-devons-oser-des-reformes-radicales-en-rupture-avec-ce-qui-a-ete-fait-ces-dernieres-annees
 https://www.lagazettefrance.fr/article/eiffage-decroche-un-contrat-a-70-millions-d-euros-pour-la-ligne-ferroviaire-amiens-laon
 https://www.lagazettefrance.fr/article/emploi-et-handicap-le-frein-c-est-l-ignorance-des-entreprises
+https://www.lagazettefrance.fr/article/en-dordogne-l-arrivee-des-docteurs-junior-ravive-la-question-de-la-penurie-de-medecins
 https://www.lagazettefrance.fr/article/en-lorraine-l-attractivite-retrouvee-d-une-maternite-qui-a-failli-fermer
 https://www.lagazettefrance.fr/article/en-polynesie-le-defi-de-surveiller-la-plus-vaste-aire-marine-protegee-du-monde
 https://www.lagazettefrance.fr/article/en-seine-maritime-le-parc-du-bocasse-recompense-aux-parcs-fans-awards-2026
 https://www.lagazettefrance.fr/article/enquete-rn-beauvau-dans-la-tourmente
+https://www.lagazettefrance.fr/article/enquete-rn-un-mail-du-service-du-prefet-moutouh-decouvert-en-perquisition-chez-un-proche-de-le-pen
 https://www.lagazettefrance.fr/article/environnement-meme-en-normandie-l-eau-n-est-plus-une-ressource-abondante
 https://www.lagazettefrance.fr/article/epiceries-participatives-un-appel-aux-candidatures-est-lance-dans-le-nord-pas-de-calais
 https://www.lagazettefrance.fr/article/epr2-une-journee-de-recrutement-organisee-a-dieppe-le-24-novembre
@@ -1674,6 +1680,7 @@ https://www.lagazettefrance.fr/article/jensen-huang-patron-vedette-de-l-ia-rattr
 https://www.lagazettefrance.fr/article/l-agglo-de-chauny-tergnier-la-fere-va-modifier-sa-collecte-des-dechets
 https://www.lagazettefrance.fr/article/l-allemagne-va-baisser-sa-taxe-sur-l-electricite-et-plafonner-les-prix-des-carburants
 https://www.lagazettefrance.fr/article/l-apec-organise-sa-soiree-decouverte-metiers-au-fc-metz-stadium
+https://www.lagazettefrance.fr/article/l-attentat-de-trappes-est-une-illustration-parfaite-de-la-mecanique-des-crimes-racistes-selon-l-avocat-de-sos-racisme
 https://www.lagazettefrance.fr/article/l-espagne-en-greve-pour-defendre-l-acces-au-logement-et-le-pouvoir-d-achat
 https://www.lagazettefrance.fr/article/l-immobilier-neuf-plonge-encore
 https://www.lagazettefrance.fr/article/l-ore-ou-comment-proteger-la-nature-depuis-son-jardin
@@ -1706,6 +1713,7 @@ https://www.lagazettefrance.fr/article/le-grand-est-a-inaugure-son-premier-monde
 https://www.lagazettefrance.fr/article/le-havre-alceane-signe-la-charte-xpfr-pour-renforcer-l-insertion-professionnelle-des-jeunes
 https://www.lagazettefrance.fr/article/le-havre-le-propeller-club-celebre-90-ans-d-engagement-dans-l-economie-maritime
 https://www.lagazettefrance.fr/article/le-havre-trois-locaux-professionnels-disponibles-dans-le-programme-havre-en-scene
+https://www.lagazettefrance.fr/article/le-havre-une-conference-sur-les-enjeux-geopolitiques-et-economiques-des-oceans
 https://www.lagazettefrance.fr/article/le-medef-saone-et-loire-a-bruxelles-pour-mieux-comprendre-les-enjeux-europeens
 https://www.lagazettefrance.fr/article/le-pen-affirme-que-sa-reforme-des-retraites-sera-engagee-des-son-arrivee-au-pouvoir-et-sera-appliquee-au-1er-janvier-2028
 https://www.lagazettefrance.fr/article/le-plan-de-relance-agricole-s-elevera-a-725-millions-d-euros-genevard
@@ -1799,6 +1807,7 @@ https://www.lagazettefrance.fr/article/presidentielle-en-france-rsf-dresse-dix-p
 https://www.lagazettefrance.fr/article/presidentielle-en-recul-dans-les-sondages-philippe-mise-sur-un-projet-radical-et-serieux
 https://www.lagazettefrance.fr/article/presidentielle-le-neophyte-riner-commence-sa-campagne-par-l-hopital
 https://www.lagazettefrance.fr/article/presidentielle-les-deputes-qui-soutiennent-lfi-se-sont-mis-en-dehors-du-parti-dit-le-pcf
+https://www.lagazettefrance.fr/article/presidentielle-marylise-leon-appelle-a-changer-la-date-pour-eviter-un-second-tour-le-2-mai
 https://www.lagazettefrance.fr/article/presidentielles-les-republicains-lr-ouvrent-le-bal-en-meuse
 https://www.lagazettefrance.fr/article/primaire-a-droite-zemmour-espere-que-lisnard-fera-en-sorte-de-l-integrer
 https://www.lagazettefrance.fr/article/primaire-attal-refute-l-argument-d-edouard-philippe-sur-la-division-de-la-droite-et-du-centre
@@ -1850,6 +1859,7 @@ https://www.lagazettefrance.fr/article/six-viticulteurs-de-cote-d-or-en-lice-pou
 https://www.lagazettefrance.fr/article/sncf-16-ponts-en-renovation-en-2026-sur-la-ligne-beauvais-le-treport
 https://www.lagazettefrance.fr/article/sterin-milliardaire-proche-de-l-extreme-droite-juge-en-janvier-pour-son-refus-de-venir-devant-les-deputes
 https://www.lagazettefrance.fr/article/sud-meusien-la-mission-locale-alerte-sur-la-degradation-de-la-sante-mentale-des-jeunes
+https://www.lagazettefrance.fr/article/syndicats-jeunesse-et-gilets-jaunes-dans-la-rue-pour-le-sixieme-samedi-consecutif
 https://www.lagazettefrance.fr/article/tarifs-de-l-electricite-pour-les-particuliers-stables-jusqu-a-la-fin-de-l-hiver-selon-le-pdg-d-edf
 https://www.lagazettefrance.fr/article/tourisme-en-baie-de-somme-vers-un-bilan-2026-stable-et-des-projets-pour-reguler-les-flux
 https://www.lagazettefrance.fr/article/tricea-invite-le-public-a-decouvrir-les-coulisses-du-tri
@@ -1865,6 +1875,7 @@ https://www.lagazettefrance.fr/article/une-borne-memorielle-inauguree-a-la-necro
 https://www.lagazettefrance.fr/article/une-filiale-de-la-poste-victime-d-un-vol-de-donnees-massif-22-millions-de-personnes-concernees
 https://www.lagazettefrance.fr/article/une-primaire-de-la-droite-et-du-centre-pourrait-aboutir-rapidement-selon-attal
 https://www.lagazettefrance.fr/article/urban-trail-de-dunkerque-10-km-pour-comprendre-la-decarbonation-des-industriels
+https://www.lagazettefrance.fr/article/urgo-met-au-point-une-peau-artificielle-prete-a-etre-greffee-une-premiere-mondiale
 https://www.lagazettefrance.fr/article/vand-uvre-les-nancy-le-chru-lance-officiellement-sa-transformation-a-1-milliard-d-euros
 https://www.lagazettefrance.fr/article/venette-la-marque-only-s-installe-a-carrefour-une-premiere-dans-l-oise
 https://www.lagazettefrance.fr/article/veuve-ambal-collecte-pres-de-700-euros-pour-l-association-avec-la-deuche-rose
@@ -4680,6 +4691,7 @@ https://www.pcf.fr/du_secours_rouge_au_secours_populaire_6
 https://www.pcf.fr/du_vent
 https://www.pcf.fr/duenas_muriel_legislatives_2024
 https://www.pcf.fr/dulcie_september_la_femme_abattre
+https://www.pcf.fr/dunkerque_mittal_doit_des_comptes_nationalisons_arcelormittal_france
 https://www.pcf.fr/dura_lex_sed_lex
 https://www.pcf.fr/duralex_les_solutions_existent
 https://www.pcf.fr/dynamique_militante_decuplee_fete_humanite
@@ -8430,6 +8442,7 @@ https://www.publicsenat.fr/actualites/politique/mobilisation-de-la-jeunesse-nous
 https://www.publicsenat.fr/actualites/politique/mouvement-lyceen-des-cours-de-rattrapage-possibles-pendant-les-vacances-en-fevrier-ou-a-paques-annonce-edouard-geffray
 https://www.publicsenat.fr/actualites/politique/nada-aucun-signe-face-au-risque-de-censure-sur-le-budget-les-socialistes-denoncent-labsence-de-dialogue-avec-sebastien-lecornu
 https://www.publicsenat.fr/actualites/politique/nous-decouvrons-lobstruction-calendaire-au-senat-le-groupe-rn-udr-devoile-les-textes-de-sa-niche-parlementaire
+https://www.publicsenat.fr/actualites/politique/parler-cest-deja-se-reconstruire-temoigne-cette-victime-de-viol-pendant-lenfance
 https://www.publicsenat.fr/actualites/politique/perpetuite-pour-les-assassins-du-frere-damine-kessaci-un-verdict-conforme-aux-attentes-des-familles-mais-la-lutte-contre-le-narcotrafic-nest-pas-terminee-rappelle-g
 https://www.publicsenat.fr/actualites/politique/plan-de-relance-agricole-une-des-thematiques-majeures-du-compromis-budgetaire-affirme-sebastien-lecornu
 https://www.publicsenat.fr/actualites/politique/pouvoir-dachat-sebastien-lecornu-annonce-une-hausse-anticipee-du-smic-a-1-502-euros-des-le-1er-decembre
@@ -8474,6 +8487,7 @@ https://www.publicsenat.fr/emission/bonjour-chez-vous/lauriane-josende-les-force
 https://www.publicsenat.fr/emission/bonjour-chez-vous/marine-tondelier-je-mene-une-double-campagne-pour-lecologie-et-pour-lunion-e0
 https://www.publicsenat.fr/emission/bonjour-chez-vous/monique-lubin-12-milliards-de-deficit-pour-la-secu-tout-dun-coup-cest-trop-e0
 https://www.publicsenat.fr/emission/bonjour-chez-vous/olivier-henno-cest-la-securite-sociale-qui-est-en-danger-e0
+https://www.publicsenat.fr/emission/bonjour-chez-vous/pourquoi-edouard-philippe-deteste-la-primaire-e0
 https://www.publicsenat.fr/emission/bonjour-chez-vous/sarah-el-hairy-pour-les-geants-du-numerique-nos-enfants-sont-des-produits-e0
 https://www.publicsenat.fr/emission/questions-au-gouvernement/qag-du-15-mai-e14
 https://www.publicsenat.fr/emissions
@@ -8516,6 +8530,8 @@ https://www.unenouvelleenergie.fr/event/afterwork-a-creon
 https://www.unenouvelleenergie.fr/event/afterwork-a-creon/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-adherents-ne-thailande
 https://www.unenouvelleenergie.fr/event/afterwork-adherents-ne-thailande/calendar.ics
+https://www.unenouvelleenergie.fr/event/afterwork-adherents-nouvelle-energie-liban-badaro
+https://www.unenouvelleenergie.fr/event/afterwork-adherents-nouvelle-energie-liban-badaro/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-jeunes-energies-alpes-de-haute-provence-oraison
 https://www.unenouvelleenergie.fr/event/afterwork-jeunes-energies-alpes-de-haute-provence-oraison/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-jeunes-energies-paris-7e
@@ -8534,6 +8550,8 @@ https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-haut-rhin
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-haut-rhin/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-haute-garonne
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-haute-garonne/calendar.ics
+https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-hong-kong-24-novembre
+https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-hong-kong-24-novembre/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-loiret-orleans
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-loiret-orleans/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-londres
