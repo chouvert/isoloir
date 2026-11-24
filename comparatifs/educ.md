@@ -1,13 +1,13 @@
 ---
 theme: educ
-derniere_maj: 2026-11-21
+derniere_maj: 2026-11-24
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
 
 # Comparatif — Éducation & recherche
 
-Candidats (13) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
+Candidats (14) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Dominique de Villepin](../candidats/villepin-dominique.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
 
 Le détail et les sources de chaque position sont dans les fiches.
 
@@ -17,24 +17,24 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **Q-educ-univ** : Sélection et financement de l'université ?
 - **Q-educ-orientation** : Organisation du collège et de la voie professionnelle (collège unique, orientation au collège et au lycée, baccalauréat professionnel) ?
 
-| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-educ-enseign | hausse | pas de position | hausse de 20 % puis 20 % sous condition | hausse | hausse | hausse conditionnée | hausse | hausse | revalorisation | davantage d'enseignants et de moyens ; point d'indice relevé | pas de suppression de postes | hausse | pas de position |
-| Q-educ-univ | réorientation et évaluation des formations | pas de position | suppression de Parcoursup | suppression de Parcoursup | pas de position | suppression de Parcoursup | accès sans sélection | hausse des droits pour les étudiants extra-européens | pour la sélection | pas de position | suppression de Parcoursup | suppression de Parcoursup, hausse du financement | pas de position |
-| Q-educ-orientation | certificat d'études à l'entrée en sixième ; brevet obligatoire pour entrer en seconde | pas de position | pas de position | pas de position | pas de position | certificat de fin de primaire conditionnant l'entrée au collège ; lycées professionnels et CFA renforcés | baccalauréat professionnel en quatre ans | orientation dès la 5e | examen d'entrée en sixième ; filière professionnelle en alternance confiée aux régions | pas de position | pas de position | maintien du collège unique ; baccalauréat professionnel en quatre ans | fin du collège unique |
+| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q-educ-enseign | hausse | pas de position | hausse de 20 % puis 20 % sous condition | hausse | hausse | hausse conditionnée | hausse | hausse | revalorisation | davantage d'enseignants et de moyens ; point d'indice relevé | pas de suppression de postes | hausse | au moins + 10 % | pas de position |
+| Q-educ-univ | réorientation et évaluation des formations | pas de position | suppression de Parcoursup | suppression de Parcoursup | pas de position | suppression de Parcoursup | accès sans sélection | hausse des droits pour les étudiants extra-européens | pour la sélection | pas de position | suppression de Parcoursup | suppression de Parcoursup, hausse du financement | Parcoursup recalibré | pas de position |
+| Q-educ-orientation | certificat d'études à l'entrée en sixième ; brevet obligatoire pour entrer en seconde | pas de position | pas de position | pas de position | pas de position | certificat de fin de primaire conditionnant l'entrée au collège ; lycées professionnels et CFA renforcés | baccalauréat professionnel en quatre ans | orientation dès la 5e | examen d'entrée en sixième ; filière professionnelle en alternance confiée aux régions | pas de position | pas de position | maintien du collège unique ; baccalauréat professionnel en quatre ans | découverte précoce des métiers | fin du collège unique |
 
 ## Dilemmes du thème
 
-| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-educ-niveau | B | pas de position | B | B | B | C | A | B | B | A | pas de position | A | D |
+| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D-educ-niveau | B | pas de position | B | B | B | C | A | B | B | A | pas de position | A | B | D |
 
 ### D-educ-niveau
 
 > Pour améliorer le niveau des élèves, un seul effort peut être financé. Lequel ?
 
 - **A** — Réduire le nombre d'élèves par classe : Mélenchon, Roussel, Tondelier
-- **B** — Mieux payer les enseignants : Attal, Dupont-Aignan, Glucksmann, Le Pen, Philippe, Retailleau
+- **B** — Mieux payer les enseignants : Attal, Dupont-Aignan, Glucksmann, Le Pen, Philippe, Retailleau, de Villepin
 - **C** — Donner plus d'autonomie aux établissements : Lisnard
 - **D** — Recentrer sur les fondamentaux avec des évaluations régulières : Zemmour
 - *pas de position* : Batho, Ruffin
@@ -61,3 +61,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Fabien Roussel | educ-03 | Abroger la réforme Blanquer et lancer un vaste plan de recrutement d'enseignants (grand oral de Radio France, propos paraphrasés par Public Sénat) | non chiffré | — |
 | Marine Tondelier | educ-03 | Plan de rénovation du bâti scolaire sur dix ans, à parts égales entre l'État et les collectivités à partir de 2027, présenté lors de la conférence de presse sur l'héritage (eco-01) | 4 Md€/an sur dix ans (État et collectivités) | — |
 | Marine Tondelier | educ-05 | Culture (aucun thème du référentiel ne couvre la culture ; classée en éducation, comme le « ministère du savoir » de David Lisnard) : « Consacrer 1% du budget de l'Etat à la Culture », avec « +1 milliard dès le premier budget du quinquennat » (budget du ministère de la Culture : 3,7 Md€ en 2026 hors audiovisuel public) ; « Sanctuariser le régime de l'intermittence du spectacle » ; assurance chômage des artistes-auteurs financée par « une augmentation de 5 % de la cotisation des diffuseurs » ; « Instaurer une présomption d'utilisation des contenus culturels par les fournisseurs d'intelligence artificielle » et labelliser les « œuvres » générées par l'IA ; taxe sur les entrées reversée au CNC élargie aux plateformes de streaming ; révision du Pass Culture ; ratification de la Charte européenne des langues régionales ou minoritaires ; ministère renommé « Ministère des libertés et des droits culturels » | 1 Md€ de plus dès le premier budget | — |
+| Dominique de Villepin | educ-01 | « Revaloriser les métiers pédagogiques d'au moins 10 % » et « organiser une conférence sociale des métiers pédagogiques » (P. 189) | non chiffré | — |
+| Dominique de Villepin | educ-02 | « sanctuariser le budget de l'éducation en termes réels jusqu'à l'équilibrage des comptes publics », pour « augmenter la dépense par élève de l'ordre de 20 % à l'horizon de dix ans » (P. 188) | non chiffré | — |
+| Dominique de Villepin | educ-03 | Taille des classes déterminée par les indices de position sociale des élèves, « garantissant des classes à plus faibles effectifs là où la priorité sociale est la plus grande » (P. 195) | non chiffré | — |
+| Dominique de Villepin | educ-04 | Mathématiques et compréhension de l'écrit en priorité nationale, « avec pour objectif clair de remonter l'évaluation de 20 points » d'ici la fin du quinquennat (P. 200) | non chiffré | — |

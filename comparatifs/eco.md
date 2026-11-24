@@ -1,13 +1,13 @@
 ---
 theme: eco
-derniere_maj: 2026-11-21
+derniere_maj: 2026-11-24
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
 
 # Comparatif — Économie & fiscalité
 
-Candidats (13) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
+Candidats (14) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Dominique de Villepin](../candidats/villepin-dominique.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
 
 Le détail et les sources de chaque position sont dans les fiches.
 
@@ -18,26 +18,26 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **Q-eco-deficit** : Trajectoire de déficit public visée sur le quinquennat ?
 - **Q-eco-fonctionnaires** : Évolution des effectifs de la fonction publique ?
 
-| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-eco-impots | baisse | pas de position | baisse | hausse ciblée sur les plus gros héritages et patrimoines | baisse | baisse | hausse | baisse | baisse | hausse ciblée sur les hauts revenus et les grandes entreprises, baisse de la TVA sur les carburants | hausse ciblée sur les dividendes et certains revenus immobiliers | hausse ciblée sur les plus fortunés, le capital et les plus émetteurs | baisse |
-| Q-eco-patrimoine | allègement des transmissions | pas de position | baisse des droits de succession | hausse sur les plus grosses successions | contre la taxe Zucman (avant la candidature) | allègement des transmissions | hausse | allègement des transmissions | baisse des droits de succession | pour la taxe Zucman (avant la candidature) | pas de position | hausse sur les grandes fortunes et les gros héritages | pas de position |
-| Q-eco-deficit | sous 3 % du PIB avant 2032 | pas de position | 2,9 % du PIB en 2030, 2,0 % en 2032 | pas de position | moins de 3 % du PIB en 2030 | réduction, sans cible de déficit trouvée | baisse de 24,7 Md€ en 2027 | 2 % du PIB en fin de quinquennat | 2,2 % du PIB en 2032 | pas de position | pas de position | stabilisation de la dette, trajectoire de réduction du déficit renégociée | pas de position |
-| Q-eco-fonctionnaires | baisse : −100 000 postes sur le quinquennat | pas de position | pas de position | pas de position | baisse : au moins −200 000 postes en cinq ans | baisse, sans objectif global chiffré | hausse, sans objectif global chiffré | baisse : plus de −250 000 postes sur le quinquennat | baisse : −400 000 postes d'ici 2032 | hausse : près de +500 000 postes en cinq ans | pas de position | hausse : +250 000 à +350 000 postes | baisse : −800 000 postes en cinq ans |
+| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q-eco-impots | baisse | pas de position | baisse | hausse ciblée sur les plus gros héritages et patrimoines | baisse | baisse | hausse | baisse | baisse | hausse ciblée sur les hauts revenus et les grandes entreprises, baisse de la TVA sur les carburants | hausse ciblée sur les dividendes et certains revenus immobiliers | hausse ciblée sur les plus fortunés, le capital et les plus émetteurs | refonte, sans objectif global | baisse |
+| Q-eco-patrimoine | allègement des transmissions | pas de position | baisse des droits de succession | hausse sur les plus grosses successions | contre la taxe Zucman (avant la candidature) | allègement des transmissions | hausse | allègement des transmissions | baisse des droits de succession | pour la taxe Zucman (avant la candidature) | pas de position | hausse sur les grandes fortunes et les gros héritages | rétablissement de l'ISF, successions réformées | pas de position |
+| Q-eco-deficit | sous 3 % du PIB avant 2032 | pas de position | 2,9 % du PIB en 2030, 2,0 % en 2032 | pas de position | moins de 3 % du PIB en 2030 | réduction, sans cible de déficit trouvée | baisse de 24,7 Md€ en 2027 | 2 % du PIB en fin de quinquennat | 2,2 % du PIB en 2032 | pas de position | pas de position | stabilisation de la dette, trajectoire de réduction du déficit renégociée | 2,9 % du PIB en 2031 | pas de position |
+| Q-eco-fonctionnaires | baisse : −100 000 postes sur le quinquennat | pas de position | pas de position | pas de position | baisse : au moins −200 000 postes en cinq ans | baisse, sans objectif global chiffré | hausse, sans objectif global chiffré | baisse : plus de −250 000 postes sur le quinquennat | baisse : −400 000 postes d'ici 2032 | hausse : près de +500 000 postes en cinq ans | pas de position | hausse : +250 000 à +350 000 postes | stabilisation | baisse : −800 000 postes en cinq ans |
 
 ## Dilemmes du thème
 
-| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-eco-dette | A | pas de position | A | pas de position | A | A | B | A | A | pas de position | pas de position | C | A |
-| D-eco-pouvoir-achat | B | D | C | B | C | B | A | B | B | C | A | A | C |
+| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D-eco-dette | A | pas de position | A | pas de position | A | A | B | A | A | pas de position | pas de position | C | B | A |
+| D-eco-pouvoir-achat | B | D | C | B | C | B | A | B | B | C | A | A | B | C |
 
 ### D-eco-dette
 
 > La dette publique a fortement augmenté ces dernières années. Pour les finances publiques, quelle priorité vous paraît la plus juste ?
 
 - **A** — Réduire le déficit surtout en baissant les dépenses publiques : Attal, Dupont-Aignan, Le Pen, Lisnard, Philippe, Retailleau, Zemmour
-- **B** — Réduire le déficit surtout en augmentant certains impôts : Mélenchon
+- **B** — Réduire le déficit surtout en augmentant certains impôts : Mélenchon, de Villepin
 - **C** — Réduire le déficit plus lentement pour préserver l'investissement public : Tondelier
 - **D** — Miser d'abord sur la croissance, qui réduira le déficit ensuite : —
 - *pas de position* : Batho, Glucksmann, Roussel, Ruffin
@@ -47,7 +47,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 > Une seule mesure peut être financée pour améliorer le pouvoir d'achat. Laquelle choisir ?
 
 - **A** — Augmenter le salaire minimum par la loi : Mélenchon, Ruffin, Tondelier
-- **B** — Baisser les cotisations sur les salaires pour augmenter le net : Attal, Glucksmann, Lisnard, Philippe, Retailleau
+- **B** — Baisser les cotisations sur les salaires pour augmenter le net : Attal, Glucksmann, Lisnard, Philippe, Retailleau, de Villepin
 - **C** — Baisser les taxes sur la consommation (TVA, carburants) : Dupont-Aignan, Le Pen, Roussel, Zemmour
 - **D** — Augmenter les aides ciblées sur les ménages modestes : Batho
 
@@ -104,4 +104,13 @@ Le détail et les sources de chaque position sont dans les fiches.
 | François Ruffin | eco-02 | « Nous lancerons donc une grande stratégie de relocalisation ciblée autour de 100 produits prioritaires », avec « des barrières douanières, des taxes aux frontières, des quotas d'importation » ; « un « Buy French Act » pour aller vers 80% de commande publique localisée en France » ; électricité à un prix « jamais supérieur au coût de production national moyen » ; pôle public du médicament, « une entité à gouvernance mixte (État, collectivités, représentants des soignants et des patients) » ; « 100% des surcoûts liés à la remobilisation des friches seront pris en charge par l'État » (programme, C07) ; « plan des 100 » : tarifs et quotas sur 100 produits stratégiques, sans hausse générale des droits de douane (Le Grand Continent, 2026-02-25) | friches : environ 1 Md€/an selon le cahier | — |
 | François Ruffin | eco-03 | Orienter l'épargne vers l'industrie : un minimum de 5 % de l'assurance-vie investi en fonds propres non cotés, pour « mobiliser progressivement au moins 70 milliards d'euros supplémentaires » (programme, C07) | 70 Md€ mobilisés (montant cumulé, non annuel) | — |
 | Marine Tondelier | eco-01 | Réforme de la fiscalité des héritages (« Budget 2027 : la grande transmission doit financer la grande transition ») : contribution de 10 % sur les héritages de plus de 4 M€ et de 10 % supplémentaires au-delà de 13 M€ ; exonération du pacte Dutreil ramenée de 75 % à 50 % ; suppression des avantages liés au démembrement de propriété ; présentée en conférence de presse le 2026-08-26 ; le programme prévoit deux tranches nouvelles au-delà de 4 M€ et de 13 M€ et un abattement Dutreil plafonné à 50 % au-delà de 50 M€ (p. 67) | « 15 milliards d'euros par an » selon le parti | — |
+| Dominique de Villepin | eco-01 | Basculer « plus de 200 milliards d'euros de cotisations sociales non contributives vers la CSG », pour augmenter « à terme de 200 euros les salaires mensuels nets moyens » et de plus de 100 € au salaire minimum ; gain de compétitivité de 3 % de la masse salariale (P. 106 ; page économie, mesure 1 « La révolution du salaire net ») | 200 de cotisations transférées (sur dix ans) | — |
+| Dominique de Villepin | eco-02 | Transmission d'entreprise sans droits de succession du vivant du propriétaire tant qu'il n'y a pas de revente, par une réforme du pacte Dutreil ouverte à tout repreneur, familial ou non (P. 235) ; refonte du régime d'autorisation des projets et suppression des impôts de production, intégrés à l'impôt sur les sociétés (page économie, mesure 2 « L'esprit d'entreprise fortifié » ; P. 237) | non chiffré | — |
+| Dominique de Villepin | eco-03 | « Donner accès aux ménages et aux entreprises à un prix avantageux de l'électricité » par des contrats pour différence couvrant « 95 % de leur facture électrique » à des prix proches du coût de production du parc français, et suppression de quasi-taxes ; baisse annoncée de 15 % de la facture (P. 116 ; page économie, mesure 3) | non chiffré | — |
+| Dominique de Villepin | eco-04 | Loi organique fixant une trajectoire pluriannuelle des déficits, opposable aux lois de finances sous le contrôle du Conseil constitutionnel, dérogation à la majorité des 3/5e ; « passer sous les 3 % de déficits en 2031 (à 2,9 %) » (P. 1 et 2) ; commission d'enquête sur la dégradation des comptes publics depuis dix ans (P. 3) | non chiffré | — |
+| Dominique de Villepin | eco-05 | « Éteindre l'ensemble des privilèges fiscaux, des niches sociales et fiscales, par paliers et sur cinq ans », par une loi « Nuit du Quatre Août » ; paliers « de l'ordre de 35 milliards d'euros par an », affectés par tiers à la compensation, à des politiques publiques et au déficit (P. 47) | 35 par palier annuel | — |
+| Dominique de Villepin | eco-06 | « passer de plus de 400 taxes à seulement neuf impôts », dont « un impôt unique sur le patrimoine intégrant un rétablissement des barèmes de l'Impôt sur la Fortune » (P. 48 ; P. 10, barème « proche de celui de 2016 ») ; seuil de 2,2 M€ (page économie, mesure 8) ; CSG étendue aux consommations de jetons d'IA des entreprises (P. 159) | non chiffré | — |
+| Dominique de Villepin | eco-07 | Réforme de l'héritage : « En exonérant jusqu'à un million d'euros les successions en ligne directe », progressivité au-delà d'un million puis de cinq millions, avec des droits de 50 à 60 % (P. 9) ; 1 M€ transmis de son vivant sans droits (page économie, mesure 9) | non chiffré | — |
+| Dominique de Villepin | eco-08 | Stabiliser strictement le nombre de fonctionnaires des trois fonctions publiques et réindexer le point d'indice sur l'inflation (P. 63) | non chiffré | — |
+| Dominique de Villepin | eco-09 | Fonds France, fonds national de souveraineté et de solidarité réunissant les actifs de l'État (1 200 à 1 600 Md€ selon la P. 186, 1 200 à 1 500 Md€ selon la page économie, mesure 11), pour « mobiliser 100 milliards supplémentaires pour l'investissement dans l'économie réelle » (P. 186) ; autoroutes de retour en régie publique à la fin des concessions (page économie, mesure 13 ; P. 231) | non chiffré (100 Md€ d'investissement mobilisés par le fonds, hors budget de l'État) | — |
 | Éric Zemmour | eco-01 | Baisser les dépenses publiques d'au moins 100 Md€ par an | au moins 100 Md€/an d'économies | — |

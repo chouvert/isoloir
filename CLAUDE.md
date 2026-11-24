@@ -101,7 +101,9 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
    - Sortie : fiche conservée, `inclus: non`, candidat déplacé dans « Non inclus » de `candidats-inclus.md` avec la raison ;
      statut `retiré` s'il renonce. Un candidat dont le parti a un parlementaire ne sort pas sous 2 %.
    - Entrée : ajout à `candidats-inclus.md` ; fiche dans une PR séparée la même session si le quota le permet (au plus une
-     par semaine), sinon signalée dans la PR et rédigée la semaine suivante.
+     par semaine), sinon signalée dans la PR et rédigée la semaine suivante. **Pas de fiche** tant que le candidat n'a
+     publié ni programme (même partiel) ni site de campagne : « fiche en attente » (README) ; vérifier chaque semaine si
+     la condition est remplie.
    - Primaire : le vainqueur reste ou entre, les autres sortent (statut `retiré` s'ils se rallient).
    - **Moyenne des sondages.** Ajouter à `veille/sondages.json` (relevé cumulé, déjà rempli les semaines précédentes) chaque
      sondage de premier tour publié depuis le dernier relevé par un institut reconnu (Ifop, Elabe, Ipsos bva, Odoxa,

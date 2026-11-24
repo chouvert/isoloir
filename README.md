@@ -62,6 +62,10 @@ La base retient, selon une règle identique pour tous :
 2. **Après la publication de la liste officielle** : tous les candidats officiels, et eux seuls.
 
 Un candidat qui retire sa candidature passe au statut `retiré` ; sa fiche est conservée.
+Un candidat retenu n'entre dans L'Isoloir (fiche, comparatifs, parcours) qu'une fois qu'il a publié **un programme,
+même partiel, ou un site de campagne** présentant des propositions : des déclarations rapportées par la presse ne
+suffisent pas à le situer. En attendant, il figure dans `referentiel/candidats-inclus.md` avec la mention
+« fiche en attente » et la veille le suit ; sa fiche est rédigée dès que cette condition est remplie.
 L'application de la règle, candidat par candidat, est tenue dans `referentiel/candidats-inclus.md`.
 La règle est réexaminée à chaque mise à jour importante des sondages.
 

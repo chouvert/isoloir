@@ -1,32 +1,32 @@
 ---
-derniere_maj: 2026-11-21
+derniere_maj: 2026-11-24
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
 
 # Comparatif — Réponses aux dilemmes
 
-Candidats (13) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
+Candidats (14) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Dominique de Villepin](../candidats/villepin-dominique.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
 
 Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite.md`). Justifications et sources : fiches candidats.
 
 ## Vue d'ensemble
 
-| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-eco-dette | A | pas de position | A | pas de position | A | A | B | A | A | pas de position | pas de position | C | A |
-| D-eco-pouvoir-achat | B | D | C | B | C | B | A | B | B | C | A | A | C |
-| D-social-retraites | D | pas de position | D | pas de position | D | A | C | A | A | pas de position | pas de position | B | A |
-| D-social-chomage | A | pas de position | B | pas de position | pas de position | aucune | C | A | A | pas de position | C | B | pas de position |
-| D-env-electricite | A | D | A | C | A | A | B | A | A | pas de position | D | D | A |
-| D-env-rythme | A | A | D | B | D | D | B | pas de position | D | D | B | B | D |
-| D-secu-budget | B | pas de position | C | pas de position | pas de position | A | D | B | B | A | pas de position | A | B |
-| D-immig-travail | A | pas de position | C | B | aucune | A | B | A | pas de position | pas de position | B | B | aucune |
-| D-europe-regles | B | pas de position | D | pas de position | D | C | C | pas de position | C | pas de position | B | B | D |
-| D-europe-defense | A | B | A | B | D | A | D | A | pas de position | D | B | B | pas de position |
-| D-educ-niveau | B | pas de position | B | B | B | C | A | B | B | A | pas de position | A | D |
-| D-sante-deserts | pas de position | pas de position | B | pas de position | pas de position | B | A | pas de position | pas de position | pas de position | pas de position | A | C |
-| D-instit-participation | D | pas de position | A | C | B | A | A | pas de position | A | pas de position | A | A | pas de position |
+| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D-eco-dette | A | pas de position | A | pas de position | A | A | B | A | A | pas de position | pas de position | C | B | A |
+| D-eco-pouvoir-achat | B | D | C | B | C | B | A | B | B | C | A | A | B | C |
+| D-social-retraites | D | pas de position | D | pas de position | D | A | C | A | A | pas de position | pas de position | B | D | A |
+| D-social-chomage | A | pas de position | B | pas de position | pas de position | aucune | C | A | A | pas de position | C | B | B | pas de position |
+| D-env-electricite | A | D | A | C | A | A | B | A | A | pas de position | D | D | C | A |
+| D-env-rythme | A | A | D | B | D | D | B | pas de position | D | D | B | B | A | D |
+| D-secu-budget | B | pas de position | C | pas de position | pas de position | A | D | B | B | A | pas de position | A | C | B |
+| D-immig-travail | A | pas de position | C | B | aucune | A | B | A | pas de position | pas de position | B | B | pas de position | aucune |
+| D-europe-regles | B | pas de position | D | pas de position | D | C | C | pas de position | C | pas de position | B | B | B | D |
+| D-europe-defense | A | B | A | B | D | A | D | A | pas de position | D | B | B | A | pas de position |
+| D-educ-niveau | B | pas de position | B | B | B | C | A | B | B | A | pas de position | A | B | D |
+| D-sante-deserts | pas de position | pas de position | B | pas de position | pas de position | B | A | pas de position | pas de position | pas de position | pas de position | A | D | C |
+| D-instit-participation | D | pas de position | A | C | B | A | A | pas de position | A | pas de position | A | A | A | pas de position |
 
 ## Couverture par candidat
 
@@ -44,6 +44,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 | Fabien Roussel | 5 | 0 | 8 |
 | François Ruffin | 8 | 0 | 5 |
 | Marine Tondelier | 13 | 0 | 0 |
+| Dominique de Villepin | 12 | 0 | 1 |
 | Éric Zemmour | 9 | 1 | 3 |
 
 ## Économie & fiscalité
@@ -53,7 +54,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 > La dette publique a fortement augmenté ces dernières années. Pour les finances publiques, quelle priorité vous paraît la plus juste ?
 
 - **A** — Réduire le déficit surtout en baissant les dépenses publiques : Attal, Dupont-Aignan, Le Pen, Lisnard, Philippe, Retailleau, Zemmour
-- **B** — Réduire le déficit surtout en augmentant certains impôts : Mélenchon
+- **B** — Réduire le déficit surtout en augmentant certains impôts : Mélenchon, de Villepin
 - **C** — Réduire le déficit plus lentement pour préserver l'investissement public : Tondelier
 - **D** — Miser d'abord sur la croissance, qui réduira le déficit ensuite : —
 - *pas de position* : Batho, Glucksmann, Roussel, Ruffin
@@ -63,7 +64,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 > Une seule mesure peut être financée pour améliorer le pouvoir d'achat. Laquelle choisir ?
 
 - **A** — Augmenter le salaire minimum par la loi : Mélenchon, Ruffin, Tondelier
-- **B** — Baisser les cotisations sur les salaires pour augmenter le net : Attal, Glucksmann, Lisnard, Philippe, Retailleau
+- **B** — Baisser les cotisations sur les salaires pour augmenter le net : Attal, Glucksmann, Lisnard, Philippe, Retailleau, de Villepin
 - **C** — Baisser les taxes sur la consommation (TVA, carburants) : Dupont-Aignan, Le Pen, Roussel, Zemmour
 - **D** — Augmenter les aides ciblées sur les ménages modestes : Batho
 
@@ -76,7 +77,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 - **A** — Reculer progressivement l'âge de départ ou allonger la durée de cotisation : Lisnard, Philippe, Retailleau, Zemmour
 - **B** — Augmenter les cotisations des salariés et des employeurs : Tondelier
 - **C** — Faire contribuer davantage les revenus du capital et les patrimoines élevés : Mélenchon
-- **D** — Ajouter une part de retraite par capitalisation : Attal, Dupont-Aignan, Le Pen
+- **D** — Ajouter une part de retraite par capitalisation : Attal, Dupont-Aignan, Le Pen, de Villepin
 - *pas de position* : Batho, Glucksmann, Roussel, Ruffin
 
 ### D-social-chomage
@@ -84,7 +85,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 > Des emplois restent vacants alors que le chômage persiste. Quelle approche privilégier ?
 
 - **A** — Réduire la durée ou le montant de certaines indemnités pour inciter à la reprise d'emploi : Attal, Philippe, Retailleau
-- **B** — Investir davantage dans la formation et l'accompagnement : Dupont-Aignan, Tondelier
+- **B** — Investir davantage dans la formation et l'accompagnement : Dupont-Aignan, Tondelier, de Villepin
 - **C** — Rendre les métiers en tension plus attractifs (salaires, conditions) : Mélenchon, Ruffin
 - **D** — Faciliter la mobilité géographique (logement, transport) : —
 - *aucune* : Lisnard
@@ -98,7 +99,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 - **A** — Construire de nouveaux réacteurs nucléaires : Attal, Dupont-Aignan, Le Pen, Lisnard, Philippe, Retailleau, Zemmour
 - **B** — Développer massivement l'éolien et le solaire : Mélenchon
-- **C** — Combiner nucléaire et renouvelables à parts comparables : Glucksmann
+- **C** — Combiner nucléaire et renouvelables à parts comparables : Glucksmann, de Villepin
 - **D** — Réduire d'abord la consommation (sobriété, efficacité) : Batho, Ruffin, Tondelier
 - *pas de position* : Roussel
 
@@ -106,7 +107,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 > Accélérer la transition écologique a un coût à court terme. Quel rythme vous paraît le bon ?
 
-- **A** — Accélérer, même si cela pèse sur certains prix et certaines activités : Attal, Batho
+- **A** — Accélérer, même si cela pèse sur certains prix et certaines activités : Attal, Batho, de Villepin
 - **B** — Accélérer en faisant contribuer d'abord les plus gros émetteurs : Glucksmann, Mélenchon, Ruffin, Tondelier
 - **C** — Garder le rythme actuel des engagements : —
 - **D** — Assouplir certaines normes pour préserver pouvoir d'achat et compétitivité : Dupont-Aignan, Le Pen, Lisnard, Retailleau, Roussel, Zemmour
@@ -120,7 +121,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 - **A** — Plus de policiers et de gendarmes sur le terrain : Lisnard, Roussel, Tondelier
 - **B** — Plus de places de prison pour exécuter les peines : Attal, Philippe, Retailleau, Zemmour
-- **C** — Plus de magistrats et de greffiers pour juger plus vite : Dupont-Aignan
+- **C** — Plus de magistrats et de greffiers pour juger plus vite : Dupont-Aignan, de Villepin
 - **D** — Plus de prévention (éducateurs, médiation, insertion) : Mélenchon
 - *pas de position* : Batho, Glucksmann, Le Pen, Ruffin
 
@@ -135,7 +136,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 - **C** — Former et orienter en priorité les demandeurs d'emploi vers ces métiers : Dupont-Aignan
 - **D** — Augmenter les salaires dans ces métiers pour attirer des candidats : —
 - *aucune* : Le Pen, Zemmour
-- *pas de position* : Batho, Retailleau, Roussel
+- *pas de position* : Batho, Retailleau, Roussel, de Villepin
 
 ## Europe & international
 
@@ -144,7 +145,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 > Une règle européenne s'oppose à une décision prise en France. Que devrait faire la France ?
 
 - **A** — Appliquer la règle européenne, les engagements communs priment : —
-- **B** — L'appliquer tout en négociant sa modification au niveau européen : Attal, Ruffin, Tondelier
+- **B** — L'appliquer tout en négociant sa modification au niveau européen : Attal, Ruffin, Tondelier, de Villepin
 - **C** — Pouvoir y déroger dans quelques domaines jugés essentiels : Lisnard, Mélenchon, Retailleau
 - **D** — Faire primer le droit national de manière générale : Dupont-Aignan, Le Pen, Zemmour
 - *pas de position* : Batho, Glucksmann, Philippe, Roussel
@@ -153,7 +154,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 > Le contexte international pousse à renforcer la défense. Quelle orientation privilégier ?
 
-- **A** — Augmenter fortement le budget militaire national : Attal, Dupont-Aignan, Lisnard, Philippe
+- **A** — Augmenter fortement le budget militaire national : Attal, Dupont-Aignan, Lisnard, Philippe, de Villepin
 - **B** — Bâtir une défense européenne commune : Batho, Glucksmann, Ruffin, Tondelier
 - **C** — Renforcer l'engagement au sein de l'OTAN : —
 - **D** — Privilégier la diplomatie et la recherche de solutions négociées : Le Pen, Mélenchon, Roussel
@@ -166,7 +167,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 > Pour améliorer le niveau des élèves, un seul effort peut être financé. Lequel ?
 
 - **A** — Réduire le nombre d'élèves par classe : Mélenchon, Roussel, Tondelier
-- **B** — Mieux payer les enseignants : Attal, Dupont-Aignan, Glucksmann, Le Pen, Philippe, Retailleau
+- **B** — Mieux payer les enseignants : Attal, Dupont-Aignan, Glucksmann, Le Pen, Philippe, Retailleau, de Villepin
 - **C** — Donner plus d'autonomie aux établissements : Lisnard
 - **D** — Recentrer sur les fondamentaux avec des évaluations régulières : Zemmour
 - *pas de position* : Batho, Ruffin
@@ -180,7 +181,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 - **A** — Obliger les jeunes médecins à exercer quelques années dans les zones sous-dotées : Mélenchon, Tondelier
 - **B** — Mieux rémunérer les médecins qui s'installent dans ces zones : Dupont-Aignan, Lisnard
 - **C** — Confier davantage d'actes aux pharmaciens et aux infirmiers : Zemmour
-- **D** — Développer fortement la téléconsultation : —
+- **D** — Développer fortement la téléconsultation : de Villepin
 - *pas de position* : Attal, Batho, Glucksmann, Le Pen, Philippe, Retailleau, Roussel, Ruffin
 
 ## Institutions & démocratie
@@ -189,7 +190,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 > Pour que les citoyens pèsent davantage sur les décisions, quelle réforme privilégier ?
 
-- **A** — Créer un référendum d'initiative citoyenne : Dupont-Aignan, Lisnard, Mélenchon, Retailleau, Ruffin, Tondelier
+- **A** — Créer un référendum d'initiative citoyenne : Dupont-Aignan, Lisnard, Mélenchon, Retailleau, Ruffin, Tondelier, de Villepin
 - **B** — Introduire la proportionnelle aux élections législatives : Le Pen
 - **C** — Généraliser les conventions de citoyens tirés au sort : Glucksmann
 - **D** — Garder les institutions actuelles et en améliorer le fonctionnement : Attal

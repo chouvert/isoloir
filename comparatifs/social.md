@@ -1,13 +1,13 @@
 ---
 theme: social
-derniere_maj: 2026-11-21
+derniere_maj: 2026-11-24
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
 
 # Comparatif — Travail, retraites, social
 
-Candidats (13) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
+Candidats (14) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Dominique de Villepin](../candidats/villepin-dominique.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
 
 Le détail et les sources de chaque position sont dans les fiches.
 
@@ -18,19 +18,19 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **Q-social-chomage** : Évolution des règles d'indemnisation du chômage ?
 - **Q-social-logement** : Mesures principales sur le logement ?
 
-| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-social-retraite | suppression de l'âge légal | pas d'âge annoncé ; vote pour la suspension de la réforme de 2023 (avant la candidature) | maintien de l'âge issu de la réforme de 2010 (page ancienne) | 62 ans | 62 ans | 65 ans | 60 ans | 65 ans | 63 ans (âge minimal), taux plein à 65 ans | suspension de la réforme de 2023 demandée ; retour à 62 ans souhaité selon Public Sénat (octobre 2025, avant la candidature) | 60 ans | 62 ans | pas d'âge annoncé |
-| Q-social-smic | pas de position | pas de position | nuancé | pas de position | pas de position | pas de position | pour | pas de position | pas de position | pas de position | pour | pour | pas de position |
-| Q-social-chomage | reprise de la réforme de 2024 | pas de position | pas de position | pas de position | pas de position | pas de position | abrogation des réformes récentes | réduction de la durée d'indemnisation | alignement sur les « standards européens » | pas de position | pas de position | abrogation des réformes récentes, indexation des allocations | pas de position |
-| Q-social-logement | relance de la construction | isolation des logements face aux canicules, sans chiffrage | baisse des droits sur l'achat, suppression du seuil de DPE | pas de position | « priorité nationale » et assouplissement des règles d'urbanisme | suppression de l'obligation SRU, révision du ZAN | construction de logements publics | aide aux familles | assouplissement des règles d'urbanisme et de location | construction plutôt que priorité nationale ; TVA sur l'énergie à 5,5 % | production publique, encadrement des loyers, rénovation | encadrement des loyers, logement social et rénovation | pas de position |
+| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q-social-retraite | suppression de l'âge légal | pas d'âge annoncé ; vote pour la suspension de la réforme de 2023 (avant la candidature) | maintien de l'âge issu de la réforme de 2010 (page ancienne) | 62 ans | 62 ans | 65 ans | 60 ans | 65 ans | 63 ans (âge minimal), taux plein à 65 ans | suspension de la réforme de 2023 demandée ; retour à 62 ans souhaité selon Public Sénat (octobre 2025, avant la candidature) | 60 ans | 62 ans | âge choisi, système à points | pas d'âge annoncé |
+| Q-social-smic | pas de position | pas de position | nuancé | pas de position | pas de position | pas de position | pour | pas de position | pas de position | pas de position | pour | pour | nuancé | pas de position |
+| Q-social-chomage | reprise de la réforme de 2024 | pas de position | pas de position | pas de position | pas de position | pas de position | abrogation des réformes récentes | réduction de la durée d'indemnisation | alignement sur les « standards européens » | pas de position | pas de position | abrogation des réformes récentes, indexation des allocations | sécurité sociale professionnelle | pas de position |
+| Q-social-logement | relance de la construction | isolation des logements face aux canicules, sans chiffrage | baisse des droits sur l'achat, suppression du seuil de DPE | pas de position | « priorité nationale » et assouplissement des règles d'urbanisme | suppression de l'obligation SRU, révision du ZAN | construction de logements publics | aide aux familles | assouplissement des règles d'urbanisme et de location | construction plutôt que priorité nationale ; TVA sur l'énergie à 5,5 % | production publique, encadrement des loyers, rénovation | encadrement des loyers, logement social et rénovation | 500 000 logements par an | pas de position |
 
 ## Dilemmes du thème
 
-| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-social-retraites | D | pas de position | D | pas de position | D | A | C | A | A | pas de position | pas de position | B | A |
-| D-social-chomage | A | pas de position | B | pas de position | pas de position | aucune | C | A | A | pas de position | C | B | pas de position |
+| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D-social-retraites | D | pas de position | D | pas de position | D | A | C | A | A | pas de position | pas de position | B | D | A |
+| D-social-chomage | A | pas de position | B | pas de position | pas de position | aucune | C | A | A | pas de position | C | B | B | pas de position |
 
 ### D-social-retraites
 
@@ -39,7 +39,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **A** — Reculer progressivement l'âge de départ ou allonger la durée de cotisation : Lisnard, Philippe, Retailleau, Zemmour
 - **B** — Augmenter les cotisations des salariés et des employeurs : Tondelier
 - **C** — Faire contribuer davantage les revenus du capital et les patrimoines élevés : Mélenchon
-- **D** — Ajouter une part de retraite par capitalisation : Attal, Dupont-Aignan, Le Pen
+- **D** — Ajouter une part de retraite par capitalisation : Attal, Dupont-Aignan, Le Pen, de Villepin
 - *pas de position* : Batho, Glucksmann, Roussel, Ruffin
 
 ### D-social-chomage
@@ -47,7 +47,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 > Des emplois restent vacants alors que le chômage persiste. Quelle approche privilégier ?
 
 - **A** — Réduire la durée ou le montant de certaines indemnités pour inciter à la reprise d'emploi : Attal, Philippe, Retailleau
-- **B** — Investir davantage dans la formation et l'accompagnement : Dupont-Aignan, Tondelier
+- **B** — Investir davantage dans la formation et l'accompagnement : Dupont-Aignan, Tondelier, de Villepin
 - **C** — Rendre les métiers en tension plus attractifs (salaires, conditions) : Mélenchon, Ruffin
 - **D** — Faciliter la mobilité géographique (logement, transport) : —
 - *aucune* : Lisnard
@@ -93,3 +93,8 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Bruno Retailleau | social-08 | Supprimer l'encadrement des loyers ; lever les interdictions de louer liées au DPE ; renforcer l'avantage fiscal du statut de bailleur privé | 450 000 logements remis sur le marché (levée des interdictions DPE) | — |
 | François Ruffin | social-04 | Logement : « produire 200 000 nouveaux logements par an à loyer abordable » ; « 200 000 places d'ici 2032 » pour les étudiants et jeunes actifs ; généraliser l'encadrement des loyers « à l'ensemble du territoire » ; « un PTZ moyen passant d'environ 60 000 euros actuellement à 120 000 euros » ; « un million de rénovations par an dont 600 000 d'ampleur » ; « Nous mettrons fin aux passoires thermiques d'ici 2032 » ; « 8 000 places d'hébergement d'urgence supplémentaires chaque année » ; financement des bailleurs sociaux : « Un retour à la situation d'avant 2018 (soit +2 à 3 milliards d'euros par an) » ; suppression de l'abattement sur les plus-values immobilières (« au moins 3 milliards d'euros par an de recettes publiques supplémentaires ») ; meublés touristiques imposés « systématiquement à hauteur de 40 à 70% » (programme, C06) | bailleurs sociaux : +2 à 3 Md€/an ; recettes plus-values : au moins 3 Md€/an | — |
 | François Ruffin | social-06 | Loisirs et vacances : plan « Salle des Fêtes et maisons du peuple » « doté d'un milliard d'euros par an pendant cinq ans » ; « Nous rendrons le BAFA gratuit. » ; « au moins un séjour collectif, en colos » pendant la scolarité obligatoire ; « billet populaire » TER illimité à 29 euros du 1er juillet au 31 août ; « avec l'embauche de 60 000 postes pris en charge par l'État » dans les associations ; « la reprise en main des autoroutes » (programme, C03) | 1 Md€/an pendant 5 ans (plan salles des fêtes) | — |
+| Dominique de Villepin | social-01 | Système de retraite « à trois étages obligatoires » : retraite minimum d'État ; étage professionnel par points, par répartition, géré par les partenaires sociaux, où « Chacun part à l'âge qu'il souhaite » ; « retraite par capitalisation publique à rendement fixe » dans le Fonds France, « à hauteur de 15 milliards annuels » (P. 162) ; réforme préparée un an (experts, conférence sociale, convention citoyenne tirée au sort) puis « débat parlementaire jusqu'en avril 2028, moment d'organisation d'un référendum » (P. 161) | 15 (étage par capitalisation) | — |
+| Dominique de Villepin | social-02 | Sécurité sociale professionnelle incluant l'assurance chômage et le service public de l'emploi, avec « un revenu de transition et un droit à la requalification vers des filières et des métiers d'avenir », adossée au CPF (P. 158) ; revenu de transition de 2 ans (page justice sociale, mesure 7) | non chiffré | — |
+| Dominique de Villepin | social-03 | « Garantir un emploi ou une formation à tous les jeunes » de 18 à 25 ans sans emploi ni formation (P. 148) ; bourses d'autonomie de 400 € par mois, remboursables à taux zéro sous condition de revenus (P. 147) | non chiffré | — |
+| Dominique de Villepin | social-04 | « produire 500 000 logements par an, sans toujours construire à neuf », dont « 100 000 logements sociaux par an » (P. 107) | non chiffré | — |
+| Dominique de Villepin | social-05 | Participation des salariés : 1 € de participation pour 2 € de dividendes, dont la moitié pour la moitié la moins payée des salariés (P. 105) ; salariés au tiers des sièges des conseils d'administration (page justice sociale, mesure 3) | non chiffré | — |

@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "derniere_maj": "2026-11-21",
+  "derniere_maj": "2026-11-24",
   "referentiel_maj": "2026-11-21",
   "themes": [
     {
@@ -17259,6 +17259,1306 @@
       "faisabilite": null
     },
     {
+      "id": "villepin-dominique",
+      "nom": "Dominique de Villepin",
+      "parti": "La France humaniste",
+      "famille_politique": "",
+      "statut": "déclaré",
+      "inclus": true,
+      "date_declaration": "2026-11-20",
+      "programme_url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/",
+      "programme_version": "v1 (2026-11-20), programme « Réussir à nouveau », 258 propositions en 25 chapitres, et pages « 20 propositions » du site de campagne",
+      "derniere_maj": "2026-11-24",
+      "positions": {
+        "Q-eco-impots": {
+          "position": "refonte, sans objectif global",
+          "detail": "« passer de plus de 400 taxes à seulement neuf impôts » (P. 48) ; extinction de toutes les niches fiscales et sociales en cinq ans, par paliers « de l'ordre de 35 milliards d'euros par an » (P. 47) ; suppression des impôts de production (P. 237) ; aucun objectif sur le niveau global des prélèvements",
+          "sources": [
+            {
+              "titre": "chapitre 5",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-5.html"
+            },
+            {
+              "titre": "chapitre 23",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-23.html"
+            }
+          ]
+        },
+        "Q-eco-patrimoine": {
+          "position": "rétablissement de l'ISF, successions réformées",
+          "detail": "« En rétablissant l'Impôt sur la Fortune, suivant un barème proche de celui de 2016 » (P. 10) ; impôt unique sur le patrimoine à partir de 2,2 M€ (page économie, mesure 8) ; successions : « En exonérant jusqu'à un million d'euros les successions en ligne directe », progressivité au-delà avec des droits de 50 à 60 % (P. 9)",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        "Q-eco-deficit": {
+          "position": "2,9 % du PIB en 2031",
+          "detail": "« passer sous les 3 % de déficits en 2031 (à 2,9 %) », hypothèse de croissance de 0,8 % les premières années ; trajectoire fixée par loi organique, dérogation à la majorité des 3/5e (P. 1 et 2)",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            }
+          ]
+        },
+        "Q-eco-fonctionnaires": {
+          "position": "stabilisation",
+          "detail": "« en stabilisant strictement le nombre de fonctionnaires des trois fonctions publiques », point d'indice réindexé sur l'inflation, activité dégagée par l'IA redéployée vers des agents « de première ligne » (P. 63)",
+          "sources": [
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            }
+          ]
+        },
+        "Q-social-retraite": {
+          "position": "âge choisi, système à points",
+          "detail": "« Chacun part à l'âge qu'il souhaite en fonction d'une formule de calcul universelle » (points acquis, valeur du point, espérance de vie selon le métier) ; réforme soumise à référendum en avril 2028 après un an de concertation (P. 161 et 162)",
+          "sources": [
+            {
+              "titre": "chapitre 16",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-16.html"
+            }
+          ]
+        },
+        "Q-social-smic": {
+          "position": "nuancé",
+          "detail": "Hausse du net, non du SMIC brut : bascule de cotisations vers la CSG avec un gain « de plus de 100 euros les salaires mensuels au salaire minimum » (P. 106) ; « Transférer la revalorisation annuelle du SMIC aux partenaires sociaux. » (page justice sociale, mesure 1) ; conférence sociale permanente réunissant les partenaires sociaux, avec une revalorisation annuelle du SMIC dans une bande de fluctuation (page méthode, mesure 5)",
+          "sources": [
+            {
+              "titre": "chapitre 12",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-12.html"
+            },
+            {
+              "titre": "20 propositions justice sociale",
+              "url": "https://lafrancehumaniste.fr/programme/justice-sociale.html"
+            },
+            {
+              "titre": "20 propositions méthode",
+              "url": "https://lafrancehumaniste.fr/programme/mesures.html"
+            }
+          ]
+        },
+        "Q-social-chomage": {
+          "position": "sécurité sociale professionnelle",
+          "detail": "Une sécurité sociale professionnelle « en incluant l'assurance chômage », avec « un revenu de transition et un droit à la requalification » (P. 158) ; revenu de transition de 2 ans (page justice sociale, mesure 7)",
+          "sources": [
+            {
+              "titre": "chapitre 16",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-16.html"
+            },
+            {
+              "titre": "20 propositions justice sociale",
+              "url": "https://lafrancehumaniste.fr/programme/justice-sociale.html"
+            }
+          ]
+        },
+        "Q-social-logement": {
+          "position": "500 000 logements par an",
+          "detail": "« pour produire 500 000 logements par an, sans toujours construire à neuf », dont « 100 000 logements sociaux par an » (P. 107)",
+          "sources": [
+            {
+              "titre": "chapitre 12",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-12.html"
+            }
+          ]
+        },
+        "Q-env-nuc": {
+          "position": "pour",
+          "detail": "« poursuivre le programme des six EPR2 », en évaluant les coûts avant les tranches suivantes (P. 6)",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            }
+          ]
+        },
+        "Q-env-renouv": {
+          "position": "pour",
+          "detail": "« C'est nucléaire et renouvelable contre les énergies fossiles. » (P. 6) ; industrialiser l'éolien en mer (page économie, mesure 16) ; nouvelles capacités décidées technologie par technologie selon le prix de production (P. 117)",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        "Q-env-climat": {
+          "position": "pour",
+          "detail": "Inscrire dans la Constitution l'objectif de neutralité carbone en 2050, par la Charte de l'environnement (P. 5)",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            }
+          ]
+        },
+        "Q-secu-effectifs": {
+          "position": "pas d'objectif global",
+          "detail": "Aucun objectif d'effectifs de police et de gendarmerie ; « environ 75 brigades spécialisées de terrain (BST) représentant 1 000 fonctionnaires expérimentés » contre le narcotrafic (P. 66) ; police de proximité (P. 38)",
+          "sources": [
+            {
+              "titre": "chapitre 7",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-7.html"
+            },
+            {
+              "titre": "chapitre 3",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-3.html"
+            }
+          ]
+        },
+        "Q-secu-justice": {
+          "position": "hausse des moyens, exécution des peines",
+          "detail": "Viser « en dix ans le rattrapage de la moyenne européenne de magistrats par nombre d'habitants » (P. 18) ; « Assurer qu'il n'y ait plus de peine sans exécution » (P. 28) ; 15 000 places en structures éducatives fermées pour les primo-délinquants (P. 72)",
+          "sources": [
+            {
+              "titre": "chapitre 3",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-3.html"
+            },
+            {
+              "titre": "chapitre 7",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-7.html"
+            }
+          ]
+        },
+        "Q-immig-niveau": {
+          "position": "objectifs annuels par catégorie, sans niveau annoncé",
+          "detail": "Livre blanc issu d'une « conférence de consentement d'un an », puis loi de programmation pluriannuelle avec des objectifs annuels glissants par catégorie (travail, regroupement familial, étudiants) (P. 56) ; aucun niveau visé",
+          "sources": [
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            }
+          ]
+        },
+        "Q-immig-asile": {
+          "position": "pas de position",
+          "detail": "Aucune réforme du droit d'asile trouvée ; la loi de programmation prévoit « l'anticipation des besoins sur les demandes d'asile » (P. 56)",
+          "sources": [
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            }
+          ]
+        },
+        "Q-immig-nation": {
+          "position": "pas de position",
+          "detail": "Aucune proposition sur le droit de la nationalité dans les chapitres lus",
+          "sources": []
+        },
+        "Q-europe-traites": {
+          "position": "réforme de l'Union",
+          "detail": "« Une réforme de la gouvernance et une réforme des modalités d'élargissement sont indispensables. » ; pacte de souveraineté européen et conseil de sécurité européen de cinq États (P. 87) ; aucune dérogation unilatérale aux règles européennes trouvée",
+          "sources": [
+            {
+              "titre": "chapitre 10",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-10.html"
+            }
+          ]
+        },
+        "Q-europe-defense": {
+          "position": "3,5 %",
+          "detail": "Préparer la LPM 2031-2036 « visant les 3,5 % du PIB consacrés à la défense », conditionnée à la croissance et à la crédibilité des comptes publics (P. 50)",
+          "sources": [
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            }
+          ]
+        },
+        "Q-europe-otan": {
+          "position": "réforme : pilier européen",
+          "detail": "« Réformer l'Organisation du Traité de l'Atlantique Nord pour y inscrire un pilier de défense » européen (P. 88) ; pas de sortie du commandement intégré proposée",
+          "sources": [
+            {
+              "titre": "chapitre 10",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-10.html"
+            }
+          ]
+        },
+        "Q-europe-ukraine": {
+          "position": "soutien maintenu, adhésion graduelle",
+          "detail": "Pérenniser « l'effort de soutien financier et de défense à l'Ukraine » et lui ouvrir une « adhésion à droits graduels » à l'Union (P. 98) ; le 2026-11-23, refus d'« une quelconque récompense de la Russie de l'agression qui a été commise »",
+          "sources": [
+            {
+              "titre": "chapitre 11",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-11.html"
+            },
+            {
+              "titre": "franceinfo, 2026-11-23",
+              "url": "https://www.franceinfo.fr/elections/direct-presidentielle-2027-son-combat-est-le-mien-assure-raphael-glucksmann-sur-francois-ruffin-qui-s-est-retire-de-la-course-a-l-elysee_8295479.html"
+            }
+          ]
+        },
+        "Q-educ-enseign": {
+          "position": "au moins + 10 %",
+          "detail": "« Revaloriser les métiers pédagogiques d'au moins 10 % » et conférence sociale des métiers pédagogiques (P. 189) ; auxiliaires d'enseignement (P. 191) ; présélection des enseignants au niveau du bac pour les boursiers (P. 197)",
+          "sources": [
+            {
+              "titre": "chapitre 20",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-20.html"
+            }
+          ]
+        },
+        "Q-educ-univ": {
+          "position": "Parcoursup recalibré",
+          "detail": "Parcoursup « recalibré » en outil d'aide à la décision des conseillers d'orientation (P. 196) ; bourses d'autonomie de 400 € par mois pour les 18-25 ans, remboursables à taux zéro sous condition de revenus (P. 147) ; frais d'inscription relevables, remboursés plus tard par l'étudiant au moyen de l'impôt sur le revenu, et « 5 milliards d'euros de crédits annuels en fin de quinquennat » pour la recherche et l'enseignement supérieur (P. 206)",
+          "sources": [
+            {
+              "titre": "chapitre 20",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-20.html"
+            },
+            {
+              "titre": "chapitre 15",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-15.html"
+            },
+            {
+              "titre": "chapitre 21",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-21.html"
+            }
+          ]
+        },
+        "Q-educ-orientation": {
+          "position": "découverte précoce des métiers",
+          "detail": "Parcours précoces de découverte des métiers et des études (P. 196) ; internats d'excellence pour les savoir-faire artisanaux et industriels (P. 198) ; filières d'excellence réservées aux bacheliers professionnels (P. 202)",
+          "sources": [
+            {
+              "titre": "chapitre 20",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-20.html"
+            }
+          ]
+        },
+        "Q-sante-acces": {
+          "position": "maisons de santé, téléconsultation",
+          "detail": "Accès rapide à un professionnel de santé par un maillage de « maisons de santé pluriprofessionnelles », « téléconsultations, téléexpertise » et la réorganisation des urgences (P. 122) ; aucune mesure de régulation ni d'incitation à l'installation",
+          "sources": [
+            {
+              "titre": "chapitre 13",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-13.html"
+            }
+          ]
+        },
+        "Q-sante-findevie": {
+          "position": "pas de position",
+          "detail": "Aucune mention de l'aide active à mourir ; soins palliatifs : « au moins une unité de soins palliatifs et une maison d'accompagnement dans chaque département d'ici 2030 » (P. 152)",
+          "sources": [
+            {
+              "titre": "chapitre 15",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-15.html"
+            }
+          ]
+        },
+        "Q-instit-scrutin": {
+          "position": "pas de position",
+          "detail": "Aucune mention de la proportionnelle dans les chapitres 2, 3 et 8 ni dans la page institutions",
+          "sources": []
+        },
+        "Q-instit-referend": {
+          "position": "référendum citoyen, référendums réguliers",
+          "detail": "« Créer le dispositif du référendum citoyen » sur pétition « d'une proportion significative d'électeurs » validée par le Conseil constitutionnel, après un an de débat (P. 74) ; seuil de 5 millions de signatures (page institutions, mesure 4) ; référendums réguliers (P. 17), regroupés chaque année le premier dimanche d'octobre (page méthode, mesure 16)",
+          "sources": [
+            {
+              "titre": "20 propositions méthode",
+              "url": "https://lafrancehumaniste.fr/programme/mesures.html"
+            },
+            {
+              "titre": "chapitre 8",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-8.html"
+            },
+            {
+              "titre": "20 propositions institutions",
+              "url": "https://lafrancehumaniste.fr/programme/institutions.html"
+            },
+            {
+              "titre": "chapitre 2",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-2.html"
+            }
+          ]
+        },
+        "Q-instit-constit": {
+          "position": "droits sociaux et neutralité carbone dans la Constitution",
+          "detail": "« Inscrire une Charte des droits sociaux dans la Constitution » (P. 153) ; neutralité carbone en 2050 dans la Charte de l'environnement (P. 5) ; vote à 16 ans (P. 75) ; principe d'obligation de vote sans sanction et vote blanc comptabilisé (P. 76) ; égalité réelle entre les sexes inscrite à l'article 1er, avec des obligations positives de l'État (P. 180)",
+          "sources": [
+            {
+              "titre": "chapitre 18",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-18.html"
+            },
+            {
+              "titre": "chapitre 16",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-16.html"
+            },
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            },
+            {
+              "titre": "chapitre 8",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-8.html"
+            }
+          ]
+        }
+      },
+      "dilemmes": {
+        "D-eco-dette": {
+          "option": "B",
+          "proposition": "eco-05",
+          "texte_court": "Supprimer en cinq ans toutes les réductions et exonérations d'impôts et de cotisations, en consacrant une partie des recettes à réduire le déficit",
+          "justification": "Seul levier chiffré : extinction des niches fiscales et sociales par « paliers de l'ordre de 35 milliards d'euros par an », affectés « par tiers » à la compensation, à des politiques publiques et « au comblement du déficit public » (P. 47, eco-05) ; rétablissement de l'ISF (P. 10) ; le programme présente les niches comme une ressource, jamais comme une dépense ; aucune baisse de dépenses chiffrée dans les 25 chapitres (fonctionnaires stabilisés, P. 63 ; budget de l'éducation « sanctuarisé », P. 188) ; hypothèse de croissance prudente de 0,8 % (P. 2), pas un pari sur la croissance (D) ; avant la candidature, le plan « Big Bang » du 2026-08-28 affirmait : « La baisse de la dépense publique fera l'essentiel de cet effort », l'extinction des niches y contribuant « aux deux tiers de l'effort », et « Le dernier tiers sera représenté par une augmentation des impôts » (option A selon cette présentation, que le programme ne reprend pas)",
+          "sources": [
+            {
+              "titre": "chapitre 5",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-5.html"
+            },
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            },
+            {
+              "titre": "Big Bang, 2026-08-28",
+              "url": "https://lafrancehumaniste.fr/articles/big-bang-la-regle-republicaine"
+            }
+          ]
+        },
+        "D-eco-pouvoir-achat": {
+          "option": "B",
+          "proposition": "eco-01",
+          "texte_court": "Transférer une grande partie des cotisations prélevées sur les salaires vers la contribution sociale généralisée, pour augmenter le salaire net d'environ 200 euros par mois",
+          "justification": "Mesure la plus chiffrée : « bascule massive de plus de 200 milliards d'euros de cotisations sociales non contributives vers la CSG », pour « augmenter à terme de 200 euros les salaires mensuels nets moyens » (P. 106, eco-01), première des 20 propositions économiques ; carte-mobilité de 100 € dans les petites communes (P. 112, option D) ; électricité moins chère (eco-03, sans option)",
+          "sources": [
+            {
+              "titre": "chapitre 12",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-12.html"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        "D-social-retraites": {
+          "option": "D",
+          "proposition": "social-01",
+          "texte_court": "Ajouter aux retraites par répartition une retraite par capitalisation publique à rendement fixe, financée à hauteur de 15 milliards d'euros par an",
+          "justification": "Seul montant : un « étage de solidarité nationale sous forme d'une retraite par capitalisation publique à rendement fixe », « à hauteur de 15 milliards annuels » (P. 162, social-01) ; l'étage principal reste par répartition, par points, avec un départ à l'âge choisi et une valeur du point fixée par les partenaires sociaux pour « maintenir l'équilibre entre contributions et prestations », sans option correspondante ; réforme soumise à référendum en avril 2028 (P. 161)",
+          "sources": [
+            {
+              "titre": "chapitre 16",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-16.html"
+            }
+          ]
+        },
+        "D-social-chomage": {
+          "option": "B",
+          "proposition": "social-02",
+          "texte_court": "Créer une sécurité sociale professionnelle qui verse un revenu de transition et ouvre un droit à se former vers des métiers d'avenir",
+          "justification": "Aucune mesure chiffrée ; la proposition sur l'assurance chômage l'intègre à une sécurité sociale professionnelle avec « un revenu de transition et un droit à la requalification vers des filières et des métiers d'avenir » (P. 158, social-02) ; emploi ou formation garantis aux jeunes de 18 à 25 ans (P. 148, même option) ; aucune réduction des indemnités (A)",
+          "sources": [
+            {
+              "titre": "chapitre 16",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-16.html"
+            },
+            {
+              "titre": "chapitre 15",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-15.html"
+            }
+          ]
+        },
+        "D-env-electricite": {
+          "option": "C",
+          "proposition": "env-01",
+          "texte_court": "Construire six nouveaux réacteurs nucléaires et développer l'éolien en mer pour remplacer les énergies fossiles",
+          "justification": "Nucléaire et renouvelables présentés ensemble : « C'est nucléaire et renouvelable contre les énergies fossiles. », avec « poursuivre le programme des six EPR2 » (P. 6) ; la page économie associe six EPR2 et l'industrialisation de l'éolien en mer (mesure 16) ; aucune part chiffrée, la part « comparable » n'est pas précisée (proche de A) ; aucune mesure de sobriété (D)",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        "D-env-rythme": {
+          "option": "A",
+          "proposition": "env-02",
+          "texte_court": "Augmenter chaque année d'environ 4,5 milliards d'euros le budget de lutte contre le réchauffement, avec une taxe qui encadre le prix des énergies fossiles",
+          "justification": "Accélération chiffrée : « une augmentation chaque année de l'ordre de 4,5 milliards d'euros » du budget d'atténuation et d'adaptation (P. 8, env-02), appuyée sur « la taxe d'encadrement du prix du carbone » ; prix du carburant maintenu à « 1,75 euros par litre » par l'accise, plafonné à « 2,50 euros par litre » (P. 4), qui pèse sur certains prix ; rien ne cible d'abord les plus gros émetteurs (B)",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            }
+          ]
+        },
+        "D-secu-budget": {
+          "option": "C",
+          "proposition": "secu-01",
+          "texte_court": "Recruter des magistrats pour rattraper en dix ans la moyenne européenne du nombre de magistrats par habitant",
+          "justification": "Seul montant : 3 Md€ par an jusqu'en 2032 contre les violences faites aux femmes et aux enfants (P. 68, secu-02), sans ventilation et sans option correspondante ; sans autre chiffrage, ordre de présentation : la première proposition du chapitre justice, « Décupler des capacités de traitement des tribunaux » par le recrutement de magistrats (P. 18, secu-01) ; viennent ensuite la police de proximité (P. 38) et 75 brigades contre le narcotrafic (P. 66, option A), 15 000 places en structures éducatives fermées (P. 72) et le doublement des médiateurs sociaux (P. 73, option D)",
+          "sources": [
+            {
+              "titre": "chapitre 3",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-3.html"
+            },
+            {
+              "titre": "chapitre 7",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-7.html"
+            }
+          ]
+        },
+        "D-immig-travail": {
+          "option": "pas de position",
+          "proposition": "",
+          "texte_court": "",
+          "justification": "Aucune mesure sur les métiers en pénurie de main-d'œuvre ; la loi de programmation fixerait des objectifs annuels par catégorie, dont le travail, après un Livre blanc (P. 56), sans orientation annoncée",
+          "sources": [
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            }
+          ]
+        },
+        "D-europe-regles": {
+          "option": "B",
+          "proposition": "",
+          "texte_court": "",
+          "justification": "Réformer l'Union par la négociation : « Une réforme de la gouvernance et une réforme des modalités d'élargissement sont indispensables. » ; pacte de souveraineté européen entre États volontaires (P. 87) ; demande aux partenaires européens d'étendre le mécanisme carbone aux frontières (P. 43) ; aucune dérogation unilatérale ni primauté du droit national dans les chapitres lus ; pas de proposition qui porte l'option elle-même",
+          "sources": [
+            {
+              "titre": "chapitre 10",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-10.html"
+            },
+            {
+              "titre": "chapitre 4",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-4.html"
+            }
+          ]
+        },
+        "D-europe-defense": {
+          "option": "A",
+          "proposition": "europe-01",
+          "texte_court": "Porter progressivement la dépense de défense à 3,5 % de la richesse nationale, selon la croissance et l'état des comptes publics",
+          "justification": "Aucun montant en euros ; présentée en premier, la proposition 50 prévoit de « préparer la LPM 2031-2036 visant les 3,5 % du PIB consacrés à la défense » (europe-01) ; viennent ensuite le conseil de sécurité européen (P. 87, europe-02, option B), que la page méthode prévoit de présenter à un Conseil européen extraordinaire dans les 100 premiers jours (mesure 9, option B), le pilier européen de l'OTAN (P. 88, europe-03, entre B et C) et le soutien à l'Ukraine (P. 98)",
+          "sources": [
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            },
+            {
+              "titre": "chapitre 10",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-10.html"
+            }
+          ]
+        },
+        "D-educ-niveau": {
+          "option": "B",
+          "proposition": "educ-01",
+          "texte_court": "Augmenter d'au moins 10 % la rémunération des enseignants et des autres métiers de l'enseignement",
+          "justification": "Aucun montant en euros ; la première proposition (P. 188) sanctuarise le budget de l'éducation, sans option ; la première mesure qui relève d'une option : « Revaloriser les métiers pédagogiques d'au moins 10 % » (P. 189, educ-01) ; classes plus petites là où la priorité sociale est la plus forte (P. 195, option A) ; mathématiques et lecture en « priorité nationale », objectif de « remonter l'évaluation de 20 points » (P. 200, option D) ; le niveau des savoirs fondamentaux figure parmi les cinq chantiers présidentiels de la première année (page méthode, mesure 12, option D)",
+          "sources": [
+            {
+              "titre": "chapitre 20",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-20.html"
+            },
+            {
+              "titre": "20 propositions méthode",
+              "url": "https://lafrancehumaniste.fr/programme/mesures.html"
+            }
+          ]
+        },
+        "D-sante-deserts": {
+          "option": "D",
+          "proposition": "sante-01",
+          "texte_court": "Recourir davantage aux consultations médicales à distance pour garantir à chacun un accès rapide à un professionnel de santé",
+          "justification": "Aucun montant ; la proposition d'accès aux soins (P. 122, sante-01) prévoit des « maisons de santé pluriprofessionnelles » (sans option correspondante), « le recours accru aux nouvelles technologies » (« téléconsultations, téléexpertise ») et la réorganisation des urgences ; ni obligation d'installation (A), ni incitation financière (B), ni délégation d'actes (C)",
+          "sources": [
+            {
+              "titre": "chapitre 13",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-13.html"
+            }
+          ]
+        },
+        "D-instit-participation": {
+          "option": "A",
+          "proposition": "instit-01",
+          "texte_court": "Permettre aux citoyens de déclencher un référendum en réunissant 5 millions de signatures",
+          "justification": "« Créer le dispositif du référendum citoyen » sur pétition d'électeurs validée par le Conseil constitutionnel (P. 74, instit-01), seuil de 5 millions de signatures (page institutions, mesure 4) ; le débat préalable d'un an inclut une convention citoyenne (option C, étape et non réforme principale) ; référendums réguliers (P. 17) ; pas de position trouvée sur la proportionnelle (B)",
+          "sources": [
+            {
+              "titre": "chapitre 8",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-8.html"
+            },
+            {
+              "titre": "20 propositions institutions",
+              "url": "https://lafrancehumaniste.fr/programme/institutions.html"
+            }
+          ]
+        }
+      },
+      "phares": [
+        {
+          "rang": 1,
+          "proposition": "eco-01",
+          "motif": "Résumé du candidat : première des 20 propositions du bloc « Rouvrir les sources de l'abondance » de « L'essentiel en 20 propositions » (page d'accueil de campagne), « La révolution du salaire net »",
+          "sources": [
+            {
+              "titre": "villepin.fr",
+              "url": "https://villepin.fr/"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        {
+          "rang": 2,
+          "proposition": "eco-02",
+          "motif": "Résumé du candidat : deuxième proposition du même bloc, « L'esprit d'entreprise fortifié »",
+          "sources": [
+            {
+              "titre": "villepin.fr",
+              "url": "https://villepin.fr/"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        {
+          "rang": 3,
+          "proposition": "eco-03",
+          "motif": "Résumé du candidat : troisième proposition du même bloc, « L'électricité au prix du nucléaire français »",
+          "sources": [
+            {
+              "titre": "villepin.fr",
+              "url": "https://villepin.fr/"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        }
+      ],
+      "propositions": [
+        {
+          "id": "eco-01",
+          "theme": "eco",
+          "proposition": "Basculer « plus de 200 milliards d'euros de cotisations sociales non contributives vers la CSG », pour augmenter « à terme de 200 euros les salaires mensuels nets moyens » et de plus de 100 € au salaire minimum ; gain de compétitivité de 3 % de la masse salariale (P. 106 ; page économie, mesure 1 « La révolution du salaire net »)",
+          "chiffrage_annonce": "200 de cotisations transférées (sur dix ans)",
+          "chiffrage_independant": "",
+          "calendrier": "dix ans",
+          "sources": [
+            {
+              "titre": "chapitre 12",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-12.html"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        {
+          "id": "eco-02",
+          "theme": "eco",
+          "proposition": "Transmission d'entreprise sans droits de succession du vivant du propriétaire tant qu'il n'y a pas de revente, par une réforme du pacte Dutreil ouverte à tout repreneur, familial ou non (P. 235) ; refonte du régime d'autorisation des projets et suppression des impôts de production, intégrés à l'impôt sur les sociétés (page économie, mesure 2 « L'esprit d'entreprise fortifié » ; P. 237)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            },
+            {
+              "titre": "chapitre 23",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-23.html"
+            }
+          ]
+        },
+        {
+          "id": "eco-03",
+          "theme": "eco",
+          "proposition": "« Donner accès aux ménages et aux entreprises à un prix avantageux de l'électricité » par des contrats pour différence couvrant « 95 % de leur facture électrique » à des prix proches du coût de production du parc français, et suppression de quasi-taxes ; baisse annoncée de 15 % de la facture (P. 116 ; page économie, mesure 3)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 12",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-12.html"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        {
+          "id": "eco-04",
+          "theme": "eco",
+          "proposition": "Loi organique fixant une trajectoire pluriannuelle des déficits, opposable aux lois de finances sous le contrôle du Conseil constitutionnel, dérogation à la majorité des 3/5e ; « passer sous les 3 % de déficits en 2031 (à 2,9 %) » (P. 1 et 2) ; commission d'enquête sur la dégradation des comptes publics depuis dix ans (P. 3)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "2031",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            }
+          ]
+        },
+        {
+          "id": "eco-05",
+          "theme": "eco",
+          "proposition": "« Éteindre l'ensemble des privilèges fiscaux, des niches sociales et fiscales, par paliers et sur cinq ans », par une loi « Nuit du Quatre Août » ; paliers « de l'ordre de 35 milliards d'euros par an », affectés par tiers à la compensation, à des politiques publiques et au déficit (P. 47)",
+          "chiffrage_annonce": "35 par palier annuel",
+          "chiffrage_independant": "",
+          "calendrier": "cinq ans",
+          "sources": [
+            {
+              "titre": "chapitre 5",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-5.html"
+            }
+          ]
+        },
+        {
+          "id": "eco-06",
+          "theme": "eco",
+          "proposition": "« passer de plus de 400 taxes à seulement neuf impôts », dont « un impôt unique sur le patrimoine intégrant un rétablissement des barèmes de l'Impôt sur la Fortune » (P. 48 ; P. 10, barème « proche de celui de 2016 ») ; seuil de 2,2 M€ (page économie, mesure 8) ; CSG étendue aux consommations de jetons d'IA des entreprises (P. 159)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 5",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-5.html"
+            },
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        {
+          "id": "eco-07",
+          "theme": "eco",
+          "proposition": "Réforme de l'héritage : « En exonérant jusqu'à un million d'euros les successions en ligne directe », progressivité au-delà d'un million puis de cinq millions, avec des droits de 50 à 60 % (P. 9) ; 1 M€ transmis de son vivant sans droits (page économie, mesure 9)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        {
+          "id": "eco-08",
+          "theme": "eco",
+          "proposition": "Stabiliser strictement le nombre de fonctionnaires des trois fonctions publiques et réindexer le point d'indice sur l'inflation (P. 63)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            }
+          ]
+        },
+        {
+          "id": "eco-09",
+          "theme": "eco",
+          "proposition": "Fonds France, fonds national de souveraineté et de solidarité réunissant les actifs de l'État (1 200 à 1 600 Md€ selon la P. 186, 1 200 à 1 500 Md€ selon la page économie, mesure 11), pour « mobiliser 100 milliards supplémentaires pour l'investissement dans l'économie réelle » (P. 186) ; autoroutes de retour en régie publique à la fin des concessions (page économie, mesure 13 ; P. 231)",
+          "chiffrage_annonce": "non chiffré (100 Md€ d'investissement mobilisés par le fonds, hors budget de l'État)",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 19",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-19.html"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            },
+            {
+              "titre": "chapitre 23",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-23.html"
+            }
+          ]
+        },
+        {
+          "id": "social-01",
+          "theme": "social",
+          "proposition": "Système de retraite « à trois étages obligatoires » : retraite minimum d'État ; étage professionnel par points, par répartition, géré par les partenaires sociaux, où « Chacun part à l'âge qu'il souhaite » ; « retraite par capitalisation publique à rendement fixe » dans le Fonds France, « à hauteur de 15 milliards annuels » (P. 162) ; réforme préparée un an (experts, conférence sociale, convention citoyenne tirée au sort) puis « débat parlementaire jusqu'en avril 2028, moment d'organisation d'un référendum » (P. 161)",
+          "chiffrage_annonce": "15 (étage par capitalisation)",
+          "chiffrage_independant": "",
+          "calendrier": "référendum en avril 2028",
+          "sources": [
+            {
+              "titre": "chapitre 16",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-16.html"
+            }
+          ]
+        },
+        {
+          "id": "social-02",
+          "theme": "social",
+          "proposition": "Sécurité sociale professionnelle incluant l'assurance chômage et le service public de l'emploi, avec « un revenu de transition et un droit à la requalification vers des filières et des métiers d'avenir », adossée au CPF (P. 158) ; revenu de transition de 2 ans (page justice sociale, mesure 7)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 16",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-16.html"
+            },
+            {
+              "titre": "20 propositions justice sociale",
+              "url": "https://lafrancehumaniste.fr/programme/justice-sociale.html"
+            }
+          ]
+        },
+        {
+          "id": "social-03",
+          "theme": "social",
+          "proposition": "« Garantir un emploi ou une formation à tous les jeunes » de 18 à 25 ans sans emploi ni formation (P. 148) ; bourses d'autonomie de 400 € par mois, remboursables à taux zéro sous condition de revenus (P. 147)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 15",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-15.html"
+            }
+          ]
+        },
+        {
+          "id": "social-04",
+          "theme": "social",
+          "proposition": "« produire 500 000 logements par an, sans toujours construire à neuf », dont « 100 000 logements sociaux par an » (P. 107)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "montée en charge sur le quinquennat",
+          "sources": [
+            {
+              "titre": "chapitre 12",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-12.html"
+            }
+          ]
+        },
+        {
+          "id": "social-05",
+          "theme": "social",
+          "proposition": "Participation des salariés : 1 € de participation pour 2 € de dividendes, dont la moitié pour la moitié la moins payée des salariés (P. 105) ; salariés au tiers des sièges des conseils d'administration (page justice sociale, mesure 3)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 12",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-12.html"
+            },
+            {
+              "titre": "20 propositions justice sociale",
+              "url": "https://lafrancehumaniste.fr/programme/justice-sociale.html"
+            }
+          ]
+        },
+        {
+          "id": "env-01",
+          "theme": "env",
+          "proposition": "« poursuivre le programme des six EPR2 » dans une stratégie « nucléaire et renouvelable contre les énergies fossiles » (P. 6) ; construire six EPR2, industrialiser l'éolien en mer et électrifier les usages (page économie, mesure 16)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            },
+            {
+              "titre": "20 propositions économie",
+              "url": "https://lafrancehumaniste.fr/programme/economie.html"
+            }
+          ]
+        },
+        {
+          "id": "env-02",
+          "theme": "env",
+          "proposition": "Investir dans la décarbonation « au prix de la tonne évitée » : « une augmentation chaque année de l'ordre de 4,5 milliards d'euros » du budget d'atténuation et d'adaptation (P. 8) ; prix du carbone par un encadrement fiscal des produits fossiles, carburant maintenu à 1,75 € et plafonné à 2,50 € le litre (P. 4)",
+          "chiffrage_annonce": "4,5 de plus chaque année",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            }
+          ]
+        },
+        {
+          "id": "env-03",
+          "theme": "env",
+          "proposition": "Inscrire l'objectif de neutralité carbone en 2050 et une empreinte de 2 t éqCO2 par habitant dans la Charte de l'environnement (P. 5)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "2050",
+          "sources": [
+            {
+              "titre": "chapitre 1",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+            }
+          ]
+        },
+        {
+          "id": "env-04",
+          "theme": "env",
+          "proposition": "« Proposer un million de véhicules électriques compacts en leasing social sur le quinquennat », avec une tranche pour les revenus intermédiaires (P. 114)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "quinquennat",
+          "sources": [
+            {
+              "titre": "chapitre 12",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-12.html"
+            }
+          ]
+        },
+        {
+          "id": "env-05",
+          "theme": "env",
+          "proposition": "Stratégie nationale de transformation agricole dotée de 1,5 Md€ supplémentaires par an ; 20 % d'exploitations en bio en fin de quinquennat ; usage des phytosanitaires divisé par deux d'ici 2030 (P. 219, 222, 225)",
+          "chiffrage_annonce": "1,5",
+          "chiffrage_independant": "",
+          "calendrier": "2030 ; quinquennat",
+          "sources": [
+            {
+              "titre": "chapitre 22",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-22.html"
+            }
+          ]
+        },
+        {
+          "id": "secu-01",
+          "theme": "secu",
+          "proposition": "« Décupler des capacités de traitement des tribunaux » par le recrutement de magistrats, visant « en dix ans le rattrapage de la moyenne européenne de magistrats par nombre d'habitants » (P. 18)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "dix ans",
+          "sources": [
+            {
+              "titre": "chapitre 3",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-3.html"
+            }
+          ]
+        },
+        {
+          "id": "secu-02",
+          "theme": "secu",
+          "proposition": "Loi de programmation contre les violences faites aux femmes et aux enfants « prévoyant un budget de 3 milliards d'euros par an jusqu'en 2032 », protection « en 24h » et logement « en 72h » (P. 68) ; parquet national spécialisé (P. 69)",
+          "chiffrage_annonce": "3",
+          "chiffrage_independant": "",
+          "calendrier": "jusqu'en 2032",
+          "sources": [
+            {
+              "titre": "chapitre 7",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-7.html"
+            }
+          ]
+        },
+        {
+          "id": "secu-03",
+          "theme": "secu",
+          "proposition": "Narcotrafic : « environ 75 brigades spécialisées de terrain (BST) représentant 1 000 fonctionnaires expérimentés » (P. 66) ; agence de renseignement sur le modèle de la DEA (P. 67)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 7",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-7.html"
+            }
+          ]
+        },
+        {
+          "id": "secu-04",
+          "theme": "secu",
+          "proposition": "« Pour les primo-délinquants, créer 15 000 places dans des structures éducatives fermées nouvelle génération » sous tutelle Justice-Éducation nationale (P. 72)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 7",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-7.html"
+            }
+          ]
+        },
+        {
+          "id": "secu-05",
+          "theme": "secu",
+          "proposition": "« Donner les crédits aux communes pour doubler le nombre de médiateurs sociaux dans les Quartiers Prioritaires de la Ville. » (P. 73)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 7",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-7.html"
+            }
+          ]
+        },
+        {
+          "id": "secu-06",
+          "theme": "secu",
+          "proposition": "« Assurer qu'il n'y ait plus de peine sans exécution » (P. 28) ; politique de sécurité de proximité (P. 38)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 3",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-3.html"
+            }
+          ]
+        },
+        {
+          "id": "immig-01",
+          "theme": "immig",
+          "proposition": "Livre blanc de l'immigration issu d'une conférence de consentement d'un an, puis loi de programmation pluriannuelle avec des objectifs annuels glissants par catégorie (travail, regroupement familial, étudiants) (P. 56) ; autorité indépendante de l'information migratoire (P. 57)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            }
+          ]
+        },
+        {
+          "id": "immig-02",
+          "theme": "immig",
+          "proposition": "Diplomatie migratoire pour augmenter « fortement la réadmission de personnes sous OQTF » (P. 53) ; moitié des centres de rétention spécialisés pour les personnes sous OQTF menaçant l'ordre public (P. 54) ; enregistrement biométrique obligatoire des étrangers sans titre de séjour (P. 55)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            }
+          ]
+        },
+        {
+          "id": "europe-01",
+          "theme": "europe",
+          "proposition": "« Pérenniser l'effort de la Loi de Programmation Militaire » et préparer la LPM 2031-2036 « visant les 3,5 % du PIB consacrés à la défense », conditionnée à la croissance et à la crédibilité des comptes publics (P. 50)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "2031-2036",
+          "sources": [
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            }
+          ]
+        },
+        {
+          "id": "europe-02",
+          "theme": "europe",
+          "proposition": "« Conclure un Pacte de souveraineté européen pour créer un conseil de sécurité européen » avec l'Allemagne, l'Espagne, l'Italie et la Pologne, votant en commun sur les enjeux de souveraineté (P. 87)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 10",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-10.html"
+            }
+          ]
+        },
+        {
+          "id": "europe-03",
+          "theme": "europe",
+          "proposition": "« Réformer l'Organisation du Traité de l'Atlantique Nord pour y inscrire un pilier de défense » européen, avec un état-major européen (P. 88)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 10",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-10.html"
+            }
+          ]
+        },
+        {
+          "id": "europe-04",
+          "theme": "europe",
+          "proposition": "Pérenniser « l'effort de soutien financier et de défense à l'Ukraine » et ouvrir un cadre de rapprochement avec l'Union vers une « adhésion à droits graduels » (P. 98)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 11",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-11.html"
+            }
+          ]
+        },
+        {
+          "id": "europe-05",
+          "theme": "europe",
+          "proposition": "Aide au développement maintenue à 0,7 % du PIB (P. 101) ; traité universel de sécurité de l'IA soumis aux Nations unies (P. 93)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 11",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-11.html"
+            }
+          ]
+        },
+        {
+          "id": "educ-01",
+          "theme": "educ",
+          "proposition": "« Revaloriser les métiers pédagogiques d'au moins 10 % » et « organiser une conférence sociale des métiers pédagogiques » (P. 189)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 20",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-20.html"
+            }
+          ]
+        },
+        {
+          "id": "educ-02",
+          "theme": "educ",
+          "proposition": "« sanctuariser le budget de l'éducation en termes réels jusqu'à l'équilibrage des comptes publics », pour « augmenter la dépense par élève de l'ordre de 20 % à l'horizon de dix ans » (P. 188)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "dix ans",
+          "sources": [
+            {
+              "titre": "chapitre 20",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-20.html"
+            }
+          ]
+        },
+        {
+          "id": "educ-03",
+          "theme": "educ",
+          "proposition": "Taille des classes déterminée par les indices de position sociale des élèves, « garantissant des classes à plus faibles effectifs là où la priorité sociale est la plus grande » (P. 195)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 20",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-20.html"
+            }
+          ]
+        },
+        {
+          "id": "educ-04",
+          "theme": "educ",
+          "proposition": "Mathématiques et compréhension de l'écrit en priorité nationale, « avec pour objectif clair de remonter l'évaluation de 20 points » d'ici la fin du quinquennat (P. 200)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "quinquennat",
+          "sources": [
+            {
+              "titre": "chapitre 20",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-20.html"
+            }
+          ]
+        },
+        {
+          "id": "sante-01",
+          "theme": "sante",
+          "proposition": "« Garantir à chacun un accès rapide et simple à un professionnel de santé » par des « maisons de santé pluriprofessionnelles », le recours accru aux « téléconsultations, téléexpertise » et la réorganisation des urgences (P. 122)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 13",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-13.html"
+            }
+          ]
+        },
+        {
+          "id": "sante-02",
+          "theme": "sante",
+          "proposition": "Accroître de 50 % les dépenses de prévention sur le quinquennat (P. 124) ; plafonner le reste à charge annuel selon le revenu (P. 126)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "quinquennat",
+          "sources": [
+            {
+              "titre": "chapitre 13",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-13.html"
+            }
+          ]
+        },
+        {
+          "id": "sante-03",
+          "theme": "sante",
+          "proposition": "Soins palliatifs : « au moins une unité de soins palliatifs et une maison d'accompagnement dans chaque département d'ici 2030 » (P. 152) ; « Construire 100 000 places d'EHPAD et de logements intermédiaires » en dix ans (P. 151)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "2030",
+          "sources": [
+            {
+              "titre": "chapitre 15",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-15.html"
+            }
+          ]
+        },
+        {
+          "id": "instit-01",
+          "theme": "instit",
+          "proposition": "« Créer le dispositif du référendum citoyen » sur pétition d'électeurs validée par le Conseil constitutionnel, sur le champ de l'article 11 hors révision constitutionnelle, après un an de débat incluant « une convention citoyenne débattant de la thématique retenue » (P. 74) ; seuil de 5 millions de signatures (page institutions, mesure 4)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 8",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-8.html"
+            },
+            {
+              "titre": "20 propositions institutions",
+              "url": "https://lafrancehumaniste.fr/programme/institutions.html"
+            }
+          ]
+        },
+        {
+          "id": "instit-02",
+          "theme": "instit",
+          "proposition": "« Organiser des référendums réguliers pour renouer le lien entre la nation et ses institutions représentatives », précédés d'une année de débat (P. 17)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 2",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-2.html"
+            }
+          ]
+        },
+        {
+          "id": "instit-03",
+          "theme": "instit",
+          "proposition": "Droit de vote à 16 ans (P. 75) ; principe de l'obligation de vote, sans sanction, et vote blanc comptabilisé (P. 76)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "chapitre 8",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-8.html"
+            }
+          ]
+        },
+        {
+          "id": "instit-04",
+          "theme": "instit",
+          "proposition": "Gouvernement provisoire dès la passation de pouvoir, discours devant le Congrès, quinze jours au groupe le plus important pour former un gouvernement de compromis, faute de quoi « le retour aux urnes s'imposera » (P. 15 et 16)",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "début du mandat",
+          "sources": [
+            {
+              "titre": "chapitre 2",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-2.html"
+            }
+          ]
+        }
+      ],
+      "evolutions": [
+        {
+          "date": "2025-06-24",
+          "description": "annonce la création de La France humaniste [Euronews, 2025-06-25](https://www.euronews.com/2025/06/25/former-french-prime-minister-dominique-de-villepin-launches-humanist-political-party)",
+          "sources": [
+            {
+              "titre": "Euronews, 2025-06-25",
+              "url": "https://www.euronews.com/2025/06/25/former-french-prime-minister-dominique-de-villepin-launches-humanist-political-party"
+            }
+          ]
+        },
+        {
+          "date": "2026-08-28",
+          "description": "publie « Big Bang : La règle républicaine » (avant la candidature) : « Je m'engage à les ramener sous les 3% en 2031 et à les y maintenir ensuite. » ; « La baisse de la dépense publique fera l'essentiel de cet effort », l'extinction des niches comptant pour les deux tiers et une hausse des impôts pour le dernier tiers ; le programme du 2026-11-20 reprend les niches et les neuf impôts, mais présente les niches comme une ressource et ne chiffre aucune baisse de dépenses [Big Bang, 2026-08-28](https://lafrancehumaniste.fr/articles/big-bang-la-regle-republicaine) ; [LCP, 2026-08-28](https://lcp.fr/actualites/presidentielle-2027-dominique-villepin-veut-une-nouvelle-abolition-des-privileges-et-un)",
+          "sources": [
+            {
+              "titre": "Big Bang, 2026-08-28",
+              "url": "https://lafrancehumaniste.fr/articles/big-bang-la-regle-republicaine"
+            },
+            {
+              "titre": "LCP, 2026-08-28",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-dominique-villepin-veut-une-nouvelle-abolition-des-privileges-et-un"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "description": "déclaration de candidature et présentation du programme « Réussir à nouveau » (258 propositions) [Public Sénat, 2026-11-20](https://www.publicsenat.fr/actualites/politique/dominique-de-villepin-annonce-sa-candidature-a-lelection-presidentielle-une-decision-lourde-et-difficile-declare-t-il) ; [LCP, 2026-11-20](https://lcp.fr/actualites/presidentielle-2027-que-retenir-des-258-propositions-du-programme-de-dominique-de)",
+          "sources": [
+            {
+              "titre": "Public Sénat, 2026-11-20",
+              "url": "https://www.publicsenat.fr/actualites/politique/dominique-de-villepin-annonce-sa-candidature-a-lelection-presidentielle-une-decision-lourde-et-difficile-declare-t-il"
+            },
+            {
+              "titre": "LCP, 2026-11-20",
+              "url": "https://lcp.fr/actualites/presidentielle-2027-que-retenir-des-258-propositions-du-programme-de-dominique-de"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-23",
+          "description": "entretien France 2 et franceinfo : retraite par points, moins de 3 % de déficit sur le mandat, stratégie commune des Européens et de l'Ukraine [franceinfo, 2026-11-23](https://www.franceinfo.fr/elections/direct-presidentielle-2027-son-combat-est-le-mien-assure-raphael-glucksmann-sur-francois-ruffin-qui-s-est-retire-de-la-course-a-l-elysee_8295479.html)",
+          "sources": [
+            {
+              "titre": "franceinfo, 2026-11-23",
+              "url": "https://www.franceinfo.fr/elections/direct-presidentielle-2027-son-combat-est-le-mien-assure-raphael-glucksmann-sur-francois-ruffin-qui-s-est-retire-de-la-course-a-l-elysee_8295479.html"
+            }
+          ]
+        }
+      ],
+      "faisabilite": null
+    },
+    {
       "id": "zemmour-eric",
       "nom": "Éric Zemmour",
       "parti": "Reconquête",
@@ -18469,6 +19769,18 @@
                 "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
               }
             ]
+          },
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "eco-05",
+            "texte": "Supprimer en cinq ans toutes les réductions et exonérations d'impôts et de cotisations, en consacrant une partie des recettes à réduire le déficit",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 5",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-5.html"
+              }
+            ]
           }
         ],
         "C": [
@@ -18644,6 +19956,22 @@
               {
                 "titre": "Public Sénat, 2026-10-30",
                 "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-que-proposent-les-candidats-pour-augmenter-les-salaires"
+              }
+            ]
+          },
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "eco-01",
+            "texte": "Transférer une grande partie des cotisations prélevées sur les salaires vers la contribution sociale généralisée, pour augmenter le salaire net d'environ 200 euros par mois",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 12",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-12.html"
+              },
+              {
+                "titre": "20 propositions économie",
+                "url": "https://lafrancehumaniste.fr/programme/economie.html"
               }
             ]
           }
@@ -18883,6 +20211,18 @@
                 "url": "https://fr.euronews.com/2026/11/17/dose-de-capitalisation-depart-de-60-a-62-ans-marine-le-pen-devoile-sa-reforme-des-retraite"
               }
             ]
+          },
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "social-01",
+            "texte": "Ajouter aux retraites par répartition une retraite par capitalisation publique à rendement fixe, financée à hauteur de 15 milliards d'euros par an",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 16",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-16.html"
+              }
+            ]
           }
         ]
       },
@@ -18963,6 +20303,22 @@
               {
                 "titre": "P, juillet 2026, p. 56, 59 et 126",
                 "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+              }
+            ]
+          },
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "social-02",
+            "texte": "Créer une sécurité sociale professionnelle qui verse un revenu de transition et ouvre un droit à se former vers des métiers d'avenir",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 16",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-16.html"
+              },
+              {
+                "titre": "20 propositions justice sociale",
+                "url": "https://lafrancehumaniste.fr/programme/justice-sociale.html"
               }
             ]
           }
@@ -19100,7 +20456,24 @@
             ]
           }
         ],
-        "C": [],
+        "C": [
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "env-01",
+            "texte": "Construire six nouveaux réacteurs nucléaires et développer l'éolien en mer pour remplacer les énergies fossiles",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 1",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
+              },
+              {
+                "titre": "20 propositions économie",
+                "url": "https://lafrancehumaniste.fr/programme/economie.html"
+              }
+            ]
+          }
+        ],
         "D": [
           {
             "candidat": "batho-delphine",
@@ -19155,6 +20528,18 @@
               {
                 "titre": "generationecologie.fr, 2026-06-22",
                 "url": "https://www.generationecologie.fr/2026/06/22/quelle-politique-energetique-pour-la-france/"
+              }
+            ]
+          },
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "env-02",
+            "texte": "Augmenter chaque année d'environ 4,5 milliards d'euros le budget de lutte contre le réchauffement, avec une taxe qui encadre le prix des énergies fossiles",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 1",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-1.html"
               }
             ]
           }
@@ -19392,6 +20777,18 @@
               {
                 "titre": "Debout la France, Justice",
                 "url": "https://www.debout-la-france.fr/projet/justice/"
+              }
+            ]
+          },
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "secu-01",
+            "texte": "Recruter des magistrats pour rattraper en dix ans la moyenne européenne du nombre de magistrats par habitant",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 3",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-3.html"
               }
             ]
           }
@@ -19758,6 +21155,18 @@
                 "url": "https://www.edouardphilippe.fr/programme/defense"
               }
             ]
+          },
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "europe-01",
+            "texte": "Porter progressivement la dépense de défense à 3,5 % de la richesse nationale, selon la croissance et l'état des comptes publics",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 6",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+              }
+            ]
           }
         ],
         "B": [
@@ -19985,6 +21394,18 @@
                 "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
               }
             ]
+          },
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "educ-01",
+            "texte": "Augmenter d'au moins 10 % la rémunération des enseignants et des autres métiers de l'enseignement",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 20",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-20.html"
+              }
+            ]
           }
         ],
         "C": [
@@ -20087,7 +21508,20 @@
             ]
           }
         ],
-        "D": []
+        "D": [
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "sante-01",
+            "texte": "Recourir davantage aux consultations médicales à distance pour garantir à chacun un accès rapide à un professionnel de santé",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 13",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-13.html"
+              }
+            ]
+          }
+        ]
       },
       "D-instit-participation": {
         "A": [
@@ -20172,6 +21606,22 @@
               {
                 "titre": "P, juillet 2026, p. 162",
                 "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+              }
+            ]
+          },
+          {
+            "candidat": "villepin-dominique",
+            "proposition": "instit-01",
+            "texte": "Permettre aux citoyens de déclencher un référendum en réunissant 5 millions de signatures",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "chapitre 8",
+                "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-8.html"
+              },
+              {
+                "titre": "20 propositions institutions",
+                "url": "https://lafrancehumaniste.fr/programme/institutions.html"
               }
             ]
           }

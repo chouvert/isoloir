@@ -3,6 +3,11 @@
 Règle : README, « Candidats inclus ». Situation au **2026-11-21**, à réexaminer à chaque mise à jour
 importante des candidatures et des sondages.
 
+Fiches en attente (README, « Candidats inclus ») : un candidat retenu n'a sa fiche qu'après avoir publié un programme,
+même partiel, ou un site de campagne. Au **2026-11-24** : Teddy Riner (déclaré le 2026-11-09 ; programme et équipe
+annoncés « dans les semaines qui suivent »). Dominique de Villepin, qui a présenté 258 propositions le 2026-11-20, a
+sa fiche.
+
 Contrôle du **2026-11-21** (mise à jour 2026-S47) : **entrée de Dominique de Villepin** (fiche à rédiger) ; aucune
 sortie. Il a déclaré sa candidature le 2026-11-20 en conférence de presse (« Je suis candidat à l'élection
 présidentielle de 2027. », [LCP, 2026-11-20](https://lcp.fr/actualites/presidentielle-2027-dominique-de-villepin-officiellement-candidat-a-l-elysee-445372)) et atteint 2 % chez deux instituts sur le dernier mois : Toluna Harris
@@ -75,8 +80,8 @@ hypothèses où il est seul candidat de la droite et du centre, quand elles sort
 | Éric Zemmour          | Reconquête         | 2 – 6 %    | 6 | `zemmour-eric` |
 | Marine Tondelier      | Les Écologistes    | 1 – 3,5 %  | 6 | `tondelier-marine` |
 | Nicolas Dupont-Aignan | Debout la France   | 1 – 3,5 %  | 6 (dans toutes les hypothèses chez Cluster17 et Elabe) | `dupont-aignan-nicolas` |
-| Teddy Riner           | sans étiquette     | 2 – 4 % (hypothèses où il est testé) | 4 (OpinionWay 4 %, 10 – 12 nov. ; Cluster17 2 %, 9 – 10 nov. ; YouGov 3 %, 12 – 17 nov. ; Ifop-Fiducial 4 %, 13 – 16 nov.) | fiche à rédiger : `riner-teddy` |
-| Dominique de Villepin | La France humaniste | 1 – 3 % | 2 sur le dernier mois (Toluna Harris Interactive 2 %, 3 – 5 nov. ; YouGov 2 %, 12 – 17 nov.) ; déclaré le 2026-11-20 | fiche à rédiger : `villepin-dominique` |
+| Teddy Riner           | sans étiquette     | 2 – 4 % (hypothèses où il est testé) | 4 (OpinionWay 4 %, 10 – 12 nov. ; Cluster17 2 %, 9 – 10 nov. ; YouGov 3 %, 12 – 17 nov. ; Ifop-Fiducial 4 %, 13 – 16 nov.) | fiche en attente (`riner-teddy`) : ni programme ni site de campagne au 2026-11-24, positions connues seulement par la presse (README) |
+| Dominique de Villepin | La France humaniste | 1 – 3 % | 2 sur le dernier mois (Toluna Harris Interactive 2 %, 3 – 5 nov. ; YouGov 2 %, 12 – 17 nov.) ; déclaré le 2026-11-20 | `villepin-dominique` |
 
 Nicolas Dupont-Aignan, candidat déclaré ([LCP, liste des candidats, mise à jour du 2026-10-14](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373)),
 remplit le critère quelle que soit la lecture retenue : 2 % ou plus dans chacune des hypothèses de Cluster17
