@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2026-07-07
 programme_url:
 programme_version: pas de programme publié au 2026-11-21 ; déclarations de campagne (2026-07-07 à 2026-11-17, meeting d'Orléans et présentation de la réforme des retraites compris) + proposition de loi constitutionnelle « Citoyenneté-Identité-Immigration » (2024-01-25)
+programme_lu:
+programme_lu_le:
 derniere_maj: 2026-11-21
 ---
 

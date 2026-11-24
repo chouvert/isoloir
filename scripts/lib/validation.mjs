@@ -13,6 +13,9 @@ const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 export const MAX_PHARES = 3;
 
 export const VALEURS_INCLUS = ['oui', 'non'];
+export const VALEURS_PROGRAMME_LU = ['complet', 'partiel', 'non'];
+export const ETATS_COUVERTURE = ['lu', 'non lu', 'à relire'];
+export const FICHIER_A_RECUPERER = 'veille/a-recuperer.md';
 
 /** Motifs interdits dans le code du site : les réponses restent sur l'appareil (localStorage autorisé) et ne sont jamais envoyées. */
 export const MOTIFS_STOCKAGE = [
@@ -280,6 +283,60 @@ function lireDilemmes(racine, ref, rapport) {
 // Fiches candidats
 // ---------------------------------------------------------------------------
 
+/**
+ * Couverture du programme : `programme_lu` obligatoire avec un programme ; `partiel` ou `non` exige une section
+ * « Couverture du programme » ou une demande en cours dans veille/a-recuperer.md (colonne candidat).
+ */
+function validerCouverture(fichier, data, sCouv, demandes, rapport) {
+  const url = String(data.programme_url ?? '').trim();
+  const lu = String(data.programme_lu ?? '').trim();
+  if (data.programme_lu_le && !estDateIso(data.programme_lu_le)) {
+    rapport.erreur(fichier, 1, `programme_lu_le « ${data.programme_lu_le} » n'est pas une date AAAA-MM-JJ`);
+  }
+  if (!url) {
+    if (lu) rapport.erreur(fichier, 1, 'programme_lu sans programme_url (laisser vide sans programme publié)');
+    return;
+  }
+  if (!lu) { rapport.erreur(fichier, 1, `programme_lu manquant (${VALEURS_PROGRAMME_LU.join(' | ')})`); return; }
+  if (!VALEURS_PROGRAMME_LU.includes(lu)) { rapport.erreur(fichier, 1, `programme_lu « ${lu} » invalide (${VALEURS_PROGRAMME_LU.join(' | ')})`); return; }
+  let lignes = 0;
+  if (sCouv) {
+    const t = trouverTableau(lireTableaux(sCouv.contenu, sCouv.ligne + 1), ['partie', 'adresse', 'lu le', 'état']);
+    if (!t) rapport.erreur(fichier, sCouv.ligne, 'tableau de couverture (colonnes partie, adresse, lu le, état) introuvable');
+    else {
+      for (const { cellules, ligne } of t.lignes) {
+        lignes += 1;
+        const etat = String(cellules[normaliser('état')] ?? '').trim();
+        if (!ETATS_COUVERTURE.includes(etat)) rapport.erreur(fichier, ligne, `couverture : état « ${etat} » invalide (${ETATS_COUVERTURE.join(' | ')})`);
+        const le = String(cellules[normaliser('lu le')] ?? '').trim();
+        if (le && !estDateIso(le)) rapport.erreur(fichier, ligne, `couverture : « ${le} » n'est pas une date AAAA-MM-JJ`);
+      }
+    }
+  }
+  if (lu === 'complet') return;
+  const nom = normaliser(data.nom);
+  // Nom de famille entier : « Le Pen » trouve « Marine Le Pen », « Pen » ne trouve rien.
+  const demande = demandes.some((c) => c && (nom === c || nom.endsWith(` ${c}`)));
+  if (!lignes && !demande) {
+    rapport.erreur(fichier, 1, `programme_lu « ${lu} » : ajouter la section « ## Couverture du programme » ou demander le programme dans ${FICHIER_A_RECUPERER}`);
+  } else {
+    rapport.avertissement(fichier, 1, `programme non lu en entier (programme_lu : ${lu})`);
+  }
+}
+
+/**
+ * Candidats (colonne « candidat », normalisée ; plusieurs séparés par des virgules) dont le **programme** est demandé
+ * dans veille/a-recuperer.md : colonne document contenant « programme », état « demandé ».
+ */
+export function lireDemandes(racine) {
+  if (!existsSync(join(racine, FICHIER_A_RECUPERER))) return [];
+  const t = trouverTableau(lireTableaux(lire(racine, FICHIER_A_RECUPERER)), ['document', 'candidat', 'état']);
+  if (!t) return [];
+  return t.lignes.filter(({ cellules }) => normaliser(cellules[normaliser('état')]).startsWith('demande')
+    && /\bprogramme\b/.test(normaliser(cellules.document)))
+    .flatMap(({ cellules }) => String(cellules.candidat ?? '').split(/[,;]/).map(normaliser).filter(Boolean));
+}
+
 function parserNote(texte) {
   const v = String(texte ?? '').replace(',', '.').trim();
   if (v === '' || v === '–' || v === '-') return null;
@@ -292,7 +349,7 @@ function parserNote(texte) {
  * (sections, questions et thèmes présents), pas le contenu.
  * @returns {object} données extraites, utilisées pour les contrôles croisés
  */
-export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } = {}) {
+export function validerFiche(racine, fichier, ref, rapport, { gabarit = false, demandes = [] } = {}) {
   const texte = lire(racine, fichier);
   const { data, corps, decalage, erreur } = lireFrontmatter(texte);
   const fiche = { id: basename(fichier, '.md'), fichier, positions: new Map(), analyse: null };
@@ -329,6 +386,7 @@ export function validerFiche(racine, fichier, ref, rapport, { gabarit = false } 
   for (const titre of SECTIONS_FICHE) {
     if (!section(titre)) rapport.erreur(fichier, 1, `section « ## ${titre} » manquante`);
   }
+  if (!gabarit && data) validerCouverture(fichier, data, section('Couverture du programme'), demandes, rapport);
 
   // Positions sur les questions-clés
   const sPos = section('Positions sur les questions-clés');
@@ -710,9 +768,10 @@ export function validerBase(racine) {
   validerFiche(racine, 'candidats/_modele.md', ref, rapport, { gabarit: true });
 
   const fiches = new Map();
+  const demandes = lireDemandes(racine);
   for (const f of listerMarkdown(racine, 'candidats')) {
     if (basename(f).startsWith('_')) continue;
-    const fiche = validerFiche(racine, f, ref, rapport);
+    const fiche = validerFiche(racine, f, ref, rapport, { demandes });
     fiches.set(fiche.id, fiche);
   }
 

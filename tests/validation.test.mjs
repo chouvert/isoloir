@@ -418,3 +418,80 @@ test('site : aucune donnée utilisateur conservée', () => {
   assert.equal(ok.erreurs.length, 0, messages(ok));
   assert.equal(valider().erreurs.length, 0);
 });
+
+// ---------------------------------------------------------------------------
+// Couverture du programme (spec 2026-11-15-suivi-programmes-design.md, section 4)
+// ---------------------------------------------------------------------------
+
+const avertissements = (r) => r.avertissements.filter((e) => e.fichier === 'candidats/dupont-jean.md').map((e) => e.message).join('\n');
+const avecProgramme = (lu, { le = '', couverture = null } = {}) => (d) => editer(d, 'candidats/dupont-jean.md', (t) => {
+  t = t.replace(/^programme_url:.*$/m, 'programme_url: https://exemple.fr/programme')
+    .replace(/^programme_lu:.*$/m, `programme_lu: ${lu}`)
+    .replace(/^programme_lu_le:.*$/m, `programme_lu_le: ${le}`);
+  if (couverture) {
+    t = t.replace('## Analyse de faisabilité (Claude)', `## Couverture du programme\n| partie | adresse | lu le | état |\n|---|---|---|---|\n${couverture}\n\n## Analyse de faisabilité (Claude)`);
+  }
+  return t;
+});
+const demande = (candidat, etat = 'demandé (2026-11-24)') => (d) => {
+  mkdirSync(join(d, 'veille'), { recursive: true });
+  ecrire(d, 'veille/a-recuperer.md', `# Documents à récupérer\n\n| document | lien | candidat | pourquoi | ce qu'on en attend | état |\n|---|---|---|---|---|---|\n| Programme | [p](https://exemple.fr/p) | ${candidat} | refusé | tout | ${etat} |\n`);
+};
+const enchainer = (...fns) => (d) => fns.forEach((f) => f(d));
+
+test('programme : programme_url sans programme_lu valide → erreur', () => {
+  assert.match(messages(valider(avecProgramme(''))), /programme_lu/);
+  assert.match(messages(valider(avecProgramme('lu'))), /programme_lu « lu » invalide/);
+});
+
+test('programme : complet → ni erreur ni avertissement', () => {
+  const r = valider(avecProgramme('complet', { le: '2026-11-20' }));
+  assert.equal(r.erreurs.length, 0, messages(r));
+  assert.doesNotMatch(avertissements(r), /programme/i);
+});
+
+test('programme : partiel avec section de couverture → avertissement seulement', () => {
+  const r = valider(avecProgramme('partiel', { le: '2026-11-20', couverture: '| chapitre 1 | [p](https://exemple.fr/p/1) | 2026-11-20 | lu |\n| chapitre 2 | [p](https://exemple.fr/p/2) | | non lu |' }));
+  assert.equal(r.erreurs.length, 0, messages(r));
+  assert.match(avertissements(r), /programme non lu en entier/);
+});
+
+test('programme : partiel ou non sans section ni demande → erreur', () => {
+  assert.match(messages(valider(avecProgramme('partiel'))), /couverture du programme/i);
+  assert.match(messages(valider(avecProgramme('non'))), /couverture du programme/i);
+  assert.match(messages(valider(enchainer(avecProgramme('non'), demande('Dupont', 'traité (2026-11-21)')))), /couverture du programme/i,
+    'une demande déjà traitée ne compte pas');
+});
+
+test('programme : non sans section mais demandé dans veille/a-recuperer.md → avertissement seulement', () => {
+  const r = valider(enchainer(avecProgramme('non'), demande('Dupont')));
+  assert.equal(r.erreurs.length, 0, messages(r));
+  assert.match(avertissements(r), /programme non lu en entier/);
+});
+
+test('programme : sans programme_url → programme_lu vide ; gabarit sans contrôle', () => {
+  const r = valider();
+  assert.equal(r.erreurs.length, 0, messages(r));
+  assert.match(messages(valider((d) => editer(d, 'candidats/dupont-jean.md', (t) => t.replace(/^programme_lu:.*$/m, 'programme_lu: complet')))),
+    /programme_lu sans programme_url/);
+});
+
+test('programme : programme_lu_le mal formé, état de couverture inconnu → erreur', () => {
+  assert.match(messages(valider(avecProgramme('complet', { le: '20/11/2026' }))), /programme_lu_le .* n'est pas une date/);
+  assert.match(messages(valider(avecProgramme('partiel', { couverture: '| chapitre 1 | [p](https://exemple.fr/p/1) | | à lire |' }))), /état « à lire » invalide/);
+});
+
+test('programme : demande d’un autre document que le programme → ne dispense pas de la couverture', () => {
+  const autre = (d) => {
+    mkdirSync(join(d, 'veille'), { recursive: true });
+    ecrire(d, 'veille/a-recuperer.md', '| document | lien | candidat | pourquoi | ce qu\'on en attend | état |\n|---|---|---|---|---|---|\n| Tribune sur les retraites | [p](https://exemple.fr/p) | Dupont | refusé | tout | demandé (2026-11-24) |\n');
+  };
+  assert.match(messages(valider(enchainer(avecProgramme('non'), autre))), /couverture du programme/i);
+});
+
+test('programme : correspondance du candidat sur le nom de famille entier, liste séparée par des virgules', () => {
+  assert.match(messages(valider(enchainer(avecProgramme('non'), demande('pont')))), /couverture du programme/i, 'fin de mot seulement');
+  assert.match(messages(valider(enchainer(avecProgramme('non'), demande('t')))), /couverture du programme/i);
+  const r = valider(enchainer(avecProgramme('non'), demande('Martin, Dupont')));
+  assert.equal(r.erreurs.length, 0, messages(r));
+});

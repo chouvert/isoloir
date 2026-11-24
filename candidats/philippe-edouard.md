@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2024-09-03
 programme_url: https://www.edouardphilippe.fr/programme
 programme_version: v1 (2026-11-12) — programme en ligne sur edouardphilippe.fr/programme, 15 thématiques, « Mise à jour le 12 novembre 2026 », consulté le 2026-11-14 ; complété par les priorités (non datées) et les déclarations de campagne ; livret de 142 mesures présenté en conférence de presse le 2026-11-18 (« V1 », livret non lu, compte rendu de Public Sénat)
+programme_lu: partiel
+programme_lu_le: 2026-11-14
 derniere_maj: 2026-11-21
 ---
 
@@ -248,6 +250,29 @@ dédiée ni un résumé en quelques mesures ; « Parlons santé chez vous » (20
 - 2026-11-12 : mise en ligne d'une section « programme » de 15 thématiques (« Mise à jour le 12 novembre 2026 »), qui reprend les quatre pages de priorités et les complète (prisons, juges de paix, RSA, armements « made in Europe », etc.) ; elle devient la source principale de la fiche [edouardphilippe.fr, Le programme](https://www.edouardphilippe.fr/programme)
 - 2026-11-12 : le programme étend l'interdiction du téléphone portable au lycée (les priorités visaient l'école primaire et le collège) (educ-06) [Programme « École »](https://www.edouardphilippe.fr/programme/ecole)
 - 2026-11-12 : service national : à la question du rétablissement du service militaire obligatoire, le programme répond « Édouard Philippe mise d’abord sur l’engagement » et met en avant le service militaire volontaire, alors que l'entretien au Point du 2026-10-27, rapporté par L'Express, présentait un service national obligatoire (europe-06) ; écart à confirmer, sans effet sur les dilemmes [Programme « Défense »](https://www.edouardphilippe.fr/programme/defense) ; [Orange Actualités (L'Express), 2026-10-27](https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html)
+
+## Couverture du programme
+| partie | adresse | lu le | état |
+|--------|---------|-------|------|
+| index du programme (15 thématiques) | [page](https://www.edouardphilippe.fr/programme) | 2026-11-14 | lu |
+| Finances publiques | [page](https://www.edouardphilippe.fr/programme/comptes-publics) | 2026-11-14 | lu |
+| Retraites | [page](https://www.edouardphilippe.fr/programme/retraites) | 2026-11-14 | lu |
+| Travail et salaires | [page](https://www.edouardphilippe.fr/programme/travail) | 2026-11-14 | lu |
+| Énergie | [page](https://www.edouardphilippe.fr/programme/energie) | 2026-11-14 | lu |
+| Justice | [page](https://www.edouardphilippe.fr/programme/justice) | 2026-11-14 | lu |
+| École | [page](https://www.edouardphilippe.fr/programme/ecole) | 2026-11-14 | lu |
+| Défense (modifiée le 2026-11-23 selon la veille) | [page](https://www.edouardphilippe.fr/programme/defense) | 2026-11-14 | à relire |
+| Sécurité (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/securite) |  | non lu |
+| Immigration (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/immigration) |  | non lu |
+| Entreprises et industrie (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/entreprises) |  | non lu |
+| Famille (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/famille) |  | non lu |
+| Protection de l'enfance (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/protection-de-l-enfance) |  | non lu |
+| Adaptation climatique (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/adaptation-climatique) |  | non lu |
+| Outre-mer (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/outre-mer) |  | non lu |
+| Intelligence artificielle (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/intelligence-artificielle) |  | non lu |
+| Handicap (page apparue après le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/handicap) |  | non lu |
+| Logement (page apparue après le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/logement) |  | non lu |
+| livret « V1 » de 142 mesures (2026-11-18), demandé dans veille/a-recuperer.md | [présentation](https://www.edouardphilippe.fr/actualites/edouard-philippe-presente-le-premier-volume-de-son-programme-presidentiel) |  | non lu |
 
 ## Analyse de faisabilité (Claude)
 _Analysée le : AAAA-MM-JJ · sur programme vX · confiance : élevé | moyen | faible_

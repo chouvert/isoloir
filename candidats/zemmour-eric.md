@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2026-09-17
 programme_url:
 programme_version: pas de programme 2027 publié trouvé au 2026-10-31 ; déclarations de campagne (mai-octobre 2026) + programme européen de Reconquête (2024) pour quelques positions
+programme_lu:
+programme_lu_le:
 derniere_maj: 2026-11-14
 ---
 

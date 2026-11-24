@@ -200,6 +200,12 @@ choix. Les phares sont revus à chaque mise à jour du programme.
 - Mettre à jour `derniere_maj` dans le frontmatter à chaque modification de fiche.
 - Quand un programme change de version, incrémenter `programme_version` et consigner le
   changement dans « Évolutions / revirements ».
+- Avec un `programme_url`, `programme_lu` dit si le programme a été lu `complet`, `partiel` ou `non`, et
+  `programme_lu_le` donne la date de la dernière lecture ; les deux restent vides sans programme publié.
+- `partiel` ou `non` : la section « Couverture du programme » (après « Évolutions / revirements ») liste les parties
+  avec leur état (`lu`, `non lu`, `à relire` si la page a changé depuis la lecture ou n'a été lue que par extraits), sauf si
+  le programme est demandé
+  dans `veille/a-recuperer.md`. Sinon `npm run valider` signale une erreur ; dans tous les cas, un avertissement.
 - Les analyses de faisabilité sont refaites pour tous les candidats à la même date afin de
   garder une base de comparaison homogène.
 - L'historique Git sert de journal : un commit par mise à jour cohérente, avec un message

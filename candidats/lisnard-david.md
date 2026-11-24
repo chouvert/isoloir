@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2026-03-31
 programme_url: https://www.unenouvelleenergie.fr/notre-programme/
 programme_version: « Le programme de David Lisnard pour 2027 » sur unenouvelleenergie.fr (pages non datées, consultées le 2026-10-25) + discours et annonces de campagne (2026-03-31 à 2026-10-28)
+programme_lu: partiel
+programme_lu_le: 2026-10-25
 derniere_maj: 2026-11-14
 ---
 
@@ -237,6 +239,18 @@ NE = pages du programme sur unenouvelleenergie.fr (non datées). -->
 - 2026-03-31 : candidature déclarée sans primaire, alors qu'en janvier 2025 il conditionnait sa candidature à l'ouverture de la primaire des Républicains à l'ensemble de la droite et du centre droit ; il continue de demander une primaire ouverte [Wikipédia](https://en.wikipedia.org/wiki/David_Lisnard) ; [LCP, 2026-04-01](https://lcp.fr/actualites/je-suis-candidat-david-lisnard-quitte-lr-et-relance-le-debat-sur-une-primaire-a-droite)
 - 2026-10-16 : chiffrage des économies présenté comme 200 Md€ « en année pleine en fin de quinquennat » (FAQ du parti), soit « par an » selon L'Essentiel de l'Éco (2026-10-21), alors qu'une tribune de juillet 2025 évoquait « 200 milliards cumulés sur cinq ans » selon L'Essentiel de l'Éco, et que le candidat parlait le 2026-05-27 de « 200 milliards sur le quinquennat » [NE, FAQ, 2026-10-16](https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/) ; [L'Essentiel de l'Éco, 2026-10-21](https://lessentieldeleco.fr/8893-david-lisnard-la-surprise-de-la-course-a-lelysee/) ; [Europe 1, 2026-05-27](https://www.europe1.fr/politique/aujourdhui-en-france-on-depouille-les-actifs-au-profit-des-inactifs-denonce-david-lisnard-938960) ; le 2026-10-28, il parle encore de 200 Md€ d'économies sur cinq ans [Times of Israel (AFP), 2026-10-28](https://fr.timesofisrael.com/presidentielle-lisnard-appelle-ciotti-a-se-separer-du-rn-et-a-le-rejoindre/)
 - 2026-10-21 : (date de l'article qui constate le changement) fonction publique : le plan de juillet 2025 prévoyait « la suppression progressive de 600 000 postes dans les fonctions administratives » ; la communication actualisée porte sur le non-remplacement d'une partie des « quelque 500 000 départs annuels », sans solde net annoncé [L'Essentiel de l'Éco, 2026-10-21](https://lessentieldeleco.fr/8893-david-lisnard-la-surprise-de-la-course-a-lelysee/)
+
+## Couverture du programme
+| partie | adresse | lu le | état |
+|--------|---------|-------|------|
+| page d'accueil du programme | [programme](https://www.unenouvelleenergie.fr/notre-programme/) | 2026-10-25 | lu |
+| axe « Être maître de notre destin » (lu par extraits) | [page](https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/) | 2026-10-25 | à relire |
+| axe « Réussir une nouvelle ambition française » (lu par extraits) | [page](https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/) | 2026-10-25 | à relire |
+| axe « Générer un renouveau civique » (lu par extraits) | [page](https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/) | 2026-10-25 | à relire |
+| thèmes immigration, sécurité, éducation, santé, agriculture (lus par extraits) | [immigration](https://www.unenouvelleenergie.fr/notre-programme/immigration/) | 2026-10-25 | à relire |
+| page « pôle de travail et d'idées » | [page](https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees) |  | non lu |
+| livret santé (PDF, mai 2026) | [page santé](https://www.unenouvelleenergie.fr/notre-programme/sante/) |  | non lu |
+| livret agriculture (PDF, février 2026) | [page agriculture](https://www.unenouvelleenergie.fr/notre-programme/agriculture/) |  | non lu |
 
 ## Analyse de faisabilité (Claude)
 _Analysée le : AAAA-MM-JJ · sur programme vX · confiance : élevé | moyen | faible_

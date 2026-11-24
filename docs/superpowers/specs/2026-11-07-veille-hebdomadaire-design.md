@@ -139,6 +139,9 @@ filtre, dédoublonnage, identifiant stable, format JSONL et Markdown, comptage d
 Semaine sans changement : la PR est quand même ouverte, avec le seul journal des sources et la mention
 « aucun changement », pour que Julien sache que la veille a tourné.
 
+Programmes : suivi page par page, plafond des 8 liens levé pour eux et couverture dans les fiches, voir
+`2026-11-15-suivi-programmes-design.md` (sections 1, 3 et 4).
+
 ## 3. Évolution du référentiel
 
 ### Registre — `referentiel/sujets-emergents.md`

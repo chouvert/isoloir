@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2026-05-22
 programme_url: https://attalpresident.fr/programme
 programme_version: « mes chantiers capitaux » sur attalpresident.fr (non daté, consulté le 2026-10-25 ; inaccessible le 2026-10-31) + lettre aux Français (2026-10-15) + déclarations de campagne
+programme_lu: partiel
+programme_lu_le: 2026-10-25
 derniere_maj: 2026-11-14
 ---
 
@@ -225,6 +227,19 @@ Mise à jour du 2026-11-14 : non retenus, le grand oral de Radio France sur les 
 - 2026-09-23 : plan d'économies fixé à 150 Md€ (conférence de presse sur le désendettement), contre une fourchette de 120 à 150 Md€ dans Le Parisien le 2026-07-02 [attalpresident.fr, conférence de presse, 2026-09-23](https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises) ; [MoneyVox (AFP), 2026-07-03](https://www.moneyvox.fr/impot/actualites/109548/attal-veut-100-000-departs-volontaires-de-fonctionnaires-et-impunite-budgetaire-zero)
 - 2026-10-15 : équilibre des comptes de la Sécurité sociale « en trois ans » dans la lettre aux Français, contre « un équilibre des comptes sociaux en 2032 » lors de la conférence de presse du 2026-09-23 [attalpresident.fr, lettre aux Français, 2026-10-15](https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques) ; [attalpresident.fr, conférence de presse, 2026-09-23](https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises)
 - 2026-10-15 : équilibre budgétaire visé « d'ici 2037 » (double règle d'or, « d'ici dix ans »), contre une règle d'or d'équilibre à atteindre en sept ans dans Le Parisien du 2026-07-02 [La Gazette France (AFP), 2026-10-15](https://www.lagazettefrance.fr/article/presidentielle-attal-pour-une-coalition-des-democrates) ; [MoneyVox (AFP), 2026-07-03](https://www.moneyvox.fr/impot/actualites/109548/attal-veut-100-000-departs-volontaires-de-fonctionnaires-et-impunite-budgetaire-zero)
+
+## Couverture du programme
+| partie | adresse | lu le | état |
+|--------|---------|-------|------|
+| page d'accueil du programme (« mes chantiers capitaux ») | [programme](https://attalpresident.fr/programme) | 2026-10-25 | à relire |
+| chantier « dette de l'État », lu par extraits | [page](https://attalpresident.fr/programme/dette-de-letat) | 2026-10-25 | à relire |
+| chantier « dette écologique », lu par extraits | [page](https://attalpresident.fr/programme/dette-ecologique) | 2026-10-25 | à relire |
+| chantier « éducation », lu par extraits | [page](https://attalpresident.fr/programme/education) | 2026-10-25 | à relire |
+| chantier « frontières », lu par extraits | [page](https://attalpresident.fr/programme/frontieres) | 2026-10-25 | à relire |
+| chantier « intelligence artificielle », lu par extraits | [page](https://attalpresident.fr/programme/intelligence-artificielle) | 2026-10-25 | à relire |
+| chantier « travail et salaires », lu par extraits | [page](https://attalpresident.fr/programme/travail-salaires) | 2026-10-25 | à relire |
+| pages « mesures » (environ 150 au 2026-11-24, dont 13 publiées le 2026-11-24) | [programme](https://attalpresident.fr/programme) |  | non lu |
+| pages « publics » et « thématiques » | [programme](https://attalpresident.fr/programme) |  | non lu |
 
 ## Analyse de faisabilité (Claude)
 _Analysée le : AAAA-MM-JJ · sur programme vX · confiance : élevé | moyen | faible_

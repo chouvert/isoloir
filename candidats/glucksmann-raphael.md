@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2026-08-23
 programme_url:
 programme_version: pas de programme complet publié au 2026-11-14 ; premier volet du plan des « 100 jours » (énergie, 2026-11-09), déclarations et déplacements de campagne
+programme_lu:
+programme_lu_le:
 derniere_maj: 2026-11-21
 ---
 

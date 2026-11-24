@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2025-10-22
 programme_url: https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027
 programme_version: « Pour une prospérité écologique », programme des Écologistes (juillet 2026, 557 mesures) + déclarations et annonces de campagne (2025-10-22 à 2026-11-18), dont le livret culture (novembre 2026)
+programme_lu: complet
+programme_lu_le: 2026-10-26
 derniere_maj: 2026-11-21
 ---
 

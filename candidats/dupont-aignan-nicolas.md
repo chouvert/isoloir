@@ -8,6 +8,8 @@ inclus: oui
 date_declaration: 2025-03-08
 programme_url: https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/
 programme_version: projet économique 2027 (livret « Nos 30 mesures » et « Cahier rouge » de financement, 2026-11-12) + pages « Projet » de Debout la France (livrets datés de 2025 et 2026 par leur nom de fichier, mise à jour pour 2027 en cours) + discours et déclarations de campagne (2025-03-08 à 2026-11-12)
+programme_lu: partiel
+programme_lu_le: 2026-11-14
 derniere_maj: 2026-11-14
 ---
 
@@ -236,6 +238,15 @@ Chiffrages annoncés : Cahier rouge (2026-11-12), montant de l'année 2031-2032 
 - 2026-04-23 : confirme sa candidature sur X [info.fr, 2026-04-23](https://info.fr/yerres-dupont-aignan-candidature-presidentielle-2027-sursaut-gaulliste/)
 - 2026-09-19 : discours de rentrée de Yerres ; la sortie de l'Union européenne devient le premier des « 4 points cardinaux » du projet, et le 2026-09-20 : « Je veux sortir de l'Union européenne pour rendre son indépendance à la France » (revirement par rapport au « dernière solution » de mars 2025) [discours de Yerres, 2026-09-19](https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/) ; [Sud Radio, 2026-09-20](https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible)
 - 2026-11-12 : présentation du projet économique et de son financement ; budget de défense ramené de 2,5 % du PIB (page Défense du parti, livret daté du 2025-04-15) à 2,3 % ; effectifs de police et de gendarmerie portés de 10 000 (page Sécurité, livret daté du 2025-10-31) à 30 000 recrutements ; hausse des salaires des professeurs portée de 15 % en 4 ans (page Éducation, non datée) à 20 % puis 20 % sous condition [Cahier rouge, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf) ; [Debout la France, Défense](https://www.debout-la-france.fr/projet/defense/) ; [Debout la France, Sécurité](https://www.debout-la-france.fr/projet/securite/) ; [Debout la France, Éducation](https://www.debout-la-france.fr/projet/instruction-publique/)
+
+## Couverture du programme
+| partie | adresse | lu le | état |
+|--------|---------|-------|------|
+| livret « Nos 30 mesures » (projet économique, 2026-11-12) | [PDF](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf) | 2026-11-14 | lu |
+| « Cahier rouge » du financement (2026-11-12) | [PDF](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf) | 2026-11-14 | lu |
+| pages « Projet » de Debout la France citées dans la fiche (11 pages) | [justice](https://www.debout-la-france.fr/projet/justice/) | 2026-11-14 | lu |
+| autres pages « Projet » (31 pages suivies au 2026-11-24) | [justice](https://www.debout-la-france.fr/projet/justice/) |  | non lu |
+| livrets PDF liés aux pages « Projet » | [justice](https://www.debout-la-france.fr/projet/justice/) |  | non lu |
 
 ## Analyse de faisabilité (Claude)
 _Analysée le : AAAA-MM-JJ · sur programme vX · confiance : élevé | moyen | faible_

@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2026-01-26
 programme_url: https://nouspresident.fr/cahiers-de-campagne/
 programme_version: « Cahiers de campagne » de Nous président ! (7 cahiers thématiques, 2026-04-13 à 2026-10-15) + Plan DATA CENTERS (2026-10-08) + déclarations de campagne (2026-01-26 à 2026-10-22)
+programme_lu: partiel
+programme_lu_le: 2026-10-31
 derniere_maj: 2026-10-31
 ---
 
@@ -227,6 +229,24 @@ travailleurs essentiels (2026-04-13). -->
 - 2026-09-09 : se dit « toujours prêt » à participer à la primaire organisée par le PS, Place publique et la GRS, qui lui reste fermée [LCP, 2026-09-09](https://lcp.fr/actualites/primaire-de-gauche-toujours-pret-a-y-participer-francois-ruffin-reproche-a-raphael) ; [Public Sénat, 2026-09-08](https://www.publicsenat.fr/actualites/politique/francois-ruffin-tente-par-la-primaire-du-ps-mais-rabroue-par-raphael-glucksmann-que-disent-les-regles-de-participation-a-ce-scrutin)
 - 2026-09-12 : à la Fête de l'Humanité, abandonne l'idée de participer à la primaire socialiste et appelle à une union plus large de la gauche [Orange Actualités (Courrier Picard), 2026-09-12](https://actu.orange.fr/videos/actu-locale/a-la-fete-de-l-huma-francois-ruffin-abandonne-l-idee-de-participer-a-la-primaire-socialiste-CNT000002rRCyO.html)
 - 2026-10-11 : réagit à la victoire de Glucksmann sans retrait : « Quelle surprise ! Raphaël Glucksmann remporte la primaire de Raphaël à Glucksmann ! » [LCP, 2026-10-11](https://lcp.fr/actualites/victoire-de-raphael-glucksmann-a-la-primaire-socialiste-premieres-reactions-des)
+
+## Couverture du programme
+| partie | adresse | lu le | état |
+|--------|---------|-------|------|
+| page des cahiers de campagne | [cahiers](https://nouspresident.fr/cahiers-de-campagne/) | 2026-10-31 | lu |
+| cahier 01, travailleurs essentiels | [page](https://nouspresident.fr/statut-travailleurs-essentiels/) | 2026-10-31 | lu |
+| cahier 02, séparation de l'argent et de l'État | [page](https://nouspresident.fr/separation-argent-etat/) | 2026-10-31 | lu |
+| cahier 03, loisirs | [page](https://nouspresident.fr/temps-loisirs/) | 2026-10-31 | lu |
+| cahier 04, exception agricole | [page](https://nouspresident.fr/pour-une-exception-agriculturelle-francaise/) | 2026-10-31 | lu |
+| cahier 05, travaillisme écologique | [page](https://nouspresident.fr/travaillisme-ecologique/) | 2026-10-31 | lu |
+| cahier 06, logement | [page](https://nouspresident.fr/face-a-la-crise-du-logement-faire-sauter-le-verrou/) | 2026-10-31 | lu |
+| cahier 07, industrie | [page](https://nouspresident.fr/pour-proteger-notre-industrie-relocaliser-100-produits-strategiques/) | 2026-10-31 | lu |
+| Plan DATA CENTERS | [page](https://nouspresident.fr/plan-data-centers/) | 2026-10-31 | lu |
+| cahier éducation | [page](https://nouspresident.fr/education-une-ecole-de-tous-les-savoirs) |  | non lu |
+| cahier démocratie | [page](https://nouspresident.fr/pour-une-democratie-en-continu-vive-les-etats-generaux) |  | non lu |
+| cahier numérique | [page](https://nouspresident.fr/de-la-colonie-numerique-aux-souverainetes-numeriques) |  | non lu |
+| cahier jeunesse | [page](https://nouspresident.fr/redonner-aux-jeunes-les-clefs-de-leur-avenir) |  | non lu |
+| livrets PDF téléchargeables des cahiers | [cahiers](https://nouspresident.fr/cahiers-de-campagne/) |  | non lu |
 
 ## Analyse de faisabilité (Claude)
 _Analysée le : AAAA-MM-JJ · sur programme vX · confiance : élevé | moyen | faible_
