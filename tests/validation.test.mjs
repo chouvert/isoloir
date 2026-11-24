@@ -480,3 +480,18 @@ test('programme : programme_lu_le mal formé, état de couverture inconnu → er
   assert.match(messages(valider(avecProgramme('complet', { le: '20/11/2026' }))), /programme_lu_le .* n'est pas une date/);
   assert.match(messages(valider(avecProgramme('partiel', { couverture: '| chapitre 1 | [p](https://exemple.fr/p/1) | | à lire |' }))), /état « à lire » invalide/);
 });
+
+test('programme : demande d’un autre document que le programme → ne dispense pas de la couverture', () => {
+  const autre = (d) => {
+    mkdirSync(join(d, 'veille'), { recursive: true });
+    ecrire(d, 'veille/a-recuperer.md', '| document | lien | candidat | pourquoi | ce qu\'on en attend | état |\n|---|---|---|---|---|---|\n| Tribune sur les retraites | [p](https://exemple.fr/p) | Dupont | refusé | tout | demandé (2026-11-24) |\n');
+  };
+  assert.match(messages(valider(enchainer(avecProgramme('non'), autre))), /couverture du programme/i);
+});
+
+test('programme : correspondance du candidat sur le nom de famille entier, liste séparée par des virgules', () => {
+  assert.match(messages(valider(enchainer(avecProgramme('non'), demande('pont')))), /couverture du programme/i, 'fin de mot seulement');
+  assert.match(messages(valider(enchainer(avecProgramme('non'), demande('t')))), /couverture du programme/i);
+  const r = valider(enchainer(avecProgramme('non'), demande('Martin, Dupont')));
+  assert.equal(r.erreurs.length, 0, messages(r));
+});

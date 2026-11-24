@@ -244,10 +244,10 @@ NE = pages du programme sur unenouvelleenergie.fr (non datées). -->
 | partie | adresse | lu le | état |
 |--------|---------|-------|------|
 | page d'accueil du programme | [programme](https://www.unenouvelleenergie.fr/notre-programme/) | 2026-10-25 | lu |
-| axe « Être maître de notre destin » (lu par extraits) | [page](https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/) | 2026-10-25 | lu |
-| axe « Réussir une nouvelle ambition française » (lu par extraits) | [page](https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/) | 2026-10-25 | lu |
-| axe « Générer un renouveau civique » (lu par extraits) | [page](https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/) | 2026-10-25 | lu |
-| thèmes immigration, sécurité, éducation, santé, agriculture | [immigration](https://www.unenouvelleenergie.fr/notre-programme/immigration/) | 2026-10-25 | lu |
+| axe « Être maître de notre destin » (lu par extraits) | [page](https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/) | 2026-10-25 | à relire |
+| axe « Réussir une nouvelle ambition française » (lu par extraits) | [page](https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/) | 2026-10-25 | à relire |
+| axe « Générer un renouveau civique » (lu par extraits) | [page](https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/) | 2026-10-25 | à relire |
+| thèmes immigration, sécurité, éducation, santé, agriculture (lus par extraits) | [immigration](https://www.unenouvelleenergie.fr/notre-programme/immigration/) | 2026-10-25 | à relire |
 | page « pôle de travail et d'idées » | [page](https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees) |  | non lu |
 | livret santé (PDF, mai 2026) | [page santé](https://www.unenouvelleenergie.fr/notre-programme/sante/) |  | non lu |
 | livret agriculture (PDF, février 2026) | [page agriculture](https://www.unenouvelleenergie.fr/notre-programme/agriculture/) |  | non lu |

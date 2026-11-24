@@ -130,7 +130,7 @@ guillemets, nom ni source (règles : referentiel/anonymisation.md). C'est le tex
 | partie | adresse | lu le | état |
 |--------|---------|-------|------|
 | chapitre 1 | [titre](url) | AAAA-MM-JJ | lu |
-États : lu | non lu | à relire (page modifiée depuis la lecture). -->
+États : lu | non lu | à relire (page modifiée depuis la lecture, ou lue seulement par extraits). -->
 
 ## Analyse de faisabilité (Claude)
 _Analysée le : AAAA-MM-JJ · sur programme vX · confiance : élevé | moyen | faible_

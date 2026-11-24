@@ -315,7 +315,8 @@ function validerCouverture(fichier, data, sCouv, demandes, rapport) {
   }
   if (lu === 'complet') return;
   const nom = normaliser(data.nom);
-  const demande = demandes.some((c) => c && nom.endsWith(c));
+  // Nom de famille entier : « Le Pen » trouve « Marine Le Pen », « Pen » ne trouve rien.
+  const demande = demandes.some((c) => c && (nom === c || nom.endsWith(` ${c}`)));
   if (!lignes && !demande) {
     rapport.erreur(fichier, 1, `programme_lu « ${lu} » : ajouter la section « ## Couverture du programme » ou demander le programme dans ${FICHIER_A_RECUPERER}`);
   } else {
@@ -323,13 +324,17 @@ function validerCouverture(fichier, data, sCouv, demandes, rapport) {
   }
 }
 
-/** Candidats (colonne « candidat », normalisée) dont un document est demandé dans veille/a-recuperer.md. */
+/**
+ * Candidats (colonne « candidat », normalisée ; plusieurs séparés par des virgules) dont le **programme** est demandé
+ * dans veille/a-recuperer.md : colonne document contenant « programme », état « demandé ».
+ */
 export function lireDemandes(racine) {
   if (!existsSync(join(racine, FICHIER_A_RECUPERER))) return [];
-  const t = trouverTableau(lireTableaux(lire(racine, FICHIER_A_RECUPERER)), ['candidat', 'état']);
+  const t = trouverTableau(lireTableaux(lire(racine, FICHIER_A_RECUPERER)), ['document', 'candidat', 'état']);
   if (!t) return [];
-  return t.lignes.filter(({ cellules }) => normaliser(cellules[normaliser('état')]).startsWith('demande'))
-    .map(({ cellules }) => normaliser(cellules.candidat));
+  return t.lignes.filter(({ cellules }) => normaliser(cellules[normaliser('état')]).startsWith('demande')
+    && /\bprogramme\b/.test(normaliser(cellules.document)))
+    .flatMap(({ cellules }) => String(cellules.candidat ?? '').split(/[,;]/).map(normaliser).filter(Boolean));
 }
 
 function parserNote(texte) {

@@ -232,12 +232,12 @@ Mise à jour du 2026-11-14 : non retenus, le grand oral de Radio France sur les 
 | partie | adresse | lu le | état |
 |--------|---------|-------|------|
 | page d'accueil du programme (« mes chantiers capitaux ») | [programme](https://attalpresident.fr/programme) | 2026-10-25 | à relire |
-| chantier « dette de l'État » | [page](https://attalpresident.fr/programme/dette-de-letat) | 2026-10-25 | lu |
-| chantier « dette écologique » | [page](https://attalpresident.fr/programme/dette-ecologique) | 2026-10-25 | lu |
-| chantier « éducation » | [page](https://attalpresident.fr/programme/education) | 2026-10-25 | lu |
-| chantier « frontières » | [page](https://attalpresident.fr/programme/frontieres) | 2026-10-25 | lu |
-| chantier « intelligence artificielle » | [page](https://attalpresident.fr/programme/intelligence-artificielle) | 2026-10-25 | lu |
-| chantier « travail et salaires » | [page](https://attalpresident.fr/programme/travail-salaires) | 2026-10-25 | lu |
+| chantier « dette de l'État », lu par extraits | [page](https://attalpresident.fr/programme/dette-de-letat) | 2026-10-25 | à relire |
+| chantier « dette écologique », lu par extraits | [page](https://attalpresident.fr/programme/dette-ecologique) | 2026-10-25 | à relire |
+| chantier « éducation », lu par extraits | [page](https://attalpresident.fr/programme/education) | 2026-10-25 | à relire |
+| chantier « frontières », lu par extraits | [page](https://attalpresident.fr/programme/frontieres) | 2026-10-25 | à relire |
+| chantier « intelligence artificielle », lu par extraits | [page](https://attalpresident.fr/programme/intelligence-artificielle) | 2026-10-25 | à relire |
+| chantier « travail et salaires », lu par extraits | [page](https://attalpresident.fr/programme/travail-salaires) | 2026-10-25 | à relire |
 | pages « mesures » (environ 150 au 2026-11-24, dont 13 publiées le 2026-11-24) | [programme](https://attalpresident.fr/programme) |  | non lu |
 | pages « publics » et « thématiques » | [programme](https://attalpresident.fr/programme) |  | non lu |
 

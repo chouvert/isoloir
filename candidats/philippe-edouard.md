@@ -254,9 +254,24 @@ dédiée ni un résumé en quelques mesures ; « Parlons santé chez vous » (20
 ## Couverture du programme
 | partie | adresse | lu le | état |
 |--------|---------|-------|------|
-| 15 thématiques du programme en ligne (« Mise à jour le 12 novembre 2026 ») | [programme](https://www.edouardphilippe.fr/programme) | 2026-11-14 | lu |
-| thématique défense (modifiée le 2026-11-23 selon la veille) | [page](https://www.edouardphilippe.fr/programme/defense) | 2026-11-14 | à relire |
-| pages ajoutées depuis le 2026-11-14 (18 pages suivies au 2026-11-24) | [programme](https://www.edouardphilippe.fr/programme) |  | non lu |
+| index du programme (15 thématiques) | [page](https://www.edouardphilippe.fr/programme) | 2026-11-14 | lu |
+| Finances publiques | [page](https://www.edouardphilippe.fr/programme/comptes-publics) | 2026-11-14 | lu |
+| Retraites | [page](https://www.edouardphilippe.fr/programme/retraites) | 2026-11-14 | lu |
+| Travail et salaires | [page](https://www.edouardphilippe.fr/programme/travail) | 2026-11-14 | lu |
+| Énergie | [page](https://www.edouardphilippe.fr/programme/energie) | 2026-11-14 | lu |
+| Justice | [page](https://www.edouardphilippe.fr/programme/justice) | 2026-11-14 | lu |
+| École | [page](https://www.edouardphilippe.fr/programme/ecole) | 2026-11-14 | lu |
+| Défense (modifiée le 2026-11-23 selon la veille) | [page](https://www.edouardphilippe.fr/programme/defense) | 2026-11-14 | à relire |
+| Sécurité (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/securite) |  | non lu |
+| Immigration (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/immigration) |  | non lu |
+| Entreprises et industrie (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/entreprises) |  | non lu |
+| Famille (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/famille) |  | non lu |
+| Protection de l'enfance (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/protection-de-l-enfance) |  | non lu |
+| Adaptation climatique (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/adaptation-climatique) |  | non lu |
+| Outre-mer (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/outre-mer) |  | non lu |
+| Intelligence artificielle (reportée le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/intelligence-artificielle) |  | non lu |
+| Handicap (page apparue après le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/handicap) |  | non lu |
+| Logement (page apparue après le 2026-11-14) | [page](https://www.edouardphilippe.fr/programme/logement) |  | non lu |
 | livret « V1 » de 142 mesures (2026-11-18), demandé dans veille/a-recuperer.md | [présentation](https://www.edouardphilippe.fr/actualites/edouard-philippe-presente-le-premier-volume-de-son-programme-presidentiel) |  | non lu |
 
 ## Analyse de faisabilité (Claude)

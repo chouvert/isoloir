@@ -24,7 +24,7 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 npm install
 npm run valider          # contrôle des données (0 erreur exigé)
 npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
-node --test tests/*.test.mjs   # ou npm test (184 tests)
+node --test tests/*.test.mjs   # ou npm test (186 tests)
 npm run veille -- --sortie <dossier>   # collecte de veille (le workflow quotidien la lance sur la branche veille)
 npm run sondages         # moyenne des sondages (veille/sondages.json) pour le rapport hebdomadaire
 cd site && npm install && npm run build   # site Astro (lit donnees/base.json et identite/)
@@ -118,10 +118,12 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
    ne pas ouvrir sa fiche.
    **Programmes d'abord, hors plafond** : les informations « **Programme** » du journal (page nouvelle, modifiée, apparue,
    blocs communs modifiés) ne comptent pas dans les 8 liens et passent avant le reste. Chaque page est lue en entier ;
-   sinon (tronquée, refusée) : ligne dans `veille/a-recuperer.md` avec son lien direct. Programme entier nouveau (plus de
-   10 pages) : lecture étalée sur plusieurs samedis, chapitres liés aux dilemmes et aux questions-clés d'abord. Mettre à
+   sinon (tronquée, refusée) : le programme du candidat est demandé dans `veille/a-recuperer.md` (une seule ligne par
+   candidat, lien direct de la page ou du PDF, dans la limite de 5 demandes de l'étape 6, les programmes d'abord).
+   Programme entier nouveau, ou plus de 10 pages nouvelles ou modifiées d'un même candidat : lecture étalée sur plusieurs
+   samedis, pages liées aux dilemmes et aux questions-clés d'abord, le reste noté `à relire` ou `non lu`. Mettre à
    jour `programme_lu`, `programme_lu_le` et la section « Couverture du programme » de la fiche (une page lue qui a changé
-   depuis passe à `à relire`). « Page retirée » : vérifier si la mesure est abandonnée (revirement) ou seulement déplacée.
+   depuis, ou lue seulement par extraits, est `à relire`). « Page retirée » : vérifier si la mesure est abandonnée (revirement) ou seulement déplacée.
 4. **Sujets.** Attribuer un sujet à chaque information retenue ; mettre à jour `referentiel/sujets-emergents.md`.
 5. **Vérification.** Un agent neuf contrôle uniquement les rattachements modifiés, les phares modifiés et les entrées ou
    sorties de candidats (sources lues, règles appliquées). Appliquer ses corrections soi-même.
