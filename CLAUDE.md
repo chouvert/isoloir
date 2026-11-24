@@ -24,8 +24,9 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 npm install
 npm run valider          # contrôle des données (0 erreur exigé)
 npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
-node --test tests/*.test.mjs   # ou npm test (172 tests)
+node --test tests/*.test.mjs   # ou npm test (177 tests)
 npm run veille -- --sortie <dossier>   # collecte de veille (le workflow quotidien la lance sur la branche veille)
+npm run sondages         # moyenne des sondages (veille/sondages.json) pour le rapport hebdomadaire
 cd site && npm install && npm run build   # site Astro (lit donnees/base.json et identite/)
 cd site && npm run dev                    # aperçu local sur http://localhost:4321/isoloir/
 ```
@@ -100,6 +101,14 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
    - Entrée : ajout à `candidats-inclus.md` ; fiche dans une PR séparée la même session si le quota le permet (au plus une
      par semaine), sinon signalée dans la PR et rédigée la semaine suivante.
    - Primaire : le vainqueur reste ou entre, les autres sortent (statut `retiré` s'ils se rallient).
+   - **Moyenne des sondages.** Ajouter à `veille/sondages.json` (relevé cumulé, déjà rempli les semaines précédentes) chaque
+     sondage de premier tour publié depuis le dernier relevé par un institut reconnu (Ifop, Elabe, Ipsos bva, Odoxa,
+     OpinionWay, Toluna Harris Interactive, Cluster17, Verian…), lu sur la notice de la Commission des sondages ou la
+     publication de l'institut : institut, commanditaire, terrain, date de publication, échantillon, **une seule hypothèse**
+     (celle que l'institut met en avant, sinon la plus proche des candidats retenus) et les scores lus, jamais inventés
+     (score illisible : laissé de côté). Puis `npm run sondages` : moyenne simple par candidat sur 30 jours (60 si aucun,
+     signalé), arrondie au demi-point, nombre de sondages, « testé dans N sondage(s) seulement » sous la moitié. Recopier
+     sa section dans la PR et sa ligne « Résumé » dans le résumé final. Ces chiffres ne modifient aucune fiche ni l'inclusion.
 3. **Fiches.** Pour chaque candidat ayant des entrées dans le journal : classer chaque information (nouvelle mesure,
    revirement, annonce dédiée candidate aux phares, sans objet) ; ouvrir au plus **8 liens** retenus, les plus récents et
    les plus importants d'abord (programme, annonce dédiée, revirement), le reste reporté ; appliquer la grille R1 à R5 ;
@@ -115,7 +124,8 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
    résultats** (programme, annonce dédiée, seule source d'un candidat) ; au plus 5 demandés à la fois, les plus importants
    d'abord. Chaque document a son **lien direct** (URL de la page ou du PDF, pas une page d'accueil ni un résultat de
    recherche) : Julien l'ouvre et l'enregistre sans chercher. Un document reçu passe à `traité` ; un document demandé sans réponse depuis deux samedis est `abandonné`, sauf un
-   programme. Le résumé final de la tâche (notification) se termine par « N document(s) à récupérer » s'il y en a.
+   programme. Le résumé final de la tâche (notification) contient la ligne « Sondages (moyenne de N sondages, du JJ/MM au
+   JJ/MM) : … » donnée par `npm run sondages` et se termine par « N document(s) à récupérer » s'il y en a.
 
 **Seconde PR « Référentiel : … »** (au plus une par semaine), si un déclencheur de `sujets-emergents.md` est atteint : depuis
 la branche hebdomadaire ; élément rédigé selon les règles de `dilemmes.md` ou `questions.md` ; position ou rattachement sourcé
@@ -133,6 +143,10 @@ Retenus (tous, ordre alphabétique) :
 Pressentis à surveiller :
 | personnalité | situation | à surveiller |
 Sondages retenus : institut, commanditaire, dates de terrain, fourchette, lien de la notice.
+
+## Sondages — moyenne
+(section produite par `npm run sondages` : tableau candidat / moyenne / sondages, sondages utilisés avec lien, rappel
+qu'un sondage n'est pas une prédiction et que la liste se limite aux sondages accessibles en ligne)
 
 ## 2. Sujets émergents
 Déclencheurs atteints : sujet, candidats, suite donnée (PR « Référentiel », reporté).
