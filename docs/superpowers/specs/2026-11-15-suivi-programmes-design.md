@@ -152,9 +152,17 @@ rédaction, vérification par un agent neuf, PR par fiche, changements de rattac
 
 ## Risques
 
-- **Fausses alertes** : texte qui change sans que le programme change (compteur, date du jour, bandeau). Le
-  découpage en blocs limite l'effet à « +1 / −1 bloc » ; si une page en produit chaque jour, ajouter à la source un
-  champ `ignorer` (expressions à retirer avant l'empreinte). Non réalisé d'emblée.
+- **Fausses alertes** : texte qui change sans que le programme change (compteur, date du jour, bandeau). Constat de
+  la première semaine (2026-11-21 au 24, 89 informations « Programme ») et parades réalisées le 2026-11-24 :
+  - bloc présent sur plusieurs pages d'une source (encadré, résumé d'une mesure repris sur les listes) : compté hors des
+    pages, une seule information « Programme : blocs communs modifiés » par source (nature `programme-communs`) ;
+  - texte des liens vers le même site hors des préfixes (actualités, agenda, menus) retiré avant l'empreinte ;
+    liens de gabarit non remplis (`${…}`, `{{…}}`) écartés ;
+  - champ `ignorer` d'une source : expressions (insensibles à la casse) ; un bloc qui en contient une est écarté ;
+  - champ `max_pages` d'une source : plafond propre (Attal : 250) ;
+  - `empreintes.json` porte `v` (version de la méthode et du champ `ignorer`) : une empreinte d'une autre version est
+    recalée sans être comparée, pour qu'un changement de méthode ne produise pas de fausses alertes ;
+  - mode essai : texte des blocs ajoutés par page modifiée, pour régler `ignorer`.
 - **Sites qui refusent les robots** (marinetondelier.fr le fait déjà ; attalpresident.fr était inaccessible le
   2026-10-31) : la source sera muette ; le dépôt de PDF reste le seul moyen.
 - **Pages construites par JavaScript** : le texte n'est pas dans le HTML reçu, l'empreinte est vide ou constante.
