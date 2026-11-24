@@ -6,6 +6,7 @@ import {
   contientSource, estDateIso, nettoyerId,
 } from './markdown.mjs';
 import { MAX_TEXTE_COURT } from './anonymisation.mjs';
+import { FICHIER_SONDAGES, erreursReleve } from './sondages.mjs';
 
 export const STATUTS_CANDIDAT = ['pressenti', 'déclaré', 'parrainages validés', 'retiré'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -681,6 +682,18 @@ function validerStockage(racine, rapport) {
 // Point d'entrée
 // ---------------------------------------------------------------------------
 
+// Relevé des sondages du rapport hebdomadaire (facultatif) : forme des entrées.
+function validerSondages(racine, rapport) {
+  const chemin = join(racine, FICHIER_SONDAGES);
+  if (!existsSync(chemin)) return;
+  let releve;
+  try { releve = JSON.parse(readFileSync(chemin, 'utf8')); } catch (e) {
+    rapport.erreur(FICHIER_SONDAGES, 1, `JSON illisible : ${e.message}`);
+    return;
+  }
+  for (const m of erreursReleve(releve)) rapport.erreur(FICHIER_SONDAGES, 1, m);
+}
+
 export function validerBase(racine) {
   const rapport = new Rapport();
   for (const f of ['referentiel/themes.md', 'referentiel/questions.md', 'referentiel/faisabilite.md', 'referentiel/dilemmes.md', 'referentiel/preoccupations.md', 'referentiel/version.yml', 'candidats/_modele.md']) {
@@ -705,6 +718,7 @@ export function validerBase(racine) {
 
   validerInclusion(racine, fiches, rapport);
   validerStockage(racine, rapport);
+  validerSondages(racine, rapport);
 
   // Les analyses doivent être faites à la même date pour tous les candidats.
   const dates = new Set([...fiches.values()].filter((f) => f.analyse).map((f) => f.analyse.date));
