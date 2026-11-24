@@ -2,7 +2,8 @@
 
 Documents que la veille et la session du samedi n'ont pas pu lire (PDF tronqué, article réservé aux abonnés, site qui
 refuse les robots) et qui peuvent changer les résultats de L'Isoloir. Julien les enregistre en PDF dans le dossier Google
-Drive privé « Isoloir — sources » ; la session du samedi les lit, cite la source d'origine et met ce tableau à jour.
+Drive privé « Isoloir — sources », à la racine ; la session qui les lit cite la source d'origine, met ce tableau à jour
+et range le fichier dans le sous-dossier « Traités » (rien à ranger ni à supprimer à la main).
 Chaque document a son lien direct, à ouvrir puis enregistrer en PDF. Procédure : `CLAUDE.md`, « Mise à jour hebdomadaire ». Au plus 5 documents demandés à la fois.
 
 États : `demandé` (date de la demande) → `traité` (date de lecture) ; `abandonné` si rien n'arrive en deux samedis,
