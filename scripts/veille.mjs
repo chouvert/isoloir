@@ -63,6 +63,10 @@ if (essai) {
       }
       for (const u of p.refusees) console.log(`    refusée  ${u}`);
       for (const u of p.horsPrefixes ?? []) console.log(`    hors préfixes  ${u}`);
+      for (const m of p.modifiees ?? []) {
+        console.log(`    ${m.communs ? 'blocs communs' : 'modifiée'}  +${m.ajoutes.length} / −${m.retires}  ${m.url}`);
+        for (const t of m.ajoutes.slice(0, 10)) console.log(`      + ${t}`);
+      }
     } else if (p) {
       console.log(`    ${p.statut !== undefined ? `statut ${p.statut}, ` : ''}${p.adresses} adresse(s) dans le plan, ${p.correspondantes.length} sous un motif`);
       for (const u of p.correspondantes.slice(0, 20)) console.log(`    motif  ${u}`);

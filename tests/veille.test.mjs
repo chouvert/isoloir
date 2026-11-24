@@ -231,6 +231,11 @@ test('sources.yml : entrées bien formées', () => {
       if (s[champ] !== undefined) assert.ok(Array.isArray(s[champ]) && s[champ].every((x) => typeof x === 'string' && x), `${s.id} : ${champ}`);
     }
     if (s.prefixes) assert.ok(s.prefixes.every((x) => x.startsWith('/')), `${s.id} : préfixe sans « / » initial`);
+    if (s.ignorer !== undefined) {
+      assert.ok(Array.isArray(s.ignorer) && s.ignorer.every((x) => typeof x === 'string' && x), `${s.id} : ignorer`);
+      for (const x of s.ignorer) assert.doesNotThrow(() => new RegExp(x, 'iu'), `${s.id} : expression « ${x} »`);
+    }
+    if (s.max_pages !== undefined) assert.ok(Number.isInteger(s.max_pages) && s.max_pages > 0, `${s.id} : max_pages`);
     if (s.plan !== undefined) assert.match(s.plan, /^https?:\/\//, `${s.id} : plan`);
     assert.ok(['campagne', 'parti', 'presse', 'sondages', 'institution'].includes(s.categorie), `${s.id} : catégorie`);
     assert.match(s.url, /^https:\/\//, `${s.id} : url`);
@@ -343,13 +348,15 @@ const SOMMAIRE = fixture('programme-sommaire.html');
 const CH_V1 = fixture('programme-chapitre-v1.html');
 const CH_V2 = fixture('programme-chapitre-v2.html');
 const ok = (texte) => ({ statut: 200, texte });
+const page = (titre, ...paras) => `<html><head><title>${titre}</title></head><body><main>${paras.map((p) => `<p>${p}</p>`).join('')}</main></body></html>`;
+const CH1 = page('Chapitre 1 — Vivre mieux', 'Chapitre 1 : vivre mieux dans tout le pays', 'Construire des logements sociaux dans chaque commune.');
 
 /** Site d'essai : pages (table url → réponse), en-têtes de PDF, journal des adresses demandées. */
 function site({ pages = {}, entetes = {} } = {}) {
   const demandees = [];
   const table = {
     'https://c.fr/programme/': ok(SOMMAIRE),
-    'https://c.fr/programme/livre/chapitre1': ok(CH_V1),
+    'https://c.fr/programme/livre/chapitre1': ok(CH1),
     'https://c.fr/programme/livre/chapitre2': ok(CH_V1),
     ...pages,
   };
@@ -561,4 +568,68 @@ test('programme : diagnostic de l’essai — statut du point d’entrée en éc
   assert.deepEqual(r.programmes['essai-programme'].pages, [{ url: 'https://c.fr/programme', statut: 403, blocs: 0 }]);
   const r2 = await passage(site());
   assert.deepEqual(r2.programmes['essai-programme'].horsPrefixes, ['https://c.fr/', 'https://c.fr/evenement/reunion']);
+});
+
+// ---------------------------------------------------------------------------
+// Programmes : fausses alertes (blocs communs, textes ignorés, plafond par source)
+// ---------------------------------------------------------------------------
+
+const avecBloc = (html, texte) => html.replace('</main>', `<p>${texte}</p></main>`);
+
+test('programme : bloc ajouté à plusieurs pages → une seule information « blocs communs », aucune page modifiée', async () => {
+  const r1 = await passage(site());
+  const encart = 'Rejoignez la campagne dès aujourd’hui pour changer le pays.';
+  const r2 = await passage(site({ pages: {
+    'https://c.fr/programme/livre/chapitre1': ok(avecBloc(CH1, encart)),
+    'https://c.fr/programme/livre/chapitre2': ok(avecBloc(CH_V1, encart)),
+  } }), r1, { maintenant: '2026-11-08' });
+  assert.deepEqual(r2.infos.map((i) => i.nature), ['programme-communs']);
+  const i = r2.infos[0];
+  assert.equal(i.titre, 'Programme : blocs communs modifiés — Essai — programme');
+  assert.equal(i.lien, 'https://c.fr/programme');
+  assert.equal(i.chapo, `+1 / −0 blocs communs · ${encart}`);
+  const r3 = await passage(site({ pages: {
+    'https://c.fr/programme/livre/chapitre1': ok(avecBloc(CH1, encart)),
+    'https://c.fr/programme/livre/chapitre2': ok(avecBloc(CH_V1, encart)),
+  } }), r2, { maintenant: '2026-11-09' });
+  assert.deepEqual(r3.infos, [], 'le lendemain, rien');
+});
+
+test('programme : nouvelle page reprise sur le sommaire → seulement « page nouvelle »', async () => {
+  const r1 = await passage(site());
+  const lien = 'Chapitre 3 : apprendre et chercher ensemble partout';
+  const sommaire2 = SOMMAIRE.replace('<!-- CHAPITRE3 -->', `<li><a href="/programme/livre/chapitre3/">${lien}</a></li>`);
+  const r2 = await passage(site({ pages: {
+    'https://c.fr/programme/': ok(sommaire2),
+    'https://c.fr/programme/livre/chapitre3': ok(page('Chapitre 3', lien, 'Doubler le budget de la recherche publique en cinq ans.')),
+  } }), r1, { maintenant: '2026-11-08' });
+  assert.deepEqual(r2.infos.map((i) => [i.nature, i.lien]), [['programme-nouveau', 'https://c.fr/programme/livre/chapitre3']]);
+});
+
+test('programme : champ « ignorer » → compteur du jour sans effet', async () => {
+  const src = { ...PROG, ignorer: ['adhérents au \\d'] };
+  const compteur = (n, j) => ({ 'https://c.fr/programme/livre/chapitre1': ok(avecBloc(CH1, `${n} adhérents au ${j} novembre 2026`)) });
+  const lancer = (s, prec, jour) => collecter({ ...BASE, sources: [src], etat: prec.etat ?? {}, vus: prec.vus ?? new Set(),
+    empreintes: prec.empreintes ?? {}, lireUrl: s.lireUrl, lireEntete: s.lireEntete, maintenant: jour });
+  const r1 = await lancer(site({ pages: compteur('147 866', 23) }), {}, '2026-11-07');
+  const r2 = await lancer(site({ pages: compteur('150 367', 24) }), r1, '2026-11-08');
+  assert.deepEqual(r2.infos, []);
+  assert.equal(r1.empreintes['https://c.fr/programme/livre/chapitre1'].blocs.length, 2);
+});
+
+test('programme : champ « max_pages » de la source prioritaire sur le plafond général', async () => {
+  const s = site();
+  const r = await collecter({ ...BASE, sources: [{ ...PROG, max_pages: 2 }], etat: {}, vus: new Set(), empreintes: {},
+    lireUrl: s.lireUrl, lireEntete: s.lireEntete });
+  assert.equal(Object.keys(r.empreintes).length, 2);
+  assert.ok(r.infos.some((i) => i.nature === 'programme-plafond' && /^2 pages lues/.test(i.chapo)));
+});
+
+test('programme : diagnostic de l’essai — texte des blocs ajoutés par page', async () => {
+  const r1 = await passage(site());
+  const r2 = await passage(site({ pages: { 'https://c.fr/programme/livre/chapitre2': ok(CH_V2) } }), r1, { maintenant: '2026-11-08' });
+  const [m] = r2.programmes['essai-programme'].modifiees;
+  assert.equal(m.url, 'https://c.fr/programme/livre/chapitre2');
+  assert.equal(m.retires, 1);
+  assert.match(m.ajoutes[0], /^Relocaliser les productions/);
 });
