@@ -24,7 +24,7 @@ Ne pas les recopier ici : elles font foi dans les fichiers suivants.
 npm install
 npm run valider          # contrôle des données (0 erreur exigé)
 npm run comparatifs      # régénérer comparatifs/ et donnees/base.json après toute modification de fiche
-node --test tests/*.test.mjs   # ou npm test (177 tests)
+node --test tests/*.test.mjs   # ou npm test (184 tests)
 npm run veille -- --sortie <dossier>   # collecte de veille (le workflow quotidien la lance sur la branche veille)
 npm run sondages         # moyenne des sondages (veille/sondages.json) pour le rapport hebdomadaire
 cd site && npm install && npm run build   # site Astro (lit donnees/base.json et identite/)
@@ -88,7 +88,9 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
 1. **Préparer.** Branche `maj-AAAA-Sxx` depuis `main` (semaine ISO du jour). Lire le journal de la semaine sur la branche
    `veille` (`git fetch origin veille` puis `git show FETCH_HEAD:AAAA-Sxx.md`), et celui de la semaine précédente pour le
    reliquat ; lire `referentiel/candidats-inclus.md` et `referentiel/sujets-emergents.md`. Sources muettes en tête du
-   journal : les compenser par une ou deux recherches web chacune.
+   journal : les compenser par une ou deux recherches web chacune. **Candidats sans `programme_url`** : une recherche web
+   « programme » + nom + mois chacun (aucune source ne surveille l'apparition de leur programme pour Le Pen, Retailleau
+   et Zemmour) ; un programme paru → `programme_url` dans la fiche et source `programme` dans `veille/sources.yml`.
    **Documents déposés** : lister le dossier Google Drive « Isoloir — sources » (connecteur Google Drive, dossier
    `17TmZ8a3Ot7wowVFimu11rQnJ8UXIn4WS`) et lire les fichiers ajoutés depuis la semaine précédente ; les traiter comme des
    informations du journal (étape 3), en citant **la source d'origine** (URL, média, date indiqués dans le document), jamais
@@ -114,6 +116,12 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
    les plus importants d'abord (programme, annonce dédiée, revirement), le reste reporté ; appliquer la grille R1 à R5 ;
    `derniere_maj` au jour ; revirement consigné dans « Évolutions ». **Commit après chaque candidat.** Candidat sans entrée :
    ne pas ouvrir sa fiche.
+   **Programmes d'abord, hors plafond** : les informations « **Programme** » du journal (page nouvelle, modifiée, apparue,
+   blocs communs modifiés) ne comptent pas dans les 8 liens et passent avant le reste. Chaque page est lue en entier ;
+   sinon (tronquée, refusée) : ligne dans `veille/a-recuperer.md` avec son lien direct. Programme entier nouveau (plus de
+   10 pages) : lecture étalée sur plusieurs samedis, chapitres liés aux dilemmes et aux questions-clés d'abord. Mettre à
+   jour `programme_lu`, `programme_lu_le` et la section « Couverture du programme » de la fiche (une page lue qui a changé
+   depuis passe à `à relire`). « Page retirée » : vérifier si la mesure est abandonnée (revirement) ou seulement déplacée.
 4. **Sujets.** Attribuer un sujet à chaque information retenue ; mettre à jour `referentiel/sujets-emergents.md`.
 5. **Vérification.** Un agent neuf contrôle uniquement les rattachements modifiés, les phares modifiés et les entrées ou
    sorties de candidats (sources lues, règles appliquées). Appliquer ses corrections soi-même.
@@ -147,6 +155,10 @@ Sondages retenus : institut, commanditaire, dates de terrain, fourchette, lien d
 ## Sondages — moyenne
 (section produite par `npm run sondages` : tableau candidat / moyenne / sondages, sondages utilisés avec lien, rappel
 qu'un sondage n'est pas une prédiction et que la liste se limite aux sondages accessibles en ligne)
+
+## Programmes
+| candidat | page | nouvelle ou modifiée | lue | effet sur la fiche |
+Programmes non lus en entier (avertissements de `npm run valider`) : candidat, `programme_lu`, ce qui reste (couverture ou demande).
 
 ## 2. Sujets émergents
 Déclencheurs atteints : sujet, candidats, suite donnée (PR « Référentiel », reporté).
@@ -209,5 +221,9 @@ Propositions ajoutées ou précisées par fiche, informations reportées à la s
   9. Parcours simplifié (spec et plan du 2026-11-15, retours des bêta-testeurs) : PR 1 `parcours-simplifie` (trois étapes,
      réglettes facultatives, 4 duels avec leur contexte). Reste : PR 2 « Duels en langage courant : règles » (texte court
      obligatoire ≤ 200 car., glossaire), à fusionner le même jour que le premier lot de textes courts (PR 3, lots de 3 fiches).
-  10. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
+  10. Suivi des programmes (spec et plan du 2026-11-15 ; PR #53, #57 et « Programmes : couverture et règle du samedi ») :
+     source `programme` de la veille (empreinte des pages), `programme_lu` et couverture dans les fiches, contrôlés par
+     `npm run valider`. Reste la remise à niveau (tâche 8 du plan), une fiche par session et par PR : Mélenchon d'abord
+     (chapitre 2, « Relocaliser les productions essentielles… »), puis les fiches `partiel` par sondage décroissant.
+  11. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
      pour tous).
