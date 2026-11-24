@@ -5,10 +5,18 @@
 #   type programme : `url` = point d'entrée (programme_url de la fiche) ; `prefixes` = chemins suivis sur le même
 #     site (défaut : dossier du point d'entrée) ; `plan` = plan du site facultatif, filtré par les préfixes.
 #     Empreinte du texte de chaque page comparée chaque jour (empreintes.json) ; candidats obligatoires.
+#     `ignorer` : expressions (insensibles à la casse) ; un bloc de texte qui en contient une est écarté de
+#     l'empreinte (compteurs, encarts d'actualité). `max_pages` : plafond propre à la source (défaut 120).
+#     Un bloc présent sur plusieurs pages de la source est compté une fois (« blocs communs modifiés »).
 #   `motifs` (source sitemap) : seules les adresses nouvelles dont le chemin contient un motif sont gardées,
 #     comme « Programme : page apparue » (candidats sans programme publié).
-#   Adresses des sources programme et à motifs non éprouvées au 2026-11-15 : essai par
-#     `gh workflow run veille.yml -f essai=true`.
+#   Essai d'une adresse : `gh workflow run veille.yml --ref <branche> -f essai=true`.
+#   Essais des 2026-11-15 et 2026-11-24 — sources retirées :
+#     melenchon2027.fr/programme et lesecologistes.fr/pages/… (Tondelier) : 403, robots refusés. Programme de
+#       Mélenchon demandé dans veille/a-recuperer.md ; celui des Écologistes déjà lu (fiche de référence).
+#     debout-la-france.fr/projet : 404 (essai suivant : point d'entrée /projet/justice/).
+#   Sans plan de site lisible (recherche web « programme » + nom le samedi) : Le Pen (rassemblementnational.fr,
+#     404), Retailleau (republicains.fr : index de plans, non lu), Zemmour (parti-reconquete.fr, 404).
 # Les sources campagne, parti et sondages sont gardées sans filtre ; les autres seulement si elles citent
 # un candidat ou un mot-clé de veille/mots-cles.yml.
 #
@@ -162,6 +170,7 @@
   type: programme
   url: https://attalpresident.fr/programme
   prefixes: [/programme]
+  max_pages: 250   # 132 pages au 2026-11-24
   categorie: campagne
   candidats: [attal-gabriel]
 
@@ -176,7 +185,7 @@
 - id: dupont-aignan-projet-dlf
   nom: Debout la France — pages « Projet »
   type: programme
-  url: https://www.debout-la-france.fr/projet/
+  url: https://www.debout-la-france.fr/projet/justice/
   prefixes: [/projet/]
   categorie: parti
   candidats: [dupont-aignan-nicolas]
@@ -186,16 +195,9 @@
   type: programme
   url: https://www.unenouvelleenergie.fr/notre-programme/
   prefixes: [/notre-programme]
+  ignorer: ['adhérents au', 'prochains rendez-vous']   # compteur et agenda de la page
   categorie: campagne
   candidats: [lisnard-david]
-
-- id: melenchon-programme
-  nom: Mélenchon 2027 — programme
-  type: programme
-  url: https://melenchon2027.fr/programme/decouvrir/
-  prefixes: [/programme/]
-  categorie: campagne
-  candidats: [melenchon-jean-luc]
 
 - id: philippe-programme
   nom: Édouard Philippe — programme
@@ -209,20 +211,26 @@
   nom: François Ruffin — cahiers de campagne
   type: programme
   url: https://nouspresident.fr/cahiers-de-campagne/
-  prefixes: [/cahiers-de-campagne]
+  # Les cahiers sont à la racine du site : un préfixe par cahier (liste de la page au 2026-11-24).
+  # Un cahier nouveau modifie la page des cahiers : l'ajouter ici le samedi.
+  prefixes:
+    - /cahiers-de-campagne
+    - /statut-travailleurs-essentiels
+    - /separation-argent-etat
+    - /temps-loisirs
+    - /pour-une-exception-agriculturelle-francaise
+    - /travaillisme-ecologique
+    - /face-a-la-crise-du-logement-faire-sauter-le-verrou
+    - /pour-proteger-notre-industrie-relocaliser-100-produits-strategiques
+    - /education-une-ecole-de-tous-les-savoirs
+    - /pour-une-democratie-en-continu-vive-les-etats-generaux
+    - /de-la-colonie-numerique-aux-souverainetes-numeriques
+    - /redonner-aux-jeunes-les-clefs-de-leur-avenir
   categorie: campagne
   candidats: [ruffin-francois]
 
-- id: tondelier-programme
-  nom: Les Écologistes — projet 2027
-  type: programme
-  url: https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027
-  prefixes: [/pages/6ImK65GKUnvibm33WGkjkj]
-  categorie: parti
-  candidats: [tondelier-marine]
-
 # ---------------------------------------------------------------------------
-# Candidats sans programme publié : plans de site filtrés par motifs (à éprouver à l'essai)
+# Candidats sans programme publié : plans de site filtrés par motifs (éprouvés le 2026-11-24)
 # ---------------------------------------------------------------------------
 
 - id: batho-plan-programme
@@ -241,22 +249,6 @@
   categorie: parti
   candidats: [glucksmann-raphael]
 
-- id: le-pen-plan-programme
-  nom: Rassemblement national — plan du site (pages de programme)
-  type: sitemap
-  url: https://rassemblementnational.fr/sitemap.xml
-  motifs: [programme, projet, propositions, mesures]
-  categorie: parti
-  candidats: [le-pen-marine]
-
-- id: retailleau-plan-programme
-  nom: Les Républicains — plan du site (pages de programme)
-  type: sitemap
-  url: https://republicains.fr/sitemap.xml
-  motifs: [programme, projet, propositions, mesures]
-  categorie: parti
-  candidats: [retailleau-bruno]
-
 - id: roussel-plan-programme
   nom: PCF — plan du site (pages de programme)
   type: sitemap
@@ -264,11 +256,3 @@
   motifs: [programme, projet, propositions, mesures]
   categorie: parti
   candidats: [roussel-fabien]
-
-- id: zemmour-plan-programme
-  nom: Reconquête — plan du site (pages de programme)
-  type: sitemap
-  url: https://www.parti-reconquete.fr/sitemap.xml
-  motifs: [programme, projet, propositions, mesures]
-  categorie: parti
-  candidats: [zemmour-eric]

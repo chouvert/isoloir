@@ -160,6 +160,8 @@ export const MAX_PAGES_PROGRAMME = 120;
 export const PROFONDEUR_PROGRAMME = 3;
 export const MIN_BLOC = 20;
 export const LONGUEUR_CODE = 10;
+/** Méthode de calcul des empreintes : à augmenter quand elle change, pour recaler les empreintes sans fausse alerte. */
+export const VERSION_EMPREINTE = 2;
 
 const HORS_TEXTE = ['script', 'style', 'noscript', 'nav', 'header', 'footer', 'aside', 'form'];
 // Ouverture ou fermeture de ces éléments : fin du bloc en cours.
@@ -217,6 +219,7 @@ export function liensProgramme(html, urlPage, prefixes) {
   const soi = normaliserUrl(page.toString());
   const liens = [];
   for (const [, href] of html.replace(/<!--[\s\S]*?-->/g, ' ').matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)) {
+    if (GABARIT.test(href)) continue;
     let u;
     try { u = new URL(decoderEntites(href), page); } catch { continue; }
     if (prefixes ? !sousPrefixes(u, page, prefixes) : (!/^https?:$/.test(u.protocol) || sansWww(u.host) !== sansWww(page.host))) continue;
@@ -230,6 +233,23 @@ export function liensProgramme(html, urlPage, prefixes) {
 function nomDeFichier(url) {
   const nom = new URL(url).pathname.split('/').pop();
   try { return decodeURIComponent(nom); } catch { return nom; }
+}
+
+// Lien d'un gabarit JavaScript non rempli (`${m.permalien}`, `{{ lien }}`) : adresse qui n'existe pas.
+const GABARIT = /\$\{|\{\{|%7B/i;
+
+/**
+ * HTML sans le texte des liens vers le même site hors des préfixes (actualités, agenda, menus) : ces textes changent
+ * sans que le programme change. Les liens externes (sources citées) et les liens du programme sont gardés.
+ */
+export function sansLiensSortants(html, urlPage, prefixes) {
+  const page = new URL(urlPage);
+  return html.replace(/<a\b[^>]*href=["']([^"']+)["'][^>]*>[\s\S]*?<\/a>/gi, (lien, href) => {
+    let u;
+    try { u = new URL(decoderEntites(href), page); } catch { return lien; }
+    const memeSite = /^https?:$/.test(u.protocol) && sansWww(u.host) === sansWww(page.host);
+    return memeSite && !sousPrefixes(u, page, prefixes) ? ' ' : lien;
+  });
 }
 
 const estPdf = (url) => /\.pdf$/i.test(new URL(url).pathname);
@@ -247,8 +267,13 @@ function prefixesDe(source) {
  * `autorise(url)` → booléen (robots.txt). `empreintes` : toutes les sources ; seules celles de `source.id` sont touchées.
  * Rend { infos: [{ nature, titre, lien, chapo }], empreintes, succes, plafond, pages, refusees }.
  */
-export async function suivreProgramme({ source, empreintes = {}, lire, lireEntete, autorise, jour, maxPages = MAX_PAGES_PROGRAMME, plafondSignale = false }) {
+export async function suivreProgramme({ source, empreintes = {}, lire, lireEntete, autorise, jour, maxPages: maxGeneral = MAX_PAGES_PROGRAMME, plafondSignale = false }) {
   const prefixes = prefixesDe(source);
+  const maxPages = Number.isInteger(source.max_pages) && source.max_pages > 0 ? source.max_pages : maxGeneral;
+  // Textes changeants sans rapport avec le programme (compteurs, encarts d'actualité) : blocs retirés avant l'empreinte.
+  const ignores = (Array.isArray(source.ignorer) ? source.ignorer : []).map((m) => new RegExp(m, 'iu'));
+  // Signature de la méthode et du champ `ignorer` : une empreinte d'une autre signature est recalée sans être comparée.
+  const signature = `${VERSION_EMPREINTE}-${createHash('sha1').update(JSON.stringify(source.ignorer ?? [])).digest('hex').slice(0, 6)}`;
   const entree = normaliserUrl(source.url);
   const base = new URL(source.url);
   const anciennes = Object.fromEntries(Object.entries(empreintes).filter(([, e]) => e.source === source.id));
@@ -296,7 +321,7 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
       enErreur.add(url);
       continue;
     }
-    const blocs = blocsDeTexte(r.texte);
+    const blocs = blocsDeTexte(sansLiensSortants(r.texte, r.url ?? url, prefixes)).filter((b) => !ignores.some((m) => m.test(b)));
     pages.push({ url, statut: 200, blocs: blocs.length });
     lues.set(url, { titre: titreDePage(r.texte, url), blocsOrdonnes: blocs, blocs: codesDeBlocs(blocs) });
     if (url === entree) {
@@ -321,18 +346,37 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
     }
   }
 
+  // Un bloc présent sur plusieurs pages de la source (encadré, résumé d'une mesure repris sur une liste) n'appartient
+  // à aucune : ses changements sont comptés une seule fois pour la source, pas page par page.
+  const frequence = (ensembles) => {
+    const f = new Map();
+    for (const codes of ensembles) for (const c of new Set(codes)) f.set(c, (f.get(c) ?? 0) + 1);
+    return f;
+  };
+  const textes = [...lues.values()].filter((p) => !p.pdf);
+  const fAvant = frequence(Object.values(anciennes).map((e) => e.blocs));
+  const fApres = frequence(textes.map((p) => p.blocs));
+  const propre = (f, c) => (f.get(c) ?? 0) <= 1;
+
   const infos = [];
+  const modifiees = [];
   const nouvelles = { ...empreintes };
+  const codesNouvellesPages = new Set();
   for (const [url, page] of lues) {
     const avant = anciennes[url];
     if (!premierPassage && !avant) {
+      for (const c of page.blocs) codesNouvellesPages.add(c);
       infos.push({ nature: 'programme-nouveau', titre: `Programme : page nouvelle — ${page.titre}`, lien: url,
         chapo: couper(page.blocsOrdonnes?.[0] ?? '') });
-    } else if (avant && !page.pdf) {
+    } else if (avant && !page.pdf && avant.v === signature) {
       const ordonnes = page.blocsOrdonnes.map(codeDeBloc);
-      const d = comparerCodes(avant.blocs, ordonnes);
+      // Ajouté : bloc propre à la page, absent hier. Retiré : bloc propre à la page hier, absent aujourd'hui.
+      const ajoutes = [...new Set(page.blocsOrdonnes.filter((_, i) => propre(fApres, ordonnes[i]) && !avant.blocs.includes(ordonnes[i])))];
+      const d = { ajoutes: new Set(ajoutes.map(codeDeBloc)).size,
+        retires: avant.blocs.filter((c) => propre(fAvant, c) && !page.blocs.includes(c)).length };
       if (d.ajoutes || d.retires) {
-        const debut = d.premierAjoute >= 0 ? ` · ${page.blocsOrdonnes[d.premierAjoute]}` : '';
+        modifiees.push({ url, ajoutes: ajoutes.map((b) => couper(b, 150)), retires: d.retires });
+        const debut = ajoutes.length ? ` · ${ajoutes[0]}` : '';
         infos.push({ nature: 'programme-modifie', titre: `Programme : page modifiée — ${page.titre}`, lien: url,
           chapo: couper(`+${d.ajoutes} / −${d.retires} blocs${debut}`) });
       }
@@ -342,7 +386,30 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
     }
     // Un PDF devenu muet garde son ancienne empreinte : il ne sera pas signalé à tort au retour de ses en-têtes.
     const blocs = page.pdf && !page.blocs.length && avant ? avant.blocs : page.blocs;
-    nouvelles[url] = { source: source.id, titre: page.titre, blocs, vu: jour, absences: 0 };
+    nouvelles[url] = { source: source.id, titre: page.titre, blocs, vu: jour, absences: 0, v: signature };
+  }
+
+  // Blocs communs apparus ou disparus de toute la source (hors pages nouvelles, déjà signalées).
+  if (!premierPassage && Object.values(anciennes).every((e) => e.v === signature)) {
+    const tousAvant = new Set(fAvant.keys());
+    const tousApres = new Set(fApres.keys());
+    const lus = new Set([...lues.keys()]);
+    const communsAjoutes = [];
+    for (const p of textes) {
+      p.blocsOrdonnes.forEach((b) => {
+        const c = codeDeBloc(b);
+        if (!propre(fApres, c) && !tousAvant.has(c) && !codesNouvellesPages.has(c) && !communsAjoutes.some((x) => x.c === c)) communsAjoutes.push({ c, b });
+      });
+    }
+    // Un bloc commun disparu ne compte que si toutes les pages qui le portaient ont été relues.
+    const communsRetires = [...fAvant.keys()].filter((c) => !propre(fAvant, c) && !tousApres.has(c)
+      && Object.entries(anciennes).every(([u, e]) => !e.blocs.includes(c) || lus.has(u)));
+    if (communsAjoutes.length || communsRetires.length) {
+      modifiees.push({ url: entree, ajoutes: communsAjoutes.map((x) => couper(x.b, 150)), retires: communsRetires.length, communs: true });
+      const debut = communsAjoutes.length ? ` · ${communsAjoutes[0].b}` : '';
+      infos.push({ nature: 'programme-communs', titre: `Programme : blocs communs modifiés — ${source.nom ?? source.id}`, lien: entree,
+        chapo: couper(`+${communsAjoutes.length} / −${communsRetires.length} blocs communs${debut}`) });
+    }
   }
   for (const [url, avant] of Object.entries(anciennes)) {
     if (lues.has(url)) continue;
@@ -366,7 +433,7 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
     infos.push({ nature: 'programme-plafond', titre: `Programme : plafond de pages atteint — ${source.nom ?? source.id}`,
       lien: plafond, chapo: `${maxPages} pages lues ; revoir le plafond ou les préfixes de la source.` });
   }
-  return { infos, empreintes: nouvelles, succes: true, plafond: Boolean(plafond), pages, refusees, horsPrefixes };
+  return { infos, empreintes: nouvelles, succes: true, plafond: Boolean(plafond), pages, refusees, horsPrefixes, modifiees };
 }
 
 // ---------------------------------------------------------------------------
@@ -510,7 +577,7 @@ export async function collecter({
       const precedent = nouvelEtat[source.id];
       const suivi = await suivreProgramme({ source, empreintes: nouvellesEmpreintes, lire, lireEntete: lireEnTete, autorise, jour,
         maxPages: maxPagesProgramme, plafondSignale: precedent?.plafond === semaine });
-      programmes[source.id] = { pages: suivi.pages, refusees: suivi.refusees, horsPrefixes: suivi.horsPrefixes };
+      programmes[source.id] = { pages: suivi.pages, refusees: suivi.refusees, horsPrefixes: suivi.horsPrefixes, modifiees: suivi.modifiees ?? [] };
       if (!suivi.succes) { echec(source.id); continue; }
       nouvellesEmpreintes = suivi.empreintes;
       const plafond = suivi.plafond && precedent?.plafond !== semaine ? semaine : precedent?.plafond;
