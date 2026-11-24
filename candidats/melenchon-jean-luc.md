@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2026-05-03
 programme_url: https://melenchon2027.fr/programme/decouvrir/
 programme_version: L'Avenir en commun, le programme de la Nouvelle France (livre paru le 2026-11-06, 1 069 mesures ; livre non lu, changements relevés par LCP et élection.fr) + édition 2025 pour les mesures non reprises par ces comptes rendus + orientations budgétaires 2027 (2026-10-15)
+programme_lu: non
+programme_lu_le:
 derniere_maj: 2026-11-21
 ---
 
@@ -208,6 +210,11 @@ prime sur les annonces dédiées. Revue du 2026-11-21 : plans thématiques de LF
 ## Évolutions / revirements
 - 2026-11-06 : nouveau programme *L'Avenir en commun, le programme de la Nouvelle France* ; la réduction de 65 % des émissions est repoussée à 2033 (2030 dans l'édition 2025 selon le relevé), et le 100 % renouvelables est visé au plus tard en 2060 (2050 en 2022) ; la sortie du nucléaire est maintenue [LCP, 2026-11-06](https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841) ; [élection.fr, 2026-11-06](https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html)
 - 2026-10-15 : le SMIC visé passe à 1 700 € net dans les orientations budgétaires 2027, contre 1 600 € net dans l'édition 2025 du programme [Budget 2027, p. 9](https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf) ; [AEC 2025](https://melenchon2027.fr/programme2025/livre/) ([relevé](https://votons-2027.fr/candidats/melenchon/programme))
+
+## Couverture du programme
+| partie | adresse | lu le | état |
+|--------|---------|-------|------|
+| livre entier « L'Avenir en commun, le programme de la Nouvelle France » (2026-11-06), demandé dans veille/a-recuperer.md | [programme](https://melenchon2027.fr/programme/decouvrir/) |  | non lu |
 
 ## Analyse de faisabilité (Claude)
 _Analysée le : AAAA-MM-JJ · sur programme vX · confiance : élevé | moyen | faible_

@@ -8,6 +8,8 @@ inclus: oui              # oui | non (voir referentiel/candidats-inclus.md)
 date_declaration:        # AAAA-MM-JJ
 programme_url:
 programme_version:       # ex. v1 (AAAA-MM-JJ)
+programme_lu:            # complet | partiel | non — vide sans programme_url
+programme_lu_le:         # AAAA-MM-JJ : dernière lecture du programme
 derniere_maj:            # AAAA-MM-JJ
 ---
 
@@ -122,6 +124,13 @@ guillemets, nom ni source (règles : referentiel/anonymisation.md). C'est le tex
 
 ## Évolutions / revirements
 <!-- - AAAA-MM-JJ : description du changement [source](url) -->
+
+<!-- Section facultative « Couverture du programme », seulement si programme_lu vaut partiel ou non (sinon, ligne
+« demandé » dans veille/a-recuperer.md) ; à placer ici, titre de niveau 2, une ligne par partie du programme :
+| partie | adresse | lu le | état |
+|--------|---------|-------|------|
+| chapitre 1 | [titre](url) | AAAA-MM-JJ | lu |
+États : lu | non lu | à relire (page modifiée depuis la lecture). -->
 
 ## Analyse de faisabilité (Claude)
 _Analysée le : AAAA-MM-JJ · sur programme vX · confiance : élevé | moyen | faible_

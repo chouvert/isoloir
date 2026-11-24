@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2026-09-06
 programme_url:
 programme_version: pas de programme publié trouvé au 2026-10-26 ; déclarations et annonces de campagne (2026-09-06 à 2026-11-12)
+programme_lu:
+programme_lu_le:
 derniere_maj: 2026-11-14
 ---
 

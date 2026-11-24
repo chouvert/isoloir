@@ -7,6 +7,8 @@ statut: déclaré
 date_declaration: 2026-02-12
 programme_url:
 programme_version: pas de programme complet publié au 2026-10-31 ; plan budgétaire présenté le 2026-10-12 + annonces et entretiens de campagne
+programme_lu:
+programme_lu_le:
 derniere_maj: 2026-10-31
 ---
 
