@@ -4,53 +4,80 @@
     "titre": "Mes chantiers capitaux | attalpresident.fr",
     "blocs": [
       "00d1d8a7af",
+      "01b519a94e",
+      "040037e86a",
       "050fef079a",
       "05d010d588",
       "070aacc79d",
       "0b1b445f54",
+      "0b3a8bebb1",
       "0bfc438713",
+      "0c4f76ffd7",
       "0d8b85c808",
+      "0f90d8a44e",
       "10b8ec34a5",
       "128ec535ba",
       "135093f60e",
       "153377ead9",
+      "16ba0ea415",
       "1980357f94",
       "1bd4a15637",
+      "1f6747cbec",
       "22493818c7",
+      "2281f14f33",
+      "25624783c1",
+      "2583a440ac",
+      "2681269d2b",
       "273cc8dd82",
       "274853361a",
       "2a6752301a",
       "2cc9ae3bd4",
       "303d83cca2",
+      "346a910a72",
+      "34f0b43877",
       "35859a29a8",
       "362a2baa9b",
+      "3777026665",
       "388cd875f4",
       "3b779e6c08",
+      "3bb7ae54a0",
       "3ea77b1e4c",
+      "3ec92d4368",
+      "3fd995e5f4",
       "426258d1c9",
       "43335dec4a",
+      "434be86f1c",
       "473cc32619",
       "4d287942f7",
       "4e63ae7d47",
       "5082221a3f",
+      "50e3ccaf6a",
       "56606d15eb",
       "5793a9e597",
       "5806377d3a",
       "591214b61d",
+      "5b8e57f0f1",
       "5c05193ad0",
       "5c0bd3f7cf",
       "5f35770210",
+      "5fa707650d",
       "606fd3fba2",
+      "632760f627",
+      "63406672ee",
       "652b3d6895",
       "6536116658",
       "6684d21f74",
       "6a0f35dc7c",
       "6b44f584c6",
       "6b602f5877",
+      "6cb29e86bb",
+      "6cddf7bb75",
       "7288f6668d",
       "7647d92864",
       "78705445ee",
       "78eba2ab01",
+      "798cb56120",
+      "7a4b4c92b1",
       "7d7447b261",
       "7eca8fd305",
       "85fb952714",
@@ -58,11 +85,17 @@
       "87d48e0b7f",
       "8800cbd88e",
       "89d778735e",
+      "8abf6b830d",
       "8ae17783b5",
+      "8b4726dbbb",
+      "8cae1096b1",
       "8f3d4df333",
       "90dbe40a73",
+      "917e2f03e5",
       "9197c3f43a",
+      "93feb32df8",
       "941d7c0f18",
+      "94aff0918f",
       "9694566c69",
       "97d58c8113",
       "9909bb00bd",
@@ -73,36 +106,54 @@
       "a02f3eed6a",
       "a1dee5304e",
       "a771957592",
+      "a94c561ae8",
       "ab3a741cb8",
       "ab8c935cf1",
       "ae3f51e3e1",
+      "ae84e46df4",
+      "b169cdf308",
       "b17a3245de",
+      "b1fe07e4d2",
       "b52d00f8a5",
       "b57f2bcf15",
       "b945b71775",
+      "b9bdcf1892",
       "badeb60922",
+      "bcae6dcae8",
       "be1e03ac7c",
       "be49771873",
+      "bf306b326d",
       "bfe642131c",
       "bfe70cb3b1",
+      "c1859d77e3",
+      "c1ade79aa1",
+      "c1da6b25d5",
+      "c22b8fa44c",
       "c2e88c43e2",
       "c457ff2bf8",
       "c5164770d6",
       "c5b5b7bcf8",
+      "c74932df16",
+      "c8864d45cb",
+      "ca0d34af89",
       "cab42fed75",
       "cae6e006ff",
       "cb93700404",
       "cbc530b0e0",
+      "cf064fb034",
       "d01807f5a4",
       "d0fd827aba",
+      "d1acf56cc1",
       "d7999c3e36",
       "d7dd92a4fc",
       "d997dd51f1",
       "d9ab73d6fb",
+      "dbc2253346",
       "dc3176a40b",
       "dd1aabce8f",
       "df796caa84",
       "e0dacb3e77",
+      "e146267552",
       "e287625da6",
       "e2ed9cb1b4",
       "e2f9d047bc",
@@ -111,19 +162,26 @@
       "e83050e05a",
       "ebc90cab97",
       "ec1e60cbc8",
+      "f07940f34d",
       "f158727d87",
+      "f2d49953a2",
       "f396dca017",
       "f4aed3a7b4",
       "f4e9b02dbf",
+      "f506140f5e",
       "f50dbac451",
+      "f929149ffc",
+      "fa07fe0026",
       "fa21ddf772",
       "fa77f00ada",
+      "fbab6d99a4",
       "fbf4d37884",
+      "fc87d4d118",
       "fd5348ffb7",
       "fe25a37642",
       "feb84cb49c"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/dette-de-letat": {
@@ -131,24 +189,34 @@
     "titre": "Dette publique : la priorité de Gabriel Attal | attalpresident.fr",
     "blocs": [
       "002201f465",
+      "00d1d8a7af",
       "0cb384791c",
       "163b3667c5",
       "24a1be316a",
       "29eb5ca0db",
       "2d831b120e",
+      "3777026665",
       "3e6aaa3253",
       "4d80a33360",
+      "632760f627",
       "691d682df3",
+      "6a4f22ccc4",
       "6cc338efe8",
+      "6cddf7bb75",
+      "7eca8fd305",
       "932b0271ee",
       "967cf33b53",
       "9d7cd1b82d",
       "a9a86a2aa0",
       "c0a6ae383d",
+      "c1ade79aa1",
+      "d01807f5a4",
+      "dc3176a40b",
       "e3bbb23c38",
-      "f7a5034fd2"
+      "f7a5034fd2",
+      "fe25a37642"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/dette-ecologique": {
@@ -156,128 +224,195 @@
     "titre": "Dette écologique : ce que la France doit aux générations futures | attalpresident.fr",
     "blocs": [
       "045507e29a",
+      "070aacc79d",
+      "0f90d8a44e",
       "11755981bf",
       "192a9b60de",
       "2de4821ebf",
       "34f7416351",
       "3e6aaa3253",
+      "3ec92d4368",
+      "3fd995e5f4",
       "431ec5394e",
       "47d0aec0c1",
       "4cf0cc9416",
       "4f0cdec8c7",
+      "50e3ccaf6a",
       "58893b5bbd",
       "5b54236761",
+      "5f35770210",
       "62161136c2",
       "63beea43a9",
       "7369b09a50",
       "79c659579d",
       "819e1a6378",
+      "941d7c0f18",
+      "94aff0918f",
       "967cf33b53",
       "973bd6b323",
       "9a7dffad7b",
+      "9ab4b51dc1",
       "a0d30eaad5",
       "a17f711ed6",
       "a9a86a2aa0",
       "ad3cff7423",
       "aff0eda636",
       "b15716b32a",
+      "b1fe07e4d2",
+      "be1e03ac7c",
       "be815c8717",
+      "bf306b326d",
+      "bfe70cb3b1",
+      "c1859d77e3",
+      "c5164770d6",
+      "cb9f126378",
       "d34fed5d9c",
       "d4653a6573",
+      "d997dd51f1",
       "da70a6d576",
+      "e287625da6",
       "e3bbb23c38",
+      "e42e607b00",
+      "e83050e05a",
       "f0a225f9c1",
+      "f4aed3a7b4",
+      "f929149ffc",
       "fb85de8216"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/education": {
     "source": "attal-programme",
     "titre": "École : la priorité absolue de Gabriel Attal | attalpresident.fr",
     "blocs": [
+      "0b1b445f54",
+      "16ba0ea415",
+      "274853361a",
       "3480915a1e",
       "3552304e86",
       "3e6aaa3253",
+      "43335dec4a",
       "498c9154df",
+      "56606d15eb",
       "579ffe5f19",
+      "5c0bd3f7cf",
+      "5fa707650d",
       "607bcc23e9",
       "70b1579cdb",
       "85fb952714",
+      "8abf6b830d",
+      "917e2f03e5",
       "967cf33b53",
+      "a1dee5304e",
       "a771957592",
       "a9a86a2aa0",
+      "ab3a741cb8",
+      "c2e88c43e2",
+      "c74932df16",
+      "c8864d45cb",
+      "cae6e006ff",
       "d32764f5b4",
       "d595a46db8",
       "e3bbb23c38",
-      "ec03ccced9"
+      "ec03ccced9",
+      "f2d49953a2",
+      "fa21ddf772"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/frontieres": {
     "source": "attal-programme",
     "titre": "Frontières : le programme de Gabriel Attal | attalpresident.fr",
     "blocs": [
+      "01b519a94e",
+      "0b3a8bebb1",
+      "0c4f76ffd7",
       "11dcacac1f",
       "157cfc7b24",
+      "1bd4a15637",
+      "1f6747cbec",
       "20fe36ff65",
       "21a5ff4c05",
       "21f9d207f9",
+      "2583a440ac",
       "26e82a941d",
+      "34f0b43877",
       "35859a29a8",
       "35fb995d94",
+      "388cd875f4",
       "3b724bdfc7",
       "3c3708f51b",
       "3e6aaa3253",
       "5b5e9e4f6e",
       "5d390faafe",
+      "78705445ee",
+      "7a4b4c92b1",
       "870ea7494d",
       "8ab203daf8",
       "8e0be6bb9d",
       "92eef456ed",
       "967cf33b53",
+      "99c2a01ca2",
+      "9b74050df2",
       "a34db61972",
       "a9a86a2aa0",
       "ac9a23a0b8",
       "b5cb538fb8",
       "b7650e9b18",
       "bd0afae22b",
+      "c457ff2bf8",
       "c543845f2f",
+      "cb93700404",
+      "cbc530b0e0",
       "cd71b14175",
       "cfdf9afd70",
       "d47ad728dc",
+      "e2ed9cb1b4",
       "e3bbb23c38",
       "f67163de51",
+      "fa77f00ada",
       "ffae36d043"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/intelligence-artificielle": {
     "source": "attal-programme",
     "titre": "Gabriel Attal et l'IA : souveraineté et formation | attalpresident.fr",
     "blocs": [
+      "05d010d588",
       "209995d2cf",
+      "25624783c1",
+      "362a2baa9b",
       "3b5d66802b",
       "3e6aaa3253",
       "46961fb56f",
       "4a6f5d09ff",
       "52f768da1a",
       "5965a36443",
+      "63406672ee",
       "652b3d6895",
       "6a961718ca",
+      "7647d92864",
+      "87d48e0b7f",
       "92abb1f50b",
       "967cf33b53",
       "a9a86a2aa0",
+      "ab8c935cf1",
+      "ae3f51e3e1",
       "afaa9be46f",
+      "b17a3245de",
       "c80fe9f21f",
       "c93f1ec448",
       "d89ebb27a3",
+      "d9ab73d6fb",
       "e3bbb23c38",
+      "f396dca017",
       "fda00fab2a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/aide-professionnels-vehicule": {
@@ -302,7 +437,7 @@
       "ea4def5ecf",
       "fc824f22d9"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/aides-directes-plutot-que-baisses-de-taxes": {
@@ -326,7 +461,29 @@
       "f396dca017",
       "ffe35eed0b"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/amenager-cours-college": {
+    "source": "attal-programme",
+    "titre": "Collège : un quart du temps scolaire différencié | attalpresident.fr",
+    "blocs": [
+      "0b1b445f54",
+      "253ecce59b",
+      "43335dec4a",
+      "5c0bd3f7cf",
+      "5fe9fee209",
+      "99f0574d59",
+      "ab3a741cb8",
+      "b25bb7147a",
+      "b7dfd378d3",
+      "be8f1ffffb",
+      "c2e88c43e2",
+      "cae6e006ff",
+      "dbbf3b7cf5",
+      "fb2107dd10"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/amende-des-le-premier-acte-maltraitance": {
@@ -347,7 +504,7 @@
       "be119977b2",
       "c4050b0b5a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/amendes-majorees-saisie-vehicules": {
@@ -368,7 +525,7 @@
       "d1df033b6a",
       "d6ae8d1e32"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/annee-passerelle": {
@@ -395,7 +552,7 @@
       "e2aed9dc1c",
       "fa28a7959b"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/assistant-medical-ia": {
@@ -414,11 +571,11 @@
       "ae3f51e3e1",
       "b25bb7147a",
       "ceb7120837",
-      "e287625da6",
-      "e83050e05a",
+      "d9ab73d6fb",
+      "f396dca017",
       "f4e9b02dbf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/attestation-honorabilite-mineurs": {
@@ -443,29 +600,29 @@
       "df796caa84",
       "fd936d8185"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/aucune-hausse-impots": {
     "source": "attal-programme",
     "titre": "Aucune hausse d'impôts pendant le quinquennat | attalpresident.fr",
     "blocs": [
+      "00d1d8a7af",
       "050f82848f",
       "0e1abeb7e0",
       "253ecce59b",
       "3376e03dfa",
+      "3777026665",
+      "6cddf7bb75",
       "7eca8fd305",
       "8ecdc94a66",
-      "8f3d4df333",
-      "9909bb00bd",
       "a3c311bdd8",
       "b25bb7147a",
-      "badeb60922",
-      "d7999c3e36",
+      "d01807f5a4",
       "f05fb4367d",
-      "f396dca017"
+      "fe25a37642"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/audit-programmes-armement": {
@@ -473,27 +630,27 @@
     "titre": "Audit des programmes d'armement | Gabriel Attal | attalpresident.fr",
     "blocs": [
       "0eb10f4627",
+      "1bd4a15637",
       "24cb5bc879",
       "253ecce59b",
+      "35859a29a8",
       "7b32f0b38c",
-      "7eca8fd305",
-      "9909bb00bd",
+      "870ea7494d",
       "99c2a01ca2",
+      "9b74050df2",
       "a166730edd",
       "b25bb7147a",
       "bba2a93096",
       "cb93700404",
-      "db4b975f2c",
-      "dc3176a40b"
+      "db4b975f2c"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/bareme-national-sanctions": {
     "source": "attal-programme",
     "titre": "Barème national des sanctions scolaires | attalpresident.fr",
     "blocs": [
-      "070aacc79d",
       "0b1b445f54",
       "1080f11133",
       "253ecce59b",
@@ -501,6 +658,7 @@
       "5c0bd3f7cf",
       "6e09c7b80e",
       "700c7ce909",
+      "85fb952714",
       "a272946135",
       "b25bb7147a",
       "c2e88c43e2",
@@ -509,33 +667,33 @@
       "f983773870",
       "fbd22123d7"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/big-bang-territorial": {
     "source": "attal-programme",
     "titre": "Réforme territoriale : supprimer un échelon | attalpresident.fr",
     "blocs": [
+      "00d1d8a7af",
       "04b274e2e7",
       "0ada7eee4e",
       "14784765f7",
       "253ecce59b",
-      "273cc8dd82",
       "331afdb0ae",
+      "3777026665",
       "5ceb80aa3e",
+      "6cddf7bb75",
       "7104a45965",
-      "9909bb00bd",
       "a3c218b0ca",
       "b25bb7147a",
-      "d997dd51f1",
+      "d01807f5a4",
       "dc3176a40b",
       "e2aed9dc1c",
       "f05fb4367d",
-      "f158727d87",
       "fcae7be4cd",
       "fe25a37642"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/bouclier-tarifaire-eau": {
@@ -556,7 +714,7 @@
       "f396dca017",
       "f58f4db9d6"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/brevet-obligatoire-entree-lycee": {
@@ -564,24 +722,29 @@
     "titre": "Le brevet obligatoire pour entrer au lycée | attalpresident.fr",
     "blocs": [
       "0797f03049",
+      "0b1b445f54",
       "145aadff7c",
       "1ecbb511ae",
       "253ecce59b",
       "2b791616ef",
+      "43335dec4a",
+      "5c0bd3f7cf",
       "605c04abde",
       "7a135c5395",
       "8063b9c338",
       "829cfbbffe",
-      "85fb952714",
       "8c74b34318",
+      "ab3a741cb8",
       "b25bb7147a",
       "bb253a77f0",
       "be8f1ffffb",
+      "c2e88c43e2",
+      "cae6e006ff",
       "dbbf3b7cf5",
       "e2aed9dc1c",
       "e8f910d60d"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/capitalisation-startups": {
@@ -615,7 +778,7 @@
       "f396dca017",
       "f983773870"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/carte-famille-monoparentale": {
@@ -631,10 +794,12 @@
       "7d7447b261",
       "9694566c69",
       "a92a7418f9",
+      "a94c561ae8",
       "b25bb7147a",
-      "e91f8656b9"
+      "e91f8656b9",
+      "fc87d4d118"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/cent-mille-postes-en-moins": {
@@ -646,22 +811,22 @@
       "04b274e2e7",
       "12769663d7",
       "253ecce59b",
+      "3777026665",
       "5423b41db1",
       "64976934d0",
+      "6cddf7bb75",
       "72e5435d83",
       "7c81a1f715",
       "7eca8fd305",
       "8b0a0e8dd6",
-      "9909bb00bd",
       "b25bb7147a",
-      "c457ff2bf8",
       "d01807f5a4",
       "d54589443b",
       "dc3176a40b",
       "e2aed9dc1c",
       "f05fb4367d"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/certificat-etudes-cm2": {
@@ -692,73 +857,73 @@
       "ddeded327e",
       "e2aed9dc1c"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/clauses-miroir-systematiques": {
     "source": "attal-programme",
     "titre": "Clauses miroir dans les accords commerciaux | attalpresident.fr",
     "blocs": [
+      "1bd4a15637",
       "253ecce59b",
+      "35859a29a8",
       "374afcdcf7",
       "698677fb82",
       "7c1548cb56",
-      "8f3d4df333",
-      "9909bb00bd",
-      "ae3f51e3e1",
+      "870ea7494d",
+      "99c2a01ca2",
       "b25bb7147a",
-      "badeb60922",
-      "d7999c3e36",
+      "c457ff2bf8",
+      "cb93700404",
       "e21352d49c",
-      "f396dca017",
       "fd9916b765"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/climatisation-etablissements": {
     "source": "attal-programme",
     "titre": "Plan d'urgence de climatisation des établissements | attalpresident.fr",
     "blocs": [
-      "0b1b445f54",
-      "0d8b85c808",
       "253ecce59b",
-      "5c0bd3f7cf",
       "5e2b386580",
+      "5f35770210",
       "7021c5a081",
       "85153c4ed0",
       "8b675f87d2",
       "b25bb7147a",
-      "badeb60922",
+      "be1e03ac7c",
       "becfefb8f7",
       "c21f6804b5",
-      "c2e88c43e2",
       "c9bcdf77d4",
-      "cae6e006ff",
-      "e915da26cf"
+      "d997dd51f1",
+      "e287625da6",
+      "e83050e05a",
+      "e915da26cf",
+      "f4aed3a7b4"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/commande-publique-defense": {
     "source": "attal-programme",
     "titre": "Commande publique défense : la réforme pour les PME | attalpresident.fr",
     "blocs": [
+      "1bd4a15637",
       "1e14d67fe9",
       "253ecce59b",
+      "35859a29a8",
       "6ff9364243",
+      "870ea7494d",
       "8bec367e83",
-      "8f3d4df333",
-      "9909bb00bd",
-      "ae3f51e3e1",
+      "99c2a01ca2",
+      "9b74050df2",
       "b25bb7147a",
-      "badeb60922",
       "bba2a93096",
       "c79e4ea78e",
-      "d7999c3e36",
-      "f396dca017"
+      "cb93700404"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/comparution-immediate-mineurs": {
@@ -787,40 +952,44 @@
       "f390e3ec20",
       "f983773870"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/conseil-discipline-primaire": {
     "source": "attal-programme",
     "titre": "Conseil de discipline dès l'école primaire | attalpresident.fr",
     "blocs": [
+      "0b1b445f54",
       "130bffdb6f",
       "253ecce59b",
       "2f6b54617c",
-      "426258d1c9",
       "5c0bd3f7cf",
-      "606fd3fba2",
-      "6a0f35dc7c",
       "700c7ce909",
       "72b9daf3a6",
+      "85fb952714",
       "8d92610dc6",
       "978cc12455",
+      "ab3a741cb8",
       "b25bb7147a",
       "c2e88c43e2",
       "cae6e006ff",
       "f983773870"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/constitution-du-travail": {
     "source": "attal-programme",
     "titre": "Une Constitution du travail de 50 pages au maximum | attalpresident.fr",
     "blocs": [
+      "050fef079a",
       "1ab438e4e4",
       "22493818c7",
       "253ecce59b",
       "258eff10c8",
+      "6536116658",
+      "6b602f5877",
+      "7d7447b261",
       "8cc92be552",
       "9fabacfb60",
       "b25bb7147a",
@@ -828,9 +997,10 @@
       "d2872d6845",
       "e62cd9abbc",
       "ee10a63290",
+      "f07940f34d",
       "f0a2d5dde2"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/contractualisation-pluriannuelle": {
@@ -851,7 +1021,7 @@
       "f396dca017",
       "fd9916b765"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/deficit-sous-trois-pour-cent": {
@@ -861,14 +1031,14 @@
       "00d1d8a7af",
       "02eeefbd22",
       "253ecce59b",
+      "3777026665",
       "5b5e9a1589",
       "5c43c81238",
+      "6cddf7bb75",
       "7eca8fd305",
       "8cc92be552",
-      "9909bb00bd",
       "a7d3587746",
       "b25bb7147a",
-      "c457ff2bf8",
       "ce94ef5543",
       "d314e698ea",
       "dc3176a40b",
@@ -879,7 +1049,7 @@
       "f9de1b07cc",
       "fe25a37642"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/defiscaliser-pensions-alimentaires": {
@@ -895,10 +1065,12 @@
       "89d778735e",
       "9694566c69",
       "9f39f6e6e5",
+      "a94c561ae8",
       "b25bb7147a",
-      "b713ca4426"
+      "b713ca4426",
+      "fc87d4d118"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/delai-deux-mois-porteurs-projets": {
@@ -920,7 +1092,7 @@
       "eef87939a5",
       "f396dca017"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/delit-maintien-illicite": {
@@ -941,7 +1113,7 @@
       "b25bb7147a",
       "d1df033b6a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/depistage-pfas-captages": {
@@ -950,19 +1122,19 @@
     "blocs": [
       "03b9e33907",
       "070aacc79d",
-      "0d8b85c808",
       "253ecce59b",
-      "2cc9ae3bd4",
       "4675113b98",
+      "5f35770210",
       "667849e388",
       "83170bb919",
       "ac6e997464",
       "b25bb7147a",
-      "badeb60922",
+      "be1e03ac7c",
       "d997dd51f1",
-      "e287625da6"
+      "e287625da6",
+      "f4aed3a7b4"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/diviser-par-deux-dependance-militaire": {
@@ -975,7 +1147,8 @@
       "22946d7986",
       "253ecce59b",
       "2eba9593d9",
-      "87d48e0b7f",
+      "35859a29a8",
+      "870ea7494d",
       "99c2a01ca2",
       "9b74050df2",
       "b25bb7147a",
@@ -985,7 +1158,7 @@
       "c511341b55",
       "cb93700404"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/dome-de-fer-europeen": {
@@ -997,7 +1170,8 @@
       "213ab7e03c",
       "253ecce59b",
       "264f7cac87",
-      "87d48e0b7f",
+      "35859a29a8",
+      "870ea7494d",
       "99c2a01ca2",
       "9b74050df2",
       "b25bb7147a",
@@ -1005,7 +1179,7 @@
       "cb93700404",
       "e98ba4bd12"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/dossier-administratif-par-convoi": {
@@ -1029,31 +1203,31 @@
       "dbdc07d984",
       "f1ab6ae6bf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/doubler-subventions-geoenergie": {
     "source": "attal-programme",
     "titre": "Géoénergie : 160 millions d'euros par an | attalpresident.fr",
     "blocs": [
+      "070aacc79d",
       "24e3b13728",
       "253ecce59b",
       "659184b1eb",
       "82fe1df6cc",
-      "9ab4b51dc1",
       "a0b017dc7f",
       "b1d6acca20",
       "b25bb7147a",
       "b6ec6408f0",
       "bb8cdebcc0",
       "be1e03ac7c",
-      "bfe70cb3b1",
-      "c5164770d6",
       "c9bcdf77d4",
-      "f396dca017",
+      "d997dd51f1",
+      "e287625da6",
+      "e83050e05a",
       "f4aed3a7b4"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/droit-a-la-climatisation": {
@@ -1061,73 +1235,75 @@
     "titre": "Droit à la climatisation : la proposition d'Attal | attalpresident.fr",
     "blocs": [
       "070aacc79d",
-      "0d8b85c808",
       "253ecce59b",
-      "2cc9ae3bd4",
       "48d23ede67",
       "4a363b488d",
       "5b3d9e4abf",
+      "5f35770210",
       "60f07ae092",
       "673af5a3da",
       "6b7030d5d4",
       "9f86d79b70",
       "b25bb7147a",
-      "badeb60922",
+      "be1e03ac7c",
       "c9bcdf77d4",
       "d997dd51f1",
-      "e83050e05a"
+      "e83050e05a",
+      "f4aed3a7b4"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/droit-au-brut": {
     "source": "attal-programme",
     "titre": "Droit au brut : 250 € nets de plus par mois | attalpresident.fr",
     "blocs": [
-      "0d8b85c808",
       "1215da55fc",
       "1ab438e4e4",
+      "22493818c7",
       "253ecce59b",
       "3098329391",
-      "362a2baa9b",
       "421a66fede",
       "4a34d6a86d",
       "5e15275900",
       "5fc106ef74",
+      "6536116658",
       "6b602f5877",
-      "85fb952714",
+      "7d7447b261",
       "941c71bd6b",
       "a93dca023d",
       "aadb8ea445",
       "b25bb7147a",
+      "b52d00f8a5",
       "b62c93b14b",
-      "d7999c3e36",
-      "df796caa84",
       "e42c6973af",
       "e8bb6516c4",
+      "f07940f34d",
       "fe17dcc026",
       "fe8a506736"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/droit-au-repit": {
     "source": "attal-programme",
     "titre": "Droit au répit pour les familles monoparentales | attalpresident.fr",
     "blocs": [
+      "050fef079a",
       "0bf7f1753b",
+      "22493818c7",
       "253ecce59b",
-      "35859a29a8",
       "575cfa34c9",
-      "5806377d3a",
       "5c98b47a51",
-      "89d778735e",
-      "9694566c69",
+      "6536116658",
+      "6b602f5877",
       "987150afcd",
       "b25bb7147a",
-      "e75e6e248e"
+      "b52d00f8a5",
+      "e75e6e248e",
+      "f07940f34d"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/durcir-regroupement-familial": {
@@ -1135,6 +1311,7 @@
     "titre": "Regroupement familial : la réforme d'Attal | attalpresident.fr",
     "blocs": [
       "19b5aadec4",
+      "1bd4a15637",
       "253ecce59b",
       "4914e43d6b",
       "5743e4abee",
@@ -1142,9 +1319,13 @@
       "7f50d4cca4",
       "870ea7494d",
       "8d33d515c1",
-      "b25bb7147a"
+      "99c2a01ca2",
+      "9b74050df2",
+      "b25bb7147a",
+      "c457ff2bf8",
+      "cb93700404"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/encadrer-ventes-animaux-en-ligne": {
@@ -1165,7 +1346,7 @@
       "be119977b2",
       "d9ab73d6fb"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/equilibre-securite-sociale": {
@@ -1173,22 +1354,22 @@
     "titre": "Équilibrer la Sécurité sociale d'ici 2032 | attalpresident.fr",
     "blocs": [
       "02eeefbd22",
-      "070aacc79d",
       "0846ae55ee",
       "253ecce59b",
       "2e2a1b48d1",
+      "3777026665",
       "3dc8aa321b",
       "58d3d84147",
+      "6cddf7bb75",
       "7eca8fd305",
-      "9909bb00bd",
       "b25bb7147a",
+      "d01807f5a4",
       "dc3176a40b",
       "e1eca09dfb",
-      "e287625da6",
-      "e83050e05a",
-      "f05fb4367d"
+      "f05fb4367d",
+      "fe25a37642"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/extension-batiments-elevage": {
@@ -1207,7 +1388,29 @@
       "db4fad4b78",
       "f396dca017"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/faciliter-donations": {
+    "source": "attal-programme",
+    "titre": "Donations aux jeunes générations : la proposition d'Attal | attalpresident.fr",
+    "blocs": [
+      "1480a2af06",
+      "253ecce59b",
+      "35859a29a8",
+      "3a3c42e773",
+      "829cfbbffe",
+      "89d778735e",
+      "8f3d4df333",
+      "8fcbc11eb5",
+      "9909bb00bd",
+      "ad3fd39670",
+      "afe79cf3f6",
+      "b25bb7147a",
+      "badeb60922",
+      "d7999c3e36"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/facturation-tarif-camping": {
@@ -1228,7 +1431,30 @@
       "b25bb7147a",
       "d1df033b6a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/fermer-cent-colleges-difficulte": {
+    "source": "attal-programme",
+    "titre": "Fermer 100 collèges en difficulté | attalpresident.fr",
+    "blocs": [
+      "0b1b445f54",
+      "253ecce59b",
+      "313ff9235d",
+      "43335dec4a",
+      "4e452dc582",
+      "5c0bd3f7cf",
+      "77d904319a",
+      "77e1b99d65",
+      "ab3a741cb8",
+      "b25bb7147a",
+      "c2e88c43e2",
+      "c99a6bfb63",
+      "cae6e006ff",
+      "dbbf3b7cf5",
+      "e2aed9dc1c"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/fichier-interdits-de-detention": {
@@ -1237,6 +1463,7 @@
     "blocs": [
       "253ecce59b",
       "4e63ae7d47",
+      "8cae1096b1",
       "97d58c8113",
       "b25bb7147a",
       "be119977b2",
@@ -1244,7 +1471,28 @@
       "c456375f32",
       "d546acd23a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/fiscalite-assurance-vie-stable": {
+    "source": "attal-programme",
+    "titre": "Attal : pas de hausse fiscale sur l'assurance-vie | attalpresident.fr",
+    "blocs": [
+      "253ecce59b",
+      "7eca8fd305",
+      "8e19592688",
+      "8f3d4df333",
+      "983dfa79ba",
+      "9909bb00bd",
+      "a69dc2cb58",
+      "ad3fd39670",
+      "b25bb7147a",
+      "badeb60922",
+      "c1c34074fd",
+      "d7999c3e36",
+      "f396dca017"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/fiscalite-portage-foncier": {
@@ -1265,7 +1513,7 @@
       "f396dca017",
       "fd9916b765"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/fonds-investissement-defense": {
@@ -1273,62 +1521,63 @@
     "titre": "Fonds d'investissement pour les PME de la défense | attalpresident.fr",
     "blocs": [
       "0eb10f4627",
+      "1bd4a15637",
       "23c8e4c3d9",
       "253ecce59b",
+      "35859a29a8",
       "688ef2dee3",
+      "870ea7494d",
       "8d65e8ee7d",
-      "8f3d4df333",
-      "9909bb00bd",
-      "ae3f51e3e1",
+      "99c2a01ca2",
+      "9b74050df2",
       "b25bb7147a",
       "b77179f492",
-      "badeb60922",
-      "d7999c3e36",
-      "f396dca017"
+      "c457ff2bf8"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/former-tous-enseignants-ia": {
     "source": "attal-programme",
     "titre": "Former tous les enseignants à l'IA | attalpresident.fr",
     "blocs": [
-      "0b1b445f54",
       "253ecce59b",
+      "362a2baa9b",
       "5b572d5581",
-      "5c0bd3f7cf",
+      "7647d92864",
+      "87d48e0b7f",
       "9b8feb0f34",
       "9efe06a06e",
-      "ab3a741cb8",
       "ae300b3683",
       "ae3f51e3e1",
       "b25bb7147a",
-      "c2e88c43e2",
-      "cae6e006ff",
-      "dbbf3b7cf5"
+      "d9ab73d6fb",
+      "dbbf3b7cf5",
+      "f396dca017",
+      "f4e9b02dbf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/fusion-nucleaire-europe": {
     "source": "attal-programme",
     "titre": "Fusion nucléaire : le projet européen d'Attal | attalpresident.fr",
     "blocs": [
+      "070aacc79d",
       "253ecce59b",
-      "362a2baa9b",
       "5f35770210",
-      "7647d92864",
       "a867adbde8",
-      "ae3f51e3e1",
       "b25bb7147a",
       "b929123f0b",
       "be1e03ac7c",
       "c93a2c14eb",
       "cc8dc39404",
+      "d997dd51f1",
       "e1eca09dfb",
-      "f396dca017"
+      "e287625da6",
+      "e83050e05a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/groupes-de-niveau-college": {
@@ -1355,69 +1604,76 @@
       "e2aed9dc1c",
       "eb45e79694"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/ia-savoirs-fondamentaux": {
     "source": "attal-programme",
     "titre": "L'IA au socle des savoirs fondamentaux | attalpresident.fr",
     "blocs": [
-      "0b1b445f54",
+      "05d010d588",
       "253ecce59b",
       "3098329391",
+      "362a2baa9b",
       "5a515ce3fc",
       "5bb01f0933",
-      "5c0bd3f7cf",
+      "7647d92864",
       "84354f4c20",
-      "ab3a741cb8",
+      "87d48e0b7f",
       "ae3f51e3e1",
       "b25bb7147a",
       "b4bd307701",
       "bc8dd8ab29",
-      "c2e88c43e2",
-      "cae6e006ff"
+      "f396dca017",
+      "f4e9b02dbf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/ia-traitement-judiciaire": {
     "source": "attal-programme",
     "titre": "Justice et IA : accélérer les délais de jugement | attalpresident.fr",
     "blocs": [
-      "1980357f94",
+      "05d010d588",
       "1bd4862c12",
       "253ecce59b",
       "3523b33aa8",
-      "426258d1c9",
-      "4e63ae7d47",
-      "606fd3fba2",
-      "6a0f35dc7c",
+      "362a2baa9b",
       "6e21904a7c",
       "791efc8399",
+      "87d48e0b7f",
       "95f1d5a121",
       "ae3f51e3e1",
       "b25bb7147a",
-      "c4e3d29e0f"
+      "c4e3d29e0f",
+      "d9ab73d6fb",
+      "f396dca017",
+      "f4e9b02dbf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/immigration-systeme-a-points": {
     "source": "attal-programme",
     "titre": "Immigration à points : la proposition d'Attal | attalpresident.fr",
     "blocs": [
+      "1bd4a15637",
       "253ecce59b",
       "35859a29a8",
       "488678a297",
       "79e56c4fa8",
       "7e84ea4c31",
       "8d33d515c1",
+      "99c2a01ca2",
+      "9b74050df2",
       "b25bb7147a",
       "b6ebcec44b",
       "b99ac07805",
+      "c457ff2bf8",
+      "cb93700404",
       "e2aed9dc1c"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/imprescriptibilite-crimes-sexuels-mineurs": {
@@ -1439,7 +1695,7 @@
       "c32e85164e",
       "c4e3d29e0f"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/interconnecter-fichiers": {
@@ -1460,7 +1716,7 @@
       "98fcd6d07c",
       "b25bb7147a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/interessement-petites-structures": {
@@ -1468,20 +1724,20 @@
     "titre": "Intéressement étendu aux petites entreprises | attalpresident.fr",
     "blocs": [
       "050fef079a",
-      "0d8b85c808",
+      "22493818c7",
       "253ecce59b",
-      "362a2baa9b",
       "5846085496",
+      "6536116658",
+      "7d7447b261",
       "7fc0a1c78f",
-      "85fb952714",
       "b25bb7147a",
+      "b52d00f8a5",
       "cd2ed8f537",
       "d4a5e68cd9",
-      "d7999c3e36",
-      "df796caa84",
+      "f07940f34d",
       "fe8a506736"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite": {
@@ -1504,7 +1760,7 @@
       "d7999c3e36",
       "df796caa84"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/journee-referendaire-annuelle": {
@@ -1524,31 +1780,32 @@
       "d997dd51f1",
       "feb84cb49c"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027": {
     "source": "attal-programme",
     "titre": "Défense nationale : la doctrine d'Attal pour 2027 | attalpresident.fr",
     "blocs": [
-      "05d010d588",
       "0eb10f4627",
       "24e10f4cd2",
       "253ecce59b",
       "2d1a1d1af2",
+      "35859a29a8",
       "3e215eaad0",
       "4ae4c8d25f",
       "521e0ca2d9",
-      "87d48e0b7f",
+      "870ea7494d",
       "99c2a01ca2",
       "9b74050df2",
       "b25bb7147a",
       "b53457230c",
       "bba2a93096",
+      "c457ff2bf8",
       "cb93700404",
       "dd11cc2bd0"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/loi-de-stabilite-fiscale": {
@@ -1577,7 +1834,7 @@
       "f05fb4367d",
       "f396dca017"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/maire-elu-le-plus-puissant": {
@@ -1600,14 +1857,13 @@
       "f158727d87",
       "feb84cb49c"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/methode-singapour": {
     "source": "attal-programme",
     "titre": "La méthode de Singapour en maths pour tous | attalpresident.fr",
     "blocs": [
-      "070aacc79d",
       "0b1b445f54",
       "11b6530e1e",
       "253ecce59b",
@@ -1616,6 +1872,7 @@
       "43335dec4a",
       "6ebe05dc2c",
       "7cf66cbba1",
+      "85fb952714",
       "9f30bbb255",
       "ab3a741cb8",
       "b25bb7147a",
@@ -1625,7 +1882,33 @@
       "cae6e006ff",
       "ed8fbb33df"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/mille-euros-par-nouveau-ne": {
+    "source": "attal-programme",
+    "titre": "1 000 € versés par l'État à chaque nouveau-né | attalpresident.fr",
+    "blocs": [
+      "09be658011",
+      "1ab438e4e4",
+      "1c92ae6804",
+      "253ecce59b",
+      "35859a29a8",
+      "3e51f90f3c",
+      "4f79d19b4b",
+      "5e962e2d14",
+      "89d778735e",
+      "8f3d4df333",
+      "9909bb00bd",
+      "ab76ea64dc",
+      "b25bb7147a",
+      "b4e22e937b",
+      "b6ebcec44b",
+      "badeb60922",
+      "d7999c3e36",
+      "da16d6cb87"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/ministere-de-l-eau": {
@@ -1633,20 +1916,20 @@
     "titre": "Ministère de l'Eau : la proposition d'Attal | attalpresident.fr",
     "blocs": [
       "03b9e33907",
-      "0d8b85c808",
+      "070aacc79d",
       "2221a8c5bc",
       "253ecce59b",
-      "2cc9ae3bd4",
       "5b907f7e88",
+      "5f35770210",
       "63cb9928ac",
-      "7eca8fd305",
       "b25bb7147a",
       "b32955efab",
-      "badeb60922",
+      "be1e03ac7c",
+      "e287625da6",
       "e83050e05a",
-      "f158727d87"
+      "f4aed3a7b4"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/pac-moyens-renforces": {
@@ -1667,7 +1950,7 @@
       "d7999c3e36",
       "f396dca017"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/parcours-separation-simplifie": {
@@ -1684,9 +1967,11 @@
       "6e83d7fafb",
       "7d7447b261",
       "89d778735e",
-      "b25bb7147a"
+      "a94c561ae8",
+      "b25bb7147a",
+      "fc87d4d118"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/parquet-national-pedocriminalite": {
@@ -1711,7 +1996,7 @@
       "ac1c5c601b",
       "b25bb7147a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/perpetuite-reelle-predateurs": {
@@ -1732,7 +2017,7 @@
       "b205782cb3",
       "b25bb7147a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/plafond-dix-huit-mois-procedures": {
@@ -1758,7 +2043,7 @@
       "d7999c3e36",
       "f396dca017"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/plan-eau-a-euro-constant": {
@@ -1766,57 +2051,59 @@
     "titre": "Plan Eau d'Attal : sept chantiers sans impôt nouveau | attalpresident.fr",
     "blocs": [
       "03b9e33907",
-      "0d8b85c808",
+      "070aacc79d",
       "2385fda585",
       "253ecce59b",
-      "2cc9ae3bd4",
-      "7eca8fd305",
+      "5f35770210",
       "818d0546b2",
-      "9909bb00bd",
       "b25bb7147a",
       "b54369ef05",
-      "badeb60922",
       "bc6e2ea898",
+      "be1e03ac7c",
+      "d997dd51f1",
+      "e287625da6",
       "e83050e05a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/plan-france-2040": {
     "source": "attal-programme",
     "titre": "Plan IA : 200 milliards d'euros pour la France | attalpresident.fr",
     "blocs": [
+      "05d010d588",
       "253ecce59b",
       "2e16a497b2",
+      "362a2baa9b",
       "4eddcb1eea",
       "52353bb4ae",
       "5516b5fba2",
       "5900ec7482",
       "68b50bdfdd",
       "6dabe75f9f",
+      "7647d92864",
       "7a781973c5",
       "829cfbbffe",
-      "8f3d4df333",
+      "87d48e0b7f",
       "9894fbf2b5",
-      "9909bb00bd",
       "a6cf143cfd",
       "b25bb7147a",
       "b4bd307701",
-      "badeb60922",
       "c89ffbd6da",
       "d01f924bd6",
-      "d7999c3e36",
-      "e2f9d047bc",
+      "d9ab73d6fb",
       "efedd175b7",
-      "f396dca017"
+      "f396dca017",
+      "f4e9b02dbf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/plan-messmer-2": {
     "source": "attal-programme",
     "titre": "Plan Messmer II : réduire la dépendance énergétique | attalpresident.fr",
     "blocs": [
+      "070aacc79d",
       "1ab438e4e4",
       "1d79b34b93",
       "253ecce59b",
@@ -1830,24 +2117,22 @@
       "734ad9576d",
       "7dcd5ab7d9",
       "8435f39939",
-      "9ab4b51dc1",
       "9c0d724180",
       "ae9e894094",
       "b25bb7147a",
-      "bfe70cb3b1",
-      "c5164770d6",
+      "d997dd51f1",
       "e1eca09dfb",
-      "f396dca017",
+      "e287625da6",
+      "e83050e05a",
       "f4aed3a7b4"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/plan-voltaire-esprit-critique": {
     "source": "attal-programme",
     "titre": "Plan Voltaire : 30 minutes d'esprit critique par jour | attalpresident.fr",
     "blocs": [
-      "070aacc79d",
       "0b1b445f54",
       "163ea987be",
       "253ecce59b",
@@ -1856,6 +2141,7 @@
       "43335dec4a",
       "43d1a1a785",
       "5c0bd3f7cf",
+      "85fb952714",
       "ab3a741cb8",
       "af7615bc89",
       "b25bb7147a",
@@ -1863,13 +2149,14 @@
       "cd15d2d549",
       "dbbf3b7cf5"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/politique-ia-europeenne-commune": {
     "source": "attal-programme",
     "titre": "PIAC : la politique européenne de l'IA selon Attal | attalpresident.fr",
     "blocs": [
+      "05d010d588",
       "194248f875",
       "253ecce59b",
       "28658dc299",
@@ -1878,35 +2165,37 @@
       "4eddcb1eea",
       "5516b5fba2",
       "7647d92864",
-      "99c2a01ca2",
       "ae3f51e3e1",
       "b25bb7147a",
       "b7c7902278",
       "bd6db472d4",
       "bee3ed7d63",
-      "cb93700404",
       "d01f924bd6",
-      "ea094056e8"
+      "d9ab73d6fb",
+      "ea094056e8",
+      "f396dca017",
+      "f4e9b02dbf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/preference-europeenne-defense": {
     "source": "attal-programme",
     "titre": "Préférence européenne dans les achats de défense | attalpresident.fr",
     "blocs": [
-      "05d010d588",
       "1bd4a15637",
       "253ecce59b",
-      "87d48e0b7f",
+      "35859a29a8",
+      "870ea7494d",
       "9b74050df2",
       "b25bb7147a",
       "b64c8d17f8",
+      "c457ff2bf8",
       "cb93700404",
       "da13fe2b9b",
       "da14680116"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/premiers-actes-quarante-huit-heures": {
@@ -1928,7 +2217,32 @@
       "a9eb1a0e05",
       "b25bb7147a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/prisons-operation-interet-national": {
+    "source": "attal-programme",
+    "titre": "Nouvelles prisons : la loi d'exception d'Attal | attalpresident.fr",
+    "blocs": [
+      "1980357f94",
+      "253ecce59b",
+      "2b21cc8b39",
+      "2b4d67e98a",
+      "426258d1c9",
+      "4e63ae7d47",
+      "606fd3fba2",
+      "6a0f35dc7c",
+      "7647d92864",
+      "89cefce039",
+      "95f1d5a121",
+      "990903d175",
+      "a48c29165f",
+      "a5e9da29f1",
+      "b25bb7147a",
+      "d9dd15322b",
+      "e95e7adf4f"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/prix-planchers-agricoles": {
@@ -1952,7 +2266,7 @@
       "f396dca017",
       "fd9916b765"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/procedures-mineurs-trois-mois": {
@@ -1974,7 +2288,7 @@
       "b25bb7147a",
       "c4e3d29e0f"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/puissance-de-calcul-europeenne": {
@@ -1987,36 +2301,38 @@
       "5516b5fba2",
       "56759a23a3",
       "7647d92864",
-      "99c2a01ca2",
+      "87d48e0b7f",
       "ae3f51e3e1",
       "b25bb7147a",
       "c823f0b80e",
-      "cb93700404",
       "d2f4ea31df",
-      "f0c6cf4f8b"
+      "d9ab73d6fb",
+      "f0c6cf4f8b",
+      "f396dca017",
+      "f4e9b02dbf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/quintupler-capacites-geoenergie": {
     "source": "attal-programme",
     "titre": "Géoénergie : multiplier par cinq d'ici 2035 | attalpresident.fr",
     "blocs": [
+      "070aacc79d",
       "253ecce59b",
       "5d0193aac7",
       "5f35770210",
-      "9ab4b51dc1",
       "9f03989896",
       "a6a34126f8",
       "b25bb7147a",
       "be1e03ac7c",
-      "bfe70cb3b1",
-      "c5164770d6",
       "c9bcdf77d4",
-      "f07ad8af89",
-      "f396dca017"
+      "d997dd51f1",
+      "e287625da6",
+      "e83050e05a",
+      "f07ad8af89"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/quotas-migratoires-revises": {
@@ -2024,6 +2340,7 @@
     "titre": "Quotas migratoires votés par le Parlement | attalpresident.fr",
     "blocs": [
       "017cddc790",
+      "1bd4a15637",
       "253ecce59b",
       "35859a29a8",
       "4a692e689a",
@@ -2032,11 +2349,36 @@
       "73f3d41504",
       "870ea7494d",
       "8d33d515c1",
+      "99c2a01ca2",
+      "9b74050df2",
       "b25bb7147a",
+      "cb93700404",
       "e2aed9dc1c",
       "f096b8dd56"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/reconversion-geoenergie": {
+    "source": "attal-programme",
+    "titre": "Formation aux métiers de la géoénergie | attalpresident.fr",
+    "blocs": [
+      "070aacc79d",
+      "253ecce59b",
+      "2f45fa72b6",
+      "3c4bb01a29",
+      "5f35770210",
+      "a8f715af67",
+      "b25bb7147a",
+      "be1e03ac7c",
+      "c96e13f853",
+      "c9bcdf77d4",
+      "cebee1a60e",
+      "d997dd51f1",
+      "e287625da6",
+      "e83050e05a"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/referendums-locaux-facilites": {
@@ -2056,7 +2398,7 @@
       "f158727d87",
       "feb84cb49c"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/reforme-assurance-chomage-cinq-milliards": {
@@ -2065,16 +2407,21 @@
     "blocs": [
       "02eeefbd22",
       "04b274e2e7",
+      "050fef079a",
       "090f5bac9f",
       "253ecce59b",
       "4bf824b64e",
       "5bb388c59e",
+      "6536116658",
+      "6b602f5877",
+      "7d7447b261",
       "a2e884c45e",
       "b25bb7147a",
       "b52d00f8a5",
-      "f05fb4367d"
+      "f05fb4367d",
+      "f07940f34d"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/reforme-nominations-hautes-fonctions": {
@@ -2095,7 +2442,7 @@
       "d997dd51f1",
       "f158727d87"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/refuser-mercosur": {
@@ -2103,27 +2450,26 @@
     "titre": "Gabriel Attal contre le traité Mercosur | attalpresident.fr",
     "blocs": [
       "150725af00",
+      "1bd4a15637",
       "253ecce59b",
-      "8f3d4df333",
+      "35859a29a8",
+      "870ea7494d",
       "8f5022519f",
-      "9909bb00bd",
-      "ae3f51e3e1",
+      "99c2a01ca2",
+      "9b74050df2",
       "b25bb7147a",
-      "badeb60922",
-      "d7999c3e36",
+      "cb93700404",
       "e743641501",
-      "f396dca017",
       "f982e521d2",
       "fd9916b765"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/remplacement-enseignants-absents": {
     "source": "attal-programme",
     "titre": "Remplacement des enseignants absents : la proposition Attal | attalpresident.fr",
     "blocs": [
-      "070aacc79d",
       "0b1b445f54",
       "17f7c3b4af",
       "1a8e0cfb78",
@@ -2140,13 +2486,14 @@
       "6a33d054ef",
       "700c7ce909",
       "77b88315b0",
+      "85fb952714",
       "ab3a741cb8",
       "b25bb7147a",
       "be8f1ffffb",
       "c2e88c43e2",
       "dbbf3b7cf5"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/renseignement-ofmin": {
@@ -2168,7 +2515,7 @@
       "a1d875bebf",
       "b25bb7147a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/reparer-cinq-cents-reseaux-eau": {
@@ -2178,42 +2525,42 @@
       "03b9e33907",
       "06e59f70ec",
       "070aacc79d",
-      "0d8b85c808",
       "253ecce59b",
-      "2cc9ae3bd4",
       "2ed97c508a",
       "2f1fce5bab",
       "4b82b9e8ec",
       "51a6907a95",
+      "5f35770210",
       "a6ed3738ed",
       "b25bb7147a",
-      "badeb60922",
+      "be1e03ac7c",
       "c561db650c",
+      "d997dd51f1",
       "e287625da6",
       "e83050e05a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/reponse-subvention-quatre-vingt-dix-jours": {
     "source": "attal-programme",
     "titre": "Géoénergie : réponse aux subventions en 90 jours | attalpresident.fr",
     "blocs": [
+      "070aacc79d",
       "253ecce59b",
-      "273cc8dd82",
       "5f35770210",
       "612ee2d863",
       "6438b9eaae",
-      "7eca8fd305",
       "8fa1d155ce",
       "b25bb7147a",
       "be1e03ac7c",
       "c9bcdf77d4",
-      "f158727d87",
-      "f396dca017",
+      "d997dd51f1",
+      "e287625da6",
+      "e83050e05a",
       "f898dbd1db"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/retablir-redoublement": {
@@ -2221,12 +2568,12 @@
     "titre": "Rétablir le redoublement scolaire | attalpresident.fr",
     "blocs": [
       "00962baf0c",
-      "070aacc79d",
       "0e9ba851e3",
       "1c30a78209",
       "253ecce59b",
       "43335dec4a",
       "5c0bd3f7cf",
+      "85fb952714",
       "ab3a741cb8",
       "b25bb7147a",
       "bc9120f055",
@@ -2235,90 +2582,165 @@
       "cae6e006ff",
       "e2aed9dc1c"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/retenues-d-eau-agricoles": {
+    "source": "attal-programme",
+    "titre": "Retenues d'eau agricoles : le plan d'Attal | attalpresident.fr",
+    "blocs": [
+      "03b9e33907",
+      "070aacc79d",
+      "0ad87a4c92",
+      "253ecce59b",
+      "38af24a43b",
+      "50a0ce16b2",
+      "5f35770210",
+      "b25bb7147a",
+      "be1e03ac7c",
+      "d997dd51f1",
+      "e287625da6",
+      "e83050e05a"
+    ],
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/retraite-duree-cotisation": {
+    "source": "attal-programme",
+    "titre": "Retraites : cotisation plutôt qu'âge légal | attalpresident.fr",
+    "blocs": [
+      "050fef079a",
+      "22493818c7",
+      "253ecce59b",
+      "37378eada0",
+      "3b94b87b6a",
+      "6536116658",
+      "6b602f5877",
+      "7a4f62fa28",
+      "7d7447b261",
+      "8990305fe7",
+      "8cc92be552",
+      "9b1f64e15b",
+      "ad3fd39670",
+      "b25bb7147a",
+      "b52d00f8a5",
+      "c114230028",
+      "dc70f176bb",
+      "e6978582d3",
+      "f983773870"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/revalorisation-salaires-professeurs": {
     "source": "attal-programme",
     "titre": "Revalorisation des enseignants : +200 à +500 €/mois | attalpresident.fr",
     "blocs": [
+      "0b1b445f54",
       "0f919931ca",
       "253ecce59b",
       "3337f52e78",
+      "43335dec4a",
       "4b5b1996aa",
+      "5c0bd3f7cf",
       "7a135c5395",
       "829cfbbffe",
       "a12c7be97f",
-      "a771957592",
+      "ab3a741cb8",
       "afac5db058",
       "b25bb7147a",
+      "c2e88c43e2",
+      "cae6e006ff",
       "dbbf3b7cf5",
       "e2aed9dc1c",
       "e7f7fc1a18"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/sanctuariser-budgets-regaliens": {
+    "source": "attal-programme",
+    "titre": "Budgets régaliens et éducation sanctuarisés | attalpresident.fr",
+    "blocs": [
+      "00d1d8a7af",
+      "0f03e5ec7a",
+      "253ecce59b",
+      "3e03df3090",
+      "5ab5ee0c6d",
+      "6cddf7bb75",
+      "7eca8fd305",
+      "9cae8d92a1",
+      "b25bb7147a",
+      "c9a106c98c",
+      "d01807f5a4",
+      "dc3176a40b",
+      "f05fb4367d",
+      "fe25a37642"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/simplifier-forages-geothermiques": {
     "source": "attal-programme",
     "titre": "Forages géothermiques : simplifier les règles | attalpresident.fr",
     "blocs": [
+      "070aacc79d",
       "253ecce59b",
       "46fb3d09b5",
       "5f35770210",
       "92dbebc1d7",
-      "9ab4b51dc1",
       "b25bb7147a",
       "b7c20fc94f",
       "be1e03ac7c",
-      "bfe70cb3b1",
       "c9bcdf77d4",
-      "f396dca017",
-      "f4aed3a7b4"
+      "d997dd51f1",
+      "e287625da6",
+      "e83050e05a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/stabilite-prix-electricite": {
     "source": "attal-programme",
     "titre": "Prix de l'électricité stables pendant cinq ans | attalpresident.fr",
     "blocs": [
+      "05d010d588",
       "253ecce59b",
+      "362a2baa9b",
       "5516b5fba2",
+      "7647d92864",
       "7d0b49a966",
       "8606021d06",
-      "8f3d4df333",
-      "9909bb00bd",
+      "87d48e0b7f",
       "ae3f51e3e1",
       "b25bb7147a",
-      "badeb60922",
       "c7a1ee4380",
       "c978ada655",
-      "d7999c3e36",
-      "e2f9d047bc"
+      "d9ab73d6fb",
+      "f4e9b02dbf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/statut-auto-tpe": {
     "source": "attal-programme",
     "titre": "Statut Auto-TPE : embaucher son premier salarié | attalpresident.fr",
     "blocs": [
-      "0d8b85c808",
+      "050fef079a",
       "1983d442ef",
+      "22493818c7",
       "253ecce59b",
       "4997cf25d6",
       "5f4a930cca",
-      "8f3d4df333",
-      "9909bb00bd",
+      "6b602f5877",
+      "7d7447b261",
       "b25bb7147a",
-      "badeb60922",
-      "d7999c3e36",
-      "f396dca017",
+      "b52d00f8a5",
+      "f07940f34d",
       "f3e16fb7a9",
       "fe8a506736"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/test-pme-avant-chaque-loi": {
@@ -2339,7 +2761,7 @@
       "f396dca017",
       "fe8a506736"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/trois-mille-magistrats-greffiers": {
@@ -2360,7 +2782,7 @@
       "b25bb7147a",
       "fcebdb1a2e"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/tu-casses-tu-repares": {
@@ -2390,7 +2812,7 @@
       "eb30643f41",
       "f983773870"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/tuteur-numerique-souverain": {
@@ -2398,26 +2820,27 @@
     "titre": "Un tuteur IA gratuit et souverain pour chaque élève | attalpresident.fr",
     "blocs": [
       "04b274e2e7",
-      "0b1b445f54",
       "253ecce59b",
-      "5c0bd3f7cf",
+      "362a2baa9b",
       "5c445f3d23",
+      "7647d92864",
       "781c503722",
       "782367a37c",
       "829cfbbffe",
       "83ad6d8881",
+      "87d48e0b7f",
       "898893aba3",
       "a22b4d088a",
-      "ab3a741cb8",
       "ae3f51e3e1",
       "b25bb7147a",
-      "c2e88c43e2",
       "cacb360b2c",
-      "cae6e006ff",
+      "d9ab73d6fb",
       "dbbf3b7cf5",
-      "e4df80b38a"
+      "e4df80b38a",
+      "f396dca017",
+      "f4e9b02dbf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/un-seul-ministre-education": {
@@ -2442,14 +2865,39 @@
       "dbbf3b7cf5",
       "e2aed9dc1c"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/vingt-eleves-par-classe": {
+    "source": "attal-programme",
+    "titre": "Moins de 20 élèves par classe en primaire | attalpresident.fr",
+    "blocs": [
+      "0b1b445f54",
+      "25145696bb",
+      "253ecce59b",
+      "43335dec4a",
+      "4b5b1996aa",
+      "5866940959",
+      "5c0bd3f7cf",
+      "ab3a741cb8",
+      "aea124ac8d",
+      "b020b39a58",
+      "b25bb7147a",
+      "c2e88c43e2",
+      "cae6e006ff",
+      "dbbf3b7cf5",
+      "e2aed9dc1c",
+      "ef33738527",
+      "fe98a7fbc5"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/mesures/vingt-millions-salaries-ia": {
     "source": "attal-programme",
     "titre": "Former 20 millions de salariés à l'IA d'ici 2030 | attalpresident.fr",
     "blocs": [
-      "0d8b85c808",
+      "05d010d588",
       "1ab438e4e4",
       "1cea26c1e7",
       "253ecce59b",
@@ -2466,13 +2914,61 @@
       "ab5cd766d2",
       "ae3f51e3e1",
       "b25bb7147a",
-      "d7999c3e36",
-      "df796caa84",
+      "d9ab73d6fb",
       "e7f7fc1a18",
       "f06d3a6cf4",
-      "f2d4a70840"
+      "f2d4a70840",
+      "f396dca017",
+      "f4e9b02dbf"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/zero-deficit-2037": {
+    "source": "attal-programme",
+    "titre": "Zéro déficit public en 2037 : le plan d'Attal | attalpresident.fr",
+    "blocs": [
+      "00d1d8a7af",
+      "02eeefbd22",
+      "253ecce59b",
+      "2ae6af8fae",
+      "3777026665",
+      "385ac66ace",
+      "3a6e927f00",
+      "7eca8fd305",
+      "85692d3c65",
+      "8756e68719",
+      "b25bb7147a",
+      "cd832d4ab2",
+      "d01807f5a4",
+      "d3558bd8d3",
+      "dc3176a40b",
+      "e2aed9dc1c",
+      "f05fb4367d",
+      "fe25a37642"
+    ],
+    "vu": "2026-11-24",
+    "absences": 0
+  },
+  "https://attalpresident.fr/programme/mesures/zero-papier-juridictions": {
+    "source": "attal-programme",
+    "titre": "Zéro papier dans les juridictions : la proposition d'Attal | attalpresident.fr",
+    "blocs": [
+      "1980357f94",
+      "253ecce59b",
+      "426258d1c9",
+      "4e63ae7d47",
+      "606fd3fba2",
+      "6989934a52",
+      "6a0f35dc7c",
+      "955d483ed8",
+      "95f1d5a121",
+      "9fcbc71f5b",
+      "ae3f51e3e1",
+      "b25bb7147a",
+      "ef127a53e8"
+    ],
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/publics": {
@@ -2760,7 +3256,7 @@
     "blocs": [
       "b25bb7147a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/thematiques/defense": {
@@ -2768,13 +3264,15 @@
     "titre": "Défense — les mesures annoncées | attalpresident.fr",
     "blocs": [
       "1bd4a15637",
+      "1f6747cbec",
+      "34f0b43877",
       "99c2a01ca2",
       "b25bb7147a",
       "c457ff2bf8",
       "e2ed9cb1b4",
       "fa77f00ada"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/thematiques/sante": {
@@ -2788,7 +3286,7 @@
       "e287625da6",
       "e83050e05a"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/thematiques/simplification": {
@@ -2798,9 +3296,10 @@
       "0bfc438713",
       "273cc8dd82",
       "b25bb7147a",
-      "e2f9d047bc"
+      "e2f9d047bc",
+      "fa07fe0026"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://attalpresident.fr/programme/travail-salaires": {
@@ -2808,34 +3307,45 @@
     "titre": "Travail et salaires : les propositions d'Attal | attalpresident.fr",
     "blocs": [
       "01df0e68a0",
+      "050fef079a",
       "07061736a6",
       "0bcfdceef6",
       "146cb523c6",
       "22493818c7",
       "2560ee04e1",
       "2707cd5a1a",
+      "3bb7ae54a0",
       "3e6aaa3253",
+      "434be86f1c",
       "436ca9b8bc",
       "4dd0ae691a",
       "599a90e771",
+      "6536116658",
       "654fad8e66",
       "65c48529d9",
+      "6b602f5877",
       "719fb726fb",
       "7a3d8f762d",
       "7aa0d4c3e0",
+      "7d7447b261",
       "7da4196535",
       "7f2885e09c",
+      "93feb32df8",
       "967cf33b53",
       "9ec23ed762",
       "9fd09e2c1e",
       "a9a86a2aa0",
+      "b169cdf308",
       "b52d00f8a5",
       "b59cdaf121",
+      "b9bdcf1892",
+      "bcae6dcae8",
       "c04267bd82",
       "c73fc65787",
-      "e3bbb23c38"
+      "e3bbb23c38",
+      "f07940f34d"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://nouspresident.fr/cahiers-de-campagne": {
@@ -2869,7 +3379,7 @@
       "f6d5e2603e",
       "ff0a5d7789"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027": {
@@ -2881,7 +3391,6 @@
       "1379d79922",
       "190f3e01f5",
       "1a139f6cba",
-      "38dd045780",
       "3dc222c523",
       "3f3226423a",
       "4b74df7825",
@@ -2898,9 +3407,10 @@
       "9898bc6fb9",
       "9c9b8e5470",
       "cd9dad9047",
+      "ee88a9adf9",
       "f6a0e1c755"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf": {
@@ -2909,7 +3419,7 @@
     "blocs": [
       "b75c9b5f0e"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf": {
@@ -2918,7 +3428,7 @@
     "blocs": [
       "f87fdab99c"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme": {
@@ -2993,7 +3503,7 @@
       "fb1d7830a8",
       "fef3f135a1"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/adaptation-climatique": {
@@ -3056,7 +3566,7 @@
       "fe5764e194",
       "fef3f135a1"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/comptes-publics": {
@@ -3110,7 +3620,7 @@
       "fb1d7830a8",
       "fc43e333ec"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/defense": {
@@ -3159,7 +3669,7 @@
       "fc4cb33fd5",
       "fcab59feb9"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/ecole": {
@@ -3231,7 +3741,7 @@
       "f57a3122c8",
       "f920400f7b"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/energie": {
@@ -3287,7 +3797,7 @@
       "f4e9b02dbf",
       "fef3f135a1"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/entreprises": {
@@ -3347,7 +3857,7 @@
       "fb1d7830a8",
       "fb7625ebe1"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/famille": {
@@ -3402,7 +3912,7 @@
       "fd78b37a24",
       "fddb986bd9"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/handicap": {
@@ -3454,7 +3964,7 @@
       "f65b356028",
       "f920400f7b"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/immigration": {
@@ -3517,7 +4027,7 @@
       "ec9d6bd099",
       "f00ff7bd26"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/intelligence-artificielle": {
@@ -3578,7 +4088,7 @@
       "fd3ce2308a",
       "fef3f135a1"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/justice": {
@@ -3633,7 +4143,7 @@
       "ec6ae288c7",
       "f00ff7bd26"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/logement": {
@@ -3705,7 +4215,7 @@
       "f920400f7b",
       "fd2de41c0e"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/outre-mer": {
@@ -3772,7 +4282,7 @@
       "f4e9b02dbf",
       "fc898b2bb8"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/protection-de-l-enfance": {
@@ -3827,7 +4337,7 @@
       "f920400f7b",
       "f9bbc7fa37"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/retraites": {
@@ -3892,7 +4402,7 @@
       "f7acde52fa",
       "fb1d7830a8"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/securite": {
@@ -3955,7 +4465,7 @@
       "f8f7c91658",
       "ff910524aa"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.edouardphilippe.fr/programme/travail": {
@@ -4017,13 +4527,14 @@
       "f796f7b99e",
       "f9f0355a1e"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.unenouvelleenergie.fr/notre-programme": {
     "source": "lisnard-programme",
     "titre": "Le programme pour 2027 | Nouvelle Énergie",
     "blocs": [
+      "12c7a615fe",
       "132a03f024",
       "15772e096c",
       "1ea56290ad",
@@ -4042,19 +4553,19 @@
       "4c1fb94137",
       "52521aec7b",
       "5784d7d496",
-      "66de75d545",
       "694a0f4237",
       "70faca4976",
       "73671e05b8",
+      "7a85708b6e",
       "84bec4174e",
       "86453e2480",
       "89ef90fa04",
       "98ce8f845a",
+      "9b20a3422f",
       "9bd5ab17cf",
       "9dd2bbed16",
       "9f0a32d793",
       "a01702bbd2",
-      "a225224103",
       "a2a50138bb",
       "a6eb9993fb",
       "a813ad2a8b",
@@ -4062,7 +4573,6 @@
       "a9c06ed638",
       "b493744b95",
       "b59b81b124",
-      "bb182e30c7",
       "ce6d277eaf",
       "d137ad7bdb",
       "de8f1c8979",
@@ -4078,7 +4588,7 @@
       "f6cae0d488",
       "ff50d594ee"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.unenouvelleenergie.fr/notre-programme/agriculture": {
@@ -4112,7 +4622,7 @@
       "f28558bbf2",
       "fff32a7535"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.unenouvelleenergie.fr/notre-programme/education": {
@@ -4145,7 +4655,7 @@
       "f473a25da7",
       "f5b9ea25dc"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin": {
@@ -4220,7 +4730,7 @@
       "fe099a6488",
       "ff892ebccd"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique": {
@@ -4300,7 +4810,7 @@
       "f4ee131ea6",
       "f8bd762e04"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.unenouvelleenergie.fr/notre-programme/immigration": {
@@ -4336,7 +4846,7 @@
       "eefabdf5c6",
       "f473a25da7"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees": {
@@ -4347,7 +4857,7 @@
       "be4c7b81ea",
       "eb206075e4"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise": {
@@ -4441,7 +4951,7 @@
       "f653174068",
       "f945218dc5"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.unenouvelleenergie.fr/notre-programme/sante": {
@@ -4474,7 +4984,7 @@
       "f4434eadb2",
       "f473a25da7"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   },
   "https://www.unenouvelleenergie.fr/notre-programme/securite": {
@@ -4509,7 +5019,7 @@
       "f446a040b2",
       "f473a25da7"
     ],
-    "vu": "2026-11-23",
+    "vu": "2026-11-24",
     "absences": 0
   }
 }
