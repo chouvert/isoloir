@@ -53,6 +53,13 @@ cd site && npm run dev                    # aperçu local sur http://localhost:4
 - fr.wikipedia est bloqué : utiliser en.wikipedia. curl vers les sites de presse ou de partis est refusé
   par le proxy : ne pas contourner ; demander le fichier à Julien (il peut le déposer dans le Project claude.ai).
 - WebFetch tronque les longs PDF (≈ 94 000 caractères) : le signaler (« chapitre N non lu »).
+- **Documents déposés** (toute session) : dossier Google Drive « Isoloir — sources » (connecteur Google Drive, dossier
+  `17TmZ8a3Ot7wowVFimu11rQnJ8UXIn4WS`). Un fichier **à la racine reste à lire**, quelle que soit sa date ; un fichier lu
+  et intégré est **déplacé dans le sous-dossier « Traités »** (le créer s'il n'existe pas ; ne jamais supprimer ni
+  renommer un fichier) et le déplacement est noté dans le corps de la PR. Un document lu en partie (lecture étalée)
+  reste à la racine. Une session dédiée à un candidat cherche aussi dans « Traités » les documents qui le concernent.
+  Citer **la source d'origine** (URL, média, date indiqués dans le document), jamais le fichier déposé ; ne jamais
+  recopier ces documents dans le dépôt (dossier privé, droits d'auteur).
 - Jamais citer une page non lue ; guillemets mot pour mot ; ÉlyséeScope exclu ; agrégateurs
   (votons-2027, repere2027, monvote2027…) seulement pour repérer des sources ou comme relevé signalé.
 
@@ -91,10 +98,8 @@ Sinon, reprendre depuis la branche `maj-AAAA-Sxx` si elle existe (les candidats 
    journal : les compenser par une ou deux recherches web chacune. **Candidats sans `programme_url`** : une recherche web
    « programme » + nom + mois chacun (aucune source ne surveille l'apparition de leur programme pour Le Pen, Retailleau
    et Zemmour) ; un programme paru → `programme_url` dans la fiche et source `programme` dans `veille/sources.yml`.
-   **Documents déposés** : lister le dossier Google Drive « Isoloir — sources » (connecteur Google Drive, dossier
-   `17TmZ8a3Ot7wowVFimu11rQnJ8UXIn4WS`) et lire les fichiers ajoutés depuis la semaine précédente ; les traiter comme des
-   informations du journal (étape 3), en citant **la source d'origine** (URL, média, date indiqués dans le document), jamais
-   le fichier déposé ; ne jamais recopier ces documents dans le dépôt (dossier privé, droits d'auteur). Mettre à jour
+   **Documents déposés** : lire les fichiers à la racine du dossier Google Drive « Isoloir — sources » (règle « Documents
+   déposés » de la section Recherche web) et les traiter comme des informations du journal (étape 3) ; mettre à jour
    `veille/a-recuperer.md` (voir étape 6).
 2. **Candidats.** Relever les sondages de premier tour de la semaine (institut, dates de terrain, score), les déclarations,
    retraits et primaires ; appliquer la règle d'inclusion du README.
@@ -171,6 +176,7 @@ Sujets nouveaux de la semaine :
 À ouvrir puis enregistrer en PDF dans le dossier Drive « Isoloir — sources » (le nom du fichier n'a pas d'importance) :
 | document | lien | pourquoi | ce qu'on en attend |
 Facultatifs (pages non lues, moins importantes) : titre et lien direct.
+Documents déposés lus cette semaine et rangés dans « Traités » : titre, source d'origine, fiche(s) concernée(s) ; restés à la racine (lecture en cours) : titre, ce qui reste.
 
 ## 4. Sources lues
 | source | pages lues (liens) | ce qui en a été tiré |
@@ -226,6 +232,7 @@ Propositions ajoutées ou précisées par fiche, informations reportées à la s
   10. Suivi des programmes (spec et plan du 2026-11-15 ; PR #53, #57 et « Programmes : couverture et règle du samedi ») :
      source `programme` de la veille (empreinte des pages), `programme_lu` et couverture dans les fiches, contrôlés par
      `npm run valider`. Reste la remise à niveau (tâche 8 du plan), une fiche par session et par PR : Mélenchon d'abord
-     (chapitre 2, « Relocaliser les productions essentielles… »), puis les fiches `partiel` par sondage décroissant.
+     (chapitre 2, « Relocaliser les productions essentielles… » ; livre à déposer dans le Drive, le site refuse l'outil),
+     puis les fiches `partiel` par sondage décroissant.
   11. Plus tard : propositions comparables (étiquette « sujet »), analyse de faisabilité (début 2027, même date
      pour tous).
