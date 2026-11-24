@@ -160,6 +160,8 @@ export const MAX_PAGES_PROGRAMME = 120;
 export const PROFONDEUR_PROGRAMME = 3;
 export const MIN_BLOC = 20;
 export const LONGUEUR_CODE = 10;
+/** Méthode de calcul des empreintes : à augmenter quand elle change, pour recaler les empreintes sans fausse alerte. */
+export const VERSION_EMPREINTE = 2;
 
 const HORS_TEXTE = ['script', 'style', 'noscript', 'nav', 'header', 'footer', 'aside', 'form'];
 // Ouverture ou fermeture de ces éléments : fin du bloc en cours.
@@ -217,6 +219,7 @@ export function liensProgramme(html, urlPage, prefixes) {
   const soi = normaliserUrl(page.toString());
   const liens = [];
   for (const [, href] of html.replace(/<!--[\s\S]*?-->/g, ' ').matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)) {
+    if (GABARIT.test(href)) continue;
     let u;
     try { u = new URL(decoderEntites(href), page); } catch { continue; }
     if (prefixes ? !sousPrefixes(u, page, prefixes) : (!/^https?:$/.test(u.protocol) || sansWww(u.host) !== sansWww(page.host))) continue;
@@ -230,6 +233,23 @@ export function liensProgramme(html, urlPage, prefixes) {
 function nomDeFichier(url) {
   const nom = new URL(url).pathname.split('/').pop();
   try { return decodeURIComponent(nom); } catch { return nom; }
+}
+
+// Lien d'un gabarit JavaScript non rempli (`${m.permalien}`, `{{ lien }}`) : adresse qui n'existe pas.
+const GABARIT = /\$\{|\{\{|%7B/i;
+
+/**
+ * HTML sans le texte des liens vers le même site hors des préfixes (actualités, agenda, menus) : ces textes changent
+ * sans que le programme change. Les liens externes (sources citées) et les liens du programme sont gardés.
+ */
+export function sansLiensSortants(html, urlPage, prefixes) {
+  const page = new URL(urlPage);
+  return html.replace(/<a\b[^>]*href=["']([^"']+)["'][^>]*>[\s\S]*?<\/a>/gi, (lien, href) => {
+    let u;
+    try { u = new URL(decoderEntites(href), page); } catch { return lien; }
+    const memeSite = /^https?:$/.test(u.protocol) && sansWww(u.host) === sansWww(page.host);
+    return memeSite && !sousPrefixes(u, page, prefixes) ? ' ' : lien;
+  });
 }
 
 const estPdf = (url) => /\.pdf$/i.test(new URL(url).pathname);
@@ -252,6 +272,8 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
   const maxPages = Number.isInteger(source.max_pages) && source.max_pages > 0 ? source.max_pages : maxGeneral;
   // Textes changeants sans rapport avec le programme (compteurs, encarts d'actualité) : blocs retirés avant l'empreinte.
   const ignores = (Array.isArray(source.ignorer) ? source.ignorer : []).map((m) => new RegExp(m, 'iu'));
+  // Signature de la méthode et du champ `ignorer` : une empreinte d'une autre signature est recalée sans être comparée.
+  const signature = `${VERSION_EMPREINTE}-${createHash('sha1').update(JSON.stringify(source.ignorer ?? [])).digest('hex').slice(0, 6)}`;
   const entree = normaliserUrl(source.url);
   const base = new URL(source.url);
   const anciennes = Object.fromEntries(Object.entries(empreintes).filter(([, e]) => e.source === source.id));
@@ -299,7 +321,7 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
       enErreur.add(url);
       continue;
     }
-    const blocs = blocsDeTexte(r.texte).filter((b) => !ignores.some((m) => m.test(b)));
+    const blocs = blocsDeTexte(sansLiensSortants(r.texte, r.url ?? url, prefixes)).filter((b) => !ignores.some((m) => m.test(b)));
     pages.push({ url, statut: 200, blocs: blocs.length });
     lues.set(url, { titre: titreDePage(r.texte, url), blocsOrdonnes: blocs, blocs: codesDeBlocs(blocs) });
     if (url === entree) {
@@ -346,7 +368,7 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
       for (const c of page.blocs) codesNouvellesPages.add(c);
       infos.push({ nature: 'programme-nouveau', titre: `Programme : page nouvelle — ${page.titre}`, lien: url,
         chapo: couper(page.blocsOrdonnes?.[0] ?? '') });
-    } else if (avant && !page.pdf) {
+    } else if (avant && !page.pdf && avant.v === signature) {
       const ordonnes = page.blocsOrdonnes.map(codeDeBloc);
       // Ajouté : bloc propre à la page, absent hier. Retiré : bloc propre à la page hier, absent aujourd'hui.
       const ajoutes = [...new Set(page.blocsOrdonnes.filter((_, i) => propre(fApres, ordonnes[i]) && !avant.blocs.includes(ordonnes[i])))];
@@ -364,11 +386,11 @@ export async function suivreProgramme({ source, empreintes = {}, lire, lireEntet
     }
     // Un PDF devenu muet garde son ancienne empreinte : il ne sera pas signalé à tort au retour de ses en-têtes.
     const blocs = page.pdf && !page.blocs.length && avant ? avant.blocs : page.blocs;
-    nouvelles[url] = { source: source.id, titre: page.titre, blocs, vu: jour, absences: 0 };
+    nouvelles[url] = { source: source.id, titre: page.titre, blocs, vu: jour, absences: 0, v: signature };
   }
 
   // Blocs communs apparus ou disparus de toute la source (hors pages nouvelles, déjà signalées).
-  if (!premierPassage) {
+  if (!premierPassage && Object.values(anciennes).every((e) => e.v === signature)) {
     const tousAvant = new Set(fAvant.keys());
     const tousApres = new Set(fApres.keys());
     const lus = new Set([...lues.keys()]);

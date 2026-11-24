@@ -633,3 +633,33 @@ test('programme : diagnostic de l’essai — texte des blocs ajoutés par page'
   assert.equal(m.retires, 1);
   assert.match(m.ajoutes[0], /^Relocaliser les productions/);
 });
+
+test('liensProgramme : liens de gabarit non remplis (${…}, {{…}}) écartés', () => {
+  const html = '<a href="/programme/${m.permalien}">x</a><a href="/programme/{{ lien }}">y</a><a href="/programme/sante">z</a>';
+  assert.deepEqual(liensProgramme(html, 'https://c.fr/programme', ['/programme']), ['https://c.fr/programme/sante']);
+});
+
+test('programme : texte des liens vers le reste du site (actualités, agenda) hors de l’empreinte', async () => {
+  const actu = (titre) => ({ 'https://c.fr/programme/livre/chapitre1': ok(CH1.replace('</main>',
+    `<ul><li><a href="/actualite/${titre.length}">${titre}</a></li></ul><p>Lire aussi <a href="/actualite/z">la tribune du candidat</a> sur la dette publique.</p></main>`)) });
+  const r1 = await passage(site({ pages: actu('Le candidat dévoile son plan pour le logement ce matin') }));
+  const r2 = await passage(site({ pages: actu('Grand entretien du candidat à la radio publique hier soir') }), r1, { maintenant: '2026-11-08' });
+  assert.deepEqual(r2.infos, []);
+  assert.equal(r1.empreintes['https://c.fr/programme/livre/chapitre1'].blocs.length, 3, 'le paragraphe reste, sans le texte du lien');
+});
+
+test('programme : empreintes d’une méthode antérieure ou d’un autre « ignorer » → recalées sans information', async () => {
+  const r1 = await passage(site());
+  const anciennes = Object.fromEntries(Object.entries(r1.empreintes).map(([u, e]) => {
+    const { v, ...reste } = e;
+    return [u, { ...reste, blocs: [...reste.blocs, 'abcdef0123'] }];
+  }));
+  const r2 = await passage(site({ pages: { 'https://c.fr/programme/livre/chapitre2': ok(CH_V2) } }), { ...r1, empreintes: anciennes }, { maintenant: '2026-11-08' });
+  assert.deepEqual(r2.infos, []);
+  assert.ok(Object.values(r2.empreintes).every((e) => typeof e.v === 'string'));
+  const r3 = await passage(site({ pages: { 'https://c.fr/programme/livre/chapitre2': ok(CH_V1) } }), r2, { maintenant: '2026-11-09' });
+  assert.deepEqual(r3.infos.map((i) => i.nature), ['programme-modifie'], 'ensuite, comparaison normale');
+  const r4 = await collecter({ ...BASE, sources: [{ ...PROG, ignorer: ['coopératives'] }], etat: r3.etat, vus: r3.vus, empreintes: r3.empreintes,
+    lireUrl: site().lireUrl, lireEntete: site().lireEntete, maintenant: '2026-11-10' });
+  assert.deepEqual(r4.infos, [], 'nouvel « ignorer » : recalage');
+});
