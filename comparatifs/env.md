@@ -1,6 +1,6 @@
 ---
 theme: env
-derniere_maj: 2026-11-24
+derniere_maj: 2026-11-25
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -21,7 +21,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Q-env-nuc | pour | contre | pour | pour | pour | pour | contre | pour | pour | pour | pour | contre | pour | pour |
 | Q-env-renouv | pour | pour | contre | pour | contre | nuancé | pour | pour | nuancé | pas de position | pour | pour | pour | contre |
-| Q-env-climat | pour | pas de position | pas de position | pas de position | pour | pas de position | pas de position | pas de position | pas de position | pas de position | pas de position | pour | pour | pas de position |
+| Q-env-climat | pour | pas de position | pas de position | pas de position | pour | pas de position | pour | pas de position | pas de position | pas de position | pas de position | pour | pour | pas de position |
 
 ## Dilemmes du thème
 
@@ -62,8 +62,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Raphaël Glucksmann | env-01 | Engager « les 100 jours de la révolution écologique » dès l'élection, avec pour priorité la sortie du gaz et du pétrole ; rénovation thermique des bâtiments, efficacité énergétique, sobriété ; premier volet présenté le 2026-11-09 : plan des « 100 premiers jours pour sortir des énergies fossiles », 200 Md€ d'investissements engagés par l'ensemble des administrations publiques (État, collectivités, Sécurité sociale) dès les premiers jours du quinquennat | 200 Md€ d'investissements (durée et périodicité non précisées) | — |
 | Raphaël Glucksmann | env-02 | Leasing social : un million de voitures électriques mises à disposition des ménages modestes pour « 100 euros par mois » ; précisé le 2026-11-09 : voitures compactes, sans apport, pour les actifs gagnant moins de 2 000 euros net par mois et parcourant plus de 30 km par jour pour travailler ; 100 000 véhicules la première année réservés aux soignants, infirmières libérales et auxiliaires de vie en zone rurale | 6 Md€ (périodicité non précisée) | — |
 | Raphaël Glucksmann | env-06 | Chèque énergie exceptionnel : « un chèque énergie exceptionnel de 500 euros pour 6 millions de familles », et 200 euros pour 10 millions de familles supplémentaires des classes moyennes | montants unitaires, sans coût total annoncé | — |
-| Jean-Luc Mélenchon | env-02 | Plan de 200 Md€ d'investissements écologiques et « socialement utiles » | 200 Md€ (durée non précisée) | — |
-| Jean-Luc Mélenchon | env-05 | Investir 10 Md€ dans la planification écologique (le document écrit « dès 2026 ») | 10 Md€ | — |
+| Jean-Luc Mélenchon | env-05 | Investir 10 Md€ dans la planification écologique (le document écrit « dès 2026 ») ; lois-cadres de planification écologique et conseil à la planification écologique | 10 Md€ | — |
 | Édouard Philippe | env-02 | Créer un fonds unique d'adaptation au changement climatique (fusion du fonds Barnier et du Fonds vert) | 2 Md€/an | — |
 | Bruno Retailleau | env-02 | Mettre fin au soutien public aux nouvelles installations photovoltaïques et éoliennes, jugées « matures » | inclus dans 23 Md€ cumulés de fins ou réductions de programmes (non annuel) | — |
 | Bruno Retailleau | env-03 | Baisser la facture d'électricité : « Je propose d'alléger de deux mois la facture d'électricité des Français » (2026-06-01) ; baisse de 10 % (du coût de l'électricité, selon le contexte) pour la compétitivité des entreprises et des exploitations agricoles, rapportée le 2026-08-28 | non chiffré | — |

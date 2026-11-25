@@ -1,6 +1,6 @@
 ---
 theme: eco
-derniere_maj: 2026-11-24
+derniere_maj: 2026-11-25
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -30,7 +30,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | D-eco-dette | A | pas de position | A | pas de position | A | A | B | A | A | pas de position | pas de position | C | B | A |
-| D-eco-pouvoir-achat | B | D | C | B | C | B | A | B | B | C | A | A | B | C |
+| D-eco-pouvoir-achat | B | D | C | B | C | B | D | B | B | C | A | A | B | C |
 
 ### D-eco-dette
 
@@ -46,10 +46,10 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 > Une seule mesure peut être financée pour améliorer le pouvoir d'achat. Laquelle choisir ?
 
-- **A** — Augmenter le salaire minimum par la loi : Mélenchon, Ruffin, Tondelier
+- **A** — Augmenter le salaire minimum par la loi : Ruffin, Tondelier
 - **B** — Baisser les cotisations sur les salaires pour augmenter le net : Attal, Glucksmann, Lisnard, Philippe, Retailleau, de Villepin
 - **C** — Baisser les taxes sur la consommation (TVA, carburants) : Dupont-Aignan, Le Pen, Roussel, Zemmour
-- **D** — Augmenter les aides ciblées sur les ménages modestes : Batho
+- **D** — Augmenter les aides ciblées sur les ménages modestes : Batho, Mélenchon
 
 ## Coûts des propositions du thème
 
@@ -82,14 +82,14 @@ Le détail et les sources de chaque position sont dans les fiches.
 | David Lisnard | eco-04 | Intensifier la baisse des impôts de production : suppression de la C3S et, le cas échéant, de la CVAE (NE ; passage non daté, vraisemblablement antérieur à 2026) | « 11,5 milliards d'euros qui s'ajouteraient à la baisse de 10 milliards déjà prévue par le gouvernement » (périodicité non précisée) | — |
 | David Lisnard | eco-05 | Ne pas remplacer une partie des « quelque 500 000 départs annuels de la fonction publique », en commençant par l'administration ; « privatiser des fonctions non régaliennes » ; supprimer des agences jugées redondantes, dont les ARS | pas de solde net d'emplois publics annoncé (L'Essentiel de l'Éco) | — |
 | David Lisnard | eco-09 | Transmissions : « baisser toutes les fiscalités » pour faciliter les transmissions du vivant ; « liberté d’attribution de l’héritage à qui on veut », la ligne directe restant garantie | non chiffré | — |
-| Jean-Luc Mélenchon | eco-01 | Rétablir un ISF renforcé | +10 Md€ de recettes | — |
-| Jean-Luc Mélenchon | eco-02 | Impôt plancher sur les patrimoines de plus de 100 M€ (taxe Zucman ; 2 % sur les milliardaires dans l'édition 2025) | +15 Md€ | — |
-| Jean-Luc Mélenchon | eco-03 | Réformer les droits de succession | +20 Md€ la première année | — |
-| Jean-Luc Mélenchon | eco-04 | Impôt sur le revenu à 14 tranches au lieu de 5 | non chiffré | — |
-| Jean-Luc Mélenchon | eco-05 | Supprimer le prélèvement forfaitaire unique (flat tax) | +9 Md€ | — |
-| Jean-Luc Mélenchon | eco-06 | Raboter les niches fiscales et sociales | +22 Md€ en 2027 | — |
-| Jean-Luc Mélenchon | eco-07 | Taxer les « superprofits » | +5 Md€ | — |
-| Jean-Luc Mélenchon | eco-08 | Pôle public bancaire investissant 100 Md€ par an, hors budget de l'État | 100 Md€/an hors budget | — |
+| Jean-Luc Mélenchon | eco-01 | « Rétablir et renforcer l'impôt de solidarité sur la fortune (ISF) incluant un volet climatique visant à taxer les gros pollueurs » | +10 Md€ de recettes | — |
+| Jean-Luc Mélenchon | eco-02 | « Introduire une garantie d'impôt de 2 % sur le patrimoine des centimillionaires, dite « taxe Zucman », et rétablir une exit tax renforcée » | +15 Md€ | — |
+| Jean-Luc Mélenchon | eco-03 | Augmenter les droits de succession sur les plus hauts patrimoines en cumulant les dons et héritages reçus au cours de la vie, « créer un héritage maximal de 12 millions d'euros » ; exonérer les héritages inférieurs à 150 000 euros | +20 Md€ la première année | — |
+| Jean-Luc Mélenchon | eco-04 | Impôt sur le revenu à 14 tranches au lieu de 5 (mesure clé de la « révolution fiscale ») | non chiffré | — |
+| Jean-Luc Mélenchon | eco-05 | « Supprimer la flat tax et imposer les revenus du capital comme ceux du travail » | +9 Md€ | — |
+| Jean-Luc Mélenchon | eco-06 | Passer au crible les niches fiscales et sociales, supprimer les injustes, inefficaces ou nuisibles, transformer les réductions d'impôt restantes en crédits d'impôt | +22 Md€ en 2027 | — |
+| Jean-Luc Mélenchon | eco-07 | « Établir une taxe sur les superprofits de toutes les grandes entreprises, activée en cas de hausse soudaine de leurs bénéfices en période de crise » | +5 Md€ | — |
+| Jean-Luc Mélenchon | eco-08 | « Créer un pôle public bancaire et de l'assurance et transformer la Banque publique d'investissement (BPI) en véritable banque publique des besoins productifs » ; 100 Md€ d'investissements par an, hors budget de l'État, selon le document budgétaire | 100 Md€/an hors budget | — |
 | Jean-Luc Mélenchon | eco-09 | Investir 22 milliards d'euros dans les services publics dès les premiers mois du quinquennat (grand oral de Radio France sur les services publics, propos paraphrasés par Public Sénat ; ventilation non précisée) | 22 Md€ selon lui | — |
 | Édouard Philippe | eco-02 | Baisser de 50 Md€ les impôts de production, en supprimant 50 Md€ d'aides publiques jugées improductives | 50 Md€ de baisse, en contrepartie de 50 Md€ d'aides en moins | — |
 | Bruno Retailleau | eco-01 | Plan d'économies de 197 Md€ « sans augmentation d'impôts » : État 96 Md€, social 91 Md€, collectivités 10 Md€ ; 146 Md€ pour réduire la dépense et la dette, 51 Md€ d'allègements ; déficit sous 3 % du PIB en 2031 et à 2,2 % en 2032 | 197 Md€ cumulés jusqu'en 2032 (non annuel) | — |

@@ -1,6 +1,6 @@
 ---
 theme: secu
-derniere_maj: 2026-11-24
+derniere_maj: 2026-11-25
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -18,8 +18,8 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 | question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-secu-effectifs | pas de position | pas de position | +30 000 | pas de position | pas de position | remise à niveau de la police nationale, sans objectif chiffré d'effectifs | pas de position | pas de position | pas de position | hausse | pas de position | police de proximité, priorité aux effectifs de terrain, sans objectif chiffré | pas d'objectif global | pas de position |
-| Q-secu-justice | durcissement pour les crimes sur mineurs | réexamen des plaintes de mineurs victimes ; vote contre la loi sur l'ordre public | hausse des moyens et des peines | pas de position | pas de position | peines planchers et hausse des moyens judiciaires | priorité à la réinsertion | peines planchers et courtes peines | courtes peines et référendum pénal | peines plus lourdes pour la fraude fiscale | indépendance du parquet, fin des privilèges de juridiction, délinquance financière et environnementale | hausse des moyens, régulation carcérale | hausse des moyens, exécution des peines | peines planchers, exécution des peines, places de prison |
+| Q-secu-effectifs | pas de position | pas de position | +30 000 | pas de position | pas de position | remise à niveau de la police nationale, sans objectif chiffré d'effectifs | hausses ciblées, sans objectif global | pas de position | pas de position | hausse | pas de position | police de proximité, priorité aux effectifs de terrain, sans objectif chiffré | pas d'objectif global | pas de position |
+| Q-secu-justice | durcissement pour les crimes sur mineurs | réexamen des plaintes de mineurs victimes ; vote contre la loi sur l'ordre public | hausse des moyens et des peines | pas de position | pas de position | peines planchers et hausse des moyens judiciaires | priorité à la réinsertion et aux moyens de la justice | peines planchers et courtes peines | courtes peines et référendum pénal | peines plus lourdes pour la fraude fiscale | indépendance du parquet, fin des privilèges de juridiction, délinquance financière et environnementale | hausse des moyens, régulation carcérale | hausse des moyens, exécution des peines | peines planchers, exécution des peines, places de prison |
 
 ## Dilemmes du thème
 

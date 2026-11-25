@@ -1,6 +1,6 @@
 ---
 theme: social
-derniere_maj: 2026-11-24
+derniere_maj: 2026-11-25
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -74,12 +74,12 @@ Le détail et les sources de chaque position sont dans les fiches.
 | David Lisnard | social-02 | « conserver un socle de pension minimale par répartition pour tous les retraités », « complété par un minimum-vieillesse à hauteur de 1000 euros par mois » ; « faire évoluer tous les autres régimes vers la capitalisation » ; « Une Agence Centrale Publique de Retraite sera en charge de l'ensemble de la gestion » (NE) | non chiffré | — |
 | David Lisnard | social-07 | « la mise en place progressive d'une capitalisation obligatoire », avec « un système par répartition comme filet de sécurité » ; « libérer davantage les plans d'épargne en actions (PEA) » ; engagement à ne pas modifier la fiscalité de l'assurance-vie ; capitalisation obligatoire réaffirmée le 2026-11-06, avec « la création d'un fonds souverain pour les épargnants » (rédaction du site du parti) | non chiffré | — |
 | David Lisnard | social-09 | Geler les retraites au-dessus de 2 200 € : « Je ne propose pas un gel total des retraites, mais un gel des retraites de plus de 2200 euros » ; « Je propose de supprimer certaines prestations, de ne pas en indexer d'autres » (2026-10-27) | deux à trois milliards d'euros dès la première année | — |
-| Jean-Luc Mélenchon | social-01 | Abroger le report de l'âge à 64 ans, puis revenir à 60 ans avec 40 annuités | 9 Md€ (abrogation) | — |
-| Jean-Luc Mélenchon | social-02 | Porter le SMIC à 1 700 € net ; repris dans le plan pauvreté du 2026-11-16 (« augmenter le SMIC à 1700 euros net ») | non chiffré | — |
-| Jean-Luc Mélenchon | social-03 | Abroger les réformes de l'assurance chômage | 3 Md€ | — |
-| Jean-Luc Mélenchon | social-04 | Augmenter de 10 % les pensions, les allocations familiales et les APL | 8 Md€ | — |
-| Jean-Luc Mélenchon | social-05 | Créer une garantie d'autonomie pour les jeunes ; plan pauvreté du 2026-11-16 : « garantie d'autonomie, qui permettra à toute personne résidant en France de disposer d'un revenu au moins égal au seuil de pauvreté » (parti : La France insoumise) | 9,5 Md€ | — |
-| Jean-Luc Mélenchon | social-08 | Logements d'urgence et réquisitions | 3 Md€ | — |
+| Jean-Luc Mélenchon | social-01 | « Abroger la réforme Macron passant l'âge de départ à la retraite à 64 ans, puis abaisser l'âge de départ jusqu'à restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations » | 9 Md€ (abrogation) | — |
+| Jean-Luc Mélenchon | social-02 | « Porter immédiatement le SMIC mensuel à 1 700 euros net et indexer les salaires sur l'inflation dans le privé comme dans la fonction publique » ; repris dans le plan pauvreté du 2026-11-16 | non chiffré | — |
+| Jean-Luc Mélenchon | social-03 | Annuler les réformes de l'assurance chômage sur l'éligibilité et le calcul de l'allocation, indemniser dès le premier jour ; abroger la loi « France Travail » et l'obligation de 15 heures d'activité hebdomadaire pour les allocataires | 3 Md€ | — |
+| Jean-Luc Mélenchon | social-04 | Augmenter de 10 % les pensions, les allocations familiales et les APL (le programme : « Revaloriser les aides pour le logement (APL) de 10 % » et augmenter les minima sociaux) | 8 Md€ | — |
+| Jean-Luc Mélenchon | social-05 | « Créer une garantie d'autonomie, qui permettra que nul ne soit privé de sa dignité pour vivre : le revenu mensuel de chaque personne atteindra le seuil de pauvreté (1 337 euros pour une personne seule) » ; le document budgétaire chiffre une garantie d'autonomie pour les jeunes | 9,5 Md€ | — |
+| Jean-Luc Mélenchon | social-08 | Hébergement d'urgence et « zéro sans-abri » à l'issue du quinquennat ; réquisition des logements vides | 3 Md€ | — |
 | Édouard Philippe | social-01 | Porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans, sans hausse des cotisations ni baisse générale des pensions ; départs anticipés maintenus pour raisons de santé et pour carrières longues ; critères de pénibilité négociés avec les partenaires sociaux | « un gain chiffré en année pleine d'environ 30 milliards d'euros » (candidat, selon l'AFP) | — |
 | Édouard Philippe | social-02 | « Généraliser à tous les salariés la retraite par capitalisation collective », avec « un premier versement de l'État de 500€ dès le premier emploi » ; le programme y ajoute un plan d'épargne retraite ouvert à chaque Français ; volet « neutre pour le coût du travail » selon son entourage (AFP) | 500 € par bénéficiaire ; coût total non annoncé | — |
 | Édouard Philippe | social-04 | Exonérer de cotisations et d'impôt les heures supplémentaires ; aucune cotisation patronale au-delà de la 37e heure, dans le cadre de la sortie des 35 heures ; le programme présente la mesure sous la priorité « Financer la protection sociale autrement que par le travail, pour augmenter le salaire net. » (le seuil d'exonération des heures est donné tantôt à 35 h, tantôt à 37 h selon les réponses) | environ 1 000 €/an pour un salarié au SMIC faisant 2 h de plus par semaine | — |

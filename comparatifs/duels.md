@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-24
+derniere_maj: 2026-11-25
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -24,7 +24,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Édouard Philippe | eco-03 (texte court) | Réduire le déficit public surtout par la baisse des dépenses : la moitié de l'effort sur les dépenses sociales, le reste venant de l'État, des collectivités et de la croissance |
 | A | Bruno Retailleau | eco-01 (texte court) | Économiser 197 milliards d'euros sur les dépenses publiques, au total sur la durée du mandat, sans augmenter les impôts |
 | A | Éric Zemmour | eco-01 (texte court) | Baisser les dépenses publiques d'au moins 100 milliards d'euros par an |
-| B | Jean-Luc Mélenchon | eco-01 (texte court) | Rétablir l'impôt sur la fortune, à un niveau plus élevé qu'avant, parmi les hausses d'impôts prévues pour réduire le déficit public |
+| B | Jean-Luc Mélenchon | eco-01 (texte court) | Rétablir et renforcer l'impôt sur la fortune, avec un volet visant à taxer les plus gros pollueurs |
 | B | Dominique de Villepin | eco-05 (texte court) | Supprimer en cinq ans toutes les réductions et exonérations d'impôts et de cotisations, en consacrant une partie des recettes à réduire le déficit |
 | C | Marine Tondelier | eco-06 (texte court) | Renégocier avec l'Union européenne le rythme de réduction du déficit public et ne plus y compter les investissements pour la transition écologique |
 
@@ -34,7 +34,6 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
-| A | Jean-Luc Mélenchon | social-02 (texte court) | Porter à 1 700 euros net par mois le salaire minimum |
 | A | François Ruffin | social-01 (texte court) | Porter à 1 700 euros net par mois le salaire minimum |
 | A | Marine Tondelier | social-01 (texte court) | Porter à 2 000 euros brut par mois le salaire minimum, avec des aides pour les petites et moyennes entreprises et les associations |
 | B | Gabriel Attal | social-04 (texte court) | Baisser les cotisations sociales prélevées sur les salaires pour que le salaire net se rapproche du salaire brut |
@@ -48,6 +47,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | C | Fabien Roussel | eco-02 (texte court) | Ramener la TVA sur les carburants à 5,5 % |
 | C | Éric Zemmour | eco-03 (texte court) | Baisser d'un tiers la taxe sur les carburants, en finançant cette baisse par des économies |
 | D | Delphine Batho | eco-02 (texte court) | Verser une aide d'urgence aux ménages les plus vulnérables et aux professions les plus touchées par la hausse du prix des carburants |
+| D | Jean-Luc Mélenchon | social-05 (texte court) | Garantir à chaque personne un revenu au moins égal au seuil de pauvreté |
 
 ## Travail, retraites, social
 
@@ -62,6 +62,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Bruno Retailleau | social-01 (texte court) | Fixer à 63 ans l'âge minimal de départ à la retraite, avec une pension réduite pour ceux qui partent avant l'âge du taux plein, lui-même abaissé |
 | A | Éric Zemmour | social-01 (texte court) | Allonger la durée de cotisation exigée pour la retraite, au-delà de 43 ans, sans baisser les pensions |
 | B | Marine Tondelier | social-02 (texte court) | Augmenter chaque année pendant le mandat les cotisations pour la retraite, afin de financer le retour de l'âge légal à 62 ans |
+| C | Jean-Luc Mélenchon | social-11 (texte court) | Supprimer les avantages fiscaux de la retraite par capitalisation pour financer les retraites par répartition |
 | D | Gabriel Attal | social-02 (texte court) | Faire verser par l'État 1 000 euros à la naissance de chaque enfant sur un compte d'épargne pour sa retraite, que sa famille peut compléter |
 | D | Nicolas Dupont-Aignan | social-02 (texte court) | Verser 10 000 euros à la naissance de chaque enfant français, placés dans un fonds public jusqu'à sa retraite, en complément de sa pension |
 | D | Marine Le Pen | social-02 (texte court) | Ajouter à la retraite par répartition une part de capitalisation obligatoire, financée par des cotisations existantes réorientées |
@@ -79,6 +80,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Nicolas Dupont-Aignan | social-08 (texte court) | Donner accès à un crédit d'études ou de formation aux jeunes qui ont quitté l'école tôt |
 | B | Marine Tondelier | social-07 (texte court) | Proposer aux salariés peu qualifiés une formation rémunérée de plusieurs mois vers un métier de la transition écologique |
 | B | Dominique de Villepin | social-02 (texte court) | Créer une sécurité sociale professionnelle qui verse un revenu de transition et ouvre un droit à se former vers des métiers d'avenir |
+| C | Jean-Luc Mélenchon | social-12 (texte court) | Revaloriser les salaires et les conditions de travail des métiers du soin, du lien et du contact, occupés surtout par des femmes |
 | C | François Ruffin | social-02 (texte court) | Payer double les heures travaillées tôt le matin ou en soirée dans les métiers considérés comme essentiels |
 
 ## Écologie & énergie
@@ -96,7 +98,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Édouard Philippe | env-01 (texte court) | Lancer la construction de 14 nouveaux réacteurs nucléaires |
 | A | Bruno Retailleau | env-01 (texte court) | Produire l'électricité d'abord avec le nucléaire, les énergies renouvelables ne venant qu'en complément |
 | A | Éric Zemmour | env-01 (texte court) | Construire 14 nouveaux réacteurs nucléaires, en deux étapes |
-| B | Jean-Luc Mélenchon | env-03 (texte court) | Viser uniquement des énergies renouvelables au plus tard en 2060, en sortant du nucléaire et en abandonnant les projets de nouveaux réacteurs |
+| B | Jean-Luc Mélenchon | env-10 (texte court) | Produire uniquement de l'énergie renouvelable au plus tard en 2060, en fermant progressivement les centrales nucléaires |
 | C | Dominique de Villepin | env-01 (texte court) | Construire six nouveaux réacteurs nucléaires et développer l'éolien en mer pour remplacer les énergies fossiles |
 | D | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en débattant des besoins avant de décider comment produire |
 | D | François Ruffin | env-01 (texte court) | Porter à 15 milliards d'euros par an l'effort de rénovation des logements, pour réduire les besoins en énergie |
@@ -111,6 +113,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en ouvrant un débat avant de développer les centres de données ou une nouvelle génération de réseaux mobiles |
 | A | Dominique de Villepin | env-02 (texte court) | Augmenter chaque année d'environ 4,5 milliards d'euros le budget de lutte contre le réchauffement, avec une taxe qui encadre le prix des énergies fossiles |
 | B | Raphaël Glucksmann | env-05 (texte court) | Financer la transition écologique par une taxe européenne sur les bénéfices exceptionnels du pétrole et du gaz et par des taxes sur le transport aérien |
+| B | Jean-Luc Mélenchon | env-11 (texte court) | Obliger les entreprises à mesurer leurs émissions de gaz à effet de serre et à les réduire, en commençant par les secteurs les plus polluants |
 | B | François Ruffin | eco-01 (texte court) | Créer, après référendum, une taxe de 4 % sur les dividendes des entreprises, réduite pour celles qui en versent peu, pour financer la transition écologique |
 | B | Marine Tondelier | env-03 (texte court) | Créer des impôts sur les entreprises du pétrole, du gaz et du charbon et sur les ménages qui émettent le plus de carbone |
 | D | Nicolas Dupont-Aignan | env-03 (texte court) | Supprimer plusieurs règles environnementales, dont l'interdiction de vendre des voitures neuves à essence ou diesel à partir de 2035 |
@@ -136,7 +139,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Éric Zemmour | secu-04 (texte court) | Construire 100 000 places de prison supplémentaires |
 | C | Nicolas Dupont-Aignan | secu-01 (texte court) | Doubler la dépense consacrée à la justice par habitant et recruter davantage de magistrats et de greffiers |
 | C | Dominique de Villepin | secu-01 (texte court) | Recruter des magistrats pour rattraper en dix ans la moyenne européenne du nombre de magistrats par habitant |
-| D | Jean-Luc Mélenchon | secu-04 (texte court) | Donner des moyens à la réinsertion des détenus et fixer une limite obligatoire au nombre de personnes en prison |
+| D | Jean-Luc Mélenchon | secu-06 (texte court) | Renforcer la prévention en recrutant davantage d'éducateurs spécialisés, d'éducateurs de rue et de médiateurs |
 
 ## Immigration
 
@@ -150,7 +153,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | David Lisnard | immig-07 (texte court) | Fixer un nombre limité de travailleurs étrangers admis, selon les besoins des secteurs qui manquent de main-d'œuvre |
 | A | Édouard Philippe | immig-06 (texte court) | Fixer des quotas d'étrangers autorisés à venir travailler en France |
 | B | Raphaël Glucksmann | immig-02 (texte court) | Donner un titre de séjour aux travailleurs étrangers sans papiers |
-| B | Jean-Luc Mélenchon | immig-03 (texte court) | Faciliter la régularisation des étrangers qui vivent en France sans titre de séjour |
+| B | Jean-Luc Mélenchon | immig-06 (texte court) | Régulariser les travailleurs sans papiers, ainsi que les étudiants et les parents d'enfants scolarisés sans papiers |
 | B | François Ruffin | immig-01 (texte court) | Régulariser les étrangers sans papiers déjà présents en France, sans faire venir de nouveaux travailleurs étrangers |
 | B | Marine Tondelier | immig-01 (texte court) | Régulariser les travailleurs étrangers sans papiers, avec des titres de séjour de plusieurs années renouvelés automatiquement |
 | C | Nicolas Dupont-Aignan | social-06 (texte court) | Proposer à chaque jeune sans diplôme une formation intensive à un métier, suivie d'un emploi dans un secteur qui manque de main-d'œuvre |
@@ -167,10 +170,10 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | François Ruffin | europe-01 (texte court) | Obtenir que la politique commerciale de l'Union européenne passe du libre-échange à la protection |
 | B | Marine Tondelier | europe-01 (texte court) | Réviser les traités européens pour garantir le respect des limites écologiques de la planète et construire peu à peu un État social européen |
 | C | David Lisnard | europe-02 (texte court) | Obtenir que la France ne soit plus tenue d'appliquer les règles européennes communes sur l'asile et l'immigration |
-| C | Jean-Luc Mélenchon | europe-05 (texte court) | Cesser d'appliquer les règles européennes jugées incompatibles avec des engagements écologiques et sociaux |
 | C | Bruno Retailleau | europe-01 (texte court) | Changer la Constitution par référendum pour que le droit français passe avant le droit européen dans certains cas, notamment sur l'immigration et la sécurité |
 | D | Nicolas Dupont-Aignan | europe-02 (texte court) | Faire passer le droit français avant le droit européen |
 | D | Marine Le Pen | europe-02 (texte court) | Inscrire dans la Constitution qu'elle l'emporte sur les traités internationaux, y compris les règles européennes |
+| D | Jean-Luc Mélenchon | europe-13 (texte court) | Appliquer en France le programme choisi par les électeurs même quand les traités européens ne le permettent pas, sans quitter l'Union |
 | D | Éric Zemmour | europe-01 (texte court) | Modifier la Constitution pour que les lois françaises passent avant les traités internationaux, sans quitter l'Union européenne |
 
 ### D-europe-defense
@@ -198,7 +201,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
-| A | Jean-Luc Mélenchon | educ-03 (texte court) | Réduire le nombre d'élèves par classe, en commençant par la maternelle et les établissements d'éducation prioritaire |
+| A | Jean-Luc Mélenchon | educ-03 (texte court) | Réduire partout le nombre d'élèves par classe, en commençant par la maternelle et l'éducation prioritaire |
 | A | Fabien Roussel | educ-03 (texte court) | Lancer un plan de recrutement d'enseignants |
 | A | Marine Tondelier | educ-02 (texte court) | Réduire le nombre d'élèves par classe à 19, et à moins encore dans les établissements d'éducation prioritaire |
 | B | Gabriel Attal | educ-02 (texte court) | Augmenter le salaire des enseignants d'au moins 200 euros net par mois, davantage en milieu de carrière |
@@ -249,9 +252,6 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 
 | dilemme | candidat | proposition | motif |
 |---|---|---|---|
-| D-social-retraites | Jean-Luc Mélenchon | eco-01 | sans texte court |
-| D-social-chomage | Jean-Luc Mélenchon | social-02 | sans texte court |
-| D-env-rythme | Jean-Luc Mélenchon | env-01 | sans texte court |
 | D-env-rythme | Bruno Retailleau | env-03 | sans texte court |
 | D-europe-defense | Raphaël Glucksmann | europe-02 | sans texte court |
 | D-europe-defense | Marine Le Pen | europe-04 | sans texte court |

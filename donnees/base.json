@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "derniere_maj": "2026-11-24",
+  "derniere_maj": "2026-11-25",
   "referentiel_maj": "2026-11-21",
   "themes": [
     {
@@ -8800,70 +8800,82 @@
       "statut": "déclaré",
       "inclus": true,
       "date_declaration": "2026-05-03",
-      "programme_url": "https://melenchon2027.fr/programme/decouvrir/",
-      "programme_version": "L'Avenir en commun, le programme de la Nouvelle France (livre paru le 2026-11-06, 1 069 mesures ; livre non lu, changements relevés par LCP et élection.fr) + édition 2025 pour les mesures non reprises par ces comptes rendus + orientations budgétaires 2027 (2026-10-15)",
-      "derniere_maj": "2026-11-21",
+      "programme_url": "https://melenchon2027.fr/programme/livre/",
+      "programme_version": "L'Avenir en commun, le programme de la Nouvelle France (5e édition, livre paru le 2026-11-06, 1 069 mesures), version web du livre lue en entier (introduction et 23 chapitres, 24 pages) + orientations budgétaires 2027 (2026-10-15)",
+      "derniere_maj": "2026-11-25",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse",
-          "detail": "106,4 Md€ de recettes nouvelles en 2027, portant surtout sur les hauts revenus, les patrimoines et les grandes entreprises",
+          "detail": "106,4 Md€ de recettes nouvelles en 2027, portant surtout sur les hauts revenus, les patrimoines et les grandes entreprises ; le programme veut « Rendre l'impôt sur le revenu plus progressif avec un barème à 14 tranches contre 5 aujourd'hui » et « Instaurer un impôt universel sur les entreprises »",
           "sources": [
             {
               "titre": "Budget 2027, p. 14",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            },
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
             }
           ]
         },
         "Q-eco-patrimoine": {
           "position": "hausse",
-          "detail": "ISF renforcé (10 Md€), taxe Zucman sur les patrimoines de plus de 100 M€ (15 Md€ ; impôt plancher de 2 % sur les milliardaires dans l'édition 2025), réforme des successions (20 Md€ la première année)",
+          "detail": "« Rétablir et renforcer l'impôt de solidarité sur la fortune (ISF) incluant un volet climatique » (10 Md€) ; « garantie d'impôt de 2 % sur le patrimoine des centimillionaires, dite « taxe Zucman » » (15 Md€) ; droits de succession augmentés sur les plus hauts patrimoines, « héritage maximal de 12 millions d'euros », exonération des héritages inférieurs à 150 000 euros (20 Md€ la première année)",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
             {
               "titre": "Budget 2027, p. 13-14",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-            },
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
             }
           ]
         },
         "Q-eco-deficit": {
           "position": "baisse de 24,7 Md€ en 2027",
-          "detail": "Stabilisation du ratio dette/PIB sur le quinquennat ; pas de cible annuelle de déficit",
+          "detail": "Stabilisation du ratio dette/PIB sur le quinquennat ; pas de cible annuelle de déficit ; le programme demande « La suspension pour tous des règles budgétaires des 3 % de déficit »",
           "sources": [
             {
               "titre": "Budget 2027, p. 6 et 14",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            },
+            {
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
             }
           ]
         },
         "Q-eco-fonctionnaires": {
           "position": "hausse, sans objectif global chiffré",
-          "detail": "10 000 postes dans l'éducation en 2027 (0,5 Md€) et au moins 10 000 postes soignants à l'hôpital (voir educ-07, sante-05) ; 22 Md€ pour les services publics dès les premiers mois, ventilation non précisée (voir eco-09) ; aucun objectif global d'effectifs trouvé",
+          "detail": "10 000 postes dans l'éducation en 2027 (0,5 Md€) et au moins 10 000 postes soignants à l'hôpital ; plans pluriannuels de recrutement dans l'éducation, le soin et la justice ; « Titulariser les précaires des trois fonctions publiques » ; aucun objectif global d'effectifs",
           "sources": [
             {
               "titre": "Budget 2027, p. 9-10",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
             },
             {
-              "titre": "Acteurs publics, 2026-10-15",
-              "url": "https://acteurspublics.fr/articles/jean-luc-melenchon-promet-aux-fonctionnaires-une-augmentation-de-10-du-point-dindice/"
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
             },
             {
-              "titre": "Public Sénat, 2026-11-12",
-              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
+            },
+            {
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
             }
           ]
         },
         "Q-social-retraite": {
           "position": "60 ans",
-          "detail": "Abrogation du report à 64 ans, puis retour à 60 ans avec 40 annuités au cours du mandat",
+          "detail": "« Abroger la réforme Macron passant l'âge de départ à la retraite à 64 ans, puis abaisser l'âge de départ jusqu'à restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations »",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            },
             {
               "titre": "Budget 2027, p. 11",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -8872,26 +8884,26 @@
         },
         "Q-social-smic": {
           "position": "pour",
-          "detail": "SMIC à 1 700 € net (1 600 € dans l'édition 2025 du programme)",
+          "detail": "« Porter immédiatement le SMIC mensuel à 1 700 euros net et indexer les salaires sur l'inflation »",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
             {
               "titre": "Budget 2027, p. 9",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-            },
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
             }
           ]
         },
         "Q-social-chomage": {
           "position": "abrogation des réformes récentes",
-          "detail": "Coût annoncé : 3 Md€",
+          "detail": "Annuler les réformes sur l'éligibilité et le calcul de l'allocation, « Indemniser les chômeurs dès le premier jour de la fin de contrat », abroger la loi « France Travail » et l'obligation de 15 heures d'activité ; coût annoncé : 3 Md€",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            },
             {
               "titre": "Budget 2027, p. 12",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -8900,15 +8912,11 @@
         },
         "Q-social-logement": {
           "position": "construction de logements publics",
-          "detail": "200 000 logements publics par an pendant cinq ans ; logements d'urgence et réquisitions (3 Md€)",
+          "detail": "« Produire 200 000 logements publics par an et 30 000 logements jeunes pendant 5 ans » ; « zéro sans-abri » à l'issue du quinquennat ; gel des loyers puis encadrement ; logements d'urgence et réquisitions (3 Md€)",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3/"
             },
             {
               "titre": "Budget 2027, p. 8",
@@ -8918,173 +8926,133 @@
         },
         "Q-env-nuc": {
           "position": "contre",
-          "detail": "Sortie du nucléaire, abandon des projets d'EPR ; sortie progressive maintenue dans le programme de novembre 2026 ; objectif « toujours valable » selon le coordinateur de LFI (2026-05-31), qui évoque 2050 sans engagement ; échéance non fixée",
+          "detail": "« Planifier la fermeture progressive des centrales nucléaires existantes en ne prolongeant pas au-delà de 60 ans leur durée de vie et arrêter le programme de nouveau nucléaire (EPR2) »",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
-            },
-            {
-              "titre": "M. Bompard, France 3",
-              "url": "https://x.com/DimPolitique/status/2061066037093711954"
-            },
-            {
-              "titre": "élection.fr, 2026-11-06",
-              "url": "https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html"
-            },
-            {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
             }
           ]
         },
         "Q-env-renouv": {
           "position": "pour",
-          "detail": "100 % d'énergies renouvelables visé au plus tard en 2060 dans le programme de novembre 2026 (2050 dans celui de 2022)",
+          "detail": "« Atteindre le 100 % d'énergies renouvelables au plus tard en 2060 » ; éolien en mer « pour atteindre au moins 45 gigawatts de puissance installée en 2050 »",
           "sources": [
             {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
             },
             {
-              "titre": "J.-L. Mélenchon, 2022-03-06",
-              "url": "https://twitter.com/JLMelenchon/status/1500495666132488192/video/1"
+              "titre": "AEC 2026, partie 4 ch. 5",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre5/"
             }
           ]
         },
         "Q-env-climat": {
-          "position": "pas de position",
-          "detail": "Pas de mention de l'échéance 2050 trouvée ; objectif intermédiaire de −65 % d'émissions en 2033 (voir env-01)",
+          "position": "pour",
+          "detail": "Neutralité carbone en 2050 mentionnée seulement pour le transport maritime (« soutenir l'objectif de neutralité carbone du transport maritime en 2050 », partie 4 ch. 5) ; le programme veut « Respecter au plus vite les engagements climatiques de la France, relever le niveau de ses ambitions, avec une baisse de 65 % des émissions de gaz à effet de serre (GES) d'ici 2033 » et « organiser la sortie des énergies fossiles avant 2050 »",
           "sources": [
             {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 1 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/"
+            },
+            {
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
             }
           ]
         },
         "Q-secu-effectifs": {
-          "position": "pas de position",
-          "detail": "Pas d'objectif global d'effectifs ; hausses ciblées (doublement de la police technique et scientifique, effectifs contre la délinquance financière) et refonte des missions (voir secu-01)",
+          "position": "hausses ciblées, sans objectif global",
+          "detail": "« renforçant les effectifs spécialisés » contre la criminalité organisée ; « Doubler les moyens de la police scientifique » ; « doubler les effectifs des services qui luttent contre les infractions financières » ; polices municipales intégrées à une police de proximité ; pas d'objectif global d'effectifs",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé sécurité",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme/securite"
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
             }
           ]
         },
         "Q-secu-justice": {
-          "position": "priorité à la réinsertion",
-          "detail": "Régulation carcérale contraignante contre la surpopulation, moyens pour la réinsertion",
+          "position": "priorité à la réinsertion et aux moyens de la justice",
+          "detail": "« mécanisme contraignant de régulation carcérale » et moyens de réinsertion ; « recruter davantage de fonctionnaires : magistrats, greffiers, agents de la protection judiciaire de la jeunesse » ; hausse de l'aide juridictionnelle",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
             }
           ]
         },
         "Q-immig-niveau": {
           "position": "facilitation",
-          "detail": "Facilitation des visas, régularisations, carte de séjour de dix ans comme titre de référence",
+          "detail": "« Faciliter l'accès aux visas et instituer la carte de séjour de dix ans comme titre de séjour de référence » ; « Régulariser les travailleurs, étudiants, parents d'enfants scolarisés sans papiers »",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
             }
           ]
         },
         "Q-immig-asile": {
           "position": "abrogation des dernières lois",
-          "detail": "Suspension du règlement de Dublin, renégociation des accords du Touquet",
+          "detail": "« garantissant sans concession le droit d'asile » ; « Refuser l'application du pacte européen sur la migration et l'asile » ; suppression de la liste des pays d'origine sûrs ; fermeture des centres de rétention administrative",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
             }
           ]
         },
         "Q-immig-nation": {
           "position": "droit du sol intégral",
-          "detail": "Facilitation de l'accès à la nationalité",
+          "detail": "« Garantir le droit du sol intégral à tous les enfants nés en France, le rétablir sur l'ensemble du territoire national et faciliter l'accès à la nationalité française »",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 3 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre4/"
             }
           ]
         },
         "Q-europe-traites": {
-          "position": "« désobéissance » dans certains domaines",
-          "detail": "Rester dans l'UE avec un principe de non-régression et la « désobéissance à ce qui nous empêche de fonctionner »",
+          "position": "« désobéissance aux règles bloquantes », sans sortie",
+          "detail": "programme appliqué « même si cela n'est pas permis par les traités » (europe-13) ; « la France ne sortira ni de l'Union, ni de la zone euro » ; principe de non-régression écologique et sociale, moratoire voté par le Parlement sur certaines règles, « désobéissance aux règles bloquantes » ; propositions de nouveaux traités, soumis à référendum",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
+            },
             {
               "titre": "J.-L. Mélenchon, 2026-06-24",
               "url": "https://x.com/JLMelenchon/status/2069836316183810338"
-            },
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
             }
           ]
         },
         "Q-europe-defense": {
           "position": "contre l'objectif de 5 % du PIB",
-          "detail": "Le programme propose de « rejeter le tribut, exigé par les Etats-Unis, de 5 % du PIB » ; pas de niveau visé",
+          "detail": "« Rejeter le tribut, exigé par les États-Unis, de 5 % du PIB consacré aux dépenses de défense » ; priorité aux « encapacitants » stratégiques ; pas de niveau visé",
           "sources": [
             {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
             }
           ]
         },
         "Q-europe-otan": {
           "position": "sortie par étapes",
-          "detail": "Retrait du commandement intégré, puis de l'organisation",
+          "detail": "« Se retirer immédiatement du commandement intégré de l'OTAN puis, par étapes, de l'organisation elle-même »",
           "sources": [
             {
-              "titre": "Orange Actu, 2026-05-09",
-              "url": "https://actu.orange.fr/politique/presidentielle-2027-s-il-est-elu-jean-luc-melenchon-promet-une-sortie-de-l-otan-par-etapes-magic-CNT000002p6UEJ.html"
-            },
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
             }
           ]
         },
         "Q-europe-ukraine": {
           "position": "cessez-le-feu négocié ; vote des populations sur toute modification de frontière",
-          "detail": "Cadre diplomatique pour un cessez-le-feu, le retrait russe et des négociations de paix ; refus d'une paix « avec des concessions territoriales en Ukraine sans qu'on demande aux populations concernées si elles sont d'accord » (meeting du Bourget, 2026-11-07) ; « nous voulons conditionner toute modification de la frontière à un vote des populations concernées » (2026-11-09)",
+          "detail": "Cadre diplomatique pour un cessez-le-feu, le retrait des troupes russes et des négociations ; « tout accord sur une modification des frontières devra être validé par un vote des populations concernées » ; au meeting du Bourget (2026-11-07), refus d'une paix « avec des concessions territoriales en Ukraine sans qu'on demande aux populations concernées si elles sont d'accord »",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
             },
             {
               "titre": "LCP, 2026-11-10",
@@ -9098,8 +9066,16 @@
         },
         "Q-educ-enseign": {
           "position": "hausse",
-          "detail": "Point d'indice des fonctionnaires +10 % (17 Md€) ; 10 000 postes dans l'éducation (0,5 Md€)",
+          "detail": "« Rattraper le gel du point d'indice depuis 2010 et revaloriser les grilles salariales » ; point d'indice des fonctionnaires +10 % (17 Md€) ; plan pluriannuel de recrutement avec pré-recrutement ; 10 000 postes dans l'éducation (0,5 Md€)",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
+            },
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
             {
               "titre": "Budget 2027, p. 8-9",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9107,16 +9083,12 @@
           ]
         },
         "Q-educ-univ": {
-          "position": "accès sans sélection",
-          "detail": "Démantèlement de Parcoursup, droit au master ; 250 000 places à l'université (3,5 Md€)",
+          "position": "accès sans sélection, gratuité",
+          "detail": "« Garantir à tous les bacheliers l'accès sans sélection à la formation de leur choix en démantelant le système Parcoursup » ; « Instaurer la gratuité de l'enseignement supérieur, de la licence au doctorat » ; 250 000 places à l'université (3,5 Md€)",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
             },
             {
               "titre": "Budget 2027, p. 10",
@@ -9126,33 +9098,25 @@
         },
         "Q-educ-orientation": {
           "position": "baccalauréat professionnel en quatre ans",
-          "detail": "Rétablir le bac professionnel en quatre ans, rémunération des élèves au-dessus du seuil de pauvreté (voir educ-08) ; scolarité obligatoire jusqu'à 18 ans (voir educ-04)",
+          "detail": "« Rétablir le baccalauréat professionnel en quatre ans, abroger les contre-réformes du lycée professionnel » ; « Étendre la scolarité obligatoire à 18 ans » ; abrogation du « choc des savoirs » et des « contre-réformes du lycée, de la voie professionnelle et du collège » ; rémunération des élèves de la voie professionnelle (grand oral, voir educ-08)",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
+            },
             {
               "titre": "Public Sénat, 2026-11-12",
               "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
-            },
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
             }
           ]
         },
         "Q-sante-acces": {
           "position": "régulation de l'installation et services publics de proximité",
-          "detail": "Régulation de l'installation des médecins ; urgences et maternités à moins de trente minutes ; au moins 10 000 postes soignants à l'hôpital",
+          "detail": "Centres de santé publics, médecins publics, « Réguler l'installation des médecins », contrats d'études, places en faculté ; urgences, maternités et EHPAD publics « à moins de 30 minutes de chaque Français » ; au moins 10 000 postes soignants à l'hôpital",
           "sources": [
             {
-              "titre": "Plan Ruralité",
-              "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
-            },
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
             },
             {
               "titre": "Budget 2027, p. 10",
@@ -9162,65 +9126,41 @@
         },
         "Q-sante-findevie": {
           "position": "pour",
-          "detail": "« Droit de mourir dans la dignité », y compris avec assistance, inscrit dans la Constitution, avec accès aux soins palliatifs",
+          "detail": "« Ajouter dans la Constitution le droit de mourir dans la dignité (y compris avec assistance) et l'accès garanti à des soins palliatifs »",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 3 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2/"
             }
           ]
         },
         "Q-instit-scrutin": {
           "position": "pour",
-          "detail": "Élection de l'Assemblée nationale à la proportionnelle",
+          "detail": "« Élire l'Assemblée nationale au scrutin proportionnel », par la loi",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
             }
           ]
         },
         "Q-instit-referend": {
           "position": "RIC",
-          "detail": "Référendum d'initiative citoyenne : proposer ou abroger une loi, modifier la Constitution, révoquer des élus",
+          "detail": "Référendum d'initiative citoyenne pour « révoquer des élus, proposer ou abroger une loi et modifier la Constitution » ; référendum obligatoire pour toute révision constitutionnelle ou nouveau traité européen",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
-            },
-            {
-              "titre": "Lettre au peuple de France, 2026-05-05",
-              "url": "https://melenchon.fr/wp-content/uploads/2026/05/LETTRE-AU-PEUPLE-DE-FRANCE-.pdf"
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
             }
           ]
         },
         "Q-instit-constit": {
           "position": "nouvelle Constitution",
-          "detail": "Assemblée constituante convoquée par référendum (article 11) pour une 6e République",
+          "detail": "« Convoquer un référendum (article 11) pour engager le processus constituant » ; projet de Constitution soumis à référendum après les travaux de la Constituante",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
-            },
-            {
-              "titre": "Lettre au peuple de France, 2026-05-05",
-              "url": "https://melenchon.fr/wp-content/uploads/2026/05/LETTRE-AU-PEUPLE-DE-FRANCE-.pdf"
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
             }
           ]
         }
@@ -9229,33 +9169,57 @@
         "D-eco-dette": {
           "option": "B",
           "proposition": "eco-01",
-          "texte_court": "Rétablir l'impôt sur la fortune, à un niveau plus élevé qu'avant, parmi les hausses d'impôts prévues pour réduire le déficit public",
-          "justification": "Réduction du déficit de 24,7 Md€ en 2027 obtenue par 106,4 Md€ de recettes nouvelles, les dépenses augmentant de 81,7 Md€ (eco-01 à eco-07)",
+          "texte_court": "Rétablir et renforcer l'impôt sur la fortune, avec un volet visant à taxer les plus gros pollueurs",
+          "justification": "Réduction du déficit de 24,7 Md€ en 2027 obtenue par 106,4 Md€ de recettes nouvelles, les dépenses augmentant de 81,7 Md€ (eco-01 à eco-07) ; le programme demande aussi la suspension des règles des 3 % de déficit et le rachat de dettes publiques par la BCE (eco-12), qui relèvent plutôt de l'option C",
           "sources": [
             {
               "titre": "Budget 2027, p. 14",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            },
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
+            {
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
             }
           ]
         },
         "D-eco-pouvoir-achat": {
-          "option": "A",
-          "proposition": "social-02",
-          "texte_court": "Porter à 1 700 euros net par mois le salaire minimum",
-          "justification": "SMIC porté à 1 700 € net (social-02)",
+          "option": "D",
+          "proposition": "social-05",
+          "texte_court": "Garantir à chaque personne un revenu au moins égal au seuil de pauvreté",
+          "justification": "Mesure la plus chiffrée relevant d'une option : garantie d'autonomie au seuil de pauvreté (9,5 Md€ au Budget 2027, chiffrée pour les jeunes, social-05), à laquelle s'ajoutent APL, pensions et allocations familiales +10 % (8 Md€, social-04), aides ciblées elles aussi ; SMIC porté « immédiatement » à 1 700 € net (social-02, option A), mesure clé mais sans coût total, que le budget présente comme un complément (« Ces mesures d'urgence sociale doivent être complétées par une hausse du SMIC », p. 9) ; point d'indice des fonctionnaires +10 % (17 Md€) sans option ; blocage des prix des produits de première nécessité (eco-10, sans baisse de taxes)",
           "sources": [
             {
-              "titre": "Budget 2027, p. 9",
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            },
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
+            {
+              "titre": "Budget 2027, p. 8-9",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
             }
           ]
         },
         "D-social-retraites": {
           "option": "C",
-          "proposition": "eco-01",
-          "texte_court": "",
-          "justification": "Retour à 60 ans (social-01) dans un budget dont les recettes nouvelles portent surtout sur le capital et les hauts patrimoines (eco-01 à eco-05), sans affectation spécifique aux retraites ; s'y ajoute la fin des exonérations de cotisations au-dessus de 2 SMIC, qui relève de l'option B",
+          "proposition": "social-11",
+          "texte_court": "Supprimer les avantages fiscaux de la retraite par capitalisation pour financer les retraites par répartition",
+          "justification": "Retour à 60 ans (social-01) financé « grâce au partage des richesses » : suppression des avantages fiscaux de la capitalisation, cotisation sociale universelle « avec une part progressive selon les revenus » ; l'introduction annonce « une cotisation sociale élargie mettant aussi à contribution les revenus du capital » (social-11) ; budget dont les recettes nouvelles portent surtout sur le capital et les hauts patrimoines (eco-01 à eco-05) ; la fin des exonérations de cotisations au-dessus de 2 SMIC (Budget p. 14) relève de l'option B ; option D écartée",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            },
+            {
+              "titre": "AEC 2026, introduction",
+              "url": "https://melenchon2027.fr/programme/livre/introduction"
+            },
             {
               "titre": "Budget 2027, p. 11 et 13-14",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9264,121 +9228,101 @@
         },
         "D-social-chomage": {
           "option": "C",
-          "proposition": "social-02",
-          "texte_court": "",
-          "justification": "Hausse des salaires (SMIC à 1 700 € net et conférence sur les salaires, social-02) et abrogation des réformes de l'assurance chômage (social-03)",
+          "proposition": "social-12",
+          "texte_court": "Revaloriser les salaires et les conditions de travail des métiers du soin, du lien et du contact, occupés surtout par des femmes",
+          "justification": "Hausse des salaires : SMIC à 1 700 € net (social-02) et conférence sociale sur les salaires pour revaloriser les métiers du soin, du lien et du contact (social-12) ; le programme justifie la réduction du temps de travail (social-06) par le constat « pour 1 offre d'emploi vacant, on compte 17 chômeurs » ; il propose aussi la garantie d'emploi (social-09) ; abrogation des réformes de l'assurance chômage (social-03), à l'opposé de l'option A",
           "sources": [
             {
-              "titre": "Budget 2027, p. 9 et 12",
-              "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
             }
           ]
         },
         "D-env-electricite": {
           "option": "B",
-          "proposition": "env-03",
-          "texte_court": "Viser uniquement des énergies renouvelables au plus tard en 2060, en sortant du nucléaire et en abandonnant les projets de nouveaux réacteurs",
-          "justification": "Sortie du nucléaire et abandon des EPR (env-03), maintenue dans le programme de novembre 2026 ; 100 % d'énergies renouvelables visé au plus tard en 2060",
+          "proposition": "env-10",
+          "texte_court": "Produire uniquement de l'énergie renouvelable au plus tard en 2060, en fermant progressivement les centrales nucléaires",
+          "justification": "Mesure clé : « Planifier le passage à 100 % d'énergies renouvelables », atteint « au plus tard en 2060 », avec fermeture progressive des centrales et arrêt de l'EPR2 (env-10, env-03) ; éolien en mer d'au moins 45 GW en 2050 (env-12) ; le « double mot d'ordre : sobriété et efficacité énergétiques » relève aussi de l'option D",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
             },
             {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
-            },
-            {
-              "titre": "J.-L. Mélenchon, 2022-03-06",
-              "url": "https://twitter.com/JLMelenchon/status/1500495666132488192/video/1"
-            },
-            {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
-            },
-            {
-              "titre": "élection.fr, 2026-11-06",
-              "url": "https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html"
+              "titre": "AEC 2026, partie 4 ch. 5",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre5/"
             }
           ]
         },
         "D-env-rythme": {
           "option": "B",
-          "proposition": "env-01",
-          "texte_court": "",
-          "justification": "Accélération (−65 % d'émissions en 2033, env-01 ; « règle verte » dans la Constitution, env-07) financée par la fiscalité sur les hauts patrimoines et les grandes entreprises (eco-01 à eco-07) plutôt que par une hausse des prix pour les ménages",
+          "proposition": "env-11",
+          "texte_court": "Obliger les entreprises à mesurer leurs émissions de gaz à effet de serre et à les réduire, en commençant par les secteurs les plus polluants",
+          "justification": "Accélération (−65 % d'émissions en 2033, env-01 ; « règle verte » dans la Constitution, env-07) en faisant porter l'effort d'abord sur les plus gros émetteurs : comptabilité carbone obligatoire « en commençant par les secteurs les plus polluants » avec trajectoire de baisse (env-11), ISF « incluant un volet climatique visant à taxer les gros pollueurs » (eco-01) ; le programme critique l'extension du marché carbone aux particuliers, qui « fera payer aux plus précaires le coût de la transition écologique », et veut un moratoire sur les ZFE (env-16)",
           "sources": [
             {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 1 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/"
             },
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
             },
             {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
             },
             {
-              "titre": "Budget 2027, p. 13-14",
-              "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
             }
           ]
         },
         "D-secu-budget": {
           "option": "D",
-          "proposition": "secu-04",
-          "texte_court": "Donner des moyens à la réinsertion des détenus et fixer une limite obligatoire au nombre de personnes en prison",
-          "justification": "Renforcement des moyens humains de la prévention spécialisée et moyens de réinsertion, plutôt que de nouvelles places de prison (secu-04)",
+          "proposition": "secu-06",
+          "texte_court": "Renforcer la prévention en recrutant davantage d'éducateurs spécialisés, d'éducateurs de rue et de médiateurs",
+          "justification": "Prévention, présentée avant les mesures d'effectifs policiers et judiciaires (« renforcer les logiques de prévention, notamment grâce à davantage de moyens humains », secu-06), et réinsertion des détenus avec régulation carcérale plutôt que de nouvelles places de prison (secu-04) ; le programme veut aussi recruter magistrats et greffiers (secu-07, option C) et renforcer des effectifs policiers spécialisés (secu-08, option A) ; aucune de ces mesures n'est chiffrée",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé sécurité",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme/securite"
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
             }
           ]
         },
         "D-immig-travail": {
           "option": "B",
-          "proposition": "immig-03",
-          "texte_court": "Faciliter la régularisation des étrangers qui vivent en France sans titre de séjour",
-          "justification": "Facilitation des régularisations (immig-03)",
+          "proposition": "immig-06",
+          "texte_court": "Régulariser les travailleurs sans papiers, ainsi que les étudiants et les parents d'enfants scolarisés sans papiers",
+          "justification": "« Régulariser les travailleurs, étudiants, parents d'enfants scolarisés sans papiers » (immig-06) ; la mesure clé facilite les visas en général (immig-03), sans viser les métiers en tension ; la revalorisation des métiers du soin (social-12) relève de l'option D",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
             },
             {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
             }
           ]
         },
         "D-europe-regles": {
-          "option": "C",
-          "proposition": "europe-05",
-          "texte_court": "Cesser d'appliquer les règles européennes jugées incompatibles avec des engagements écologiques et sociaux",
-          "justification": "Rester dans l'UE en cessant d'appliquer les normes jugées incompatibles avec les engagements écologiques et sociaux (europe-05) ; le programme de novembre 2026 confirme la « désobéissance aux règles bloquantes » et ajoute un moratoire voté par le Parlement sur plusieurs règles européennes (europe-07)",
+          "option": "D",
+          "proposition": "europe-13",
+          "texte_court": "Appliquer en France le programme choisi par les électeurs même quand les traités européens ne le permettent pas, sans quitter l'Union",
+          "justification": "Réponse générale, en tête du chapitre : la France « appliquera, en revanche, sans aucune concession, le programme choisi démocratiquement par son peuple, même si cela n'est pas permis par les traités », et « Nous appliquerons immédiatement, dans tous les cas, notre programme au niveau national » (europe-13) ; le principe de non-régression filtre toutes les règles européennes (europe-05) et le moratoire voté par le Parlement couvre le semestre européen, la libre circulation, la concurrence, la défense et le libre-échange (europe-07) ; la sortie de l'Union et de l'euro est exclue, ce que l'option D n'exige pas ; le sous-titre « certaines politiques » va vers l'option C ; nouveaux traités négociés en parallèle (option B)",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
+            },
             {
               "titre": "J.-L. Mélenchon, 2026-06-24",
               "url": "https://x.com/JLMelenchon/status/2069836316183810338"
-            },
-            {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
-            },
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
             }
           ]
         },
@@ -9386,39 +9330,35 @@
           "option": "D",
           "proposition": "europe-02",
           "texte_court": "Rechercher par la diplomatie un cessez-le-feu en Ukraine, le retrait de l'armée russe et l'ouverture de négociations de paix",
-          "justification": "Priorité à la diplomatie : cadre diplomatique pour un cessez-le-feu et des négociations de paix en Ukraine (europe-02), sortie de l'OTAN (europe-01) ; toute modification de frontière en Ukraine conditionnée à un vote des populations concernées (europe-09, 2026-11-09)",
+          "justification": "« La France doit prendre la tête du camp de la paix » : sortie de l'OTAN (europe-01), refus de l'objectif de 5 % du PIB (europe-08), cadre diplomatique pour un cessez-le-feu en Ukraine (europe-02), ONU « seul organe légitime pour la sécurité collective » ; une défense souveraine centrée sur les « encapacitants » (europe-10) est prévue sans hausse budgétaire chiffrée ; « L'Europe de la défense » est visée par le moratoire (europe-07), à l'opposé de l'option B",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
             },
             {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
             },
             {
-              "titre": "Lettre au peuple de France, 2026-05-05",
-              "url": "https://melenchon.fr/wp-content/uploads/2026/05/LETTRE-AU-PEUPLE-DE-FRANCE-.pdf"
-            },
-            {
-              "titre": "LCP, 2026-11-10",
-              "url": "https://lcp.fr/actualites/accuse-de-se-faire-le-porte-parole-du-kremlin-jean-luc-melenchon-replique-sur-l-ukraine"
+              "titre": "AEC 2026, introduction",
+              "url": "https://melenchon2027.fr/programme/livre/introduction"
             }
           ]
         },
         "D-educ-niveau": {
           "option": "A",
           "proposition": "educ-03",
-          "texte_court": "Réduire le nombre d'élèves par classe, en commençant par la maternelle et les établissements d'éducation prioritaire",
-          "justification": "Réduction des effectifs par classe, en priorité en maternelle et en éducation prioritaire (educ-03)",
+          "texte_court": "Réduire partout le nombre d'élèves par classe, en commençant par la maternelle et l'éducation prioritaire",
+          "justification": "Seule mesure scolaire chiffrée relevant d'une option : 10 000 postes (0,5 Md€, educ-07), que le budget relie à l'objectif de 19 élèves par classe ; c'est aussi la première mesure de « Reconstruire l'école publique » : réduire partout les effectifs par classe, priorité aux maternelles et à l'éducation prioritaire (educ-03) ; la cantine (3,6 Md€) ne relève d'aucune option ; la section suivante a pour mesure clé de rattraper le gel du point d'indice et revaloriser les grilles (educ-09, option B), et le point d'indice des fonctionnaires +10 % est chiffré à 17 Md€ pour toute la fonction publique, sans part propre aux enseignants",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
             },
             {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "Budget 2027, p. 8-9",
+              "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
             }
           ]
         },
@@ -9426,11 +9366,11 @@
           "option": "A",
           "proposition": "sante-07",
           "texte_court": "Encadrer par des règles le lieu où les médecins peuvent s'installer",
-          "justification": "Régulation de l'installation des médecins (sante-07) : contrainte proche de l'option A, sans obligation d'exercice limitée dans le temps",
+          "justification": "« Réguler l'installation des médecins » (sante-07) : contrainte proche de l'option A, sans obligation d'exercice limitée dans le temps ; les leviers présentés avant (centres de santé publics, médecins publics) ne correspondent à aucune option ; contrats d'études et places en faculté (sante-09)",
           "sources": [
             {
-              "titre": "Plan Ruralité",
-              "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
             }
           ]
         },
@@ -9438,15 +9378,11 @@
           "option": "A",
           "proposition": "instit-03",
           "texte_court": "Permettre aux citoyens de déclencher eux-mêmes un référendum, y compris pour mettre fin au mandat d'un élu",
-          "justification": "Référendum d'initiative citoyenne (instit-03) ; il propose aussi la proportionnelle (option B, non voisine)",
+          "justification": "Mesure clé : référendum d'initiative citoyenne (instit-03) ; il propose aussi la proportionnelle (instit-02, option B, non voisine) et la transmission à l'Assemblée des propositions des conventions citoyennes (option C)",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
             }
           ]
         }
@@ -9455,7 +9391,7 @@
         {
           "rang": 1,
           "proposition": "social-01",
-          "motif": "1re mesure du résumé du programme par le candidat : « Retraite à 60 ans, SMIC à 1600 € net, planification écologique, 6e République »",
+          "motif": "1re mesure du résumé du programme par le candidat : « Retraite à 60 ans, SMIC à 1600 € net, planification écologique, 6e République » (résumé de l'édition 2025, aucun résumé nouveau trouvé pour l'édition 2026)",
           "sources": [
             {
               "titre": "Page du livre-programme, description",
@@ -9466,7 +9402,7 @@
         {
           "rang": 2,
           "proposition": "social-02",
-          "motif": "2e mesure du même résumé (montant porté à 1 700 € net depuis, voir Évolutions)",
+          "motif": "2e mesure du même résumé (montant porté à 1 700 € net dans l'édition 2026, voir Évolutions)",
           "sources": [
             {
               "titre": "Page du livre-programme, description",
@@ -9490,11 +9426,15 @@
         {
           "id": "eco-01",
           "theme": "eco",
-          "proposition": "Rétablir un ISF renforcé",
+          "proposition": "« Rétablir et renforcer l'impôt de solidarité sur la fortune (ISF) incluant un volet climatique visant à taxer les gros pollueurs »",
           "chiffrage_annonce": "+10 Md€ de recettes",
           "chiffrage_independant": "",
           "calendrier": "2027",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
             {
               "titre": "Budget 2027, p. 13",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9504,33 +9444,33 @@
         {
           "id": "eco-02",
           "theme": "eco",
-          "proposition": "Impôt plancher sur les patrimoines de plus de 100 M€ (taxe Zucman ; 2 % sur les milliardaires dans l'édition 2025)",
+          "proposition": "« Introduire une garantie d'impôt de 2 % sur le patrimoine des centimillionaires, dite « taxe Zucman », et rétablir une exit tax renforcée »",
           "chiffrage_annonce": "+15 Md€",
           "chiffrage_independant": "",
           "calendrier": "2027",
           "sources": [
             {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
+            {
               "titre": "Budget 2027, p. 13-14",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-            },
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
             }
           ]
         },
         {
           "id": "eco-03",
           "theme": "eco",
-          "proposition": "Réformer les droits de succession",
+          "proposition": "Augmenter les droits de succession sur les plus hauts patrimoines en cumulant les dons et héritages reçus au cours de la vie, « créer un héritage maximal de 12 millions d'euros » ; exonérer les héritages inférieurs à 150 000 euros",
           "chiffrage_annonce": "+20 Md€ la première année",
           "chiffrage_independant": "",
           "calendrier": "2027",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
             {
               "titre": "Budget 2027, p. 14",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9540,29 +9480,33 @@
         {
           "id": "eco-04",
           "theme": "eco",
-          "proposition": "Impôt sur le revenu à 14 tranches au lieu de 5",
+          "proposition": "Impôt sur le revenu à 14 tranches au lieu de 5 (mesure clé de la « révolution fiscale »)",
           "chiffrage_annonce": "non chiffré",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "Budget 2027, p. 14",
-              "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
             },
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
+              "titre": "Budget 2027, p. 14",
+              "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
             }
           ]
         },
         {
           "id": "eco-05",
           "theme": "eco",
-          "proposition": "Supprimer le prélèvement forfaitaire unique (flat tax)",
+          "proposition": "« Supprimer la flat tax et imposer les revenus du capital comme ceux du travail »",
           "chiffrage_annonce": "+9 Md€",
           "chiffrage_independant": "",
           "calendrier": "2027",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
             {
               "titre": "Budget 2027, p. 13",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9572,11 +9516,15 @@
         {
           "id": "eco-06",
           "theme": "eco",
-          "proposition": "Raboter les niches fiscales et sociales",
+          "proposition": "Passer au crible les niches fiscales et sociales, supprimer les injustes, inefficaces ou nuisibles, transformer les réductions d'impôt restantes en crédits d'impôt",
           "chiffrage_annonce": "+22 Md€ en 2027",
           "chiffrage_independant": "",
           "calendrier": "2027",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
             {
               "titre": "Budget 2027, p. 13",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9586,11 +9534,15 @@
         {
           "id": "eco-07",
           "theme": "eco",
-          "proposition": "Taxer les « superprofits »",
+          "proposition": "« Établir une taxe sur les superprofits de toutes les grandes entreprises, activée en cas de hausse soudaine de leurs bénéfices en période de crise »",
           "chiffrage_annonce": "+5 Md€",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
             {
               "titre": "Budget 2027, p. 14",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9600,11 +9552,15 @@
         {
           "id": "eco-08",
           "theme": "eco",
-          "proposition": "Pôle public bancaire investissant 100 Md€ par an, hors budget de l'État",
+          "proposition": "« Créer un pôle public bancaire et de l'assurance et transformer la Banque publique d'investissement (BPI) en véritable banque publique des besoins productifs » ; 100 Md€ d'investissements par an, hors budget de l'État, selon le document budgétaire",
           "chiffrage_annonce": "100 Md€/an hors budget",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre3/"
+            },
             {
               "titre": "Budget 2027, p. 7, 11 et 14-16",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9628,11 +9584,15 @@
         {
           "id": "eco-10",
           "theme": "eco",
-          "proposition": "« état d'urgence sociale » « Dès notre arrivée au pouvoir » : « bloquer les prix des produits de première nécessité (alimentation, énergie, etc.) », « réquisitionner les logements vides », « bloquer les loyers, y compris commerciaux », « encadrer les frais bancaires », « geler les remboursements de crédits ou de dettes personnelles » (parti : La France insoumise, plan pauvreté)",
+          "proposition": "« Bloquer et encadrer les prix des produits de première nécessité (alimentation, énergie, carburant) et interdire la « réduflation » » (mesure clé de l'« état d'urgence sociale ») ; le plan pauvreté de LFI (2026-11-16) annonce aussi « Dès notre arrivée au pouvoir » : « réquisitionner les logements vides », « bloquer les loyers, y compris commerciaux », « encadrer les frais bancaires », « geler les remboursements de crédits ou de dettes personnelles » (parti : La France insoumise)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "dès l'arrivée au pouvoir",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
             {
               "titre": "melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16",
               "url": "https://melenchon2027.fr/?p=27248"
@@ -9640,13 +9600,115 @@
           ]
         },
         {
+          "id": "eco-11",
+          "theme": "eco",
+          "proposition": "« Instaurer une taxe réelle sur les transactions financières » ; séparer banques d'affaires et de détail, contrôler les mouvements de capitaux",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "eco-12",
+          "theme": "eco",
+          "proposition": "Proposer la modification du TFUE et du statut de la BCE pour lui permettre d'acheter de la dette publique sans passer par les banques privées ; reprendre sans attendre les rachats de dettes souveraines ; « Réinstaurer un circuit du Trésor »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "eco-13",
+          "theme": "eco",
+          "proposition": "« Revenir sur les privatisations (aéroports, autoroutes, Française des jeux, etc.) » ; moratoire sur les partenariats public-privé ; pôles publics dans les secteurs stratégiques",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "eco-14",
+          "theme": "eco",
+          "proposition": "« Conditionner les aides publiques versées aux entreprises à l'adoption des objectifs écologiques et sociaux définis par le Plan » et exiger leur remboursement en cas de non-respect",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 1 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "eco-15",
+          "theme": "eco",
+          "proposition": "Refonder l'impôt sur les sociétés avec un barème progressif, modulé selon l'usage des bénéfices pour encourager le réinvestissement plutôt que les dividendes ; « Instaurer un impôt universel sur les entreprises »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "eco-16",
+          "theme": "eco",
+          "proposition": "« Relocaliser les productions essentielles à la vie de notre pays » : agence pour les relocalisations, plan de reconstruction industrielle, nationalisation d'ArcelorMittal France, mesures antidumping d'urgence (sidérurgie, automobile, pharmacie)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 1 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "eco-17",
+          "theme": "eco",
+          "proposition": "Rétablir une taxe d'habitation progressive selon les revenus et la valeur du logement, « dont 80 % des ménages seraient exonérés »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3/"
+            }
+          ]
+        },
+        {
           "id": "social-01",
           "theme": "social",
-          "proposition": "Abroger le report de l'âge à 64 ans, puis revenir à 60 ans avec 40 annuités",
+          "proposition": "« Abroger la réforme Macron passant l'âge de départ à la retraite à 64 ans, puis abaisser l'âge de départ jusqu'à restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations »",
           "chiffrage_annonce": "9 Md€ (abrogation)",
           "chiffrage_independant": "",
           "calendrier": "abrogation en 2027, 60 ans sur le mandat",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            },
             {
               "titre": "Budget 2027, p. 11",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9656,11 +9718,15 @@
         {
           "id": "social-02",
           "theme": "social",
-          "proposition": "Porter le SMIC à 1 700 € net ; repris dans le plan pauvreté du 2026-11-16 (« augmenter le SMIC à 1700 euros net »)",
+          "proposition": "« Porter immédiatement le SMIC mensuel à 1 700 euros net et indexer les salaires sur l'inflation dans le privé comme dans la fonction publique » ; repris dans le plan pauvreté du 2026-11-16",
           "chiffrage_annonce": "non chiffré",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "immédiat",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
             {
               "titre": "Budget 2027, p. 9",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9674,11 +9740,15 @@
         {
           "id": "social-03",
           "theme": "social",
-          "proposition": "Abroger les réformes de l'assurance chômage",
+          "proposition": "Annuler les réformes de l'assurance chômage sur l'éligibilité et le calcul de l'allocation, indemniser dès le premier jour ; abroger la loi « France Travail » et l'obligation de 15 heures d'activité hebdomadaire pour les allocataires",
           "chiffrage_annonce": "3 Md€",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            },
             {
               "titre": "Budget 2027, p. 12",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9688,7 +9758,7 @@
         {
           "id": "social-04",
           "theme": "social",
-          "proposition": "Augmenter de 10 % les pensions, les allocations familiales et les APL",
+          "proposition": "Augmenter de 10 % les pensions, les allocations familiales et les APL (le programme : « Revaloriser les aides pour le logement (APL) de 10 % » et augmenter les minima sociaux)",
           "chiffrage_annonce": "8 Md€",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -9696,71 +9766,75 @@
             {
               "titre": "Budget 2027, p. 8",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            },
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
             }
           ]
         },
         {
           "id": "social-05",
           "theme": "social",
-          "proposition": "Créer une garantie d'autonomie pour les jeunes ; plan pauvreté du 2026-11-16 : « garantie d'autonomie, qui permettra à toute personne résidant en France de disposer d'un revenu au moins égal au seuil de pauvreté » (parti : La France insoumise)",
+          "proposition": "« Créer une garantie d'autonomie, qui permettra que nul ne soit privé de sa dignité pour vivre : le revenu mensuel de chaque personne atteindra le seuil de pauvreté (1 337 euros pour une personne seule) » ; le document budgétaire chiffre une garantie d'autonomie pour les jeunes",
           "chiffrage_annonce": "9,5 Md€",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "dès les premiers jours (plan d'urgence)",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            },
+            {
+              "titre": "AEC 2026, partie 3 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2/"
+            },
             {
               "titre": "Budget 2027, p. 8",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-            },
-            {
-              "titre": "melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16",
-              "url": "https://melenchon2027.fr/?p=27248"
             }
           ]
         },
         {
           "id": "social-06",
           "theme": "social",
-          "proposition": "Revenir aux 35 heures effectives et passer à 32 heures dans les métiers pénibles ou de nuit",
+          "proposition": "« Rétablir immédiatement la durée légale hebdomadaire du temps de travail à 35 heures », passer aux 32 heures dans les métiers pénibles ou de nuit ; sixième semaine de congés payés",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "immédiat",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
             }
           ]
         },
         {
           "id": "social-07",
           "theme": "social",
-          "proposition": "Construire 200 000 logements publics par an pendant cinq ans",
+          "proposition": "« Produire 200 000 logements publics par an et 30 000 logements jeunes pendant 5 ans aux normes écologiques les plus ambitieuses »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "5 ans",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3/"
             }
           ]
         },
         {
           "id": "social-08",
           "theme": "social",
-          "proposition": "Logements d'urgence et réquisitions",
+          "proposition": "Hébergement d'urgence et « zéro sans-abri » à l'issue du quinquennat ; réquisition des logements vides",
           "chiffrage_annonce": "3 Md€",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "quinquennat",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3/"
+            },
             {
               "titre": "Budget 2027, p. 8",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -9770,97 +9844,173 @@
         {
           "id": "social-09",
           "theme": "social",
-          "proposition": "Instaurer une garantie d'emploi",
+          "proposition": "« Créer une garantie d'emploi : tout chômeur de longue durée pourra se voir proposer d'être embauché au moins au SMIC revalorisé dans un secteur d'urgence »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "Construction du programme",
-              "url": "https://melenchon2027.fr/construction-programme/"
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "social-10",
+          "theme": "social",
+          "proposition": "« Instaurer un quota maximal de contrats précaires dans les entreprises : 10 % pour les petites et moyennes entreprises (PME), 5 % pour les grandes entreprises » ; abroger les ordonnances « Pénicaud » et la loi « El Khomri »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "social-11",
+          "theme": "social",
+          "proposition": "Financer les retraites « grâce au partage des richesses » : « Supprimer les avantages fiscaux de la retraite par capitalisation pour financer le système par répartition », revenir sur la non-compensation des exonérations de cotisations ; cotisation sociale universelle fusionnant cotisations et CSG, « avec une part progressive selon les revenus » ; l'introduction annonce « une cotisation sociale élargie mettant aussi à contribution les revenus du capital »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            },
+            {
+              "titre": "AEC 2026, introduction",
+              "url": "https://melenchon2027.fr/programme/livre/introduction"
+            }
+          ]
+        },
+        {
+          "id": "social-12",
+          "theme": "social",
+          "proposition": "Conférence sociale nationale sur les salaires et les conditions de travail, déclinée par branche, pour « Revaloriser en matière de salaires, de conditions de travail et de parcours professionnels les métiers occupés majoritairement par des femmes dans les secteurs du soin, du lien et du contact »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "social-13",
+          "theme": "social",
+          "proposition": "« Geler les loyers le temps de déployer un encadrement des loyers partout sur le territoire et à la baisse dans les grandes villes » ; interdire les expulsions locatives sans relogement public",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "social-14",
+          "theme": "social",
+          "proposition": "« Interdire les licenciements boursiers et économiques par les entreprises qui versent des dividendes ou bénéficient des aides de l'État » ; veto suspensif des comités d'entreprise sur les plans de licenciements",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre3/"
+            },
+            {
+              "titre": "AEC 2026, partie 2 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "social-15",
+          "theme": "social",
+          "proposition": "Revaloriser l'allocation aux adultes handicapés « à hauteur du SMIC » ; porter les pensions de carrière complète au niveau du SMIC revalorisé et le minimum vieillesse au seuil de pauvreté",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2/"
+            },
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
             }
           ]
         },
         {
           "id": "env-01",
           "theme": "env",
-          "proposition": "Réduire de 65 % les émissions de gaz à effet de serre en 2033, avec un bilan annuel public",
+          "proposition": "Baisse « de 65 % des émissions de gaz à effet de serre (GES) d'ici 2033 », avec un bilan annuel public incluant les émissions importées",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "2033",
           "sources": [
             {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
-            },
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 1 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/"
             }
           ]
         },
         {
           "id": "env-02",
           "theme": "env",
-          "proposition": "Plan de 200 Md€ d'investissements écologiques et « socialement utiles »",
-          "chiffrage_annonce": "200 Md€ (durée non précisée)",
+          "proposition": "« Lancer un grand plan d'investissements écologiquement et socialement utiles » (montant non précisé dans l'édition 2026, voir Évolutions)",
+          "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 1 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre2/"
             }
           ]
         },
         {
           "id": "env-03",
           "theme": "env",
-          "proposition": "Sortir du nucléaire : abandon des projets d'EPR, planification du démantèlement",
+          "proposition": "Fermer progressivement les centrales nucléaires « en ne prolongeant pas au-delà de 60 ans leur durée de vie et arrêter le programme de nouveau nucléaire (EPR2) » ; mettre fin au projet d'enfouissement des déchets",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
-          "calendrier": "non fixé",
+          "calendrier": "au plus 60 ans de durée de vie",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
             }
           ]
         },
         {
           "id": "env-04",
           "theme": "env",
-          "proposition": "Rénover au moins 700 000 logements par an",
+          "proposition": "« Refaire l'isolation d'au moins 700 000 logements par an » ; service public de la rénovation énergétique, remplacement progressif des chauffages au fioul et au gaz",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "annuel",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
             }
           ]
         },
         {
           "id": "env-05",
           "theme": "env",
-          "proposition": "Investir 10 Md€ dans la planification écologique (le document écrit « dès 2026 »)",
+          "proposition": "Investir 10 Md€ dans la planification écologique (le document écrit « dès 2026 ») ; lois-cadres de planification écologique et conseil à la planification écologique",
           "chiffrage_annonce": "10 Md€",
           "chiffrage_independant": "",
           "calendrier": "dès 2026 selon le document",
@@ -9868,67 +10018,67 @@
             {
               "titre": "Budget 2027, p. 11",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            },
+            {
+              "titre": "AEC 2026, partie 1 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/"
             }
           ]
         },
         {
           "id": "env-06",
           "theme": "env",
-          "proposition": "Renationaliser la SNCF et refuser la mise en concurrence des lignes",
+          "proposition": "« Créer un pôle public des transports et de la mobilité » ; renationaliser la SNCF, refuser la mise en concurrence des lignes, rouvrir des lignes ; supprimer les vols intérieurs quand le train fait moins de quatre heures",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
             }
           ]
         },
         {
           "id": "env-07",
           "theme": "env",
-          "proposition": "Inscrire la « règle verte » dans la Constitution",
+          "proposition": "« Inscrire dans la Constitution le principe de la « règle verte », selon laquelle on ne prélève pas davantage sur la nature que ce qu'elle est en état de reconstituer »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "élection.fr, 2026-11-06",
-              "url": "https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html"
-            },
-            {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 1 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/"
             }
           ]
         },
         {
           "id": "env-08",
           "theme": "env",
-          "proposition": "Interdire les vols de nuit entre 23 h et 6 h",
+          "proposition": "« Interdire les vols de nuit dans tous les aéroports français entre 23 h et 6 h »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
             }
           ]
         },
         {
           "id": "env-09",
           "theme": "env",
-          "proposition": "Textile : « passer de 3 % de vêtements consommés en France produits en France à 10 % et à 25 % issus de l'économie circulaire » ; filière d'habillement « autour du lin et du chanvre » soutenue par le pôle public bancaire ; « Nous interdirons les produits chimiques dangereux dans l'habillement. » ; commande publique fléchée vers les productions locales (parti : La France insoumise, troisième plan d'investissement productif)",
+          "proposition": "Textile : « Structurer une filière textile autour du lin pour garantir une offre de vêtements français accessibles et développer massivement le réemploi » ; le plan textile de LFI (2026-11-13) vise à « passer de 3 % de vêtements consommés en France produits en France à 10 % et à 25 % issus de l'économie circulaire » (parti : La France insoumise)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 1 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre2/"
+            },
             {
               "titre": "melenchon2027.fr, communiqué « plan textile », 2026-11-13",
               "url": "https://melenchon2027.fr/?p=27261"
@@ -9936,23 +10086,145 @@
           ]
         },
         {
-          "id": "secu-01",
-          "theme": "secu",
-          "proposition": "Rétablir la police de proximité et démanteler les BAC et les BRAV-M",
+          "id": "env-10",
+          "theme": "env",
+          "proposition": "« Planifier le passage à 100 % d'énergies renouvelables avec un double mot d'ordre : sobriété et efficacité énergétiques » ; « Atteindre le 100 % d'énergies renouvelables au plus tard en 2060, en commençant par organiser la sortie des énergies fossiles avant 2050 », avec fermeture progressive du nucléaire (env-03) et stockage d'énergie",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "2060 (fossiles : avant 2050)",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "env-11",
+          "theme": "env",
+          "proposition": "« Obliger les entreprises à adopter une comptabilité carbone pour les émissions directes et indirectes de GES certifiée par un organisme public agréé en commençant par les secteurs les plus polluants », avec une trajectoire de baisse de leurs émissions ; crime climatique de dissimulation",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
+              "titre": "AEC 2026, partie 1 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "env-12",
+          "theme": "env",
+          "proposition": "« Déployer l'éolien en mer, posé et flottant, pour atteindre au moins 45 gigawatts de puissance installée en 2050 », et les énergies marines renouvelables",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "2050",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 5",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre5/"
+            }
+          ]
+        },
+        {
+          "id": "env-13",
+          "theme": "env",
+          "proposition": "« Interdire les fermes-usines » ; réduire de 50 % la consommation moyenne de protéines animales ; interdire corrida, chasse à courre et élevages en batterie",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "env-14",
+          "theme": "env",
+          "proposition": "« Instaurer une agriculture relocalisée, diversifiée et écologique et créer 500 000 emplois agricoles » ; prix planchers pour les agriculteurs, protectionnisme écologique",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "env-15",
+          "theme": "env",
+          "proposition": "Réduire progressivement engrais et pesticides, « interdire immédiatement les plus dangereux (glyphosate, néonicotinoïdes) et l'importation de productions qui en contiennent » ; planifier la sortie des PFAS",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "env-16",
+          "theme": "env",
+          "proposition": "« Décréter un moratoire sur les zones à faibles émissions (ZFE) dans leur conception actuelle » ; limiter la taille et le poids des SUV ; leasing social pour des voitures électriques légères",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "env-17",
+          "theme": "env",
+          "proposition": "« Interdire les coupes rases, sauf en cas d'impasse sanitaire avérée » ; au moins 25 % de la forêt en libre évolution ; moratoire sur les méga-bassines",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "env-18",
+          "theme": "env",
+          "proposition": "Tarifs réglementés de l'énergie calculés sur les coûts de production, gratuité des premières quantités ; pôle public de l'énergie avec renationalisation d'Engie, arrêt de la privatisation des barrages",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "secu-01",
+          "theme": "secu",
+          "proposition": "« Rétablir la police de proximité comme pilier du service public et démanteler les brigades anticriminalité (BAC) ainsi que les brigades de répression des actions violentes motorisées (BRAV-M) » ; intégrer progressivement les polices municipales, sans armes létales",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
             },
             {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
-            },
-            {
-              "titre": "JDD, 2025-07-10",
+              "titre": "JDD, 2025-07-10, avant la candidature",
               "url": "https://www.lejdd.fr/politique/nous-transformerons-la-police-de-la-cave-au-grenier-melenchon-promet-une-refonte-des-missions-des-forces-de-lordre-160044"
             }
           ]
@@ -9960,176 +10232,274 @@
         {
           "id": "secu-02",
           "theme": "secu",
-          "proposition": "Interdire les tasers, les grenades de désencerclement et les lanceurs de balles de défense",
+          "proposition": "Interdire les tasers, les grenades de désencerclement et les LBD « pour la police du quotidien ou la gestion des rassemblements » ; interdire la nasse et les techniques d'immobilisation létales",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
             }
           ]
         },
         {
           "id": "secu-03",
           "theme": "secu",
-          "proposition": "Abroger la loi de 2017 sur le refus d'obtempérer (loi Cazeneuve)",
+          "proposition": "« Abroger la loi dite « Cazeneuve » sur le refus d'obtempérer »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
             }
           ]
         },
         {
           "id": "secu-04",
           "theme": "secu",
-          "proposition": "Instaurer une régulation carcérale contraignante et des moyens de réinsertion",
+          "proposition": "« en finir avec la surpopulation carcérale par la mise en place d'un mécanisme contraignant de régulation carcérale et assurer aux personnes détenues les moyens de se réinsérer »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
             }
           ]
         },
         {
           "id": "secu-05",
           "theme": "secu",
-          "proposition": "Ne plus faire de la consommation de cannabis un délit",
+          "proposition": "« Légaliser et encadrer par un monopole d'État la consommation, la production et la vente de cannabis à des fins médicales et récréatives », recettes affectées à la lutte contre les addictions",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "JDD, 2025-07-10",
-              "url": "https://www.lejdd.fr/politique/nous-transformerons-la-police-de-la-cave-au-grenier-melenchon-promet-une-refonte-des-missions-des-forces-de-lordre-160044"
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
+            }
+          ]
+        },
+        {
+          "id": "secu-06",
+          "theme": "secu",
+          "proposition": "« Abroger les lois sécuritaires inefficaces et renforcer les logiques de prévention, notamment grâce à davantage de moyens humains (éducateurs spécialisés, éducateurs de rue, médiateurs) »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "secu-07",
+          "theme": "secu",
+          "proposition": "« Planifier des moyens pour la justice et recruter davantage de fonctionnaires : magistrats, greffiers, agents de la protection judiciaire de la jeunesse » ; augmenter l'aide juridictionnelle, retour des tribunaux de proximité",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "secu-08",
+          "theme": "secu",
+          "proposition": "Priorité à la lutte contre la criminalité organisée et la délinquance financière « en renforçant les effectifs spécialisés » ; « Doubler les moyens de la police scientifique » ; recréer un corps de police judiciaire sous l'autorité des magistrats",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "secu-09",
+          "theme": "secu",
+          "proposition": "Remplacer l'IGPN et l'IGGN par une autorité indépendante rattachée au Défenseur des droits ; porter à deux ans la formation des gardiens de la paix",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "secu-10",
+          "theme": "secu",
+          "proposition": "« Mettre en place le récépissé de contrôle d'identité » contre le contrôle au faciès ; brevet obligatoire de lutte contre les discriminations pour les policiers",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre4/"
+            }
+          ]
+        },
+        {
+          "id": "secu-11",
+          "theme": "secu",
+          "proposition": "« Confier au Parlement l'orientation de la politique pénale du pays par un débat annuel sur un texte soumis au vote »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "annuel",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
             }
           ]
         },
         {
           "id": "immig-01",
           "theme": "immig",
-          "proposition": "Droit du sol intégral et accès facilité à la nationalité",
+          "proposition": "« Garantir le droit du sol intégral à tous les enfants nés en France, le rétablir sur l'ensemble du territoire national et faciliter l'accès à la nationalité française »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 3 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre4/"
             }
           ]
         },
         {
           "id": "immig-02",
           "theme": "immig",
-          "proposition": "Droit de vote des étrangers aux élections locales",
+          "proposition": "« Instituer le droit de vote des étrangers aux élections locales »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 3 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre4/"
             }
           ]
         },
         {
           "id": "immig-03",
           "theme": "immig",
-          "proposition": "Faciliter les visas et les régularisations ; carte de séjour de dix ans comme titre de référence",
+          "proposition": "« Faciliter l'accès aux visas et instituer la carte de séjour de dix ans comme titre de séjour de référence »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
-            }
-          ]
-        },
-        {
-          "id": "immig-04",
-          "theme": "immig",
-          "proposition": "Suspendre le règlement de Dublin et renégocier les accords du Touquet",
-          "chiffrage_annonce": "",
-          "chiffrage_independant": "",
-          "calendrier": "",
-          "sources": [
-            {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
             }
           ]
         },
         {
           "id": "immig-05",
           "theme": "immig",
-          "proposition": "Abroger les dernières lois sur l'asile et l'immigration",
+          "proposition": "« Abroger les dernières lois sur l'asile et l'immigration, la circulaire dite « Retailleau » et l'ensemble des textes qui criminalisent les personnes étrangères et les personnes aidantes »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "immig-06",
+          "theme": "immig",
+          "proposition": "« Régulariser les travailleurs, étudiants, parents d'enfants scolarisés sans papiers »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "immig-07",
+          "theme": "immig",
+          "proposition": "« Refuser l'application du pacte européen sur la migration et l'asile » ; supprimer la liste des pays d'origine sûrs",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
             },
             {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "immig-08",
+          "theme": "immig",
+          "proposition": "Fermer les centres de rétention administrative et les remplacer par des alternatives fondées sur l'accompagnement juridique et l'hébergement ouvert ; abolir l'enfermement des mineurs",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
+            },
+            {
+              "titre": "AEC 2026, partie 3 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "immig-09",
+          "theme": "immig",
+          "proposition": "Créer un statut de « détresse environnementale » apportant une protection temporaire, pouvant devenir durable",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
             }
           ]
         },
         {
           "id": "europe-01",
           "theme": "europe",
-          "proposition": "Quitter le commandement intégré de l'OTAN, puis l'organisation par étapes",
+          "proposition": "« Se retirer immédiatement du commandement intégré de l'OTAN puis, par étapes, de l'organisation elle-même »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
-          "calendrier": "par étapes",
+          "calendrier": "immédiat, puis par étapes",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
             },
             {
               "titre": "Orange Actu, 2026-05-09",
@@ -10140,72 +10510,56 @@
         {
           "id": "europe-02",
           "theme": "europe",
-          "proposition": "Ukraine : cadre diplomatique pour un cessez-le-feu, le retrait russe et des négociations de paix",
+          "proposition": "« En Ukraine, agir pour créer un cadre diplomatique permettant d'obtenir un cessez-le-feu, le retrait des troupes russes et l'ouverture de négociations pour une paix durable » ; rétablir ensuite l'OSCE comme cadre paneuropéen",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
             }
           ]
         },
         {
           "id": "europe-03",
           "theme": "europe",
-          "proposition": "Reconnaître l'État de Palestine",
+          "proposition": "Défendre « la souveraineté effective de l'État de Palestine sur l'ensemble des territoires palestiniens occupés depuis 1967 » ; sanctions contre le gouvernement israélien, embargo sur les armes, suspension de l'accord d'association UE-Israël",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
             }
           ]
         },
         {
           "id": "europe-04",
           "theme": "europe",
-          "proposition": "Opposer le veto de la France aux nouveaux accords de libre-échange et aux élargissements sans harmonisation préalable",
+          "proposition": "Opposer le « droit de veto sur les accords de libre-échange ou projet d'élargissement » au Conseil européen ; conditionner la contribution française au budget européen",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
             }
           ]
         },
         {
           "id": "europe-05",
           "theme": "europe",
-          "proposition": "Cesser d'appliquer les normes européennes incompatibles avec les engagements écologiques et sociaux",
+          "proposition": "Principe de non-régression écologique et sociale : « La France transcrira dans son droit national les règles européennes seulement si elles améliorent l'existant en matière de protection sociale, de protection de l'environnement et de respect des droits humains »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
             },
             {
               "titre": "J.-L. Mélenchon, 2026-06-24",
@@ -10216,65 +10570,57 @@
         {
           "id": "europe-06",
           "theme": "europe",
-          "proposition": "« Conscription citoyenne écologique » obligatoire de neuf mois pour les moins de 25 ans, rémunérée au SMIC",
+          "proposition": "Conscription citoyenne écologique obligatoire de neuf mois avant 25 ans, « rémunéré au SMIC revalorisé », avec formation militaire initiale (droit d'objection de conscience) ; abroger le service militaire volontaire",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
-            },
-            {
-              "titre": "Synthèse des contributions, 2026-07-17",
-              "url": "https://melenchon2027.fr/synthese-des-contributions/"
-            },
-            {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
             }
           ]
         },
         {
           "id": "europe-07",
           "theme": "europe",
-          "proposition": "Moratoire voté par le Parlement sur la libre circulation des marchandises et des capitaux, les règles de concurrence appliquées aux services publics, « l'Europe de la défense » et les accords de libre-échange",
+          "proposition": "Moratoire voté par le Parlement sur le semestre européen, la libre circulation des marchandises et des capitaux, les règles de concurrence appliquées aux services publics, « L'Europe de la défense » et les accords de libre-échange",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
             }
           ]
         },
         {
           "id": "europe-08",
           "theme": "europe",
-          "proposition": "Rejeter l'objectif de dépenses militaires de 5 % du PIB demandé par les États-Unis",
+          "proposition": "« Rejeter le tribut, exigé par les États-Unis, de 5 % du PIB consacré aux dépenses de défense »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
             }
           ]
         },
         {
           "id": "europe-09",
           "theme": "europe",
-          "proposition": "Ukraine : « conditionner toute modification de la frontière à un vote des populations concernées » (2026-11-09) ; au meeting du Bourget (2026-11-07), il évoque les « droits de la population du Donbass, qui a le droit de savoir si elle veut être ukrainienne ou russe » et refuse les « concessions territoriales uniquement décidées par le haut » ; LFI dénonce des « accusations grotesques » dans une mise au point du 2026-11-09 (connue par LCP)",
+          "proposition": "Ukraine : « tout accord sur une modification des frontières devra être validé par un vote des populations concernées » ; au meeting du Bourget (2026-11-07), il évoque les « droits de la population du Donbass, qui a le droit de savoir si elle veut être ukrainienne ou russe » et refuse les « concessions territoriales uniquement décidées par le haut » ; LFI dénonce des « accusations grotesques » dans une mise au point du 2026-11-09 (connue par LCP)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
+            },
             {
               "titre": "LCP, 2026-11-10",
               "url": "https://lcp.fr/actualites/accuse-de-se-faire-le-porte-parole-du-kremlin-jean-luc-melenchon-replique-sur-l-ukraine"
@@ -10286,38 +10632,86 @@
           ]
         },
         {
-          "id": "educ-01",
-          "theme": "educ",
-          "proposition": "Créer 500 000 places en crèche ou en mode de garde",
+          "id": "europe-10",
+          "theme": "europe",
+          "proposition": "« Donner la priorité à l'investissement dans les « encapacitants » stratégiques » (renseignement, cyber, spatial, logistique) ; pôle public de l'armement ; projection des forces seulement sous mandat de l'ONU",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
-          "calendrier": "5 ans",
+          "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "europe-11",
+          "theme": "europe",
+          "proposition": "« Consacrer 0,7 % du revenu national brut à une aide publique au développement débarrassée du carcan néolibéral »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
             {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "europe-12",
+          "theme": "europe",
+          "proposition": "Relancer le désarmement nucléaire et conventionnel à l'ONU et « participer comme observateur au traité sur l'interdiction des armes nucléaires (TIAN) »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "europe-13",
+          "theme": "europe",
+          "proposition": "Appliquer le programme national même contre les traités : la France « appliquera, en revanche, sans aucune concession, le programme choisi démocratiquement par son peuple, même si cela n'est pas permis par les traités » ; « Nous appliquerons immédiatement, dans tous les cas, notre programme au niveau national »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "immédiat",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "educ-01",
+          "theme": "educ",
+          "proposition": "« Créer un véritable service public de la petite enfance » : ouverture progressive de 500 000 places d'accueil, gratuité des crèches publiques, fin des aides publiques aux crèches privées lucratives",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "progressif",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre3/"
             }
           ]
         },
         {
           "id": "educ-02",
           "theme": "educ",
-          "proposition": "Gratuité de l'école publique (cantine, transports, manuels, fournitures)",
+          "proposition": "« Assurer la gratuité réelle de l'éducation publique, y compris de la cantine, du transport, des activités périscolaires, des manuels et des fournitures »",
           "chiffrage_annonce": "3,6 Md€ (cantine)",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
             },
             {
               "titre": "Budget 2027, p. 9",
@@ -10328,54 +10722,42 @@
         {
           "id": "educ-03",
           "theme": "educ",
-          "proposition": "Réduire les effectifs par classe, en priorité en maternelle et en éducation prioritaire",
+          "proposition": "« Réduire partout les effectifs par classe pour faire mieux que la moyenne européenne de 19 élèves par classe en donnant la priorité aux maternelles et aux classes des actuels réseaux d'éducation prioritaire (REP) »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
             }
           ]
         },
         {
           "id": "educ-04",
           "theme": "educ",
-          "proposition": "Étendre la scolarité obligatoire jusqu'à 18 ans",
+          "proposition": "« Étendre la scolarité obligatoire à 18 ans »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
             }
           ]
         },
         {
           "id": "educ-05",
           "theme": "educ",
-          "proposition": "Accès sans sélection à la formation choisie, démantèlement de Parcoursup, droit au master",
+          "proposition": "« Garantir à tous les bacheliers l'accès sans sélection à la formation de leur choix en démantelant le système Parcoursup et restaurer le droit à la poursuite d'études en master »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
             }
           ]
         },
@@ -10410,11 +10792,15 @@
         {
           "id": "educ-08",
           "theme": "educ",
-          "proposition": "Voie professionnelle : rétablir le baccalauréat professionnel en quatre ans (trois aujourd'hui) ; garantir aux élèves une rémunération au-dessus du seuil de pauvreté, situé selon lui vers 1 300 euros ; fermer certaines écoles professionnelles privées accusées de délivrer des diplômes sans valeur (grand oral de Radio France, propos paraphrasés par Public Sénat)",
+          "proposition": "Voie professionnelle : « Rétablir le baccalauréat professionnel en quatre ans, abroger les contre-réformes du lycée professionnel » ; au grand oral de Radio France, il veut garantir aux élèves une rémunération au-dessus du seuil de pauvreté et fermer certaines écoles professionnelles privées (propos paraphrasés par Public Sénat) ; le programme veut « Interdire les diplômes privés professionnels »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
+            },
             {
               "titre": "Public Sénat, 2026-11-12",
               "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
@@ -10422,85 +10808,135 @@
           ]
         },
         {
-          "id": "sante-01",
-          "theme": "sante",
-          "proposition": "Inscrire dans la Constitution le « droit de mourir dans la dignité », avec accès aux soins palliatifs",
+          "id": "educ-09",
+          "theme": "educ",
+          "proposition": "« Rattraper le gel du point d'indice depuis 2010 et revaloriser les grilles salariales en engageant une négociation avec les organisations syndicales » ; plan pluriannuel de recrutement avec pré-recrutement ; titulariser les contractuels",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "educ-10",
+          "theme": "educ",
+          "proposition": "« Instaurer la gratuité de l'enseignement supérieur, de la licence au doctorat, quelle que soit la nationalité des étudiants » ; abroger la loi LRU",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
             {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "educ-11",
+          "theme": "educ",
+          "proposition": "Abroger le « choc des savoirs », mettre fin au « pacte enseignant », « Rétablir le diplôme national du baccalauréat », mettre fin à l'expérimentation de l'uniforme",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "educ-12",
+          "theme": "educ",
+          "proposition": "« Supprimer le crédit impôt recherche au profit de dotations récurrentes » ; supprimer l'ANR et renforcer les grands instituts publics de recherche",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "educ-13",
+          "theme": "educ",
+          "proposition": "« Éradiquer l'illettrisme pour les jeunes sortis du système scolaire et les adultes à l'horizon 2032 »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "2032",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "sante-01",
+          "theme": "sante",
+          "proposition": "« Ajouter dans la Constitution le droit de mourir dans la dignité (y compris avec assistance) et l'accès garanti à des soins palliatifs »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 3 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2/"
             }
           ]
         },
         {
           "id": "sante-02",
           "theme": "sante",
-          "proposition": "Rembourser à 100 % les soins prescrits (« 100 % Sécu »)",
+          "proposition": "« Instaurer le « 100 % Sécu » en remboursant à 100 % les soins de santé prescrits et en intégrant les assurances maladie complémentaires dans la Sécurité sociale »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
             }
           ]
         },
         {
           "id": "sante-03",
           "theme": "sante",
-          "proposition": "Rouvrir progressivement urgences, maternités et Ehpad publics à moins de trente minutes de chacun",
+          "proposition": "Rouvrir progressivement services d'urgence, maternités et EHPAD publics « à moins de 30 minutes de chaque Français »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "progressif",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
-            },
-            {
-              "titre": "Plan Ruralité",
-              "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
             }
           ]
         },
         {
           "id": "sante-04",
           "theme": "sante",
-          "proposition": "Créer 10 000 places par an en Ehpad publics",
+          "proposition": "« Créer 10 000 places par an en établissement d'hébergement pour personnes âgées dépendantes (EHPAD) publics pendant cinq ans » ; service public de la dépendance",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "5 ans",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 3 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2/"
             }
           ]
         },
         {
           "id": "sante-05",
           "theme": "sante",
-          "proposition": "Augmenter le budget de l'hôpital, avec au moins 10 000 postes soignants",
+          "proposition": "Augmenter le budget de l'hôpital, avec au moins 10 000 postes soignants ; plan pluriannuel de recrutement des professionnels du soin",
           "chiffrage_annonce": "+3 Md€",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -10508,35 +10944,39 @@
             {
               "titre": "Budget 2027, p. 10",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            },
+            {
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
             }
           ]
         },
         {
           "id": "sante-06",
           "theme": "sante",
-          "proposition": "Abroger la hausse des franchises médicales de 2024",
+          "proposition": "« Garantir le zéro reste à charge en supprimant les franchises médicales, les participations forfaitaires et les frais annexes »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
             }
           ]
         },
         {
           "id": "sante-07",
           "theme": "sante",
-          "proposition": "Réguler l'installation des médecins ; recruter des médecins salariés et développer les centres de santé",
+          "proposition": "Contre les déserts médicaux : centres de santé publics en exercice salarié, « Recruter des médecins publics », « Réguler l'installation des médecins », guichets uniques d'installation",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
+            },
             {
               "titre": "Plan Ruralité",
               "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
@@ -10544,56 +10984,108 @@
           ]
         },
         {
-          "id": "instit-01",
-          "theme": "instit",
-          "proposition": "Convoquer par référendum une Assemblée constituante pour une 6e République ; projet soumis à référendum après deux ans",
+          "id": "sante-08",
+          "theme": "sante",
+          "proposition": "Construire un pôle public du médicament (relocalisation, réserve stratégique, contrôle des prix) ; « Relocaliser 80 principes actifs nécessaires pour des médicaments stratégiques en 5 ans »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
-          "calendrier": "2 ans de travaux",
+          "calendrier": "5 ans",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
             },
             {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 1 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre2/"
+            }
+          ]
+        },
+        {
+          "id": "sante-09",
+          "theme": "sante",
+          "proposition": "« Augmenter le nombre de places en faculté de médecine » ; « Généraliser les contrats d'études dans les formations médicales et paramédicales » ; rétablir l'obligation de permanence des soins",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
+            }
+          ]
+        },
+        {
+          "id": "sante-10",
+          "theme": "sante",
+          "proposition": "Remplacer l'ONDAM par un « objectif national des besoins d'assurance maladie (ONBAM) » et sortir de la tarification à l'acte à l'hôpital",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
+            }
+          ]
+        },
+        {
+          "id": "sante-11",
+          "theme": "sante",
+          "proposition": "Rembourser à 100 % les séances de psychologue au-delà de 12 par an ; rouvrir des lits de psychiatrie publics",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
+            }
+          ]
+        },
+        {
+          "id": "instit-01",
+          "theme": "instit",
+          "proposition": "« Convoquer une Constituante pour passer à la 6e République » par référendum (article 11) ; projet de Constitution soumis à référendum après ses travaux",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
+            },
+            {
+              "titre": "AEC 2026, introduction",
+              "url": "https://melenchon2027.fr/programme/livre/introduction"
             }
           ]
         },
         {
           "id": "instit-02",
           "theme": "instit",
-          "proposition": "Élire l'Assemblée nationale à la proportionnelle",
+          "proposition": "« Élire l'Assemblée nationale au scrutin proportionnel », par la loi",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
             }
           ]
         },
         {
           "id": "instit-03",
           "theme": "instit",
-          "proposition": "Instaurer le référendum d'initiative citoyenne, y compris révocatoire",
+          "proposition": "« Instaurer le référendum d'initiative citoyenne (RIC), par lequel les citoyens qui réunissent suffisamment de signatures peuvent révoquer des élus, proposer ou abroger une loi et modifier la Constitution »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
             },
             {
               "titre": "Lettre au peuple de France, 2026-05-05",
@@ -10604,64 +11096,126 @@
         {
           "id": "instit-04",
           "theme": "instit",
-          "proposition": "Abolir les « votes forcés » comme l'article 49.3",
+          "proposition": "« Abolir les procédures de « votes forcés » du Parlement comme l'article 49.3 » (dans le cadre de la Constituante)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
             }
           ]
         },
         {
           "id": "instit-05",
           "theme": "instit",
-          "proposition": "Plafonner les dons individuels aux partis à 200 €",
+          "proposition": "« Réformer le financement de la vie politique et abaisser le plafond des dons individuels aux partis politiques » (montant non précisé)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "AEC 2025",
-              "url": "https://melenchon2027.fr/programme2025/livre/"
-            },
-            {
-              "titre": "relevé",
-              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
             }
           ]
         },
         {
           "id": "instit-06",
           "theme": "instit",
-          "proposition": "Débat obligatoire à l'Assemblée sur les pétitions de plus de 500 000 signatures",
+          "proposition": "« Obliger l'Assemblée nationale à débattre des pétitions qui ont recueilli plus de 500 000 signatures »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
             }
           ]
         },
         {
           "id": "instit-07",
           "theme": "instit",
-          "proposition": "Indépendance de la Kanaky-Nouvelle-Calédonie « au 1er janvier 2028 », par référendum national",
+          "proposition": "« Organiser l'accession de la Kanaky-Nouvelle-Calédonie à l'indépendance au 1er janvier 2028 par la convocation d'un référendum national ouvrant la voie à une consultation locale »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "2028",
           "sources": [
             {
-              "titre": "LCP, 2026-11-06",
-              "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "instit-08",
+          "theme": "instit",
+          "proposition": "« Donner le droit de vote à 16 ans » ; reconnaître le vote blanc, instaurer le vote obligatoire et un seuil de votes exprimés",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "instit-09",
+          "theme": "instit",
+          "proposition": "« Rendre obligatoire le recours au référendum en cas de modification de la Constitution ou d'adoption d'un nouveau traité européen »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "instit-10",
+          "theme": "instit",
+          "proposition": "Parrainages citoyens pour l'élection présidentielle « à la place des 500 parrainages d'élus »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
+            }
+          ]
+        },
+        {
+          "id": "instit-11",
+          "theme": "instit",
+          "proposition": "Remplacer les régions par des éco-régions délimitées selon les bassins-versants, chargées de la planification écologique ; supprimer les métropoles",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3/"
+            }
+          ]
+        },
+        {
+          "id": "instit-12",
+          "theme": "instit",
+          "proposition": "« Démanteler les empires médiatiques des milliardaires » par une loi anti-concentration ; présidents de France Télévisions et de Radio France élus au Parlement",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
             }
           ]
         }
@@ -10669,15 +11223,69 @@
       "evolutions": [
         {
           "date": "2026-11-06",
-          "description": "nouveau programme *L'Avenir en commun, le programme de la Nouvelle France* ; la réduction de 65 % des émissions est repoussée à 2033 (2030 dans l'édition 2025 selon le relevé), et le 100 % renouvelables est visé au plus tard en 2060 (2050 en 2022) ; la sortie du nucléaire est maintenue [LCP, 2026-11-06](https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841) ; [élection.fr, 2026-11-06](https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html)",
+          "description": "édition 2026 du programme (lue en entier le 2026-11-25), changements de fond par rapport à l'édition 2025 (connue par le relevé de votons-2027.fr) : SMIC à 1 700 € net au lieu de 1 600 € ; impôt plancher de 2 % étendu des milliardaires aux « centimillionaires » ; plan d'investissements écologiques sans le montant de 200 Md€ ; suppression de toutes les franchises médicales (et non plus de la seule hausse de 2024) ; légalisation du cannabis par un monopole d'État au lieu de la seule dépénalisation de sa consommation ; Palestine : défense de la « souveraineté effective » de l'État de Palestine au lieu de sa reconnaissance ; dons aux partis : « abaisser le plafond », sans le montant de 200 € ; veto sur les élargissements sans la condition d'harmonisation préalable ; la suspension du règlement de Dublin et la renégociation des accords du Touquet n'y figurent plus, remplacées par le refus d'appliquer le pacte européen sur la migration et l'asile ; la condition d'un vote des populations sur toute modification des frontières de l'Ukraine entre dans le programme [AEC 2026, partie 2 ch. 2](https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/) ; [AEC 2026, partie 4 ch. 2](https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/) ; [AEC 2026, partie 3 ch. 1](https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/) ; [AEC 2026, partie 4 ch. 4](https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/) ; [AEC 2026, partie 6 ch. 2](https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/) ; [AEC 2026, partie 5 ch. 1](https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/) ; [AEC 2026, partie 6 ch. 1](https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/) ; [AEC 2026, partie 6 ch. 3](https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/) ; [AEC 2025](https://melenchon2027.fr/programme2025/livre/) ([relevé](https://votons-2027.fr/candidats/melenchon/programme))",
           "sources": [
+            {
+              "titre": "AEC 2026, partie 2 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+            },
+            {
+              "titre": "AEC 2026, partie 4 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
+            },
+            {
+              "titre": "AEC 2026, partie 3 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            },
+            {
+              "titre": "AEC 2026, partie 4 ch. 4",
+              "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
+            },
+            {
+              "titre": "AEC 2026, partie 6 ch. 2",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
+            },
+            {
+              "titre": "AEC 2026, partie 5 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
+            },
+            {
+              "titre": "AEC 2026, partie 6 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
+            },
+            {
+              "titre": "AEC 2026, partie 6 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
+            },
+            {
+              "titre": "AEC 2025",
+              "url": "https://melenchon2027.fr/programme2025/livre/"
+            },
+            {
+              "titre": "relevé",
+              "url": "https://votons-2027.fr/candidats/melenchon/programme"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "description": "nucléaire : fermeture progressive des centrales sans prolongation « au-delà de 60 ans » et arrêt de l'EPR2 ; 100 % d'énergies renouvelables « au plus tard en 2060 » (2050 en 2022), sortie des énergies fossiles « avant 2050 » ; réduction de 65 % des émissions repoussée à 2033 (2030 dans l'édition 2025 selon le relevé) [AEC 2026, partie 1 ch. 1](https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/) ; [AEC 2026, partie 1 ch. 3](https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/) ; [LCP, 2026-11-06](https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841) ; [J.-L. Mélenchon, 2022-03-06](https://twitter.com/JLMelenchon/status/1500495666132488192/video/1)",
+          "sources": [
+            {
+              "titre": "AEC 2026, partie 1 ch. 1",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/"
+            },
+            {
+              "titre": "AEC 2026, partie 1 ch. 3",
+              "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
+            },
             {
               "titre": "LCP, 2026-11-06",
               "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
             },
             {
-              "titre": "élection.fr, 2026-11-06",
-              "url": "https://xn--lection-9xa.fr/actualite/lfi-publie-programme-avenir-en-commun-6-novembre-2026.html"
+              "titre": "J.-L. Mélenchon, 2022-03-06",
+              "url": "https://twitter.com/JLMelenchon/status/1500495666132488192/video/1"
             }
           ]
         },
@@ -19761,9 +20369,13 @@
           {
             "candidat": "melenchon-jean-luc",
             "proposition": "eco-01",
-            "texte": "Rétablir l'impôt sur la fortune, à un niveau plus élevé qu'avant, parmi les hausses d'impôts prévues pour réduire le déficit public",
+            "texte": "Rétablir et renforcer l'impôt sur la fortune, avec un volet visant à taxer les plus gros pollueurs",
             "texte_court": true,
             "sources": [
+              {
+                "titre": "AEC 2026, partie 2 ch. 2",
+                "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+              },
               {
                 "titre": "Budget 2027, p. 13",
                 "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
@@ -19801,22 +20413,6 @@
       },
       "D-eco-pouvoir-achat": {
         "A": [
-          {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "social-02",
-            "texte": "Porter à 1 700 euros net par mois le salaire minimum",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "Budget 2027, p. 9",
-                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-              },
-              {
-                "titre": "melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16",
-                "url": "https://melenchon2027.fr/?p=27248"
-              }
-            ]
-          },
           {
             "candidat": "ruffin-francois",
             "proposition": "social-01",
@@ -20058,6 +20654,26 @@
                 "url": "https://www.generationecologie.fr/2026/04/10/prix-de-lessence-a-la-pompe-lurgence-dagir/"
               }
             ]
+          },
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "social-05",
+            "texte": "Garantir à chaque personne un revenu au moins égal au seuil de pauvreté",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2026, partie 3 ch. 1",
+                "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+              },
+              {
+                "titre": "AEC 2026, partie 3 ch. 2",
+                "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2/"
+              },
+              {
+                "titre": "Budget 2027, p. 8",
+                "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+              }
+            ]
           }
         ]
       },
@@ -20146,7 +20762,24 @@
             ]
           }
         ],
-        "C": [],
+        "C": [
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "social-11",
+            "texte": "Supprimer les avantages fiscaux de la retraite par capitalisation pour financer les retraites par répartition",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2026, partie 3 ch. 1",
+                "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+              },
+              {
+                "titre": "AEC 2026, introduction",
+                "url": "https://melenchon2027.fr/programme/livre/introduction"
+              }
+            ]
+          }
+        ],
         "D": [
           {
             "candidat": "attal-gabriel",
@@ -20325,6 +20958,18 @@
         ],
         "C": [
           {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "social-12",
+            "texte": "Revaloriser les salaires et les conditions de travail des métiers du soin, du lien et du contact, occupés surtout par des femmes",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2026, partie 2 ch. 2",
+                "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
+              }
+            ]
+          },
+          {
             "candidat": "ruffin-francois",
             "proposition": "social-02",
             "texte": "Payer double les heures travaillées tôt le matin ou en soirée dans les métiers considérés comme essentiels",
@@ -20441,17 +21086,13 @@
         "B": [
           {
             "candidat": "melenchon-jean-luc",
-            "proposition": "env-03",
-            "texte": "Viser uniquement des énergies renouvelables au plus tard en 2060, en sortant du nucléaire et en abandonnant les projets de nouveaux réacteurs",
+            "proposition": "env-10",
+            "texte": "Produire uniquement de l'énergie renouvelable au plus tard en 2060, en fermant progressivement les centrales nucléaires",
             "texte_court": true,
             "sources": [
               {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+                "titre": "AEC 2026, partie 1 ch. 3",
+                "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/"
               }
             ]
           }
@@ -20554,6 +21195,18 @@
               {
                 "titre": "Public Sénat, 2026-11-09",
                 "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+              }
+            ]
+          },
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "env-11",
+            "texte": "Obliger les entreprises à mesurer leurs émissions de gaz à effet de serre et à les réduire, en commençant par les secteurs les plus polluants",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2026, partie 1 ch. 1",
+                "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/"
               }
             ]
           },
@@ -20796,17 +21449,13 @@
         "D": [
           {
             "candidat": "melenchon-jean-luc",
-            "proposition": "secu-04",
-            "texte": "Donner des moyens à la réinsertion des détenus et fixer une limite obligatoire au nombre de personnes en prison",
+            "proposition": "secu-06",
+            "texte": "Renforcer la prévention en recrutant davantage d'éducateurs spécialisés, d'éducateurs de rue et de médiateurs",
             "texte_court": true,
             "sources": [
               {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+                "titre": "AEC 2026, partie 5 ch. 2",
+                "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/"
               }
             ]
           }
@@ -20878,17 +21527,13 @@
           },
           {
             "candidat": "melenchon-jean-luc",
-            "proposition": "immig-03",
-            "texte": "Faciliter la régularisation des étrangers qui vivent en France sans titre de séjour",
+            "proposition": "immig-06",
+            "texte": "Régulariser les travailleurs sans papiers, ainsi que les étudiants et les parents d'enfants scolarisés sans papiers",
             "texte_court": true,
             "sources": [
               {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+                "titre": "AEC 2026, partie 6 ch. 3",
+                "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
               }
             ]
           },
@@ -21007,26 +21652,6 @@
             ]
           },
           {
-            "candidat": "melenchon-jean-luc",
-            "proposition": "europe-05",
-            "texte": "Cesser d'appliquer les règles européennes jugées incompatibles avec des engagements écologiques et sociaux",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
-              },
-              {
-                "titre": "J.-L. Mélenchon, 2026-06-24",
-                "url": "https://x.com/JLMelenchon/status/2069836316183810338"
-              }
-            ]
-          },
-          {
             "candidat": "retailleau-bruno",
             "proposition": "europe-01",
             "texte": "Changer la Constitution par référendum pour que le droit français passe avant le droit européen dans certains cas, notamment sur l'immigration et la sécurité",
@@ -21081,6 +21706,18 @@
               {
                 "titre": "Sud Radio (AFP), 2026-09-05",
                 "url": "https://www.sudradio.fr/societe/en-revisant-la-constitution-par-referendum-le-rn-au-pouvoir-ouvrirait-une-crise-majeure"
+              }
+            ]
+          },
+          {
+            "candidat": "melenchon-jean-luc",
+            "proposition": "europe-13",
+            "texte": "Appliquer en France le programme choisi par les électeurs même quand les traités européens ne le permettent pas, sans quitter l'Union",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "AEC 2026, partie 6 ch. 1",
+                "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/"
               }
             ]
           },
@@ -21224,12 +21861,8 @@
             "texte_court": true,
             "sources": [
               {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+                "titre": "AEC 2026, partie 6 ch. 2",
+                "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/"
               }
             ]
           },
@@ -21252,16 +21885,12 @@
           {
             "candidat": "melenchon-jean-luc",
             "proposition": "educ-03",
-            "texte": "Réduire le nombre d'élèves par classe, en commençant par la maternelle et les établissements d'éducation prioritaire",
+            "texte": "Réduire partout le nombre d'élèves par classe, en commençant par la maternelle et l'éducation prioritaire",
             "texte_court": true,
             "sources": [
               {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+                "titre": "AEC 2026, partie 4 ch. 2",
+                "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/"
               }
             ]
           },
@@ -21446,6 +22075,10 @@
             "texte_court": true,
             "sources": [
               {
+                "titre": "AEC 2026, partie 4 ch. 4",
+                "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
+              },
+              {
                 "titre": "Plan Ruralité",
                 "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
               }
@@ -21556,12 +22189,8 @@
             "texte_court": true,
             "sources": [
               {
-                "titre": "AEC 2025",
-                "url": "https://melenchon2027.fr/programme2025/livre/"
-              },
-              {
-                "titre": "relevé",
-                "url": "https://votons-2027.fr/candidats/melenchon/programme"
+                "titre": "AEC 2026, partie 5 ch. 1",
+                "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
               },
               {
                 "titre": "Lettre au peuple de France, 2026-05-05",
@@ -21679,24 +22308,6 @@
       }
     },
     "exclusions": [
-      {
-        "dilemme": "D-social-retraites",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "eco-01",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-social-chomage",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "social-02",
-        "motif": "sans texte court"
-      },
-      {
-        "dilemme": "D-env-rythme",
-        "candidat": "melenchon-jean-luc",
-        "proposition": "env-01",
-        "motif": "sans texte court"
-      },
       {
         "dilemme": "D-env-rythme",
         "candidat": "retailleau-bruno",

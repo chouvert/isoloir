@@ -1,6 +1,6 @@
 ---
 theme: sante
-derniere_maj: 2026-11-24
+derniere_maj: 2026-11-25
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -44,7 +44,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Nicolas Dupont-Aignan | sante-01 | Une bourse pour les étudiants en médecine en échange d'un engagement à s'installer dans une zone sous-dotée pendant leurs cinq premières années d'exercice (Cahier rouge) | 0,6 | — |
 | Nicolas Dupont-Aignan | sante-02 | Reconstruire la médecine scolaire en doublant le nombre de médecins, d'infirmières scolaires et d'assistantes sociales et en revalorisant leurs salaires de 15 % (Cahier rouge) | 0,6 | — |
 | Nicolas Dupont-Aignan | sante-03 | Dépendance : moyens de fonctionnement des EHPAD (2 Md€), 30 000 postes d'aides-soignants et assistants, TVA réduite sur les travaux d'adaptation des logements des personnes âgées, financés par le redéploiement de la CRDS (Cahier rouge) | 4 | — |
-| Jean-Luc Mélenchon | sante-05 | Augmenter le budget de l'hôpital, avec au moins 10 000 postes soignants | +3 Md€ | — |
+| Jean-Luc Mélenchon | sante-05 | Augmenter le budget de l'hôpital, avec au moins 10 000 postes soignants ; plan pluriannuel de recrutement des professionnels du soin | +3 Md€ | — |
 | Bruno Retailleau | sante-01 | Arrêts maladie : revues périodiques, contrôle des prescriptions et un jour de carence « d'ordre public » dans le privé | 4 Md€ cumulés (non annuel) | — |
 | Dominique de Villepin | sante-01 | « Garantir à chacun un accès rapide et simple à un professionnel de santé » par des « maisons de santé pluriprofessionnelles », le recours accru aux « téléconsultations, téléexpertise » et la réorganisation des urgences (P. 122) | non chiffré | — |
 | Dominique de Villepin | sante-02 | Accroître de 50 % les dépenses de prévention sur le quinquennat (P. 124) ; plafonner le reste à charge annuel selon le revenu (P. 126) | non chiffré | — |
