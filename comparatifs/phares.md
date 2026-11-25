@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-24
+derniere_maj: 2026-11-25
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -59,9 +59,9 @@ Règle de choix : README, « Propositions phares ». Motifs détaillés et sourc
 
 | rang | id | proposition | motif |
 |---|---|---|---|
-| 1 | social-01 | Abroger le report de l'âge à 64 ans, puis revenir à 60 ans avec 40 annuités | 1re mesure du résumé du programme par le candidat : « Retraite à 60 ans, SMIC à 1600 € net, planification écologique, 6e République » |
-| 2 | social-02 | Porter le SMIC à 1 700 € net ; repris dans le plan pauvreté du 2026-11-16 (« augmenter le SMIC à 1700 euros net ») | 2e mesure du même résumé (montant porté à 1 700 € net depuis, voir Évolutions) |
-| 3 | env-05 | Investir 10 Md€ dans la planification écologique (le document écrit « dès 2026 ») | 3e mesure du même résumé (« planification écologique ») |
+| 1 | social-01 | « Abroger la réforme Macron passant l'âge de départ à la retraite à 64 ans, puis abaisser l'âge de départ jusqu'à restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations » | 1re mesure du résumé du programme par le candidat : « Retraite à 60 ans, SMIC à 1600 € net, planification écologique, 6e République » (résumé de l'édition 2025, aucun résumé nouveau trouvé pour l'édition 2026) |
+| 2 | social-02 | « Porter immédiatement le SMIC mensuel à 1 700 euros net et indexer les salaires sur l'inflation dans le privé comme dans la fonction publique » ; repris dans le plan pauvreté du 2026-11-16 | 2e mesure du même résumé (montant porté à 1 700 € net dans l'édition 2026, voir Évolutions) |
+| 3 | env-05 | Investir 10 Md€ dans la planification écologique (le document écrit « dès 2026 ») ; lois-cadres de planification écologique et conseil à la planification écologique | 3e mesure du même résumé (« planification écologique ») |
 
 ## [Édouard Philippe](../candidats/philippe-edouard.md)
 

@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-24
+derniere_maj: 2026-11-25
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -15,14 +15,14 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 | dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | D-eco-dette | A | pas de position | A | pas de position | A | A | B | A | A | pas de position | pas de position | C | B | A |
-| D-eco-pouvoir-achat | B | D | C | B | C | B | A | B | B | C | A | A | B | C |
+| D-eco-pouvoir-achat | B | D | C | B | C | B | D | B | B | C | A | A | B | C |
 | D-social-retraites | D | pas de position | D | pas de position | D | A | C | A | A | pas de position | pas de position | B | D | A |
 | D-social-chomage | A | pas de position | B | pas de position | pas de position | aucune | C | A | A | pas de position | C | B | B | pas de position |
 | D-env-electricite | A | D | A | C | A | A | B | A | A | pas de position | D | D | C | A |
 | D-env-rythme | A | A | D | B | D | D | B | pas de position | D | D | B | B | A | D |
 | D-secu-budget | B | pas de position | C | pas de position | pas de position | A | D | B | B | A | pas de position | A | C | B |
 | D-immig-travail | A | pas de position | C | B | aucune | A | B | A | pas de position | pas de position | B | B | pas de position | aucune |
-| D-europe-regles | B | pas de position | D | pas de position | D | C | C | pas de position | C | pas de position | B | B | B | D |
+| D-europe-regles | B | pas de position | D | pas de position | D | C | D | pas de position | C | pas de position | B | B | B | D |
 | D-europe-defense | A | B | A | B | D | A | D | A | pas de position | D | B | B | A | pas de position |
 | D-educ-niveau | B | pas de position | B | B | B | C | A | B | B | A | pas de position | A | B | D |
 | D-sante-deserts | pas de position | pas de position | B | pas de position | pas de position | B | A | pas de position | pas de position | pas de position | pas de position | A | D | C |
@@ -63,10 +63,10 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 > Une seule mesure peut être financée pour améliorer le pouvoir d'achat. Laquelle choisir ?
 
-- **A** — Augmenter le salaire minimum par la loi : Mélenchon, Ruffin, Tondelier
+- **A** — Augmenter le salaire minimum par la loi : Ruffin, Tondelier
 - **B** — Baisser les cotisations sur les salaires pour augmenter le net : Attal, Glucksmann, Lisnard, Philippe, Retailleau, de Villepin
 - **C** — Baisser les taxes sur la consommation (TVA, carburants) : Dupont-Aignan, Le Pen, Roussel, Zemmour
-- **D** — Augmenter les aides ciblées sur les ménages modestes : Batho
+- **D** — Augmenter les aides ciblées sur les ménages modestes : Batho, Mélenchon
 
 ## Travail, retraites, social
 
@@ -146,8 +146,8 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 - **A** — Appliquer la règle européenne, les engagements communs priment : —
 - **B** — L'appliquer tout en négociant sa modification au niveau européen : Attal, Ruffin, Tondelier, de Villepin
-- **C** — Pouvoir y déroger dans quelques domaines jugés essentiels : Lisnard, Mélenchon, Retailleau
-- **D** — Faire primer le droit national de manière générale : Dupont-Aignan, Le Pen, Zemmour
+- **C** — Pouvoir y déroger dans quelques domaines jugés essentiels : Lisnard, Retailleau
+- **D** — Faire primer le droit national de manière générale : Dupont-Aignan, Le Pen, Mélenchon, Zemmour
 - *pas de position* : Batho, Glucksmann, Philippe, Roussel
 
 ### D-europe-defense

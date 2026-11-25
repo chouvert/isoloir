@@ -1,6 +1,6 @@
 ---
 theme: educ
-derniere_maj: 2026-11-24
+derniere_maj: 2026-11-25
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -20,7 +20,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Q-educ-enseign | hausse | pas de position | hausse de 20 % puis 20 % sous condition | hausse | hausse | hausse conditionnée | hausse | hausse | revalorisation | davantage d'enseignants et de moyens ; point d'indice relevé | pas de suppression de postes | hausse | au moins + 10 % | pas de position |
-| Q-educ-univ | réorientation et évaluation des formations | pas de position | suppression de Parcoursup | suppression de Parcoursup | pas de position | suppression de Parcoursup | accès sans sélection | hausse des droits pour les étudiants extra-européens | pour la sélection | pas de position | suppression de Parcoursup | suppression de Parcoursup, hausse du financement | Parcoursup recalibré | pas de position |
+| Q-educ-univ | réorientation et évaluation des formations | pas de position | suppression de Parcoursup | suppression de Parcoursup | pas de position | suppression de Parcoursup | accès sans sélection, gratuité | hausse des droits pour les étudiants extra-européens | pour la sélection | pas de position | suppression de Parcoursup | suppression de Parcoursup, hausse du financement | Parcoursup recalibré | pas de position |
 | Q-educ-orientation | certificat d'études à l'entrée en sixième ; brevet obligatoire pour entrer en seconde | pas de position | pas de position | pas de position | pas de position | certificat de fin de primaire conditionnant l'entrée au collège ; lycées professionnels et CFA renforcés | baccalauréat professionnel en quatre ans | orientation dès la 5e | examen d'entrée en sixième ; filière professionnelle en alternance confiée aux régions | pas de position | pas de position | maintien du collège unique ; baccalauréat professionnel en quatre ans | découverte précoce des métiers | fin du collège unique |
 
 ## Dilemmes du thème
@@ -50,7 +50,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Raphaël Glucksmann | educ-01 | Augmenter de 10 % la rémunération de tous les enseignants, jusqu'à 25 % selon la progression de carrière | 6 Md€ (périodicité non précisée) | — |
 | Marine Le Pen | educ-01 | Maintenir le budget de l'éducation malgré la baisse démographique, pour financer plus d'enseignants et des salaires plus élevés | budget maintenu (pas de montant) | — |
 | David Lisnard | educ-03 | « Nous proposons une augmentation de 20 % des rémunérations en cinq ans », conditionnée à plus d'autonomie, de présence dans l'établissement, une formation continue obligatoire et une évaluation régulière (NE) | non chiffré en euros | — |
-| Jean-Luc Mélenchon | educ-02 | Gratuité de l'école publique (cantine, transports, manuels, fournitures) | 3,6 Md€ (cantine) | — |
+| Jean-Luc Mélenchon | educ-02 | « Assurer la gratuité réelle de l'éducation publique, y compris de la cantine, du transport, des activités périscolaires, des manuels et des fournitures » | 3,6 Md€ (cantine) | — |
 | Jean-Luc Mélenchon | educ-06 | Ouvrir 250 000 places à l'université | 3,5 Md€ | — |
 | Jean-Luc Mélenchon | educ-07 | Créer 10 000 postes dans l'éducation | 0,5 Md€ | — |
 | Édouard Philippe | educ-01 | « Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat. » | « près de 7 000 euros annuels de plus » par enseignant à la fin du quinquennat ; coût total non annoncé | — |
