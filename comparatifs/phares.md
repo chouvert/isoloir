@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-21
+derniere_maj: 2026-11-24
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -101,6 +101,14 @@ Règle de choix : README, « Propositions phares ». Motifs détaillés et sourc
 | 1 | educ-05 | Culture (aucun thème du référentiel ne couvre la culture ; classée en éducation, comme le « ministère du savoir » de David Lisnard) : « Consacrer 1% du budget de l'Etat à la Culture », avec « +1 milliard dès le premier budget du quinquennat » (budget du ministère de la Culture : 3,7 Md€ en 2026 hors audiovisuel public) ; « Sanctuariser le régime de l'intermittence du spectacle » ; assurance chômage des artistes-auteurs financée par « une augmentation de 5 % de la cotisation des diffuseurs » ; « Instaurer une présomption d'utilisation des contenus culturels par les fournisseurs d'intelligence artificielle » et labelliser les « œuvres » générées par l'IA ; taxe sur les entrées reversée au CNC élargie aux plateformes de streaming ; révision du Pass Culture ; ratification de la Charte européenne des langues régionales ou minoritaires ; ministère renommé « Ministère des libertés et des droits culturels » | Annonce dédiée la plus récente : livret et épisode 46 du journal de campagne « Pour une culture vivante ! », 2026-11-10 ; première mesure clé du livret : le budget de la culture |
 | 2 | env-05 | « Ensemble, nous militons pour une voiture électrique accessible aux plus modestes » ; voitures assemblées en France et équipements produits en France autant que possible (Salon de l'automobile) | Annonce dédiée : déplacement au Salon de l'automobile consacré à la filière automobile, à la rencontre des syndicats CGT et CFDT et d'associations environnementalistes, 2026-10-14 |
 | 3 | secu-01 | Loi intégrale contre les violences sexistes et sexuelles, « avec un budget intégral, soit 3 milliards d'euros par an » (journal de campagne) ; « Dédier 3 milliards d'euros à la lutte contre les violences faites aux femmes et aux enfants » (2026-04-17) ; programme : loi intégrale « dotée de 3 milliards d'euros », sans périodicité précisée | Annonce dédiée : manifestation hebdomadaire place Vendôme pour une loi intégrale sur les violences sexistes et sexuelles, compte rendu du 2026-09-07 |
+
+## [Dominique de Villepin](../candidats/villepin-dominique.md)
+
+| rang | id | proposition | motif |
+|---|---|---|---|
+| 1 | eco-01 | Basculer « plus de 200 milliards d'euros de cotisations sociales non contributives vers la CSG », pour augmenter « à terme de 200 euros les salaires mensuels nets moyens » et de plus de 100 € au salaire minimum ; gain de compétitivité de 3 % de la masse salariale (P. 106 ; page économie, mesure 1 « La révolution du salaire net ») | Résumé du candidat : première des 20 propositions du bloc « Rouvrir les sources de l'abondance » de « L'essentiel en 20 propositions » (page d'accueil de campagne), « La révolution du salaire net » |
+| 2 | eco-02 | Transmission d'entreprise sans droits de succession du vivant du propriétaire tant qu'il n'y a pas de revente, par une réforme du pacte Dutreil ouverte à tout repreneur, familial ou non (P. 235) ; refonte du régime d'autorisation des projets et suppression des impôts de production, intégrés à l'impôt sur les sociétés (page économie, mesure 2 « L'esprit d'entreprise fortifié » ; P. 237) | Résumé du candidat : deuxième proposition du même bloc, « L'esprit d'entreprise fortifié » |
+| 3 | eco-03 | « Donner accès aux ménages et aux entreprises à un prix avantageux de l'électricité » par des contrats pour différence couvrant « 95 % de leur facture électrique » à des prix proches du coût de production du parc français, et suppression de quasi-taxes ; baisse annoncée de 15 % de la facture (P. 116 ; page économie, mesure 3) | Résumé du candidat : troisième proposition du même bloc, « L'électricité au prix du nucléaire français » |
 
 ## [Éric Zemmour](../candidats/zemmour-eric.md)
 

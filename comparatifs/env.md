@@ -1,13 +1,13 @@
 ---
 theme: env
-derniere_maj: 2026-11-21
+derniere_maj: 2026-11-24
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
 
 # Comparatif — Écologie & énergie
 
-Candidats (13) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
+Candidats (14) : [Gabriel Attal](../candidats/attal-gabriel.md) · [Delphine Batho](../candidats/batho-delphine.md) · [Nicolas Dupont-Aignan](../candidats/dupont-aignan-nicolas.md) · [Raphaël Glucksmann](../candidats/glucksmann-raphael.md) · [Marine Le Pen](../candidats/le-pen-marine.md) · [David Lisnard](../candidats/lisnard-david.md) · [Jean-Luc Mélenchon](../candidats/melenchon-jean-luc.md) · [Édouard Philippe](../candidats/philippe-edouard.md) · [Bruno Retailleau](../candidats/retailleau-bruno.md) · [Fabien Roussel](../candidats/roussel-fabien.md) · [François Ruffin](../candidats/ruffin-francois.md) · [Marine Tondelier](../candidats/tondelier-marine.md) · [Dominique de Villepin](../candidats/villepin-dominique.md) · [Éric Zemmour](../candidats/zemmour-eric.md).
 
 Le détail et les sources de chaque position sont dans les fiches.
 
@@ -17,18 +17,18 @@ Le détail et les sources de chaque position sont dans les fiches.
 - **Q-env-renouv** : Développement de l'éolien et du solaire ?
 - **Q-env-climat** : Maintien de l'objectif de neutralité carbone en 2050 ?
 
-| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Q-env-nuc | pour | contre | pour | pour | pour | pour | contre | pour | pour | pour | pour | contre | pour |
-| Q-env-renouv | pour | pour | contre | pour | contre | nuancé | pour | pour | nuancé | pas de position | pour | pour | contre |
-| Q-env-climat | pour | pas de position | pas de position | pas de position | pour | pas de position | pas de position | pas de position | pas de position | pas de position | pas de position | pour | pas de position |
+| question | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q-env-nuc | pour | contre | pour | pour | pour | pour | contre | pour | pour | pour | pour | contre | pour | pour |
+| Q-env-renouv | pour | pour | contre | pour | contre | nuancé | pour | pour | nuancé | pas de position | pour | pour | pour | contre |
+| Q-env-climat | pour | pas de position | pas de position | pas de position | pour | pas de position | pas de position | pas de position | pas de position | pas de position | pas de position | pour | pour | pas de position |
 
 ## Dilemmes du thème
 
-| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | zemmour-eric |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D-env-electricite | A | D | A | C | A | A | B | A | A | pas de position | D | D | A |
-| D-env-rythme | A | A | D | B | D | D | B | pas de position | D | D | B | B | D |
+| dilemme | attal-gabriel | batho-delphine | dupont-aignan-nicolas | glucksmann-raphael | le-pen-marine | lisnard-david | melenchon-jean-luc | philippe-edouard | retailleau-bruno | roussel-fabien | ruffin-francois | tondelier-marine | villepin-dominique | zemmour-eric |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D-env-electricite | A | D | A | C | A | A | B | A | A | pas de position | D | D | C | A |
+| D-env-rythme | A | A | D | B | D | D | B | pas de position | D | D | B | B | A | D |
 
 ### D-env-electricite
 
@@ -36,7 +36,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 - **A** — Construire de nouveaux réacteurs nucléaires : Attal, Dupont-Aignan, Le Pen, Lisnard, Philippe, Retailleau, Zemmour
 - **B** — Développer massivement l'éolien et le solaire : Mélenchon
-- **C** — Combiner nucléaire et renouvelables à parts comparables : Glucksmann
+- **C** — Combiner nucléaire et renouvelables à parts comparables : Glucksmann, de Villepin
 - **D** — Réduire d'abord la consommation (sobriété, efficacité) : Batho, Ruffin, Tondelier
 - *pas de position* : Roussel
 
@@ -44,7 +44,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 > Accélérer la transition écologique a un coût à court terme. Quel rythme vous paraît le bon ?
 
-- **A** — Accélérer, même si cela pèse sur certains prix et certaines activités : Attal, Batho
+- **A** — Accélérer, même si cela pèse sur certains prix et certaines activités : Attal, Batho, de Villepin
 - **B** — Accélérer en faisant contribuer d'abord les plus gros émetteurs : Glucksmann, Mélenchon, Ruffin, Tondelier
 - **C** — Garder le rythme actuel des engagements : —
 - **D** — Assouplir certaines normes pour préserver pouvoir d'achat et compétitivité : Dupont-Aignan, Le Pen, Lisnard, Retailleau, Roussel, Zemmour
@@ -70,3 +70,8 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Bruno Retailleau | env-08 | Supprimer les certificats d'économies d'énergie (CEE), présentés comme environ 15 centimes par litre de carburant | baisse « sans un euro de dette » selon le candidat | — |
 | François Ruffin | env-01 | Rénovation et sobriété : « La rénovation d'ampleur des logements, combinant isolation et chauffage décarboné, sera évidemment une priorité » ; « atteindre progressivement 800 000 rénovations d'ampleur par an » ; « atteindre 15 Md€ par an pour la rénovation des logements » ; « À l'horizon 2050, nous prévoyons de réduire nos besoins en énergie d'environ 33% » ; « Garantir à tous l'accès aux éco-prêts à taux zéro avec une solution publique » (programme, C05 ; le cahier logement C06 du 2026-09-24 retient « un million de rénovations par an dont 600 000 d'ampleur », voir social-04) | 15 Md€/an | — |
 | Marine Tondelier | env-04 | « Doter de 7 milliards d'euros par an d'ici 2032 le Plan national d'adaptation au changement climatique » (programme) | 7 Md€/an d'ici 2032 | — |
+| Dominique de Villepin | env-01 | « poursuivre le programme des six EPR2 » dans une stratégie « nucléaire et renouvelable contre les énergies fossiles » (P. 6) ; construire six EPR2, industrialiser l'éolien en mer et électrifier les usages (page économie, mesure 16) | non chiffré | — |
+| Dominique de Villepin | env-02 | Investir dans la décarbonation « au prix de la tonne évitée » : « une augmentation chaque année de l'ordre de 4,5 milliards d'euros » du budget d'atténuation et d'adaptation (P. 8) ; prix du carbone par un encadrement fiscal des produits fossiles, carburant maintenu à 1,75 € et plafonné à 2,50 € le litre (P. 4) | 4,5 de plus chaque année | — |
+| Dominique de Villepin | env-03 | Inscrire l'objectif de neutralité carbone en 2050 et une empreinte de 2 t éqCO2 par habitant dans la Charte de l'environnement (P. 5) | non chiffré | — |
+| Dominique de Villepin | env-04 | « Proposer un million de véhicules électriques compacts en leasing social sur le quinquennat », avec une tranche pour les revenus intermédiaires (P. 114) | non chiffré | — |
+| Dominique de Villepin | env-05 | Stratégie nationale de transformation agricole dotée de 1,5 Md€ supplémentaires par an ; 20 % d'exploitations en bio en fin de quinquennat ; usage des phytosanitaires divisé par deux d'ici 2030 (P. 219, 222, 225) | 1,5 | — |

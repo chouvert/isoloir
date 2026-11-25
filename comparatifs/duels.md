@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-21
+derniere_maj: 2026-11-24
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -25,6 +25,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Bruno Retailleau | eco-01 (texte court) | Économiser 197 milliards d'euros sur les dépenses publiques, au total sur la durée du mandat, sans augmenter les impôts |
 | A | Éric Zemmour | eco-01 (texte court) | Baisser les dépenses publiques d'au moins 100 milliards d'euros par an |
 | B | Jean-Luc Mélenchon | eco-01 (texte court) | Rétablir l'impôt sur la fortune, à un niveau plus élevé qu'avant, parmi les hausses d'impôts prévues pour réduire le déficit public |
+| B | Dominique de Villepin | eco-05 (texte court) | Supprimer en cinq ans toutes les réductions et exonérations d'impôts et de cotisations, en consacrant une partie des recettes à réduire le déficit |
 | C | Marine Tondelier | eco-06 (texte court) | Renégocier avec l'Union européenne le rythme de réduction du déficit public et ne plus y compter les investissements pour la transition écologique |
 
 ### D-eco-pouvoir-achat
@@ -41,6 +42,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | David Lisnard | eco-02 (texte court) | Utiliser 60 % des économies faites sur les dépenses publiques pour baisser les cotisations et augmenter le salaire net |
 | B | Édouard Philippe | social-04 (texte court) | Supprimer les cotisations et l'impôt sur les heures supplémentaires, pour augmenter le salaire net |
 | B | Bruno Retailleau | social-05 (texte court) | Supprimer les cotisations des salariés et des employeurs sur les heures travaillées au-delà de 35 heures par semaine, pour que le net de ces heures soit égal au brut |
+| B | Dominique de Villepin | eco-01 (texte court) | Transférer une grande partie des cotisations prélevées sur les salaires vers la contribution sociale généralisée, pour augmenter le salaire net d'environ 200 euros par mois |
 | C | Nicolas Dupont-Aignan | eco-02 (texte court) | Baisser le prix des carburants de 40 centimes par litre, notamment en supprimant la TVA perçue sur la taxe sur les carburants |
 | C | Marine Le Pen | eco-04 (texte court) | Baisser la TVA à 5,5 % sur l'électricité, le gaz et les carburants |
 | C | Fabien Roussel | eco-02 (texte court) | Ramener la TVA sur les carburants à 5,5 % |
@@ -63,6 +65,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | D | Gabriel Attal | social-02 (texte court) | Faire verser par l'État 1 000 euros à la naissance de chaque enfant sur un compte d'épargne pour sa retraite, que sa famille peut compléter |
 | D | Nicolas Dupont-Aignan | social-02 (texte court) | Verser 10 000 euros à la naissance de chaque enfant français, placés dans un fonds public jusqu'à sa retraite, en complément de sa pension |
 | D | Marine Le Pen | social-02 (texte court) | Ajouter à la retraite par répartition une part de capitalisation obligatoire, financée par des cotisations existantes réorientées |
+| D | Dominique de Villepin | social-01 (texte court) | Ajouter aux retraites par répartition une retraite par capitalisation publique à rendement fixe, financée à hauteur de 15 milliards d'euros par an |
 
 ### D-social-chomage
 
@@ -75,6 +78,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Bruno Retailleau | social-03 (texte court) | Aligner les règles des allocations chômage sur celles pratiquées ailleurs en Europe, ce qui réduirait les dépenses d'assurance chômage |
 | B | Nicolas Dupont-Aignan | social-08 (texte court) | Donner accès à un crédit d'études ou de formation aux jeunes qui ont quitté l'école tôt |
 | B | Marine Tondelier | social-07 (texte court) | Proposer aux salariés peu qualifiés une formation rémunérée de plusieurs mois vers un métier de la transition écologique |
+| B | Dominique de Villepin | social-02 (texte court) | Créer une sécurité sociale professionnelle qui verse un revenu de transition et ouvre un droit à se former vers des métiers d'avenir |
 | C | François Ruffin | social-02 (texte court) | Payer double les heures travaillées tôt le matin ou en soirée dans les métiers considérés comme essentiels |
 
 ## Écologie & énergie
@@ -93,6 +97,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Bruno Retailleau | env-01 (texte court) | Produire l'électricité d'abord avec le nucléaire, les énergies renouvelables ne venant qu'en complément |
 | A | Éric Zemmour | env-01 (texte court) | Construire 14 nouveaux réacteurs nucléaires, en deux étapes |
 | B | Jean-Luc Mélenchon | env-03 (texte court) | Viser uniquement des énergies renouvelables au plus tard en 2060, en sortant du nucléaire et en abandonnant les projets de nouveaux réacteurs |
+| C | Dominique de Villepin | env-01 (texte court) | Construire six nouveaux réacteurs nucléaires et développer l'éolien en mer pour remplacer les énergies fossiles |
 | D | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en débattant des besoins avant de décider comment produire |
 | D | François Ruffin | env-01 (texte court) | Porter à 15 milliards d'euros par an l'effort de rénovation des logements, pour réduire les besoins en énergie |
 
@@ -104,6 +109,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 |---|---|---|---|
 | A | Gabriel Attal | env-03 (texte court) | Réduire les émissions de gaz à effet de serre trois fois plus vite qu'aujourd'hui |
 | A | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en ouvrant un débat avant de développer les centres de données ou une nouvelle génération de réseaux mobiles |
+| A | Dominique de Villepin | env-02 (texte court) | Augmenter chaque année d'environ 4,5 milliards d'euros le budget de lutte contre le réchauffement, avec une taxe qui encadre le prix des énergies fossiles |
 | B | Raphaël Glucksmann | env-05 (texte court) | Financer la transition écologique par une taxe européenne sur les bénéfices exceptionnels du pétrole et du gaz et par des taxes sur le transport aérien |
 | B | François Ruffin | eco-01 (texte court) | Créer, après référendum, une taxe de 4 % sur les dividendes des entreprises, réduite pour celles qui en versent peu, pour financer la transition écologique |
 | B | Marine Tondelier | env-03 (texte court) | Créer des impôts sur les entreprises du pétrole, du gaz et du charbon et sur les ménages qui émettent le plus de carbone |
@@ -129,6 +135,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Bruno Retailleau | secu-02 (texte court) | Créer des prisons réservées aux courtes peines, prononcées dès le premier délit grave |
 | B | Éric Zemmour | secu-04 (texte court) | Construire 100 000 places de prison supplémentaires |
 | C | Nicolas Dupont-Aignan | secu-01 (texte court) | Doubler la dépense consacrée à la justice par habitant et recruter davantage de magistrats et de greffiers |
+| C | Dominique de Villepin | secu-01 (texte court) | Recruter des magistrats pour rattraper en dix ans la moyenne européenne du nombre de magistrats par habitant |
 | D | Jean-Luc Mélenchon | secu-04 (texte court) | Donner des moyens à la réinsertion des détenus et fixer une limite obligatoire au nombre de personnes en prison |
 
 ## Immigration
@@ -176,6 +183,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Nicolas Dupont-Aignan | europe-03 (texte court) | Augmenter le budget annuel de la défense de 7 milliards d'euros d'ici la fin du mandat et le mettre à l'abri des baisses |
 | A | David Lisnard | europe-04 (texte court) | Réduire d'autres dépenses de l'État pour investir dans la défense, la sécurité et la justice |
 | A | Édouard Philippe | europe-03 (texte court) | Voter une loi pour que les armées aient plus de soldats, de réservistes, de munitions et de drones |
+| A | Dominique de Villepin | europe-01 (texte court) | Porter progressivement la dépense de défense à 3,5 % de la richesse nationale, selon la croissance et l'état des comptes publics |
 | B | Delphine Batho | europe-01 (texte court) | Augmenter le budget de la défense pour construire une défense européenne autonome |
 | B | François Ruffin | europe-03 (texte court) | Construire une défense de l'Europe par la coopération entre pays volontaires, sans la confier à la Commission européenne |
 | B | Marine Tondelier | europe-04 (texte court) | Créer un commandement militaire européen commun, sous l'autorité des États de l'Union, sans pouvoir de mobiliser directement les armées nationales |
@@ -199,6 +207,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Marine Le Pen | educ-01 (texte court) | Garder le même budget pour l'école alors que le nombre d'élèves baisse, afin d'augmenter le salaire des enseignants et d'en recruter davantage |
 | B | Édouard Philippe | educ-01 (texte court) | Augmenter le salaire des enseignants de 20 % en moyenne d'ici la fin du mandat |
 | B | Bruno Retailleau | educ-01 (texte court) | Augmenter le salaire des enseignants pour le rapprocher de la moyenne européenne |
+| B | Dominique de Villepin | educ-01 (texte court) | Augmenter d'au moins 10 % la rémunération des enseignants et des autres métiers de l'enseignement |
 | C | David Lisnard | educ-05 (texte court) | Laisser les chefs d'établissement recruter leurs enseignants, choisir les méthodes et gérer leur budget |
 | D | Éric Zemmour | educ-01 (texte court) | Revenir à la dictée, au calcul mental, à la récitation et à la discipline à l'école |
 
@@ -215,6 +224,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Nicolas Dupont-Aignan | sante-01 (texte court) | Verser une bourse aux étudiants en médecine qui s'engagent à exercer cinq ans dans une zone qui manque de médecins |
 | B | David Lisnard | sante-03 (texte court) | Faire rembourser davantage par la Sécurité sociale les soins des médecins installés dans les zones qui en manquent, sans les obliger à s'y installer |
 | C | Éric Zemmour | sante-02 (texte court) | Confier davantage de missions aux infirmiers et aux pharmaciens |
+| D | Dominique de Villepin | sante-01 (texte court) | Recourir davantage aux consultations médicales à distance pour garantir à chacun un accès rapide à un professionnel de santé |
 
 ## Institutions & démocratie
 
@@ -230,6 +240,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Bruno Retailleau | instit-03 (texte court) | Abaisser à 2,5 millions le nombre de signatures de citoyens nécessaires pour qu'un référendum proposé par des parlementaires puisse avoir lieu |
 | A | François Ruffin | instit-03 (texte court) | Permettre aux citoyens de proposer eux-mêmes des référendums |
 | A | Marine Tondelier | instit-05 (texte court) | Permettre aux citoyens de déclencher un référendum pour proposer ou supprimer une loi, après vérification qu'il respecte la Constitution |
+| A | Dominique de Villepin | instit-01 (texte court) | Permettre aux citoyens de déclencher un référendum en réunissant 5 millions de signatures |
 | B | Marine Le Pen | instit-02 (texte court) | Élire les députés à la proportionnelle dans chaque département, avec des sièges en plus pour la liste arrivée en tête |
 | C | Raphaël Glucksmann | immig-01 (texte court) | Réunir des citoyens tirés au sort pour faire des propositions sur l'immigration, que le Parlement devrait ensuite débattre et voter |
 | D | Gabriel Attal | instit-03 (texte court) | Donner plus de pouvoirs et de moyens aux maires et aux collectivités locales, en redessinant la carte des collectivités |
