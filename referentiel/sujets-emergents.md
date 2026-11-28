@@ -58,7 +58,7 @@ est noté « refusé le AAAA-MM-JJ » dans la colonne décision et n'est plus pr
 | Nucléaire et renouvelables | env | 2026-S46 | Philippe | D-env-electricite, Q-env-nuc, Q-env-renouv | |
 | Prix du carbone aux frontières | env | 2026-S46 | Philippe | non couvert | |
 | Agences de l'État et normes | eco | 2026-S46 | Philippe | non couvert | |
-| Innovation, IA, agence de recherche de rupture | eco | 2026-S46, 2026-S47, 2026-S48 | Lisnard ; S47 : Tondelier (IA et droits d'auteur) ; S48 : Attal (plan IA, puissance de calcul européenne, tuteur IA), Dupont-Aignan (fonds souverain pour l'IA, préférence nationale dans les marchés publics), Philippe (assistant IA en santé, services publics) | non couvert | déclencheur « sujet nouveau » atteint (S48 : au moins 3 candidats) : voir la PR de la semaine |
+| Innovation, IA, agence de recherche de rupture | eco | 2026-S46, 2026-S47, 2026-S48 | Lisnard ; S47 : Tondelier (IA et droits d'auteur) ; S48 : Attal (plan IA, puissance de calcul européenne, tuteur IA), Dupont-Aignan (fonds souverain pour l'IA, préférence nationale dans les marchés publics), Philippe (assistant IA en santé, services publics) | Q-eco-ia | déclencheur « sujet nouveau » atteint (S48 : au moins 3 candidats) : PR Référentiel (2026-11-28) |
 | Niveau de l'immigration et référendum migratoire | immig | 2026-S46 | Zemmour | Q-immig-niveau, Q-instit-referend | |
 | Ukraine : vote des populations sur les frontières | europe | 2026-S46 | Mélenchon | Q-europe-ukraine | |
 | Services publics de proximité (guichet à 15 minutes) | instit | 2026-S46 | Tondelier | non couvert | |
@@ -69,7 +69,7 @@ est noté « refusé le AAAA-MM-JJ » dans la colonne décision et n'est plus pr
 | Zéro artificialisation nette | env | 2026-S47 | Philippe (suppression) | non couvert | |
 | Pauvreté : garantie d'autonomie, blocage des prix et des loyers | social | 2026-S47, 2026-S48 | Mélenchon (plan de LFI) ; S48 : Mélenchon (plan lu : garantie d'autonomie, interdiction des coupures d'énergie) | D-eco-pouvoir-achat (en partie) |  |
 | Relocalisation industrielle par filière (textile) | eco | 2026-S47 | Mélenchon (plan de LFI) | non couvert | |
-| Intelligence artificielle et droits d'auteur | eco | 2026-S47 | Tondelier (livret culture) | non couvert | |
+| Intelligence artificielle et droits d'auteur | eco | 2026-S47 | Tondelier (livret culture) | Q-eco-ia | |
 | Secret de l'instruction et médias | secu | 2026-S48 | Le Pen (sanctionner le recel de violation du secret par les médias) | non couvert | |
 | Vaccinations obligatoires (papillomavirus) | sante | 2026-S48 | Philippe | non couvert | |
 | Équilibre de l'Assurance maladie, dépassements d'honoraires | sante | 2026-S48 | Philippe | non couvert | |

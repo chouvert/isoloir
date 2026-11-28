@@ -1,7 +1,7 @@
 {
   "format": 1,
   "derniere_maj": "2026-11-28",
-  "referentiel_maj": "2026-11-21",
+  "referentiel_maj": "2026-11-28",
   "themes": [
     {
       "id": "eco",
@@ -66,6 +66,13 @@
       "id": "Q-eco-fonctionnaires",
       "theme": "eco",
       "question": "Évolution des effectifs de la fonction publique ?",
+      "type": "ouverte",
+      "statut": "actif"
+    },
+    {
+      "id": "Q-eco-ia",
+      "theme": "eco",
+      "question": "Politique à l'égard de l'intelligence artificielle (investissement public, encadrement, usages dans les services publics) ?",
       "type": "ouverte",
       "statut": "actif"
     },
@@ -971,6 +978,20 @@
             {
               "titre": "Acteurs publics, 2026-07-03",
               "url": "https://acteurspublics.fr/articles/gabriel-attal-propose-100-000-fonctionnaires-en-moins-et-limpunite-zero-pour-les-ministres-depensiers/"
+            }
+          ]
+        },
+        "Q-eco-ia": {
+          "position": "investissement dans le calcul, formation, préférence européenne",
+          "detail": "Investir dans la puissance de calcul pour l'IA (200 Md€, période non précisée) ; « former l'ensemble des Français à l'IA, du primaire à la reconversion professionnelle » ; « la préférence européenne dans les marchés publics » pour les acteurs de l'IA ; à terme, un assistant éducatif par IA pour chaque élève et un assistant médical par IA pour chaque patient (eco-09, eco-10, educ-11, sante-01)",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, « Intelligence artificielle »",
+              "url": "https://attalpresident.fr/programme/intelligence-artificielle"
+            },
+            {
+              "titre": "Lyon Mag, 2026-10-10",
+              "url": "https://www.lyonmag.com/article/154267/presidentielle-2027-a-lyon-gabriel-attal-devoile-son-pacte-pour-la-jeunesse-et-cible-jean-luc-melenchon"
             }
           ]
         },
@@ -2845,6 +2866,16 @@
           "detail": "Aucun objectif d'effectifs de la fonction publique trouvé (deux recherches, 2026-11-14)",
           "sources": []
         },
+        "Q-eco-ia": {
+          "position": "débat préalable sur les centres de données",
+          "detail": "Contre le fait « de se lancer sans débat dans la multiplication des data centers » : débattre des besoins avant les modes de production d'énergie (env-01) ; aucune autre mesure sur l'IA trouvée",
+          "sources": [
+            {
+              "titre": "generationecologie.fr, 2026-06-22",
+              "url": "https://www.generationecologie.fr/2026/06/22/quelle-politique-energetique-pour-la-france/"
+            }
+          ]
+        },
         "Q-social-retraite": {
           "position": "pas d'âge annoncé ; vote pour la suspension de la réforme de 2023 (avant la candidature)",
           "detail": "Vote pour la suspension de la réforme des retraites jusqu'au 1er janvier 2028 (PLFSS 2026, 2025-11-12) ; pas de déclaration de campagne trouvée sur l'âge légal",
@@ -3587,6 +3618,16 @@
             {
               "titre": "Cahier rouge, 2026-11-12",
               "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf"
+            }
+          ]
+        },
+        "Q-eco-ia": {
+          "position": "fonds souverain, préférence nationale",
+          "detail": "(parti, page Intelligence artificielle, livret daté du 2025-05-12) Fonds souverain pour l'IA de plusieurs milliards d'euros (État, Bpifrance, investisseurs privés) ; cloud souverain ; label « IA Made in France » ; préférence nationale dans les marchés publics ; cursus d'IA dès le collège (eco-10)",
+          "sources": [
+            {
+              "titre": "Debout la France, Intelligence artificielle",
+              "url": "https://www.debout-la-france.fr/projet/intelligence-artificielle/"
             }
           ]
         },
@@ -5055,6 +5096,11 @@
             }
           ]
         },
+        "Q-eco-ia": {
+          "position": "pas de position",
+          "detail": "Pas de proposition de campagne trouvée",
+          "sources": []
+        },
         "Q-social-retraite": {
           "position": "62 ans",
           "detail": "Retour à 62 ans : « Nous abrogerons la réforme injuste de 2023. » ; « On ne pourra pas faire 60 ans, ce sera 62 ans » (débat du 2026-10-04) ; nouvelle réforme à « fonder sur la pénibilité » (2026-08-27) ; avant la candidature (mai 2026), ceux qui ont une espérance de vie en bonne santé plus longue, « les cadres », devraient partir plus tard",
@@ -6211,6 +6257,16 @@
             {
               "titre": "Public Sénat, 2026-10-06",
               "url": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f"
+            }
+          ]
+        },
+        "Q-eco-ia": {
+          "position": "usage dans l'action publique (avant la candidature)",
+          "detail": "À VivaTech (2026-06-19, avant la candidature), l'IA doit servir à « améliorer les politiques publiques » et à « faire des économies » ; « Le progrès technologique, il faut arrêter de s'y opposer » ; soutien aux start-up françaises ; pas de mesure de campagne trouvée",
+          "sources": [
+            {
+              "titre": "La Gazette France (AFP), 2026-06-19",
+              "url": "https://www.lagazettefrance.fr/article/robots-souverainete-et-climatisation-le-pen-et-melenchon-en-tour-de-chauffe-a-vivatech"
             }
           ]
         },
@@ -7621,6 +7677,16 @@
             {
               "titre": "NE, « Être maître »",
               "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/"
+            }
+          ]
+        },
+        "Q-eco-ia": {
+          "position": "agence d'innovation de rupture",
+          "detail": "Débat sur l'IA, la robotique et l'économie (Rencontres de l'Avenir, 2026-11-06, selon le site du parti) : « Créer une structure franco-européenne inspirée de la DARPA américaine, capable de soutenir les innovations stratégiques » ; transferts de technologie exigés des fournisseurs étrangers (eco-10) ; livre « Les robots, le Pape, l'IA et nous » non lu",
+          "sources": [
+            {
+              "titre": "Nouvelle Énergie, Rencontres de l’Avenir, 2026-11-13",
+              "url": "https://www.unenouvelleenergie.fr/intelligence-artificielle-robotique-economie-david-lisnard-defend-une-france-conquerante-aux-rencontres-de-lavenir/"
             }
           ]
         },
@@ -9347,6 +9413,16 @@
             {
               "titre": "AEC 2026, partie 4 ch. 4",
               "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/"
+            }
+          ]
+        },
+        "Q-eco-ia": {
+          "position": "autorité de régulation, moratoire sur les centres de données non souverains",
+          "detail": "« Créer une Autorité nationale de l’Intelligence artificielle », qui autoriserait la mise sur le marché des systèmes à haut risque ; « Décréter un moratoire sur l’installation de centres de données non souveraines » ; « Développer des petits modèles spécialisés, plus sobres sur le plan écologique » ; « Créer un domaine public des données » (programme, p. 6)",
+          "sources": [
+            {
+              "titre": "Dossier de presse du programme, 2026-11-06",
+              "url": "https://melenchon2027.fr/wp-content/uploads/2026/11/DOSSIER-DE-PRESSE_0611_PROGRAMME_ST.pdf"
             }
           ]
         },
@@ -11900,6 +11976,24 @@
             }
           ]
         },
+        "Q-eco-ia": {
+          "position": "usage dans les services publics",
+          "detail": "« Édouard Philippe veut mettre l’intelligence artificielle au service des agents et des usagers » (eco-09) ; assistant médical par IA pour chaque Français, gratuit et hébergé en France, « qui ne remplacera jamais la décision du médecin. » (sante-10) ; « déployer l’intelligence artificielle pour accélérer l’instruction des dossiers » (secu-10) ; page « Intelligence artificielle » du programme non lue",
+          "sources": [
+            {
+              "titre": "edouardphilippe.fr, Toulouse, 2026-11-14",
+              "url": "https://www.edouardphilippe.fr/actualites/a-toulouse-edouard-philippe-defend-un-service-public-plus-simple-et-plus-proche"
+            },
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            },
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
+            }
+          ]
+        },
         "Q-social-retraite": {
           "position": "65 ans",
           "detail": "45 annuités, en moins de dix ans ; départs anticipés maintenus pour raisons de santé ; « un Français sur trois pourra partir entre 60 et 64 ans », selon lui ; départs anticipés pour carrières longues maintenus",
@@ -14026,6 +14120,16 @@
             }
           ]
         },
+        "Q-eco-ia": {
+          "position": "usage dans les services publics",
+          "detail": "Plan présenté à Station F (2026-07-07) : redéployer 125 000 agents « du back office vers le contact » grâce à l'IA (« Les 125 000 agents remis sur le terrain ne produisent aucune économie budgétaire, et nous l’assumons ») ; mesures « chiffrées à 5 milliards d’euros sur l’ensemble du quinquennat » (Acteurs publics) ; directeur technique de l'État doté d'« une autorité réelle sur l’architecture des systèmes d’information »",
+          "sources": [
+            {
+              "titre": "Acteurs publics, 2026-07-08",
+              "url": "https://acteurspublics.fr/articles/presidentielle-bruno-retailleau-souhaite-redeployer-125-000-fonctionnaires-sur-le-terrain-grace-a-lia/"
+            }
+          ]
+        },
         "Q-social-retraite": {
           "position": "63 ans (âge minimal), taux plein à 65 ans",
           "detail": "« L'âge minimal de départ, c'est 63 ans », avec « une décote de 7 % par an » avant 65 ans ; taux plein automatique à 65 ans au lieu de 67 ; âge du taux plein possiblement indexé sur l'espérance de vie ; part de capitalisation pour les jeunes",
@@ -15471,6 +15575,11 @@
             }
           ]
         },
+        "Q-eco-ia": {
+          "position": "pas de position",
+          "detail": "Pas de proposition de campagne trouvée",
+          "sources": []
+        },
         "Q-social-retraite": {
           "position": "suspension de la réforme de 2023 demandée ; retour à 62 ans souhaité selon Public Sénat (octobre 2025, avant la candidature)",
           "detail": "En octobre 2025, déçu « de l'absence d'ouverture sur la réforme des retraites », il estime qu'« il faudrait que le gouvernement dépose un texte ouvrant à la suspension de la réforme des retraites » ; Public Sénat résume sa demande comme un retour à 62 ans ; pas d'âge légal trouvé dans les déclarations de campagne (la retraite à 60 ans figurait au programme de 2022)",
@@ -16330,6 +16439,11 @@
               "url": "https://francoisruffin.fr/la-convergence-des-pourrissements-coleres-et-espoirs/"
             }
           ]
+        },
+        "Q-eco-ia": {
+          "position": "pas de position",
+          "detail": "Question ajoutée le 2026-11-28, après le retrait de la candidature (2026-11-21) ; non recherchée",
+          "sources": []
         },
         "Q-social-retraite": {
           "position": "60 ans",
@@ -17363,6 +17477,20 @@
             {
               "titre": "Public Sénat, 2026-11-12",
               "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
+        },
+        "Q-eco-ia": {
+          "position": "encadrement : étiquetage, droits d'auteur, centres de données",
+          "detail": "« Imposer un marquage visible de tous les contenus générés par Intelligence Artificielle » ; « Encadrer l’implantation des data centers » (seuils maximums conditionnant les permis de construire) ; nouvelle législation européenne (« IA Act II ») pour « intégrer un droit au retrait de l’IA dans les logiciels » ; « Rémunérer les œuvres protégées par le droit d’auteur qui ont été utilisées pour constituer les bases d’entraînement des IA » ; soutien à un « CHIPS Act 2 » et à « une puce AI européenne » (programme) ; présomption d'utilisation des contenus culturels par les fournisseurs d'IA (livret culture, educ-05)",
+          "sources": [
+            {
+              "titre": "P, juillet 2026, p. 81-82 et 101",
+              "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+            },
+            {
+              "titre": "Livret culture, novembre 2026",
+              "url": "https://marinetondelier.fr/journal-de-campagne/pour-une-culture-vivante"
             }
           ]
         },
@@ -18834,6 +18962,20 @@
             }
           ]
         },
+        "Q-eco-ia": {
+          "position": "traité international de sécurité, IA dans l'administration",
+          "detail": "Traité universel de sécurité de l'IA soumis aux Nations unies (P. 93) ; activité dégagée par l'IA redéployée vers des agents « de première ligne » (P. 63) ; CSG étendue aux consommations de jetons d'IA des entreprises (P. 159, voir eco-06)",
+          "sources": [
+            {
+              "titre": "chapitre 11",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-11.html"
+            },
+            {
+              "titre": "chapitre 6",
+              "url": "https://lafrancehumaniste.fr/programme/reussir-a-nouveau/chapitre-6.html"
+            }
+          ]
+        },
         "Q-social-retraite": {
           "position": "âge choisi, système à points",
           "detail": "« Chacun part à l'âge qu'il souhaite en fonction d'une formule de calcul universelle » (points acquis, valeur du point, espérance de vie selon le métier) ; réforme soumise à référendum en avril 2028 après un an de concertation (P. 161 et 162)",
@@ -20122,6 +20264,16 @@
             {
               "titre": "Public Sénat, 2026-11-12",
               "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics"
+            }
+          ]
+        },
+        "Q-eco-ia": {
+          "position": "investissement privé et déréglementation (avant la candidature)",
+          "detail": "Faire de la France « le troisième grand pays de l'IA » en mobilisant l'épargne des Européens et des Français et en supprimant de façon « massive » des réglementations françaises et européennes ; remplacer par la robotique et l'IA la main-d'œuvre étrangère des métiers en tension (discours du 2026-09-13, avant la candidature ; eco-05, immig-04)",
+          "sources": [
+            {
+              "titre": "Europe 1, 2026-09-13",
+              "url": "https://www.europe1.fr/politique/presidentielle-2027-eric-zemmour-appelle-a-un-vote-du-sursaut-lors-de-son-discours-de-rentree-1075178"
             }
           ]
         },

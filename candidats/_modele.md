@@ -28,6 +28,7 @@ derniere_maj:            # AAAA-MM-JJ
 | Q-eco-patrimoine  |          |        |        |
 | Q-eco-deficit     |          |        |        |
 | Q-eco-fonctionnaires |          |        |        |
+| Q-eco-ia          |          |        |        |
 | Q-social-retraite |          |        |        |
 | Q-social-smic     |          |        |        |
 | Q-social-chomage  |          |        |        |
