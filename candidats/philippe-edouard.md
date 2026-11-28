@@ -153,8 +153,8 @@ dédiée ni un résumé en quelques mesures ; « Parlons santé chez vous » (20
 Revue du 2026-11-28 : pas de résumé en quelques mesures sur l'index du programme (mis à jour le 2026-11-26 : 18 cartes
 thématiques, chacune avec ses propres mesures, sans sélection globale) ni sur la page de présentation du volume 1 (qui ne
 cite que des domaines) ; le livret lui-même n'a pas pu être lu (s'il s'ouvre sur un résumé en quelques mesures, la règle 1
-s'appliquera). Trois annonces dédiées postérieures aux anciens phares : la page « Santé » du programme, publiée seule le
-2026-11-26 (publication consacrée tout entière à la santé, le jour de la réunion d'appartement « Parlons santé ») ; le
+s'appliquera). Trois annonces dédiées postérieures aux anciens phares : la page « Santé » du programme, publiée le
+2026-11-26 (seule page nouvelle signalée par la veille ce jour-là, à confirmer : date de la page Handicap inconnue ; publication consacrée tout entière à la santé, le jour de la réunion d'appartement « Parlons santé ») ; le
 discours devant la Convention nationale des centres de lutte contre le cancer (2026-11-24) ; le déplacement à Toulouse
 consacré au service public (2026-11-13, rencontre d'agents d'une Maison Toulouse Services et d'une crèche). Écartés :
 « Parlons santé, chez vous » (2026-11-26, réunion en visioconférence consacrée à la santé, mais la page n'annonce aucune
@@ -164,9 +164,9 @@ Lisnard (2026-11-25, sans mesure). Sortent, car moins récentes : Charleville-M�
 social-01, ancien phare 3). -->
 | rang | proposition | motif | source |
 |------|-------------|-------|--------|
-| 1 | sante-02 | Annonce dédiée la plus récente : page « Santé » du programme, publiée seule le 2026-11-26 (« Dernière mise à jour le 26 novembre 2026 »), consacrée tout entière à la santé ; mesure principale, la première présentée et titre de la page : « Investir plus pour la santé, remettre à l’équilibre l’Assurance maladie sans nouvel impôt. » | [Programme « Santé »](https://www.edouardphilippe.fr/programme/sante) |
+| 1 | sante-02 | Annonce dédiée la plus récente : page « Santé » du programme, publiée le 2026-11-26 (seule page nouvelle signalée par la veille ce jour-là, à confirmer) (« Dernière mise à jour le 26 novembre 2026 »), consacrée tout entière à la santé ; mesure principale, la première présentée et titre de la page : « Investir plus pour la santé, remettre à l’équilibre l’Assurance maladie sans nouvel impôt. » | [Programme « Santé »](https://www.edouardphilippe.fr/programme/sante) |
 | 2 | sante-07 | Annonce dédiée : discours devant la Convention nationale des centres de lutte contre le cancer, à Paris, 2026-11-24 ; mesure principale : rendre obligatoire la vaccination contre les papillomavirus | [LCP, 2026-11-24](https://lcp.fr/actualites/eradiquer-le-cancer-du-col-de-l-uterus-edouard-philippe-veut-rendre-obligatoire-la) |
-| 3 | eco-10 | Annonce dédiée : déplacement à Toulouse consacré au service public, 2026-11-13 ; mesure nouvelle présentée : un programme de service public à domicile pour les personnes seules ou âgées (« Ce nouveau programme s’adresse aux personnes seules ou âgées. ») | [edouardphilippe.fr, Toulouse, 2026-11-14](https://www.edouardphilippe.fr/actualites/a-toulouse-edouard-philippe-defend-un-service-public-plus-simple-et-plus-proche) |
+| 3 | eco-10 | Annonce dédiée : déplacement à Toulouse consacré au service public, 2026-11-13 ; mesure principale : le programme de service public à domicile pour les personnes seules ou âgées (« Ce nouveau programme s’adresse aux personnes seules ou âgées. »), seule mesure propre au déplacement (les deux premières rubriques, « Remettre de l’ordre dans les comptes publics. » et « Moins de paperasse, plus de terrain. », sont des orientations générales) | [edouardphilippe.fr, Toulouse, 2026-11-14](https://www.edouardphilippe.fr/actualites/a-toulouse-edouard-philippe-defend-un-service-public-plus-simple-et-plus-proche) |
 
 ## Propositions par thème
 <!-- Identifiants <theme>-<nn>, jamais réutilisés. Chiffrages en Md€/an sauf mention. -->

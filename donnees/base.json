@@ -7936,7 +7936,7 @@
           "option": "A",
           "proposition": "social-01",
           "texte_court": "Porter à 65 ans l'âge légal de départ à la retraite",
-          "justification": "Aucune mesure chiffrée en euros (le coût de la transition vers la capitalisation est exprimé en point de PIB par an, sans montant en euros) : le programme pose « la priorité de l'augmentation de l'âge de la retraite avant la réforme d'ensemble combinant la répartition et la capitalisation » ; âge légal de 65 ans avec 43,5 années de cotisation pour équilibrer le système actuel, réaffirmé en campagne (Grand Oral du 2026-11-22, où il est présenté en premier ; France 2 et « C à vous », 2026-11-25 et 26) (social-01) ; il défend aussi un étage de capitalisation collective obligatoire, visant 25 à 30 % à terme (social-02, social-07, social-10, option D, non voisine)",
+          "justification": "Aucune mesure chiffrée en euros (le coût de la transition vers la capitalisation est exprimé en point de PIB par an, sans montant en euros) : le programme pose « la priorité de l'augmentation de l'âge de la retraite avant la réforme d'ensemble combinant la répartition et la capitalisation » ; âge légal de 65 ans avec 43,5 années de cotisation pour équilibrer le système actuel, réaffirmé en campagne (Grand Oral du 2026-11-22, où il est présenté en premier ; France 2 et « C à vous », 2026-11-25 et 26) (social-01) ; il défend aussi un étage de capitalisation collective obligatoire, visant 25 à 30 % à terme (social-02, social-07, social-10, option D, non voisine) ; dans « C à vous » (2026-11-26), la capitalisation est présentée en premier et la tribune du 2026-11-17 ne mentionne pas l'âge : A repose sur le programme et le Grand Oral",
           "sources": [
             {
               "titre": "NE, « Réussir »",
@@ -12395,7 +12395,7 @@
         {
           "rang": 1,
           "proposition": "sante-02",
-          "motif": "Annonce dédiée la plus récente : page « Santé » du programme, publiée seule le 2026-11-26 (« Dernière mise à jour le 26 novembre 2026 »), consacrée tout entière à la santé ; mesure principale, la première présentée et titre de la page : « Investir plus pour la santé, remettre à l’équilibre l’Assurance maladie sans nouvel impôt. »",
+          "motif": "Annonce dédiée la plus récente : page « Santé » du programme, publiée le 2026-11-26 (seule page nouvelle signalée par la veille ce jour-là, à confirmer) (« Dernière mise à jour le 26 novembre 2026 »), consacrée tout entière à la santé ; mesure principale, la première présentée et titre de la page : « Investir plus pour la santé, remettre à l’équilibre l’Assurance maladie sans nouvel impôt. »",
           "sources": [
             {
               "titre": "Programme « Santé »",
@@ -12417,7 +12417,7 @@
         {
           "rang": 3,
           "proposition": "eco-10",
-          "motif": "Annonce dédiée : déplacement à Toulouse consacré au service public, 2026-11-13 ; mesure nouvelle présentée : un programme de service public à domicile pour les personnes seules ou âgées (« Ce nouveau programme s’adresse aux personnes seules ou âgées. »)",
+          "motif": "Annonce dédiée : déplacement à Toulouse consacré au service public, 2026-11-13 ; mesure principale : le programme de service public à domicile pour les personnes seules ou âgées (« Ce nouveau programme s’adresse aux personnes seules ou âgées. »), seule mesure propre au déplacement (les deux premières rubriques, « Remettre de l’ordre dans les comptes publics. » et « Moins de paperasse, plus de terrain. », sont des orientations générales)",
           "sources": [
             {
               "titre": "edouardphilippe.fr, Toulouse, 2026-11-14",
@@ -17848,19 +17848,8 @@
       "phares": [
         {
           "rang": 1,
-          "proposition": "social-04",
-          "motif": "Annonce dédiée la plus récente : présentation du livret « Pour un État-providence climatique » par la candidate et son équipe au Salon des maires, 2026-11-24 ; première proposition citée : le congé climatique",
-          "sources": [
-            {
-              "titre": "marinetondelier.fr, journal de campagne, épisode 55, 2026-11-24",
-              "url": "https://marinetondelier.fr/journal-de-campagne/etat-providence-climatique-salon-des-maires"
-            }
-          ]
-        },
-        {
-          "rang": 2,
           "proposition": "educ-05",
-          "motif": "Annonce dédiée : livret et épisode 46 du journal de campagne « Pour une culture vivante ! », 2026-11-10 ; première mesure clé du livret : le budget de la culture",
+          "motif": "Annonce dédiée la plus récente : livret et épisode 46 du journal de campagne « Pour une culture vivante ! », 2026-11-10 ; première mesure clé du livret : le budget de la culture",
           "sources": [
             {
               "titre": "Livret « Nos propositions pour une culture vivante », campagne de Marine Tondelier, novembre 2026 (lien : page d'annonce, épisode 46 du journal de campagne ; livret lu en PDF)",
@@ -17869,13 +17858,24 @@
           ]
         },
         {
-          "rang": 3,
+          "rang": 2,
           "proposition": "env-05",
           "motif": "Annonce dédiée : déplacement au Salon de l'automobile consacré à la filière automobile, à la rencontre des syndicats CGT et CFDT et d'associations environnementalistes, 2026-10-14",
           "sources": [
             {
               "titre": "marinetondelier.fr, journal de campagne, 2026-10-15",
               "url": "https://marinetondelier.fr/journal-de-campagne/salon-auto"
+            }
+          ]
+        },
+        {
+          "rang": 3,
+          "proposition": "secu-01",
+          "motif": "Annonce dédiée : manifestation hebdomadaire place Vendôme pour une loi intégrale sur les violences sexistes et sexuelles, compte rendu du 2026-09-07",
+          "sources": [
+            {
+              "titre": "marinetondelier.fr, journal de campagne, 2026-09-07",
+              "url": "https://marinetondelier.fr/journal-de-campagne/manifestation-loi-integrale-vss"
             }
           ]
         }
@@ -18034,7 +18034,7 @@
         {
           "id": "social-04",
           "theme": "social",
-          "proposition": "« Créer un congé climatique de 5 jours par an pour protéger les travailleur·ses face aux températures extrêmes », financé à parité par les employeurs et la Sécurité sociale (programme) ; « congé climatique » cité au discours de Grenoble ; première des propositions citées lors de la présentation du livret « Pour un État-providence climatique » au Salon des maires (2026-11-24, 12 propositions annoncées, livret non lu)",
+          "proposition": "« Créer un congé climatique de 5 jours par an pour protéger les travailleur·ses face aux températures extrêmes », financé à parité par les employeurs et la Sécurité sociale (programme) ; « congé climatique » cité au discours de Grenoble ; première des propositions citées lors de la présentation du livret « Pour un État-providence climatique » au Salon des maires par l'équipe de campagne (2026-11-24, 12 propositions annoncées, livret non lu)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "annuel",
