@@ -78,7 +78,9 @@ https://attalpresident.fr/programme/mesures/darpa-europeenne
 https://attalpresident.fr/programme/mesures/deficit-sous-trois-pour-cent
 https://attalpresident.fr/programme/mesures/defiscaliser-pensions-alimentaires
 https://attalpresident.fr/programme/mesures/depistage-pfas-captages
+https://attalpresident.fr/programme/mesures/diviser-par-deux-accidents-du-travail
 https://attalpresident.fr/programme/mesures/diviser-par-deux-dependance-militaire
+https://attalpresident.fr/programme/mesures/diviser-par-deux-les-emissions
 https://attalpresident.fr/programme/mesures/dome-de-fer-europeen
 https://attalpresident.fr/programme/mesures/doubler-subventions-geoenergie
 https://attalpresident.fr/programme/mesures/droit-a-la-climatisation
@@ -87,6 +89,7 @@ https://attalpresident.fr/programme/mesures/droit-au-repit
 https://attalpresident.fr/programme/mesures/durcir-regroupement-familial
 https://attalpresident.fr/programme/mesures/ecoles-adaptees-changement-climatique
 https://attalpresident.fr/programme/mesures/entrer-plus-tot-vie-active
+https://attalpresident.fr/programme/mesures/epreuves-terminales-bac
 https://attalpresident.fr/programme/mesures/equilibre-securite-sociale
 https://attalpresident.fr/programme/mesures/etats-unis-d-europe
 https://attalpresident.fr/programme/mesures/excuse-de-minorite-attenuee
@@ -95,14 +98,19 @@ https://attalpresident.fr/programme/mesures/fermer-cent-colleges-difficulte
 https://attalpresident.fr/programme/mesures/fichier-interdits-de-detention
 https://attalpresident.fr/programme/mesures/fiscalite-assurance-vie-stable
 https://attalpresident.fr/programme/mesures/fonds-investissement-defense
+https://attalpresident.fr/programme/mesures/former-200000-professionnels-petite-enfance
 https://attalpresident.fr/programme/mesures/former-tous-enseignants-ia
+https://attalpresident.fr/programme/mesures/former-tous-francais-ia
 https://attalpresident.fr/programme/mesures/fusion-nucleaire-europe
 https://attalpresident.fr/programme/mesures/horaires-adaptes-vie-de-famille
 https://attalpresident.fr/programme/mesures/ia-savoirs-fondamentaux
 https://attalpresident.fr/programme/mesures/ia-traitement-judiciaire
 https://attalpresident.fr/programme/mesures/immigration-systeme-a-points
+https://attalpresident.fr/programme/mesures/infertilite-au-coeur-du-debat
+https://attalpresident.fr/programme/mesures/interdiction-marche-public-europeen-etendue
 https://attalpresident.fr/programme/mesures/interessement-petites-structures
 https://attalpresident.fr/programme/mesures/juge-statue-sous-quarante-huit-heures
+https://attalpresident.fr/programme/mesures/leasing-electrique-premiere-ligne
 https://attalpresident.fr/programme/mesures/lithium-massif-central-alsace
 https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027
 https://attalpresident.fr/programme/mesures/livret-garde-d-enfant
@@ -111,7 +119,10 @@ https://attalpresident.fr/programme/mesures/methode-singapour
 https://attalpresident.fr/programme/mesures/mille-euros-par-nouveau-ne
 https://attalpresident.fr/programme/mesures/ministere-de-l-eau
 https://attalpresident.fr/programme/mesures/moins-d-echelons-chefs-de-terrain
+https://attalpresident.fr/programme/mesures/mois-engagement-civique-jeunes
+https://attalpresident.fr/programme/mesures/parcours-orientation-eleves
 https://attalpresident.fr/programme/mesures/parcours-separation-simplifie
+https://attalpresident.fr/programme/mesures/parcoursup-outil-accompagnement
 https://attalpresident.fr/programme/mesures/plan-eau-a-euro-constant
 https://attalpresident.fr/programme/mesures/plan-france-2040
 https://attalpresident.fr/programme/mesures/plan-messmer-2
@@ -120,6 +131,7 @@ https://attalpresident.fr/programme/mesures/politique-ia-europeenne-commune
 https://attalpresident.fr/programme/mesures/preference-europeenne-defense
 https://attalpresident.fr/programme/mesures/preference-travail-constitution
 https://attalpresident.fr/programme/mesures/premiere-economie-circulaire
+https://attalpresident.fr/programme/mesures/preserver-epargne-des-francais
 https://attalpresident.fr/programme/mesures/prisons-operation-interet-national
 https://attalpresident.fr/programme/mesures/puissance-de-calcul-europeenne
 https://attalpresident.fr/programme/mesures/quintupler-capacites-geoenergie
@@ -129,11 +141,14 @@ https://attalpresident.fr/programme/mesures/recruter-professeurs-secteur-prive
 https://attalpresident.fr/programme/mesures/reecrire-code-procedure-penale
 https://attalpresident.fr/programme/mesures/reforme-assurance-chomage-cinq-milliards
 https://attalpresident.fr/programme/mesures/reforme-institutionnelle-referendum
+https://attalpresident.fr/programme/mesures/reformer-conseil-superieur-magistrature
 https://attalpresident.fr/programme/mesures/refuser-mercosur
 https://attalpresident.fr/programme/mesures/registre-national-grands-convois
 https://attalpresident.fr/programme/mesures/regle-d-or-constitution
 https://attalpresident.fr/programme/mesures/regulation-internationale-ia
+https://attalpresident.fr/programme/mesures/relocaliser-productions-critiques
 https://attalpresident.fr/programme/mesures/remplacement-enseignants-absents
+https://attalpresident.fr/programme/mesures/renforts-zones-grand-passage
 https://attalpresident.fr/programme/mesures/reparer-cinq-cents-reseaux-eau
 https://attalpresident.fr/programme/mesures/reponse-subvention-quatre-vingt-dix-jours
 https://attalpresident.fr/programme/mesures/reseaux-sociaux-moins-de-quinze-ans
@@ -150,12 +165,16 @@ https://attalpresident.fr/programme/mesures/saisir-avoirs-russes-geles
 https://attalpresident.fr/programme/mesures/sanctions-alertes-secheresse
 https://attalpresident.fr/programme/mesures/sanctions-animaleries-appliquees
 https://attalpresident.fr/programme/mesures/sanctuariser-budgets-regaliens
+https://attalpresident.fr/programme/mesures/schengen-aucune-regularisation-massive-seul
 https://attalpresident.fr/programme/mesures/semaine-quatre-jours
 https://attalpresident.fr/programme/mesures/simplifier-forages-geothermiques
+https://attalpresident.fr/programme/mesures/simplifier-label-rge-artisans
 https://attalpresident.fr/programme/mesures/stabilite-prix-electricite
 https://attalpresident.fr/programme/mesures/statut-auto-tpe
+https://attalpresident.fr/programme/mesures/suppression-juge-application-peines
 https://attalpresident.fr/programme/mesures/supprimer-juge-application-peines
 https://attalpresident.fr/programme/mesures/supprimer-plafond-heures-supplementaires
+https://attalpresident.fr/programme/mesures/supprimer-salons-du-chiot
 https://attalpresident.fr/programme/mesures/taxer-produits-chinois-vendus-a-perte
 https://attalpresident.fr/programme/mesures/trois-cent-cinquante-deputes
 https://attalpresident.fr/programme/mesures/tuteur-numerique-souverain
@@ -166,6 +185,8 @@ https://attalpresident.fr/programme/mesures/vingt-millions-salaries-ia
 https://attalpresident.fr/programme/mesures/zero-deficit-2037
 https://attalpresident.fr/programme/mesures/zero-papier-juridictions
 https://attalpresident.fr/programme/publics
+https://attalpresident.fr/programme/publics/enseignants
+https://attalpresident.fr/programme/publics/fonctionnaires
 https://attalpresident.fr/programme/thematiques/defense
 https://attalpresident.fr/programme/thematiques/simplification
 https://attalpresident.fr/programme/travail-salaires
@@ -251,6 +272,7 @@ https://lcp.fr/actualites/arnaque-operation-pieces-jaunes-la-cgt-et-lfi-critique
 https://lcp.fr/actualites/attentat-de-trappes-son-nom-decouvert-sur-une-liste-sandrine-rousseau-accuse-le
 https://lcp.fr/actualites/au-qg-raphael-glucksmann-lance-son-rendez-vous-de-campagne-numerique-ce-vendredi-444843
 https://lcp.fr/actualites/budget-2027-la-cour-des-comptes-propose-de-geler-les-promotions-dans-la-fonction
+https://lcp.fr/actualites/budget-2027-que-sont-les-ordonnances-et-dans-quels-cas-le-gouvernement-peut-il-les
 https://lcp.fr/actualites/budget-2027-rejete-quelles-sont-les-prochaines-etapes-au-parlement-444753
 https://lcp.fr/actualites/budget-de-la-secu-deputes-et-senateurs-vont-tenter-de-se-mettre-d-accord-ce-jeudi
 https://lcp.fr/actualites/c-est-inacceptable-une-video-tournee-par-des-jeunes-dans-l-hemicycle-de-l-assemblee-fait
@@ -335,6 +357,7 @@ https://lcp.fr/actualites/pouvoir-d-achat-l-assemblee-approuve-un-deblocage-exce
 https://lcp.fr/actualites/pouvoir-d-achat-les-francais-vont-ils-pouvoir-debloquer-leur-epargne-salariale-de
 https://lcp.fr/actualites/pouvoir-d-achat-lycees-agriculture-sebastien-lecornu-presente-cinq-priorites-pour-un
 https://lcp.fr/actualites/pouvoir-d-achat-sebastien-lecornu-reunira-syndicats-et-patronat-lundi-pour-apporter-des
+https://lcp.fr/actualites/pouvoir-d-achat-securite-aller-retour-dans-l-hexagone-ce-que-promet-marine-le-pen-aux
 https://lcp.fr/actualites/presidentielle-2027-apres-un-debut-de-campagne-difficile-teddy-riner-s-explique-et-mise
 https://lcp.fr/actualites/presidentielle-2027-bayrou-philippe-barrot-ils-choisiraient-le-ni-ni-en-cas-de-second
 https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841
@@ -1001,6 +1024,7 @@ https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2424
 https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2425
 https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2426
 https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2427
+https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2428
 https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/11/2022-2-tour-presidentielle
 https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/12/2022-1er-tour-presidentielle
 https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/13/2024-Legislatives
@@ -1176,6 +1200,7 @@ https://www.franceinfo.fr/elections/benoit-payan-appelle-raphael-glucksmann-a-se
 https://www.franceinfo.fr/elections/candidats-a-la-presidentielle-que-veulent-ils-faire-des-fonctionnaires_8281235.html
 https://www.franceinfo.fr/elections/candidats-a-la-presidentielle-que-veulent-ils-faire-pour-l-education_8279921.html
 https://www.franceinfo.fr/elections/david-lisnard-gabriel-attal-raphael-glucksmann-journee-de-campagne-au-salon-des-maires_8300931.html
+https://www.franceinfo.fr/elections/direct-election-presidentielle-raphael-glucksmann-soutiendra-francois-hollande-s-il-se-presente-en-recours_8304636.html
 https://www.franceinfo.fr/elections/direct-presidentielle-2027-son-combat-est-le-mien-assure-raphael-glucksmann-sur-francois-ruffin-qui-s-est-retire-de-la-course-a-l-elysee_8295479.html
 https://www.franceinfo.fr/elections/elle-a-choisi-de-tourner-le-dos-a-la-tradition-ecologiste-regrette-raphael-glucksmann-apres-le-rapprochement-de-marine-tondelier-a-la-candidature-de-jean-luc-melenchon_8289584.html
 https://www.franceinfo.fr/elections/presidentielle
@@ -1249,6 +1274,7 @@ https://www.franceinfo.fr/faits-divers/terrorisme
 https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes
 https://www.franceinfo.fr/faits-divers/terrorisme/policiers-tues-a-magnanville
 https://www.franceinfo.fr/france
+https://www.franceinfo.fr/france/jihadistes-francais
 https://www.franceinfo.fr/grands-formats
 https://www.franceinfo.fr/internet/nvidia
 https://www.franceinfo.fr/internet/panne-informatique-mondiale
@@ -1411,6 +1437,7 @@ https://www.franceinfo.fr/societe/manifestations
 https://www.franceinfo.fr/societe/manifestations/direct-greve-et-manifestations-du-17-novembre-suivez-la-journee-de-mobilisation_8285927.html
 https://www.franceinfo.fr/societe/manifestations/direct-manifestations-du-10-novembre-etudiants-lyceens-et-enseignants-appellent-a-une-nouvelle-journee-d-action-mardi_8275703.html
 https://www.franceinfo.fr/societe/manifestations/direct-manifestations-du-14-novembre-suivez-la-journee-de-mobilisation-a-l-appel-de-gilets-jaunes-et-d-organisations-de-jeunesse_8281187.html
+https://www.franceinfo.fr/societe/manifestations/direct-manifestations-nouvelle-journee-de-mobilisation-samedi-notamment-contre-les-violences-faites-aux-femmes_8304345.html
 https://www.franceinfo.fr/societe/mobilisation-du-17-octobre
 https://www.franceinfo.fr/societe/pma
 https://www.franceinfo.fr/societe/prise-en-charge-des-personnes-agees/maltraitance-dans-les-ehpad
@@ -1780,6 +1807,8 @@ https://www.lagazettefrance.fr/article/a-amiens-eurolysine-vise-une-hausse-de-25
 https://www.lagazettefrance.fr/article/a-autun-pres-de-300-jeunes-decouvrent-les-enjeux-de-la-solidarite-et-du-climat
 https://www.lagazettefrance.fr/article/a-bar-le-duc-le-tricot-se-partage-chaque-vendredi
 https://www.lagazettefrance.fr/article/a-bar-le-duc-un-brunch-anti-gaspi-et-creatif
+https://www.lagazettefrance.fr/article/a-barentin-des-travaux-prevus-pour-reamenager-la-zone-commerciale
+https://www.lagazettefrance.fr/article/a-berlin-melenchon-promet-de-ne-pas-aider-les-americains-a-faire-la-guerre-aux-chinois
 https://www.lagazettefrance.fr/article/a-chalon-sur-saone-un-microscope-unique-au-monde-au-service-de-la-recherche
 https://www.lagazettefrance.fr/article/a-chalon-sur-saone-un-petit-dejeuner-pour-elargir-son-reseau-professionnel
 https://www.lagazettefrance.fr/article/a-charnay-les-macon-et-hurigny-de-nouveaux-itineraires-pour-faciliter-les-deplacements-a-velo
@@ -1796,6 +1825,7 @@ https://www.lagazettefrance.fr/article/a-metz-les-associations-sensibilisent-aux
 https://www.lagazettefrance.fr/article/a-metz-un-immeuble-historique-transforme-en-37-logements
 https://www.lagazettefrance.fr/article/a-nesle-le-parlement-numerique-des-hauts-de-france-sous-le-signe-de-la-mutualisation
 https://www.lagazettefrance.fr/article/a-nesle-le-specialiste-meteo-louis-bodin-eclaire-la-nouvelle-scene-de-ses-expertises
+https://www.lagazettefrance.fr/article/a-noel-offrir-peut-aussi-etre-un-acte-de-transmission-les-bons-reflexes-patrimoniaux
 https://www.lagazettefrance.fr/article/a-octeville-sur-mer-leader-group-celebre-40-ans-au-service-des-pompiers
 https://www.lagazettefrance.fr/article/a-remilly-la-premiere-pierre-du-nouveau-college-lucien-pougue-a-ete-posee
 https://www.lagazettefrance.fr/article/a-rogerville-derniere-semaine-de-concertation-sur-le-projet-methavert
@@ -1814,8 +1844,10 @@ https://www.lagazettefrance.fr/article/abbeville-cinq-intercommunalites-se-reuni
 https://www.lagazettefrance.fr/article/abilympics-2027-des-hauts-de-france-a-helsinki-six-talents-de-la-region-representeront-la-france
 https://www.lagazettefrance.fr/article/acte-iv-de-la-colere-sociale-avant-les-annonces-attendues-du-gouvernement
 https://www.lagazettefrance.fr/article/aeroport-de-beauvais-suite-a-son-classement-la-societe-reagit-sur-la-realite
+https://www.lagazettefrance.fr/article/affrontements-en-marge-d-un-banquet-du-canon-francais-a-biarritz-un-policier-blesse
 https://www.lagazettefrance.fr/article/agriculture-le-gouvernement-annonce-son-plan-de-relance-et-lance-des-projets-d-avenir
 https://www.lagazettefrance.fr/article/aisne-plus-de-9-millions-d-euros-mobilises-pour-les-entrepreneurs
+https://www.lagazettefrance.fr/article/aisne-un-monde-de-bois-faconne-des-jeux-et-jouets-uniques
 https://www.lagazettefrance.fr/article/alerte-patronale-sur-le-budget-de-l-etat
 https://www.lagazettefrance.fr/article/amiens-accueille-130-films-de-45-pays-pour-la-46e-edition-du-fifam
 https://www.lagazettefrance.fr/article/amiens-apf-france-handicap-multiplie-les-initiatives-pour-favoriser-l-inclusion
@@ -1826,12 +1858,14 @@ https://www.lagazettefrance.fr/article/amiens-le-quai-celebre-20-ans-de-passion-
 https://www.lagazettefrance.fr/article/anne-percin-est-laureate-du-prix-erckmann-chatrian-pour-son-roman-eugenie-sous-les-bombes
 https://www.lagazettefrance.fr/article/apres-le-pas-de-tondelier-vers-melenchon-glucksmann-en-appelle-a-la-tradition-pro-europeenne-des-ecologistes
 https://www.lagazettefrance.fr/article/apres-matignon-les-fonctionnaires-de-retour-dans-la-rue-pour-demander-des-hausses-de-salaires
+https://www.lagazettefrance.fr/article/arbres-de-noel-la-tradition-persiste-autrement-pour-les-entreprises-en-moselle
 https://www.lagazettefrance.fr/article/arras-et-les-7-vallees-cles-en-main-pour-le-grand-plan-d-electrification
 https://www.lagazettefrance.fr/article/artisans-d-art-des-rencontres-fructueuses
 https://www.lagazettefrance.fr/article/au-havre-alceane-engage-la-renovation-de-566-logements-pour-25-6-millions-d-euros
 https://www.lagazettefrance.fr/article/au-havre-l-armateur-newtowt-devient-anemos-et-poursuit-le-fret-a-la-voile
 https://www.lagazettefrance.fr/article/au-milieu-d-une-foret-de-candidats-villepin-se-prepare-a-entrer-en-scene
 https://www.lagazettefrance.fr/article/au-pakistan-des-robots-serveurs-dans-un-restaurant-offrent-un-avant-gout-de-l-avenir
+https://www.lagazettefrance.fr/article/auchan-en-passe-de-ceder-chronodrive-aux-mousquetaires
 https://www.lagazettefrance.fr/article/aunde-france-inaugure-sa-nouvelle-usine-a-saint-quentin
 https://www.lagazettefrance.fr/article/autun-mobilise-ses-habitants-autour-de-la-reduction-des-dechets-en-novembre
 https://www.lagazettefrance.fr/article/autun-recompense-102-acteurs-du-sport-lors-de-la-32e-ceremonie-de-l-oms
@@ -1850,7 +1884,9 @@ https://www.lagazettefrance.fr/article/bassin-minier-l-erbm-poursuit-ses-actions
 https://www.lagazettefrance.fr/article/beauvais-le-renouvellement-des-canalisations-d-eau-potable-se-poursuit-jusqu-en-avril-2027
 https://www.lagazettefrance.fr/article/beauvais-les-ovalies-unilasalle-reversent-90-000-euros-a-trois-associations
 https://www.lagazettefrance.fr/article/beauvais-reseau-entreprendre-picardie-se-penche-sur-les-techniques-de-vente
+https://www.lagazettefrance.fr/article/belgique-google-affirme-avoir-suspendu-la-construction-d-un-data-center-faute-de-permis
 https://www.lagazettefrance.fr/article/berlin-et-unicredit-s-accordent-sur-l-avenir-de-commerzbank
+https://www.lagazettefrance.fr/article/bhv-marais-plusieurs-offres-de-reprise-deposees
 https://www.lagazettefrance.fr/article/blendecques-le-groupe-italien-cartiere-carrara-acquiert-une-friche-industrielle
 https://www.lagazettefrance.fr/article/bolbec-1-24-million-d-euros-investis-dans-une-academie-dediee-a-l-hydrogene
 https://www.lagazettefrance.fr/article/boutique-ephemere-l-accelerateur-de-croissance
@@ -1895,6 +1931,7 @@ https://www.lagazettefrance.fr/article/cote-d-or-100-membres-de-l-ube-distingues
 https://www.lagazettefrance.fr/article/cote-d-or-54-collegiens-prennent-leurs-fonctions-de-conseillers-departementaux-jeunes
 https://www.lagazettefrance.fr/article/cote-d-or-l-ube-participe-a-la-semaine-europeenne-de-reduction-des-dechets
 https://www.lagazettefrance.fr/article/cote-d-or-le-champ-des-sourires-recoit-le-prix-national-de-l-ess-2026
+https://www.lagazettefrance.fr/article/cote-d-or-les-defaillances-d-entreprises-reculent-de-15-au-troisieme-trimestre-2026
 https://www.lagazettefrance.fr/article/cote-d-or-sept-employeurs-recompenses-pour-leur-engagement-en-faveur-de-l-inclusion
 https://www.lagazettefrance.fr/article/courteuil-equi-oise-veterinaires-se-deplace-pour-soigner-les-chevaux
 https://www.lagazettefrance.fr/article/crise-dans-l-education-etudiants-lyceens-et-enseignants-appellent-a-une-nouvelle-journee-d-action-mardi
@@ -1915,6 +1952,7 @@ https://www.lagazettefrance.fr/article/depuis-sarrebourg-romuald-rosso-dion-veut
 https://www.lagazettefrance.fr/article/des-entreprises-de-seine-maritime-a-la-conquete-des-marches-internationaux
 https://www.lagazettefrance.fr/article/des-parkings-sont-gratuits-a-nancy-le-dimanche-a-partir-du-8-novembre
 https://www.lagazettefrance.fr/article/des-tatamis-a-l-elysee-teddy-riner-annonce-sa-candidature-a-la-presidentielle
+https://www.lagazettefrance.fr/article/dette-s-p-maintient-la-note-de-la-france-mais-menace-de-la-degrader-face-a-la-recession
 https://www.lagazettefrance.fr/article/dieppe-l-activite-des-entreprises-resiste-mais-les-dirigeants-restent-prudents
 https://www.lagazettefrance.fr/article/dieppe-la-foire-aux-harengs-et-a-la-coquille-saint-jacques-revient-les-14-et-15-novembre
 https://www.lagazettefrance.fr/article/dieppe-le-treport-250-000-euros-pour-soutenir-les-projets-touristiques-du-littoral
@@ -1978,6 +2016,7 @@ https://www.lagazettefrance.fr/article/harmonie-mutuelle-friday-trois-agences-en
 https://www.lagazettefrance.fr/article/harmonie-mutuelle-lance-sa-collecte-de-materiel-medical-en-meurthe-et-moselle
 https://www.lagazettefrance.fr/article/hauts-de-france-la-region-veut-sensibiliser-un-million-d-habitants-a-l-ia
 https://www.lagazettefrance.fr/article/hauts-de-france-orange-devient-le-conseiller-de-confiance-en-numerique
+https://www.lagazettefrance.fr/article/heurts-entre-opposants-et-participants-a-un-banquet-du-canon-francais-a-biarritz
 https://www.lagazettefrance.fr/article/hugodecrypte-met-l-elysee-en-bd-pour-rajeunir-la-politique
 https://www.lagazettefrance.fr/article/hugues-moutouh-un-prefet-sur-le-gril
 https://www.lagazettefrance.fr/article/ia-generative-des-experts-appellent-macron-a-mieux-proteger-les-utilisateurs
@@ -2010,6 +2049,7 @@ https://www.lagazettefrance.fr/article/l-universite-de-lorraine-abandonne-web-of
 https://www.lagazettefrance.fr/article/l-universite-de-lorraine-mise-sur-le-vivier-transfrontalier-a-strasbourg
 https://www.lagazettefrance.fr/article/l-urssaf-bourgogne-alerte-les-entreprises-sur-une-fraude-liee-a-la-doeth
 https://www.lagazettefrance.fr/article/la-5e-edition-du-salon-de-l-installation-et-de-la-transmission-agricole-prevu-le-26-novembre
+https://www.lagazettefrance.fr/article/la-cathedrale-notre-dame-de-l-annonciation-de-nancy-s-est-mise-en-mode-coulisses
 https://www.lagazettefrance.fr/article/la-cc-seille-et-grand-couronne-mise-sur-une-piste-cyclable-respectueuse-des-zones-humides
 https://www.lagazettefrance.fr/article/la-cci-bourgogne-franche-comte-organise-la-3e-edition-du-rebond-a-dijon
 https://www.lagazettefrance.fr/article/la-chine-passe-le-cap-des-1-000-milliards-de-dollars-d-excedent-commercial
@@ -2022,6 +2062,7 @@ https://www.lagazettefrance.fr/article/la-justice-confirme-le-renvoi-de-depardie
 https://www.lagazettefrance.fr/article/la-large-coalition-suggeree-par-macron-decredibilise-la-politique-estime-glucksmann
 https://www.lagazettefrance.fr/article/la-maison-forestiere-du-spitzberg-remporte-10-000-grace-au-vote-du-public
 https://www.lagazettefrance.fr/article/la-meurthe-et-moselle-mise-sur-duoday-pour-stimuler-l-entrepreneuriat-et-l-emploi-inclusif
+https://www.lagazettefrance.fr/article/la-nouvelle-vie-de-l-hotel-cosmos-a-contrexeville
 https://www.lagazettefrance.fr/article/la-pepite-lgm-en-pleine-promotion-et-recrutement-a-marville
 https://www.lagazettefrance.fr/article/la-prefete-de-l-aisne-a-la-rencontre-des-acteurs-locaux-a-chateau-thierry
 https://www.lagazettefrance.fr/article/la-reforme-rn-des-retraites-un-net-durcissement-pour-les-carrieres-hachees
@@ -2113,6 +2154,7 @@ https://www.lagazettefrance.fr/article/meuse-au-senat-jocelyne-antoine-alerte-su
 https://www.lagazettefrance.fr/article/meuse-bpifrance-mise-sur-la-croissance-des-pme-et-l-ouverture-a-l-international
 https://www.lagazettefrance.fr/article/meuse-le-nombre-de-demandeurs-d-emploi-recule-de-2-5-sur-un-an
 https://www.lagazettefrance.fr/article/meuse-les-portes-de-meuse-accompagnees-pour-accelerer-leur-transformation-numerique
+https://www.lagazettefrance.fr/article/mge-s-electrifie-et-accelere-sa-decarbonation-depuis-chavelot
 https://www.lagazettefrance.fr/article/micro-entreprise-comprendre-les-regles-pour-demarrer-sur-de-bonnes-bases
 https://www.lagazettefrance.fr/article/mobilisation-intacte-impasse-diplomatique-500e-jour-de-detention-pour-christophe-gleizes-en-algerie
 https://www.lagazettefrance.fr/article/mobilisation-sociale-pas-de-division-du-front-syndical-dit-marylise-leon
@@ -2127,6 +2169,7 @@ https://www.lagazettefrance.fr/article/noel-2026-les-commercants-de-meurthe-et-m
 https://www.lagazettefrance.fr/article/noel-le-sapin-naturel-symbolise-le-totem-hiverval-incontournable
 https://www.lagazettefrance.fr/article/noel-les-boutiques-leonidas-de-moselle-se-mettent-a-l-heure-des-fetes
 https://www.lagazettefrance.fr/article/nouveaux-droits-de-douane-americains-l-union-europeenne-s-indigne
+https://www.lagazettefrance.fr/article/nouvelle-journee-de-mobilisation-samedi-contre-les-violences-faites-aux-femmes
 https://www.lagazettefrance.fr/article/nutriset-et-cma-cgm-developpent-un-beurre-de-cacahuete-enrichi-pour-les-etudiants
 https://www.lagazettefrance.fr/article/nvidia-enquete-interne-sur-un-espionnage-presume-du-patron-qui-admet-une-relation-extraconjugale
 https://www.lagazettefrance.fr/article/oise-34-logements-et-six-locaux-commerciaux-inaugures-a-plailly
@@ -2199,6 +2242,7 @@ https://www.lagazettefrance.fr/article/saint-die-des-vosges-l-aeim-inaugure-son-
 https://www.lagazettefrance.fr/article/saint-dizier-budgets-et-nouveau-modele-consulaire-au-programme-de-la-cci
 https://www.lagazettefrance.fr/article/saint-nicolas-lez-arras-la-residence-du-clos-des-champs-est-inauguree
 https://www.lagazettefrance.fr/article/saint-pierre-de-varengeville-reamenage-son-centre-ville-pour-2-5-millions-d-euros
+https://www.lagazettefrance.fr/article/saint-quentin-atelier-pangea-propose-une-decoration-unique-en-marqueterie-de-bois
 https://www.lagazettefrance.fr/article/saint-quentin-brille-change-de-gerants-et-elargit-son-offre
 https://www.lagazettefrance.fr/article/saint-quentin-euratechnologies-organise-une-journee-gratuite-pour-les-entrepreneurs-de-la-tech
 https://www.lagazettefrance.fr/article/saint-quentin-l-attrape-charme-ouvre-en-centre-ville
@@ -2223,6 +2267,8 @@ https://www.lagazettefrance.fr/article/saone-et-loire-les-entreprises-engagees-f
 https://www.lagazettefrance.fr/article/saone-et-loire-un-chantier-de-2-1-millions-d-euros-pour-limiter-les-pertes-d-eau-potable
 https://www.lagazettefrance.fr/article/saone-et-loire-un-chantier-de-2-5-millions-d-euros-relance-le-pont-d-iguerande
 https://www.lagazettefrance.fr/article/saone-et-loire-une-aide-pour-les-jeunes-qui-preparent-le-bafa
+https://www.lagazettefrance.fr/article/sarkozy-toujours-incontournable-a-droite-malgre-ses-deboires-judiciaires-D8PP6WF
+https://www.lagazettefrance.fr/article/sauveteur-en-mer-en-baie-de-somme-le-saut-dans-le-grand-bain
 https://www.lagazettefrance.fr/article/scandale-nvidia-sous-pression-de-trump-et-de-la-tech-jensen-huang-regagne-son-poste
 https://www.lagazettefrance.fr/article/seeph-2026-la-meurthe-et-moselle-deploie-11-rendez-vous-pour-l-emploi-et-le-handicap
 https://www.lagazettefrance.fr/article/seeph-2026-les-vosges-se-mobilisent-pour-l-inclusion-professionnelle
@@ -2238,6 +2284,7 @@ https://www.lagazettefrance.fr/article/si-elle-est-elue-le-pen-veut-obliger-les-
 https://www.lagazettefrance.fr/article/six-semaines-apres-l-incendie-une-reprise-entre-joie-et-tension-au-lycee-mandela
 https://www.lagazettefrance.fr/article/six-viticulteurs-de-cote-d-or-en-lice-pour-le-trophee-jeunes-talents-du-gjpv
 https://www.lagazettefrance.fr/article/sncf-16-ponts-en-renovation-en-2026-sur-la-ligne-beauvais-le-treport
+https://www.lagazettefrance.fr/article/spiritueux-sans-alcool-la-fete-est-elle-reellement-plus-folle
 https://www.lagazettefrance.fr/article/sterin-milliardaire-proche-de-l-extreme-droite-juge-en-janvier-pour-son-refus-de-venir-devant-les-deputes
 https://www.lagazettefrance.fr/article/sud-meusien-la-mission-locale-alerte-sur-la-degradation-de-la-sante-mentale-des-jeunes
 https://www.lagazettefrance.fr/article/suppression-de-parcoursup-durcissement-de-la-selection-retailleau-devoile-son-programme-pour-l-enseignement-superieur
@@ -2332,6 +2379,7 @@ https://www.lagazettefrance.fr/series/creation-d-entreprise
 https://www.lagazettefrance.fr/series/economie-des-fetes
 https://www.lagazettefrance.fr/series/le-made-in-france-au-coeur-du-reacteur
 https://www.lagazettefrance.fr/tag/bourse
+https://www.lagazettefrance.fr/tag/budget
 https://www.lagazettefrance.fr/tag/climat
 https://www.lagazettefrance.fr/tag/diplomatie
 https://www.lagazettefrance.fr/tag/distribution
@@ -8994,6 +9042,8 @@ https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-92-courbevoie
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-92-courbevoie/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-a-new-york
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-a-new-york/calendar.ics
+https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-australie-sydney
+https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-australie-sydney/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-autriche-vienne
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-autriche-vienne/calendar.ics
 https://www.unenouvelleenergie.fr/event/afterwork-nouvelle-energie-dubai
@@ -9026,6 +9076,8 @@ https://www.unenouvelleenergie.fr/event/conference-nouvelle-energie-ain-la-rural
 https://www.unenouvelleenergie.fr/event/conference-nouvelle-energie-ain-la-ruralite/calendar.ics
 https://www.unenouvelleenergie.fr/event/conference-nouvelle-energie-nord-et-pas-de-calais-narcotrafic
 https://www.unenouvelleenergie.fr/event/conference-nouvelle-energie-nord-et-pas-de-calais-narcotrafic/calendar.ics
+https://www.unenouvelleenergie.fr/event/foire-des-herolles-2026-11-29
+https://www.unenouvelleenergie.fr/event/foire-des-herolles-2026-11-29/calendar.ics
 https://www.unenouvelleenergie.fr/event/happy-hour-nouvelle-energie-a-san-francisco
 https://www.unenouvelleenergie.fr/event/happy-hour-nouvelle-energie-a-san-francisco/calendar.ics
 https://www.unenouvelleenergie.fr/event/itinerances-tarn-et-garonnaises-barry-dislemade
@@ -9044,12 +9096,16 @@ https://www.unenouvelleenergie.fr/event/reunion-jeunes-energies-moselle-metz
 https://www.unenouvelleenergie.fr/event/reunion-jeunes-energies-moselle-metz/calendar.ics
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-92-issy-les-moulineaux
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-92-issy-les-moulineaux/calendar.ics
+https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-allier-vallon-en-sully
+https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-allier-vallon-en-sully/calendar.ics
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-anglet
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-anglet/calendar.ics
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-bordeaux
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-bordeaux/calendar.ics
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-eure-grand-bourgtheroulde
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-eure-grand-bourgtheroulde/calendar.ics
+https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-gard-saint-ambroix
+https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-gard-saint-ambroix/calendar.ics
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-gironde-creon
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-gironde-creon/calendar.ics
 https://www.unenouvelleenergie.fr/event/reunion-publique-nouvelle-energie-gironde-libourne
@@ -9091,6 +9147,7 @@ https://www.unenouvelleenergie.fr/groupes
 https://www.unenouvelleenergie.fr/intelligence-artificielle-robotique-economie-david-lisnard-defend-une-france-conquerante-aux-rencontres-de-lavenir
 https://www.unenouvelleenergie.fr/je-crois-a-la-competition-pas-a-la-compromission
 https://www.unenouvelleenergie.fr/je-suis-pour-un-etat-fort-la-ou-il-est-necessaire
+https://www.unenouvelleenergie.fr/je-veux-proposer-une-autre-alternative-que-jean-luc-melenchon-et-marine-le-pen
 https://www.unenouvelleenergie.fr/kit-militant
 https://www.unenouvelleenergie.fr/lenergie-doit-reconcilier-lindustrie-et-lecologie
 https://www.unenouvelleenergie.fr/les-robots-le-pape-lia-et-nous-le-nouveau-livre-de-david-lisnard-est-disponible-en-librairie
@@ -9104,5 +9161,6 @@ https://www.unenouvelleenergie.fr/politique-de-confidentialite
 https://www.unenouvelleenergie.fr/pour-une-reforme-des-retraites-qui-reconcilie-les-generations
 https://www.unenouvelleenergie.fr/questions
 https://www.unenouvelleenergie.fr/sans-une-grande-primaire-ouverte-a-tous-la-droite-et-le-centre-ne-seront-pas-en-mesure-de-lemporter
+https://www.unenouvelleenergie.fr/securite-immigration-david-lisnard-revele-son-programme-presidentiel-au-figaro-magazine
 https://www.unenouvelleenergie.fr/si-letat-nous-laissait-davantage-agir-il-y-aurait-moins-de-problemes
 https://www.unenouvelleenergie.fr/toc-toc-on-arrive-david-lisnard-annonce-plus-de-100-000-adherents-a-nouvelle-energie-sur-bfmtv
