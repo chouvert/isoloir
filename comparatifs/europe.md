@@ -1,6 +1,6 @@
 ---
 theme: europe
-derniere_maj: 2026-11-25
+derniere_maj: 2026-11-28
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -62,6 +62,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Nicolas Dupont-Aignan | europe-03 | « Augmenter et sanctuariser le budget de la Défense à 2,3 % du PIB (équipements, second porte-avion, service national) » ; doubler le budget du renseignement (Cahier rouge) | 7 | — |
 | Nicolas Dupont-Aignan | europe-04 | Sortir du commandement militaire intégré de l'OTAN ; refuser tout partage de la dissuasion nucléaire : « Notre stratégie de dissuasion nucléaire ne vaut que pour notre territoire national. » ; quitter le programme SCAF : « nous sortirons des programmes d'armement qui, comme le SCAF » (discours de déclaration) | non chiffré | — |
 | Nicolas Dupont-Aignan | europe-05 | Paix négociée en Ukraine : « Neutralité et Démilitarisation de l'Ukraine, référendum au Donbass, forces de l'ONU autour des centrales nucléaires » (discours du 2026-09-19) ; « Mettre fin aux aides à l'Ukraine » (Livret, mesure 22) | 7 d'économies | — |
+| Nicolas Dupont-Aignan | europe-06 | (parti, page Affaires étrangères, livret daté du 2025-04-17) Politique étrangère indépendante : reconstruire un corps diplomatique professionnel ; remplacer l'Union européenne actuelle par une coopération à la carte entre États volontaires ; obtenir la paix en Ukraine et relancer le partenariat avec la Russie ; concentrer l'aide au développement sur les pays francophones et placer l'Agence française de développement sous l'autorité directe du ministre ; créer un grand média francophone à partir de RFI, France 24 et TV5 Monde ; loi renforcée de protection du français | non chiffré | — |
 | Marine Le Pen | europe-01 | Réduire la contribution nette de la France au budget de l'UE | chiffres divergents selon les comptes rendus : « 9 milliards d'euros sur notre contribution » (parti : Jordan Bardella, président du RN, Public Sénat), −8,9 Md€ nets (AFP), contribution nette ramenée à 5 Md€ (Brussels Signal) ; plafonnement à 5 Md€ promis au meeting d'Orléans (2026-10-25, selon la SRF citée par Brussels Signal) | — |
 | Marine Le Pen | europe-04 | Ukraine : maintenir l'aide financière six mois après l'élection puis l'arrêter ; poursuivre la formation des soldats et l'aide militaire | aide financière estimée par la candidate à 6 Md€/an | — |
 | David Lisnard | europe-04 | Défense : l'État doit couper « ses dépenses inutiles pour mieux investir dans la sécurité, la justice et la défense » (2026-10-23) ; « Nous devons rester alliés des États-Unis sans nous aligner sur toutes leurs positions » ; après « Les impasses des projets franco-allemands d’avion de combat et de char du futur », partir « des besoins militaires et des intérêts industriels pour bâtir des coopérations solides » (2026-10-15) | aucun objectif chiffré | — |

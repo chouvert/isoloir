@@ -1,6 +1,6 @@
 ---
 theme: immig
-derniere_maj: 2026-11-25
+derniere_maj: 2026-11-28
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -21,7 +21,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Q-immig-niveau | réduction | pas de position | forte baisse | renvoi à une convention citoyenne | baisse | réduction | facilitation | division par deux | réduction | pas de position | refus d'une immigration de travail nouvelle ; régularisation des personnes présentes | hausse : régularisation et voies légales | objectifs annuels par catégorie, sans niveau annoncé | « immigration zéro » et « immigration négative » |
 | Q-immig-asile | pas de position | pas de position | demande hors du territoire | pas de position | demandes déposées hors du territoire | demandes déposées hors du territoire | abrogation des dernières lois | restriction | examen hors des frontières | pas de position | pas de position | respect du droit d'asile, révision du Pacte européen | pas de position | pas de position |
-| Q-immig-nation | pas de position | pas de position | fin du droit du sol | pas de position | suppression du droit du sol | fin de l'automaticité du droit du sol | droit du sol intégral | suspension du droit du sol à Mayotte | suppression du droit du sol | pas de position | pas de position | droit du sol sans condition liée aux parents, naturalisation facilitée | pas de position | déchéance des binationaux condamnés |
+| Q-immig-nation | pas de position | pas de position | fin du droit du sol | pas de position | suppression du droit du sol | fin de l'automaticité du droit du sol | droit du sol intégral | suspension du droit du sol à Mayotte ; nationalité jamais automatique | suppression du droit du sol | pas de position | pas de position | droit du sol sans condition liée aux parents, naturalisation facilitée | pas de position | déchéance des binationaux condamnés |
 
 ## Dilemmes du thème
 
@@ -51,7 +51,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 | Nicolas Dupont-Aignan | immig-05 | (parti, livret daté du 2026-03-03) « Rétablir le contrôle aux frontières en sortant de Schengen » ; « la suspension du regroupement familial » (introduction de la page ; la mesure 5 dit « Limiter strictement le regroupement familial ») | non chiffré | — |
 | Marine Le Pen | immig-02 | Instaurer la « priorité nationale » pour l'emploi, le logement et les aides sociales | 15 Md€ d'économies en 2027, 29 Md€ en année pleine (avec la maîtrise de l'immigration) | — |
 | David Lisnard | immig-05 | « Supprimer l’Aide Médicale d’État (AME) et la remplacer par une aide d’urgence » (NE) | « 700 millions d’euros d’économies » (périodicité non précisée) | — |
-| David Lisnard | immig-08 | « Conditionner les prestations sociales non contributives aux étrangers résidant régulièrement sur le territoire national depuis au moins cinq ans » (NE) | « huit milliards d’euros par an » selon le candidat | — |
+| David Lisnard | immig-08 | « Conditionner les prestations sociales non contributives aux étrangers résidant régulièrement sur le territoire national depuis au moins cinq ans » (NE) ; tribune du 2026-11-17 : « il n’est plus possible ni compréhensible de verser des prestations sociales non contributives aux étrangers » (sans condition de durée) | « huit milliards d’euros par an » selon le candidat | — |
 | Bruno Retailleau | immig-01 | Soumettre à référendum « une loi pour réduire l'immigration », après révision constitutionnelle | 10 Md€ d'économies cumulées sur l'immigration (non annuel) | — |
 | Bruno Retailleau | immig-03 | Conditionner les prestations non contributives à « cinq années de séjour et de travail » ; examiner les demandes d'asile en dehors des frontières (les deux conditionnés à une révision constitutionnelle) | 4,5 Md€ cumulés pour les deux mesures (non annuel) | — |
 | Dominique de Villepin | immig-01 | Livre blanc de l'immigration issu d'une conférence de consentement d'un an, puis loi de programmation pluriannuelle avec des objectifs annuels glissants par catégorie (travail, regroupement familial, étudiants) (P. 56) ; autorité indépendante de l'information migratoire (P. 57) | non chiffré | — |
