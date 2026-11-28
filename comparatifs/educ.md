@@ -1,6 +1,6 @@
 ---
 theme: educ
-derniere_maj: 2026-11-25
+derniere_maj: 2026-11-28
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -21,7 +21,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Q-educ-enseign | hausse | pas de position | hausse de 20 % puis 20 % sous condition | hausse | hausse | hausse conditionnée | hausse | hausse | revalorisation | davantage d'enseignants et de moyens ; point d'indice relevé | pas de suppression de postes | hausse | au moins + 10 % | pas de position |
 | Q-educ-univ | réorientation et évaluation des formations | pas de position | suppression de Parcoursup | suppression de Parcoursup | pas de position | suppression de Parcoursup | accès sans sélection, gratuité | hausse des droits pour les étudiants extra-européens | pour la sélection | pas de position | suppression de Parcoursup | suppression de Parcoursup, hausse du financement | Parcoursup recalibré | pas de position |
-| Q-educ-orientation | certificat d'études à l'entrée en sixième ; brevet obligatoire pour entrer en seconde | pas de position | pas de position | pas de position | pas de position | certificat de fin de primaire conditionnant l'entrée au collège ; lycées professionnels et CFA renforcés | baccalauréat professionnel en quatre ans | orientation dès la 5e | examen d'entrée en sixième ; filière professionnelle en alternance confiée aux régions | pas de position | pas de position | maintien du collège unique ; baccalauréat professionnel en quatre ans | découverte précoce des métiers | fin du collège unique |
+| Q-educ-orientation | certificat d'études en fin de CM2 ; brevet obligatoire pour entrer en seconde | pas de position | pas de position | pas de position | pas de position | certificat de fin de primaire conditionnant l'entrée au collège ; lycées professionnels et CFA renforcés | baccalauréat professionnel en quatre ans | orientation dès la 5e | examen d'entrée en sixième ; filière professionnelle en alternance confiée aux régions | pas de position | pas de position | maintien du collège unique ; baccalauréat professionnel en quatre ans | découverte précoce des métiers | fin du collège unique |
 
 ## Dilemmes du thème
 
@@ -43,7 +43,7 @@ Le détail et les sources de chaque position sont dans les fiches.
 
 | candidat | id | proposition | chiffrage annoncé | chiffrage indépendant |
 |---|---|---|---|---|
-| Gabriel Attal | educ-02 | Salaire des enseignants « revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière » ; meilleure rémunération des accompagnants d'élèves en situation de handicap | +200 € à +500 € net par mois et par enseignant (pas de coût global annoncé) | — |
+| Gabriel Attal | educ-02 | Salaire des enseignants « revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière » ; meilleure rémunération des accompagnants d'élèves en situation de handicap ; titre de la mesure : « 200 à 500 euros nets de plus par mois pour les enseignants » | +200 € à +500 € net par mois et par enseignant (pas de coût global annoncé) | — |
 | Nicolas Dupont-Aignan | educ-01 | Revaloriser les salaires des professeurs en deux temps : 20 % d'augmentation automatique pour tous, puis 20 % supplémentaires en contrepartie d'heures de soutien scolaire auprès des élèves en difficulté (Cahier rouge) | 8 | — |
 | Nicolas Dupont-Aignan | educ-02 | « Suppression de Parcoursup », « Rétablissement d'un bac égalitaire », « Une école des savoirs et du mérite avec des programmes exigeants » (communiqué de Limoges) | non chiffré | — |
 | Nicolas Dupont-Aignan | educ-03 | Porter l'effort de recherche à 3 % du PIB dès 2029 et rétablir un commissariat au Plan (Livret, mesure 30) | 2 | — |

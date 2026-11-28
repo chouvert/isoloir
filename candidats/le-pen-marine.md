@@ -6,10 +6,10 @@ famille_politique: extrême droite
 statut: déclaré
 date_declaration: 2026-07-07
 programme_url:
-programme_version: pas de programme publié au 2026-11-21 ; déclarations de campagne (2026-07-07 à 2026-11-17, meeting d'Orléans et présentation de la réforme des retraites compris) + proposition de loi constitutionnelle « Citoyenneté-Identité-Immigration » (2024-01-25)
+programme_version: pas de programme publié au 2026-11-28 ; déclarations de campagne (2026-07-07 à 2026-11-27, meeting d'Orléans et présentation de la réforme des retraites compris) + proposition de loi constitutionnelle « Citoyenneté-Identité-Immigration » (2024-01-25)
 programme_lu:
 programme_lu_le:
-derniere_maj: 2026-11-21
+derniere_maj: 2026-11-28
 ---
 
 # Marine Le Pen
@@ -77,6 +77,7 @@ derniere_maj: 2026-11-21
 | Q-eco-patrimoine  | contre la taxe Zucman (avant la candidature) | Qualifie la taxe Zucman de proposition « stupide et nocive » (octobre 2025, avant la candidature) ; le RN a proposé un « impôt sur la fortune financière » excluant biens professionnels et immobilier des classes moyennes (parti : amendement en commission du groupe RN au budget 2026, octobre 2025, avant la candidature) ; pas de proposition de campagne trouvée | [Public Sénat, 2025-10-21](https://www.publicsenat.fr/actualites/economie/budget-2026-le-rn-seloigne-de-la-gauche-sur-la-fiscalite) |
 | Q-eco-deficit     | moins de 3 % du PIB en 2030 | Équilibre primaire en 18 mois ; moins de 2,5 % du PIB en 2032 ; dette ramenée à 112 % du PIB en 2032 | [Brussels Signal, 2026-10-06](https://brusselssignal.eu/2026/10/rn-sets-out-budget-plans-with-a-deficit-below-3-per-cent-and-e140-billion-in-savings/) ; [Public Sénat, 2026-10-06](https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f) |
 | Q-eco-fonctionnaires | baisse : au moins −200 000 postes en cinq ans | Au moins 200 000 postes en moins en cinq ans dans les collectivités et les agences (parti : Jean-Philippe Tanguy, député RN, à la présentation du plan d'économies au siège du RN, 2026-10-06, selon Sud Radio) ; la candidate annonce plus largement une « diminution du nombre d'agents publics nécessaires », avec non-remplacement de départs en retraite, sans chiffre (2026-10-06) ; voir eco-07 | [Sud Radio, 2026-10-06](https://www.sudradio.fr/societe/presidentielle-en-quete-de-credibilite-budgetaire-le-pen-promet-un-effort-radical-de-140-milliards-net) ; [Acteurs publics](https://acteurspublics.fr/articles/la-reforme-de-letat-et-des-collectivites-au-coeur-des-economies-programmees-par-le-rn/) ; [Public Sénat, 2026-10-06](https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f) |
+| Q-eco-ia          | usage dans l'action publique (avant la candidature) | À VivaTech (2026-06-19, avant la candidature), selon l'AFP, l'IA doit servir à « améliorer les politiques publiques » et à « faire des économies » ; « Le progrès technologique, il faut arrêter de s'y opposer » ; intérêt pour les « pépites » françaises ; pas de mesure de campagne trouvée | [La Gazette France (AFP), 2026-06-19](https://www.lagazettefrance.fr/article/robots-souverainete-et-climatisation-le-pen-et-melenchon-en-tour-de-chauffe-a-vivatech) |
 | Q-social-retraite | 62 ans | 60 ans pour les personnes ayant commencé à travailler avant 20 ans et totalisant 40 annuités | [La Gazette France (AFP), 2026-08-28](https://www.lagazettefrance.fr/article/marine-le-pen-et-la-delicate-operation-seduction-du-monde-economique) ; [Brussels Signal, 2026-10-06](https://brusselssignal.eu/2026/10/rn-sets-out-budget-plans-with-a-deficit-below-3-per-cent-and-e140-billion-in-savings/) |
 | Q-social-smic     | pas de position | Pas de position trouvée sur la revalorisation du SMIC | |
 | Q-social-chomage  | pas de position | Pas de proposition trouvée ; suppression des cotisations chômage et retraite pour ceux qui travaillent au-delà de l'âge de départ (voir social-03) | |
@@ -124,7 +125,10 @@ Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ». -->
 ## Propositions phares
 <!-- Règle : README, « Propositions phares ». Pas de programme ni de résumé en quelques mesures publié au
 2026-11-21 : les annonces dédiées les plus récentes au contenu vérifiable. Ajouté le 2026-11-21 : présentation de la
-réforme des retraites (2026-11-17). Non retenus (2026-11-21) : « Brevet présidentiel » de LCP (2026-11-16), émission
+réforme des retraites (2026-11-17). Non retenus (2026-11-28) : conférence de presse sur les outre-mer au siège du RN
+(2026-11-27), annonce dédiée mais contenu non lu (seul compte rendu trouvé : LCP, sur la réponse en marge relative au
+secret de l'instruction, secu-02, réaction d'actualité) : à réexaminer dès qu'un compte rendu des mesures ultramarines
+est lu. Non retenus (2026-11-21) : « Brevet présidentiel » de LCP (2026-11-16), émission
 multi-thèmes (permis, APL, climatisation des écoles), non lue ; débat des Restos du Cœur sur TF1 et LCI (2026-11-16),
 débat entre candidats.
 Écartés (relecture du 2026-10-31) : meeting d'Orléans (2026-10-25), multi-thèmes (sécurité, immigration,
@@ -183,6 +187,7 @@ lancement de La Flèche (2026-07-08) et TF1 (2026-07-07), sans thème unique. --
 | id      | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
 |---------|-------------|-------------------|-----------------------|------------|--------|
 | secu-01 | Organiser un référendum contre les « idéologies islamistes », suivi d'un décret interdisant le voile de « manière progressive », d'abord dans les universités, les sorties scolaires, les fédérations sportives et les bâtiments publics | | | après le référendum sur l'immigration | [La Gazette France (AFP), 2026-09-16](https://www.lagazettefrance.fr/article/interdiction-du-voile-le-pen-veut-le-faire-de-maniere-progressive) |
+| secu-02 | Aggraver les peines pour mettre fin au « recel » de violation du secret de l'enquête et de l'instruction par les médias (réponse à une question sur les enquêtes visant le RN, lors d'une conférence de presse sur les outre-mer au siège du RN, 2026-11-27) | | | si elle est élue | [LCP, 2026-11-27](https://lcp.fr/actualites/si-elle-est-elue-marine-le-pen-veut-obliger-les-journalistes-a-respecter-le-secret-de-l) |
 
 ### immig — Immigration
 | id       | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |

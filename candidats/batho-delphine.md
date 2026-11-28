@@ -63,6 +63,7 @@ derniere_maj: 2026-10-31
 | Q-eco-patrimoine  | pas de position | Pas de déclaration trouvée sur l'ISF, l'IFI ou les successions | |
 | Q-eco-deficit     | pas de position | Pas de trajectoire de déficit trouvée ; « vouloir sauver la croissance du PIB est incompatible avec la sécurité climatique » (2025-11-26) | [generationecologie.fr, 2025-11-26](https://www.generationecologie.fr/2025/11/26/je-suis-candidate-a-lelection-presidentielle-pour-reconstruire-une-ecologie-capable-de-gouverner/) |
 | Q-eco-fonctionnaires | pas de position | Aucun objectif d'effectifs de la fonction publique trouvé (deux recherches, 2026-11-14) | |
+| Q-eco-ia          | pas de mesure sur l'IA ; débat préalable sur les centres de données | Contre le fait « de se lancer sans débat dans la multiplication des data centers » : débattre des besoins avant les modes de production d'énergie (env-01) ; aucune autre mesure sur l'IA trouvée | [generationecologie.fr, 2026-06-22](https://www.generationecologie.fr/2026/06/22/quelle-politique-energetique-pour-la-france/) |
 | Q-social-retraite | pas d'âge annoncé ; vote pour la suspension de la réforme de 2023 (avant la candidature) | Vote pour la suspension de la réforme des retraites jusqu'au 1er janvier 2028 (PLFSS 2026, 2025-11-12) ; pas de déclaration de campagne trouvée sur l'âge légal | [Datan, scrutin du 2025-11-12](https://datan.fr/votes/legislature-17/vote_3684) |
 | Q-social-smic     | pas de position | Pas de déclaration trouvée | |
 | Q-social-chomage  | pas de position | Pas de déclaration trouvée | |
