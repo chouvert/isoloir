@@ -24,7 +24,7 @@ contient la valeur annoncée et la colonne `détail` les conditions.
 | Q-eco-patrimoine  | eco    | Taxation du patrimoine (ISF, IFI, succession) ?                       | ouverte  | actif  |
 | Q-eco-deficit     | eco    | Trajectoire de déficit public visée sur le quinquennat ?              | ouverte  | actif  |
 | Q-eco-fonctionnaires | eco    | Évolution des effectifs de la fonction publique ?                     | ouverte  | actif  |
-| Q-eco-ia          | eco    | Politique à l'égard de l'intelligence artificielle (investissement public, encadrement, usages dans les services publics) ? | ouverte  | actif  |
+| Q-eco-ia          | eco    | Politique à l'égard de l'intelligence artificielle (financement, règles, usage par l'administration) ? | ouverte  | actif  |
 | Q-social-retraite | social | Âge légal de départ à la retraite ?                                   | ouverte  | actif  |
 | Q-social-smic     | social | Revalorisation du SMIC au-delà de l'indexation légale ?               | fermée   | actif  |
 | Q-social-chomage  | social | Évolution des règles d'indemnisation du chômage ?                     | ouverte  | actif  |

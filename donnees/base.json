@@ -72,7 +72,7 @@
     {
       "id": "Q-eco-ia",
       "theme": "eco",
-      "question": "Politique à l'égard de l'intelligence artificielle (investissement public, encadrement, usages dans les services publics) ?",
+      "question": "Politique à l'égard de l'intelligence artificielle (financement, règles, usage par l'administration) ?",
       "type": "ouverte",
       "statut": "actif"
     },
@@ -2867,7 +2867,7 @@
           "sources": []
         },
         "Q-eco-ia": {
-          "position": "débat préalable sur les centres de données",
+          "position": "pas de mesure sur l'IA ; débat préalable sur les centres de données",
           "detail": "Contre le fait « de se lancer sans débat dans la multiplication des data centers » : débattre des besoins avant les modes de production d'énergie (env-01) ; aucune autre mesure sur l'IA trouvée",
           "sources": [
             {
@@ -6262,7 +6262,7 @@
         },
         "Q-eco-ia": {
           "position": "usage dans l'action publique (avant la candidature)",
-          "detail": "À VivaTech (2026-06-19, avant la candidature), l'IA doit servir à « améliorer les politiques publiques » et à « faire des économies » ; « Le progrès technologique, il faut arrêter de s'y opposer » ; soutien aux start-up françaises ; pas de mesure de campagne trouvée",
+          "detail": "À VivaTech (2026-06-19, avant la candidature), selon l'AFP, l'IA doit servir à « améliorer les politiques publiques » et à « faire des économies » ; « Le progrès technologique, il faut arrêter de s'y opposer » ; intérêt pour les « pépites » françaises ; pas de mesure de campagne trouvée",
           "sources": [
             {
               "titre": "La Gazette France (AFP), 2026-06-19",
@@ -7681,8 +7681,8 @@
           ]
         },
         "Q-eco-ia": {
-          "position": "agence d'innovation de rupture",
-          "detail": "Débat sur l'IA, la robotique et l'économie (Rencontres de l'Avenir, 2026-11-06, selon le site du parti) : « Créer une structure franco-européenne inspirée de la DARPA américaine, capable de soutenir les innovations stratégiques » ; transferts de technologie exigés des fournisseurs étrangers (eco-10) ; livre « Les robots, le Pape, l'IA et nous » non lu",
+          "position": "pas de mesure propre à l'IA ; agence d'innovation de rupture",
+          "detail": "Mesure générale d'innovation, présentée lors d'un débat sur l'IA, la robotique et l'économie (Rencontres de l'Avenir, 2026-11-06, selon le site du parti) : « Créer une structure franco-européenne inspirée de la DARPA américaine, capable de soutenir les innovations stratégiques » ; transferts de technologie exigés des fournisseurs étrangers (eco-10) ; livre « Les robots, le Pape, l'IA et nous » non lu",
           "sources": [
             {
               "titre": "Nouvelle Énergie, Rencontres de l’Avenir, 2026-11-13",
@@ -14121,8 +14121,8 @@
           ]
         },
         "Q-eco-ia": {
-          "position": "usage dans les services publics",
-          "detail": "Plan présenté à Station F (2026-07-07) : redéployer 125 000 agents « du back office vers le contact » grâce à l'IA (« Les 125 000 agents remis sur le terrain ne produisent aucune économie budgétaire, et nous l’assumons ») ; mesures « chiffrées à 5 milliards d’euros sur l’ensemble du quinquennat » (Acteurs publics) ; directeur technique de l'État doté d'« une autorité réelle sur l’architecture des systèmes d’information »",
+          "position": "usage dans les services publics (redéploiement et non-remplacement d'agents)",
+          "detail": "Plan présenté à Station F (2026-07-07) : grâce au temps libéré par l'IA, ne pas remplacer 125 000 agents partant à la retraite d'ici 2032 et redéployer 125 000 autres « du back office vers le contact » (« Les 125 000 agents remis sur le terrain ne produisent aucune économie budgétaire, et nous l’assumons », document de l'équipe) ; coût des mesures « chiffrées à 5 milliards d’euros sur l’ensemble du quinquennat » selon Acteurs publics ; directeur technologique de l'État (CTO) doté d'« une autorité réelle sur l’architecture des systèmes d’information »",
           "sources": [
             {
               "titre": "Acteurs publics, 2026-07-08",
