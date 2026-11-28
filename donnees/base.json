@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "derniere_maj": "2026-11-25",
+  "derniere_maj": "2026-11-28",
   "referentiel_maj": "2026-11-21",
   "themes": [
     {
@@ -903,13 +903,17 @@
       "inclus": true,
       "date_declaration": "2026-05-22",
       "programme_url": "https://attalpresident.fr/programme",
-      "programme_version": "« mes chantiers capitaux » sur attalpresident.fr (non daté, consulté le 2026-10-25 ; inaccessible le 2026-10-31) + lettre aux Français (2026-10-15) + déclarations de campagne",
-      "derniere_maj": "2026-11-14",
+      "programme_version": "« mes chantiers capitaux » sur attalpresident.fr (173 mesures affichées le 2026-11-28, dont environ 125 pages « mesures » publiées ou modifiées du 2026-11-24 au 2026-11-26) + lettre aux Français (2026-10-15) + déclarations de campagne",
+      "derniere_maj": "2026-11-28",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
-          "detail": "Défend « une baisse de la pression fiscale » (Assises de l'AFER) ; plan d'économies « sans hausse d'impôts » (Le Parisien) ; réduction des charges salariales pour augmenter le salaire net (voir social-04)",
+          "detail": "Défend « une baisse de la pression fiscale » (Assises de l'AFER) ; plan d'économies « sans hausse d'impôts » (Le Parisien) ; programme : aucune hausse d'impôts pendant le quinquennat, suppression de plusieurs taxes créées depuis la dissolution et poursuite de la baisse des impôts de production (eco-11) ; réduction des charges salariales pour augmenter le salaire net (voir social-04)",
           "sources": [
+            {
+              "titre": "attalpresident.fr, mesure « Aucune hausse d'impôts pendant le quinquennat »",
+              "url": "https://attalpresident.fr/programme/mesures/aucune-hausse-impots"
+            },
             {
               "titre": "attalpresident.fr, Assises de l'AFER, 2026-09-29",
               "url": "https://attalpresident.fr/actualites/aux-assises-de-l-afer-gabriel-attal-defend-une-epargne-qui-finance-l-economie-francaise"
@@ -954,8 +958,12 @@
         },
         "Q-eco-fonctionnaires": {
           "position": "baisse : −100 000 postes sur le quinquennat",
-          "detail": "Plan de départs volontaires avec prime de départ et non-remplacement d'une partie des départs en retraite, hors Éducation, Armées, Justice et Intérieur (voir eco-03)",
+          "detail": "Plan de départs volontaires avec prime de départ et non-remplacement d'une partie des départs en retraite, hors Éducation, Armées, Justice et Intérieur ; le programme parle de 100 000 postes en moins dans l'État et les collectivités, budgets et effectifs de la défense et de l'éducation préservés (voir eco-03)",
           "sources": [
+            {
+              "titre": "attalpresident.fr, « Dette de l'État »",
+              "url": "https://attalpresident.fr/programme/dette-de-letat"
+            },
             {
               "titre": "attalpresident.fr, lettre aux Français, 2026-10-15",
               "url": "https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques"
@@ -982,13 +990,17 @@
         },
         "Q-social-smic": {
           "position": "pas de position",
-          "detail": "Pas de position trouvée sur la revalorisation du SMIC ; le site affirme que le SMIC est devenu « le salaire plafond pour beaucoup trop de nos compatriotes » et propose de réduire les charges salariales (voir social-04)",
+          "detail": "Pas de position trouvée sur la revalorisation du SMIC ; le site affirme que le SMIC est devenu « le salaire plafond pour beaucoup trop de nos compatriotes » et propose de réduire les charges salariales, sans négociation salariale ni contrainte nouvelle pour les entreprises (voir social-04)",
           "sources": []
         },
         "Q-social-chomage": {
           "position": "reprise de la réforme de 2024",
-          "detail": "Reprise de la réforme engagée en 2024 et dont la dissolution a empêché l'entrée en vigueur ; elle faisait passer la durée d'indemnisation de 18 à 15 mois (Public Sénat, 2024) ; réforme « qui incite au travail » selon le site",
+          "detail": "Reprise « dès le début du mandat » de la réforme engagée en 2024 et dont la dissolution a empêché l'entrée en vigueur ; elle faisait passer la durée d'indemnisation de 18 à 15 mois (Public Sénat, 2024) ; réforme « qui incite au travail » selon le site, 5 milliards d'euros d'économies affectés à la baisse des cotisations sur le travail (social-05)",
           "sources": [
+            {
+              "titre": "attalpresident.fr, mesure « Réformer l'assurance chômage et réaliser cinq milliards d'économies »",
+              "url": "https://attalpresident.fr/programme/mesures/reforme-assurance-chomage-cinq-milliards"
+            },
             {
               "titre": "attalpresident.fr, « Dette de l'État »",
               "url": "https://attalpresident.fr/programme/dette-de-letat"
@@ -1005,11 +1017,15 @@
         },
         "Q-social-logement": {
           "position": "relance de la construction",
-          "detail": "« relancer le marché du logement en levant les freins à la construction et à l'investissement » ; « une loi de programmation pour le logement sur cinq ans » ; « donner de la visibilité à la rénovation énergétique » et simplifier l'accès au label RGE (voir social-10)",
+          "detail": "« relancer le marché du logement en levant les freins à la construction et à l'investissement » ; « une loi de programmation pour le logement sur cinq ans » ; « donner de la visibilité à la rénovation énergétique » et simplifier l'accès au label RGE (voir social-10) ; sur LCI (2026-11-16) : garantie Visale étendue à tous et Banque nationale d'investissement pour le logement finançant la moitié de la valeur de la résidence principale (social-12), logement social attribué davantage selon le travail que selon la nationalité",
           "sources": [
             {
               "titre": "attalpresident.fr, Batimat, 2026-09-28",
               "url": "https://attalpresident.fr/actualites/gabriel-attal-veut-liberer-l-acces-au-logement-et-relancer-le-secteur-du-batiment"
+            },
+            {
+              "titre": "attalpresident.fr, LCI, 2026-11-16",
+              "url": "https://attalpresident.fr/actualites/gabriel-attal-lci-restos-du-coeur-nouveau-modele-social"
             }
           ]
         },
@@ -1076,8 +1092,12 @@
         },
         "Q-immig-niveau": {
           "position": "réduction",
-          "detail": "« Il faut que la France accueille moins pour accueillir mieux » ; priorité à l'immigration de travail (« la préférence travail ») et baisse du regroupement familial ; pas d'objectif chiffré trouvé",
+          "detail": "« Il faut que la France accueille moins pour accueillir mieux » ; priorité à l'immigration de travail (« la préférence travail ») et baisse du regroupement familial ; quotas limitatifs par métier, zone géographique et nationalité, votés par le Parlement et révisés tous les deux ans (immig-03) ; pas d'objectif chiffré trouvé",
           "sources": [
+            {
+              "titre": "attalpresident.fr, mesure « Définir des quotas migratoires révisés tous les deux ans »",
+              "url": "https://attalpresident.fr/programme/mesures/quotas-migratoires-revises"
+            },
             {
               "titre": "La Gazette France (AFP), 2026-05-26",
               "url": "https://www.lagazettefrance.fr/article/attal-veut-une-immigration-plus-faible-et-axee-sur-le-travail"
@@ -1090,7 +1110,7 @@
         },
         "Q-immig-asile": {
           "position": "pas de position",
-          "detail": "Pas de proposition trouvée sur l'asile",
+          "detail": "Pas de proposition trouvée sur le droit d'asile (la page « Frontières » donne des chiffres de demandes sans mesure) ; il écarte les centres de renvoi dans des pays tiers (immig-03)",
           "sources": []
         },
         "Q-immig-nation": {
@@ -1114,12 +1134,12 @@
         },
         "Q-europe-defense": {
           "position": "pas de position",
-          "detail": "Pas de niveau en % du PIB trouvé ; poursuite et amplification du réarmement (voir europe-03)",
+          "detail": "Pas de niveau en % du PIB trouvé, y compris sur la page « Frontières » du programme ; poursuite et amplification du réarmement (voir europe-03)",
           "sources": []
         },
         "Q-europe-otan": {
           "position": "pas de position",
-          "detail": "Pas de déclaration de campagne trouvée",
+          "detail": "Pas de déclaration de campagne trouvée ; la page « Frontières » du programme ne mentionne pas l'OTAN",
           "sources": []
         },
         "Q-europe-ukraine": {
@@ -1134,7 +1154,7 @@
         },
         "Q-educ-enseign": {
           "position": "hausse",
-          "detail": "Salaire des enseignants « revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière » (Le Monde) ; moyens issus de la baisse démographique",
+          "detail": "Salaire des enseignants « revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière » (Le Monde) ; moyens issus de la baisse démographique ; le programme annonce aussi l'ouverture du recrutement des professeurs aux professionnels du privé (titre de mesure, educ-13)",
           "sources": [
             {
               "titre": "LCP, 2026-08-25",
@@ -1161,12 +1181,24 @@
           ]
         },
         "Q-educ-orientation": {
-          "position": "certificat d'études à l'entrée en sixième ; brevet obligatoire pour entrer en seconde",
-          "detail": "Certificat d'études à l'entrée en sixième, année passerelle pour les élèves qui ne l'obtiennent pas ; « le brevet des collèges deviendra obligatoire pour passer en classe de seconde » (voir educ-04)",
+          "position": "certificat d'études en fin de CM2 ; brevet obligatoire pour entrer en seconde",
+          "detail": "Certificat d'études en fin de CM2, année passerelle pour les élèves qui ne l'obtiennent pas ; « le brevet devient la condition d'entrée en seconde générale, technologique ou professionnelle », avec une année de consolidation (« prépa Lycée ») au lieu d'un redoublement de la troisième (voir educ-04) ; groupes de niveau en français et en mathématiques au collège dès 2027 (educ-03) ; rétablissement du redoublement (titre de mesure, educ-12)",
           "sources": [
             {
               "titre": "LCP, 2026-08-25",
               "url": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose"
+            },
+            {
+              "titre": "attalpresident.fr, mesure « Le brevet obligatoire pour entrer au lycée »",
+              "url": "https://attalpresident.fr/programme/mesures/brevet-obligatoire-entree-lycee"
+            },
+            {
+              "titre": "attalpresident.fr, mesure « Rétablir les groupes de niveau au collège »",
+              "url": "https://attalpresident.fr/programme/mesures/groupes-de-niveau-college"
+            },
+            {
+              "titre": "attalpresident.fr, « École »",
+              "url": "https://attalpresident.fr/programme/education"
             }
           ]
         },
@@ -1214,8 +1246,12 @@
         },
         "Q-instit-constit": {
           "position": "règle d'or budgétaire",
-          "detail": "Règle d'or d'équilibre budgétaire adoptée par référendum en début de mandat ; « une double règle d'or budgétaire » dans la lettre aux Français ; avant la candidature (2025-09-21, rentrée de Renaissance à Arras, comme secrétaire général) : réduction du nombre de parlementaires et d'élus, suppression d'un échelon de collectivités, recours accru au référendum",
+          "detail": "Règle d'or d'équilibre budgétaire adoptée par référendum en début de mandat ; « une double règle d'or budgétaire » dans la lettre aux Français ; avant la candidature (2025-09-21, rentrée de Renaissance à Arras, comme secrétaire général) : réduction du nombre de parlementaires et d'élus, suppression d'un échelon de collectivités, recours accru au référendum ; suppression d'un échelon de collectivité reprise dans le programme (instit-04)",
           "sources": [
+            {
+              "titre": "attalpresident.fr, « Dette de l'État »",
+              "url": "https://attalpresident.fr/programme/dette-de-letat"
+            },
             {
               "titre": "MoneyVox (AFP), 2026-07-03",
               "url": "https://www.moneyvox.fr/impot/actualites/109548/attal-veut-100-000-departs-volontaires-de-fonctionnaires-et-impunite-budgetaire-zero"
@@ -1236,8 +1272,12 @@
           "option": "A",
           "proposition": "eco-01",
           "texte_court": "Économiser 150 milliards d'euros en cinq ans, surtout sur les dépenses sociales, sans augmenter les impôts",
-          "justification": "Plan de 150 Md€ d'économies « sans hausse d'impôts », dont deux tiers sur les dépenses sociales (eco-01) ; 100 000 postes de fonctionnaires supprimés (eco-03)",
+          "justification": "Plan de 150 Md€ d'économies « sans hausse d'impôts », dont deux tiers sur les dépenses sociales (eco-01), confirmé par le programme : aucune hausse d'impôts pendant cinq ans (eco-11) ; 100 000 postes en moins dans l'État et les collectivités (eco-03)",
           "sources": [
+            {
+              "titre": "attalpresident.fr, mesure « Aucune hausse d'impôts pendant le quinquennat »",
+              "url": "https://attalpresident.fr/programme/mesures/aucune-hausse-impots"
+            },
             {
               "titre": "La Gazette France (AFP), 2026-10-15",
               "url": "https://www.lagazettefrance.fr/article/presidentielle-attal-pour-une-coalition-des-democrates"
@@ -1251,9 +1291,17 @@
         "D-eco-pouvoir-achat": {
           "option": "B",
           "proposition": "social-04",
-          "texte_court": "Baisser les cotisations sociales prélevées sur les salaires pour que le salaire net se rapproche du salaire brut",
-          "justification": "« un choc des salaires » par la baisse des charges pour rapprocher le net du brut (social-04) ; suppression du plafond d'heures supplémentaires (social-06)",
+          "texte_court": "Supprimer des cotisations prélevées sur les salaires pour augmenter de 250 euros par mois le salaire net médian",
+          "justification": "Mesure chiffrée (montant unitaire) : « droit au brut », 250 € nets de plus par mois pour le salaire médian par la suppression de cotisations sur le travail, dès le début de 2027, financée par des économies sur l'assurance chômage et les indemnités journalières (social-04) ; sur LCI, suppression de la CSG sur les salaires, jusqu'à 270 € nets de plus par mois ; suppression du plafond d'heures supplémentaires (social-06) ; aucune hausse du salaire minimum ni baisse de TVA trouvée",
           "sources": [
+            {
+              "titre": "attalpresident.fr, mesure « Droit au brut »",
+              "url": "https://attalpresident.fr/programme/mesures/droit-au-brut"
+            },
+            {
+              "titre": "attalpresident.fr, LCI, 2026-11-16",
+              "url": "https://attalpresident.fr/actualites/gabriel-attal-lci-restos-du-coeur-nouveau-modele-social"
+            },
             {
               "titre": "Public Sénat, 2026-05-30",
               "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
@@ -1288,8 +1336,12 @@
           "option": "A",
           "proposition": "social-05",
           "texte_court": "Réduire à 15 mois la durée maximale de versement des allocations chômage",
-          "justification": "Reprise de la réforme engagée en 2024 et bloquée par la dissolution, qui réduisait la durée maximale d'indemnisation de 18 à 15 mois (social-05 ; « créerait 100 000 emplois supplémentaires », plus de 4 Md€ d'économies selon le site) ; économies sur l'assurance chômage dans le plan de 150 Md€ (eco-01)",
+          "justification": "Reprise de la réforme engagée en 2024 et bloquée par la dissolution, qui réduisait la durée maximale d'indemnisation de 18 à 15 mois (social-05 ; « créerait 100 000 emplois supplémentaires » ; 5 milliards d'euros d'économies selon la page de la mesure, qui n'en détaille pas les paramètres) ; économies sur l'assurance chômage dans le plan de 150 Md€ (eco-01)",
           "sources": [
+            {
+              "titre": "attalpresident.fr, mesure « Réformer l'assurance chômage et réaliser cinq milliards d'économies »",
+              "url": "https://attalpresident.fr/programme/mesures/reforme-assurance-chomage-cinq-milliards"
+            },
             {
               "titre": "attalpresident.fr, « Dette de l'État »",
               "url": "https://attalpresident.fr/programme/dette-de-letat"
@@ -1356,11 +1408,19 @@
           "option": "A",
           "proposition": "immig-02",
           "texte_court": "Donner la priorité à l'immigration pour le travail, avec un système à points pour choisir les personnes accueillies",
-          "justification": "« la préférence travail » : immigration de travail prioritaire, système à points et quotas d'immigration de travail votés par le Parlement (immig-02, immig-03), dans un objectif de baisse globale de l'immigration",
+          "justification": "« la préférence travail » : immigration de travail prioritaire, système à points (offre d'emploi stable, logement, maîtrise du français) et quotas par métier votés par le Parlement tous les deux ans à partir des besoins recensés avec les partenaires sociaux (immig-02, immig-03), dans un objectif de baisse globale de l'immigration ; le programme écarte toute « régularisation massive » décidée seul dans l'espace Schengen (titre de mesure, immig-05 ; option B non retenue)",
           "sources": [
             {
               "titre": "attalpresident.fr, « Frontières »",
               "url": "https://attalpresident.fr/programme/frontieres"
+            },
+            {
+              "titre": "attalpresident.fr, mesure « Instaurer un système à points pour l'immigration »",
+              "url": "https://attalpresident.fr/programme/mesures/immigration-systeme-a-points"
+            },
+            {
+              "titre": "attalpresident.fr, mesure « Définir des quotas migratoires révisés tous les deux ans »",
+              "url": "https://attalpresident.fr/programme/mesures/quotas-migratoires-revises"
             },
             {
               "titre": "Public Sénat, 2026-05-30",
@@ -1388,7 +1448,7 @@
           "option": "A",
           "proposition": "europe-03",
           "texte_court": "Amplifier le réarmement de la France",
-          "justification": "Poursuivre et amplifier le réarmement national, dissuasion nucléaire comme « outil de puissance » (europe-03) ; selon Public Sénat, la défense resterait aux États dans son projet européen ; la défense figure aussi parmi les domaines d'une coopération européenne par coalitions d'États volontaires (tribune au Figaro, europe-05) ; pas de niveau de dépense annoncé",
+          "justification": "Poursuivre et amplifier le réarmement national, dissuasion nucléaire comme « outil de puissance » (europe-03) ; selon Public Sénat, la défense resterait aux États dans son projet européen ; la défense figure aussi parmi les domaines d'une coopération européenne par coalitions d'États volontaires (tribune au Figaro, europe-05) ; le programme annonce aussi des mesures européennes, connues par leur seul titre (dôme de fer européen, agence européenne de recherche de défense, préférence européenne dans la commande publique de défense, parapluie nucléaire français étendu à l'Europe ; europe-06, idée proche de l'option B), présentées après le réarmement national sur la page « Frontières » ; pas de niveau de dépense annoncé",
           "sources": [
             {
               "titre": "attalpresident.fr, « Frontières »",
@@ -1408,8 +1468,12 @@
           "option": "B",
           "proposition": "educ-02",
           "texte_court": "Augmenter le salaire des enseignants d'au moins 200 euros net par mois, davantage en milieu de carrière",
-          "justification": "Mesure chiffrée en euros : +200 € net par mois pour les enseignants, jusqu'à 500 € en milieu de carrière (educ-02) ; il propose aussi moins de 20 élèves par classe en primaire (educ-01, option A) et le certificat d'études, le brevet obligatoire et les groupes de niveau (educ-03, educ-04, option D) ; à Lyon, la réduction des effectifs par classe était aussi présentée",
+          "justification": "Mesure chiffrée en euros : +200 € net par mois pour les enseignants, jusqu'à 500 € en milieu de carrière (educ-02, « 200 à 500 euros nets de plus par mois pour les enseignants » dans le programme) ; il propose aussi moins de 20 élèves par classe en moyenne en primaire d'ici cinq ans (educ-01, option A, objectif quantifié non chiffré en euros) et le certificat d'études, le brevet obligatoire, les groupes de niveau et le redoublement (educ-03, educ-04, educ-12, option D) ; à Lyon, la réduction des effectifs par classe était aussi présentée",
           "sources": [
+            {
+              "titre": "attalpresident.fr, « École »",
+              "url": "https://attalpresident.fr/programme/education"
+            },
             {
               "titre": "LCP, 2026-08-25",
               "url": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose"
@@ -1431,8 +1495,12 @@
           "option": "D",
           "proposition": "instit-03",
           "texte_court": "Donner plus de pouvoirs et de moyens aux maires et aux collectivités locales, en redessinant la carte des collectivités",
-          "justification": "Réformer le fonctionnement des institutions actuelles sans nouvel outil de participation : « référendums réguliers » sous la forme d'une journée annuelle de consultation, à l'initiative de l'exécutif (instit-01, ne relève d'aucune option à lui seul) ; « big bang » territorial, avec plus de compétences pour les maires et les territoires (instit-03) ; avant la candidature (2025-09-21, comme secrétaire général de Renaissance), réduction du nombre de parlementaires et d'élus et suppression d'un échelon de collectivités ; ni RIC, ni proportionnelle, ni convention citoyenne institutionnelle trouvés ; la convention de 150 jeunes tirés au sort annoncée à Lyon porte sur ses propositions de campagne (« une convention sur nos propositions »), option C non retenue",
+          "justification": "Réformer le fonctionnement des institutions actuelles sans nouvel outil de participation : « référendums réguliers » sous la forme d'une journée annuelle de consultation, à l'initiative de l'exécutif (instit-01, ne relève d'aucune option à lui seul) ; « big bang » territorial, avec plus de compétences pour les maires et les territoires (instit-03), et suppression d'un échelon de collectivité inscrite au programme (instit-04) ; avant la candidature (2025-09-21, comme secrétaire général de Renaissance), réduction du nombre de parlementaires et d'élus et suppression d'un échelon de collectivités ; ni RIC, ni proportionnelle, ni convention citoyenne institutionnelle trouvés ; la convention de 150 jeunes tirés au sort annoncée à Lyon porte sur ses propositions de campagne (« une convention sur nos propositions »), option C non retenue",
           "sources": [
+            {
+              "titre": "attalpresident.fr, « Dette de l'État »",
+              "url": "https://attalpresident.fr/programme/dette-de-letat"
+            },
             {
               "titre": "Public Sénat, 2026-05-30",
               "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
@@ -1525,7 +1593,7 @@
         {
           "id": "eco-02",
           "theme": "eco",
-          "proposition": "Comptes de la sécurité sociale à l'équilibre en trois ans, déficit public sous 3 % du PIB avant 2032, équilibre budgétaire en 2037 (« zéro déficit en 10 ans maximum »)",
+          "proposition": "Comptes de la sécurité sociale à l'équilibre en trois ans, déficit public sous 3 % du PIB avant 2032, équilibre budgétaire en 2037 (« zéro déficit en 10 ans maximum ») ; mesures du programme : déficit sous 3 % avant 2032, comptes de la Sécurité sociale à l'équilibre, zéro déficit public en 2037",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "2027-2037",
@@ -1543,11 +1611,15 @@
         {
           "id": "eco-03",
           "theme": "eco",
-          "proposition": "Supprimer 100 000 postes de fonctionnaires par un plan de départs volontaires avec prime de départ et le non-remplacement d'une partie des départs en retraite, hors Éducation, Armées, Justice et Intérieur",
+          "proposition": "Supprimer 100 000 postes de fonctionnaires (dans l'État et les collectivités selon le programme) par un plan de départs volontaires avec prime de départ et le non-remplacement d'une partie des départs en retraite, hors Éducation, Armées, Justice et Intérieur ; budgets et effectifs de la défense et de l'éducation préservés (titre de mesure)",
           "chiffrage_annonce": "7 Md€ d'économies attendues d'une refonte de l'organisation de l'État (montant non ventilé, période non précisée)",
           "chiffrage_independant": "",
           "calendrier": "quinquennat",
           "sources": [
+            {
+              "titre": "attalpresident.fr, « Dette de l'État »",
+              "url": "https://attalpresident.fr/programme/dette-de-letat"
+            },
             {
               "titre": "attalpresident.fr, lettre aux Français, 2026-10-15",
               "url": "https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques"
@@ -1657,7 +1729,7 @@
         {
           "id": "eco-10",
           "theme": "eco",
-          "proposition": "« former l'ensemble des Français à l'IA, du primaire à la reconversion professionnelle » ; « la préférence européenne dans les marchés publics » pour les acteurs de l'IA",
+          "proposition": "« former l'ensemble des Français à l'IA, du primaire à la reconversion professionnelle », formation présentée comme « universelle, obligatoire, exigeante » ; « la préférence européenne dans les marchés publics » pour les acteurs de l'IA",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -1665,6 +1737,20 @@
             {
               "titre": "attalpresident.fr, « Intelligence artificielle »",
               "url": "https://attalpresident.fr/programme/intelligence-artificielle"
+            }
+          ]
+        },
+        {
+          "id": "eco-11",
+          "theme": "eco",
+          "proposition": "Ne prévoir « aucune hausse d'impôts pendant 5 ans », supprimer plusieurs taxes décidées depuis la dissolution, poursuivre la baisse des impôts de production ; ne pas augmenter les droits de succession ni la fiscalité de l'assurance-vie",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "quinquennat",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, mesure « Aucune hausse d'impôts pendant le quinquennat » (Le Parisien, 2026-07-03)",
+              "url": "https://attalpresident.fr/programme/mesures/aucune-hausse-impots"
             }
           ]
         },
@@ -1689,11 +1775,15 @@
         {
           "id": "social-02",
           "theme": "social",
-          "proposition": "Introduire une part de capitalisation : 1 000 € versés par l'État à la naissance de chaque enfant sur un plan d'épargne retraite que « les parents et grands-parents pourraient abonder jusqu'aux 18 ans de l'enfant » ; mesure annoncée en novembre 2025 comme amendement au PLF",
+          "proposition": "Introduire une part de capitalisation : 1 000 € versés par l'État à la naissance de chaque enfant sur un plan d'épargne retraite que « les parents et grands-parents pourraient abonder jusqu'aux 18 ans de l'enfant » ; mesure annoncée en novembre 2025 comme amendement au PLF ; figure dans les « premières mesures » de la page programme (« 1 000 € versés à chaque nouveau-né », avec une part de capitalisation retraite « fléchée vers l'innovation »)",
           "chiffrage_annonce": "0,66 Md€/an (coût indiqué par LCP pour l'amendement de novembre 2025, auteur de l'estimation non précisé)",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "attalpresident.fr, « Mes chantiers capitaux »",
+              "url": "https://attalpresident.fr/programme"
+            },
             {
               "titre": "attalpresident.fr, Assises de l'AFER, 2026-09-29",
               "url": "https://attalpresident.fr/actualites/aux-assises-de-l-afer-gabriel-attal-defend-une-epargne-qui-finance-l-economie-francaise"
@@ -1729,11 +1819,19 @@
         {
           "id": "social-04",
           "theme": "social",
-          "proposition": "« un choc des salaires » : réduire les charges pour rapprocher le net du brut (« droit au brut »), « en réduisant les charges salariales pour faire monter le salaire net » ; financement non précisé",
-          "chiffrage_annonce": "",
+          "proposition": "« un choc des salaires » : réduire les charges pour rapprocher le net du brut (« droit au brut »), « en réduisant les charges salariales pour faire monter le salaire net » ; page de la mesure : 250 € nets de plus par mois pour le salaire médian (2 200 € nets) par la suppression de cotisations sur le travail, sans négociation salariale, « L'employeur ne paie pas un euro de plus », financement « à l'euro près » par des économies sur le modèle social, d'abord l'assurance chômage et les indemnités journalières ; sur LCI, suppression de la CSG sur les salaires, « jusqu'à 270 euros nets supplémentaires par mois »",
+          "chiffrage_annonce": "250 € nets par mois au salaire médian (montant unitaire ; coût total non chiffré)",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "« dès le début 2027 »",
           "sources": [
+            {
+              "titre": "attalpresident.fr, mesure « Droit au brut » (2026-07-22)",
+              "url": "https://attalpresident.fr/programme/mesures/droit-au-brut"
+            },
+            {
+              "titre": "attalpresident.fr, LCI, 2026-11-16",
+              "url": "https://attalpresident.fr/actualites/gabriel-attal-lci-restos-du-coeur-nouveau-modele-social"
+            },
             {
               "titre": "Public Sénat, 2026-05-30",
               "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
@@ -1748,10 +1846,14 @@
           "id": "social-05",
           "theme": "social",
           "proposition": "Reprendre la réforme de l'assurance chômage engagée en 2024 et bloquée par la dissolution, qui « créerait 100 000 emplois supplémentaires » ; elle réduisait la durée d'indemnisation de 18 à 15 mois",
-          "chiffrage_annonce": "plus de 4 Md€ d'économies selon le site (période non précisée)",
+          "chiffrage_annonce": "5 Md€ d'économies selon la page de la mesure (Le Parisien, 2026-07-03), affectées à la baisse des cotisations sur le travail ; plus de 4 Md€ selon la page « Dette de l'État » (réforme de 2024) ; période non précisée",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "dès le début du mandat",
           "sources": [
+            {
+              "titre": "attalpresident.fr, mesure « Réformer l'assurance chômage et réaliser cinq milliards d'économies »",
+              "url": "https://attalpresident.fr/programme/mesures/reforme-assurance-chomage-cinq-milliards"
+            },
             {
               "titre": "attalpresident.fr, « Dette de l'État »",
               "url": "https://attalpresident.fr/programme/dette-de-letat"
@@ -1833,6 +1935,52 @@
             {
               "titre": "attalpresident.fr, Batimat, 2026-09-28",
               "url": "https://attalpresident.fr/actualites/gabriel-attal-veut-liberer-l-acces-au-logement-et-relancer-le-secteur-du-batiment"
+            }
+          ]
+        },
+        {
+          "id": "social-11",
+          "theme": "social",
+          "proposition": "« solidarité à la source » : verser automatiquement les aides sociales à leurs bénéficiaires, notamment aux familles monoparentales ; défiscaliser les pensions alimentaires perçues ; carte famille monoparentale (titre de mesure)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, LCI, 2026-11-16",
+              "url": "https://attalpresident.fr/actualites/gabriel-attal-lci-restos-du-coeur-nouveau-modele-social"
+            },
+            {
+              "titre": "attalpresident.fr, « Mes chantiers capitaux »",
+              "url": "https://attalpresident.fr/programme"
+            }
+          ]
+        },
+        {
+          "id": "social-12",
+          "theme": "social",
+          "proposition": "Étendre la garantie Visale à tous les Français pour faciliter la location ; créer une Banque nationale d'investissement pour le logement permettant d'acquérir sa résidence principale « en deux temps », grâce à un financement public portant sur la moitié de la valeur du bien",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, LCI, 2026-11-16",
+              "url": "https://attalpresident.fr/actualites/gabriel-attal-lci-restos-du-coeur-nouveau-modele-social"
+            }
+          ]
+        },
+        {
+          "id": "social-13",
+          "theme": "social",
+          "proposition": "Ne pas diminuer les subventions aux associations et maintenir le cadre fiscal favorable aux dons ; augmenter les moyens de l'Aide sociale à l'enfance",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, LCI, 2026-11-16",
+              "url": "https://attalpresident.fr/actualites/gabriel-attal-lci-restos-du-coeur-nouveau-modele-social"
             }
           ]
         },
@@ -1921,6 +2069,34 @@
             {
               "titre": "attalpresident.fr, conférence de presse, 2026-09-23",
               "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises"
+            }
+          ]
+        },
+        {
+          "id": "env-07",
+          "theme": "env",
+          "proposition": "Développer la géoénergie : doubler les subventions, multiplier par cinq les capacités de production d'ici 2035, répondre aux demandes de subvention en moins de 90 jours, simplifier les règles des forages géothermiques (titres de mesures)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "2035",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, « Dette écologique »",
+              "url": "https://attalpresident.fr/programme/dette-ecologique"
+            }
+          ]
+        },
+        {
+          "id": "env-08",
+          "theme": "env",
+          "proposition": "Stabilité des prix de l'électricité sur cinq ans (titre de mesure)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "cinq ans",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, « Mes chantiers capitaux »",
+              "url": "https://attalpresident.fr/programme"
             }
           ]
         },
@@ -2065,7 +2241,7 @@
         {
           "id": "immig-02",
           "theme": "immig",
-          "proposition": "« la préférence travail » : priorité à l'immigration économique, avec « un système à points comme au Canada »",
+          "proposition": "« la préférence travail » : priorité à l'immigration économique, avec « un système à points comme au Canada » ; critères : « une offre d'emploi stable, un logement, parler français, connaître et respecter nos valeurs » (meeting de Paris, 2026-05-30)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -2073,17 +2249,25 @@
             {
               "titre": "attalpresident.fr, « Frontières »",
               "url": "https://attalpresident.fr/programme/frontieres"
+            },
+            {
+              "titre": "attalpresident.fr, mesure « Instaurer un système à points pour l'immigration »",
+              "url": "https://attalpresident.fr/programme/mesures/immigration-systeme-a-points"
             }
           ]
         },
         {
           "id": "immig-03",
           "theme": "immig",
-          "proposition": "« quotas d'immigration de travail, que nous fixerons, et votés par le Parlement »",
+          "proposition": "« quotas d'immigration de travail, que nous fixerons, et votés par le Parlement » ; « des quotas limitatifs par métier, zones géographiques et nationalités », établis à partir des besoins recensés avec les partenaires sociaux, votés par le Parlement et révisés tous les deux ans (BFMTV, 2026-09-06) ; refus des centres de renvoi dans des pays tiers",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
-          "calendrier": "",
+          "calendrier": "tous les deux ans",
           "sources": [
+            {
+              "titre": "attalpresident.fr, mesure « Définir des quotas migratoires révisés tous les deux ans »",
+              "url": "https://attalpresident.fr/programme/mesures/quotas-migratoires-revises"
+            },
             {
               "titre": "Public Sénat, 2026-05-30",
               "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
@@ -2102,6 +2286,34 @@
               "titre": "La Gazette France (AFP), 2026-05-26",
               "url": "https://www.lagazettefrance.fr/article/attal-veut-une-immigration-plus-faible-et-axee-sur-le-travail"
             },
+            {
+              "titre": "attalpresident.fr, « Frontières »",
+              "url": "https://attalpresident.fr/programme/frontieres"
+            }
+          ]
+        },
+        {
+          "id": "immig-05",
+          "theme": "immig",
+          "proposition": "« Aucune régularisation massive décidée seul dans l'espace Schengen » (titre de mesure)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, « Frontières »",
+              "url": "https://attalpresident.fr/programme/frontieres"
+            }
+          ]
+        },
+        {
+          "id": "immig-06",
+          "theme": "immig",
+          "proposition": "« Affirmer une préférence travail inscrite dans la Constitution » (titre de mesure)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
             {
               "titre": "attalpresident.fr, « Frontières »",
               "url": "https://attalpresident.fr/programme/frontieres"
@@ -2187,12 +2399,26 @@
           ]
         },
         {
-          "id": "educ-01",
-          "theme": "educ",
-          "proposition": "« nous devons viser moins de 20 élèves par classe » en primaire, grâce à la baisse démographique (1,7 million d'élèves de moins attendus), sans fermer de classes",
+          "id": "europe-06",
+          "theme": "europe",
+          "proposition": "Défense européenne (titres de mesures) : « Créer un dôme de fer européen contre les missiles et les drones », une agence européenne de recherche avancée de défense, une préférence européenne dans la commande publique de défense, « Étendre le parapluie nucléaire français pour protéger l'Europe » ; aussi : auditer les programmes d'armement, fonds d'investissement pour les PME de défense",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, « Frontières »",
+              "url": "https://attalpresident.fr/programme/frontieres"
+            }
+          ]
+        },
+        {
+          "id": "educ-01",
+          "theme": "educ",
+          "proposition": "« nous devons viser moins de 20 élèves par classe » en primaire, grâce à la baisse démographique (1,7 million d'élèves de moins attendus), sans fermer de classes ; titre de la mesure : « Moins de vingt élèves par classe en moyenne en primaire d'ici cinq ans »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "d'ici cinq ans",
           "sources": [
             {
               "titre": "attalpresident.fr, « École »",
@@ -2211,7 +2437,7 @@
         {
           "id": "educ-02",
           "theme": "educ",
-          "proposition": "Salaire des enseignants « revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière » ; meilleure rémunération des accompagnants d'élèves en situation de handicap",
+          "proposition": "Salaire des enseignants « revalorisé de 200 euros net par mois, jusqu'à 500 euros net pour les milieux de carrière » ; meilleure rémunération des accompagnants d'élèves en situation de handicap ; titre de la mesure : « 200 à 500 euros nets de plus par mois pour les enseignants »",
           "chiffrage_annonce": "+200 € à +500 € net par mois et par enseignant (pas de coût global annoncé)",
           "chiffrage_independant": "",
           "calendrier": "de 200 à 500 € par mois « dès 2028 », selon l'ancienneté (grand oral de Radio France sur les services publics, 2026-11-12, selon Public Sénat)",
@@ -2233,14 +2459,18 @@
         {
           "id": "educ-03",
           "theme": "educ",
-          "proposition": "Rétablir les mesures du « Choc des savoirs » (« l'une de mes premières décisions sera d'en rétablir les mesures »), dont « une généralisation des groupes de niveau en français et en mathématiques »",
+          "proposition": "Rétablir les mesures du « Choc des savoirs » (« l'une de mes premières décisions sera d'en rétablir les mesures »), dont « une généralisation des groupes de niveau en français et en mathématiques » au collège dès 2027, principe national et organisation laissée aux établissements, inscrite dans la loi de programmation pour l'École (educ-07)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
-          "calendrier": "début de mandat",
+          "calendrier": "début de mandat ; 2027",
           "sources": [
             {
               "titre": "attalpresident.fr, « École »",
               "url": "https://attalpresident.fr/programme/education"
+            },
+            {
+              "titre": "attalpresident.fr, mesure « Rétablir les groupes de niveau au collège » (2026-09-09)",
+              "url": "https://attalpresident.fr/programme/mesures/groupes-de-niveau-college"
             },
             {
               "titre": "LCP, 2026-08-25",
@@ -2251,7 +2481,7 @@
         {
           "id": "educ-04",
           "theme": "educ",
-          "proposition": "Rétablir un certificat d'études à l'entrée en sixième, avec « une année passerelle à ceux pour qui ce n'est pas le cas » ; « le brevet des collèges deviendra obligatoire pour passer en classe de seconde »",
+          "proposition": "Rétablir un certificat d'études à l'entrée en sixième (en fin de CM2 selon le programme), avec « une année passerelle à ceux pour qui ce n'est pas le cas » ; « le brevet des collèges deviendra obligatoire pour passer en classe de seconde » : « Sans le brevet, pas de passage en seconde » générale, technologique ou professionnelle ; « Les élèves qui n'obtiennent pas le diplôme ne redoublent pas leur troisième » et suivent une « prépa Lycée », année de consolidation en petits effectifs centrée sur les savoirs fondamentaux",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -2259,6 +2489,14 @@
             {
               "titre": "LCP, 2026-08-25",
               "url": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose"
+            },
+            {
+              "titre": "attalpresident.fr, mesure « Le brevet obligatoire pour entrer au lycée » (LCI, 2026-08-25)",
+              "url": "https://attalpresident.fr/programme/mesures/brevet-obligatoire-entree-lycee"
+            },
+            {
+              "titre": "attalpresident.fr, « École »",
+              "url": "https://attalpresident.fr/programme/education"
             }
           ]
         },
@@ -2369,6 +2607,34 @@
           ]
         },
         {
+          "id": "educ-12",
+          "theme": "educ",
+          "proposition": "« Rétablir le redoublement » (titre de mesure, page non lue)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, « École »",
+              "url": "https://attalpresident.fr/programme/education"
+            }
+          ]
+        },
+        {
+          "id": "educ-13",
+          "theme": "educ",
+          "proposition": "« Ouvrir le recrutement des professeurs aux professionnels du privé » (titre de mesure, page non lue)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, « École »",
+              "url": "https://attalpresident.fr/programme/education"
+            }
+          ]
+        },
+        {
           "id": "sante-01",
           "theme": "sante",
           "proposition": "Assistant médical par IA pour chaque patient, à terme",
@@ -2435,6 +2701,24 @@
               "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
             }
           ]
+        },
+        {
+          "id": "instit-04",
+          "theme": "instit",
+          "proposition": "Supprimer un échelon de collectivité pour réduire les doublons administratifs (titre de mesure)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, « Dette de l'État »",
+              "url": "https://attalpresident.fr/programme/dette-de-letat"
+            },
+            {
+              "titre": "attalpresident.fr, « Mes chantiers capitaux »",
+              "url": "https://attalpresident.fr/programme"
+            }
+          ]
         }
       ],
       "evolutions": [
@@ -2477,6 +2761,38 @@
             {
               "titre": "MoneyVox (AFP), 2026-07-03",
               "url": "https://www.moneyvox.fr/impot/actualites/109548/attal-veut-100-000-departs-volontaires-de-fonctionnaires-et-impunite-budgetaire-zero"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "description": "nouvelle version du programme sur le site de campagne, qui affiche 173 mesures (environ 125 pages « mesures » publiées ou modifiées du 2026-11-24 au 2026-11-26) ; aucun revirement relevé dans les pages lues le 2026-11-28 ; précisions : réforme de l'assurance chômage chiffrée à 5 milliards d'euros d'économies par la page de la mesure, contre « plus de 4 milliards » sur la page « Dette de l'État » (chiffre de la réforme de 2024) ; certificat d'études situé « en fin de CM2 » [attalpresident.fr, « Mes chantiers capitaux »](https://attalpresident.fr/programme) ; [attalpresident.fr, mesure « Réformer l'assurance chômage et réaliser cinq milliards d'économies »](https://attalpresident.fr/programme/mesures/reforme-assurance-chomage-cinq-milliards) ; [attalpresident.fr, « École »](https://attalpresident.fr/programme/education)",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, « Mes chantiers capitaux »",
+              "url": "https://attalpresident.fr/programme"
+            },
+            {
+              "titre": "attalpresident.fr, mesure « Réformer l'assurance chômage et réaliser cinq milliards d'économies »",
+              "url": "https://attalpresident.fr/programme/mesures/reforme-assurance-chomage-cinq-milliards"
+            },
+            {
+              "titre": "attalpresident.fr, « École »",
+              "url": "https://attalpresident.fr/programme/education"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-16",
+          "description": "« droit au brut » présenté sur LCI comme passant notamment par la suppression de la CSG sur les salaires, « jusqu'à 270 euros nets supplémentaires par mois », contre 250 € nets par mois pour le salaire médian sur la page de la mesure [attalpresident.fr, LCI, 2026-11-16](https://attalpresident.fr/actualites/gabriel-attal-lci-restos-du-coeur-nouveau-modele-social) ; [attalpresident.fr, mesure « Droit au brut »](https://attalpresident.fr/programme/mesures/droit-au-brut)",
+          "sources": [
+            {
+              "titre": "attalpresident.fr, LCI, 2026-11-16",
+              "url": "https://attalpresident.fr/actualites/gabriel-attal-lci-restos-du-coeur-nouveau-modele-social"
+            },
+            {
+              "titre": "attalpresident.fr, mesure « Droit au brut »",
+              "url": "https://attalpresident.fr/programme/mesures/droit-au-brut"
             }
           ]
         }
@@ -3231,8 +3547,8 @@
       "inclus": true,
       "date_declaration": "2025-03-08",
       "programme_url": "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/",
-      "programme_version": "projet économique 2027 (livret « Nos 30 mesures » et « Cahier rouge » de financement, 2026-11-12) + pages « Projet » de Debout la France (livrets datés de 2025 et 2026 par leur nom de fichier, mise à jour pour 2027 en cours) + discours et déclarations de campagne (2025-03-08 à 2026-11-12)",
-      "derniere_maj": "2026-11-14",
+      "programme_version": "projet économique 2027 (livret « Nos 30 mesures » et « Cahier rouge » de financement, 2026-11-12) + pages « Projet » de Debout la France (livrets datés de 2025 et 2026 par leur nom de fichier, mise à jour pour 2027 en cours ; quatre pages de plus lues le 2026-11-28) + discours et déclarations de campagne (2025-03-08 à 2026-11-12)",
+      "derniere_maj": "2026-11-28",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
@@ -3963,6 +4279,34 @@
           ]
         },
         {
+          "id": "eco-10",
+          "theme": "eco",
+          "proposition": "(parti, page Intelligence artificielle, livret daté du 2025-05-12) Créer un fonds souverain pour l'intelligence artificielle de plusieurs milliards d'euros (État, Bpifrance, investisseurs privés) ; cloud souverain ; label « IA Made in France » ; préférence nationale dans les marchés publics ; domiciliation fiscale en France des filiales des géants du numérique ; visa « IA et Tech » pour attirer des talents étrangers ; cursus d'intelligence artificielle dès le collège",
+          "chiffrage_annonce": "plusieurs milliards d'euros (fonds, sans montant précis ni périodicité)",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, Intelligence artificielle",
+              "url": "https://www.debout-la-france.fr/projet/intelligence-artificielle/"
+            }
+          ]
+        },
+        {
+          "id": "eco-11",
+          "theme": "eco",
+          "proposition": "(parti, page Français de l'étranger, livret daté du 2025-09-04) Supprimer la CSG et la CRDS sur les revenus de source française des Français établis hors de l'Union ; tripler le budget des bourses scolaires à l'étranger ; reconnaître comme résidence principale un logement non loué en France, sans surtaxe ; augmenter le nombre de bureaux de vote et sécuriser le vote électronique",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, Français de l'étranger",
+              "url": "https://www.debout-la-france.fr/projet/francais-de-l-etranger/"
+            }
+          ]
+        },
+        {
           "id": "social-01",
           "theme": "social",
           "proposition": "« Augmenter le SMIC à 1 600 euros net (98 euros supplémentaires par mois) en compensant cette hausse par une baisse proportionnelle des cotisations salariales pour ne pas pénaliser les entreprises » ; réduction dégressive, 2,5 millions de salariés concernés (Livret, mesure 12)",
@@ -4135,14 +4479,18 @@
         {
           "id": "env-04",
           "theme": "env",
-          "proposition": "Remplacer la politique agricole commune par une politique agricole nationale : « Une politique agricole nationale remplacera la fameuse PAC » (discours de déclaration, 2025-03-08)",
-          "chiffrage_annonce": "non chiffré",
+          "proposition": "Remplacer la politique agricole commune par une politique agricole nationale : « Une politique agricole nationale remplacera la fameuse PAC » (discours de déclaration, 2025-03-08) ; (parti, page Agriculture, livret daté du 2026-01-08) « Sortir de la Politique Agricole Commune en rétablissant une politique agricole nationale », sans Pacte vert ni quotas de jachère, avec des primes compensant l'écart entre prix mondial et prix garanti : « Ces prix garantis seront rétablis sur quelques grandes productions agricoles (lait, viande, céréales) » ; « Rompre les accords déloyaux de libre-échange signés par la Commission de Bruxelles » (CETA, Mercosur, Nouvelle-Zélande, Kenya, Ukraine) ; suppression des cotisations sociales agricoles, financée par une taxe sur la grande distribution ; 50 % puis 80 % de la commande publique de restauration collective réservés aux producteurs français",
+          "chiffrage_annonce": "non chiffré (la page rappelle une contribution nette de la France au budget européen de 10,7 Md€)",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
             {
               "titre": "Debout la France, discours du 2025-03-08",
               "url": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/"
+            },
+            {
+              "titre": "Debout la France, Agriculture",
+              "url": "https://www.debout-la-france.fr/projet/agriculture/"
             }
           ]
         },
@@ -4295,6 +4643,20 @@
           ]
         },
         {
+          "id": "immig-06",
+          "theme": "immig",
+          "proposition": "(parti, page Affaires étrangères, livret daté du 2025-04-17) Exiger pour l'immigration légale un niveau de français officiellement attesté, sur le modèle du TOEFL",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, Affaires étrangères",
+              "url": "https://www.debout-la-france.fr/projet/affaires-etrangeres/"
+            }
+          ]
+        },
+        {
           "id": "europe-01",
           "theme": "europe",
           "proposition": "« Sortir de l'UE et économiser ainsi les 15 milliards d'euros de notre solde contributeur » (Livret, mesure 21) ; « Je veux sortir de l'Union européenne pour rendre son indépendance à la France » (Sud Radio, 2026-09-20) ; (parti) sortie soumise à référendum ; coopérations entre nations volontaires",
@@ -4377,6 +4739,20 @@
             {
               "titre": "Livret, 2026-11-12",
               "url": "https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf"
+            }
+          ]
+        },
+        {
+          "id": "europe-06",
+          "theme": "europe",
+          "proposition": "(parti, page Affaires étrangères, livret daté du 2025-04-17) Politique étrangère indépendante : reconstruire un corps diplomatique professionnel ; remplacer l'Union européenne actuelle par une coopération à la carte entre États volontaires ; obtenir la paix en Ukraine et relancer le partenariat avec la Russie ; concentrer l'aide au développement sur les pays francophones et placer l'Agence française de développement sous l'autorité directe du ministre ; créer un grand média francophone à partir de RFI, France 24 et TV5 Monde ; loi renforcée de protection du français",
+          "chiffrage_annonce": "non chiffré",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Debout la France, Affaires étrangères",
+              "url": "https://www.debout-la-france.fr/projet/affaires-etrangeres/"
             }
           ]
         },
@@ -5779,8 +6155,8 @@
       "inclus": true,
       "date_declaration": "2026-07-07",
       "programme_url": "",
-      "programme_version": "pas de programme publié au 2026-11-21 ; déclarations de campagne (2026-07-07 à 2026-11-17, meeting d'Orléans et présentation de la réforme des retraites compris) + proposition de loi constitutionnelle « Citoyenneté-Identité-Immigration » (2024-01-25)",
-      "derniere_maj": "2026-11-21",
+      "programme_version": "pas de programme publié au 2026-11-28 ; déclarations de campagne (2026-07-07 à 2026-11-27, meeting d'Orléans et présentation de la réforme des retraites compris) + proposition de loi constitutionnelle « Citoyenneté-Identité-Immigration » (2024-01-25)",
+      "derniere_maj": "2026-11-28",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
@@ -6798,6 +7174,20 @@
           ]
         },
         {
+          "id": "secu-02",
+          "theme": "secu",
+          "proposition": "Aggraver les peines pour mettre fin au « recel » de violation du secret de l'enquête et de l'instruction par les médias (réponse à une question sur les enquêtes visant le RN, lors d'une conférence de presse sur les outre-mer au siège du RN, 2026-11-27)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "si elle est élue",
+          "sources": [
+            {
+              "titre": "LCP, 2026-11-27",
+              "url": "https://lcp.fr/actualites/si-elle-est-elue-marine-le-pen-veut-obliger-les-journalistes-a-respecter-le-secret-de-l"
+            }
+          ]
+        },
+        {
           "id": "immig-01",
           "theme": "immig",
           "proposition": "Organiser un référendum constitutionnel sur l'immigration (article 11), annoncé par la candidate (LCI, 2026-09-16) ; selon l'AFP, son contenu reprendrait la proposition de loi « Citoyenneté-Identité-Immigration » de 2024 : objectifs de maîtrise des entrées, régularisations seulement à titre exceptionnel, protection de l'« identité française »",
@@ -7155,8 +7545,8 @@
       "inclus": true,
       "date_declaration": "2026-03-31",
       "programme_url": "https://www.unenouvelleenergie.fr/notre-programme/",
-      "programme_version": "« Le programme de David Lisnard pour 2027 » sur unenouvelleenergie.fr (pages non datées, consultées le 2026-10-25) + discours et annonces de campagne (2026-03-31 à 2026-10-28)",
-      "derniere_maj": "2026-11-14",
+      "programme_version": "« Le programme de David Lisnard pour 2027 » sur unenouvelleenergie.fr (pages non datées, consultées le 2026-10-25) + discours et annonces de campagne (2026-03-31 à 2026-11-27)",
+      "derniere_maj": "2026-11-28",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
@@ -7213,9 +7603,17 @@
           ]
         },
         "Q-eco-fonctionnaires": {
-          "position": "baisse, sans objectif global chiffré",
-          "detail": "Ne pas remplacer une partie des « quelque 500 000 départs annuels de la fonction publique », en commençant par l'administration, sans solde net annoncé ; avant la candidature, le plan de juillet 2025 prévoyait « la suppression progressive de 600 000 postes dans les fonctions administratives » (voir eco-05 et Évolutions) ; redéploiement : « faire basculer 450 000 fonctionnaires des bureaux vers le terrain » (voir instit-03)",
+          "position": "baisse d'environ 400 000 postes",
+          "detail": "Selon la rédaction du site du parti (2026-11-23 et 2026-11-27) : 720 000 postes administratifs et de support retirés en cinq ans, dont environ 300 000 réaffectés au terrain, soit une réduction nette d'environ 400 000 postes (400 000 à 450 000 selon la page du 2026-11-23) (voir eco-05 et Évolutions) ; auparavant : ne pas remplacer une partie des « quelque 500 000 départs annuels de la fonction publique », en commençant par l'administration, sans solde net annoncé ; avant la candidature, le plan de juillet 2025 prévoyait « la suppression progressive de 600 000 postes dans les fonctions administratives » (voir eco-05 et Évolutions) ; redéploiement : « faire basculer 450 000 fonctionnaires des bureaux vers le terrain » (voir instit-03)",
           "sources": [
+            {
+              "titre": "Nouvelle Énergie, Grand Oral BFMTV-Le Figaro, 2026-11-22",
+              "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-bfmtv-le-figaro-je-veux-faire-le-menage-au-sommet-de-letat/"
+            },
+            {
+              "titre": "Nouvelle Énergie, C à vous, 2026-11-26",
+              "url": "https://www.unenouvelleenergie.fr/je-suis-pour-un-etat-fort-la-ou-il-est-necessaire/"
+            },
             {
               "titre": "L'Essentiel de l'Éco, 2026-10-21",
               "url": "https://lessentieldeleco.fr/8893-david-lisnard-la-surprise-de-la-course-a-lelysee/"
@@ -7228,7 +7626,7 @@
         },
         "Q-social-retraite": {
           "position": "65 ans",
-          "detail": "« la norme de l'âge légal de 65 ans est un impératif national urgent pour des raisons d'équilibre financier » (page non datée ; 65 ans non repris dans les déclarations de 2026 trouvées) ; socle de pension par répartition et minimum vieillesse de 1 000 € par mois ; évolution des autres régimes vers la capitalisation (NE) ; « la mise en place progressive d'une capitalisation obligatoire », la répartition servant de « filet de sécurité » (2026-09-29)",
+          "detail": "« la norme de l'âge légal de 65 ans est un impératif national urgent pour des raisons d'équilibre financier » (page non datée) ; 65 ans et 43,5 années de cotisation pour équilibrer le système actuel, selon la rédaction du site du parti (2026-11-23 et 2026-11-27) ; socle de pension par répartition et minimum vieillesse de 1 000 € par mois ; évolution des autres régimes vers la capitalisation (NE) ; « la mise en place progressive d'une capitalisation obligatoire », la répartition servant de « filet de sécurité » (2026-09-29) ; « Un étage de capitalisation collective obligatoire doit compléter une répartition réformée et une capitalisation libre » (2026-11-17), visant à terme 25 à 30 % de capitalisation (rédaction du site du parti, 2026-11-27)",
           "sources": [
             {
               "titre": "NE, « Réussir »",
@@ -7237,6 +7635,18 @@
             {
               "titre": "Assises de l'AFER, 2026-09-29",
               "url": "https://www.unenouvelleenergie.fr/david-lisnard-aux-assises-de-lafer-etre-proprietaire-cest-etre-libre-et-responsable/"
+            },
+            {
+              "titre": "Le Figaro, tribune, 2026-11-17",
+              "url": "https://www.unenouvelleenergie.fr/pour-une-reforme-des-retraites-qui-reconcilie-les-generations"
+            },
+            {
+              "titre": "Nouvelle Énergie, Grand Oral BFMTV-Le Figaro, 2026-11-22",
+              "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-bfmtv-le-figaro-je-veux-faire-le-menage-au-sommet-de-letat/"
+            },
+            {
+              "titre": "Nouvelle Énergie, C à vous, 2026-11-26",
+              "url": "https://www.unenouvelleenergie.fr/je-suis-pour-un-etat-fort-la-ou-il-est-necessaire/"
             }
           ]
         },
@@ -7526,15 +7936,23 @@
           "option": "A",
           "proposition": "social-01",
           "texte_court": "Porter à 65 ans l'âge légal de départ à la retraite",
-          "justification": "Le programme pose « la priorité de l'augmentation de l'âge de la retraite avant la réforme d'ensemble combinant la répartition et la capitalisation » : âge légal de 65 ans (social-01 ; page non datée, 65 ans non repris dans les déclarations de 2026 trouvées) ; il défend aussi une capitalisation obligatoire progressive (social-02, social-07, option D, non voisine)",
+          "justification": "Aucune mesure chiffrée en euros (le coût de la transition vers la capitalisation est exprimé en point de PIB par an, sans montant en euros) : le programme pose « la priorité de l'augmentation de l'âge de la retraite avant la réforme d'ensemble combinant la répartition et la capitalisation » ; âge légal de 65 ans avec 43,5 années de cotisation pour équilibrer le système actuel, réaffirmé en campagne (Grand Oral du 2026-11-22, où il est présenté en premier ; France 2 et « C à vous », 2026-11-25 et 26) (social-01) ; il défend aussi un étage de capitalisation collective obligatoire, visant 25 à 30 % à terme (social-02, social-07, social-10, option D, non voisine) ; dans « C à vous » (2026-11-26), la capitalisation est présentée en premier et la tribune du 2026-11-17 ne mentionne pas l'âge : A repose sur le programme et le Grand Oral",
           "sources": [
             {
               "titre": "NE, « Réussir »",
               "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
             },
             {
-              "titre": "Assises de l'AFER, 2026-09-29",
-              "url": "https://www.unenouvelleenergie.fr/david-lisnard-aux-assises-de-lafer-etre-proprietaire-cest-etre-libre-et-responsable/"
+              "titre": "Nouvelle Énergie, Grand Oral BFMTV-Le Figaro, 2026-11-22",
+              "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-bfmtv-le-figaro-je-veux-faire-le-menage-au-sommet-de-letat/"
+            },
+            {
+              "titre": "Nouvelle Énergie, C à vous, 2026-11-26",
+              "url": "https://www.unenouvelleenergie.fr/je-suis-pour-un-etat-fort-la-ou-il-est-necessaire/"
+            },
+            {
+              "titre": "Le Figaro, tribune, 2026-11-17",
+              "url": "https://www.unenouvelleenergie.fr/pour-une-reforme-des-retraites-qui-reconcilie-les-generations"
             }
           ]
         },
@@ -7694,8 +8112,19 @@
       "phares": [
         {
           "rang": 1,
+          "proposition": "social-10",
+          "motif": "Annonce dédiée la plus récente : tribune du Figaro consacrée aux retraites (2026-11-17), reprise sur le site du parti ; mesure principale : un étage de capitalisation collective obligatoire complétant la répartition",
+          "sources": [
+            {
+              "titre": "Le Figaro, tribune, 2026-11-17",
+              "url": "https://www.unenouvelleenergie.fr/pour-une-reforme-des-retraites-qui-reconcilie-les-generations"
+            }
+          ]
+        },
+        {
+          "rang": 2,
           "proposition": "social-07",
-          "motif": "Annonce dédiée la plus récente : « grand oral » aux Assises de l'AFER consacrées à l'épargne et à la retraite (Paris, 2026-09-29) ; mesure principale : capitalisation obligatoire progressive",
+          "motif": "Annonce dédiée : « grand oral » aux Assises de l'AFER consacrées à l'épargne et à la retraite (Paris, 2026-09-29) ; mesure principale : capitalisation obligatoire progressive",
           "sources": [
             {
               "titre": "Nouvelle Énergie, 2026-10-02",
@@ -7704,24 +8133,13 @@
           ]
         },
         {
-          "rang": 2,
+          "rang": 3,
           "proposition": "instit-05",
           "motif": "Annonce dédiée : discours de Bayeux consacré aux institutions (2026-06-17) ; première mesure présentée : rétablissement du septennat",
           "sources": [
             {
               "titre": "Discours de Bayeux, 2026-06-17",
               "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
-            }
-          ]
-        },
-        {
-          "rang": 3,
-          "proposition": "instit-06",
-          "motif": "Annonce dédiée : soirée de restitution de l'enquête nationale sur la bureaucratie, consacrée tout entière à la bureaucratie (Paris, 2026-04-07, postérieure à la déclaration du 2026-03-31) ; première mesure de la liste : suppression de la moitié des agences et opérateurs de l'État",
-          "sources": [
-            {
-              "titre": "Nouvelle Énergie, 2026-04-09",
-              "url": "https://www.unenouvelleenergie.fr/david-lisnard-devoile-son-plan-pour-en-finir-avec-la-bureaucratie/"
             }
           ]
         }
@@ -7810,14 +8228,22 @@
         {
           "id": "eco-05",
           "theme": "eco",
-          "proposition": "Ne pas remplacer une partie des « quelque 500 000 départs annuels de la fonction publique », en commençant par l'administration ; « privatiser des fonctions non régaliennes » ; supprimer des agences jugées redondantes, dont les ARS",
-          "chiffrage_annonce": "pas de solde net d'emplois publics annoncé (L'Essentiel de l'Éco)",
+          "proposition": "Ne pas remplacer une partie des « quelque 500 000 départs annuels de la fonction publique », en commençant par l'administration ; « privatiser des fonctions non régaliennes » ; supprimer des agences jugées redondantes, dont les ARS ; en novembre 2026 (rédaction du site du parti) : 720 000 postes administratifs et de support retirés en cinq ans, dont environ 300 000 réaffectés à des missions de terrain, soit une réduction nette d'environ 400 000 postes (400 000 à 450 000 selon la page du 2026-11-23), par la simplification, la réorganisation et l'intelligence artificielle ; les économies serviraient à réduire la dette et la fiscalité et à mieux rémunérer les agents des missions essentielles",
+          "chiffrage_annonce": "réduction nette d'environ 400 000 postes (en octobre : pas de solde net annoncé, selon L'Essentiel de l'Éco)",
           "chiffrage_independant": "",
           "calendrier": "quinquennat",
           "sources": [
             {
               "titre": "L'Essentiel de l'Éco, 2026-10-21",
               "url": "https://lessentieldeleco.fr/8893-david-lisnard-la-surprise-de-la-course-a-lelysee/"
+            },
+            {
+              "titre": "Nouvelle Énergie, Grand Oral BFMTV-Le Figaro, 2026-11-22",
+              "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-bfmtv-le-figaro-je-veux-faire-le-menage-au-sommet-de-letat/"
+            },
+            {
+              "titre": "Nouvelle Énergie, C à vous, 2026-11-26",
+              "url": "https://www.unenouvelleenergie.fr/je-suis-pour-un-etat-fort-la-ou-il-est-necessaire/"
             }
           ]
         },
@@ -7894,7 +8320,7 @@
         {
           "id": "social-01",
           "theme": "social",
-          "proposition": "Âge légal de 65 ans : « la norme de l'âge légal de 65 ans est un impératif national urgent pour des raisons d'équilibre financier » (NE)",
+          "proposition": "Âge légal de 65 ans : « la norme de l'âge légal de 65 ans est un impératif national urgent pour des raisons d'équilibre financier » (NE) ; réaffirmé en campagne : âge légal de 65 ans et durée de cotisation de 43,5 ans pour équilibrer le système actuel, avec une hausse du taux d'emploi des seniors (rédaction du site du parti, 2026-11-23 et 2026-11-27 ; 65 ans aussi au journal de France 2, 2026-11-25)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "avant la réforme d'ensemble",
@@ -7902,6 +8328,18 @@
             {
               "titre": "NE, « Réussir »",
               "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
+            },
+            {
+              "titre": "Nouvelle Énergie, Grand Oral BFMTV-Le Figaro, 2026-11-22",
+              "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-bfmtv-le-figaro-je-veux-faire-le-menage-au-sommet-de-letat/"
+            },
+            {
+              "titre": "Nouvelle Énergie, France 2, 2026-11-25",
+              "url": "https://www.unenouvelleenergie.fr/on-ne-peut-plus-se-permettre-darriver-divises-au-premier-tour/"
+            },
+            {
+              "titre": "Nouvelle Énergie, C à vous, 2026-11-26",
+              "url": "https://www.unenouvelleenergie.fr/je-suis-pour-un-etat-fort-la-ou-il-est-necessaire/"
             }
           ]
         },
@@ -7982,10 +8420,10 @@
         {
           "id": "social-07",
           "theme": "social",
-          "proposition": "« la mise en place progressive d'une capitalisation obligatoire », avec « un système par répartition comme filet de sécurité » ; « libérer davantage les plans d'épargne en actions (PEA) » ; engagement à ne pas modifier la fiscalité de l'assurance-vie ; capitalisation obligatoire réaffirmée le 2026-11-06, avec « la création d'un fonds souverain pour les épargnants » (rédaction du site du parti)",
-          "chiffrage_annonce": "non chiffré",
+          "proposition": "« la mise en place progressive d'une capitalisation obligatoire », avec « un système par répartition comme filet de sécurité » ; « libérer davantage les plans d'épargne en actions (PEA) » ; engagement à ne pas modifier la fiscalité de l'assurance-vie ; capitalisation obligatoire réaffirmée le 2026-11-06, avec « la création d'un fonds souverain pour les épargnants » (rédaction du site du parti) ; précisions de novembre 2026 (rédaction du site du parti) : sur environ 27 à 28 points de cotisation, 24 resteraient à la répartition et 3 iraient à la capitalisation (2026-11-22) ; transition financée par l'équivalent d'un point de PIB par an, pour atteindre à terme 25 à 30 % de capitalisation, financement à préciser lors d'une conférence de presse (2026-11-26)",
+          "chiffrage_annonce": "un point de PIB par an pour la transition (sans montant en euros)",
           "chiffrage_independant": "",
-          "calendrier": "progressif",
+          "calendrier": "progressif ; détails annoncés pour décembre ou janvier",
           "sources": [
             {
               "titre": "Assises de l'AFER, 2026-09-29",
@@ -7994,6 +8432,14 @@
             {
               "titre": "Nouvelle Énergie, Rencontres de l’Avenir, 2026-11-13",
               "url": "https://www.unenouvelleenergie.fr/intelligence-artificielle-robotique-economie-david-lisnard-defend-une-france-conquerante-aux-rencontres-de-lavenir/"
+            },
+            {
+              "titre": "Nouvelle Énergie, Grand Oral BFMTV-Le Figaro, 2026-11-22",
+              "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-bfmtv-le-figaro-je-veux-faire-le-menage-au-sommet-de-letat/"
+            },
+            {
+              "titre": "Nouvelle Énergie, C à vous, 2026-11-26",
+              "url": "https://www.unenouvelleenergie.fr/je-suis-pour-un-etat-fort-la-ou-il-est-necessaire/"
             }
           ]
         },
@@ -8022,6 +8468,20 @@
             {
               "titre": "Europe 1, Objectif Élysée 2027, 2026-10-27",
               "url": "https://www.europe1.fr/politique/en-direct-emeutes-parcoursup-primaire-a-droite-ce-quil-faut-retenir-de-linterview-de-david-lisnard-dans-objectif-elysee-2027-1186743"
+            }
+          ]
+        },
+        {
+          "id": "social-10",
+          "theme": "social",
+          "proposition": "Tribune sur les retraites : « Un étage de capitalisation collective obligatoire doit compléter une répartition réformée et une capitalisation libre » ; « La transition devra être financée car les pensions resteront dues pendant que les actifs constitueront leur épargne » ; « faire converger les règles de retraite entre le public et le privé et de mettre fin aux régimes spéciaux », en reconnaissant l'usure de certains métiers ; « nous pourrons certaines années désindexer les pensions les plus élevées et revenir sur l’abattement fiscal de 10 % » ; contre la hausse de la CSG des retraités : « aligner le taux de la CSG activité sur le taux médian des retraités » ; « une allocation sociale unique devra garantir un gain de revenu disponible à la reprise d’un emploi »",
+          "chiffrage_annonce": "non chiffré (« Je présenterai bientôt les modalités de cette transition. »)",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Le Figaro, tribune, 2026-11-17",
+              "url": "https://www.unenouvelleenergie.fr/pour-une-reforme-des-retraites-qui-reconcilie-les-generations"
             }
           ]
         },
@@ -8344,7 +8804,7 @@
         {
           "id": "immig-08",
           "theme": "immig",
-          "proposition": "« Conditionner les prestations sociales non contributives aux étrangers résidant régulièrement sur le territoire national depuis au moins cinq ans » (NE)",
+          "proposition": "« Conditionner les prestations sociales non contributives aux étrangers résidant régulièrement sur le territoire national depuis au moins cinq ans » (NE) ; tribune du 2026-11-17 : « il n’est plus possible ni compréhensible de verser des prestations sociales non contributives aux étrangers » (sans condition de durée)",
           "chiffrage_annonce": "« huit milliards d’euros par an » selon le candidat",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -8356,6 +8816,10 @@
             {
               "titre": "NE, FAQ, 2026-10-16",
               "url": "https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/"
+            },
+            {
+              "titre": "Le Figaro, tribune, 2026-11-17",
+              "url": "https://www.unenouvelleenergie.fr/pour-une-reforme-des-retraites-qui-reconcilie-les-generations"
             }
           ]
         },
@@ -8684,7 +9148,7 @@
         {
           "id": "instit-03",
           "theme": "instit",
-          "proposition": "« diviser par deux les contraintes administratives imposées aux entreprises et aux citoyens » ; « diminuer de 33% à 25% (taux de l’Allemagne) le taux de tâches administratives » ; « faire basculer 450 000 fonctionnaires des bureaux vers le terrain » ; « cité gouvernementale » regroupant les ministres (NE) ; gouvernement de neuf à quatorze membres (2026-10-15)",
+          "proposition": "« diviser par deux les contraintes administratives imposées aux entreprises et aux citoyens » ; « diminuer de 33% à 25% (taux de l’Allemagne) le taux de tâches administratives » ; « faire basculer 450 000 fonctionnaires des bureaux vers le terrain » ; « cité gouvernementale » regroupant les ministres (NE) ; gouvernement de neuf à quatorze membres (2026-10-15), environ quinze ministres avec un grand ministère du Savoir selon la page du parti du 2026-11-27 (France 2)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -8696,6 +9160,10 @@
             {
               "titre": "JDNews, 2026-10-15",
               "url": "https://www.unenouvelleenergie.fr/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan/"
+            },
+            {
+              "titre": "Nouvelle Énergie, France 2, 2026-11-25",
+              "url": "https://www.unenouvelleenergie.fr/on-ne-peut-plus-se-permettre-darriver-divises-au-premier-tour/"
             }
           ]
         },
@@ -8788,6 +9256,20 @@
               "url": "https://lessentieldeleco.fr/8893-david-lisnard-la-surprise-de-la-course-a-lelysee/"
             }
           ]
+        },
+        {
+          "date": "2026-11-22",
+          "description": "fonction publique : solde net annoncé, une réduction d'environ 400 000 postes (400 000 à 450 000 selon la page du 2026-11-23) sur 720 000 postes administratifs retirés en cinq ans, dont 300 000 réaffectés au terrain (rédaction du site du parti), alors qu'aucun solde net n'était annoncé en octobre 2026 [Nouvelle Énergie, Grand Oral BFMTV-Le Figaro, 2026-11-22](https://www.unenouvelleenergie.fr/david-lisnard-sur-bfmtv-le-figaro-je-veux-faire-le-menage-au-sommet-de-letat/) ; [Nouvelle Énergie, C à vous, 2026-11-26](https://www.unenouvelleenergie.fr/je-suis-pour-un-etat-fort-la-ou-il-est-necessaire/)",
+          "sources": [
+            {
+              "titre": "Nouvelle Énergie, Grand Oral BFMTV-Le Figaro, 2026-11-22",
+              "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-bfmtv-le-figaro-je-veux-faire-le-menage-au-sommet-de-letat/"
+            },
+            {
+              "titre": "Nouvelle Énergie, C à vous, 2026-11-26",
+              "url": "https://www.unenouvelleenergie.fr/je-suis-pour-un-etat-fort-la-ou-il-est-necessaire/"
+            }
+          ]
         }
       ],
       "faisabilite": null
@@ -8802,7 +9284,7 @@
       "date_declaration": "2026-05-03",
       "programme_url": "https://melenchon2027.fr/programme/livre/",
       "programme_version": "L'Avenir en commun, le programme de la Nouvelle France (5e édition, livre paru le 2026-11-06, 1 069 mesures), version web du livre lue en entier (introduction et 23 chapitres, 24 pages) + orientations budgétaires 2027 (2026-10-15)",
-      "derniere_maj": "2026-11-25",
+      "derniere_maj": "2026-11-28",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse",
@@ -9190,7 +9672,7 @@
           "option": "D",
           "proposition": "social-05",
           "texte_court": "Garantir à chaque personne un revenu au moins égal au seuil de pauvreté",
-          "justification": "Mesure la plus chiffrée relevant d'une option : garantie d'autonomie au seuil de pauvreté (9,5 Md€ au Budget 2027, chiffrée pour les jeunes, social-05), à laquelle s'ajoutent APL, pensions et allocations familiales +10 % (8 Md€, social-04), aides ciblées elles aussi ; SMIC porté « immédiatement » à 1 700 € net (social-02, option A), mesure clé mais sans coût total, que le budget présente comme un complément (« Ces mesures d'urgence sociale doivent être complétées par une hausse du SMIC », p. 9) ; point d'indice des fonctionnaires +10 % (17 Md€) sans option ; blocage des prix des produits de première nécessité (eco-10, sans baisse de taxes)",
+          "justification": "Mesure la plus chiffrée relevant d'une option : garantie d'autonomie au seuil de pauvreté (9,5 Md€ au Budget 2027, chiffrée pour les jeunes, social-05), à laquelle s'ajoutent APL, pensions et allocations familiales +10 % (8 Md€, social-04), aides ciblées elles aussi ; SMIC porté « immédiatement » à 1 700 € net (social-02, option A), mesure clé mais sans coût total, que le budget présente comme un complément (« Ces mesures d'urgence sociale doivent être complétées par une hausse du SMIC », p. 9) ; point d'indice des fonctionnaires +10 % (17 Md€) sans option ; blocage des prix des produits de première nécessité (eco-10, sans baisse de taxes) ; plafonnement du prix des carburants à 1,70 € le litre par les marges des raffineurs (eco-18), sans baisse de taxes, donc hors option C ; le plan pauvreté de LFI (2026-11-16) fait de la garantie d'autonomie l'un de ses quatre axes, versée par l'État, automatiquement et sans contrepartie, en remplacement du RSA, mais n'en donne pas le coût (parti : La France insoumise)",
           "sources": [
             {
               "titre": "AEC 2026, partie 3 ch. 1",
@@ -9203,6 +9685,10 @@
             {
               "titre": "Budget 2027, p. 8-9",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            },
+            {
+              "titre": "Plan « Abolir la pauvreté », LFI, 2026-11-16, p. 12 et 16-18",
+              "url": "https://melenchon2027.fr/wp-content/uploads/2026/11/PLAN-ABOLIR-LA-PAUVRETE.pdf"
             }
           ]
         },
@@ -9584,7 +10070,7 @@
         {
           "id": "eco-10",
           "theme": "eco",
-          "proposition": "« Bloquer et encadrer les prix des produits de première nécessité (alimentation, énergie, carburant) et interdire la « réduflation » » (mesure clé de l'« état d'urgence sociale ») ; le plan pauvreté de LFI (2026-11-16) annonce aussi « Dès notre arrivée au pouvoir » : « réquisitionner les logements vides », « bloquer les loyers, y compris commerciaux », « encadrer les frais bancaires », « geler les remboursements de crédits ou de dettes personnelles » (parti : La France insoumise)",
+          "proposition": "« Bloquer et encadrer les prix des produits de première nécessité (alimentation, énergie, carburant) et interdire la « réduflation » » (mesure clé de l'« état d'urgence sociale ») ; le plan pauvreté de LFI (2026-11-16) annonce aussi « Dès notre arrivée au pouvoir » : « réquisitionner les logements vides », « bloquer les loyers, y compris commerciaux », « encadrer les frais bancaires », « geler les remboursements de crédits ou de dettes personnelles » (parti : La France insoumise) ; le plan inscrit ces mesures dans un « état d'urgence sociale » créé par la loi, provisoire, dont les prolongations sont contrôlées par le Parlement, avec une échelle mobile des salaires temporaire",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "dès l'arrivée au pouvoir",
@@ -9596,6 +10082,10 @@
             {
               "titre": "melenchon2027.fr, communiqué « plan pour abolir la pauvreté », 2026-11-16",
               "url": "https://melenchon2027.fr/?p=27248"
+            },
+            {
+              "titre": "Plan « Abolir la pauvreté », LFI, 2026-11-16, p. 15-16",
+              "url": "https://melenchon2027.fr/wp-content/uploads/2026/11/PLAN-ABOLIR-LA-PAUVRETE.pdf"
             }
           ]
         },
@@ -9698,6 +10188,20 @@
           ]
         },
         {
+          "id": "eco-18",
+          "theme": "eco",
+          "proposition": "« Plafonner le prix des carburants à la pompe pour revenir dans un premier temps au prix d’1,70 € le litre tout en plafonnant les marges des raffineurs » (parti : La France insoumise)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "dès le début du mandat",
+          "sources": [
+            {
+              "titre": "Plan « Abolir la pauvreté », LFI, 2026-11-16, p. 16",
+              "url": "https://melenchon2027.fr/wp-content/uploads/2026/11/PLAN-ABOLIR-LA-PAUVRETE.pdf"
+            }
+          ]
+        },
+        {
           "id": "social-01",
           "theme": "social",
           "proposition": "« Abroger la réforme Macron passant l'âge de départ à la retraite à 64 ans, puis abaisser l'âge de départ jusqu'à restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations »",
@@ -9776,8 +10280,8 @@
         {
           "id": "social-05",
           "theme": "social",
-          "proposition": "« Créer une garantie d'autonomie, qui permettra que nul ne soit privé de sa dignité pour vivre : le revenu mensuel de chaque personne atteindra le seuil de pauvreté (1 337 euros pour une personne seule) » ; le document budgétaire chiffre une garantie d'autonomie pour les jeunes",
-          "chiffrage_annonce": "9,5 Md€",
+          "proposition": "« Créer une garantie d'autonomie, qui permettra que nul ne soit privé de sa dignité pour vivre : le revenu mensuel de chaque personne atteindra le seuil de pauvreté (1 337 euros pour une personne seule) » ; le document budgétaire chiffre une garantie d'autonomie pour les jeunes ; le plan pauvreté de LFI la crée « en commençant par les jeunes de moins de 25 ans », accessible dès 18 ans aux personnes fiscalement indépendantes et dès 16 ans aux élèves de l'enseignement professionnel, versée par l'État « sans contrepartie », automatiquement, en remplacement ou en complément des revenus (le RSA d'une personne seule est remplacé) ; plus de dix millions de bénéficiaires annoncés ; coût non donné (parti : La France insoumise)",
+          "chiffrage_annonce": "9,5 Md€ (Budget 2027)",
           "chiffrage_independant": "",
           "calendrier": "dès les premiers jours (plan d'urgence)",
           "sources": [
@@ -9792,6 +10296,10 @@
             {
               "titre": "Budget 2027, p. 8",
               "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+            },
+            {
+              "titre": "Plan « Abolir la pauvreté », LFI, 2026-11-16, p. 17-18",
+              "url": "https://melenchon2027.fr/wp-content/uploads/2026/11/PLAN-ABOLIR-LA-PAUVRETE.pdf"
             }
           ]
         },
@@ -9948,6 +10456,24 @@
             {
               "titre": "AEC 2026, partie 3 ch. 1",
               "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/"
+            },
+            {
+              "titre": "Plan « Abolir la pauvreté », LFI, 2026-11-16, p. 16 et 18",
+              "url": "https://melenchon2027.fr/wp-content/uploads/2026/11/PLAN-ABOLIR-LA-PAUVRETE.pdf"
+            }
+          ]
+        },
+        {
+          "id": "social-16",
+          "theme": "social",
+          "proposition": "Interdire toute l'année les coupures d'énergie, avec un seuil minimal de puissance fixé par décret, et les coupures d'accès aux « réseaux vitaux » (internet, téléphonie) pour impayés ; interdire l'exclusion d'un enfant de la cantine pour impayés ; plafonner les frais bancaires d'incident ; automaticité des prestations sociales, versement maintenu en cas de contrôle jusqu'à la décision définitive (parti : La France insoumise)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Plan « Abolir la pauvreté », LFI, 2026-11-16, p. 20 et 22-23",
+              "url": "https://melenchon2027.fr/wp-content/uploads/2026/11/PLAN-ABOLIR-LA-PAUVRETE.pdf"
             }
           ]
         },
@@ -11319,8 +11845,8 @@
       "inclus": true,
       "date_declaration": "2024-09-03",
       "programme_url": "https://www.edouardphilippe.fr/programme",
-      "programme_version": "v1 (2026-11-12) — programme en ligne sur edouardphilippe.fr/programme, 15 thématiques, « Mise à jour le 12 novembre 2026 », consulté le 2026-11-14 ; complété par les priorités (non datées) et les déclarations de campagne ; livret de 142 mesures présenté en conférence de presse le 2026-11-18 (« V1 », livret non lu, compte rendu de Public Sénat)",
-      "derniere_maj": "2026-11-21",
+      "programme_version": "v1 (2026-11-26) — programme en ligne sur edouardphilippe.fr/programme, 18 thématiques, « Mise à jour le 26 novembre 2026 » (index et page Santé ; pages Défense, Immigration, Justice et Sécurité mises à jour le 18 novembre 2026), consulté le 2026-11-28 ; complété par les priorités (non datées) et les déclarations de campagne ; « Le livret du programme, volume 1 » (142 mesures, présenté en conférence de presse le 2026-11-18 ; « D'autres volumes viendront compléter ce programme ») non lu, PDF sans texte lisible par l'outil",
+      "derniere_maj": "2026-11-28",
       "positions": {
         "Q-eco-impots": {
           "position": "baisse",
@@ -11465,7 +11991,7 @@
         },
         "Q-secu-justice": {
           "position": "peines planchers et courtes peines",
-          "detail": "Peines planchers pour les infractions les plus graves, courtes peines dès la première infraction, suppression du juge d'application des peines ; « Une loi d’accélération de la construction de prisons. » ; retour des juges de paix",
+          "detail": "« Le rétablissement des peines planchers », « Des peines de prison courtes, dès la première infraction », suppression du juge d'application des peines ; « Construire 30 000 places de prison pour les peines courtes, avec une loi d’accélération des prisons » ; retour des juges de paix ; interdiction du syndicalisme des magistrats",
           "sources": [
             {
               "titre": "Priorités « Sûre »",
@@ -11479,8 +12005,12 @@
         },
         "Q-immig-niveau": {
           "position": "division par deux",
-          "detail": "Immigration légale « largement inférieur à 200 000 » titres de séjour par an (Euronews) ; suspension du regroupement familial pendant le quinquennat ; titres de séjour réservés « aux seuls motifs professionnels et aux étudiants » (entretien au Point, 2026-10-27, voir immig-08)",
+          "detail": "« Diviser l’immigration légale par deux, pour la ramener au niveau d’il y a 15 ans. » (programme) ; titres de séjour « largement inférieur à 200 000 » par an (Euronews) ; suspension du regroupement familial pendant le quinquennat ; titres de séjour réservés « aux seuls motifs professionnels et aux étudiants » (entretien au Point, 2026-10-27, voir immig-08)",
           "sources": [
+            {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
+            },
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
@@ -11506,9 +12036,13 @@
           ]
         },
         "Q-immig-nation": {
-          "position": "suspension du droit du sol à Mayotte",
-          "detail": "Pas de proposition trouvée pour le reste du territoire",
+          "position": "suspension du droit du sol à Mayotte ; nationalité jamais automatique",
+          "detail": "Suspension du droit du sol à Mayotte ; « faire que l’acquisition de la nationalité française ne soit plus jamais automatique » (programme, sans modalités lues)",
           "sources": [
+            {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
+            },
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
@@ -11526,13 +12060,17 @@
         },
         "Q-europe-defense": {
           "position": "pas de position",
-          "detail": "Pas de niveau de dépense en % du PIB trouvé pour le budget français (le programme en ligne n'en donne pas) ; nouvelle loi de programmation militaire « de la massification » (voir europe-01 à europe-03) ; au moins 1 % de la richesse des pays européens de l'OTAN pour des équipements fabriqués en Europe (europe-07)",
+          "detail": "Pas de niveau de dépense en % du PIB trouvé pour le budget français (le programme en ligne n'en donne pas) ; nouvelle loi de programmation militaire « de la massification » (voir europe-01 à europe-03) ; au moins 1 % de la richesse nationale des pays de l'Union européenne pour des équipements fabriqués en Europe (europe-07)",
           "sources": []
         },
         "Q-europe-otan": {
           "position": "favorable à l'adhésion de l'Ukraine",
-          "detail": "Pas de déclaration trouvée sur la place de la France dans l'OTAN ; l'adhésion de l'Ukraine serait sa « meilleure garantie de sécurité »",
+          "detail": "Pas de déclaration trouvée sur la place de la France dans l'OTAN ; programme : « Soutenir pleinement l’Ukraine, qui a vocation à intégrer l’OTAN. » ; l'adhésion de l'Ukraine serait sa « meilleure garantie de sécurité » (2026-05-26)",
           "sources": [
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
+            },
             {
               "titre": "Euronews, 2026-05-26",
               "url": "https://fr.euronews.com/my-europe/2026/05/26/edouard-philippe-a-rencontre-volodymyr-zelensky-a-kyiv"
@@ -11541,8 +12079,12 @@
         },
         "Q-europe-ukraine": {
           "position": "soutien",
-          "detail": "Soutien « même au-delà » de la guerre ; troupes européennes en Ukraine après la paix ; adhésion à l'OTAN",
+          "detail": "« Soutenir pleinement l’Ukraine » (programme) ; soutien « même au-delà » de la guerre ; troupes européennes en Ukraine après la paix ; adhésion à l'OTAN",
           "sources": [
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
+            },
             {
               "titre": "Euronews, 2026-05-26",
               "url": "https://fr.euronews.com/my-europe/2026/05/26/edouard-philippe-a-rencontre-volodymyr-zelensky-a-kyiv"
@@ -11592,9 +12134,14 @@
           ]
         },
         "Q-sante-acces": {
-          "position": "pas de position",
-          "detail": "Pas de proposition trouvée",
-          "sources": []
+          "position": "obligation de solidarité, régulation de l'installation en dernier recours",
+          "detail": "Répartition des médecins construite avec eux ; « Régulation de l’installation des médecins si la concertation échoue. » ; d'ici là, chaque médecin consacrera au moins une semaine par an à des consultations ou des gardes « dans les zones qui manquent de soignants, près de son lieu d’exercice. » ; équipe de soins primaires pour chaque Français ; 14 000 médecins formés par an (voir sante-03 à sante-05)",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
         },
         "Q-sante-findevie": {
           "position": "nuancé",
@@ -11743,8 +12290,8 @@
         "D-secu-budget": {
           "option": "B",
           "proposition": "secu-08",
-          "texte_court": "Voter une loi pour construire plus vite de nouvelles prisons",
-          "justification": "Programme (2026-11-12) : aucune mesure chiffrée en euros ; parmi les mesures de moyens de la page « Justice », la première présentée est « Une loi d’accélération de la construction de prisons. » (secu-08), après trois mesures pénales (peines planchers, courtes peines, suppression du juge d'application des peines, secu-01 à secu-03) ; viennent ensuite le retour des juges de paix pour « une justice civile plus rapide et plus proche » (secu-09, proche de l'option C, non voisine) et une réforme du recrutement des magistrats (secu-06) ; ni hausse d'effectifs de police ou de gendarmerie (option A) ni prévention (option D) sur cette page ; la page « Sécurité » (mise à jour le 2026-11-12) ne contient ni hausse chiffrée des effectifs de police ou de gendarmerie ni volet prévention",
+          "texte_court": "Construire 30 000 places de prison pour les courtes peines, avec une loi pour aller plus vite",
+          "justification": "Programme (page « Justice », mise à jour le 2026-11-18) : aucune mesure chiffrée en euros ; parmi les mesures de moyens, la première présentée est « Construire 30 000 places de prison pour les peines courtes, avec une loi d’accélération des prisons » (secu-08), après trois mesures pénales (peines planchers, courtes peines, suppression du juge d'application des peines, secu-01 à secu-03) ; vient ensuite le retour des juges de paix pour « une justice civile plus rapide et plus proche » (secu-09, proche de l'option C, non voisine) ; la page dit aussi que cela permettra « d’avoir plus de magistrats pour accélérer les délais », sans effectif annoncé ; ni hausse d'effectifs de police ou de gendarmerie (option A) ni prévention (option D) ; la page « Sécurité » (mise à jour le 2026-11-18) ne contient aucune hausse ni aucun nombre d'effectifs de police ou de gendarmerie",
           "sources": [
             {
               "titre": "Programme « Justice »",
@@ -11760,8 +12307,12 @@
           "option": "A",
           "proposition": "immig-06",
           "texte_court": "Fixer des quotas d'étrangers autorisés à venir travailler en France",
-          "justification": "Quotas pour l'immigration économique (immig-06) et titres de séjour réservés « aux seuls motifs professionnels et aux étudiants » (immig-08), dans un objectif de division par deux de l'immigration (immig-01) ; même traitement qu'Attal et Lisnard",
+          "justification": "Deuxième mesure de la page « Immigration » (mise à jour le 2026-11-18) : « Des quotas pour choisir l’immigration de travail. » (immig-06), après la division par deux de l'immigration légale (immig-01) ; « Pas de régularisation massive. » (option B écartée) ; titres de séjour réservés « aux seuls motifs professionnels et aux étudiants » (immig-08, entretien au Point) ; ni formation des demandeurs d'emploi (C) ni hausse des salaires (D) liées à ces métiers ; même traitement qu'Attal et Lisnard",
           "sources": [
+            {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
+            },
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
@@ -11783,7 +12334,7 @@
           "option": "A",
           "proposition": "europe-03",
           "texte_court": "Voter une loi pour que les armées aient plus de soldats, de réservistes, de munitions et de drones",
-          "justification": "Renforcement des armées nationales, première mesure de la page « Défense » : « Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. » (europe-03), puis service militaire volontaire de 50 000 jeunes par an et 250 000 réservistes (europe-01, europe-02) ; aucun montant en euros ni niveau en % du PIB pour le budget français ; volet européen limité à des armements « made in Europe » (europe-07, au moins 1 % de la richesse des pays européens de l'OTAN pour des équipements fabriqués en Europe), sans défense européenne commune (option B) ni renforcement dans l'OTAN (option C)",
+          "justification": "Renforcement des armées nationales, première mesure de la page « Défense » (mise à jour le 2026-11-18) : « Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. » (europe-03), avec 250 000 réservistes (europe-01) ; viennent ensuite le service national obligatoire et universel, civil ou militaire (europe-06), les armements « made in Europe » (europe-07, au moins 1 % de la richesse nationale des pays de l'Union européenne pour des équipements fabriqués en Europe), le soutien à l'Ukraine et la modernisation de la dissuasion nucléaire (europe-08) ; aucun montant en euros ni niveau en % du PIB pour le budget français ; une France « capable de se défendre au sein d’une Europe plus forte », sans défense européenne commune (option B) ni renforcement dans l'OTAN (option C)",
           "sources": [
             {
               "titre": "Programme « Défense »",
@@ -11816,11 +12367,16 @@
           ]
         },
         "D-sante-deserts": {
-          "option": "pas de position",
-          "proposition": "",
-          "texte_court": "",
-          "justification": "",
-          "sources": []
+          "option": "A",
+          "proposition": "sante-03",
+          "texte_court": "Obliger chaque médecin à travailler au moins une semaine par an dans une zone qui manque de soignants, proche de son lieu d'exercice",
+          "justification": "Page « Santé » (2026-11-26), aucune mesure chiffrée en euros ; la première mesure sur les médecins, « Construire avec les médecins le nouveau modèle de leur répartition sur le territoire », ne correspond à aucune option ; suivent la « Régulation de l’installation des médecins si la concertation échoue. » et, « D’ici là, une obligation de solidarité » : au moins une semaine par an de consultations ou de gardes « dans les zones qui manquent de soignants » (sante-03), contrainte sur les médecins rattachée à A comme la régulation chez Mélenchon et Tondelier, bien qu'elle ne vise pas les seuls jeunes médecins ; il propose aussi de confier aux infirmiers et aux pharmaciens « une partie du suivi des maladies chroniques » (sante-04, option C, non voisine) ; pas d'incitation financière à l'installation (B) ni de téléconsultation (D)",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
         },
         "D-instit-participation": {
           "option": "pas de position",
@@ -11838,38 +12394,34 @@
       "phares": [
         {
           "rang": 1,
-          "proposition": "social-06",
-          "motif": "Annonce dédiée la plus récente : déplacement à Charleville-Mézières consacré à la politique familiale (rencontre de parents dans une ludothèque), 2026-10-21 ; mesure principale rapportée : l'allocation familiale unique « dès le premier enfant » jusqu'à 350 euros",
+          "proposition": "sante-02",
+          "motif": "Annonce dédiée la plus récente : page « Santé » du programme, publiée le 2026-11-26 (seule page nouvelle signalée par la veille ce jour-là, à confirmer) (« Dernière mise à jour le 26 novembre 2026 »), consacrée tout entière à la santé ; mesure principale, la première présentée et titre de la page : « Investir plus pour la santé, remettre à l’équilibre l’Assurance maladie sans nouvel impôt. »",
           "sources": [
             {
-              "titre": "Journal du Net, 2026-10-22",
-              "url": "https://www.journaldunet.com/business/action-publique/1557005-edouard-philippe-presente-ses-propositions-pour-les-familles-et-defend-ses-positions-securitaires/"
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
             }
           ]
         },
         {
           "rang": 2,
-          "proposition": "educ-02",
-          "motif": "Annonce dédiée : « réunion d'appartement » du 2026-10-15 où « Édouard Philippe a choisi de parler d'École », réponses publiées sur le site (mises « À la une » le 2026-10-23) ; la première réponse présente les fondamentaux : « En recommençant par le commencement : lire, écrire, compter. »",
+          "proposition": "sante-07",
+          "motif": "Annonce dédiée : discours devant la Convention nationale des centres de lutte contre le cancer, à Paris, 2026-11-24 ; mesure principale : rendre obligatoire la vaccination contre les papillomavirus",
           "sources": [
             {
-              "titre": "edouardphilippe.fr, L'école : questions-réponses, 2026-10-23",
-              "url": "https://www.edouardphilippe.fr/questions-reponses/ecoles"
+              "titre": "LCP, 2026-11-24",
+              "url": "https://lcp.fr/actualites/eradiquer-le-cancer-du-col-de-l-uterus-edouard-philippe-veut-rendre-obligatoire-la"
             }
           ]
         },
         {
           "rang": 3,
-          "proposition": "social-01",
-          "motif": "Annonce dédiée : vidéo d'une vingtaine de minutes consacrée à la réforme des retraites, « Retraites : ma réforme pour sauver le système », 2026-09-29",
+          "proposition": "eco-10",
+          "motif": "Annonce dédiée : déplacement à Toulouse consacré au service public, 2026-11-13 ; mesure principale : le programme de service public à domicile pour les personnes seules ou âgées (« Ce nouveau programme s’adresse aux personnes seules ou âgées. »), seule mesure propre au déplacement (les deux premières rubriques, « Remettre de l’ordre dans les comptes publics. » et « Moins de paperasse, plus de terrain. », sont des orientations générales)",
           "sources": [
             {
-              "titre": "LCP, 2026-09-29",
-              "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de"
-            },
-            {
-              "titre": "La Gazette France (AFP), 2026-09-29",
-              "url": "https://www.lagazettefrance.fr/article/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-devoile-son-projet-de-reforme-des-retraites"
+              "titre": "edouardphilippe.fr, Toulouse, 2026-11-14",
+              "url": "https://www.edouardphilippe.fr/actualites/a-toulouse-edouard-philippe-defend-un-service-public-plus-simple-et-plus-proche"
             }
           ]
         }
@@ -12008,6 +12560,34 @@
             {
               "titre": "edouardphilippe.fr, Le programme",
               "url": "https://www.edouardphilippe.fr/programme"
+            }
+          ]
+        },
+        {
+          "id": "eco-09",
+          "theme": "eco",
+          "proposition": "Service public : « Moins de paperasse, plus de terrain. » ; « Édouard Philippe veut mettre l’intelligence artificielle au service des agents et des usagers » pour traiter rapidement les démarches simples et renvoyer les agents sur le terrain",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "edouardphilippe.fr, Toulouse, 2026-11-14",
+              "url": "https://www.edouardphilippe.fr/actualites/a-toulouse-edouard-philippe-defend-un-service-public-plus-simple-et-plus-proche"
+            }
+          ]
+        },
+        {
+          "id": "eco-10",
+          "theme": "eco",
+          "proposition": "Créer un programme de service public à domicile : « Ce nouveau programme s’adresse aux personnes seules ou âgées. », au-delà des maisons France services ; présenté à Toulouse le 2026-11-13",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "edouardphilippe.fr, Toulouse, 2026-11-14",
+              "url": "https://www.edouardphilippe.fr/actualites/a-toulouse-edouard-philippe-defend-un-service-public-plus-simple-et-plus-proche"
             }
           ]
         },
@@ -12430,7 +13010,7 @@
         {
           "id": "secu-04",
           "theme": "secu",
-          "proposition": "Déclarer un « état d'urgence narco » ; lever l'excuse de minorité pour le narcotrafic",
+          "proposition": "Déclarer un « état d'urgence narco » ; lever l'excuse de minorité pour le narcotrafic ; programme : « Un « état d’urgence narco » qui donne des moyens exceptionnels dans les zones les plus touchées par le narcotrafic. », « un régime juridique d’exception »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -12438,13 +13018,17 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Sécurité »",
+              "url": "https://www.edouardphilippe.fr/programme/securite"
             }
           ]
         },
         {
           "id": "secu-05",
           "theme": "secu",
-          "proposition": "Donner aux maires un pouvoir de sanction pénale sur les petites infractions",
+          "proposition": "Donner aux maires un pouvoir de sanction pénale sur les petites infractions ; programme : « Un pouvoir de sanction renforcé pour les maires contre les incivilités du quotidien. »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -12452,6 +13036,10 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Sécurité »",
+              "url": "https://www.edouardphilippe.fr/programme/securite"
             }
           ]
         },
@@ -12476,7 +13064,7 @@
         {
           "id": "secu-07",
           "theme": "secu",
-          "proposition": "Contre les violences d'extrême gauche : interdictions administratives de paraître et obligations de pointage avant certaines manifestations (entretien au Point, rapporté par L'Express)",
+          "proposition": "Contre les violences d'extrême gauche : interdictions administratives de paraître et obligations de pointage avant certaines manifestations (entretien au Point, rapporté par L'Express) ; programme : « Utiliser contre les casseurs les mêmes mesures de prévention que contre le terrorisme. »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -12484,13 +13072,17 @@
             {
               "titre": "Orange Actualités (L'Express), 2026-10-27",
               "url": "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html"
+            },
+            {
+              "titre": "Programme « Sécurité »",
+              "url": "https://www.edouardphilippe.fr/programme/securite"
             }
           ]
         },
         {
           "id": "secu-08",
           "theme": "secu",
-          "proposition": "« Une loi d’accélération de la construction de prisons. » ; construction de 30 000 places de prison (Public Sénat, 2026-11-18)",
+          "proposition": "« Construire 30 000 places de prison pour les peines courtes, avec une loi d’accélération des prisons »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -12522,7 +13114,7 @@
         {
           "id": "secu-10",
           "theme": "secu",
-          "proposition": "« Un déploiement massif de l’intelligence artificielle pour accélérer l’instruction des dossiers » ; refonte de la procédure pénale",
+          "proposition": "« Simplifier massivement la procédure pénale et déployer l’intelligence artificielle pour accélérer l’instruction des dossiers »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -12550,11 +13142,15 @@
         {
           "id": "secu-12",
           "theme": "secu",
-          "proposition": "« utiliser la vidéoprotection avec intelligence artificielle pour identifier les casseurs et les criminels » et « autoriser la reconnaissance faciale de façon ciblée et strictement encadrée »",
+          "proposition": "« utiliser la vidéoprotection avec intelligence artificielle pour identifier les casseurs et les criminels » et « autoriser la reconnaissance faciale de façon ciblée et strictement encadrée » (Public Sénat) ; programme : « L’utilisation de la vidéoprotection avec intelligence artificielle pour identifier les casseurs et les criminels. », pouvoirs pouvant « aller jusqu’à l’usage ciblé de la reconnaissance faciale »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "Programme « Sécurité »",
+              "url": "https://www.edouardphilippe.fr/programme/securite"
+            },
             {
               "titre": "Public Sénat, 2026-11-18",
               "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
@@ -12564,11 +13160,15 @@
         {
           "id": "secu-13",
           "theme": "secu",
-          "proposition": "Interdire aux magistrats de se syndiquer",
+          "proposition": "« Interdire aux magistrats de se syndiquer »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "Programme « Justice »",
+              "url": "https://www.edouardphilippe.fr/programme/justice"
+            },
             {
               "titre": "Public Sénat, 2026-11-18",
               "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
@@ -12576,13 +13176,59 @@
           ]
         },
         {
-          "id": "immig-01",
-          "theme": "immig",
-          "proposition": "Diviser par deux l'immigration ; titres de séjour « largement inférieur à 200 000 » par an",
+          "id": "secu-14",
+          "theme": "secu",
+          "proposition": "« La saisie de l’argent des trafiquants et des amendes plus fortes pour les consommateurs. »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "Programme « Sécurité »",
+              "url": "https://www.edouardphilippe.fr/programme/securite"
+            }
+          ]
+        },
+        {
+          "id": "secu-15",
+          "theme": "secu",
+          "proposition": "« Le prélèvement des amendes impayées sur les aides sociales. »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Sécurité »",
+              "url": "https://www.edouardphilippe.fr/programme/securite"
+            }
+          ]
+        },
+        {
+          "id": "secu-16",
+          "theme": "secu",
+          "proposition": "« Suspendre automatiquement le RSA pour les délinquants condamnés. », sauf décision contraire du maire",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Sécurité »",
+              "url": "https://www.edouardphilippe.fr/programme/securite"
+            }
+          ]
+        },
+        {
+          "id": "immig-01",
+          "theme": "immig",
+          "proposition": "« Diviser l’immigration légale par deux, pour la ramener au niveau d’il y a 15 ans. » ; titres de séjour « largement inférieur à 200 000 » par an (Euronews)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
+            },
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
@@ -12596,11 +13242,15 @@
         {
           "id": "immig-02",
           "theme": "immig",
-          "proposition": "Suspendre le regroupement familial pendant le quinquennat",
+          "proposition": "« Un moratoire sur le regroupement familial. » : le suspendre « pendant toute la durée du quinquennat »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "quinquennat",
           "sources": [
+            {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
+            },
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
@@ -12616,6 +13266,10 @@
           "calendrier": "annuel",
           "sources": [
             {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
+            },
+            {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
             }
@@ -12629,6 +13283,10 @@
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
+            },
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
@@ -12656,11 +13314,15 @@
         {
           "id": "immig-06",
           "theme": "immig",
-          "proposition": "Fixer des quotas pour l'immigration économique",
+          "proposition": "« Des quotas pour choisir l’immigration de travail. » ; « Pas de régularisation massive. »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
           "sources": [
+            {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
+            },
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
@@ -12674,7 +13336,7 @@
         {
           "id": "immig-07",
           "theme": "immig",
-          "proposition": "Expulser immédiatement les étrangers délinquants et supprimer leurs aides sociales",
+          "proposition": "Expulser immédiatement les étrangers délinquants et supprimer leurs aides sociales ; programme : « Le retour de la double peine pour les étrangers délinquants. »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -12682,6 +13344,38 @@
             {
               "titre": "Priorités « Sûre »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+            },
+            {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
+            }
+          ]
+        },
+        {
+          "id": "immig-09",
+          "theme": "immig",
+          "proposition": "Recourir à des « centres de retour » à l'étranger pour éloigner les étrangers en situation irrégulière",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
+            }
+          ]
+        },
+        {
+          "id": "immig-10",
+          "theme": "immig",
+          "proposition": "« Renforcer l’intégration et faire que l’acquisition de la nationalité française ne soit plus jamais automatique. »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Immigration »",
+              "url": "https://www.edouardphilippe.fr/programme/immigration"
             }
           ]
         },
@@ -12720,7 +13414,7 @@
         {
           "id": "europe-02",
           "theme": "europe",
-          "proposition": "Porter le service militaire volontaire de 3 000 à 50 000 places par an",
+          "proposition": "Porter le service militaire volontaire de 3 000 à 50 000 places par an ; mesure absente de la page « Défense » mise à jour le 2026-11-18, qui lui substitue le service national obligatoire et universel (europe-06, voir « Évolutions »)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -12756,11 +13450,15 @@
         {
           "id": "europe-04",
           "theme": "europe",
-          "proposition": "Ukraine : troupes européennes après la paix et adhésion à l'OTAN",
+          "proposition": "Ukraine : troupes européennes après la paix et adhésion à l'OTAN ; programme : « Soutenir pleinement l’Ukraine, qui a vocation à intégrer l’OTAN. », et l'arrimer « solidement à l’Union européenne »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "après la paix",
           "sources": [
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
+            },
             {
               "titre": "Euronews, 2026-05-26",
               "url": "https://fr.euronews.com/my-europe/2026/05/26/edouard-philippe-a-rencontre-volodymyr-zelensky-a-kyiv"
@@ -12784,7 +13482,7 @@
         {
           "id": "europe-06",
           "theme": "europe",
-          "proposition": "Rétablir un service national obligatoire, présenté comme un levier d'intégration (entretien au Point, rapporté par L'Express) ; le programme prévoit un « volet environnemental au futur service national » ; à la question « Édouard Philippe veut-il rétablir le service militaire obligatoire ? », la page « Défense » du programme répond : « Édouard Philippe mise d’abord sur l’engagement. » (voir « Évolutions »)",
+          "proposition": "« Le rétablissement d’un service national obligatoire et universel » (page « Défense », mise à jour le 2026-11-18) : « Édouard Philippe veut rétablir un service national obligatoire et universel, à ne pas confondre avec un service militaire » ; « Chaque jeune pourra l’effectuer soit dans des fonctions civiles, soit dans des fonctions militaires », pour une classe d'âge de « 600 000 jeunes par an » ; présenté comme un levier d'intégration (entretien au Point, rapporté par L'Express) ; « volet environnemental au futur service national » (priorités) ; durée et âge non précisés (voir « Évolutions »)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -12806,7 +13504,21 @@
         {
           "id": "europe-07",
           "theme": "europe",
-          "proposition": "Des armements « made in Europe » : « au moins 1 % de la richesse nationale des pays européens de l’OTAN » consacré à des équipements fabriqués en Europe",
+          "proposition": "Des armements « made in Europe » : « au moins 1 % de la richesse nationale des pays de l’Union européenne consacré à des équipements fabriqués en Europe » (page mise à jour le 2026-11-18 ; la version du 2026-11-12 visait les « pays européens de l’OTAN ») ; « une vraie préférence européenne en matière d’armements »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
+            }
+          ]
+        },
+        {
+          "id": "europe-08",
+          "theme": "europe",
+          "proposition": "« Une dissuasion nucléaire modernisée. »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -13004,7 +13716,7 @@
         {
           "id": "sante-01",
           "theme": "sante",
-          "proposition": "Stabiliser les dépenses de santé en « dépensant mieux »",
+          "proposition": "Stabiliser les dépenses de santé en « dépensant mieux » ; programme : « moins d’examens inutiles, de prescriptions inadaptées et d’hospitalisations évitables »",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "",
@@ -13012,6 +13724,154 @@
             {
               "titre": "Priorités « Prospère »",
               "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+            },
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
+        },
+        {
+          "id": "sante-02",
+          "theme": "sante",
+          "proposition": "« Investir plus pour la santé, remettre à l’équilibre l’Assurance maladie sans nouvel impôt. » : une partie des recettes d'autres branches « réaffectée à l’Assurance maladie », puis « ses recettes et ses dépenses progresseront au même rythme que la richesse nationale »",
+          "chiffrage_annonce": "aucun montant ; la page rappelle un déficit de la branche maladie de 16 Md€ en 2025",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
+        },
+        {
+          "id": "sante-03",
+          "theme": "sante",
+          "proposition": "« Construire avec les médecins le nouveau modèle de leur répartition sur le territoire et ainsi diminuer les délais de RDV. » ; « Régulation de l’installation des médecins si la concertation échoue. » ; « D’ici là, une obligation de solidarité » : « chaque médecin consacrera au moins une semaine par an à des consultations ou à des gardes » « dans les zones qui manquent de soignants, près de son lieu d’exercice. »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
+        },
+        {
+          "id": "sante-04",
+          "theme": "sante",
+          "proposition": "« Une équipe de soins primaires pluriprofessionnelle pour chaque Français. » ; confier aux infirmiers et aux pharmaciens « une partie du suivi des maladies chroniques, de la prévention et du renouvellement de certains traitements » ; « un plan de dépistage de l’hypertension sera lancé dans les pharmacies »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
+        },
+        {
+          "id": "sante-05",
+          "theme": "sante",
+          "proposition": "« 14 000 médecins formés par an pendant le quinquennat, 20 000 assistants médicaux et 10 000 infirmiers en pratique avancée » recrutés",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "quinquennat",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
+        },
+        {
+          "id": "sante-06",
+          "theme": "sante",
+          "proposition": "« Plafonnement des dépassements d’honoraires et obligation d’une part d’activité sans dépassement. »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
+        },
+        {
+          "id": "sante-07",
+          "theme": "sante",
+          "proposition": "Nouvelles vaccinations obligatoires : contre la grippe pour les soignants et les résidents d'Ehpad, et « contre les papillomavirus pour les filles comme pour les garçons pour éradiquer le cancer du col de l’utérus. » ; annoncée devant la Convention nationale des centres de lutte contre le cancer le 2026-11-24",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            },
+            {
+              "titre": "LCP, 2026-11-24",
+              "url": "https://lcp.fr/actualites/eradiquer-le-cancer-du-col-de-l-uterus-edouard-philippe-veut-rendre-obligatoire-la"
+            }
+          ]
+        },
+        {
+          "id": "sante-08",
+          "theme": "sante",
+          "proposition": "« Un bilan de santé mentale à l’école pour chaque enfant, à six et à douze ans. »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
+        },
+        {
+          "id": "sante-09",
+          "theme": "sante",
+          "proposition": "« Un hôpital plus libre dans ses recrutements et son fonctionnement. » ; « Transparence totale sur les résultats et la qualité des soins de chaque hôpital et clinique. »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
+        },
+        {
+          "id": "sante-10",
+          "theme": "sante",
+          "proposition": "Un assistant médical personnel fondé sur l'intelligence artificielle pour chaque Français, gratuit et hébergé en France, « qui ne remplacera jamais la décision du médecin. »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
+            }
+          ]
+        },
+        {
+          "id": "sante-11",
+          "theme": "sante",
+          "proposition": "Arrêts de travail : un employeur qui soupçonne un abus pourra le signaler, « ce qui entraînera un contrôle systématique »",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
             }
           ]
         },
@@ -13062,6 +13922,36 @@
             {
               "titre": "Orange Actualités (L'Express), 2026-10-27",
               "url": "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "description": "service national : la page « Défense » met désormais en avant « Le rétablissement d’un service national obligatoire et universel », civil ou militaire (europe-06) ; le service militaire volontaire de 50 000 places (europe-02) n'y figure plus ; l'écart relevé le 2026-11-12 est levé dans le sens de l'entretien au Point ; sans effet sur les dilemmes [Programme « Défense »](https://www.edouardphilippe.fr/programme/defense)",
+          "sources": [
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "description": "armements « made in Europe » : l'objectif d'au moins 1 % de la richesse nationale vise désormais les pays de l'Union européenne, et non plus les pays européens de l'OTAN (europe-07) [Programme « Défense »](https://www.edouardphilippe.fr/programme/defense)",
+          "sources": [
+            {
+              "titre": "Programme « Défense »",
+              "url": "https://www.edouardphilippe.fr/programme/defense"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "description": "publication d'une page « Santé » (12 mesures mises en avant) : régulation de l'installation des médecins si la concertation échoue et obligation de solidarité d'une semaine par an (sante-03), vaccinations obligatoires (sante-07) ; D-sante-deserts passe de « pas de position » à A [Programme « Santé »](https://www.edouardphilippe.fr/programme/sante)",
+          "sources": [
+            {
+              "titre": "Programme « Santé »",
+              "url": "https://www.edouardphilippe.fr/programme/sante"
             }
           ]
         }
@@ -15386,12 +16276,12 @@
       "nom": "François Ruffin",
       "parti": "Debout !",
       "famille_politique": "gauche",
-      "statut": "déclaré",
-      "inclus": true,
+      "statut": "retiré",
+      "inclus": false,
       "date_declaration": "2026-01-26",
       "programme_url": "https://nouspresident.fr/cahiers-de-campagne/",
       "programme_version": "« Cahiers de campagne » de Nous président ! (7 cahiers thématiques, 2026-04-13 à 2026-10-15) + Plan DATA CENTERS (2026-10-08) + déclarations de campagne (2026-01-26 à 2026-10-22)",
-      "derniere_maj": "2026-10-31",
+      "derniere_maj": "2026-11-28",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse ciblée sur les dividendes et certains revenus immobiliers",
@@ -16421,8 +17311,8 @@
       "inclus": true,
       "date_declaration": "2025-10-22",
       "programme_url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
-      "programme_version": "« Pour une prospérité écologique », programme des Écologistes (juillet 2026, 557 mesures) + déclarations et annonces de campagne (2025-10-22 à 2026-11-18), dont le livret culture (novembre 2026)",
-      "derniere_maj": "2026-11-21",
+      "programme_version": "« Pour une prospérité écologique », programme des Écologistes (juillet 2026, 557 mesures) + déclarations et annonces de campagne (2025-10-22 à 2026-11-24), dont le livret culture (novembre 2026) et la présentation du livret « Pour un État-providence climatique » (2026-11-24, livret non lu)",
+      "derniere_maj": "2026-11-28",
       "positions": {
         "Q-eco-impots": {
           "position": "hausse ciblée sur les plus fortunés, le capital et les plus émetteurs",
@@ -17144,7 +18034,7 @@
         {
           "id": "social-04",
           "theme": "social",
-          "proposition": "« Créer un congé climatique de 5 jours par an pour protéger les travailleur·ses face aux températures extrêmes », financé à parité par les employeurs et la Sécurité sociale (programme) ; « congé climatique » cité au discours de Grenoble",
+          "proposition": "« Créer un congé climatique de 5 jours par an pour protéger les travailleur·ses face aux températures extrêmes », financé à parité par les employeurs et la Sécurité sociale (programme) ; « congé climatique » cité au discours de Grenoble ; première des propositions citées lors de la présentation du livret « Pour un État-providence climatique » au Salon des maires par l'équipe de campagne (2026-11-24, 12 propositions annoncées, livret non lu)",
           "chiffrage_annonce": "",
           "chiffrage_independant": "",
           "calendrier": "annuel",
@@ -17156,6 +18046,10 @@
             {
               "titre": "marinetondelier.fr, discours, 2026-08-21",
               "url": "https://marinetondelier.fr/blog/discours-jde"
+            },
+            {
+              "titre": "marinetondelier.fr, journal de campagne, épisode 55, 2026-11-24",
+              "url": "https://marinetondelier.fr/journal-de-campagne/etat-providence-climatique-salon-des-maires"
             }
           ]
         },
@@ -17340,6 +18234,20 @@
             {
               "titre": "P, juillet 2026, p. 30, 42 et 50",
               "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+            }
+          ]
+        },
+        {
+          "id": "env-08",
+          "theme": "env",
+          "proposition": "Réformer le régime d'indemnisation des catastrophes naturelles, dans un « État-providence climatique » couvrant les nouveaux risques (canicules, inondations, incendies) ; proposition citée sans détail lors de la présentation du livret au Salon des maires (livret non lu)",
+          "chiffrage_annonce": "",
+          "chiffrage_independant": "",
+          "calendrier": "",
+          "sources": [
+            {
+              "titre": "marinetondelier.fr, journal de campagne, épisode 55, 2026-11-24",
+              "url": "https://marinetondelier.fr/journal-de-campagne/etat-providence-climatique-salon-des-maires"
             }
           ]
         },
@@ -20414,22 +21322,6 @@
       "D-eco-pouvoir-achat": {
         "A": [
           {
-            "candidat": "ruffin-francois",
-            "proposition": "social-01",
-            "texte": "Porter à 1 700 euros net par mois le salaire minimum",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "C01, 2026-04-13",
-                "url": "https://nouspresident.fr/statut-travailleurs-essentiels/"
-              },
-              {
-                "titre": "Lyon Capitale, 2026-04-26",
-                "url": "https://www.lyoncapitale.fr/?p=495954"
-              }
-            ]
-          },
-          {
             "candidat": "tondelier-marine",
             "proposition": "social-01",
             "texte": "Porter à 2 000 euros brut par mois le salaire minimum, avec des aides pour les petites et moyennes entreprises et les associations",
@@ -20450,9 +21342,17 @@
           {
             "candidat": "attal-gabriel",
             "proposition": "social-04",
-            "texte": "Baisser les cotisations sociales prélevées sur les salaires pour que le salaire net se rapproche du salaire brut",
+            "texte": "Supprimer des cotisations prélevées sur les salaires pour augmenter de 250 euros par mois le salaire net médian",
             "texte_court": true,
             "sources": [
+              {
+                "titre": "attalpresident.fr, mesure « Droit au brut » (2026-07-22)",
+                "url": "https://attalpresident.fr/programme/mesures/droit-au-brut"
+              },
+              {
+                "titre": "attalpresident.fr, LCI, 2026-11-16",
+                "url": "https://attalpresident.fr/actualites/gabriel-attal-lci-restos-du-coeur-nouveau-modele-social"
+              },
               {
                 "titre": "Public Sénat, 2026-05-30",
                 "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
@@ -20672,6 +21572,10 @@
               {
                 "titre": "Budget 2027, p. 8",
                 "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+              },
+              {
+                "titre": "Plan « Abolir la pauvreté », LFI, 2026-11-16, p. 17-18",
+                "url": "https://melenchon2027.fr/wp-content/uploads/2026/11/PLAN-ABOLIR-LA-PAUVRETE.pdf"
               }
             ]
           }
@@ -20688,6 +21592,18 @@
               {
                 "titre": "NE, « Réussir »",
                 "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
+              },
+              {
+                "titre": "Nouvelle Énergie, Grand Oral BFMTV-Le Figaro, 2026-11-22",
+                "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-bfmtv-le-figaro-je-veux-faire-le-menage-au-sommet-de-letat/"
+              },
+              {
+                "titre": "Nouvelle Énergie, France 2, 2026-11-25",
+                "url": "https://www.unenouvelleenergie.fr/on-ne-peut-plus-se-permettre-darriver-divises-au-premier-tour/"
+              },
+              {
+                "titre": "Nouvelle Énergie, C à vous, 2026-11-26",
+                "url": "https://www.unenouvelleenergie.fr/je-suis-pour-un-etat-fort-la-ou-il-est-necessaire/"
               }
             ]
           },
@@ -20788,6 +21704,10 @@
             "texte_court": true,
             "sources": [
               {
+                "titre": "attalpresident.fr, « Mes chantiers capitaux »",
+                "url": "https://attalpresident.fr/programme"
+              },
+              {
                 "titre": "attalpresident.fr, Assises de l'AFER, 2026-09-29",
                 "url": "https://attalpresident.fr/actualites/aux-assises-de-l-afer-gabriel-attal-defend-une-epargne-qui-finance-l-economie-francaise"
               },
@@ -20867,6 +21787,10 @@
             "texte": "Réduire à 15 mois la durée maximale de versement des allocations chômage",
             "texte_court": true,
             "sources": [
+              {
+                "titre": "attalpresident.fr, mesure « Réformer l'assurance chômage et réaliser cinq milliards d'économies »",
+                "url": "https://attalpresident.fr/programme/mesures/reforme-assurance-chomage-cinq-milliards"
+              },
               {
                 "titre": "attalpresident.fr, « Dette de l'État »",
                 "url": "https://attalpresident.fr/programme/dette-de-letat"
@@ -20966,18 +21890,6 @@
               {
                 "titre": "AEC 2026, partie 2 ch. 2",
                 "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2/"
-              }
-            ]
-          },
-          {
-            "candidat": "ruffin-francois",
-            "proposition": "social-02",
-            "texte": "Payer double les heures travaillées tôt le matin ou en soirée dans les métiers considérés comme essentiels",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "C01, 2026-04-13",
-                "url": "https://nouspresident.fr/statut-travailleurs-essentiels/"
               }
             ]
           }
@@ -21127,18 +22039,6 @@
                 "url": "https://www.generationecologie.fr/2026/06/22/quelle-politique-energetique-pour-la-france/"
               }
             ]
-          },
-          {
-            "candidat": "ruffin-francois",
-            "proposition": "env-01",
-            "texte": "Porter à 15 milliards d'euros par an l'effort de rénovation des logements, pour réduire les besoins en énergie",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "C05, 2026-09-09",
-                "url": "https://nouspresident.fr/travaillisme-ecologique/"
-              }
-            ]
           }
         ]
       },
@@ -21207,18 +22107,6 @@
               {
                 "titre": "AEC 2026, partie 1 ch. 1",
                 "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/"
-              }
-            ]
-          },
-          {
-            "candidat": "ruffin-francois",
-            "proposition": "eco-01",
-            "texte": "Créer, après référendum, une taxe de 4 % sur les dividendes des entreprises, réduite pour celles qui en versent peu, pour financer la transition écologique",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "C05, 2026-09-09",
-                "url": "https://nouspresident.fr/travaillisme-ecologique/"
               }
             ]
           },
@@ -21378,7 +22266,7 @@
           {
             "candidat": "philippe-edouard",
             "proposition": "secu-08",
-            "texte": "Voter une loi pour construire plus vite de nouvelles prisons",
+            "texte": "Construire 30 000 places de prison pour les courtes peines, avec une loi pour aller plus vite",
             "texte_court": true,
             "sources": [
               {
@@ -21472,6 +22360,10 @@
               {
                 "titre": "attalpresident.fr, « Frontières »",
                 "url": "https://attalpresident.fr/programme/frontieres"
+              },
+              {
+                "titre": "attalpresident.fr, mesure « Instaurer un système à points pour l'immigration »",
+                "url": "https://attalpresident.fr/programme/mesures/immigration-systeme-a-points"
               }
             ]
           },
@@ -21497,6 +22389,10 @@
             "texte": "Fixer des quotas d'étrangers autorisés à venir travailler en France",
             "texte_court": true,
             "sources": [
+              {
+                "titre": "Programme « Immigration »",
+                "url": "https://www.edouardphilippe.fr/programme/immigration"
+              },
               {
                 "titre": "Priorités « Sûre »",
                 "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
@@ -21534,22 +22430,6 @@
               {
                 "titre": "AEC 2026, partie 6 ch. 3",
                 "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
-              }
-            ]
-          },
-          {
-            "candidat": "ruffin-francois",
-            "proposition": "immig-01",
-            "texte": "Régulariser les étrangers sans papiers déjà présents en France, sans faire venir de nouveaux travailleurs étrangers",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "francoisruffin.fr, 2026-04-29",
-                "url": "https://francoisruffin.fr/pourquoi-le-medef-veut-39-millions-de-travailleurs-immigres/"
-              },
-              {
-                "titre": "Public Sénat, 2026-05-11",
-                "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-limmigration-nouveau-clivage-a-gauche"
               }
             ]
           },
@@ -21606,18 +22486,6 @@
               {
                 "titre": "La Gazette France (AFP), 2026-09-17",
                 "url": "https://www.lagazettefrance.fr/article/gabriel-attal-plaide-pour-des-etats-unis-d-europe-le-projet-d-une-generation"
-              }
-            ]
-          },
-          {
-            "candidat": "ruffin-francois",
-            "proposition": "europe-01",
-            "texte": "Obtenir que la politique commerciale de l'Union européenne passe du libre-échange à la protection",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "Le Grand Continent, 2026-02-25",
-                "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/"
               }
             ]
           },
@@ -21820,18 +22688,6 @@
               {
                 "titre": "Datan, votes de la députée",
                 "url": "https://datan.fr/deputes/deux-sevres-79/depute_delphine-batho/votes"
-              }
-            ]
-          },
-          {
-            "candidat": "ruffin-francois",
-            "proposition": "europe-03",
-            "texte": "Construire une défense de l'Europe par la coopération entre pays volontaires, sans la confier à la Commission européenne",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "Le Grand Continent, 2026-02-25",
-                "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/"
               }
             ]
           },
@@ -22085,6 +22941,18 @@
             ]
           },
           {
+            "candidat": "philippe-edouard",
+            "proposition": "sante-03",
+            "texte": "Obliger chaque médecin à travailler au moins une semaine par an dans une zone qui manque de soignants, proche de son lieu d'exercice",
+            "texte_court": true,
+            "sources": [
+              {
+                "titre": "Programme « Santé »",
+                "url": "https://www.edouardphilippe.fr/programme/sante"
+              }
+            ]
+          },
+          {
             "candidat": "tondelier-marine",
             "proposition": "sante-01",
             "texte": "Soumettre l'installation des médecins libéraux à une autorisation, accordée d'office là où les médecins manquent et, ailleurs, seulement quand un médecin cesse son activité",
@@ -22211,18 +23079,6 @@
               {
                 "titre": "Public Sénat, 2026-09-03 (réforme constitutionnelle)",
                 "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"
-              }
-            ]
-          },
-          {
-            "candidat": "ruffin-francois",
-            "proposition": "instit-03",
-            "texte": "Permettre aux citoyens de proposer eux-mêmes des référendums",
-            "texte_court": true,
-            "sources": [
-              {
-                "titre": "C05, 2026-09-09",
-                "url": "https://nouspresident.fr/travaillisme-ecologique/"
               }
             ]
           },

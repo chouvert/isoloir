@@ -1,12 +1,21 @@
 # Application de la règle d'inclusion
 
-Règle : README, « Candidats inclus ». Situation au **2026-11-21**, à réexaminer à chaque mise à jour
+Règle : README, « Candidats inclus ». Situation au **2026-11-28**, à réexaminer à chaque mise à jour
 importante des candidatures et des sondages.
 
 Fiches en attente (README, « Candidats inclus ») : un candidat retenu n'a sa fiche qu'après avoir publié un programme,
-même partiel, ou un site de campagne. Au **2026-11-24** : Teddy Riner (déclaré le 2026-11-09 ; programme et équipe
-annoncés « dans les semaines qui suivent »). Dominique de Villepin, qui a présenté 258 propositions le 2026-11-20, a
+même partiel, ou un site de campagne. Au **2026-11-28** : Teddy Riner (déclaré le 2026-11-09 ; programme et équipe
+annoncés « dans les semaines qui suivent » ; aucun programme ni site de campagne trouvé dans une page lue le 2026-11-28). Dominique de Villepin, qui a présenté 258 propositions le 2026-11-20, a
 sa fiche.
+
+Contrôle du **2026-11-28** (mise à jour 2026-S48) : **sortie de François Ruffin**, qui a retiré sa candidature le
+2026-11-21 (« Face au risque du pire, je retire ma candidature à l'élection présidentielle »), sans se rallier à un
+autre candidat ([Orange Actualités (L'Express), 2026-11-21](https://actu.orange.fr/politique/presidentielle-2027-francois-ruffin-annonce-le-retrait-de-sa-candidature-l-express-via-6medias-CNT000002tWgKp.html)) : fiche conservée, statut `retiré`.
+Aucune entrée. Deux nouveaux sondages : Toluna Harris Interactive pour M6, RTL et L'Express (18 – 19 nov.,
+hypothèse 1 : Riner 4 %, Villepin 1 %, Dupont-Aignan 1 % ; Villepin 2 % dans les hypothèses 2 et 3) et OpinionWay
+pour CNews (25 – 26 nov., hypothèse unique : Villepin 2 %, Riner 2 %, Dupont-Aignan 2 %) : Riner, Villepin et
+Dupont-Aignan restent inclus. Primaire de la droite et du centre : calendrier (janvier) non acté
+([LCP, 2026-11-18](https://lcp.fr/actualites/presidentielle-2027-entre-gabriel-attal-bruno-retailleau-et-david-lisnard-une-primaire)).
 
 Contrôle du **2026-11-21** (mise à jour 2026-S47) : **entrée de Dominique de Villepin** (fiche à rédiger) ; aucune
 sortie. Il a déclaré sa candidature le 2026-11-20 en conférence de presse (« Je suis candidat à l'élection
@@ -58,6 +67,8 @@ Premier tour, en % des suffrages exprimés, toutes hypothèses publiées.
 | OpinionWay | CNews | 10 – 12 nov. | 1 001 | 2 | [notice 10371](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf) |
 | YouGov | Le HuffPost | 12 – 17 nov. | 952 inscrits | 5 | [rapport YouGov](https://ygo-assets-websites-editorial-emea.yougov.net/documents/R%C3%A9sultats_YouGov_pour_le_HuffPost_Intentions_de_vote_Novembre_2026_17.11.2026.pdf) |
 | Ifop-Fiducial | TF1-LCI, Le Figaro, Sud Radio | 13 – 16 nov. | 1 690 inscrits | 5 | [notice 10384](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10384-pres-iv-ifop-18-novembre.pdf) |
+| Toluna Harris Interactive | M6, RTL, L'Express | 18 – 19 nov. | 2 088 inscrits | 3 | [rapport Toluna, vague 10](https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf) |
+| OpinionWay | CNews | 25 – 26 nov. | 912 inscrits | 1 | [notice 10400](https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10400-pres-iv-vague-5-opinionway-26-novembre.pdf) |
 
 Sept instituts distincts : Cluster17, Elabe, Ifop, Ipsos bva, OpinionWay, Toluna Harris Interactive, YouGov (ajouté le
 2026-11-21 ; les fourchettes du tableau suivant n'ont été mises à jour que pour les candidats dont l'inclusion change
@@ -94,8 +105,8 @@ remplit le critère avec la lecture fixée par Julien le 2026-11-14 (2 % dans au
 et 2 % chez Cluster17 pour Politico (9 – 10 nov., [rapport Cluster17](https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf)).
 L'Ifop du 9 – 10 novembre (22 % prêts à voter pour lui) mesure un potentiel et n'est pas compté.
 
-Autres candidats testés : Fabien Roussel 1 – 3 % et François Ruffin 1,5 – 3 % (inclus au titre des
-parlementaires) ; Natacha Polony 1 – 2,5 % (2 % ou plus chez Cluster17 seulement) ; Karim Bouamrane
+Autres candidats testés : Fabien Roussel 1 – 3 % (inclus au titre des
+parlementaires) ; François Ruffin 1,5 – 3 % (retiré le 2026-11-21) ; Natacha Polony 1 – 2,5 % (2 % ou plus chez Cluster17 seulement) ; Karim Bouamrane
 et François Asselineau 1 % au plus ; Nathalie Arthaud 0,5 – 1 %.
 
 ## Inclus au titre des parlementaires du parti
@@ -104,13 +115,13 @@ et François Asselineau 1 % au plus ; Nathalie Arthaud 0,5 – 1 %.
 |-----------------|----------------------|----------------|--------|---------|
 | Fabien Roussel  | PCF                  | 14 députés rattachés au PCF | investi le 2026-09-06 (72 % des adhérents) ; fiche `roussel-fabien` ; le 2026-11-05, neuf des dix-sept députés du groupe communiste et ultramarin ont déclaré soutenir Jean-Luc Mélenchon, sans quitter le PCF selon Parlons Politique : Roussel reste le candidat investi et le critère reste rempli ([Parlons Politique, 2026-11-05](https://www.parlons-politique.fr/elections/presidentielle-2027-le-soutien-de-neuf-deputes-communistes-a-melenchon-peut-il-rebattre-les-cartes-a-gauche_30850/)) | [LCP, 2026-09-06](https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389) ; [Datan](https://datan.fr/partis-politiques/pcf) |
 | Delphine Batho  | Génération écologie  | elle-même, députée des Deux-Sèvres et présidente du parti | déclarée le 2025-11-25 ; fiche `batho-delphine` | [L'Info Durable, 2025-11-25](https://www.linfodurable.fr/lex-ministre-delphine-batho-candidate-la-presidentielle-pour-conjurer-la-rikikisation-de-lecologie) |
-| François Ruffin | Debout !             | lui-même, seul député du mouvement (Somme) | déclaré le 2026-01-26 (TF1) ; condition « s'il n'y a pas de primaire » remplie (primaire unitaire abandonnée en juillet 2026) ; fiche `ruffin-francois` | [Wikipédia, Debout !](https://en.wikipedia.org/wiki/Debout!) ; [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) |
 
 ## Non inclus à ce jour
 
 | candidat               | raison | sources |
 |------------------------|--------|---------|
 | Karim Bouamrane        | Candidature portée par son mouvement « La France humaine et forte » ; le PS, dont il est membre, a désigné Raphaël Glucksmann par la primaire du 2026-10-11 | [Repère 2027](https://repere2027.fr/candidats/karim-bouamrane/) ; [Toute l'Europe, 2026-10-11](https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-l-eurodepute-raphael-glucksmann-remporte-largement-la-primaire-de-la-gauche-sociale-democrate/) |
+| François Ruffin | Retrait de sa candidature le 2026-11-21 (statut `retiré`, fiche `ruffin-francois` conservée) ; Debout ! remplissait le critère des parlementaires | [Orange Actualités (L'Express), 2026-11-21](https://actu.orange.fr/politique/presidentielle-2027-francois-ruffin-annonce-le-retrait-de-sa-candidature-l-express-via-6medias-CNT000002tWgKp.html) |
 | Olivier Becht          | Député, mais candidat indépendant (« Mon parti, ce sont les Français »), sans soutien de parti | [Parlons Politique](https://www.parlons-politique.fr/elections/candidature-presidentielle-2027-olivier-becht-mise-sur-lindependance-pour-convaincre-les-electeurs-eloignes-des-partis_27747/) |
 | Bernard Cazeneuve      | La Convention revendique une trentaine de parlementaires, mais la candidature n'est pas déclarée selon LCP ; à inclure dès sa déclaration | [La Gazette France, 2026-04-23](https://www.lagazettefrance.fr/article/bernard-cazeneuve-affiche-sa-determination-totale-pour-2027) ; [LCP, liste des candidats](https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373) |
 | Xavier Bertrand        | Pas encore déclaré ; annonce une candidature indépendante | [LCP, 2026-08-27](https://lcp.fr/actualites/2027-figure-de-la-droite-xavier-bertrand-confirme-qu-il-sera-candidat-a-l-election) |

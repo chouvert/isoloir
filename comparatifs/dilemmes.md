@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-25
+derniere_maj: 2026-11-28
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -25,7 +25,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 | D-europe-regles | B | pas de position | D | pas de position | D | C | D | pas de position | C | pas de position | B | B | B | D |
 | D-europe-defense | A | B | A | B | D | A | D | A | pas de position | D | B | B | A | pas de position |
 | D-educ-niveau | B | pas de position | B | B | B | C | A | B | B | A | pas de position | A | B | D |
-| D-sante-deserts | pas de position | pas de position | B | pas de position | pas de position | B | A | pas de position | pas de position | pas de position | pas de position | A | D | C |
+| D-sante-deserts | pas de position | pas de position | B | pas de position | pas de position | B | A | A | pas de position | pas de position | pas de position | A | D | C |
 | D-instit-participation | D | pas de position | A | C | B | A | A | pas de position | A | pas de position | A | A | A | pas de position |
 
 ## Couverture par candidat
@@ -39,7 +39,7 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 | Marine Le Pen | 9 | 1 | 3 |
 | David Lisnard | 12 | 1 | 0 |
 | Jean-Luc Mélenchon | 13 | 0 | 0 |
-| Édouard Philippe | 9 | 0 | 4 |
+| Édouard Philippe | 10 | 0 | 3 |
 | Bruno Retailleau | 10 | 0 | 3 |
 | Fabien Roussel | 5 | 0 | 8 |
 | François Ruffin | 8 | 0 | 5 |
@@ -178,11 +178,11 @@ Ces réponses alimentent le calcul de proximité (`referentiel/methode-proximite
 
 > Pour lutter contre les déserts médicaux, quelle mesure accepteriez-vous en priorité ?
 
-- **A** — Obliger les jeunes médecins à exercer quelques années dans les zones sous-dotées : Mélenchon, Tondelier
+- **A** — Obliger les jeunes médecins à exercer quelques années dans les zones sous-dotées : Mélenchon, Philippe, Tondelier
 - **B** — Mieux rémunérer les médecins qui s'installent dans ces zones : Dupont-Aignan, Lisnard
 - **C** — Confier davantage d'actes aux pharmaciens et aux infirmiers : Zemmour
 - **D** — Développer fortement la téléconsultation : de Villepin
-- *pas de position* : Attal, Batho, Glucksmann, Le Pen, Philippe, Retailleau, Roussel, Ruffin
+- *pas de position* : Attal, Batho, Glucksmann, Le Pen, Retailleau, Roussel, Ruffin
 
 ## Institutions & démocratie
 

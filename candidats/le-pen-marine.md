@@ -6,10 +6,10 @@ famille_politique: extrême droite
 statut: déclaré
 date_declaration: 2026-07-07
 programme_url:
-programme_version: pas de programme publié au 2026-11-21 ; déclarations de campagne (2026-07-07 à 2026-11-17, meeting d'Orléans et présentation de la réforme des retraites compris) + proposition de loi constitutionnelle « Citoyenneté-Identité-Immigration » (2024-01-25)
+programme_version: pas de programme publié au 2026-11-28 ; déclarations de campagne (2026-07-07 à 2026-11-27, meeting d'Orléans et présentation de la réforme des retraites compris) + proposition de loi constitutionnelle « Citoyenneté-Identité-Immigration » (2024-01-25)
 programme_lu:
 programme_lu_le:
-derniere_maj: 2026-11-21
+derniere_maj: 2026-11-28
 ---
 
 # Marine Le Pen
@@ -124,7 +124,10 @@ Réponse : lettre d'option (A, B…), « aucune » ou « pas de position ». -->
 ## Propositions phares
 <!-- Règle : README, « Propositions phares ». Pas de programme ni de résumé en quelques mesures publié au
 2026-11-21 : les annonces dédiées les plus récentes au contenu vérifiable. Ajouté le 2026-11-21 : présentation de la
-réforme des retraites (2026-11-17). Non retenus (2026-11-21) : « Brevet présidentiel » de LCP (2026-11-16), émission
+réforme des retraites (2026-11-17). Non retenus (2026-11-28) : conférence de presse sur les outre-mer au siège du RN
+(2026-11-27), annonce dédiée mais contenu non lu (seul compte rendu trouvé : LCP, sur la réponse en marge relative au
+secret de l'instruction, secu-02, réaction d'actualité) : à réexaminer dès qu'un compte rendu des mesures ultramarines
+est lu. Non retenus (2026-11-21) : « Brevet présidentiel » de LCP (2026-11-16), émission
 multi-thèmes (permis, APL, climatisation des écoles), non lue ; débat des Restos du Cœur sur TF1 et LCI (2026-11-16),
 débat entre candidats.
 Écartés (relecture du 2026-10-31) : meeting d'Orléans (2026-10-25), multi-thèmes (sécurité, immigration,
@@ -183,6 +186,7 @@ lancement de La Flèche (2026-07-08) et TF1 (2026-07-07), sans thème unique. --
 | id      | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
 |---------|-------------|-------------------|-----------------------|------------|--------|
 | secu-01 | Organiser un référendum contre les « idéologies islamistes », suivi d'un décret interdisant le voile de « manière progressive », d'abord dans les universités, les sorties scolaires, les fédérations sportives et les bâtiments publics | | | après le référendum sur l'immigration | [La Gazette France (AFP), 2026-09-16](https://www.lagazettefrance.fr/article/interdiction-du-voile-le-pen-veut-le-faire-de-maniere-progressive) |
+| secu-02 | Aggraver les peines pour mettre fin au « recel » de violation du secret de l'enquête et de l'instruction par les médias (réponse à une question sur les enquêtes visant le RN, lors d'une conférence de presse sur les outre-mer au siège du RN, 2026-11-27) | | | si elle est élue | [LCP, 2026-11-27](https://lcp.fr/actualites/si-elle-est-elue-marine-le-pen-veut-obliger-les-journalistes-a-respecter-le-secret-de-l) |
 
 ### immig — Immigration
 | id       | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |

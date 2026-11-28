@@ -23,14 +23,14 @@ est noté « refusé le AAAA-MM-JJ » dans la colonne décision et n'est plus pr
 |-------|-------|----------|-----------|-------------|----------|
 | Mix électrique et sortie du nucléaire (calendrier du 100 % renouvelables) | env | 2026-S45 | Mélenchon | D-env-electricite, Q-env-nuc, Q-env-renouv | |
 | Règle verte dans la Constitution | env | 2026-S45 | Mélenchon | D-env-rythme, Q-instit-constit | |
-| Service national ou conscription | europe | 2026-S45, 2026-S46 | Mélenchon (S45) ; Philippe (S46 : service militaire volontaire, écart avec un service obligatoire) | non couvert | |
+| Service national ou conscription | europe | 2026-S45, 2026-S46, 2026-S48 | Mélenchon (S45) ; Philippe (S46 : service militaire volontaire, écart avec un service obligatoire) ; S48 : Philippe (service national « obligatoire et universel », 250 000 réservistes) | non couvert |  |
 | Objectif de dépenses militaires de l'OTAN (5 % du PIB) | europe | 2026-S45 | Mélenchon | Q-europe-defense | |
 | Effort de défense : massification, armements européens | europe | 2026-S46 | Philippe | D-europe-defense, Q-europe-defense | |
 | Moratoire sur des règles européennes | europe | 2026-S45 | Mélenchon | D-europe-regles, Q-europe-traites | |
 | Avenir institutionnel de la Nouvelle-Calédonie | instit | 2026-S45 | Mélenchon | non couvert | |
 | Pétitions citoyennes débattues au Parlement | instit | 2026-S45 | Mélenchon | Q-instit-referend | |
 | Prévention et dépistage des cancers, santé environnementale | sante | 2026-S45 | Batho (parti : Génération écologie) | non couvert | |
-| Effectifs de la fonction publique (recrutements ou suppressions de postes) | eco | 2026-S46, 2026-S47 | Roussel (+500 000), Tondelier (+250 000 à 350 000), Zemmour (−800 000), Attal (−100 000), Mélenchon (22 Md€ pour les services publics) ; déjà dans les fiches Philippe, Retailleau ; S47 : Philippe (−250 000 sur le quinquennat, confirmé), Villepin (« rénovation de la fonction publique », fiche à rédiger) | non couvert (en partie D-eco-dette, Q-eco-deficit) | déclencheur « sujet nouveau » atteint : PR « Référentiel : effectifs de la fonction publique » (2026-11-14) |
+| Effectifs de la fonction publique (recrutements ou suppressions de postes) | eco | 2026-S46, 2026-S47, 2026-S48 | Roussel (+500 000), Tondelier (+250 000 à 350 000), Zemmour (−800 000), Attal (−100 000), Mélenchon (22 Md€ pour les services publics) ; déjà dans les fiches Philippe, Retailleau ; S47 : Philippe (−250 000 sur le quinquennat, confirmé), Villepin (« rénovation de la fonction publique », fiche à rédiger) ; S48 : Lisnard (réduction nette d'environ 400 000 postes) | non couvert (en partie D-eco-dette, Q-eco-deficit) | déclencheur « sujet nouveau » atteint : PR « Référentiel : effectifs de la fonction publique » (2026-11-14) |
 | Orientation scolaire et voie professionnelle (collège unique, bac pro) | educ | 2026-S46 | Philippe (orientation dès la 5e), Zemmour (fin du collège unique), Mélenchon (bac pro en 4 ans) | non couvert | déclencheur atteint, reporté (un changement de référentiel par semaine) ; PR « Référentiel » proposée en 2026-S47 |
 | Plan d'investissement de transition chiffré et taxes sur les secteurs émetteurs | env | 2026-S46 | Glucksmann | D-env-rythme, Q-env-climat | |
 | Taxation des très grands patrimoines | eco | 2026-S46 | Glucksmann | Q-eco-patrimoine | |
@@ -41,15 +41,15 @@ est noté « refusé le AAAA-MM-JJ » dans la colonne décision et n'est plus pr
 | Salaire et recrutement des enseignants | educ | 2026-S46 | Philippe, Attal, Roussel, Glucksmann | D-educ-niveau, Q-educ-enseign | |
 | Évaluations, fondamentaux, autonomie des établissements | educ | 2026-S46 | Philippe, Lisnard | D-educ-niveau | |
 | Organisation du ministère (ministère du savoir) | educ | 2026-S46 | Lisnard | non couvert | |
-| Parcoursup et sélection à l'université | educ | 2026-S46, 2026-S47 | Glucksmann (S46) ; Philippe (S47 : « assumer la sélection à l'université ») | Q-educ-univ | |
+| Parcoursup et sélection à l'université | educ | 2026-S46, 2026-S47, 2026-S48 | Glucksmann (S46) ; Philippe (S47 : « assumer la sélection à l'université ») ; S48 : Retailleau (suppression de Parcoursup, dépêche AFP non lue) | Q-educ-univ |  |
 | Mixité sociale dans l'enseignement privé | educ | 2026-S46 | Glucksmann | non couvert | |
 | Téléphone portable à l'école | educ | 2026-S46 | Philippe | non couvert | |
-| Prisons et exécution des peines | secu | 2026-S46 | Philippe, Zemmour, Attal | D-secu-budget, Q-secu-justice | |
+| Prisons et exécution des peines | secu | 2026-S46, 2026-S48 | Philippe, Zemmour, Attal ; S48 : Philippe (30 000 places) | D-secu-budget, Q-secu-justice |  |
 | Magistrats, greffiers, juges de paix | secu | 2026-S46 | Tondelier, Philippe | D-secu-budget, Q-secu-justice | |
 | Effectifs de police et de gendarmerie | secu | 2026-S46 | Roussel, Glucksmann | D-secu-budget, Q-secu-effectifs | |
 | LBD et polices municipales | secu | 2026-S46 | Roussel | non couvert | |
-| Déserts médicaux : installation, délégation de tâches | sante | 2026-S46 | Tondelier, Zemmour | D-sante-deserts, Q-sante-acces | |
-| Retraites : âge, durée, capitalisation | social | 2026-S46, 2026-S47 | Philippe, Lisnard (S46) ; Le Pen (capitalisation obligatoire, départ de 60 à 62 ans), Philippe (livret du 2026-11-18), Lisnard (tribune non lue) (S47) | D-social-retraites, Q-social-retraite | |
+| Déserts médicaux : installation, délégation de tâches | sante | 2026-S46, 2026-S48 | Tondelier, Zemmour ; S48 : Philippe (semaine de solidarité, régulation en dernier recours) | D-sante-deserts, Q-sante-acces |  |
+| Retraites : âge, durée, capitalisation | social | 2026-S46, 2026-S47, 2026-S48 | Philippe, Lisnard (S46) ; Le Pen (capitalisation obligatoire, départ de 60 à 62 ans), Philippe (livret du 2026-11-18), Lisnard (tribune non lue) (S47) ; S48 : Lisnard (tribune lue : capitalisation collective obligatoire), Attal (durée de cotisation plutôt qu'âge légal, page non lue) | D-social-retraites, Q-social-retraite |  |
 | Gestion des retraites par les partenaires sociaux | social | 2026-S46 | Philippe | non couvert | |
 | Chômage et RSA, apprentissage | social | 2026-S46 | Philippe, Zemmour | D-social-chomage, Q-social-chomage | |
 | Congés et temps partiel après une naissance | social | 2026-S46 | Philippe | non couvert | |
@@ -58,15 +58,27 @@ est noté « refusé le AAAA-MM-JJ » dans la colonne décision et n'est plus pr
 | Nucléaire et renouvelables | env | 2026-S46 | Philippe | D-env-electricite, Q-env-nuc, Q-env-renouv | |
 | Prix du carbone aux frontières | env | 2026-S46 | Philippe | non couvert | |
 | Agences de l'État et normes | eco | 2026-S46 | Philippe | non couvert | |
-| Innovation, IA, agence de recherche de rupture | eco | 2026-S46 | Lisnard | non couvert | |
+| Innovation, IA, agence de recherche de rupture | eco | 2026-S46, 2026-S47, 2026-S48 | Lisnard ; S47 : Tondelier (IA et droits d'auteur) ; S48 : Attal (plan IA, puissance de calcul européenne, tuteur IA), Dupont-Aignan (fonds souverain pour l'IA, préférence nationale dans les marchés publics), Philippe (assistant IA en santé, services publics) | non couvert | déclencheur « sujet nouveau » atteint (S48 : au moins 3 candidats) : voir la PR de la semaine |
 | Niveau de l'immigration et référendum migratoire | immig | 2026-S46 | Zemmour | Q-immig-niveau, Q-instit-referend | |
 | Ukraine : vote des populations sur les frontières | europe | 2026-S46 | Mélenchon | Q-europe-ukraine | |
 | Services publics de proximité (guichet à 15 minutes) | instit | 2026-S46 | Tondelier | non couvert | |
 | Culture | non classé | 2026-S46, 2026-S47 | Tondelier (S46 : propositions non lues ; S47 : livret lu, +1 Md€ pour la culture) | non couvert | |
 | Régularisation des travailleurs sans papiers | immig | 2026-S47 | Glucksmann (proposition de loi PS reprise dans son programme) | D-immig-travail | |
 | Vidéoprotection algorithmique et reconnaissance faciale | secu | 2026-S47 | Philippe | non couvert | |
-| Aides à la famille et à la naissance (allocation dès le premier enfant, prêt à taux zéro) | social | 2026-S47 | Philippe | non couvert (en partie D-eco-pouvoir-achat) | |
+| Aides à la famille et à la naissance (allocation dès le premier enfant, prêt à taux zéro) | social | 2026-S47, 2026-S48 | Philippe ; S48 : Attal (1 000 € par nouveau-né, livret garde d'enfant, pensions alimentaires ; pages en partie non lues) | non couvert (en partie D-eco-pouvoir-achat) |  |
 | Zéro artificialisation nette | env | 2026-S47 | Philippe (suppression) | non couvert | |
-| Pauvreté : garantie d'autonomie, blocage des prix et des loyers | social | 2026-S47 | Mélenchon (plan de LFI) | D-eco-pouvoir-achat (en partie) | |
+| Pauvreté : garantie d'autonomie, blocage des prix et des loyers | social | 2026-S47, 2026-S48 | Mélenchon (plan de LFI) ; S48 : Mélenchon (plan lu : garantie d'autonomie, interdiction des coupures d'énergie) | D-eco-pouvoir-achat (en partie) |  |
 | Relocalisation industrielle par filière (textile) | eco | 2026-S47 | Mélenchon (plan de LFI) | non couvert | |
 | Intelligence artificielle et droits d'auteur | eco | 2026-S47 | Tondelier (livret culture) | non couvert | |
+| Secret de l'instruction et médias | secu | 2026-S48 | Le Pen (sanctionner le recel de violation du secret par les médias) | non couvert | |
+| Vaccinations obligatoires (papillomavirus) | sante | 2026-S48 | Philippe | non couvert | |
+| Équilibre de l'Assurance maladie, dépassements d'honoraires | sante | 2026-S48 | Philippe | non couvert | |
+| État-providence climatique (congé climatique, catastrophes naturelles) | env | 2026-S48 | Tondelier (journal de campagne ; livret non lu) | D-env-rythme (en partie) | |
+| Prix de l'électricité et des carburants plafonnés ou stables | env | 2026-S48 | Attal (prix de l'électricité stables cinq ans), Mélenchon (carburant plafonné à 1,70 €) | D-eco-pouvoir-achat (en partie) | |
+| Défense européenne (dôme antimissile, parapluie nucléaire) | europe | 2026-S48 | Attal | D-europe-defense | |
+| Politique étrangère, Russie, francophonie | europe | 2026-S48 | Dupont-Aignan (parti) | Q-europe-ukraine (en partie) | |
+| Sortie de la PAC, prix agricoles garantis | env | 2026-S48 | Dupont-Aignan (parti) | non couvert | |
+| Conseil des territoires, pouvoir des élus locaux | instit | 2026-S48 | Glucksmann (article non lu), Attal (suppression d'un échelon) | D-instit-participation (en partie) | |
+| Taille du gouvernement | instit | 2026-S48 | Lisnard | non couvert | |
+| Naturalisation et nationalité non automatique | immig | 2026-S48 | Philippe | Q-immig-nation | |
+| Investissement des communes | eco | 2026-S48 | Roussel (article non lu) | non couvert | |

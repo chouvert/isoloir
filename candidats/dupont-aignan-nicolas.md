@@ -7,10 +7,10 @@ statut: déclaré
 inclus: oui
 date_declaration: 2025-03-08
 programme_url: https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/
-programme_version: projet économique 2027 (livret « Nos 30 mesures » et « Cahier rouge » de financement, 2026-11-12) + pages « Projet » de Debout la France (livrets datés de 2025 et 2026 par leur nom de fichier, mise à jour pour 2027 en cours) + discours et déclarations de campagne (2025-03-08 à 2026-11-12)
+programme_version: projet économique 2027 (livret « Nos 30 mesures » et « Cahier rouge » de financement, 2026-11-12) + pages « Projet » de Debout la France (livrets datés de 2025 et 2026 par leur nom de fichier, mise à jour pour 2027 en cours ; quatre pages de plus lues le 2026-11-28) + discours et déclarations de campagne (2025-03-08 à 2026-11-12)
 programme_lu: partiel
-programme_lu_le: 2026-11-14
-derniere_maj: 2026-11-14
+programme_lu_le: 2026-11-28
+derniere_maj: 2026-11-28
 ---
 
 # Nicolas Dupont-Aignan
@@ -46,7 +46,14 @@ derniere_maj: 2026-11-14
   « L'UE : en sortir pour s'en sortir » (2026-11-04), France 2 (page du 2026-11-06, titre seul), entretien avec Charbel
   Lakisse (2026-08-30), TV Libertés (2026-11-14) ; livre « 2027 : La liberté ou la mort » (Fayard, 2026), non consulté ;
   livrets PDF des pages « Projet » du parti (seules les pages web ont été lues). ÉlyséeScope est exclu ; votons-2027 n'a
-  servi qu'à repérer des thèmes et n'est pas cité. -->
+  servi qu'à repérer des thèmes et n'est pas cité.
+- Mise à jour du 2026-11-28 (veille : sept pages « Projet » signalées modifiées depuis le 2026-11-25) : lues en entier les
+  pages Affaires étrangères (modifiée le 2026-11-25 selon ses métadonnées ; livret daté du 2025-04-17), Intelligence
+  artificielle (2026-11-25 ; livret daté du 2025-05-12), Français de l'étranger (2026-11-26 ; livret daté du 2025-09-04) et
+  Agriculture (métadonnées du 2026-02-16 ; livret daté du 2026-01-08), sans badge « Projet 2027 » ; l'outil n'a restitué
+  que des résumés fidèles et de courts extraits : les mesures sont donc reprises sans guillemets, sauf les extraits
+  confirmés. Pages Sécurité, Défense et Affaires européennes : outil refusé le 2026-11-28, à relire. La page « Présentation
+  du projet économique 2027 » de dupontaignan.fr n'a changé que par ses titres d'actualité (sans objet). -->
 
 ## Profil
 - Parcours : né le 7 mars 1961 à Paris ; diplômé de Sciences Po (1982), ancien élève de l'ENA (1987-1989) [Wikipédia](https://en.wikipedia.org/wiki/Nicolas_Dupont-Aignan)
@@ -161,6 +168,8 @@ Chiffrages annoncés : Cahier rouge (2026-11-12), montant de l'année 2031-2032 
 | eco-07 | Plan de redressement financier : « 100 milliards d'économies en s'attaquant aux gaspillages massifs » (fraude sociale 20 Md€, contribution à l'UE 15 Md€, agences, échelon régional et subventions aux associations 40 Md€, aides aux éoliennes et au solaire 10 Md€, emprunts à 0 % auprès de la Banque de France 10 Md€, conditions d'accès des étrangers aux aides 5 Md€) et « 40 milliards de recettes nouvelles en combattant la fraude fiscale » et l'optimisation des multinationales ; 90 Md€ de dépenses nouvelles et baisses d'impôts ; « réduire le déficit de 50 milliards d'euros » hors effet de croissance ; déficit à 2,0 % du PIB en 2032 | 140 de ressources, 90 de dépenses | | 2027-2032 | [présentation du projet économique, 2026-11-12](https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/) ; [Cahier rouge, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf) |
 | eco-08 | Supprimer les droits de succession sur la résidence principale et sur les 100 premiers hectares de terres agricoles, doubler les plafonds d'exonération des donations, exonérer 90 % de la valeur des titres d'une entreprise transmise (Livret, mesure 17) | 5 | | | [Livret, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf) ; [Cahier rouge, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf) |
 | eco-09 | Rapatrier le pouvoir monétaire en France pour « permettre à l'État d'emprunter directement auprès de la Banque de France » à taux zéro pour les investissements publics ; grand emprunt national ; la mesure évoque « notre nouvelle monnaie » (Livret, mesure 29) | 10 d'intérêts économisés | | au terme des 5 ans | [Livret, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf) |
+| eco-10 | (parti, page Intelligence artificielle, livret daté du 2025-05-12) Créer un fonds souverain pour l'intelligence artificielle de plusieurs milliards d'euros (État, Bpifrance, investisseurs privés) ; cloud souverain ; label « IA Made in France » ; préférence nationale dans les marchés publics ; domiciliation fiscale en France des filiales des géants du numérique ; visa « IA et Tech » pour attirer des talents étrangers ; cursus d'intelligence artificielle dès le collège | plusieurs milliards d'euros (fonds, sans montant précis ni périodicité) | | | [Debout la France, Intelligence artificielle](https://www.debout-la-france.fr/projet/intelligence-artificielle/) |
+| eco-11 | (parti, page Français de l'étranger, livret daté du 2025-09-04) Supprimer la CSG et la CRDS sur les revenus de source française des Français établis hors de l'Union ; tripler le budget des bourses scolaires à l'étranger ; reconnaître comme résidence principale un logement non loué en France, sans surtaxe ; augmenter le nombre de bureaux de vote et sécuriser le vote électronique | non chiffré | | | [Debout la France, Français de l'étranger](https://www.debout-la-france.fr/projet/francais-de-l-etranger/) |
 
 ### social — Travail, retraites, social
 | id        | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
@@ -180,7 +189,7 @@ Chiffrages annoncés : Cahier rouge (2026-11-12), montant de l'année 2031-2032 
 | env-01 | Accélérer la construction des EPR2 et le déploiement des petits réacteurs modulaires pour remplacer les centrales en fin de vie, lancer un programme de recherche sur les réacteurs à neutrons rapides (projet Astrid), rénover les barrages hydroélectriques maintenus à EDF (Livret, mesure 30) | non chiffré | | | [Livret, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf) |
 | env-02 | « Supprimer les aides de l'État à l'installations des éoliennes et des panneaux solaires en annulant le décret sur la PPE3 » (Livret, mesure 25) | 10 d'économies | | | [Livret, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf) |
 | env-03 | Supprimer l'interdiction du moteur thermique en 2035 (discours de déclaration, 2025-03-08), supprimer les ZFE et le seuil minimal de DPE pour louer un logement, diviser par deux les normes administratives des entreprises (Livret, mesure 2) | non chiffré | | | [Livret, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf) ; [Debout la France, discours du 2025-03-08](https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/) |
-| env-04 | Remplacer la politique agricole commune par une politique agricole nationale : « Une politique agricole nationale remplacera la fameuse PAC » (discours de déclaration, 2025-03-08) | non chiffré | | | [Debout la France, discours du 2025-03-08](https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/) |
+| env-04 | Remplacer la politique agricole commune par une politique agricole nationale : « Une politique agricole nationale remplacera la fameuse PAC » (discours de déclaration, 2025-03-08) ; (parti, page Agriculture, livret daté du 2026-01-08) « Sortir de la Politique Agricole Commune en rétablissant une politique agricole nationale », sans Pacte vert ni quotas de jachère, avec des primes compensant l'écart entre prix mondial et prix garanti : « Ces prix garantis seront rétablis sur quelques grandes productions agricoles (lait, viande, céréales) » ; « Rompre les accords déloyaux de libre-échange signés par la Commission de Bruxelles » (CETA, Mercosur, Nouvelle-Zélande, Kenya, Ukraine) ; suppression des cotisations sociales agricoles, financée par une taxe sur la grande distribution ; 50 % puis 80 % de la commande publique de restauration collective réservés aux producteurs français | non chiffré (la page rappelle une contribution nette de la France au budget européen de 10,7 Md€) | | | [Debout la France, discours du 2025-03-08](https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/) ; [Debout la France, Agriculture](https://www.debout-la-france.fr/projet/agriculture/) |
 
 ### secu — Sécurité & justice
 | id      | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
@@ -199,6 +208,7 @@ Chiffrages annoncés : Cahier rouge (2026-11-12), montant de l'année 2031-2032 
 | immig-03 | « Fin du droit du sol » et « Expulsion des délinquants étrangers » (communiqué de Limoges) ; (parti) suppression du droit du sol par référendum | non chiffré | | | [Debout la France, 2026-10-20](https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/) ; [Debout la France, Immigration](https://www.debout-la-france.fr/projet/immigration-et-assimilation/) |
 | immig-04 | Demandes d'asile déposées hors du territoire ou en centre de rétention ; dénonciation de l'accord franco-algérien de 1968 (« L'accord de 1968 avec l'Algérie sera dénoncé ») et suppression de l'aide au développement des pays qui refusent de reprendre leurs ressortissants expulsés (discours de déclaration ; cette dernière mesure résumée par l'outil de lecture) | non chiffré | | | [Debout la France, discours du 2025-03-08](https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/) |
 | immig-05 | (parti, livret daté du 2026-03-03) « Rétablir le contrôle aux frontières en sortant de Schengen » ; « la suspension du regroupement familial » (introduction de la page ; la mesure 5 dit « Limiter strictement le regroupement familial ») | non chiffré | | | [Debout la France, Immigration](https://www.debout-la-france.fr/projet/immigration-et-assimilation/) |
+| immig-06 | (parti, page Affaires étrangères, livret daté du 2025-04-17) Exiger pour l'immigration légale un niveau de français officiellement attesté, sur le modèle du TOEFL | | | | [Debout la France, Affaires étrangères](https://www.debout-la-france.fr/projet/affaires-etrangeres/) |
 
 ### europe — Europe & international
 | id        | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
@@ -208,6 +218,7 @@ Chiffrages annoncés : Cahier rouge (2026-11-12), montant de l'année 2031-2032 
 | europe-03 | « Augmenter et sanctuariser le budget de la Défense à 2,3 % du PIB (équipements, second porte-avion, service national) » ; doubler le budget du renseignement (Cahier rouge) | 7 | | 2032 | [Cahier rouge, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf) |
 | europe-04 | Sortir du commandement militaire intégré de l'OTAN ; refuser tout partage de la dissuasion nucléaire : « Notre stratégie de dissuasion nucléaire ne vaut que pour notre territoire national. » ; quitter le programme SCAF : « nous sortirons des programmes d'armement qui, comme le SCAF » (discours de déclaration) | non chiffré | | | [Debout la France, discours du 2025-03-08](https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/) |
 | europe-05 | Paix négociée en Ukraine : « Neutralité et Démilitarisation de l'Ukraine, référendum au Donbass, forces de l'ONU autour des centrales nucléaires » (discours du 2026-09-19) ; « Mettre fin aux aides à l'Ukraine » (Livret, mesure 22) | 7 d'économies | | | [discours de Yerres, 2026-09-19](https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/) ; [Livret, 2026-11-12](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf) |
+| europe-06 | (parti, page Affaires étrangères, livret daté du 2025-04-17) Politique étrangère indépendante : reconstruire un corps diplomatique professionnel ; remplacer l'Union européenne actuelle par une coopération à la carte entre États volontaires ; obtenir la paix en Ukraine et relancer le partenariat avec la Russie ; concentrer l'aide au développement sur les pays francophones et placer l'Agence française de développement sous l'autorité directe du ministre ; créer un grand média francophone à partir de RFI, France 24 et TV5 Monde ; loi renforcée de protection du français | non chiffré | | | [Debout la France, Affaires étrangères](https://www.debout-la-france.fr/projet/affaires-etrangeres/) |
 
 ### educ — Éducation & recherche
 | id      | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
@@ -244,8 +255,15 @@ Chiffrages annoncés : Cahier rouge (2026-11-12), montant de l'année 2031-2032 
 |--------|---------|-------|------|
 | livret « Nos 30 mesures » (projet économique, 2026-11-12) | [PDF](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Economie-2026_11-12_Livret.pdf) | 2026-11-14 | lu |
 | « Cahier rouge » du financement (2026-11-12) | [PDF](https://www.dupontaignan.fr/wp-content/uploads/2026/11/Cahier-rouge-2026_11-12.pdf) | 2026-11-14 | lu |
-| pages « Projet » de Debout la France citées dans la fiche (11 pages) | [justice](https://www.debout-la-france.fr/projet/justice/) | 2026-11-14 | lu |
-| autres pages « Projet » (31 pages suivies au 2026-11-24) | [justice](https://www.debout-la-france.fr/projet/justice/) |  | non lu |
+| pages « Projet » citées dans la fiche et inchangées depuis la lecture (8 pages : justice, immigration, démocratie, retraites, instruction publique, santé, environnement-énergie, dépendance-fin de vie) | [justice](https://www.debout-la-france.fr/projet/justice/) | 2026-11-14 | lu |
+| page « Projet » Sécurité (modifiée depuis la lecture ; outil refusé le 2026-11-28) | [sécurité](https://www.debout-la-france.fr/projet/securite/) | 2026-11-14 | à relire |
+| page « Projet » Défense (modifiée depuis la lecture ; outil refusé le 2026-11-28) | [défense](https://www.debout-la-france.fr/projet/defense/) | 2026-11-14 | à relire |
+| page « Projet » Affaires européennes (modifiée depuis la lecture ; outil refusé le 2026-11-28) | [affaires européennes](https://www.debout-la-france.fr/projet/affaires-europeennes/) | 2026-11-14 | à relire |
+| page « Projet » Affaires étrangères | [affaires étrangères](https://www.debout-la-france.fr/projet/affaires-etrangeres/) | 2026-11-28 | lu |
+| page « Projet » Intelligence artificielle | [intelligence artificielle](https://www.debout-la-france.fr/projet/intelligence-artificielle/) | 2026-11-28 | lu |
+| page « Projet » Français de l'étranger | [Français de l'étranger](https://www.debout-la-france.fr/projet/francais-de-l-etranger/) | 2026-11-28 | lu |
+| page « Projet » Agriculture | [agriculture](https://www.debout-la-france.fr/projet/agriculture/) | 2026-11-28 | lu |
+| autres pages « Projet » (17 des 32 pages suivies par la veille) | [justice](https://www.debout-la-france.fr/projet/justice/) |  | non lu |
 | livrets PDF liés aux pages « Projet » | [justice](https://www.debout-la-france.fr/projet/justice/) |  | non lu |
 
 ## Analyse de faisabilité (Claude)

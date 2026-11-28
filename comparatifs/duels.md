@@ -1,5 +1,5 @@
 ---
-derniere_maj: 2026-11-25
+derniere_maj: 2026-11-28
 ---
 
 <!-- Fichier généré par `npm run comparatifs` à partir des fiches candidats : ne pas modifier à la main. -->
@@ -34,9 +34,8 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
-| A | François Ruffin | social-01 (texte court) | Porter à 1 700 euros net par mois le salaire minimum |
 | A | Marine Tondelier | social-01 (texte court) | Porter à 2 000 euros brut par mois le salaire minimum, avec des aides pour les petites et moyennes entreprises et les associations |
-| B | Gabriel Attal | social-04 (texte court) | Baisser les cotisations sociales prélevées sur les salaires pour que le salaire net se rapproche du salaire brut |
+| B | Gabriel Attal | social-04 (texte court) | Supprimer des cotisations prélevées sur les salaires pour augmenter de 250 euros par mois le salaire net médian |
 | B | Raphaël Glucksmann | eco-02 (texte court) | Baisser la CSG prélevée sur les salaires pour augmenter le salaire net, en finançant cette baisse par une taxe sur les plus gros héritages |
 | B | David Lisnard | eco-02 (texte court) | Utiliser 60 % des économies faites sur les dépenses publiques pour baisser les cotisations et augmenter le salaire net |
 | B | Édouard Philippe | social-04 (texte court) | Supprimer les cotisations et l'impôt sur les heures supplémentaires, pour augmenter le salaire net |
@@ -81,7 +80,6 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Marine Tondelier | social-07 (texte court) | Proposer aux salariés peu qualifiés une formation rémunérée de plusieurs mois vers un métier de la transition écologique |
 | B | Dominique de Villepin | social-02 (texte court) | Créer une sécurité sociale professionnelle qui verse un revenu de transition et ouvre un droit à se former vers des métiers d'avenir |
 | C | Jean-Luc Mélenchon | social-12 (texte court) | Revaloriser les salaires et les conditions de travail des métiers du soin, du lien et du contact, occupés surtout par des femmes |
-| C | François Ruffin | social-02 (texte court) | Payer double les heures travaillées tôt le matin ou en soirée dans les métiers considérés comme essentiels |
 
 ## Écologie & énergie
 
@@ -101,7 +99,6 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | B | Jean-Luc Mélenchon | env-10 (texte court) | Produire uniquement de l'énergie renouvelable au plus tard en 2060, en fermant progressivement les centrales nucléaires |
 | C | Dominique de Villepin | env-01 (texte court) | Construire six nouveaux réacteurs nucléaires et développer l'éolien en mer pour remplacer les énergies fossiles |
 | D | Delphine Batho | env-01 (texte court) | Diviser par deux la consommation d'énergie, en débattant des besoins avant de décider comment produire |
-| D | François Ruffin | env-01 (texte court) | Porter à 15 milliards d'euros par an l'effort de rénovation des logements, pour réduire les besoins en énergie |
 
 ### D-env-rythme
 
@@ -114,7 +111,6 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Dominique de Villepin | env-02 (texte court) | Augmenter chaque année d'environ 4,5 milliards d'euros le budget de lutte contre le réchauffement, avec une taxe qui encadre le prix des énergies fossiles |
 | B | Raphaël Glucksmann | env-05 (texte court) | Financer la transition écologique par une taxe européenne sur les bénéfices exceptionnels du pétrole et du gaz et par des taxes sur le transport aérien |
 | B | Jean-Luc Mélenchon | env-11 (texte court) | Obliger les entreprises à mesurer leurs émissions de gaz à effet de serre et à les réduire, en commençant par les secteurs les plus polluants |
-| B | François Ruffin | eco-01 (texte court) | Créer, après référendum, une taxe de 4 % sur les dividendes des entreprises, réduite pour celles qui en versent peu, pour financer la transition écologique |
 | B | Marine Tondelier | env-03 (texte court) | Créer des impôts sur les entreprises du pétrole, du gaz et du charbon et sur les ménages qui émettent le plus de carbone |
 | D | Nicolas Dupont-Aignan | env-03 (texte court) | Supprimer plusieurs règles environnementales, dont l'interdiction de vendre des voitures neuves à essence ou diesel à partir de 2035 |
 | D | Marine Le Pen | env-04 (texte court) | Supprimer l'objectif de ne plus construire sur de nouvelles terres naturelles ou agricoles et rendre indicatif le classement énergétique des logements |
@@ -134,7 +130,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Fabien Roussel | secu-02 (texte court) | Recruter 60 000 policiers, gendarmes et douaniers supplémentaires |
 | A | Marine Tondelier | secu-02 (texte court) | Créer une police nationale de proximité et augmenter en priorité le nombre de policiers sur le terrain, formés à la médiation et à la prévention |
 | B | Gabriel Attal | secu-06 (texte court) | Faciliter la construction de prisons, en allégeant les obligations de logement social des communes volontaires et en permettant à l'État de passer outre le refus des élus locaux |
-| B | Édouard Philippe | secu-08 (texte court) | Voter une loi pour construire plus vite de nouvelles prisons |
+| B | Édouard Philippe | secu-08 (texte court) | Construire 30 000 places de prison pour les courtes peines, avec une loi pour aller plus vite |
 | B | Bruno Retailleau | secu-02 (texte court) | Créer des prisons réservées aux courtes peines, prononcées dès le premier délit grave |
 | B | Éric Zemmour | secu-04 (texte court) | Construire 100 000 places de prison supplémentaires |
 | C | Nicolas Dupont-Aignan | secu-01 (texte court) | Doubler la dépense consacrée à la justice par habitant et recruter davantage de magistrats et de greffiers |
@@ -154,7 +150,6 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Édouard Philippe | immig-06 (texte court) | Fixer des quotas d'étrangers autorisés à venir travailler en France |
 | B | Raphaël Glucksmann | immig-02 (texte court) | Donner un titre de séjour aux travailleurs étrangers sans papiers |
 | B | Jean-Luc Mélenchon | immig-06 (texte court) | Régulariser les travailleurs sans papiers, ainsi que les étudiants et les parents d'enfants scolarisés sans papiers |
-| B | François Ruffin | immig-01 (texte court) | Régulariser les étrangers sans papiers déjà présents en France, sans faire venir de nouveaux travailleurs étrangers |
 | B | Marine Tondelier | immig-01 (texte court) | Régulariser les travailleurs étrangers sans papiers, avec des titres de séjour de plusieurs années renouvelés automatiquement |
 | C | Nicolas Dupont-Aignan | social-06 (texte court) | Proposer à chaque jeune sans diplôme une formation intensive à un métier, suivie d'un emploi dans un secteur qui manque de main-d'œuvre |
 
@@ -167,7 +162,6 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | B | Gabriel Attal | europe-01 (texte court) | Négocier, entre un petit groupe de pays européens, un nouveau traité d'union plus étroite, soumis à un référendum européen |
-| B | François Ruffin | europe-01 (texte court) | Obtenir que la politique commerciale de l'Union européenne passe du libre-échange à la protection |
 | B | Marine Tondelier | europe-01 (texte court) | Réviser les traités européens pour garantir le respect des limites écologiques de la planète et construire peu à peu un État social européen |
 | C | David Lisnard | europe-02 (texte court) | Obtenir que la France ne soit plus tenue d'appliquer les règles européennes communes sur l'asile et l'immigration |
 | C | Bruno Retailleau | europe-01 (texte court) | Changer la Constitution par référendum pour que le droit français passe avant le droit européen dans certains cas, notamment sur l'immigration et la sécurité |
@@ -188,7 +182,6 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | Édouard Philippe | europe-03 (texte court) | Voter une loi pour que les armées aient plus de soldats, de réservistes, de munitions et de drones |
 | A | Dominique de Villepin | europe-01 (texte court) | Porter progressivement la dépense de défense à 3,5 % de la richesse nationale, selon la croissance et l'état des comptes publics |
 | B | Delphine Batho | europe-01 (texte court) | Augmenter le budget de la défense pour construire une défense européenne autonome |
-| B | François Ruffin | europe-03 (texte court) | Construire une défense de l'Europe par la coopération entre pays volontaires, sans la confier à la Commission européenne |
 | B | Marine Tondelier | europe-04 (texte court) | Créer un commandement militaire européen commun, sous l'autorité des États de l'Union, sans pouvoir de mobiliser directement les armées nationales |
 | D | Jean-Luc Mélenchon | europe-02 (texte court) | Rechercher par la diplomatie un cessez-le-feu en Ukraine, le retrait de l'armée russe et l'ouverture de négociations de paix |
 | D | Fabien Roussel | europe-01 (texte court) | Engager la France dans un effort diplomatique pour obtenir un cessez-le-feu en Ukraine |
@@ -223,6 +216,7 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | option | candidat | proposition | texte à l'aveugle |
 |---|---|---|---|
 | A | Jean-Luc Mélenchon | sante-07 (texte court) | Encadrer par des règles le lieu où les médecins peuvent s'installer |
+| A | Édouard Philippe | sante-03 (texte court) | Obliger chaque médecin à travailler au moins une semaine par an dans une zone qui manque de soignants, proche de son lieu d'exercice |
 | A | Marine Tondelier | sante-01 (texte court) | Soumettre l'installation des médecins libéraux à une autorisation, accordée d'office là où les médecins manquent et, ailleurs, seulement quand un médecin cesse son activité |
 | B | Nicolas Dupont-Aignan | sante-01 (texte court) | Verser une bourse aux étudiants en médecine qui s'engagent à exercer cinq ans dans une zone qui manque de médecins |
 | B | David Lisnard | sante-03 (texte court) | Faire rembourser davantage par la Sécurité sociale les soins des médecins installés dans les zones qui en manquent, sans les obliger à s'y installer |
@@ -241,7 +235,6 @@ Un texte qui trahit encore son auteur : ajouter le terme fautif à `referentiel/
 | A | David Lisnard | instit-04 (texte court) | Permettre aux citoyens de déclencher eux-mêmes un référendum |
 | A | Jean-Luc Mélenchon | instit-03 (texte court) | Permettre aux citoyens de déclencher eux-mêmes un référendum, y compris pour mettre fin au mandat d'un élu |
 | A | Bruno Retailleau | instit-03 (texte court) | Abaisser à 2,5 millions le nombre de signatures de citoyens nécessaires pour qu'un référendum proposé par des parlementaires puisse avoir lieu |
-| A | François Ruffin | instit-03 (texte court) | Permettre aux citoyens de proposer eux-mêmes des référendums |
 | A | Marine Tondelier | instit-05 (texte court) | Permettre aux citoyens de déclencher un référendum pour proposer ou supprimer une loi, après vérification qu'il respecte la Constitution |
 | A | Dominique de Villepin | instit-01 (texte court) | Permettre aux citoyens de déclencher un référendum en réunissant 5 millions de signatures |
 | B | Marine Le Pen | instit-02 (texte court) | Élire les députés à la proportionnelle dans chaque département, avec des sièges en plus pour la liste arrivée en tête |

@@ -6,10 +6,10 @@ famille_politique: centre gauche à gauche
 statut: déclaré
 date_declaration: 2025-10-22
 programme_url: https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027
-programme_version: « Pour une prospérité écologique », programme des Écologistes (juillet 2026, 557 mesures) + déclarations et annonces de campagne (2025-10-22 à 2026-11-18), dont le livret culture (novembre 2026)
+programme_version: « Pour une prospérité écologique », programme des Écologistes (juillet 2026, 557 mesures) + déclarations et annonces de campagne (2025-10-22 à 2026-11-24), dont le livret culture (novembre 2026) et la présentation du livret « Pour un État-providence climatique » (2026-11-24, livret non lu)
 programme_lu: complet
 programme_lu_le: 2026-10-26
-derniere_maj: 2026-11-21
+derniere_maj: 2026-11-28
 ---
 
 # Marine Tondelier
@@ -140,6 +140,13 @@ l'ordre de présentation du programme décide ; les « 21 priorités communes »
 programme compte 557 mesures sans liste de priorités ; le site de campagne n'affiche que des rubriques ; les
 « 21 priorités communes » du 2026-04-17 sont un socle proposé aux autres partis de gauche, non un résumé de son
 programme, et en comptent 21. On retient donc les trois annonces dédiées les plus récentes au contenu vérifiable.
+Non retenus (2026-11-28) : présentation du livret « Pour un État-providence climatique » au Salon des maires
+(épisode 55 du journal de campagne, 2026-11-24), billet signé par l'équipe (« nous avons présenté ») qui ne mentionne
+pas la candidate, comme l'épisode 54 ; à retenir si une source montre la candidate présentant le livret (livret
+demandé dans veille/a-recuperer.md) ; conférence de presse de présentation du carnet « Défendre et étendre l'État de
+droit » (épisode 54, 2026-11-23), présentée par Alexis Lebrun et Léa Balage et non par la candidate, sans mesure dans
+le billet ; « Lyon rime avec innovation » (épisode 53, 2026-11-21), sans contenu lu ; main tendue à Jean-Luc Mélenchon
+(Public Sénat, 2026-11-24), stratégie sans mesure.
 Ajouté le 2026-11-21 : « Pour une culture vivante ! » (2026-11-10), annonce dédiée à la culture dont le livret a pu
 être lu ; instit-03 (loi contre le mensonge en politique, 2026-09-04) sort, devenue la quatrième annonce.
 Non retenus : déclaration sur France 2 (2026-11-18), consacrée à la stratégie (coalition), sans mesure ; grand oral de
@@ -183,7 +190,7 @@ pompiers (2026-08-28), conférence de presse sur l'héritage (2026-08-26). -->
 | social-01 | « Augmenter le SMIC et mettre en place une indexation des bas salaires sur l'inflation » (2026-04-17) ; « Passer le salaire minimum à 2000€ brut par mois dès 2027 », avec des dispositifs de soutien aux TPE, PME et associations (programme) | | | 2027 | [marinetondelier.fr, 21 priorités, 2026-04-17](https://marinetondelier.fr/blog/21-priorites-gouverner-ensemble-demain) ; [P, juillet 2026, p. 56](https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf) |
 | social-02 | Abroger le report de l'âge légal à 64 ans, « revenir immédiatement à un âge minimum à 62 ans et viser une retraite à 60 ans », en priorité pour les carrières longues et pénibles ; conférence travail-retraite visant l'équilibre du régime général en 2050 ; financement par « une augmentation des ressources de la branche vieillesse » : cotisations vieillesse relevées de 0,2 point par an pendant le quinquennat, cotisation déplafonnée relevée d'un point, cotisations étendues à l'épargne salariale, à l'intéressement, à la participation et aux actions gratuites ; refus de la capitalisation (programme) | | | immédiat ; quinquennat ; 2050 | [P, juillet 2026, p. 117-118](https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf) |
 | social-03 | Encadrement des loyers généralisé et pérennisé ; relance de la construction et de la rénovation de logements sociaux ; « 500 000 rénovations performantes par an via MaPrimeRénov' » (programme) | | | annuel | [P, juillet 2026, p. 21-22](https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf) |
-| social-04 | « Créer un congé climatique de 5 jours par an pour protéger les travailleur·ses face aux températures extrêmes », financé à parité par les employeurs et la Sécurité sociale (programme) ; « congé climatique » cité au discours de Grenoble | | | annuel | [P, juillet 2026, p. 58](https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf) ; [marinetondelier.fr, discours, 2026-08-21](https://marinetondelier.fr/blog/discours-jde) |
+| social-04 | « Créer un congé climatique de 5 jours par an pour protéger les travailleur·ses face aux températures extrêmes », financé à parité par les employeurs et la Sécurité sociale (programme) ; « congé climatique » cité au discours de Grenoble ; première des propositions citées lors de la présentation du livret « Pour un État-providence climatique » au Salon des maires par l'équipe de campagne (2026-11-24, 12 propositions annoncées, livret non lu) | | | annuel | [P, juillet 2026, p. 58](https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf) ; [marinetondelier.fr, discours, 2026-08-21](https://marinetondelier.fr/blog/discours-jde) ; [marinetondelier.fr, journal de campagne, épisode 55, 2026-11-24](https://marinetondelier.fr/journal-de-campagne/etat-providence-climatique-salon-des-maires) |
 | social-05 | « Revaloriser les APL de 10% avec un mécanisme empêchant la répercussion sur les montants des loyers » (programme) | | | | [P, juillet 2026, p. 120](https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf) |
 | social-06 | « Augmenter de 250€ l'Allocation aux Adultes Handicapés (AAH) » (programme) | | | | [P, juillet 2026, p. 144](https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf) |
 | social-07 | « Créer une Sécurité Sociale Professionnelle pour l'ensemble des travailleur·ses impactés par la transition écologique » : salaire équivalent garanti pendant deux ans en cas de perte d'emploi dans les secteurs les plus exposés, « Plan Compétences Transition Écologique » ; formation rémunérée de 6 à 10 mois vers un métier de la transition pour les salariés peu qualifiés ; refonder l'assurance chômage (abrogation des réformes récentes, allocations indexées sur l'inflation) ; « Adopter un plan contre le chômage des jeunes » (programme) | | | | [P, juillet 2026, p. 56, 59 et 126](https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf) |
@@ -200,6 +207,7 @@ pompiers (2026-08-28), conférence de presse sur l'héritage (2026-08-26). -->
 | env-05 | « Ensemble, nous militons pour une voiture électrique accessible aux plus modestes » ; voitures assemblées en France et équipements produits en France autant que possible (Salon de l'automobile) | | | | [marinetondelier.fr, journal de campagne, 2026-10-15](https://marinetondelier.fr/journal-de-campagne/salon-auto) |
 | env-06 | Abaisser à 110 km/h la vitesse maximale des véhicules thermiques sur autoroute ; « Augmenter la fiscalité sur les billets d'avion » (programme) | | | | [P, juillet 2026, p. 24 et 26](https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf) |
 | env-07 | « la sortie progressive des produits phytosanitaires et des engrais azotés à l'horizon 2050 » (livret santé environnementale) ; 21 % d'agriculture biologique en 2030, 25 % en 2032 ; « Décréter un moratoire sur tous les projets de mégabassines » (programme) | | | 2030 ; 2032 ; 2050 | [Terre-net (AFP), 2026-05-30](https://www.terre-net.fr/politique/article/899196/tondelier-devoile-ses-mesures-pour-la-sante-environnementale) ; [P, juillet 2026, p. 30, 42 et 50](https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf) |
+| env-08 | Réformer le régime d'indemnisation des catastrophes naturelles, dans un « État-providence climatique » couvrant les nouveaux risques (canicules, inondations, incendies) ; proposition citée sans détail lors de la présentation du livret au Salon des maires (livret non lu) | | | | [marinetondelier.fr, journal de campagne, épisode 55, 2026-11-24](https://marinetondelier.fr/journal-de-campagne/etat-providence-climatique-salon-des-maires) |
 
 ### secu — Sécurité & justice
 | id      | proposition | chiffrage annoncé | chiffrage indépendant | calendrier | source |
